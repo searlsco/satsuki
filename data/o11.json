@@ -1,0 +1,205 @@
+{
+  "class_code": "o11",
+  "class_name": "同時性-般-トスグニ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0351",
+      "canonical_surface": "とすぐに",
+      "glosses": [
+        "as soon as",
+        "right after",
+        "immediately after"
+      ],
+      "usage_note": "The plainest, most neutral member: everyday Japanese, no literary flavor, and equally at home in speech and writing. It works for one-off past events and for habits (朝起きるとすぐに…ことにしている). Because it rides on the conditional と, though, it inherits と's one real restriction: the main clause states what simply happens or happened, so no commands, requests, invitations or 〜つもり/〜(よ)う plans (帰るとすぐに電話してください ✗ → 帰ったらすぐに…). Reach for it whenever none of the literary siblings' extra flavor is wanted.",
+      "examples": [
+        {
+          "ruby": "電気[でんき]を消[け]すとすぐに子[こ]どもは寝[ね]てしまった。",
+          "english": "The kids fell asleep as soon as I turned off the light."
+        },
+        {
+          "ruby": "朝[あさ]起[お]きるとすぐにコーヒーを入[い]れることにしている。",
+          "english": "I make a point of brewing coffee right after I get up in the morning."
+        },
+        {
+          "ruby": "駅[えき]に着[つ]くとすぐに母[はは]から電話[でんわ]がかかってきた。",
+          "english": "The moment I got to the station, my mother called."
+        }
+      ]
+    },
+    {
+      "l2_id": "0361",
+      "canonical_surface": "と同時に",
+      "glosses": [
+        "at the same time as",
+        "the moment",
+        "simultaneously with"
+      ],
+      "usage_note": "Stresses genuine simultaneity rather than mere succession, and is the only member of the family that also takes a bare noun (卒業と同時に); outside of time it doubles as a neutral \"and at the same time / while also\" linker (難しいと同時に面白い).",
+      "examples": [
+        {
+          "ruby": "会議[かいぎ]が始[はじ]まると同時[どうじ]に停電[ていでん]した。",
+          "english": "The power went out just as the meeting started."
+        },
+        {
+          "ruby": "電車[でんしゃ]が出発[しゅっぱつ]すると同時[どうじ]にスマホの充電[じゅうでん]が切[き]れた。",
+          "english": "My phone died at the exact moment the train pulled out."
+        },
+        {
+          "ruby": "目[め]を閉[と]じると同時[どうじ]に眠[ねむ]りに落[お]ちた。",
+          "english": "I fell asleep the instant I closed my eyes."
+        }
+      ]
+    },
+    {
+      "l2_id": "0371",
+      "canonical_surface": "た途端",
+      "glosses": [
+        "the moment (that)",
+        "just as",
+        "no sooner … than"
+      ],
+      "usage_note": "The た is part of the pattern (だ途端 after ん-stem verbs: 転んだ途端), so it is past-only, and the main clause must be past too. What follows should be sudden, outside the subject's control, and often unwelcome — the speaker reports it as a surprise, so no commands, intentions or plans (and none of the family allows those anyway). Where や否や implies the subject had been poised and moved deliberately, た途端 implies nobody saw it coming; that is the line between them.",
+      "examples": [
+        {
+          "ruby": "立[た]ち上[あ]がった途端[とたん]、ひどいめまいがした。",
+          "english": "The moment I stood up, a wave of dizziness hit me."
+        },
+        {
+          "ruby": "ドアを開[あ]けた途端[とたん]に、猫[ねこ]が外[そと]へ飛[と]び出[だ]した。",
+          "english": "The instant I opened the door, the cat shot outside."
+        },
+        {
+          "ruby": "会場[かいじょう]に到着[とうちゃく]した途端[とたん]、雨[あめ]が降[ふ]り出[だ]した。",
+          "english": "No sooner had I reached the venue than it started to rain."
+        }
+      ]
+    },
+    {
+      "l2_id": "0411",
+      "canonical_surface": "そばから",
+      "glosses": [
+        "no sooner … than (again)",
+        "as fast as one …",
+        "the moment one does X, Y undoes it"
+      ],
+      "usage_note": "The only member built for repetition: each time X is done it is immediately undone or repeated, so it cannot describe a one-off event, and it almost always carries the speaker's exasperation; dictionary form frames the habit, た-form each individual instance.",
+      "examples": [
+        {
+          "ruby": "片付[かたづ]けるそばから子[こ]どもがおもちゃを散[ち]らかす。",
+          "english": "No sooner do I tidy up than the kids scatter their toys again."
+        },
+        {
+          "ruby": "注意[ちゅうい]したそばから、彼[かれ]はまた同[おな]じミスをする。",
+          "english": "No sooner do I warn him than he makes the very same mistake again."
+        },
+        {
+          "ruby": "稼[かせ]ぐそばから使[つか]ってしまうので、貯金[ちょきん]が全[まった]く増[ふ]えない。",
+          "english": "I spend it as fast as I earn it, so my savings never grow at all."
+        }
+      ]
+    },
+    {
+      "l2_id": "0421",
+      "canonical_surface": "や否や",
+      "glosses": [
+        "no sooner … than",
+        "the instant",
+        "hardly … when"
+      ],
+      "usage_note": "Formal written narration of a single past event; unlike た途端 the second clause is typically a deliberate action by someone who had been poised for it, and 否や may simply be dropped to leave the stiffer literary 〜や Although the second clause is a deliberate act, it is still reported as a past fact — no commands, intentions or negatives.",
+      "examples": [
+        {
+          "ruby": "ベルが鳴[な]るや否[いな]や、生徒[せいと]たちは教室[きょうしつ]を飛[と]び出[だ]した。",
+          "english": "No sooner had the bell rung than the students bolted out of the classroom."
+        },
+        {
+          "ruby": "犯人[はんにん]は警官[けいかん]の姿[すがた]を見[み]るや否[いな]や逃[に]げ出[だ]した。",
+          "english": "The culprit took off the instant he spotted the police officer."
+        },
+        {
+          "ruby": "発表[はっぴょう]が終了[しゅうりょう]するや否[いな]や、質問[しつもん]の手[て]が次々[つぎつぎ]と挙[あ]がった。",
+          "english": "Hands shot up one after another the moment the presentation ended."
+        }
+      ]
+    },
+    {
+      "l2_id": "0431",
+      "canonical_surface": "なり",
+      "glosses": [
+        "as soon as",
+        "the moment",
+        "no sooner than"
+      ],
+      "usage_note": "Literary and narrow: both clauses must share one subject, that subject cannot be the speaker, and what follows has to strike the speaker as unexpected or out of character; past events only, so no commands, intentions or habitual readings.",
+      "examples": [
+        {
+          "ruby": "彼[かれ]は部屋[へや]に入[はい]るなり、黙[だま]って窓[まど]を開[あ]け放[はな]った。",
+          "english": "The moment he entered the room, he threw the window wide open without a word."
+        },
+        {
+          "ruby": "弟[おとうと]は帰宅[きたく]するなり、鞄[かばん]を放[ほう]り出[だ]して寝[ね]てしまった。",
+          "english": "The moment my brother got home, he flung down his bag and fell asleep."
+        },
+        {
+          "ruby": "その女性[じょせい]は私[わたし]の顔[かお]を見[み]るなり、大声[おおごえ]で泣[な]き出[だ]した。",
+          "english": "The woman burst into loud sobs the instant she saw my face."
+        }
+      ]
+    },
+    {
+      "l2_id": "0441",
+      "canonical_surface": "や",
+      "glosses": [
+        "no sooner … than",
+        "the instant"
+      ],
+      "usage_note": "The bare literary 〜や — や否や is this form with 否や tacked on, not the other way round. Alive today essentially only in novels and news narration: same \"in one sweep\" force as や否や but terser and markedly stiffer, and you will not hear it in ordinary conversation. Same restrictions apply: a single past event, main clause reported as fact, no commands, intentions or negatives.",
+      "examples": [
+        {
+          "ruby": "電話[でんわ]が鳴[な]るや、彼[かれ]は受話器[じゅわき]をひったくった。",
+          "english": "The instant the phone rang, he snatched up the receiver."
+        },
+        {
+          "ruby": "男[おとこ]は札束[さつたば]を見[み]るや、目[め]の色[いろ]を変[か]えた。",
+          "english": "The moment the man laid eyes on the wad of bills, his eyes lit up."
+        },
+        {
+          "ruby": "会見[かいけん]が終了[しゅうりょう]するや、記者[きしゃ]たちは一斉[いっせい]に駆[か]け出[だ]した。",
+          "english": "No sooner had the press conference ended than the reporters all rushed off at once."
+        }
+      ]
+    },
+    {
+      "l2_id": "0451",
+      "canonical_surface": "が早いか",
+      "glosses": [
+        "no sooner … than",
+        "the instant",
+        "hardly … when"
+      ],
+      "usage_note": "Vivid narration of a past scene in which the second action begins before the first has even finished, as if the subject had been waiting to pounce — more dramatic than や否や; the following clause must be a plain past statement, never a command, invitation, intention or negative.",
+      "examples": [
+        {
+          "ruby": "チャイムが鳴[な]るが早[はや]いか、子[こ]どもたちは校庭[こうてい]へ駆[か]け出[だ]した。",
+          "english": "The instant the chime sounded, the children tore off toward the schoolyard."
+        },
+        {
+          "ruby": "母[はは]は私[わたし]の姿[すがた]を見[み]つけるが早[はや]いか、駆[か]け寄[よ]ってきた。",
+          "english": "The moment my mother spotted me, she came running over."
+        },
+        {
+          "ruby": "そのニュースが流[なが]れるが早[はや]いか、店[みせ]の前[まえ]には長[なが]い列[れつ]ができた。",
+          "english": "No sooner had the news broken than a long line formed in front of the shop."
+        }
+      ]
+    }
+  ]
+}

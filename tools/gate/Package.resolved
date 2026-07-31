@@ -1,0 +1,15 @@
+{
+  "originHash" : "bd4f10b55ea649152e961b2cba65b44070de62ceb375a18d4e04bcd6e72dfef5",
+  "pins" : [
+    {
+      "identity" : "sudachi-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/h1431532403240/sudachi-swift",
+      "state" : {
+        "revision" : "6f99abc6b992eec7d9e1957b6b4eeb9025251a87",
+        "version" : "0.6.11"
+      }
+    }
+  ],
+  "version" : 3
+}
