@@ -2,7 +2,7 @@
 
 An open corpus of English glosses, usage notes, and ruby-annotated example
 sentences for the Japanese functional expressions (機能表現) catalogued by
-the [Tsutsuji dictionary](https://tsutsuji.jnlp.org/) (Matsuyoshi & Sato).
+the [Tsutsuji dictionary](https://sites.google.com/edu.teu.ac.jp/cl-lab/研究/言語資源/日本語機能表現辞書つつじ) (Matsuyoshi & Sato).
 Tsutsuji is a pure form-and-attachment layer; satsuki is the meaning layer
 grown on top of it. (Satsuki is the azalea that blooms right after tsutsuji
 each spring.)
@@ -26,11 +26,12 @@ code (`data/o11.json`). Class codes are case-sensitive but common
 filesystems are not, so uppercase-initial codes double their letter in the
 filename: class `A11` lives at `data/AA11.json` (the `class_code` field
 inside is always authoritative). Each file carries a provenance header (pipeline
-version, generating/reviewing model, date, `human_verified` flag) and its
-patterns in `l2_id` order:
+version, generating/reviewing model, date) and its patterns in `l2_id`
+order, each with its own `human_verified` flag:
 
 ```json
 {
+  "satsuki_schema": 1,
   "class_code": "o11",
   "class_name": "同時性-般-トスグニ類",
   "tsutsuji_version": "1.1u",
@@ -41,6 +42,7 @@ patterns in `l2_id` order:
       "canonical_surface": "とすぐに",
       "glosses": ["as soon as", "right after", "immediately after"],
       "usage_note": "...",
+      "human_verified": false,
       "examples": [{ "ruby": "...", "english": "..." }]
     }
   ]
@@ -57,8 +59,9 @@ against Tsutsuji's own morphological attachment rules by the tool in
 [tools/gate/](tools/gate/). All sentences are original compositions;
 reference sources are consulted for verification only, never copied.
 
-Files with `"human_verified": false` have passed the mechanical gate and
-model review but not human sign-off. Corrections are welcome: file an issue
+Patterns with `"human_verified": false` have passed the mechanical gate
+and model review but not human sign-off; the flag flips per pattern as
+review happens. Corrections are welcome: file an issue
 or PR with the sentence or claim and, ideally, a citation or corpus
 evidence (e.g. [massif.la](https://massif.la)).
 

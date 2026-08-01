@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "J41",
   "class_name": "進行-事前-トコロ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "be just going to …"
       ],
       "usage_note": "Dictionary form + ところ pins the instant just before the action starts, so it pairs naturally with これから, 今から and ちょうど. とこ is simply the spoken squeeze of ところ and carries no separate meaning. Two things to keep straight: ているところ is 'in the middle of', not 'about to', and the past ところだった normally reports a near miss ('I almost …') rather than a plain past intention. Against 〜ようとするところ, the bare 辞書形 version simply schedules the action; the volitional version says the subject has already started moving on it.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "これから駅[えき]に向[む]かうところです。",
@@ -41,6 +42,7 @@
         "right at the point of …ing"
       ],
       "usage_note": "Volitional + とする + ところ marks the moment someone has already begun to move on an intention, so it is a beat later and more physical than the bare 辞書形＋ところ. It typically sits inside a larger sentence, with に, で, へ or を marking the moment something else cut in, rather than standing alone as the predicate. With a non-volitional change verb it shifts to 'on the verge of' (ドアが閉まろうとするところ), and the さえ／は／すら insertions add the usual emphasis or concession.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "家[いえ]を出[で]ようとするところで雨[あめ]が降[ふ]り出[だ]した。",

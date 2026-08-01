@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "e31",
   "class_name": "起点-動作起点-ニ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "off (someone)"
       ],
       "usage_note": "Marks the person or organization an action's object originates with, typically alongside verbs of receiving, borrowing, learning, and hearing (もらう、借りる、習う、聞く); with 〜てもらう/〜ていただく and with 教わる an animate source normally takes に, while から becomes obligatory once the source is an organization (会社から連絡をもらう). にゃ is the colloquial contraction of には, so it always carries は's topic/contrastive force on top of marking the source (あいつにゃ貸さない, 'him I'm not lending to'), and it belongs to rough, mostly male speech and manga dialogue rather than written prose; it is unrelated to the にゃ that contracts 〜ねば in 行かにゃならん. Keep this source-marking に apart from the に that marks a destination, which points the opposite way.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "その技[わざ]はうちの親方[おやかた]にゃ教[おそ]わらなかった。",

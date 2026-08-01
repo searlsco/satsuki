@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "y11",
   "class_name": "否定-強い表現-ハズガナイ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "it's impossible that …"
       ],
       "usage_note": "Denies a proposition outright on the strength of the speaker's own reasoning: given what we both know, that simply cannot be so. Teacher references treat it as largely interchangeable with はずがない, with わけがない carrying more of the speaker's subjective conviction while はずがない leans on commonsense or objective grounds. Unlike もんか and かい, わけがない is a calm judgment about the world rather than an emotional retort. わけがない and わけはない are the everyday shapes; bare わけない is casual speech, and the unrelated 訳ない ('easy, no trouble') is a different word entirely.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "あの几帳面[きちょうめん]な彼[かれ]が期限[きげん]を間違[まちが]えるわけがない。",
@@ -41,6 +42,7 @@
         "there's no way … could be"
       ],
       "usage_note": "Denies an expectation that the known grounds make untenable: I locked the door, I checked the machine, so that cannot be the case. It typically rests on objective or commonsense grounds and is the natural choice when you can name the reason you expect otherwise, whereas わけがない sounds more like personal conviction. It is the negation of the expectational はずだ; note the separate はずではなかった, which laments that things did not go as planned.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "時間[じかん]どおりに出[で]た彼[かれ]が遅[おく]れるはずがない。",
@@ -64,6 +66,7 @@
         "you think …? (of course not)"
       ],
       "usage_note": "The rhetorical (反語) use of sentence-final かい: put as a question, it asserts the opposite. Dictionaries list this sense alongside the plain friendly-question かい (元気かい), and context plus a flat, exasperated delivery is what separates the two. Rough, masculine, somewhat old-fashioned speech, and a stock shape in blunt masculine retorts like 知るかい and あるかい (Kansai adds な: 知るかいな). かい merely puts the denial as a question; もんか adds emotional refusal, and 〜(よ)うか is the literary/written counterpart.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "そんな都合[つごう]のいい話[はなし]、俺[おれ]が信[しん]じるかい。",
@@ -87,6 +90,7 @@
         "who would …? (surely no one)"
       ],
       "usage_note": "The volitional plus か used rhetorically: it poses a question in order to deny it, the way だろうか does but with a bookish, declamatory ring suited to essays, speeches, and narration rather than conversation. It almost always rides on an interrogative such as 誰が or どうして, which signals that no answer is wanted. It attaches to the volitional form (意向形): 従おう, 忘れよう, 予想しよう, plus か — never the dictionary form. Choose 〜(よ)うか in writing and oratory; in speech the same rhetorical denial goes to もんか.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "誰[だれ]がこんな不公平[ふこうへい]な決定[けってい]に従[したが]おうか。",
@@ -106,11 +110,12 @@
       "l2_id": "2541",
       "canonical_surface": "もんか",
       "glosses": [
-        "as if …!",
         "like hell I will",
+        "as if I'd …!",
         "absolutely not"
       ],
-      "usage_note": "An emotional rebuttal or refusal rather than a calm judgment: references describe it as spoken language for strong resistance and firm resolve. ものか and its clipped もんか are typical of male speech, while the polite ものですか and もんですか are common in women's speech and softer registers. Where わけがない reports impossibility, もんか vents; かい just poses the denial as a question, while もんか carries refusal or a vow. Choose もんか in speech and 〜(よ)うか in writing or oratory; with a first-person verb もんか becomes a vow never to do the thing.",
+      "usage_note": "An emotional rebuttal or refusal of an ACT rather than a calm judgment: references describe it as spoken language for strong resistance and firm resolve, and with a first-person verb it becomes a vow never to do the thing (二度と行くもんか). The same もんか after a plain adjective (痛いもんか, \"that doesn't hurt a bit\") denies a state instead and is filed with the モノカ question class. ものか and its clipped もんか are typical of male speech, while ものですか and もんですか are common in women's speech and softer registers. Where わけがない reports impossibility, もんか vents; かい just poses the denial as a question; choose もんか in speech and 〜(よ)うか in writing or oratory.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "あんな失礼[しつれい]な店[みせ]に、二度[にど]と行[い]くもんか。",
@@ -132,17 +137,18 @@
       "glosses": [
         "surely won't …",
         "probably not …",
-        "I'll never …"
+        "I doubt … will"
       ],
-      "usage_note": "Two senses: negative conjecture (\"surely won't\", ≒ないだろう) and, with a first-person subject, negative volition (\"I'll never\", ≒ないつもりだ); which one is meant follows from the subject. It is formal and old-fashioned, at home in writing, narration, and set phrases, while everyday speech uses ないだろう and つもりはない. Godan verbs take the dictionary form (降るまい); ichidan and する/来る also allow shorter shapes in real Japanese (見まい, すまい, 来まい), though only the dictionary-form attachment is licensed here.",
+      "usage_note": "Negative conjecture, the flat denial counterpart of だろう (≒ないだろう), used of events and of other people: the sentence reports the speaker's judgment, not a decision. The first-person resolve reading of まい (\"I'll never …\", ≒ないつもりだ) is filed separately with the わけにはいかない group; here the subject is typically third-person or an event and there is no verb of resolve. It is formal and old-fashioned, at home in writing, narration, and set phrases like 無理もあるまい, while everyday speech uses ないだろう. Godan verbs take the dictionary form (降るまい); ichidan and する/来る also allow shorter shapes in real Japanese (見まい, すまい, 来まい), though only the dictionary-form attachment is licensed here.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "空[そら]の様子[ようす]では、今日[きょう]は雨[あめ]は降[ふ]るまい。",
           "english": "By the look of the sky, we're unlikely to get any rain today."
         },
         {
-          "ruby": "これからは弱音[よわね]を吐[は]くまいと固[かた]く誓[ちか]った。",
-          "english": "I swore to myself that from now on I would never let a complaint pass my lips."
+          "ruby": "彼女[かのじょ]ほどの実力[じつりょく]なら、今回[こんかい]も失敗[しっぱい]するまい。",
+          "english": "As able as she is, she surely won't slip up this time either."
         },
         {
           "ruby": "まさか彼[かれ]がこの提案[ていあん]に反対[はんたい]することはあるまい。",

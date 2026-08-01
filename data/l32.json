@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "l32",
   "class_name": "強調-感情-コトニ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "…ly enough, …"
       ],
       "usage_note": "An evaluative frame that announces the speaker's reaction before the fact that caused it: an emotion word plus ことに opens the sentence, as in 嬉しいことに, 困ったことに, 驚いたことに, ありがたいことに. The slot wants an evaluation, not a plain event, so it takes emotive i-adjectives, た-forms of feeling verbs, and na-adjectives through な (妙なことに); ことには is a slightly heavier variant of ことに; the further contraction ことにゃ is dialect-flavoured speech and in practice attaches to the different, conditional 〜ないことには (…でないと) frame rather than to this evaluative one, so keep evaluative uses in the ことに shape. Distinguish it from concessive ことは, which repeats the predicate instead of evaluating it.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "嬉[うれ]しいことに、探[さが]していた本[ほん]が古本屋[ふるほんや]で見[み]つかった。",

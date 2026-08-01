@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "k21",
   "class_name": "話題-到達-トナルト類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "when it comes to (of all things)"
       ],
       "usage_note": "Marks the point a progression finally reaches, and in its dominant に至っては shape it singles out the most extreme member of a series already under discussion, so it wants earlier, milder cases named first, and the following clause typically delivers dismay or a damning assessment. That makes it heavier and more evaluative than ともなると or にもなると, which merely note that a threshold brings its natural consequences. Written and formal-spoken register; the polite にいたりますと and にいたりましては appear mostly in speeches and reports.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "兄[あに]は三杯[さんばい]、弟[おとうと]に至[いた]っては十杯[じゅっぱい]も平[たい]らげた。",
@@ -42,6 +43,7 @@
         "when it's a matter of"
       ],
       "usage_note": "Raises a noun to a notable status, age, or occasion and presents what follows as the consequence anyone would expect of it, with も adding a touch of admiration or wonder at the level reached. Beside plain となると it feels weightier and more exclamatory, and beside にもなると it stresses that the consequence simply comes with the territory rather than tracking a gradual transition. The corpus also licenses plain-form predicates, and となると in particular is common after them (一人で暮らすとなると); ともなると itself favors nouns.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "プロともなると、練習[れんしゅう]の量[りょう]からして違[ちが]う。",
@@ -66,6 +68,7 @@
         "when it gets to be"
       ],
       "usage_note": "Presents a stage reached — an age, a school year, a point in the calendar — and states what naturally holds there, with に keeping the focus on the transition into that stage. Compared with ともなると it sounds less exclamatory and pairs especially readily with numbers and periods; dropping も gives plain になると, which states the same shift without the sense that the stage is a notable one. As a rule of thumb, にもなると is the natural choice with ages, grades and dates, ともなると with statuses and roles, and only ともなると takes the ともなれば conditional freely.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "高校[こうこう]にもなると、親[おや]に相談[そうだん]しなくなるものだ。",

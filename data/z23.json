@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "z23",
   "class_name": "願望-働きかけ-ナイカイ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "how about we just …"
       ],
       "usage_note": "Volitional stem + じゃないか: a rallying exhortation that treats agreement as the obvious answer, so it feels more forceful and more theatrical than plain 〜ようか. It leans masculine and speech-like, and in a confrontational context it reads as a challenge ('fine, let's settle it, then'). Polite うじゃないですか and stiff/literary うではないか are the same pattern dressed up.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "今度[こんど]こそ本気[ほんき]で優勝[ゆうしょう]を狙[ねら]おうじゃないか。",
@@ -43,6 +44,7 @@
         "how about I/we …"
       ],
       "usage_note": "Volitional stem + か, the neutral workhorse of this group: it either offers the speaker's own action ('shall I get that?') or floats a joint plan, with the listener free to decline. It is softer and less staged than 〜ようじゃないか, and unlike 〜ないか, which frames the act as something the listener is being asked to agree to, 〜うか presupposes the speaker's own willingness and merely checks timing or acceptance. Attaches only to the volitional stem, so there is no noun or adjective use.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "雨[あめ]がやんだから、そろそろ出[で]ようか。",
@@ -67,6 +69,7 @@
         "how about …ing?"
       ],
       "usage_note": "A negative question used as an invitation: it hands the decision to the listener, where 〜ようか assumes the speaker is already in. Plain-form 〜ないか as an invitation reads somewhat masculine; 〜ない？ with rising intonation is the gender-neutral casual equivalent, and in polite speech the everyday equivalent is 〜ませんか rather than the ないですか realization. Note that the corpus attachment here is verbal only; the superficially similar 〜じゃないか after nouns and adjectives is a different construction.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "明日[あした]の午後[ごご]、一緒[いっしょ]に美術館[びじゅつかん]を回[まわ]らないか。",
@@ -90,6 +93,7 @@
         "how about …ing, eh?"
       ],
       "usage_note": "〜ないか softened by the casual question particle かい, giving a warm, coaxing invitation rather than a brisk one. In contemporary Japanese it is strongly typecast: fiction hands it to older male speakers (grandfathers, mentors, gruff shopkeepers), so learners should treat it as flavored speech rather than a neutral option. The polite counterpart in this register is 〜ませんかい, and it is rare enough to stay period-flavored.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "暑[あつ]くなってきたね、そこの窓[まど]を開[あ]けないかい。",

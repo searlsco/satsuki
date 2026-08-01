@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "s23",
   "class_name": "理由-因果-オカゲデ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "because of …"
       ],
       "usage_note": "Names a cause the speaker is grateful for, so the main clause reports a welcome outcome; お陰 literally means 'shade, shelter', and the sense of being sheltered by someone's help is still audible. せいで is its negative mirror image. Speakers do turn it ironically on bad outcomes (おかげでひどい目にあった), and that sarcasm only lands because the positive reading is the default. A noun attaches through の (眼鏡のおかげで). おかげで names the benefactor or enabling cause and is unusable when the outcome is merely neutral (×電車が来たおかげで乗った).",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "先輩[せんぱい]が手伝[てつだ]ってくれたおかげで、締[し]め切[き]りに間[ま]に合[あ]った。",
@@ -43,6 +44,7 @@
         "thanks to … (ironic)"
       ],
       "usage_note": "The blaming counterpart of おかげで: the clause after せいで reports an unwelcome result. It points at the cause as the thing at fault, so it is what you reach for when assigning responsibility, whether to weather, machinery or a person. せいでの is occasionally seen before a noun (大雪のせいでの遅延), and the related せいにする means to pin the blame on someone. A noun attaches through の.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "寝坊[ねぼう]したせいで、面接[めんせつ]に遅刻[ちこく]してしまった。",
@@ -66,6 +68,7 @@
         "maybe on account of …"
       ],
       "usage_note": "せい plus the uncertainty particle か: the speaker offers a cause they are not sure of, which is exactly what separates it from せいで. Because the cause is only a guess, the result it explains need not be a bad one — unlike せいで, せいか is reported as usable with favourable outcomes too — the licensing reason is that the cause is only a guess, so せいか tolerates neutral or even welcome results where せいで does not — though the せい in it still tilts the sentence toward something the speaker finds unwelcome or odd. Fixed favourites include 年のせいか and 疲れのせいか; note that 気のせいか is a separate idiom from the noun 気のせい. A noun attaches through の.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "連休[れんきゅう]明[あ]けのせいか、教室[きょうしつ]がやけに静[しず]かだ。",

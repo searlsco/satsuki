@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "t33",
   "class_name": "逆接-想外-ノニ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "and yet …"
       ],
       "usage_note": "The everyday marker for a result that contradicts what the first clause led you to expect, usually coloured with dissatisfaction, regret or surprise; the first clause states something already established, not a hypothesis. It is neutral about who the subjects are, so it covers ground くせに cannot: くせに needs one shared, criticizable person, while のに happily contrasts two different subjects or none at all. After a noun or na-adjective it needs な (まだ四月なのに), and left dangling at the end of a sentence it becomes a sigh of regret (来てくれればよかったのに).",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "部屋[へや]はこんなに寒[さむ]いのに、彼[かれ]は窓[まど]を開[あ]けたがる。",
@@ -43,6 +44,7 @@
         "and yet …"
       ],
       "usage_note": "Formal noun もの plus を, used to voice exasperation or regret that an easy better course was not taken; it typically follows a conditional (〜ば / 〜たら … ものを) and very often ends the sentence, leaving the actual outcome unspoken and the complaint hanging. It is stiffer and more emotionally loaded than のに, which can report a plain contradiction with no blame attached; もんを is its spoken contraction. It also attaches to i-adjectives, most often in the fixed frame 〜ばいいものを (黙っていればいいものを).",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "素直[すなお]に謝[あやま]れば済[す]むものを、彼[かれ]は言[い]い訳[わけ]を並[なら]べた。",
@@ -67,6 +69,7 @@
         "where … would normally"
       ],
       "usage_note": "Formal noun ところ plus を, marking a situation that the following clause then cuts against. Two uses share the form: prefacing a request, apology or thanks by naming the inconvenience being imposed (お忙しいところを恐れ入りますが), and pointing out a departure from the normal course of things (普段なら三十分で着くところを). It belongs to ceremonious speech and written narration, and the preceding clause is typically non-past. After a noun it takes の (お休みのところを).",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "お忙[いそが]しいところを、わざわざお越[こ]しいただき恐縮[きょうしゅく]です。",

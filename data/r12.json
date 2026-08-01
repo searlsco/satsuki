@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "r12",
   "class_name": "順接-限定-ナイコトニハ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "if (you) don't …"
       ],
       "usage_note": "This is the everyday spoken workhorse for obligation: the ないと clause names what has to happen, and the consequence is often simply dropped (そろそろ行かないと。), an ellipsis only the obligation reading allows, since the plain \"if you don't …\" conditional still needs its main clause. なきゃ and なくちゃ are the casual contractions of なければ and なくては; なければ and なくては are neutral; ねば is the older classical negative (ず の已然形 ね + ば) and reads stiff and bookish. Compared with ないことには, ないと is lighter and does not require the main clause to be negative.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "早[はや]く出[で]ないと、終電[しゅうでん]に間[ま]に合[あ]わないよ。",
@@ -41,6 +42,7 @@
         "until … happens, (nothing will)"
       ],
       "usage_note": "ないことには presents the preceding clause as an indispensable prerequisite, and teaching references describe the main clause as regularly negative or as saying that nothing can proceed (判断できない, 話にならない, 始まらない). It is heavier and more deliberate than plain ないと, which is the ordinary conversational equivalent. ないことにゃ is the contracted colloquial form, at home in relaxed or gruff speech rather than in writing.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "現場[げんば]を見[み]ないことにゃ、原因[げんいん]なんて分[わ]かるもんか。",

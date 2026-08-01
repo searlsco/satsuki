@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "b31",
   "class_name": "対象-取り上げ-ニカケテ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "in the area of"
       ],
       "usage_note": "Attached to a noun naming a skill, field, or activity, にかけて(は) singles that domain out and then rates someone within it; the follow-up is almost always a superlative or an unmatched-in-that-field claim (一番だ, 右に出る者がいない, 誰にも負けない), so a neutral or negative evaluation usually sounds off. The は-marked にかけては is by far the commonest realization because the contrast (\"in THAT area, whatever else may be true\") is the point; にかけましては is its polite-business form and にかけちゃ its casual contraction. Do not confuse it with the から〜にかけて that spans a stretch of time or space, which is a different pattern, or with sibling 0112 にかけて(も), which stakes something valued.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "暗記[あんき]にかけては、姉[あね]に勝[か]てる気[き]がしない。",
@@ -41,6 +42,7 @@
         "even at the cost of …"
       ],
       "usage_note": "Here the noun is something the speaker holds precious — 命, 名誉, 名, プライド, 面子, a company's signboard — and putting it にかけて(も) means \"I am willing to forfeit it if I fail,\" so the clause that follows carries a vow, a strong resolve, or a flat denial. Adding も raises the stakes rhetorically but is optional, and the whole expression is earnest and somewhat literary rather than everyday. It differs from sibling 0111 にかけては, which merely picks out a field of expertise and offers no wager at all.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "名誉[めいよ]にかけて、この事件[じけん]は必[かなら]ず解決[かいけつ]する。",
@@ -64,6 +66,7 @@
         "when it is entrusted to …"
       ],
       "usage_note": "This is the transitive twin of the far commoner 〜にかかると: you hand the thing over to the named expert or apparatus, and an outcome that would normally be hard or impossible follows as a matter of course, so the main clause typically reports an effortless or surprising result. It is stiff, rather bookish Japanese today, and modern speakers usually reach for にかかると or 〜の手にかかると instead; にかけますと is the polite variant and suits narration or formal explanation. The noun before にかけると must be a place, process, or specialist that かける itself already selects (医者にかける, 機械にかける, 裁判にかける, 校閲にかける); where かける does not collocate that way, Japanese uses 〜にかかると instead.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "名医[めいい]にかけると、どんな病[やまい]も治[なお]ってしまう。",

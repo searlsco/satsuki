@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "d11",
   "class_name": "状況-般-ニアタッテ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "as one embarks on"
       ],
       "usage_note": "Marks a special, milestone-like occasion (開店[かいてん], 就任[しゅうにん], 卒業[そつぎょう]) and the deliberate step you take as it approaches, so the main clause is typically something planned rather than something that just happens. It attaches to a noun or to a verb in dictionary form. Its drier sibling に際[さい]して attaches the same way; the difference is register and occasion type, not attachment — にあたって leans toward welcome milestones you prepare for, に際して toward the bare moment an event occurs, including unwelcome ones. It is formal enough for speeches and written notices; in ordinary conversation 〜とき or 〜前[まえ]に does the same work. にあたり is the clipped written shape, にあたっての the form used before a noun.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "新[あたら]しい店[みせ]を開[ひら]くにあたって、資金[しきん]を集[あつ]めた。",
@@ -43,6 +44,7 @@
         "when it comes to (an event)"
       ],
       "usage_note": "Very close to にあたって, but drier and more bureaucratic: it points at the moment a specific event actually takes place and at what that moment calls for. It is most often built on a noun (使用[しよう]に際[さい]して), though a dictionary-form verb is grammatical too (署名[しょめい]するに際して); the clipped に際し is the standard shape in manuals and public notices. It takes unwelcome or emergency occasions (非常時[ひじょうじ]に際して) more readily than にあたって, which leans toward happy milestones.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "退職[たいしょく]に際[さい]して、社長[しゃちょう]から花束[はなたば]を頂[いただ]いた。",
@@ -67,6 +69,7 @@
         "placed in"
       ],
       "usage_note": "Frames an entire surrounding condition or sphere (この不況[ふきょう]にあって, 戦後[せんご]の混乱[こんらん]にあって) rather than a point in time, and the main clause says what holds true inside it. It is stiffer than において or で and belongs to writing, speeches, and narration. にあっては tends to set the sphere against some other one (会社[かいしゃ]では厳[きび]しいが家庭[かてい]にあっては…), and にあっても means \"even in\". において locates an event in a place or domain; にあって places a subject inside a condition and then says how they fare there. Nouns only.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "この不況[ふきょう]にあって、社員[しゃいん]の給与[きゅうよ]は据[す]え置[お]きだ。",

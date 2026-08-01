@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "B13",
   "class_name": "過去-回想-タコトガアル類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "have the experience of …ing"
       ],
       "usage_note": "〜たことがある reports experience accumulated at some unspecified point in one's life, not a particular past event, so it is typically avoided for something that just happened (昨日読んだことがある sounds off; plain 読んだ is what you want). The negative is the standard way to say you have never done something, often with 一度も; the particle surfaces as が or, under negation, は. Swapping the particle shifts the emphasis: 〜たことはある concedes 'I have done it, but…', 〜たこともある adds it to a list.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "北海道[ほっかいどう]でスキーをしたことがある。",

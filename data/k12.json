@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "k12",
   "class_name": "話題-提示-トイウト類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "that reminds me of"
       ],
       "usage_note": "Picks up a word someone just said (or that is simply in the air) and makes it the topic, typically leading to the association it triggers in the speaker. Neutral in feeling: sibling とくると narrows to a domain the subject behaves distinctively in, while the neighboring ときたら colors the topic with complaint or exasperation, something というと itself does not do. といえば and といったら are the everyday conditional variants, っていうと the casual contraction, and と言いますと the polite one used to ask a speaker to say more.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "京都[きょうと]というと、まず清水寺[きよみずでら]を思[おも]い浮[う]かべる。",
@@ -42,6 +43,7 @@
         "where … is concerned"
       ],
       "usage_note": "Singles out one topic or field as the area where the subject behaves unlike they do elsewhere, so the following clause almost always reports that distinctive reaction rather than a neutral fact. It is more observational than the ときたら realization, which colors the topic with the speaker's irritation, and it is less about a threshold being crossed than ともなると. In practice it attaches overwhelmingly to nouns even though the corpus also licenses plain-form verbs and adjectives.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "弟[おとうと]は甘[あま]い物[もの]とくると、目[め]の色[いろ]が変[か]わる。",

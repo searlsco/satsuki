@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "P11",
   "class_name": "例示-程度-クライ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "not as … as"
       ],
       "usage_note": "ほど measures a degree the speaker treats as high or noteworthy, and it is the stiffer, more written-sounding of the ほど/ぐらい pair. Two jobs are ほど's alone: the comparison AはBほど〜ない ('A is not as … as B'), where ぐらい cannot substitute, and the correlative 〜ば〜ほど. ほど also follows past た in the comparison frame (思ったほど難しくなかった). Conversely it cannot mark a pinpoint time or date (三時ごろ, not 三時ほど), and it resists ぐらい's belittling 'a mere …' sense.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "驚[おどろ]くほど安[やす]い値段[ねだん]で靴[くつ]を買[か]った。",
@@ -43,6 +44,7 @@
         "to the extent that"
       ],
       "usage_note": "ぐらい is the everyday spoken counterpart of ほど, and it leans the opposite way on the scale: besides rough quantities it downgrades what it marks to a trifle or a bare minimum (返事ぐらい 'at least a reply'), a nuance ほど does not carry. It also forms the dismissive 〜たぐらいで(は) frame (一度会ったぐらいでは…), where the past event is written off as too slight to matter; ほど after た is not ungrammatical but reads as comparison (思ったほど〜ない), not belittlement. It is likewise fine with a pinpoint time (三時ぐらい). ぐらい and くらい are the same word and 位 is the kanji spelling; くらい is the standard form after これ/それ/どれ, and elsewhere ぐらい and くらい both occur, with ぐらい common in speech.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "忙[いそが]しくても、返事[へんじ]ぐらいはしてほしい。",
@@ -67,6 +69,7 @@
         "about; some (quantity)"
       ],
       "usage_note": "After a noun ばかり means the thing marked is all there is, and after a て/で-form it means the subject does nothing else — a complaint far more often than a neutral report, so it usually carries irritation that ほど and ぐらい do not. Its old quantity-approximating use (三日ばかり 'some three days') still turns up but sounds formal or dated; modern speech reaches for ぐらい. Note that the very common 〜たばかり 'have just …ed' attaches to past た instead and is a separate construction from the ones shown here.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "冷蔵庫[れいぞうこ]にはビールばかり入[はい]っている。",

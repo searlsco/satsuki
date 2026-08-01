@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "a31",
   "class_name": "立場-根拠-カラスルト類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "going by"
       ],
       "usage_note": "The most flexible member of this family: it works both for a standpoint (私からすると) and for evidence you reason from (この数字からすると), and unlike からいうと it attaches directly to nouns denoting people and organizations. The conclusion is normally an inference, so the sentence tends to end in ようだ, らしい or かもしれない rather than a flat statement. からすれば leans toward imagining someone's feelings, からしたら is the casual spoken shape, and からして is the adverbial variant.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "私[わたし]からすると、その値段[ねだん]は高[たか]すぎるとしか思[おも]えない。",
@@ -43,6 +44,7 @@
         "judging by"
       ],
       "usage_note": "Literally 'looking from', so it suits adopting an observer's vantage point: a person, a group, or an angle of analysis such as 歴史 or 安全性. Like からすると it takes person nouns freely, which からいうと does not; the difference is that から見ると keeps the sense of a viewer surveying the situation, while からすると is more neutral reasoning. から見て is the adverbial form used mid-sentence, から見れば and から見たら the conditional variants, and から見ての the adnominal one, largely confined to 〜から見ての印象／感想.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "大人[おとな]から見[み]ると、その悩[なや]みは小[ちい]さく思[おも]える。",
@@ -67,6 +69,7 @@
         "judging by"
       ],
       "usage_note": "Picks out the criterion or aspect you are evaluating by (予算, 味, 効率, 経験), then delivers the verdict that follows from it. Teaching references state the restriction absolutely: it does not attach directly to a noun naming a person or an organization, so 私からいうと is rejected and you must say 私の経験からいうと or 私の立場からいうと; からすると and から見ると have no such limit. からいって is the adverbial variant, から言えば the conditional one, and から言いますと the polite one.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "経済[けいざい]の面[めん]から言[い]うと、この計画[けいかく]は無理[むり]がある。",
@@ -90,6 +93,7 @@
         "on the authority of"
       ],
       "usage_note": "Names the source of information the speaker is passing on rather than a standpoint to reason from, so it pairs with a hearsay or inference ending: そうだ, らしい, という, とのことだ, だろう. Reserve it for reports and testimony (天気予報, 新聞, 医者の話); when the noun is grounds for your own judgment, からすると or から見ると is the natural choice. によれば is the slightly more formal conditional variant and によりますと the polite one used in broadcasting.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "天気予報[てんきよほう]によると、明日[あした]は雪[ゆき]になるそうだ。",

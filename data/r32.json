@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "r32",
   "class_name": "順接-確定-テ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -17,7 +17,8 @@
         "and; and then",
         "and so; owing to"
       ],
-      "usage_note": "The plain te-form link between clauses: で after nouns and な-adjectives (風邪[かぜ]で) and wherever the te-form is voiced (む/ぶ/ぬ and ぐ godan verbs: 呼[よ]んで, 泳[およ]いで), て elsewhere, くて for i-adjectives. It leaves the relation between the clauses to context, so it reads as sequence, simultaneous description, or loose cause depending on content. On the causal reading the main clause is typically a statement of fact rather than a command or request.",
+      "usage_note": "The plain te-form link between clauses: で after nouns and な-adjectives (風邪[かぜ]で) and wherever the te-form is voiced (む/ぶ/ぬ and ぐ godan verbs: 呼[よ]んで, 泳[およ]いで), て elsewhere, くて for i-adjectives. It leaves the relation between the clauses to context, so it reads as sequence, simultaneous description, or loose cause depending on content. On the causal reading the main clause is typically a statement of fact rather than a command or request. Where the noun + で is doing nothing but stringing two descriptions of the same topic together (兄は医者で、弟は教師だ), that is the copula's linking form in the ダ類 family; this entry is the connective that makes the second clause follow from the first.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "風邪[かぜ]で三日[みっか]も学校[がっこう]を休[やす]みました。",

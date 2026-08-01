@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "d12",
   "class_name": "状況-般-ニオイテ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "in the field of"
       ],
       "usage_note": "The formal written counterpart of で for the place, time, or domain in which something takes place (国際[こくさい]会議[かいぎ]において, 教育[きょういく]の分野[ぶんや]において). It does not take over で's other jobs: tool, material, and cause stay with で (はさみで切[き]る, 風邪[かぜ]で休[やす]む). Used of everyday activities it sounds stilted, so keep it for documents, announcements, and academic prose. における／においての is the shape used before a noun.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "開会式[かいかいしき]は市民[しみん]ホールにおいて行[おこな]われる。",
@@ -38,23 +39,24 @@
       "l2_id": "0251",
       "canonical_surface": "にしての",
       "glosses": [
-        "at",
-        "in (a single stroke)",
-        "at (an age or attempt), notably"
+        "as it happens; as luck would have it",
+        "now, in hindsight",
+        "at; in (literary)"
       ],
-      "usage_note": "A literary 〜で inherited from classical Japanese and now alive mainly in set expressions: 一夜[いちや]にして and 一瞬[いっしゅん]にして for a change that lands all at once, 今[いま]にして思[おも]えば for a realization that arrives only in hindsight, and an age or an ordinal for a point reached strikingly early or late (四十[しじゅう]にして, 三度目[さんどめ]にして). A note of surprise or admiration comes with it, so a plain \"in／at\" is better carried by において or で. Nouns only, and rare outside writing and these fixed turns.",
+      "usage_note": "A literary 〜で inherited from classical Japanese, used here to frame the circumstance an event falls under: 幸[さいわ]いにして／不幸[ふこう]にして for how the situation happened to turn out, and 今[いま]にして思[おも]えば for a realization that arrives only in hindsight. The all-at-once 一夜[いちや]にして and the age-or-attempt 四十[しじゅう]にして, 三度目[さんどめ]にして belong to sibling entries. A note of surprise or evaluation comes with it, so a plain \"in／at\" is better carried by において or で. Nouns only, and rare outside writing and these fixed turns.",
+      "human_verified": false,
       "examples": [
         {
-          "ruby": "その街[まち]は一夜[いちや]にして灰[はい]と化[か]した。",
-          "english": "That town was reduced to ashes overnight."
+          "ruby": "幸[さいわ]いにして、けが人[にん]は一人[ひとり]も出[で]なかった。",
+          "english": "As luck would have it, not one person was hurt."
         },
         {
           "ruby": "今[いま]にして思[おも]えば、あれは別[わか]れの言葉[ことば]だった。",
           "english": "Looking back on it now, those were words of farewell."
         },
         {
-          "ruby": "彼[かれ]は四十[しじゅう]にして初[はじ]めて筆[ふで]を執[と]った。",
-          "english": "It was at forty that he first took up the pen."
+          "ruby": "不幸[ふこう]にして、その計画[けいかく]は途中[とちゅう]で頓挫[とんざ]した。",
+          "english": "As ill luck would have it, the plan stalled partway through."
         }
       ]
     },
@@ -67,6 +69,7 @@
         "on"
       ],
       "usage_note": "The everyday particle for the setting an action takes place in, and the default wherever において, にあって, or にして would sound ceremonial. The same で also marks means, material, cause, and scope (バスで行[い]く, 木[き]で作[つく]る, 病気[びょうき]で休[やす]む), duties its stiffer relatives in this family do not take on. With verbs of existence (いる／ある) and with location of residence, the place takes に (家[いえ]にいる), not で. で is neutral for means; によって is chosen when the means is a deliberate method or procedure, and is obligatory for the agent of a passive.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "駅[えき]の前[まえ]で友[とも]だちと待[ま]ち合[あ]わせた。",

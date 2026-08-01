@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "H21",
   "class_name": "自然発生-抑制不能-テシカタガナイ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "unbearably; terribly"
       ],
       "usage_note": "Used for feeling that wells up on its own and refuses to be suppressed, so it sits especially well with spontaneous predicates (気になって, 思えて, 悔やまれて) and with な-adjectives of regret. Teacher references describe it as leaning toward inner, involuntary emotion and toward negative feeling, and as somewhat literary and old-fashioned next to the neutral てしかたがない. Attaches to い-adjective くて, な-adjective/noun で, and verb て-form alike.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "夜中[よなか]の物音[ものおと]が今[いま]も気[き]になってならない。",
@@ -41,6 +42,7 @@
         "can't stand how … it is"
       ],
       "usage_note": "The most bodily member of this family: heat, itch, pain, hunger, or a craving pushed past what one can endure. Teacher references note that it typically resists spontaneous-feeling predicates such as 思えて or 気になって, where てならない or てしかたがない are preferred instead. It is at home in casual speech and takes both positive and negative feelings; the corpus rule here licenses noun/な-adjective + で and い-adjective + くて.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "クーラーが壊[こわ]れて、部屋[へや]の中[なか]が暑[あつ]くてたまらない。",
@@ -64,6 +66,7 @@
         "terribly; awfully"
       ],
       "usage_note": "The widest-ranging and most neutral member of this family: references describe it as usable with sensations, emotions, and spontaneous feelings alike, which makes it the safe default when the others feel risky. The fuller てしかたがない is slightly more formal; the clipped てしかたない is conversational, and てしょうがない is the still more casual cousin. It tends to describe a state that persists rather than a single spike of feeling.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "隣[となり]の工事[こうじ]の音[おと]がうるさくてしかたない。",
@@ -87,6 +90,7 @@
         "terribly; incredibly"
       ],
       "usage_note": "The casual spoken counterpart of てしかたがない, しょうがない being a worn-down しようがない. It leans negative and complaining, and typically describes an ongoing nuisance rather than a momentary peak of feeling. Keep it out of formal writing, where てしかたがない or てならない fit better.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "花粉[かふん]のせいで目[め]がかゆくてしょうがない。",
@@ -110,6 +114,7 @@
         "so … that it's a problem"
       ],
       "usage_note": "An old-fashioned complaint, close in force to 〜て困る or 〜てかなわない: the situation is bothersome and one wishes it were otherwise. It is common in older speech and prose, while contemporary speakers usually reach for てしょうがない or てかなわない. The corpus rule licenses only verbs here, but 〜くていけない with い-adjectives (暑くていけない) is just as attested in real Japanese; note also the unrelated 〜てはいけない, which is prohibition, not complaint.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "窓[まど]の隙間[すきま]から風[かぜ]が入[はい]ってきていけない。",

@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "L11",
   "class_name": "放置-継続-ナイデイル類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "keep from doing …"
       ],
       "usage_note": "〜ないで plus stative いる: a state of continuing not to do something, either by choice or because one cannot bring oneself to. The subject is normally animate and volitional, so it is not used of weather or other natural events, and する appears as せずにいる in the stiffer ずに variant. Contrast ないでおく (1481), which leaves something undone deliberately with a later purpose in view, and ないでしまう (1491), which reports that the action never happened at all; the ばかり/さえ-infixed shapes (〜ないでばかりいる) are rare and add a critical \"does nothing but\" coloring.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "彼女[かのじょ]はあれから何[なに]も食[た]べないでいる。",
@@ -42,6 +43,7 @@
         "be going without doing …"
       ],
       "usage_note": "Same \"continuing not to do\" meaning as ないでいる (1471), but with おる. In 〜ないでおります it is 謙譲語, the form you use about yourself or your own company when speaking to a customer; plain 〜ないでおる is blunt or Western-Japanese and older-speaker flavored rather than neutrally polite. Because おる is humble, applying it to the listener's own state sounds rude (the honorific 〜ておられる is a separate matter), and the ずに shapes such as 出さずにおります are the most formal of all.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "その件[けん]はまだ社長[しゃちょう]に伝[つた]えないでおります。",

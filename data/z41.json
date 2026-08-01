@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "z41",
   "class_name": "願望-他人-タガル類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "keep wanting to …"
       ],
       "usage_note": "たがる is たい plus the suffix がる, which recasts an inner feeling as behavior an observer can see, so it reports a third party's desire as displayed rather than felt. It attaches to the masu-stem and conjugates as a godan verb; non-past たがる usually reads as habitual or repeated, while たがっている describes a wish someone is showing right now. Unlike たい, たがる marks its object only with を; the が option disappears when you switch. Because it frames the person from the outside it can sound detached or faintly critical, so speakers usually avoid it about a superior, and a bare first-person subject is likewise avoided except when describing one's own habitual character (私は昔から知りたがる性格だ).",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "弟[おとうと]はいつも私[わたし]のゲームを借[か]りたがる。",

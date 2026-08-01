@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "l62",
   "class_name": "強調-比喩-ンバカリ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "so … that it seems ready to"
       ],
       "usage_note": "The action stops just short of happening: 泣かんばかりの顔 is a face on the very brink of tears, not a crying one. んばかり is the shape you will actually meet; ぬばかり is the older spelling. The ん is the 撥音便 of the classical negative auxiliary ぬ, not volitional む, so 泣かんばかり literally says 'lacking only the crying'; it takes the 未然形, which is why it is 言わんばかり and never 言いんばかり, and why する gives せんばかり. With 言う it yields 言わんばかり, effectively interchangeable with とばかりに; away from speech verbs only んばかり will do. It is written, narrative Japanese, common in set descriptive phrases such as 割れんばかりの拍手 and 溢れんばかりの, and it typically paints what someone or something looks like from outside.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "母[はは]は飛[と]び上[あ]がらんばかりに喜[よろこ]んだ。",

@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "K21",
   "class_name": "授受-他の授与-テクレル類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "do me the favor of …"
       ],
       "usage_note": "The giver is the subject and the speaker or the speaker's in-group is the beneficiary, so it reports a favor done for \"us\" whether or not anyone asked for it; てもらう (1291) describes the very same event from the receiver's side. After an ん-euphonic te-form it surfaces as でくれる (運んでくれる). The heavily contracted ちゃくれ・じゃくれ are casual reductions of 〜てはくれ・〜ではくれ, and because that は is contrastive they occur almost only in negatives that voice a grievance: 誰も助けちゃくれない. Bare てくれ is a blunt, largely masculine command; the honorific counterpart is てくださる (1281).",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "友達[ともだち]が引[ひ]っ越[こ]しを手伝[てつだ]ってくれた。",
@@ -42,6 +43,7 @@
         "be so good as to …"
       ],
       "usage_note": "The honorific (尊敬語) counterpart of てくれる: the favor-doer is someone you are elevating, such as a teacher, a client or a senior colleague. The everyday request 〜てください is the irregular imperative of this same くださる; its polite finite forms give the softer 〜てくださいませんか / 〜てくださいますか. Choose ていただく (1301) instead when you want yourself, the receiver, in the subject position.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "先生[せんせい]が推薦状[すいせんじょう]を書[か]いてくださいました。",

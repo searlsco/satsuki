@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "c21",
   "class_name": "仲介-経由-ヲツウジテ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "throughout (a period)"
       ],
       "usage_note": "を通して frames the noun as something the subject deliberately goes through to reach a goal, so it is the natural pick when a person is used as an intermediary on purpose or when an experience is credited with teaching something. With a span of time it means 'all the way through' (一年を通して). Its twin を通じて is largely interchangeable but sounds more written and more detached; を通して is the more volitional, more conversational of the pair.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "友人[ゆうじん]を通[とお]して先方[せんぽう]に話[はなし]を伝[つた]えてもらった。",
@@ -38,9 +39,10 @@
       "canonical_surface": "をつうじての",
       "glosses": [
         "through; via",
-        "by way of; over the course of"
+        "by way of; through the good offices of"
       ],
-      "usage_note": "を通じて names the route or channel something travels along, and it typically just reports the fact rather than crediting anyone's intention, which is why it dominates in news copy, reports, and other written registers. Compared with its near-twin を通して it is more detached and less volitional: 報道を通じて知られた describes how word spread, while 友人を通して頼んだ describes a choice someone made. The two are interchangeable in most sentences, so the difference is one of tone rather than a rule.",
+      "usage_note": "を通じて names the route or channel something travels along, and it typically just reports the fact rather than crediting anyone's intention, which is why it dominates in news copy, reports, and other written registers. Compared with its near-twin を通して it is more detached and less volitional: 報道を通じて知られた describes how word spread, while 友人を通して頼んだ describes a choice someone made. The two are interchangeable in most sentences, so the difference is one of tone rather than a rule. A learner should keep this apart from the span use of the same form: with a period noun (一年を通じて雨が多い) it means 'throughout, all through', saying when a state holds; the channel use here takes a person, medium, or organization and says how something got from one side to the other.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "事件[じけん]の詳細[しょうさい]は報道[ほうどう]を通[つう]じて明[あき]らかになった。",
@@ -51,8 +53,8 @@
           "english": "Talks are being carried on through an intermediary."
         },
         {
-          "ruby": "長年[ながねん]の交流[こうりゅう]を通[つう]じて厚[あつ]い信頼[しんらい]が育[そだ]った。",
-          "english": "Deep trust grew up over long years of exchange."
+          "ruby": "支援金[しえんきん]は市[し]の窓口[まどぐち]を通[つう]じて配[くば]られた。",
+          "english": "The relief money was handed out through the city's service counter."
         }
       ]
     }

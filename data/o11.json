@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "o11",
   "class_name": "同時性-般-トスグニ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "immediately after"
       ],
       "usage_note": "The plainest, most neutral member: everyday Japanese, no literary flavor, and equally at home in speech and writing. It works for one-off past events and for habits (朝起きるとすぐに…ことにしている). Because it rides on the conditional と, though, it inherits と's one real restriction: the main clause states what simply happens or happened, so no commands, requests, invitations or 〜つもり/〜(よ)う plans (帰るとすぐに電話してください ✗ → 帰ったらすぐに…). Reach for it whenever none of the literary siblings' extra flavor is wanted.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "電気[でんき]を消[け]すとすぐに子[こ]どもは寝[ね]てしまった。",
@@ -43,6 +44,7 @@
         "simultaneously with"
       ],
       "usage_note": "Stresses genuine simultaneity rather than mere succession, and is the only member of the family that also takes a bare noun (卒業と同時に); outside of time it doubles as a neutral \"and at the same time / while also\" linker (難しいと同時に面白い).",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "会議[かいぎ]が始[はじ]まると同時[どうじ]に停電[ていでん]した。",
@@ -67,6 +69,7 @@
         "no sooner … than"
       ],
       "usage_note": "The た is part of the pattern (だ途端 after ん-stem verbs: 転んだ途端), so it is past-only, and the main clause must be past too. What follows should be sudden, outside the subject's control, and often unwelcome — the speaker reports it as a surprise, so no commands, intentions or plans (and none of the family allows those anyway). Where や否や implies the subject had been poised and moved deliberately, た途端 implies nobody saw it coming; that is the line between them.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "立[た]ち上[あ]がった途端[とたん]、ひどいめまいがした。",
@@ -91,6 +94,7 @@
         "the moment one does X, Y undoes it"
       ],
       "usage_note": "The only member built for repetition: each time X is done it is immediately undone or repeated, so it cannot describe a one-off event, and it almost always carries the speaker's exasperation; dictionary form frames the habit, た-form each individual instance.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "片付[かたづ]けるそばから子[こ]どもがおもちゃを散[ち]らかす。",
@@ -115,6 +119,7 @@
         "hardly … when"
       ],
       "usage_note": "Formal written narration of a single past event; unlike た途端 the second clause is typically a deliberate action by someone who had been poised for it, and 否や may simply be dropped to leave the stiffer literary 〜や Although the second clause is a deliberate act, it is still reported as a past fact — no commands, intentions or negatives.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "ベルが鳴[な]るや否[いな]や、生徒[せいと]たちは教室[きょうしつ]を飛[と]び出[だ]した。",
@@ -139,6 +144,7 @@
         "no sooner than"
       ],
       "usage_note": "Literary and narrow: both clauses must share one subject, that subject cannot be the speaker, and what follows has to strike the speaker as unexpected or out of character; past events only, so no commands, intentions or habitual readings.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "彼[かれ]は部屋[へや]に入[はい]るなり、黙[だま]って窓[まど]を開[あ]け放[はな]った。",
@@ -162,6 +168,7 @@
         "the instant"
       ],
       "usage_note": "The bare literary 〜や — や否や is this form with 否や tacked on, not the other way round. Alive today essentially only in novels and news narration: same \"in one sweep\" force as や否や but terser and markedly stiffer, and you will not hear it in ordinary conversation. Same restrictions apply: a single past event, main clause reported as fact, no commands, intentions or negatives.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "電話[でんわ]が鳴[な]るや、彼[かれ]は受話器[じゅわき]をひったくった。",
@@ -186,6 +193,7 @@
         "hardly … when"
       ],
       "usage_note": "Vivid narration of a past scene in which the second action begins before the first has even finished, as if the subject had been waiting to pounce — more dramatic than や否や; the following clause must be a plain past statement, never a command, invitation, intention or negative.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "チャイムが鳴[な]るが早[はや]いか、子[こ]どもたちは校庭[こうてい]へ駆[か]け出[だ]した。",

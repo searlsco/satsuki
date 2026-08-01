@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "y22",
   "class_name": "否定-無意味-テモシカタガナイ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "even if …, it can't be helped"
       ],
       "usage_note": "Concessive 〜ても plus 仕方ない: doing or feeling this changes nothing, so let it go. It is the level-headed member of the family — 仕方ない stays respectable in writing, while its sibling しょうがない is markedly casual — and the たって／だって variants shift it toward speech. Do not confuse it with 〜てしかたがない (no も), which means 'unbearably'.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "終[お]わったことをいつまでも悔[く]やんでも仕方[しかた]ない。",
@@ -43,6 +44,7 @@
         "nothing to be done even if …"
       ],
       "usage_note": "The same verdict as でもしかたない — the action changes nothing — but built on 仕様がない, and the たって／だって shape is more casual still than ても／でも. 仕様がない contracts to しょうがない; the difference from 仕方ない is register, not meaning — しょうがない is the spoken form and, like 仕方ない, also stands alone as a resigned 'oh well'. The separate 〜てしょうがない, without も, means 'unbearably' and is a different pattern.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "そんなに急[せ]かしたってしょうがないよ。",

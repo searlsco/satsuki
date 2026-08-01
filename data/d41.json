@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "d41",
   "class_name": "状況-経路-ヲ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "across"
       ],
       "usage_note": "Path を marks the space a motion verb passes over or through — 道[みち]を歩[ある]く, 空[そら]を飛[と]ぶ, 橋[はし]を渡[わた]る, 角[かど]を曲[ま]がる — and is not the direct-object を, even though the form is identical; the verbs it pairs with are motion verbs that take no other object. Because Japanese resists two を in one clause, a path を and an object を rarely share a predicate. Where で would present the area as a venue (公園で走[はし]る, running around inside the park), を traces a route across it (公園を走る, running through and out the other side).",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "毎朝[まいあさ]この川沿[かわぞ]いの道[みち]を歩[ある]いている。",

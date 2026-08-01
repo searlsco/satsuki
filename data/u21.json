@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "u21",
   "class_name": "対比-想外-ドコロカ類",
   "tsutsuji_version": "1.1u",
@@ -6,23 +7,23 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
       "l2_id": "1131",
       "canonical_surface": "どころか",
       "glosses": [
-        "far from …; let alone",
-        "not only … but",
-        "much less"
+        "far from …; anything but …",
+        "let alone; much less",
+        "quite the opposite of …"
       ],
-      "usage_note": "Knocks down what the listener was assuming and puts the opposite, or something far more extreme, in its place. The second clause typically carries も, まで, or a negative to mark the size of the leap. It attaches straight to a bare noun with no particle, to the bare stem of a な-adjective (元気どころか、寝込んでいる), and to the plain form of verbs and い-adjectives. どころではない states that circumstances rule X out; どころか needs a second clause that overturns or outdoes X.",
+      "usage_note": "Knocks down what the listener was assuming and puts the contrary state of affairs in its place: the first item is denied, not topped. The second clause typically carries a negative, かえって, or も to mark how far reality falls the other way; when instead it names something that outdoes the first item ('バイクどころか車まで持っている'), that is the additive どころか of the ダケデナク family. It attaches straight to a bare noun with no particle, to the bare stem of a な-adjective (元気どころか、寝込んでいる), and to the plain form of verbs and い-adjectives. どころではない states that circumstances rule X out; どころか needs a second clause that overturns or outdoes X.",
+      "human_verified": false,
       "examples": [
         {
-          "ruby": "姉[あね]は英語[えいご]どころか、フランス語[ご]まで自由[じゆう]に話[はな]す。",
-          "english": "English is the least of it: my sister speaks fluent French too."
+          "ruby": "あいつは反省[はんせい]どころか、こっちに文句[もんく]を言[い]ってきた。",
+          "english": "Sorry? Far from it, he turned around and complained at me."
         },
         {
           "ruby": "今月[こんげつ]は旅行[りょこう]どころか、外食[がいしょく]する余裕[よゆう]もない。",

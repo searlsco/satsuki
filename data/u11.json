@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "u11",
   "class_name": "対比-般-ノニタイシテ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "as against …"
       ],
       "usage_note": "Sets two facts side by side purely to contrast them, with none of the surprise or grievance that のに carries; the two clauses are simply weighed against each other. Do not confuse it with bare 〜に対して after a noun, which marks the target of an action or attitude (客に対して失礼だ). It leans expository and is far more common in writing, reports and comparisons than in casual talk; a na-adjective needs な (社交的なのに対して); a noun takes なの or, in written style, であるの, and のに対し is the clipped realization typical of written style, のに対しまして the polite one.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "兄[あに]は口数[くちかず]が多[おお]いのに対[たい]して、弟[おとうと]はほとんど話[はな]さない。",

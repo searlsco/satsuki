@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "b22",
   "class_name": "対象-指向-ヲ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "(the thing an action works on)"
       ],
       "usage_note": "を marks the thing an action works on directly, the object the verb actually reaches. That is what separates it from に and に対して, which aim an action at a target without necessarily affecting it, and from について, which names a topic rather than an object. It is the neutral choice in every register; casual speech often drops it, but writing keeps it.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "台所[だいどころ]の窓[まど]を開[あ]けて、空気[くうき]を入[い]れ替[か]えた。",

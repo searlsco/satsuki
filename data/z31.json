@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "z31",
   "class_name": "願望-自分-タイ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "would like to …"
       ],
       "usage_note": "Attaches to a verb's masu-stem and then inflects like an i-adjective (たかった, たくない, たければ). The direct object may be marked with either を or が: を is now the statistical default and is preferred when the object is long or modified, or when the focus is on the act, while が puts the spotlight on the thing wanted and is very common in short, emotive utterances (水が飲みたい). Plain たい normally states the speaker's own desire, or the listener's in a question; for a third person's desire Japanese typically switches to たがる or an evidential form such as たいらしい, though inside quotations and subordinate clauses たい is unrestricted as to person.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "今度[こんど]の連休[れんきゅう]は沖縄[おきなわ]の海[うみ]で泳[およ]ぎたいな。",

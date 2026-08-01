@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "H31",
   "class_name": "自然発生-強制-ナイデハオカナイ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "can't keep oneself from …ing"
       ],
       "usage_note": "Describes a reaction the subject is unable to suppress, almost always the speaker's own feeling or an act driven by it; the ずに variants are the everyday shape (する becomes せずにはいられない) and the ないでは variants are a little heavier, while the なんか・など・だって insertions add exasperation. Contrast the sibling ないではおかない, which is about what an event inevitably forces on someone else rather than what the speaker cannot resist.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "その手紙[てがみ]を読[よ]んで、涙[なみだ]をこぼさずにはいられなかった。",
@@ -41,6 +42,7 @@
         "will not rest until …"
       ],
       "usage_note": "Two readings share one form: with an event or a causative verb as subject, the thing inevitably provokes the result (この結末は読者を泣かせずにはおかない); with a human subject it is a hard vow not to let the matter rest. This is formal, written Japanese — commentary, criticism, courtroom-flavored prose — rather than conversation, and する becomes せずにはおかない. Where ずにはいられない reports a feeling the speaker cannot suppress, this pattern points outward at what will be inflicted or forced.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "この判決[はんけつ]は社会[しゃかい]に大[おお]きな議論[ぎろん]を呼[よ]ばずにはおかない。",

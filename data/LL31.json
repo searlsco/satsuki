@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "L31",
   "class_name": "放置-非実現-ナイデシマウ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "never get around to …"
       ],
       "usage_note": "Reports that an action ended up never happening, carrying the regret that しまう typically adds in this construction — elsewhere しまう can mark bare completion with no regret at all; unlike ないでおく (1481) nothing was intended, and unlike ないでいる (1471) the window has closed. In contemporary Japanese the frozen noun 〜ずじまい, built from the same ず + しまい, is far commoner than the finite verb, and 〜ないままになる is the neutral alternative. Be aware that 〜ずにしまう is easily read as the lexical 仕舞う \"put away\" (使わずにしまった), so the context has to force the aspectual reading.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "せっかくの休[やす]みなのに、どこにも出[で]かけないでしまった。",

@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "t23",
   "class_name": "逆接-確定-ニシテモ類",
   "tsutsuji_version": "1.1u",
@@ -6,26 +7,26 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
       "l2_id": "0882",
       "canonical_surface": "としたって",
       "glosses": [
-        "even if; even supposing",
-        "even assuming (that)"
+        "even granting that …",
+        "even taking … as true"
       ],
-      "usage_note": "Casual spoken contraction of としても (〜たって is the colloquial counterpart of 〜ても); it grants a supposition for the sake of argument, and the second clause typically brushes it aside as making no difference. Both take plain forms, but にしたって leans on nouns naming a real person or case, while としたって leans on a supposition — その噂が事実だとしたって (hypothetical) vs 部長にしたって (real case in point). Polite としましても is the same expression at higher register; としたところで is close but adds ところで's sense that the supposition would change nothing.",
+      "usage_note": "Casual spoken contraction of としても (〜たって is the colloquial counterpart of 〜ても); here it grants a claim already on the table and the second clause brushes it aside as making no difference. The 仮定 sibling supposes a scenario that has not come about (明日から始めるとしたって), while にしたって leans on nouns naming a real person or case (部長にしたって). Polite としましても is the same expression at higher register; としたところで is close but adds ところで's sense that the supposition would change nothing.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "いくら安[やす]いとしたって、三[みっ]つも買[か]うのは多[おお]すぎる。",
-          "english": "Even supposing they're cheap, buying three of them is too many."
+          "english": "Even granting they're cheap, buying three of them is too many."
         },
         {
-          "ruby": "明日[あした]晴[は]れるとしたって、この風[かぜ]では船[ふね]は出[で]ないよ。",
-          "english": "Even supposing it clears up tomorrow, the boats won't go out in this wind."
+          "ruby": "彼[かれ]の言[い]い分[ぶん]が正[ただ]しいとしたって、今[いま]さら計画[けいかく]は変[か]えられない。",
+          "english": "Even granting that his side of it is right, the plan can't be changed now."
         },
         {
           "ruby": "その噂[うわさ]が事実[じじつ]だとしたって、私[わたし]は驚[おどろ]かない。",
@@ -37,18 +38,19 @@
       "l2_id": "0892",
       "canonical_surface": "にしたって",
       "glosses": [
-        "even; even in the case of",
-        "even for (someone)"
+        "even X (an actual case in point)",
+        "granting X as it stands"
       ],
-      "usage_note": "Casual spoken contraction of にしても that most often names something real and grants it as an extreme or representative case (部長にしたって \"even the boss, for his part\"); with a plain verb it also works hypothetically, like にしても, and the following clause is usually negative or deflating. Polite にしましても is the same expression at higher register; にしたところで adds the sense that it would make no difference.",
+      "usage_note": "Casual spoken contraction of にしても attached to something real and already established — a person, an organization, a place — and granted as an extreme or representative case (部長にしたって \"even the boss, for his part\"); the following clause is usually negative or deflating. Where the 仮定 sibling supposes a case that has not come about (手伝うにしたって), this one starts from a fact. Polite にしましても is the same expression at higher register; にしたところで adds the sense that it would make no difference.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "部長[ぶちょう]にしたって、この状況[じょうきょう]は予想外[よそうがい]だっただろう。",
           "english": "Even the boss can't have seen this situation coming."
         },
         {
-          "ruby": "手伝[てつだ]うにしたって、道具[どうぐ]がなければ何[なに]もできない。",
-          "english": "Even if I pitch in, there's nothing I can do without the tools."
+          "ruby": "この駅[えき]にしたって、昔[むかし]は畑[はたけ]しかなかったそうだ。",
+          "english": "Even this station — there was nothing but fields here once, they say."
         },
         {
           "ruby": "一度[いちど]や二度[にど]失敗[しっぱい]したにしたって、諦[あきら]める必要[ひつよう]はないよ。",
@@ -63,7 +65,8 @@
         "even if (it would be pointless)",
         "no matter how much … , it's no use"
       ],
-      "usage_note": "Attaches to the ta-form (だとこで・だところで after the voiced sound changes of 五段 ガ・ナ・バ・マ行 verbs): the speaker frames the action as unrealized and futile, so the second clause carries a negative or a judgment like 無駄だ・意味がない rather than reporting a past fact. Unlike ものの, which concedes something that actually happened, たところで supposes an action that would change nothing, and it is cooler and more dismissive than ても. とこで is a very casual clip of ところで; the same clip also serves the unrelated temporal ところで (\"just as …\"), so the futility reading depends on a negative or dismissive second clause.",
+      "usage_note": "Attaches to the ta-form (だとこで・だところで after the voiced sound changes of 五段 ガ・ナ・バ・マ行 verbs): the speaker frames the action as futile, so the second clause carries a negative or a judgment like 無駄だ・意味がない rather than reporting a past fact. This entry typically names an effort actually being made or pressed for at the moment of speaking, where the 仮定 sibling entertains it as a bare supposition. Unlike ものの, which concedes something that actually happened, たところで supposes an action that would change nothing, and it is cooler and more dismissive than ても. とこで is a very casual clip of ところで; the same clip also serves the unrelated temporal ところで (\"just as …\"), so the futility reading depends on a negative or dismissive second clause.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "今[いま]から急[いそ]いだとこで、終電[しゅうでん]には間[ま]に合[あ]わないよ。",
@@ -74,8 +77,8 @@
           "english": "No matter how long you agonize over it, no answer is going to come."
         },
         {
-          "ruby": "今更[いまさら]練習[れんしゅう]したところで、優勝[ゆうしょう]には届[とど]かないよ。",
-          "english": "Practicing at this point isn't going to get us to the championship."
+          "ruby": "必死[ひっし]に頼[たの]んだとこで、あの人[ひと]の気[き]は変[か]わらないよ。",
+          "english": "You can beg all you like; that one isn't going to change her mind."
         }
       ]
     },
@@ -83,18 +86,19 @@
       "l2_id": "0932",
       "canonical_surface": "にしろ",
       "glosses": [
-        "even if; whether … or",
-        "granted that"
+        "granted that … , (still)",
+        "even though it was …"
       ],
-      "usage_note": "Concessive 「even if / whether or not」 that often signals the speaker's insistence that the main point stands regardless; it is commonly doubled as 〜にしろ〜にしろ to list alternatives, and it contrasts with にしたって, which grants one real case and deflates it. On the formality scale it sits between the stiffer, more written にせよ and the softer conversational にしても. Note that な-adjectives and nouns also take である before it in careful writing, and that the form is identical to the imperative of にする, so context decides.",
+      "usage_note": "Concessive にしろ used of something already established: you grant what actually happened and insist the main point stands regardless. It is commonly doubled as 〜にしろ〜にしろ to list alternatives, and it contrasts with the 仮定 sibling, which concedes a supposition not yet the case (値上げするにしろ). On the formality scale it sits between the stiffer, more written にせよ and the softer conversational にしても. Note that な-adjectives and nouns also take である before it in careful writing, and that the form is identical to the imperative of にする, so context decides.",
+      "human_verified": false,
       "examples": [
         {
-          "ruby": "冗談[じょうだん]にしろ、言[い]っていいことと悪[わる]いことがある。",
-          "english": "Even as a joke, there are things you say and things you don't."
+          "ruby": "本人[ほんにん]が忙[いそが]しかったにしろ、返事[へんじ]くらいはできたはずだ。",
+          "english": "Granted he was busy, he could at least have answered."
         },
         {
-          "ruby": "参加[さんか]するにしろ、事前[じぜん]に連絡[れんらく]だけはしてほしい。",
-          "english": "Even if you do take part, I'd like you to let us know beforehand."
+          "ruby": "短[みじか]い付[つ]き合[あ]いにしろ、彼[かれ]の人柄[ひとがら]はよく分[わ]かった。",
+          "english": "Short as our acquaintance was, I got a clear sense of the man."
         },
         {
           "ruby": "以前[いぜん]断[ことわ]られたにしろ、頼[たの]み直[なお]す価値[かち]はあると思[おも]う。",

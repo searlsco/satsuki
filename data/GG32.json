@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "G32",
   "class_name": "意志-計画-マデ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "I'll just …, that's all"
       ],
       "usage_note": "After a dictionary-form verb, 〜までだ／〜までのことだ states a fallback the speaker is calm about: if the preferred route fails, they will simply do this instead, so it usually follows a conditional clause. 〜までのことだ is the emphatic variant. Unlike 〜つもりだ, which reports a plan formed in advance, 〜までだ announces the option left over when the preferred route closes. Do not confuse it with the ta-form 〜たまでだ, which downplays a past act as having no motive beyond the obvious ('I only answered because I was asked').",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "駄目[だめ]なら、また一[いち]からやり直[なお]すまでだ。",

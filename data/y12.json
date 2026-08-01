@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "y12",
   "class_name": "否定-強い表現-ダイ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "no need to …"
       ],
       "usage_note": "A stiff, written dismissal: the action named is not worth the trouble, so the thing is beneath notice. It is the negative of 〜に足る／に足りる ('worthy of') — 足りる the modern ichidan verb, 足る the older godan one, so に足らない reads more classical — and it is heavily idiomatic, clustering around 取る, 驚く, 恐れる and 信頼する rather than being used freely; it also attaches to a bare noun (信頼に足りない, 恐れるに足らぬ相手), though the verb-plus-に shape is by far the commoner one. The は is optional and emphatic (驚くには足りない); note that with a plain noun subject 〜には足りない usually reads as plain insufficiency ('not enough for'), so the 'not worth' sense lives on the verb-plus-に(は)足りない frame.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "根[ね]も葉[は]もない噂[うわさ]など、取[と]り上[あ]げるに足[た]りない。",
@@ -38,22 +39,24 @@
       "l2_id": "2522",
       "canonical_surface": "だい",
       "glosses": [
-        "…, eh?",
-        "…, then?; …, is it?"
+        "… , my foot!",
+        "some … he is!",
+        "what's so … about it?"
       ],
-      "usage_note": "The plain-style question ending for noun and na-adjective predicates — だ plus い — paired with かい, which does the same job after verbs and i-adjectives. It is casual and traditionally masculine, and modern learners meet it mostly in fiction dialogue and in the speech of older men. A verb needs a nominalizing ん first (どこへ行くんだい), and with a question word plus an obvious answer the whole question flips into a brush-off that denies rather than asks (何が面白いんだい = 'nothing about this is funny').",
+      "usage_note": "Rhetorical (反語) だい: question in form, flat denial in force. It is triggered by 何が or どこが plus the very label the speaker rejects — 何が名医だい means 'he is no great doctor', not a request for information — and the intonation falls instead of rising. Keep it apart from its two homophone siblings: the plain wh-question だい (l2 2521, 誰だい, いつだい) genuinely asks and takes 誰／いつ／どこへ, while the assertive だい (l2 2523, 嘘だい) makes a bare statement with no question word at all. Like them it is だ plus the emphatic 終助詞 い, so it sits on a noun (a verb needs explanatory ん first: 何が面白いんだい), and it is brusque, masculine, mostly fiction dialogue and hot-tempered speech.",
+      "human_verified": false,
       "examples": [
         {
-          "ruby": "その手紙[てがみ]を書[か]いたのは、いったい誰[だれ]だい。",
-          "english": "So who on earth wrote that letter?"
+          "ruby": "何[なに]が名医[めいい]だい、風邪[かぜ]一[ひと]つ治[なお]せないくせに。",
+          "english": "Some great doctor — he can't even cure a cold."
         },
         {
-          "ruby": "明日[あした]の待[ま]ち合[あ]わせは何時[なんじ]だい。",
-          "english": "What time are we meeting tomorrow, then?"
+          "ruby": "どこが親友[しんゆう]だい、困[こま]った時[とき]に知[し]らんぷりして。",
+          "english": "Best friend, my foot — you look the other way the moment I'm in trouble."
         },
         {
-          "ruby": "こんな雨[あめ]の中[なか]を出[で]かけてきて、何[なん]の用[よう]だい。",
-          "english": "Heading out in rain like this — what's so urgent?"
+          "ruby": "この絵[え]の何[なに]が傑作[けっさく]だい、ただの落書[らくが]きだ。",
+          "english": "What's supposed to be a masterpiece about this painting? It's a scribble."
         }
       ]
     },
@@ -66,6 +69,7 @@
         "could it be that …?"
       ],
       "usage_note": "A question aimed as much at oneself as at the listener, so it turns a claim into open musing; でしょうか is its polite twin and doubles as a deferential way to put a question to someone else. Around an obvious answer it works rhetorically and amounts to a flat denial (そんなことがあるだろうか), while 〜ないだろうか adds a hopeful tilt ('might it not be …?'). It attaches straight to plain forms, and after a noun or na-adjective no だ intervenes.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "これは本当[ほんとう]に彼[かれ]一人[ひとり]の責任[せきにん]だろうか。",

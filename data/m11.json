@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "m11",
   "class_name": "限定-そのもの-ニカギッテ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "of all times, just when …"
       ],
       "usage_note": "Two jobs share one form. In announcements and signage the polite に限り and に限って simply fence something off as the sole case that qualifies (本日に限り, 会員の方に限り); before a noun this becomes 〜に限っての (本日に限っての特別価格, 今回に限っての措置). に限り fences a case off as the qualifying condition in official notices, where だけ and のみ merely count; and unlike だけ, に限って carries the exasperated on-that-one-occasion reading, naming the single time things perversely go wrong. A matching variant, 〜に限って〜ない, voices the speaker's refusal to believe ill of someone they trust; it states conviction rather than fact, and the うちの子に限って speaker is famously often wrong. It attaches to a noun, so a time span needs a noun head like 日 or 時 to hang on.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "本日[ほんじつ]に限[かぎ]っての特別価格[とくべつかかく]ですので、お早[はや]めにどうぞ。",

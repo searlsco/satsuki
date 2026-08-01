@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "l51",
   "class_name": "強調-一応-コトハ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "admittedly …"
       ],
       "usage_note": "A concessive frame built by repeating the predicate around it: 読むことは読んだ, 安いことは安い. The first copy is usually plain non-past, though it may also copy the past tense (読んだことは読んだが); the second copy always carries the tense and politeness that count, and a が or けど with the speaker's real point almost always follows — leaving it unsaid is possible but sounds pointedly reluctant. It grants the minimum the other side asked for and no more, which makes it common in hedged answers; the evaluative ことに (嬉しいことに) is a different animal entirely.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "読[よ]むことは読[よ]んだが、内容[ないよう]はほとんど覚[おぼ]えていない。",

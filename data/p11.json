@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "p11",
   "class_name": "継起-般-タスエニ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "as the upshot of …"
       ],
       "usage_note": "Marks a drawn-out process — deliberating, struggling, negotiating — and then the outcome it finally arrived at, so it pairs naturally with 長い間, 何度も, さんざん. The interest is in the process, and the outcome itself may be good, bad, or neutral, which is exactly what separates it from 〜たあげく, whose result is virtually always unwelcome. It reads a shade formal; 〜た末に is the adverbial shape, 〜た末の modifies a noun.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "三時間[さんじかん]も話[はな]し合[あ]った末[すえ]に、計画[けいかく]は白紙[はくし]に戻[もど]った。",
@@ -43,6 +44,7 @@
         "having gone to all the trouble of …"
       ],
       "usage_note": "Like 〜た末に it sums up a long or troublesome process, but the speaker is passing judgment: the result is disappointing, wasteful, or worse, so it does not take a happy ending (三年頑張ったあげく合格した is odd; 末に is what you want there). That evaluative charge also keeps it away from purely objective or natural events. 挙げ句 is the closing verse of a linked poem, hence \"what it all finally came to\".",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "さんざん値切[ねぎ]ったあげく、彼[かれ]は何[なに]も買[か]わずに帰[かえ]った。",

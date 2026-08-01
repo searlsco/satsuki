@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "l61",
   "class_name": "強調-比喩-トバカリニ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "with an air of (saying) …"
       ],
       "usage_note": "Quotative と plus ばかり: the quoted words are usually not actually spoken, they are what the person's manner broadcasts, though a real shout or interjection can occupy the same slot. That makes it a description of behavior watched from the outside, at home in narration and vivid description rather than casual chat. 〜んばかり is close kin: with 言う it produces 言わんばかり, all but interchangeable with とばかりに. The difference is that んばかり attaches to a verb stem and says the action itself was on the brink, so it also covers non-speech verbs (泣かんばかり, 割れんばかり) where とばかりに cannot go. It very often follows imperatives and sentence-final particles (早く帰れとばかりに, ここぞとばかりに, これでもかとばかりに).",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "待[ま]ってましたとばかりに、子供[こども]たちが庭[にわ]に飛[と]び出[だ]した。",

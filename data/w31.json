@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "w31",
   "class_name": "感嘆-確認-ネ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "…, don't you think?"
       ],
       "usage_note": "Confirmation-seeking ね hands the proposition to the listener for a nod: a shared observation, a fact being checked, an assertion softened. Rising ね genuinely asks, while falling ね simply invites the listener to feel the same way about something you both perceive. Unlike な, which is turned inward and works with nobody listening, ね presupposes a hearer, and unlike よ it does not deliver news the listener lacks.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "昨日[きのう]と違[ちが]って、今日[きょう]はずいぶん風[かぜ]が強[つよ]いね。",

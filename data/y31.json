@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "y31",
   "class_name": "否定-不満-ガナ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "come on, …"
       ],
       "usage_note": "A sentence-final particle of Kansai and other western dialects, tacked onto plain forms to push back at the listener: the speaker is irritated that the hearer has missed something obvious or is making him repeat himself. It is spoken language and appears in writing mainly as dialogue; standard-Japanese equivalents are 〜じゃないか and 〜だろ. After a noun or na-adjective it rides on the Kansai copula や, so the shape is 〜やがな rather than 〜だがな. Do not confuse it with the archaic optative 〜もがな, which is a separate construction.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "それくらいのこと、自分[じぶん]でできるがな。",
@@ -41,6 +42,7 @@
         "as for … (exasperated)"
       ],
       "usage_note": "Takes a bare noun, typically a person or thing in the speaker's own orbit, and sets it up as a topic the speaker is about to complain about; the following clause is almost always a negative evaluation. It is far more emotive than plain は or 〜については. The pattern has no polite variant: it stays 〜ときたら even in otherwise polite speech, because the complaint itself is a lapse into familiarity. Where がな vents at the listener, ときたら vents about someone or something not present.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "うちの部長[ぶちょう]ときたら、人[ひと]の話[はなし]を全然[ぜんぜん]聞[き]かない。",

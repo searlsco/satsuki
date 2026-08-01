@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "G21",
   "class_name": "意志-決定-コトニスル類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "did decide to …, though"
       ],
       "usage_note": "〜ことにする marks a decision the speaker makes for themselves (contrast 〜ことになる, a decision that comes down from outside), and the inserted は sets that decision against a reservation, so a clause like が・ものの・けれど almost always follows. Pick it over 〜ようにする (1871) when the point is the one-off resolution itself rather than sustained effort. Takes the dictionary or ない form of the verb (行かないことにした); 〜ことにしている shifts the same verb to a standing practice.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "参加[さんか]することにはしたが、気[き]が進[すす]まない。",
@@ -41,6 +42,7 @@
         "make a point of …, for what it's worth"
       ],
       "usage_note": "〜ようにする is about ongoing effort or arrangement — steering yourself toward a habit — whereas its sibling 〜ことにする (1861) reports a decision already taken; 〜ようにしている describes the habit as established. ようにゃ is a colloquial squeeze of ようには, so it carries the same concessive flavour as ことにはし; the contracted にゃ is heavily colloquial and reads as rough or old-fashioned speech, and the uncontracted ようには is the form learners should produce. The dictionary-form attachment means a negative goes on the verb (食べないようにする), not on する.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "早[はや]く返事[へんじ]をするようにゃしてるんだが、つい遅[おく]れる。",

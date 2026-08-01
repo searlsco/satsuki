@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "l41",
   "class_name": "強調-副詞の強調-ノコトデ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "barely; only just"
       ],
       "usage_note": "A booster welded onto an adverb of eventual attainment: やっとのことで says that the thing was managed only after a real struggle, and is far more vivid than a bare やっと. In practice the adverb is almost always やっと — ようやくのことで turns up in native prose but is rare — so treat this as a near-fixed phrase rather than a productive slot. The で drops before a copula (〜のはやっとのことだった), and the whole expression suits narration and lively speech alike.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "大雨[おおあめ]の中[なか]、やっとのことで最終[さいしゅう]バスに間[ま]に合[あ]った。",

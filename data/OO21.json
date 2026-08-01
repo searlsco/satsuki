@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "O21",
   "class_name": "主体-場所-デ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "(before a noun) …'s; made/held by — 委員会での決定 \"the committee's decision\""
       ],
       "usage_note": "Agentive で names a place, body or set of people as the one acting, not the site of the action: 警察で調べる means the police are doing the investigating. The usual test is that swapping in が leaves the meaning intact. It attaches to nouns denoting organizations or groupings (会社, 委員会, みんな, 二人), and before a noun it appears as での (委員会での決定).",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "その件[けん]は警察[けいさつ]で調[しら]べているそうだ。",

@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "y41",
   "class_name": "否定-般-ナイ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "it doesn't mean that …"
       ],
       "usage_note": "Partial negation: it denies a conclusion the listener might reasonably have drawn rather than the fact itself, so it typically heads off a misunderstanding. わけではない is the stiffer written variant and わけじゃない the spoken one, while わけでもない softens further to \"not exactly\". It attaches adnominally (plain forms; な after a na-adjective; nouns normally take という, as in 学生というわけではない); keep it distinct from わけがない, which denies possibility outright. Unlike 〜とは限らない, which denies that a claim holds in every case, わけではない denies one specific inference the listener has drawn.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "この仕事[しごと]が特別[とくべつ]つらいわけじゃないが、朝[あさ]が早[はや]すぎる。",
@@ -41,6 +42,7 @@
         "don't"
       ],
       "usage_note": "The everyday plain negative auxiliary: 未然形 plus ない for verbs (する becomes しない, 来る becomes こない), く plus ない for i-adjectives. ある is suppletive, its negative being simply ない. Polite speech normally uses 〜ません, with 〜ないです common but casual. The ず/ぬ series is the stiff written counterpart of the same meaning.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "弟[おとうと]は今日[きょう]も部屋[へや]から出[で]てこない。",
@@ -64,6 +66,7 @@
         "have to … (…ねばならない)"
       ],
       "usage_note": "The classical negative ぬ, surviving in modern Japanese as adverbial ず (\"without …ing\"), prenominal ぬ, the casual contraction ん, and the 仮定形 ね, which survives only in 〜ねばならない/〜ねばなるまい. It attaches to 未然形, with する irregularly becoming せ (せず, せねば). ず and ぬ read as formal or literary and ん as colloquial with a strong western-dialect flavor, whereas ない is the neutral everyday choice.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "何[なん]の準備[じゅんび]もせずに本番[ほんばん]を迎[むか]えてしまった。",

@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "b11",
   "class_name": "対象-関連-ニツイテ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "regarding; on (the subject of)"
       ],
       "usage_note": "The everyday way to name what is being talked, asked, written or thought about; neutral enough for both conversation and formal prose. Compared with に関して it typically takes up that one topic rather than the matters around it. The adnominal についての is far less common than plain について; when a noun has to follow, writers often reach for に関する instead. Keep it apart from に対して, which points an action at a target instead of naming a subject.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "来週[らいしゅう]の遠足[えんそく]について、先生[せんせい]から説明[せつめい]があった。",
@@ -41,6 +42,7 @@
         "with respect to; in connection with"
       ],
       "usage_note": "The formal sibling of について, at home in news copy, papers, notices and business correspondence, and it readily lets the discussion spread to matters connected with the topic rather than the topic alone. When a noun follows, に関する is far more usual than に関しての, while the clipped に関し belongs to written notices and statutes. It attaches to a noun, so a clause has to be nominalized (〜ことに関して), though an embedded question can attach directly (〜かに関して).",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "個人情報[こじんじょうほう]の管理[かんり]に関[かん]して、社内規定[しゃないきてい]を見直[みなお]す。",

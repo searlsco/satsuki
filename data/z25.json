@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "z25",
   "class_name": "願望-働きかけ-テハドウ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "how about …ing?"
       ],
       "usage_note": "Sentence-final ては/では is 〜てはどう(ですか) with the どう clipped off: a soft nudge aimed at the listener. The て voices to で after ナ・バ・マ-row godan verbs, whose stem ends in ん (休んでは, 死んでは, 遊んでは), and after ガ-row verbs, whose stem takes イ音便 (泳いでは). It feels gentler and a shade more formal than the sibling たら, but it still tells the listener what to do, so it is typically kept for equals and juniors. Clipping どう lowers the politeness of the whole utterance, so the ては/たら contrast only ranks these two against each other; anything aimed upward needs the full 〜てはいかがでしょうか. The same shape is also the ordinary conditional/repetitive ては ('if …' / 'every time …'); only the clause-final position gives the suggestion reading, and it is normally said on a rising or trailing intonation, written 〜ては… or 〜ては？",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "顔色[かおいろ]が悪[わる]いから今日[きょう]は少[すこ]し休[やす]んでは。",
@@ -41,6 +42,7 @@
         "how about …ing?"
       ],
       "usage_note": "Clipped 〜たらどう(ですか). The た voices to だ after ナ・バ・マ-row godan verbs, whose stem ends in ん (選んだら, 読んだら, 死んだら), and after ガ-row verbs via イ音便 (泳いだら). It is the everyday spoken counterpart of ては: blunter and more familiar, and with そんなに or 文句ばかり it easily carries impatience — 'just go do it already' — so it is usually avoided toward superiors. Note that the identical shape is far more often the plain conditional たら; the suggestion reading depends on the clause being final.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "迷[まよ]っているなら店員[てんいん]さんに頼[たの]んだら。",
@@ -64,6 +66,7 @@
         "why don't you …?"
       ],
       "usage_note": "The unclipped suggestion: 〜てはどう / 〜たらどう, optionally rounded off with か, かな, ですか, でしょうか. てはどう sounds a little more measured and considered, たらどう more everyday; the contracted じゃどう and ちゃどう belong to fast casual speech and are rare in writing. Politeness endings raise the tone, but because the pattern still directs the listener's behavior, speakers generally switch to いかが when addressing a customer or a superior.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "昼[ひる]は駅前[えきまえ]の新[あたら]しい店[みせ]に入[はい]ってみてはどうか。",
@@ -88,6 +91,7 @@
         "might you consider …ing?"
       ],
       "usage_note": "The polite face of じゃどう, with いかが in place of どう. 〜てはいかがでしょうか is the standard shape for shop, service, and business suggestions, and it is the form to reach for when どう would be too blunt upward. たらいかが and the contracted じゃいかが / ちゃいかが are spoken, somewhat old-fashioned, and often heard in feminine speech; stripped of でしょうか they can still land as presumptuous toward a genuine superior.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "よろしければこちらの色[いろ]もお試[ため]しになってはいかがでしょうか。",

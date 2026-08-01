@@ -37,6 +37,15 @@ of the value).
    Every "revise" verdict must carry a directly applicable fix.
 4. **Apply and re-gate**: fixes are applied and the mechanical gate runs
    again. Only an all-clear batch lands in `data/`.
+5. **Cross-class disambiguation**: batching is per class, but Tsutsuji
+   files the same surface under multiple classes when it has different
+   senses (をもって as instrument vs standard), and those senses land in
+   different batches with authors blind to each other. A final pass
+   groups every same-surface family (canonical surfaces normalized for
+   the adnominal の), one agent per file-disjoint group, to sharpen
+   glosses/notes into explicit contrasts and replace any example that
+   exemplifies a sibling sense. In the v1 run this changed 36 of 62
+   families.
 
 ## Design choices worth knowing
 
@@ -50,8 +59,8 @@ of the value).
   misdirected sibling comparisons. The reviewer fact-checks every
   "never/only/cannot".
 - **Provenance over trust.** Each data file records pipeline version,
-  models, and date, and carries `human_verified: false` until a human
-  signs off. "Re-review everything authored by model X under pipeline v1"
+  models, and date; each pattern carries `human_verified: false` until a
+  human signs off on it. "Re-review everything authored by model X under pipeline v1"
   is meant to be a mechanical operation forever.
 
 ## Known limitations

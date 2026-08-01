@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "B31",
   "class_name": "過去-事後-タトコロ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "just this moment (did)"
       ],
       "usage_note": "〜たところ pins the instant right after an action ends, and the interval really has to be short, so it resists 三日前に-type past adverbs that 〜たばかり accepts happily. It also does not modify a noun: ×買ったところの服 against ○買ったばかりの服. Use 〜ていたところ instead when the action was still under way; とこ is the casual clipping of ところ.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "今[いま]ちょうど駅[えき]に着[つ]いたところです。",
@@ -41,6 +42,7 @@
         "was in the middle of …ing"
       ],
       "usage_note": "〜ていたところ freezes an action that was still in progress, typically at the point where something interrupts it, or to announce that you were on the verge of doing the very thing being asked about. Compare 〜たところ, which is the moment just after the action finished, and 〜たばかり, which is about how recent something feels. てた/でた is the everyday contraction of ていた/でいた.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "ちょうど君[きみ]に連絡[れんらく]しようと思[おも]っていたところだ。",
@@ -63,6 +65,7 @@
         "just (did); only just"
       ],
       "usage_note": "〜たばかり expresses the speaker's sense that something is still fresh, so unlike 〜たところ it survives a real stretch of elapsed time (三年前に建ったばかりのビル) and it can modify a noun directly (買ったばかりの車). ばっかり is the emphatic colloquial form of ばかり. Read it as 'only just', not as the limiting 'nothing but' sense that ばかり has after a noun.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "この町[まち]には先月[せんげつ]引[ひ]っ越[こ]してきたばかりです。",

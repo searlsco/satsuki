@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "g11",
   "class_name": "基準-基準-ヲモッテ類",
   "tsutsuji_version": "1.1u",
@@ -6,22 +7,22 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
       "l2_id": "0063",
       "canonical_surface": "をもっての",
       "glosses": [
-        "with; by means of",
-        "by (using)"
+        "on the basis of; by the standard of",
+        "with (a quality brought to bear)"
       ],
-      "usage_note": "The formal, written member of this group, at home in notices, contracts, and ceremonial speech, where it presents the means as the authoritative one. It descends from をもちて (持つ), it also fronts an attitude or quality brought to bear (誠意をもって, 責任をもって), and it carries a separate deadline sense ('as of', 本日をもって閉店) that has nothing to do with means. でもって is its emphatic everyday counterpart and plain で the neutral one.",
+      "usage_note": "The standard-marking member: it names the criterion a judgment rests on (所定の基準をもって) or the quality the actor brings to bear (誠意をもって, 責任をもって), presenting it as the authoritative measure. Where the sibling instrumental entry names the medium an act travels through (書面をもって知らせる), this one names what the act is measured by. It descends from をもちて (持つ), is at home in notices, contracts, and ceremonial speech, and carries a separate deadline sense ('as of', 本日をもって閉店) that has nothing to do with either. でもって is its emphatic everyday counterpart and plain で the neutral one.",
+      "human_verified": false,
       "examples": [
         {
-          "ruby": "選考[せんこう]の結果[けっか]は書面[しょめん]をもってお知[し]らせします。",
-          "english": "The results of the selection will be communicated in writing."
+          "ruby": "合否[ごうひ]は所定[しょてい]の基準[きじゅん]をもって判定[はんてい]いたします。",
+          "english": "Pass or fail is determined against the prescribed standard."
         },
         {
           "ruby": "全[すべ]ての手続[てつづ]きは電子[でんし]署名[しょめい]をもって完了[かんりょう]する。",
@@ -41,6 +42,7 @@
         "using (emphatic)"
       ],
       "usage_note": "An emphatic expansion of the particle で that puts extra weight on the instrument or resource being used; it is at home in speech and relaxed writing rather than in official notices, where をもって is the expected choice. Learners should keep it apart from the sentence-initial conversational connective でもって ('and then'), which is a different animal.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "その問題[もんだい]は結局[けっきょく]お金[かね]でもって解決[かいけつ]した。",
@@ -60,18 +62,19 @@
       "l2_id": "0341",
       "canonical_surface": "での",
       "glosses": [
-        "with; by; using",
-        "by means of"
+        "by; via (a medium or route)",
+        "using (a channel)"
       ],
-      "usage_note": "The plain, unmarked way to name the means or instrument of an action, and the everyday default against which をもって sounds formal and でもって sounds emphatic. Before a noun it takes the form での (電話での連絡), which is why the dictionary form of the pattern is listed that way.",
+      "usage_note": "The plain, unmarked way to name the medium or route by which something is done or delivered — メールで, 窓口で, バスで — and the everyday default against which をもって sounds formal and でもって sounds emphatic. Concrete tools and materials (筆で書く, 布で作る) sit with the sibling instrumental entry. Before a noun it takes the form での (電話での連絡), which is why the dictionary form of the pattern is listed that way.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "詳[くわ]しい内容[ないよう]はメールでのご案内[あんない]となります。",
           "english": "We'll send you the details by email."
         },
         {
-          "ruby": "味噌汁[みそしる]の出汁[だし]は昆布[こんぶ]で取[と]る。",
-          "english": "We make the stock for the miso soup with kelp."
+          "ruby": "申[もう]し込[こ]みは窓口[まどぐち]での受付[うけつけ]のみとなります。",
+          "english": "Applications are taken over the counter only."
         },
         {
           "ruby": "学校[がっこう]までは毎日[まいにち]バスで通[かよ]っている。",

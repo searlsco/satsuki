@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "l21",
   "class_name": "強調-全面的-トシテ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "not one …"
       ],
       "usage_note": "This emphatic として rides on a minimal-unit phrase — 一つ, 一人, 一度, 一日, 一点 — and is answered later in the sentence by a negative predicate; it is the stronger, stiffer relative of 一つも〜ない and belongs to careful written or formal spoken Japanese. With an interrogative in front (誰一人として, 何一つとして) the として may simply be dropped without changing the meaning, only the force. Keep it apart from the role-marking として of 医者として and from the concessive にしても, which needs neither a counter nor a negative.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "その場[ば]にいた誰[だれ]一人[ひとり]として、口[くち]を開[ひら]かなかった。",
@@ -37,23 +38,23 @@
       "l2_id": "0893",
       "canonical_surface": "にしたって",
       "glosses": [
-        "even …",
-        "… is no different",
-        "no matter …"
+        "no matter who/what …",
+        "any … , without exception"
       ],
-      "usage_note": "The colloquial contraction of にしても (the same 〜ても → 〜たって shift as 行っても → 行ったって), and a near-neighbour of the heavier にしたところで: it concedes that the noun in front is no exception to whatever is being said (僕にしたって = \"even I\"), and with an interrogative (誰にしたって, どこにしたって) it generalizes over every case. The realizations line up by register — にしたって in relaxed speech, にしても as the neutral default, にしましても in polite address — so a written report would normally take にしても. Unlike the total-negation として it needs no counter word and pairs freely with affirmative predicates.",
+      "usage_note": "The colloquial contraction of にしても, and in this emphatic use it rides on an interrogative — 誰にしたって, 何にしたって, どこにしたって — sweeping in every case at once ('whoever it is, all the same'). The realizations line up by register — にしたって in relaxed speech, にしても as the neutral default, にしましても in polite address — so a written report would normally take にしても. When it singles out one particular person or case instead ('even the boss, for his part'), that is the concessive siblings' job, not this total-scope one. Unlike the total-negation として it needs no counter word and pairs freely with affirmative predicates.",
+      "human_verified": false,
       "examples": [
-        {
-          "ruby": "僕[ぼく]にしたって、好[す]きでやっているわけじゃない。",
-          "english": "It's not as if I'm doing this because I enjoy it, you know."
-        },
         {
           "ruby": "誰[だれ]にしたって、あんな言[い]い方[かた]をされたら腹[はら]が立[た]つ。",
           "english": "Anyone would be furious if they were spoken to like that."
         },
         {
-          "ruby": "値段[ねだん]にしたって、去年[きょねん]より千円[せんえん]も上[あ]がっている。",
-          "english": "The price, too, is a good thousand yen higher than last year."
+          "ruby": "どこにしたって、住[す]めば都[みやこ]というものだよ。",
+          "english": "Wherever you end up, you grow into the place — that's how it works."
+        },
+        {
+          "ruby": "何[なに]にしたって、始[はじ]めるのが早[はや]いに越[こ]したことはない。",
+          "english": "Whatever it is, the sooner you get started the better."
         }
       ]
     }

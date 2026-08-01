@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "B32",
   "class_name": "過去-事後-テアル類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "is already taken care of"
       ],
       "usage_note": "Attaches to the te-form of what is almost always a transitive verb and reports the lingering result of something a person did on purpose, very often a preparation made in advance; the doer usually goes unmentioned, and the affected thing is marked が／は when the sentence describes the resulting state (窓が開けてある), and を when it reports the speaker's own advance preparation (切符はもう買ってある／切符をもう買ってある). Inserting a particle, as the headword てはある／てもある／てさえある does, turns the same frame into a concession or a point of emphasis. Contrast intransitive + ている (窓が開いている, a bare state) with transitive + てある (窓が開けてある, a state someone arranged).",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "会議用[かいぎよう]の資料[しりょう]は机[つくえ]の上[うえ]に置[お]いてある。",

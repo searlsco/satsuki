@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "e11",
   "class_name": "起点-極端例-ヲハジメトシテ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "including … foremost"
       ],
       "usage_note": "Names the leading or most representative member of a set and implies that the rest of the set follows, so the noun it marks should genuinely rank first in prominence — headline city, head of the organization, flagship product. Register is written and ceremonial (speeches, news copy, company announcements); をはじめとしまして is the polite variant and the clipped をはじめ is by far the most common shape in ordinary speech and writing. Sibling など merely offers a sample and can sound offhand, whereas をはじめとして explicitly ranks.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "校長[こうちょう]をはじめとして、先生[せんせい]方[がた]が壇上[だんじょう]に並[なら]んだ。",
@@ -43,6 +44,7 @@
         "things like"
       ],
       "usage_note": "Offers a non-exhaustive sample rather than a ranked one: the item named is representative, and the listener is meant to infer that comparable things belong too. It attaches to nouns, to dictionary-form verbs and i-adjectives, and to だ/た, and it also does duty as a softener — 私[わたし]などには and お茶[ちゃ]などいかがですか lower the profile of what is named, out of modesty or politeness, and with a negative predicate it turns dismissive (謝[あやま]る気[き]など ない). なんか and なんて are its colloquial descendants, the first casual, the second coloured by surprise or scorn.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "休[やす]みの日[ひ]はパンやジャムなどを買[か]いに行[い]く。",

@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "r31",
   "class_name": "順接-確定-タラ類",
   "tsutsuji_version": "1.1u",
@@ -6,30 +7,30 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
       "l2_id": "0592",
       "canonical_surface": "と",
       "glosses": [
-        "when; whenever",
-        "as soon as; and then"
+        "when I did …, (I found that) …",
+        "as soon as …, … (and then)"
       ],
-      "usage_note": "Attaches to the plain non-past and presents the second event as following automatically whenever the first holds: natural law, machine operation, habit, or a one-off discovery told in narration. Because the link is presented as automatic, the main clause normally cannot be a command, request, invitation, or a statement of the speaker's own intention; use たら or ば for those. What と buys in exchange is inevitability: it is chosen precisely when the speaker wants the second event to sound automatic rather than chosen. Compare だら/たら (0701), which frames one concrete occasion rather than a standing regularity.",
+      "usage_note": "The same と used of a condition actually met: a plain non-past clause reports an event that did happen, and the past main clause tells what the speaker then found or what followed on its heels (角を曲がると海が見えた). Because the second event is presented as automatic, the main clause normally cannot be a command, request, invitation, or a statement of the speaker's own intention; use たら or ば for those. Sibling 0591 is the hypothetical and habitual と, a standing rule with a non-past main clause, while だら/たら (0701) frames one concrete occasion and freely allows a request or an intention afterwards.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "窓[まど]を開[あ]けると冷[つめ]たい風[かぜ]が入[はい]ってきた。",
           "english": "The moment I opened the window, a cold draft blew in."
         },
         {
-          "ruby": "このボタンを押[お]すと切符[きっぷ]が出[で]てきます。",
-          "english": "Press this button and your ticket comes out."
+          "ruby": "玄関[げんかん]を出[で]ると、隣[となり]の猫[ねこ]が座[すわ]っていた。",
+          "english": "When I stepped out the front door, the neighbor's cat was sitting there."
         },
         {
-          "ruby": "弟[おとうと]は緊張[きんちょう]すると急[きゅう]に早口[はやくち]になってしまう。",
-          "english": "Whenever my little brother gets nervous, he suddenly starts talking a mile a minute."
+          "ruby": "祖母[そぼ]は私[わたし]の顔[かお]を見[み]ると、急[きゅう]に泣[な]き出[だ]した。",
+          "english": "The moment my grandmother saw my face, she burst into tears."
         }
       ]
     },
@@ -37,10 +38,11 @@
       "l2_id": "0612",
       "canonical_surface": "とすると",
       "glosses": [
-        "supposing that; assuming that",
-        "if that is the case, then"
+        "if that is so, then …",
+        "given that …, it follows that …"
       ],
-      "usage_note": "Follows the plain non-past (including the copula だ) and frames what precedes as a supposition, with the main clause stating the conclusion the speaker deduces from it. Next to its siblings it sounds the most objective: としたら is the freest with remote or counterfactual suppositions and with questions and wishes in the main clause, とすれば leans toward the speaker's evaluation, while とすると reads as \"then it follows that…\". The polite form is としますと; there is no colloquial contraction of this member (とすりゃ belongs to とすれば).",
+      "usage_note": "Takes what has just been established or claimed and treats it as fact, with the main clause stating the conclusion the speaker deduces from it: \"if that's really the case, then…\". Next to its siblings it sounds the most objective: としたら is the freest with remote or counterfactual suppositions and with questions and wishes in the main clause, とすれば leans toward the speaker's evaluation. It follows the plain non-past (including the copula だ); the polite form is としますと, and there is no colloquial contraction of this member (とすりゃ belongs to とすれば). Sibling 0611 is the same string used to float a supposition the speaker is only entertaining.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "彼[かれ]が犯人[はんにん]だとすると動機[どうき]が説明[せつめい]できない。",
@@ -51,8 +53,8 @@
           "english": "Assuming we leave now, we won't get there until after nine."
         },
         {
-          "ruby": "全員[ぜんいん]が来[く]るとすると椅子[いす]が足[た]りなくなる。",
-          "english": "Supposing everyone shows up, we're going to run short of chairs."
+          "ruby": "この記録[きろく]が正[ただ]しいとすると、彼[かれ]の話[はなし]と食[く]い違[ちが]う。",
+          "english": "If this record is accurate, then it contradicts his account."
         }
       ]
     },
@@ -63,7 +65,8 @@
         "with … like this; given that …",
         "if it's …, then …"
       ],
-      "usage_note": "Colloquial contraction of では/ては that takes an existing state of affairs as sufficient grounds for a conclusion, which is almost always an undesirable one: \"things being this way, it's no good.\" It is the branch of ては that attaches to nouns (この雨じゃ) and to i-adjectives in the くて form (こう暑くちゃ) as well as to verbs, and it pairs naturally with こう/この pointing at the present situation. The sibling ては of 0623 instead targets an action someone performs; because the consequent here is a negative assessment, requests and invitations rarely follow.",
+      "usage_note": "Colloquial contraction of では/ては that takes an existing state of affairs as sufficient grounds for a conclusion, which is almost always an undesirable one: \"things being this way, it's no good.\" It is the branch of ては that attaches to nouns (この雨じゃ) and to i-adjectives in the くて form (こう暑くちゃ) as well as to verbs, and it pairs naturally with こう/この pointing at the present situation. Sibling 0621 supposes a condition instead of pointing at one, and the ては of 0623 targets an action someone performs; because the consequent here is a negative assessment, requests and invitations rarely follow.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "この雨[あめ]じゃ花火[はなび]大会[たいかい]は中止[ちゅうし]だろうね。",
@@ -87,6 +90,7 @@
         "once …; after …"
       ],
       "usage_note": "The all-purpose conditional, formed on the ta-stem (読んだら, 起きたら, 高かったら); だら appears wherever the plain past is voiced: after む/ぶ/ぬ godan verbs (読んだら, 遊[あそ]んだら, 死[し]んだら) and after ぐ godan verbs (泳[およ]いだら). It typically sets up one concrete occasion rather than a standing rule, and unlike と (0592) it freely allows a request, command, invitation, or the speaker's own intention in the main clause. With a past main clause it loses the conditional sense and reports what was found on doing something.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "駅[えき]に着[つ]いたら電話[でんわ]してください。",
@@ -110,6 +114,7 @@
         "when you try …, it turns out …"
       ],
       "usage_note": "Built on てみる \"do something and see,\" so it marks the preceding action as the occasion of a discovery and the main clause reports what came to light; the main clause is therefore usually past tense and usually something the speaker did not expect. で appears wherever the te-form is voiced (む/ぶ/ぬ and ぐ godan verbs: 読んでみると, 泳いでみると) and て elsewhere (調べてみると). てみたら is freely interchangeable here; てみれば is not, since it leans reflective or hypothetical (考えてみれば…) rather than reporting an actual past discovery, and set phrases like 振[ふ]り返[かえ]ってみると and 考えてみると keep みると.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "棚[たな]の奥[おく]を調[しら]べてみると古[ふる]い手紙[てがみ]が出[で]てきた。",

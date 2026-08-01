@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "x21",
   "class_name": "疑問-非難-ウガ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "regardless of …"
       ],
       "usage_note": "Volitional form plus が: a concessive that brushes the preceding condition aside as irrelevant, often with a curt, washing-my-hands tone, and typically stronger and more emphatic than 〜ても, which it beats precisely when the condition is being declared beside the point in advance rather than genuinely weighed as a live possibility. It is almost always interchangeable with 〜(よ)うと, though 〜(よ)うと is the more neutral, written-leaning member of the pair and 〜うが the more emphatic one, most at home in the paired frames (〜うが〜うが, 〜うが〜まいが). The corpus rule licenses only verbs and い-adjectives here (行こうが, 高かろうが); nouns and な-adjectives take the same construction through the copula (学生だろうが, 下手だろうが).",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "上司[じょうし]に何[なに]を言[い]われようが、会社[かいしゃ]を辞[や]める気[き]はない。",
@@ -43,6 +44,7 @@
         "look, … / come on, …"
       ],
       "usage_note": "A rhetorical question that presses a judgment the speaker treats as obvious onto the hearer; in this class the typical color is reproach or complaint, though the same form also carries admiration (いい店じゃないか). Bare 〜じゃない with rising intonation is the gender-neutral everyday equivalent and the one most speakers actually say; adding か is what makes it blunt and masculine-sounding, じゃないですか is the polite version and often just softens an assertion, ではないか is written or formal, and じゃねえか is rough speech. Note that after a volitional (行こうじゃないか) it stops being a rhetorical question and becomes an invitation, a separate function.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "昨日[きのう]ちゃんと確認[かくにん]すると言[い]ったじゃないか。",

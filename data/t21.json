@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "t21",
   "class_name": "逆接-確定-カラトイッテ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "merely on the grounds that"
       ],
       "usage_note": "Denies an inference: just because A holds, it does not follow that B. The main clause almost always closes on a denial (〜とは限らない, 〜わけではない, 〜ない) or a rhetorical question. からって is the colloquial form, からといって the neutral standard, and からとて the stiff, literary one.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "日本[にほん]に長[なが]く住[す]んでいるからとて、敬語[けいご]が達者[たっしゃ]とは限[かぎ]らない。",

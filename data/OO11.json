@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "O11",
   "class_name": "主体-般-ガ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -17,6 +17,7 @@
         "(marks the grammatical subject)"
       ],
       "usage_note": "が names the subject as new or newsworthy information, so it is what you use when the whole sentence is the news (雨が降ってきた) or when the subject itself is the answer to a question; は instead makes the subject a known topic and puts the news after it. Within its class, が is the default: の substitutes for it only inside a clause modifying a noun, and に, usually as には (colloquially にゃ), marks the experiencer subject of ability and understanding predicates.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "約束[やくそく]の時間[じかん]を過[す]ぎても彼[かれ]が来[こ]ない。",
@@ -40,6 +41,7 @@
         "= が inside any noun-modifying or nominalized clause"
       ],
       "usage_note": "This の is が in disguise: it may mark a subject only inside a clause that modifies a noun (父の作った料理 = 父が作った料理), never in a main clause. It ties the clause more tightly to the noun and sounds a touch more literary or set-phrase-like, which is why it survives in fixed expressions such as 目の覚めるような. It is blocked when the modifying clause carries its own を-object, and speakers typically avoid it when the clause is long or already contains another の.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "父[ちち]の作[つく]った味噌汁[みそしる]は少[すこ]し塩辛[しおから]い。",
@@ -63,6 +65,7 @@
         "(marks the one who can or knows)"
       ],
       "usage_note": "Colloquial contraction of には marking the person a capacity, judgment or burden rests with: 俺にゃ分からない is 俺には分からない, the experiencer subject that pairs with potential, understanding and 無理/大変-type predicates. Because は is baked in it readily picks up contrast — someone else might manage it — though in many uses it simply sets the person up as the topic. Do not confuse it with the identically pronounced goal-marking にゃ, which points at a destination rather than at the one doing the knowing.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "俺[おれ]にゃそんな難[むずか]しい話[はなし]は分[わ]からない。",

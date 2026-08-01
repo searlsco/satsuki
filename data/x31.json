@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "x31",
   "class_name": "疑問-確認-ダッテ類",
   "tsutsuji_version": "1.1u",
@@ -6,27 +7,27 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
       "l2_id": "2501",
       "canonical_surface": "だって",
       "glosses": [
-        "(I hear) that …; they say …",
-        "… , apparently",
-        "so … , right? (checking what was said)"
+        "so … , right? (checking what you heard)",
+        "…, is that right?",
+        "you're telling me … ?"
       ],
-      "usage_note": "Colloquial hearsay marker, the spoken counterpart of 〜そうだ / 〜と言っていた; with rising intonation it asks the hearer to confirm the report. It comes from the quotative って on the copula だ, so it fastens directly onto nouns and onto the explanatory ん (行くんだって); bare って is plain quotation of what was said, while だって layers the \"I hear / word is\" framing on top of だ, which is why 中止だって works where 中止って alone reads as a bare quote. ですって is the polite variant and reads as feminine in most speech. Do not confuse it with the homophonous sentence-initial だって \"because\" or the 〜だって \"even/also\" of 子供だって知っている, which are different items.",
+      "usage_note": "Rising-intonation だって: you throw back what you have just heard and ask the hearer to confirm it (校庭だって？ \"on the field, is it?\"), so it belongs to a question turn rather than to a plain report. It comes from the quotative って on the copula だ and so rides on nouns; in real speech it equally follows the explanatory ん (行くんだって？), an attachment this corpus rule does not license. The same string said on a falling tone is the sibling hearsay use that simply passes the news along (中止だって。); only this checking use invites an answer. ですって is the polite variant and reads as feminine in most speech. Do not confuse it with the homophonous sentence-initial だって \"because\" or the 〜だって \"even/also\" of 子供だって知っている.",
+      "human_verified": false,
       "examples": [
         {
-          "ruby": "明日[あした]の遠足[えんそく]、雨[あめ]の予報[よほう]で中止[ちゅうし]だって。",
-          "english": "Word is tomorrow's field trip is off, with rain in the forecast."
+          "ruby": "明日[あした]の練習[れんしゅう]、体育館[たいいくかん]じゃなくて校庭[こうてい]だって？",
+          "english": "Tomorrow's practice is out on the field, not in the gym — that right?"
         },
         {
-          "ruby": "山田[やまだ]さんのお子[こ]さん、来春[らいしゅん]から留学[りゅうがく]ですって。",
-          "english": "I hear Ms. Yamada's kid is going abroad to study starting next spring."
+          "ruby": "隣[となり]の田中[たなか]さん、春[はる]には引[ひ]っ越[こ]しだって？",
+          "english": "The Tanakas next door are moving out in the spring, is that right?"
         },
         {
           "ruby": "え、あの二人[ふたり]、来月[らいげつ]には離婚[りこん]だって？",

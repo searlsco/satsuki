@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "D31",
   "class_name": "判断-当然-ワケ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "you see"
       ],
       "usage_note": "ん is the spoken contraction of explanatory の(だ); it frames a statement as background, reason, or a request for one, rather than as bare news. Unlike わけだ, which draws a conclusion that follows logically from something just learned, んだ simply presents the situation as the explanation for what is at issue. It takes the prenominal form, so a noun or na-adjective links with な (学生なんです), never with だ.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "悪[わる]いけれど、明日[あした]は朝[あさ]が早[はや]いんだ。",
@@ -43,6 +44,7 @@
         "it naturally follows that …"
       ],
       "usage_note": "わけだ presents the clause as the conclusion that naturally follows from a fact the speaker has just learned or worked out; it pairs readily with どうりで and それで. It differs from はずだ, which states an expectation that may still turn out wrong, and from んだ, which supplies an explanation rather than deriving a consequence. It takes the prenominal form, with な after a noun or na-adjective, and belongs to ordinary neutral speech and writing alike.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "窓[まど]が開[あ]いていたのか、どうりで部屋[へや]が寒[さむ]いわけだ。",
@@ -67,6 +69,7 @@
         "should (by expectation)"
       ],
       "usage_note": "はずだ states a confident expectation grounded in a reason the speaker knows — a schedule, a rule, a calculation — so it can be contradicted by reality, and はずだったのに reports exactly that disappointment. わけだ, by contrast, records something the speaker has already accepted as following from the facts, so use わけ only when the outcome is already confirmed. It takes the prenominal form (noun + の, na-adjective + な) and is typically avoided for the speaker's own deliberate plans, where つもり is the natural choice.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "彼[かれ]は昨日[きのう]出発[しゅっぱつ]したから、もう着[つ]いているはずだ。",

@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "I22",
   "class_name": "推量-高確実性-ニホカナラナイ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "is precisely"
       ],
       "usage_note": "Not a guess but an assertion of identity: it strips away alternatives and declares what something really is, typically to reframe a thing as its true essence or to pin down a single cause. It makes no conjecture at all, and it predicates on a noun or a nominalized clause rather than attaching to verbs and adjectives directly the way the ニチガイナイ patterns do. Against those siblings the selection rule is simple: に違いない answers \"is this true?\", while にほかならない answers \"what is this really?\", so it is unusable where the speaker is guessing (×あの人は犯人にほかならない as a deduction). Its very common causal use is the fixed shape 〜からにほかならない, where a whole clause plus から fills the slot, and it belongs to essayistic and formal prose rather than chat.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "芸術[げいじゅつ]とは作者[さくしゃ]の内面[ないめん]の表現[ひょうげん]にほかならない。",

@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "A11",
   "class_name": "伝聞-未確認-トノコト類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "…, or so I'm told"
       ],
       "usage_note": "The all-purpose spoken quotative: a contraction of と (言う), it passes on what you heard in the loosest possible way and can simply end the sentence with the verb of saying dropped. Unlike とのこと it makes no claim about how reliable the source is, it is typically too casual for business writing, and where sibling だって delivers the report as fresh news with a flicker of surprise, って is the flat pass-along. It attaches to the plain form, and after a noun or na-adjective the copula だ is normally kept (雨だって, 学生だって); bare noun＋って is the separate naming/topic って.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "体育館[たいいくかん]の裏[うら]に田中[たなか]さんの財布[さいふ]が落[お]ちているって。",
@@ -42,6 +43,7 @@
         "according to (the message)"
       ],
       "usage_note": "The workhorse of relayed messages: use it when you are passing along something a specific, identifiable person told you, especially in business email and phone notes. It works in writing as comfortably as in speech, where って and だって stay casual and are out of place in business correspondence, and because it presents the report as received fact rather than rumor it pairs naturally with a named source (〜さんによると). A noun predicate may drop だ before it (来月中旬とのことです); ということだ also draws conclusions from what was said, while とのこと only relays.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "先方[せんぽう]は来週[らいしゅう]の火曜[かよう]まで待[ま]ってくれるとのことです。",
@@ -65,7 +67,8 @@
         "they say",
         "…, or so they tell me"
       ],
-      "usage_note": "Sentence-final colloquial hearsay, usually delivered as fresh news with a flicker of surprise; ですって is the polite variant and is especially common in women's speech. Before a verb or i-adjective speakers almost always slip in ん/の first (転勤するんだって), so bare 動詞＋だって turns up mostly as an incredulous echo of what someone just said (辞めるだって？). Keep it apart from the unrelated だって meaning 'because' or 'even'.",
+      "usage_note": "Sentence-final colloquial hearsay, usually delivered as fresh news with a flicker of surprise; ですって is the polite variant and is especially common in women's speech. Said on a falling tone it simply hands the news over; the same string on a rising tone (中止だって？) is the separate checking question that asks the hearer to confirm what you heard. Before a verb or i-adjective speakers almost always slip in ん/の first (転勤するんだって), so bare 動詞＋だって turns up mostly as an incredulous echo of what someone just said (辞めるだって？). Keep it apart from the unrelated だって meaning 'because' or 'even'.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "あの店[みせ]、今日[きょう]は臨時[りんじ]休業[きゅうぎょう]だって。",

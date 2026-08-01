@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "j11",
   "class_name": "定義-定義-トハ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "what … means is"
       ],
       "usage_note": "The defining marker of written Japanese: it puts a term on the table and hands the rest of the sentence over to its definition, so it pairs naturally with a closing ことだ, ものだ or 意味だ. In this definitional job it is close to というのは and colloquial ってのは, differing mainly in register, with とは preferred in dictionaries, textbooks and formal exposition; note that とは forces a genuine definition, while というのは and its casual ってのは also tolerate mere topic-raising. The same surface とは has other lives outside this corpus slot, notably the exclamatory 「合格[ごうかく]するとは驚[おどろ]いた」 pattern; tell them apart by what follows — definitional とは hands off to a defining predicate (ことだ・ものだ・意味だ), while the exclamatory one is followed by an evaluation of surprise or is left dangling entirely.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "幸[しあわ]せとは、他人[たにん]と比[くら]べないことだと思[おも]う。",
@@ -42,7 +43,8 @@
         "what … means is",
         "… , that's"
       ],
-      "usage_note": "The spoken definition marker, contracted from というのは by way of っていうのは, and the casual equivalent of とは. Use it when explaining a word or category to someone face to face; the payoff is usually a plain ものだ, ことだ or an outright paraphrase, and the tone is confiding rather than authoritative. Keep it out of written definitions, where とは or というのは carries the same content without sounding chatty.",
+      "usage_note": "The spoken definition marker, contracted from というのは by way of っていうのは, and the casual equivalent of とは. Use it when explaining a word or category to someone face to face; the payoff is usually a plain ものだ, ことだ or an outright paraphrase, and the tone is confiding rather than authoritative. Keep it out of written definitions, where とは or というのは carries the same content without sounding chatty. Its look-alike is the topic-raising ってのは ('as for …', 'the thing about … is'), which fronts a whole clause (毎朝早く起きるってのは) and lands on an evaluation or complaint; this defining use takes a bare noun and lands on what the word itself denotes, so if というのは could be swapped in and the sentence would still be answering 'what does X mean?', you are in this slot.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "友達[ともだち]ってのは、困[こま]った時[とき]に分[わ]かるものだよ。",

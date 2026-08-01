@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "l11",
   "class_name": "強調-問題なし-トイウ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "every single … (in the frame N という N)"
       ],
       "usage_note": "Emphatic という, not the quotative or naming one: it re-presents a noun in order to hold it up for attention, so 今日という日 is \"today, of all days\" rather than merely \"today\". When the same noun is repeated on both sides (店という店, 木という木) the frame sweeps the whole category — \"every last shop\" — and this repeated shape is especially at home in narrative and descriptive writing. The nuance is emotional weight or exhaustiveness, so a plain 今日は or 店が is the neutral alternative whenever that weight is unwanted.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "今日[きょう]という日[ひ]は、二度[にど]と戻[もど]ってこない。",

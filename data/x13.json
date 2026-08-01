@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "x13",
   "class_name": "疑問-問いかけ-タッケ類",
   "tsutsuji_version": "1.1u",
@@ -6,19 +7,19 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
       "l2_id": "2491",
       "canonical_surface": "だっけ",
       "glosses": [
-        "was it …?",
+        "was it …?; is it … ?",
         "… , right?",
-        "what was it again"
+        "what was it again?"
       ],
-      "usage_note": "A memory check: you knew this once and are dredging it back up, asking the listener or yourself to confirm it. It follows the past form, so it comes out as たっけ or だっけ according to that verb's own past tense (行ったっけ / 読んだっけ), and attaches directly to a noun for present facts (集合は明日だっけ); the polite versions are でしたっけ and ましたっけ. Unlike plain か it presupposes prior knowledge, and unlike かな it is retrieval rather than idle speculation.",
+      "usage_note": "A confirmation question put to the listener: you half-know the answer and are asking them to verify it (集合[しゅうごう]は明日[あした]だっけ、君[きみ]はもう読[よ]んだっけ). The same たっけ turned inward, rummaging through your own past experience with nobody expected to answer, is filed as a separate recollection pattern; here you are genuinely querying the person in front of you. It follows the past form, so it comes out as たっけ or だっけ according to that verb's own past tense (行[い]ったっけ / 読[よ]んだっけ), and attaches directly to a noun for present facts; the polite versions are でしたっけ and ましたっけ. Unlike plain か it presupposes prior knowledge, and unlike かな it is checking rather than idle speculation.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "明日[あした]の集合[しゅうごう]場所[ばしょ]は駅[えき]の北口[きたぐち]だっけ。",
@@ -29,8 +30,8 @@
           "english": "That doorstop of a novel — did you already read it, or am I misremembering?"
         },
         {
-          "ruby": "去年[きょねん]の忘年会[ぼうねんかい]はどこの店[みせ]で食[た]べたっけ。",
-          "english": "Where was it we ate for last year's end-of-year party again?"
+          "ruby": "ねえ、玄関[げんかん]の鍵[かぎ]をかけたのは君[きみ]だっけ。",
+          "english": "Hey, you were the one who locked the front door, right?"
         }
       ]
     }

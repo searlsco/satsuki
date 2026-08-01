@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "i11",
   "class_name": "同格-般-トイウ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "the rumor/report that"
       ],
       "usage_note": "Casual appositive quotative: it packs a name, a rumor or a claim onto the noun that follows (田中って人, 帰るって話), and it is the spoken contraction of という, not the other way round. The intermediate form っていう (田中っていう人) is the safer choice when the name is long or otherwise hard to parse. Compared with its formal sibling との, って belongs to speech and messaging and is rare in edited prose. In conversation it also turns up in slots this corpus rule does not license, most visibly as a topic marker (お前って優しいな) and as a sentence-final quote drop (もう終わったって), so a bare って in the wild is not always this appositive one.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "さっき田中[たなか]って人[ひと]から電話[でんわ]があったよ。",
@@ -43,6 +44,7 @@
         "that (a report, notice, instruction)"
       ],
       "usage_note": "The written-register appositive quotative: case particle と plus adnominal の, attaching reported content to a noun of communication or perception (との連絡, との報告, との指示, との見方). It is the formal counterpart of って and the tighter counterpart of という: との relays the wording verbatim and neutrally, whereas という tolerates the writer's own summary, which is why news copy, minutes and business mail reach for it. Its commonest realization is the hearsay closer 〜とのことです, where the head noun is a bleached こと.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "台風[たいふう]の被害[ひがい]は大[おお]きいとの見方[みかた]が強[つよ]い。",

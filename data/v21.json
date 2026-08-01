@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "v21",
   "class_name": "付帯-並行-ナガラ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -17,7 +17,8 @@
         "while …; as one …",
         "at the same time as"
       ],
-      "usage_note": "The everyday marker of two actions at once, attached to the ます-stem; references state that both actions belong to the same subject, and the ながら clause is the backgrounded one. It also has a concessive sense (\"although\"), but that reading depends on a contrast being present in the context. The concessive ながら also attaches to nouns and adjectives (子供ながら、狭いながらも). つつ covers the same ground in formal prose.",
+      "usage_note": "The everyday marker of two actions at once, attached to the ます-stem; references state that both actions belong to the same subject, and the ながら clause is the backgrounded one. つつ covers the same ground in formal prose. The identical form also carries the concessive \"although\" reading of sibling 1142, which is the only available reading after a noun or an adjective and is often flagged by ながらも; after a ます-stem, context decides, and a stative verb such as 知っている pushes it toward the concessive.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "音楽[おんがく]を聞[き]きながら走[はし]るのが日課[にっか]になっている。",
@@ -41,6 +42,7 @@
         "even while …; although"
       ],
       "usage_note": "The written-language counterpart of ながら, taking the same ます-stem and, likewise, a single shared subject. The concessive reading is the one that dominates modern prose, especially with verbs of thinking or knowing, as in 悪いと知りつつ (\"even knowing it's bad\"); つつも makes that reading explicit. Do not confuse it with 〜つつある, which says a change is in progress.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "体[からだ]に悪[わる]いと知[し]りつつ、つい夜更[よふ]かしをしてしまう。",

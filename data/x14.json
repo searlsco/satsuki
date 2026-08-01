@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "x14",
   "class_name": "疑問-問いかけ-ダイ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -17,7 +17,8 @@
         "…?",
         "(familiar wh-question)"
       ],
-      "usage_note": "The interrogative-word counterpart of かい: it wants 何, 誰, どこ, いつ or どうして in the sentence, whereas かい takes the yes-no questions. It attaches to a noun, or to explanatory の/ん (〜んだい), rather than directly to a verb. Like かい it is familiar, markedly masculine and rather dated, fine with family, friends and juniors but not with a superior.",
+      "usage_note": "The interrogative-word counterpart of かい: it wants 何, 誰, どこ, いつ or どうして in the sentence, whereas かい takes the yes-no questions. It attaches to a noun, or to explanatory の/ん (〜んだい), rather than directly to a verb. Like かい it is familiar, markedly masculine and rather dated, fine with family, friends and juniors but not with a superior. This is the だい that actually asks: with 何が／どこが and a falling tone the same ending turns into rhetorical denial (l2 2522, 何が名医だい), and with no question word at all it is a flat assertion (l2 2523, 嘘だい).",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "こんな時間[じかん]に一体[いったい]どこへ行[い]く気[き]だい。",

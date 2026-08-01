@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "m51",
   "class_name": "限定-範囲内-マデ類",
   "tsutsuji_version": "1.1u",
@@ -6,31 +7,30 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
       "l2_id": "0304",
       "canonical_surface": "まで",
       "glosses": [
-        "until …",
-        "up to …",
-        "as far as …"
+        "up to … (and no more)",
+        "at most; no more than"
       ],
-      "usage_note": "Marks the far edge of a stretch — of time, distance or degree — that the action continues over, and it pairs naturally with から for the near edge. Contrast 〜までに, which names a deadline for a one-shot action (五時までに出す \"hand it in by five\"), and the additive まで meaning \"even\", which belongs to a different pattern.",
+      "usage_note": "A limiting (取り立て) まで: it caps a quantity, an allowance, or a period at the named point and shuts out anything past it, which is why it lives in rules, prices, and announcements and is usually followed straight away by だ/です, となる, or とする. The ceiling is the message, not the journey to it — that is what separates it from the range まで of 0303 (駅まで歩く traces the whole stretch, 一人二枚まで does not) and from までに, which fixes a deadline for a one-shot act. Where だけ or しか〜ない single out one item against others, this まで marks the top of a scale, so 以上, 以内, and 限度 sit naturally around it.",
+      "human_verified": false,
       "examples": [
         {
-          "ruby": "駅[えき]から公園[こうえん]までゆっくり歩[ある]いた。",
-          "english": "We strolled all the way from the station to the park."
+          "ruby": "このクーポンは一人[ひとり]三点[さんてん]までご利用[りよう]いただけます。",
+          "english": "This coupon is good for up to three items per person."
         },
         {
-          "ruby": "この図書館[としょかん]は夜[よる]九時[くじ]まで利用[りよう]できる。",
-          "english": "This library is open for use until nine at night."
+          "ruby": "予約[よやく]の変更[へんこう]は前日[ぜんじつ]までとさせていただきます。",
+          "english": "Changes to a booking are accepted no later than the day before."
         },
         {
-          "ruby": "彼[かれ]はコップの底[そこ]まで一気[いっき]に飲[の]み干[ほ]した。",
-          "english": "He drained the glass in one go, right down to the bottom."
+          "ruby": "この店[みせ]のランチは二時[にじ]までなんだって。",
+          "english": "Apparently lunch at this place only runs till two."
         }
       ]
     }

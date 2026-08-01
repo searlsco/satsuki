@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "u13",
   "class_name": "対比-般-トドウジニ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "while also being; and at once"
       ],
       "usage_note": "Two readings share the form: temporal simultaneity after a verb (ドアが閉まると同時に, the instant the doors shut) and dual identity after である or an い-adjective (医師であると同時に母, a doctor and a mother at once). A bare event noun attaches directly (卒業と同時に); である is only needed for the dual-identity reading. It is more formal than とすぐに, and unlike かと思うと it carries no surprise: the second event is simply concurrent, and it may perfectly well be planned or deliberate.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "ドアが閉[し]まると同時[どうじ]に、電車[でんしゃ]はゆっくり動[うご]き出[だ]した。",

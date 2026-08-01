@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "I31",
   "class_name": "推量-反実-トコロ類",
   "tsutsuji_version": "1.1u",
@@ -6,27 +7,27 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
       "l2_id": "0482",
       "canonical_surface": "とこ",
       "glosses": [
-        "was about to …",
+        "almost … (but didn't)",
         "nearly …",
         "came close to …"
       ],
-      "usage_note": "Counterfactual ところ: the event was on the verge of happening but in the end did not, so it is typically set up by 危[あぶ]なく, もう少しで or あやうく. This near-miss reading needs the dictionary form in front (するところ); after the past tense (〜たところ) the same noun instead means 'had just done it'. Past ところだった／ところであった reports the averted event, while present ところだ describes something still teetering on the brink; とこ is the clipped conversational shape.",
+      "usage_note": "Counterfactual ところ: the event came right to the brink and then did NOT happen, so it is set up by もう少しで, 危[あぶ]なく, あやうく or a counterfactual conditional (〜なければ…するとこだ, 'I would have …'). Do not confuse it with the imminent-action ところ of これから出るところだ (l2 0481), which schedules an event that really is about to occur: the same 辞書形＋ところ shape, opposite outcome, and only this near-miss reading takes もう少しで／危なく. Keep the plain だ here; the explicitly past 〜ところだった is catalogued as its own pattern (l2 2091), and after the past tense 〜たところ the noun instead means 'had just done it'. とこ is the clipped conversational shape.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "もう少[すこ]しで電車[でんしゃ]に乗[の]り遅[おく]れるとこだ。",
           "english": "I came within a hair of missing my train."
         },
         {
-          "ruby": "あぶない、コップを落[お]とすとこだ。",
-          "english": "Careful, you're about to drop that glass."
+          "ruby": "君[きみ]が思[おも]い出[だ]させてくれなければ、約束[やくそく]をすっぽかすとこだ。",
+          "english": "If you hadn't reminded me, I'd have blown off the appointment."
         },
         {
           "ruby": "一歩[いっぽ]間違[まちが]えば大[おお]けがをするところだ。",

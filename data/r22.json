@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "r22",
   "class_name": "順接-仮定-ナラ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "if you're talking about; as for"
       ],
       "usage_note": "Picks up something already in play — what the other person just said, or a topic on the table — and responds to it with advice, an offer or a judgment, which is why it attaches straight to a bare noun (それなら, 温泉なら) and why commands, requests and statements of intention are perfectly at home in the main clause, unlike と, which bars them outright, and unlike ば, which permits them only when its own clause is stative (安ければ買いたい is fine, ×東京へ行けば連絡してください is not). It is also the one conditional with no fixed time order: 日本へ行くなら地図を買っておきなさい has the buying happen before the going, where 日本へ行ったら地図を買います puts it after arrival.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "駅前[えきまえ]のカフェなら、八時[はちじ]から開[あ]いているよ。",
@@ -41,6 +42,7 @@
         "if you were to so much as …, (disaster)"
       ],
       "usage_note": "Built on the volitional form plus ものなら, it names an action the speaker treats as reckless and follows it with an exaggerated disaster, so the main clause is virtually always undesirable and the tone is one of dread or grumbling. Pair it with 少しでも or 一度でも to sharpen the \"so much as\" reading. もんなら is the spoken contraction of ものなら; do not confuse it with plain 〜ものなら on the dictionary or potential form, which expresses a wish rather than a threat.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "部長[ぶちょう]に文句[もんく]を言[い]おうもんなら、三倍[さんばい]になって返[かえ]ってくる。",
@@ -64,6 +66,7 @@
         "if you can, then (go ahead and) …"
       ],
       "usage_note": "Attaches to the dictionary form, and in practice almost always to a potential verb (戻れる, できる, 止められる), because the whole point is a condition the speaker regards as barely possible. Two settings dominate: a wistful wish, where the main clause ends in 〜たい, and a taunt, where it ends in 〜てみろ／〜てみせろ and dares the listener to try. もんなら is the casual contraction of ものなら; the volitional-form 〜(よ)うものなら is a different pattern that predicts a disaster instead.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "学生時代[がくせいじだい]に戻[もど]れるもんなら戻[もど]りたい。",

@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "D13",
   "class_name": "判断-当為-コト類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "the thing to do is …"
       ],
       "usage_note": "A fast-speech contraction of ことだ, attaching to the plain form. Like ことだ it gives advice aimed at this listener's own situation, unlike ものだ's appeal to general norms, but the clipped shape makes it blunt and rather masculine, often with a note of impatience — \"just go and do it, then.\" The same contraction shows up in set exclamations such as なんてこった and そういうこった, which have nothing to do with the advice sense.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "不満[ふまん]があるなら本人[ほんにん]に直接[ちょくせつ]言[い]うこった。",

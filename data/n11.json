@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "n11",
   "class_name": "添加-非限定-ニカギラズ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "not just … (but also)"
       ],
       "usage_note": "Written に限らず. It takes a bare noun and then opens outward: the statement holds beyond the named item, whether the follow-up is a coordinate case (子供に限らず大人も) or an outright wider set (日本に限らずどこの国でも); what it cannot do is name an unrelated item with no shared predicate. It is the written, slightly formal counterpart of だけでなく and usually leans on a following も. Its affirmative counterparts are に限り／に限って (\"only in the case of\"); the evaluative に限る (\"nothing beats\") is a separate item despite the shared kanji.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "この病気[びょうき]は大人[おとな]に限[かぎ]らず、子供[こども]もかかる。",

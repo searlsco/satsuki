@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "D11",
   "class_name": "判断-当為-ナケレバナラナイ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "be obliged to"
       ],
       "usage_note": "A double negative literally meaning \"it won't do if you don't\": the verb's negative stem takes a conditional tail — なければ (spoken なけりゃ/なきゃ), the なくては series (spoken なくちゃ), or literary ねば — and then ならない. Compared with its sibling なけりゃいけない, ならない tends to present the obligation as objective — imposed by rules, law, or circumstance rather than by the speaker's own judgment — and is the form conventionally used in statutes and written regulations. なけりゃ/なきゃ/なくちゃ belong to casual speech, なければ to neutral writing, and ねばならない/ねばならぬ sound formal or literary.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "提出書類[ていしゅつしょるい]には印鑑[いんかん]を押[お]さなければならない。",
@@ -41,6 +42,7 @@
         "need to"
       ],
       "usage_note": "Built on the same negative-conditional frame as なけりゃならない, but いけない adds the speaker's own sense that leaving it undone would be bad, so it typically covers an obligation arising in a particular situation or falling on a particular person, where ならない leans institutional and stiffer. ないと(いけない) is the everyday conversational realization, and なきゃ/なくちゃ/なけりゃ are its more clipped spoken contractions; いけません gives the polite form.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "風邪[かぜ]をひいたので今日[きょう]は早[はや]く寝[ね]なきゃいけない。",
@@ -64,6 +66,7 @@
         "you'd better"
       ],
       "usage_note": "だめ stands in for ならない/いけない at the end of the same negative-conditional frame, and the result is squarely spoken: it sounds more personal and blunter than なきゃいけない, and it is common when coaxing or scolding — parents to children, coaches to players. Politeness is carried by だめです/だめですよ rather than by any dedicated polite ending, and 駄目 is the kanji spelling of the same word.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "野菜[やさい]もちゃんと食[た]べなきゃだめだよ。",
@@ -87,6 +90,7 @@
         "be supposed to"
       ],
       "usage_note": "From classical べし, attaching to the plain form (するべき); すべき is the older form inherited from classical す + べし and is still the norm in formal writing. It states what is right by the speaker's moral or social judgment, so it is at home in opinions, criticism, and editorial writing; for obligations set by rules, schedules, or one's own already-fixed plans, なければならない is the usual choice. ものだ appeals to what everyone knows to be proper, べきだ to a judgment the speaker is willing to argue for. Negation is 〜べきではない, unfulfilled obligation is 〜べきだった, and with nouns and な-adjectives it appears as であるべき rather than attaching directly.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "政治家[せいじか]は国民[こくみん]との約束[やくそく]を守[まも]るべきだ。",
@@ -111,6 +115,7 @@
         "one must, I suppose"
       ],
       "usage_note": "なるまい is ならない recast with the classical negative-conjecture まい, so the speaker reasons his way to an obligation instead of simply asserting it — closer to \"I suppose we'll have to\" than to a flat \"must.\" It sounds formal and old-fashioned, turning up in essays and commentary and, in fiction, in the speech of gruff or elderly men; ねばなるまい is the most frequent realization, while なけりゃ/なきゃなるまい and the なるめえ variants are the rougher spoken ones.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "この件[けん]は上司[じょうし]に報告[ほうこく]せねばなるまい。",

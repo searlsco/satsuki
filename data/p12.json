@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "p12",
   "class_name": "継起-般-テカラ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "ever since …"
       ],
       "usage_note": "The basic sequencer: it insists that the first action be finished before the second starts, which is why it fits instructions and conditions (手を洗ってから食べる). With a duration or state in the second half it also gives the \"ever since\" reading that 〜たあとで does not (日本に来てから五年になる). Keep it to two events that genuinely belong together; for a loose \"later on\", 〜たあとで is the neutral choice, and for a deliberate preliminary step, 〜た上で.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "薬[くすり]を飲[の]んでから、三十分[さんじゅっぷん]ほど横[よこ]になった。",
@@ -43,6 +44,7 @@
         "following …"
       ],
       "usage_note": "The plainest \"after\" of the group: it locates the second event later in time and nothing more, so the gap can be long and the two halves need not be connected. Where 〜てから presses the two actions together and can mean \"ever since\", 〜たあとで just says \"later than\", and unlike 〜た上で it implies no purpose. 〜た後に marks the point in time and leans written; 〜た後で is the everyday form.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "大学[だいがく]を出[で]た後[あと]で、彼[かれ]の消息[しょうそく]は分[わ]からなくなった。",
@@ -67,6 +69,7 @@
         "on the basis of having …"
       ],
       "usage_note": "Not just \"after\" but \"after doing the groundwork\": the first action is a deliberate preliminary the second one depends on, which is why it belongs to contracts, procedures, and business correspondence. Both halves are almost always volitional acts of the same person, so accidents and natural events go to 〜たあとで instead. 〜た上での modifies a noun (検討した上での結論), and note the unrelated 〜た上に, which means \"on top of that\".",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "契約書[けいやくしょ]をよく読[よ]んだ上[うえ]で、署名[しょめい]をお願[ねが]いします。",

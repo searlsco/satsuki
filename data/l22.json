@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "l22",
   "class_name": "強調-全面的-ニシテ類",
   "tsutsuji_version": "1.1u",
@@ -6,23 +7,23 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
       "l2_id": "0252",
       "canonical_surface": "にして",
       "glosses": [
-        "in as little as …",
         "at (the age of) …",
-        "on the very …"
+        "on the very … (attempt)",
+        "only at/after …"
       ],
-      "usage_note": "Emphatic にして takes a measure of time, an age, or an ordinal attempt and presents it as remarkable — startlingly short (一夜にして), startlingly late or early (三十路にして, 五十歳にして), or hard-won (三度目にして). It carries a formal, written flavour and survives in set phrases such as ローマは一日にして成らず; casual speech would use で or たった〜で instead. The same form has two other lives worth recognizing: joining two properties of one person (学者にして詩人), and, chiefly in older or stiff prose, meaning \"even\" (彼にしてこの失敗) where modern Japanese would say 彼でさえ or 彼ほどの人でも.",
+      "usage_note": "Emphatic にして takes an age or an ordinal attempt and presents it as remarkable — startlingly late or early (三十路にして, 五十にして), or hard-won (三度目にして). The startlingly-short-span reading (一夜にして, 一瞬にして) belongs to the sibling instrumental entry. It carries a formal, written flavour and survives in set phrases such as ローマは一日にして成らず; casual speech would use で or たった〜で instead. The same form has two other lives worth recognizing: joining two properties of one person (学者にして詩人), and, chiefly in older or stiff prose, meaning \"even\" (彼にしてこの失敗) where modern Japanese would say 彼でさえ or 彼ほどの人でも.",
+      "human_verified": false,
       "examples": [
         {
-          "ruby": "長年[ながねん]の努力[どりょく]が、一夜[いちや]にして水[みず]の泡[あわ]となった。",
-          "english": "Years of effort came to nothing in the space of a single night."
+          "ruby": "五十[ごじゅう]にして、父[ちち]は再[ふたた]び大学[だいがく]に通[かよ]い始[はじ]めた。",
+          "english": "At fifty, my father started going back to university."
         },
         {
           "ruby": "三十路[みそじ]にして、彼女[かのじょ]は初[はじ]めて筆[ふで]を執[と]った。",

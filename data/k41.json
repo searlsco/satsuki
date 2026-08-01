@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "k41",
   "class_name": "話題-も観点-トシテモ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "as X as well; from X's side also"
       ],
       "usage_note": "The も version of としては: it grants that others have their positions and adds that the named party, in its own capacity, holds this one as well. Business and public speech use it constantly with institutions and with 私 to signal shared concern (市としても, 会社としましても), and it typically implies some commitment or feeling rather than a bare fact. Note that a clause plus としても is a different construction meaning \"even if\"; this entry is the noun-attached standpoint use.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "市[し]としても、この事故[じこ]を重[おも]く受[う]け止[と]めております。",
@@ -41,6 +42,7 @@
         "even in X's case"
       ],
       "usage_note": "Colloquial にしても, and it pushes back: you raise X, the case the listener assumed was different, and say the same thing holds for it too. That argumentative edge and the って ending keep it in speech and dialogue, where it often carries a touch of exasperation; the neutral にしても and the polite にしましても are what you write. Compare としても, which claims a standpoint of one's own instead of contesting an assumption.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "先輩[せんぱい]にしたって、最初[さいしょ]は失敗[しっぱい]ばかりだったんだ。",
@@ -64,6 +66,7 @@
         "whether it be"
       ],
       "usage_note": "Built on the imperative しろ of する, which gives it a curt, assertive ring: you concede the noun in front and then press the objection that survives the concession. It is blunter than にしても, blunt enough that it lands as argument or reproof rather than gentle conversation; にせよ is its stiffer written twin. It also runs in pairs, 〜にしろ〜にしろ, to say the conclusion holds whichever alternative applies.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "冗談[じょうだん]にしろ、あの言[い]い方[かた]は失礼[しつれい]すぎる。",

@@ -14,7 +14,7 @@ difficulty, register, and attachment rules referenced by this corpus come
 from the Tsutsuji Japanese functional expression dictionary:
 
 - 松吉俊・佐藤理史・宇津呂武仁. 日本語機能表現辞書「つつじ」
-- <https://tsutsuji.jnlp.org/>
+- <https://sites.google.com/edu.teu.ac.jp/cl-lab/研究/言語資源/日本語機能表現辞書つつじ>
 - License: CC BY-SA 4.0
 
 The glosses, usage notes, and example sentences in `data/` are original to

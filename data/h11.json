@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "h11",
   "class_name": "割合-割合-ニタイシテ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "for (a given amount)"
       ],
       "usage_note": "In this ratio sense it sets one quantity beside a stated reference quantity so the two can be weighed against each other, and the comment that follows is usually an evaluation (多すぎる, 足りない). Its sibling につき hands out a fixed amount to each unit, whereas に対して compares two totals. Keep it apart from に対して's other lives: the target sense ('toward someone') and contrastive のに対して.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "定員[ていいん]三十名[さんじゅうめい]に対[たい]して応募[おうぼ]が百件[ひゃっけん]あった。",
@@ -42,6 +43,7 @@
         "apiece"
       ],
       "usage_note": "For rates, につき is the realization you will actually meet, attaching to a counted unit and assigning the same amount to every such unit; 〜あたり is the neutral spoken equivalent and shows up on price tags and forms alike. Because に対して weighs two totals against each other, につき is the one to reach for when the figure repeats per head, per dose, or per household. Note that the same string につき also serves as a stiff 'owing to' (本日休業につき), and について ordinarily means 'regarding'.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "入場料[にゅうじょうりょう]は一人[ひとり]について五百円[ごひゃくえん]いただきます。",

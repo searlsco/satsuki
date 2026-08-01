@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "Q31",
   "class_name": "並立-選択肢-カ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -17,7 +17,8 @@
         "or",
         "either … or …; whether … or …"
       ],
-      "usage_note": "Coordinating か lays out genuine alternatives from which one is to be settled on, which is why it fits deciding, choosing, and wondering, while や and とか merely sample a set nobody has to choose from. It attaches to nouns, plain-form verbs, i-adjectives, and た, and the final か may be dropped before a particle (お茶かコーヒーを). When the sentence is about not knowing which, the tail often becomes 〜かわからない / 〜か覚えていない. なり likewise offers options, but only as suggestions the hearer may act on; か frames alternatives whose resolution is at issue.",
+      "usage_note": "Coordinating か lays out genuine alternatives from which one is to be settled on, which is why it fits deciding, choosing, and wondering, while や and とか merely sample a set nobody has to choose from. It attaches to nouns, plain-form verbs, i-adjectives, and た, and the final か may be dropped before a particle (お茶かコーヒーを). When the sentence is about not knowing which, the tail often becomes 〜かわからない / 〜か覚えていない. なり likewise offers options, but only as suggestions the hearer may act on; か frames alternatives whose resolution is at issue. It is a different particle from the interrogative か that ends a question: this one sits between the options and needs at least two of them, so a clause-final 'whether' translation here always means 'whether A or B', never a bare yes-no question.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "紅茶[こうちゃ]かコーヒーか、好[す]きな方[ほう]を選[えら]んでください。",

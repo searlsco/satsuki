@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "s21",
   "class_name": "理由-因果-タメニ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "on account of"
       ],
       "usage_note": "A past or stative clause before it reports a cause, while a non-past volitional verb states a purpose; noun+のため is decided by the noun's meaning rather than its form — 大雪のため is a cause, 家族のため a purpose. The causal use is the composed, slightly formal way to give a reason in announcements and written notices, where から and ので sound chattier, and it presents the reason as objective fact, so it usually avoids leading into a request, invitation, or command (雨のため中止します is natural; 雨のため休んでください is not). ために simply spells out the case particle, and 為 is the kanji spelling, still common in formal or older text.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "大雪[おおゆき]のため、明日[あす]の試合[しあい]は中止[ちゅうし]になりました。",
@@ -41,6 +42,7 @@
         "simply on account of"
       ],
       "usage_note": "Pins the blame for a bad turn on one small, often trivial cause, so it comes wrapped in regret or self-reproach and the following clause is almost always an unwelcome outcome out of all proportion to the trivial cause. A past-form verb before it points at a single misstep, while a non-past adjective or habitual verb blames a standing trait for repeated trouble; ばっかりに is the emphatic spoken doubling that thickens the grumble. Compare だけに, which draws a reasonable, sometimes admiring conclusion from its cause, while ばかりに looks back and winces; the separate 〜たいばかりに means \"so badly wanting to …\".",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "気[き]が小[ちい]さいばっかりに、言[い]いたいことも言[い]えない。",
@@ -64,6 +66,7 @@
         "being … as one would expect"
       ],
       "usage_note": "Presents the second clause as the conclusion its cause makes obvious, often with an added \"all the more so\" that なおさら fits neatly into. The outcome may be welcome or unwelcome, and a favorable cause followed by a poor result gives the familiar disappointment reading (期待していただけに残念だ). Unlike ばかりに it apportions no blame, and unlike ため it asks the hearer to agree the link is natural rather than merely reporting it; it also attaches straight to a bare noun (プロだけに). Its close sibling だけあって is limited to results that live up to the cause.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "値段[ねだん]が高[たか]いだけに、作[つく]りがしっかりしている。",

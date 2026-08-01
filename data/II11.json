@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "I11",
   "class_name": "推量-不確実-カモシレナイ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "perhaps"
       ],
       "usage_note": "The default hedge for a possibility the speaker considers real but unconfirmed; weaker and more tentative than だろう. It follows plain forms directly, and after a noun or na-adjective the copula だ drops (雨かもしれない, 静かかもしれない). Clipping it to かも is casual speech; the sibling かもわからない is a colloquial substitute many speakers avoid in writing.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "その話[はなし]、ただの噂[うわさ]かもしれないよ。",
@@ -41,6 +42,7 @@
         "maybe; could be"
       ],
       "usage_note": "A colloquial variant of かもしれない built on 分かる instead of 知れる. It is heard mainly in speech, noticeably in Kansai and from older speakers, and enough people treat it as non-standard that it is best kept out of writing. Semantically it is simply かもしれない — the difference is register and region, not nuance; the contracted かもわからん is especially common.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "あの店[みせ]、この時間[じかん]だともう閉[し]まっているかもわからない。",

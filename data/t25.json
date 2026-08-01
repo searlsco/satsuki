@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "t25",
   "class_name": "逆接-確定-ケレドモ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "though"
       ],
       "usage_note": "The plainest clause-linking 'but', at home in writing, speeches and careful speech where けど would sound too casual. It attaches to the plain form (行くが, 高いが, 明日だが) and equally to the polite ます/です forms in speech. Note that it is often not adversative at all: 失礼ですが or 一つ伺いますが simply prefaces what follows, so context, not が itself, tells you whether a contrast is coming.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "値段[ねだん]は高[たか]いが、この店[みせ]の味[あじ]は文句[もんく]なしだ。",
@@ -43,6 +44,7 @@
         "even though"
       ],
       "usage_note": "One rung down from が in formality: けれども is the full form, and けれど and けども are middling clippings, けど the most casual and by far the most common in speech. Like が it also works as a soft preface (すみませんけど) and, again like が, can be left dangling at the end of a sentence to trail off (行きたいんですけど…); けど just makes the trailing-off casual where ですが keeps it businesslike. Keep けれども for essays and set speeches; reserve けど and けども for conversation.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "妹[いもうと]は平気[へいき]で泳[およ]げるけども、私[わたし]は水[みず]が苦手[にがて]だ。",
@@ -67,6 +69,7 @@
         "only to find that …"
       ],
       "usage_note": "Unlike が or けれども, this one demands a reversal of expectation: the speaker did something, and what actually happened contradicted what they had counted on. Clause-internally it appears as 〜たところが (〜だところが after verbs whose past is voiced: 呼んだところが), so the frame is 〜たところが、〜 ('I went and did X, only to find Y'); the same sentence with plain たら would be neutral about surprise. It is narrative and somewhat bookish, and the outcome clause typically reports a discovery rather than the speaker's own decision.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "電話[でんわ]してみたところが、番号[ばんごう]はすでに変[か]わっていた。",
@@ -91,6 +94,7 @@
         "while being …"
       ],
       "usage_note": "Concessive ながら sets a persisting state against a clashing main clause, and it attaches to nouns and na-adjective stems (新人ながら), i-adjectives (狭いながら) and the masu-stem of verbs (知っていながら) — the noun and adjective attachments are exactly what its close sibling つつ cannot do. The two clauses almost always share one subject, which is why it suits a compact 'X, yet X' portrait rather than a two-actor contrast. ながらも is the same meaning with the concession pressed harder, and it is the form to reach for when a bare ながら might be misread as the simultaneous-action 'while'.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "狭[せま]いながらも、二人[ふたり]で暮[く]らすには十分[じゅうぶん]な部屋[へや]だ。",

@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "y62",
   "class_name": "否定-不可能-コトモナラナイ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "is not so much as able to …"
       ],
       "usage_note": "A literary negation inherited from classical Japanese: こと nominalizes the verb and 成る carries its older sense \"be feasible\", so 〜こともならない says \"it is not even feasible to …\". The particle slot (も／さえ／すら) supplies the \"not even\" scaling. It is essentially obsolete in contemporary Japanese, where こともできない and ことすらできない have taken over, and now appears mainly in period narration and in quoted older speech.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "高熱[こうねつ]が続[つづ]き、床[とこ]から起[お]き上[あ]がることもならなかった。",
@@ -41,6 +42,7 @@
         "cannot possibly …"
       ],
       "usage_note": "べく is the 連用形 of the classical auxiliary べし, so 〜べくもない says there are not even the grounds on which one might do the thing: the impossibility is objective and complete, not a question of permission as with わけにはいかない. In practice べくもない is far the commonest realization — べくはない itself is vanishingly rare in modern text — and it collocates with verbs of knowing, doubting, comparing and hoping (知るべくもない, 疑うべくもない, 比べるべくもない, 望むべくもない, 敵うべくもない). With する, classical すべくもない stands beside the modern するべくもない.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "素人[しろうと]の腕前[うでまえ]では、名人[めいじん]と比[くら]べるべくもない。",

@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "y21",
   "class_name": "否定-無意味-ドコロデハナイ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "… is out of the question"
       ],
       "usage_note": "Sweeps a suggestion off the table: things are so pressing that the named activity is unthinkable, and it usually carries an edge of irritation that the neutral 〜ている場合ではない lacks. どころではない is the more formal written twin of spoken どころじゃない, and the の話じゃない variants pile on extra scorn. Keep it apart from 〜どころか, which corrects a mistaken expectation instead of dismissing an activity as untimely.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "締[し]め切[き]り前[まえ]で、旅行[りょこう]どころじゃないんだ。",
@@ -43,6 +44,7 @@
         "you can't … it at all"
       ],
       "usage_note": "An exasperated disqualification: what happened does not deserve the name. In this 'not fit to be called that' sense it typically follows a potential form (食えたもんじゃない), with the contracted たもんじゃない as the everyday shape and たものではない the version that survives in writing. The same shape after 分かる gives a separate high-frequency idiom, 〜か分かったもんじゃない, 'there's no telling what/whether …'. Where どころじゃない says an activity is untimely, this says the thing itself falls hopelessly short.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "あの店[みせ]の魚[さかな]は生臭[なまぐさ]くて、食[く]えたもんじゃない。",

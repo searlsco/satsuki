@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "F12",
   "class_name": "許可-許可-テケッコウ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "you are welcome to"
       ],
       "usage_note": "結構 grants permission from the position of the one entitled to grant it, so it is natural from staff to customer or from a senior to a junior and can strike a superior as presumptuous; speaking upward, don't grant at all: ask with 〜てもよろしいでしょうか, or, if you must signal that something is acceptable, use 差し支えございません, which cites the absence of an obstacle rather than your own authorization. Note that 結構です standing alone is normally a polite refusal (\"no, thank you\"), a regular source of misunderstanding, whereas inside a 〜ても frame it reliably reads as permission.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "申込書[もうしこみしょ]の記入[きにゅう]は鉛筆[えんぴつ]でも結構[けっこう]です。",

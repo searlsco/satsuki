@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "k14",
   "class_name": "話題-提示-ニシテハ類",
   "tsutsuji_version": "1.1u",
@@ -6,19 +7,19 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
       "l2_id": "1062",
       "canonical_surface": "にしちゃ",
       "glosses": [
-        "for (a)",
-        "considering (it's)",
-        "given that it's"
+        "for (a); by the standards of",
+        "as far as … goes",
+        "considering (it's)"
       ],
-      "usage_note": "Measures something against the standard its own category implies and reports that the result is unexpected, so the following clause carries a note of surprise, often mild praise. Sibling としては makes the same comparison flatly and objectively (相撲取りとしては小柄だ, simply below the norm), whereas にしては adds the 意外性: 相撲取りにしては小柄だ sounds like a discovery. にしちゃ is the casual spoken contraction of にしては, confined to casual speech and the writing that imitates it; it does not appear in formal writing.",
+      "usage_note": "Puts a noun (or a plain clause) up front as the yardstick the rest of the sentence is judged against: 素人にしちゃ frames everything that follows as an amateur-scale assessment, usually an approving one. Class sibling としちゃ sets the same kind of yardstick flatly and objectively (相撲取りとしては小柄だ, simply below the norm), whereas にしちゃ colors the assessment with mild 意外性. When the clash with expectation is itself the point of the sentence rather than the frame — the 'and yet' reading that pairs with くせして and わりに — the corpus files the identical string in the 逆接-想外 class instead. にしちゃ is the casual spoken squeeze of にしては and stays out of formal writing.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "素人[しろうと]にしちゃ、ずいぶん思[おも]い切[き]った攻[せ]め方[かた]だな。",
@@ -29,8 +30,8 @@
           "english": "For what it costs, the taste is honestly pretty good."
         },
         {
-          "ruby": "三月[さんがつ]にしては、今日[きょう]はやけに風[かぜ]が冷[つめ]たい。",
-          "english": "For March, the wind today is awfully cold."
+          "ruby": "うちの犬[いぬ]はチワワにしちゃ、よく食[た]べるほうだ。",
+          "english": "For a chihuahua, ours puts away a fair amount of food."
         }
       ]
     },
@@ -38,23 +39,24 @@
       "l2_id": "2902",
       "canonical_surface": "としちゃ",
       "glosses": [
-        "as",
-        "in the capacity of",
-        "from the standpoint of"
+        "as a …; for a …",
+        "by the standards of a …",
+        "measured as a …"
       ],
-      "usage_note": "Names the position, role, or category from which the following statement is made; with a person it gives that person's stance (私としては賛成だ), and with a category it compares against that category's norm without the surprise にしては adds. The standpoint sense cannot be swapped for にしては at all. としましては is the polite business form, としちゃ the casual spoken contraction.",
+      "usage_note": "Names the class the subject is being measured in, so the judgment that follows is relative to that class and not to things in general: 国産としちゃ高い prices the watch against domestic watches only. Class sibling にしちゃ sets up the same kind of yardstick but adds a note of surprise, while としちゃ stays flat and evaluative. The identical string also carries a standpoint reading filed in the 観点 class (俺としちゃ賛成だ, 'speaking for myself'); there the noun is the person whose opinion it is, here it is the category the subject belongs to. としては is the everyday realization, としましては the business-polite one, としちゃ the casual squeeze.",
+      "human_verified": false,
       "examples": [
         {
-          "ruby": "親[おや]としては、そろそろ本音[ほんね]を聞[き]かせてほしい。",
-          "english": "As his parent, I'd like to hear what he actually thinks, and soon."
+          "ruby": "この時計[とけい]は国産[こくさん]としちゃ、かなり値段[ねだん]が張[は]るな。",
+          "english": "As domestic watches go, this one carries a pretty steep price."
         },
         {
-          "ruby": "弊社[へいしゃ]としましては、今回[こんかい]の条件[じょうけん]をお受[う]けできません。",
-          "english": "Speaking for our company, we are unable to accept the terms on offer."
+          "ruby": "ここは都心[としん]のワンルームとしちゃ広[ひろ]いほうだ。",
+          "english": "For a downtown studio apartment, this place is on the roomy side."
         },
         {
-          "ruby": "俺[おれ]としちゃ、明日[あした]でも構[かま]わないんだけどな。",
-          "english": "Personally, I'd be fine with tomorrow, for what it's worth."
+          "ruby": "彼[かれ]はプロとしちゃ、練習[れんしゅう]が足[た]りないと思[おも]うな。",
+          "english": "For a pro, I'd say he doesn't put in enough practice."
         }
       ]
     }

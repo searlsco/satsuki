@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "I23",
   "class_name": "推量-高確実性-ノダロウ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "presumably …"
       ],
       "usage_note": "のだ + だろう, contracted to んだろう in speech: unlike bare だろう it conjectures about the explanation behind something the speaker has just observed, so it typically follows a stated or implied piece of evidence. Polite んでしょう and written のだろう are the same pattern. It attaches to plain forms, and with na-adjectives and nouns the copula must surface as な (静かなんだろう), not だ.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "電気[でんき]が消[き]えているから、もう寝[ね]たんだろう。",
@@ -43,6 +44,7 @@
         "I can only imagine (that) …"
       ],
       "usage_note": "A written-style, emotionally colored conjecture: it adds the speaker's sympathy, admiration or wistfulness to what plain だろう would state flatly, so it very often pairs with さぞ(かし) or どんなに. Use it when you are imagining someone else's feelings or a scene you cannot see; for a neutral prediction about facts, use だろう. The contracted こったろう survives mainly in the fixed exclamation なんてこったろう; ことでしょう is the polite counterpart.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "一人[ひとり]で異国[いこく]の地[ち]に立[た]った時[とき]、心細[こころぼそ]かったことだろう。",
@@ -67,6 +69,7 @@
         "… , right?"
       ],
       "usage_note": "The everyday conjecture marker, historically a contraction of である + う. It states the speaker's own estimate of a fact, with none of the explanatory framing of んだろう or the emotional coloring of ことだろう. Attached directly to nouns and na-adjective stems with no copula (明日は雨だろう), and said with rising intonation it becomes a confirmation-seeking tag; でしょう is the polite form, だろ／でしょ the casual clipped ones.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "この分[ぶん]だと明日[あした]も雨[あめ]が降[ふ]るだろう。",
@@ -91,6 +94,7 @@
         "it may be well to …"
       ],
       "usage_note": "The bare conjectural う, attached to the 未然ウ接続 stem. In contemporary Japanese it survives as a live conjecture mainly in であろう (from ある) and in i-adjective forms such as よかろう・なかろう・高かろう; on ordinary verbs the same ending is read as volitional (行こう) instead. It belongs to formal writing and deliberately old-fashioned speech, where だろう would be the neutral choice; よかろう in particular has drifted beyond prediction into a curt granting of permission or recommendation ('that'll do', 'do as you like'); other adjective forms such as 高かろう・なかろう stay purely conjectural.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "その話[はなし]はおそらく事実[じじつ]であろう。",
@@ -115,6 +119,7 @@
         "-able"
       ],
       "usage_note": "Auxiliary 得る on the masu-stem marks logical possibility rather than acquired ability: it is the written equivalent of 〜可能性がある／〜ということもある, not of できる, so 泳ぎ得る cannot mean 'I can swim'. Dictionary and prenominal forms are read either うる or える (起こり得る), but every other form uses え-: the negative is only 得ない (えない), never うない. あり得る／あり得ない are the highest-frequency instances.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "この方法[ほうほう]でも問題[もんだい]は解決[かいけつ]し得[う]る。",

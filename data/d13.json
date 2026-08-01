@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "d13",
   "class_name": "状況-般-ニツケテ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "at each turn of"
       ],
       "usage_note": "Attaches to a dictionary-form verb of perceiving or recalling (見[み]る, 聞[き]く, 思[おも]い出[だ]す) and says that every such occasion brings on the same feeling; the main clause is therefore a reaction that wells up by itself, and requests, commands, and statements of intention do not appear there. It is somewhat literary and is often doubled for sweep (見るにつけ聞くにつけ). Noun-based uses such as 何[なに]かにつけて exist and are common in speech, but the verb-attached shape is this pattern's core. Adjectives attach as well, typically in the doubled shape (嬉[うれ]しいにつけ悲[かな]しいにつけ). Compare 〜たびに, a neutral \"every time\" with no emotional coloring.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "桜[さくら]を見[み]るにつけ、故郷[こきょう]の川[かわ]を思[おも]い出[だ]す。",

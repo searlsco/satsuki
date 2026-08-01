@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "y61",
   "class_name": "否定-不可能-ワケニハイカナイ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "there's no way one can …"
       ],
       "usage_note": "This denies permissibility, not ability: the act is perfectly doable, but duty, conscience or circumstances rule it out, which is what separates it from 〜ことができない. Attached to a negated verb it flips into obligation (行かないわけにはいかない, \"I have no choice but to go\"). It typically describes a human predicament the speaker is inside of, and the fuller written shape is わけにはいかない, with わけにゃ／わけにゃゆかない as spoken contractions.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "大事[だいじ]な打[う]ち合[あ]わせだから、遅刻[ちこく]するわけにはいかない。",
@@ -42,6 +43,7 @@
         "it surely wouldn't do to …"
       ],
       "usage_note": "わけにはいかない with the conjectural まい fused onto いく, so the refusal is offered as a judgment the hearer is expected to share rather than flatly asserted. It belongs to written narration, speeches and the deliberative inner monologue of older, usually male speakers; ordinary conversation says わけにはいかないだろう instead. まい already carries the negation, so no second negative attaches to いく itself; the preceding verb, however, is freely negative, and 〜ないわけにはいくまい (\"one can hardly not …\") is the ordinary obligation shape, whose neutral everyday counterpart is 〜ないわけにはいかない.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "これほど世話[せわ]になった相手[あいて]を見捨[みす]てるわけにはいくまい。",
@@ -61,23 +63,24 @@
       "l2_id": "3272",
       "canonical_surface": "まい",
       "glosses": [
-        "probably won't …",
         "I'll never …",
-        "I don't intend to …"
+        "I won't …",
+        "I'm determined not to …"
       ],
-      "usage_note": "The negative twin of よう／だろう: with a first-person subject it is negative resolve (二度と行くまい, \"I'll never go again\"), with a third-person subject negative conjecture (\"probably won't\"). Godan verbs take the dictionary form; ichidan and する are also found in a shorter shape (見まい, しまい／すまい) beside 見るまい, するまい, and 来る has a contested short form (こまい from the 未然形 beside classical くまい) alongside 来るまい. Everyday speech now prefers ないだろう or ないつもりだ, so まい reads bookish or stiffly formal.",
+      "usage_note": "Negative resolve in the first person: 二度と入るまい is a vow, the negative twin of the volitional よう, and it sits in the わけにはいかない group because it rules an act out for the speaker himself. The purely predictive reading of まい (\"surely won't\", ≒ないだろう, said of a third party or an event) is filed with the はずがない group; the giveaway here is a first-person subject, often with a framing verb of decision (〜まいと決めた, 〜まいと誓う, 〜まいとする). Godan verbs take the dictionary form; ichidan and する are also found in a shorter shape (見まい, しまい／すまい) beside 見るまい, するまい, and 来る has a contested short form (こまい from the 未然形 beside classical くまい) alongside 来るまい. Everyday speech now prefers ないつもりだ, so まい reads bookish or stiffly formal.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "あんな店[みせ]には二度[にど]と入[はい]るまいと心[こころ]に決[き]めた。",
           "english": "I made up my mind never to set foot in that shop again."
         },
         {
-          "ruby": "彼[かれ]の性格[せいかく]からして、素直[すなお]に認[みと]めるまい。",
-          "english": "Knowing his temperament, he's unlikely to just admit it."
+          "ruby": "もう約束[やくそく]の時間[じかん]に遅[おく]れるまいと、早[はや]めに家[いえ]を出[で]た。",
+          "english": "Determined never to be late for an appointment again, I left the house early."
         },
         {
-          "ruby": "この雨[あめ]では、今日[きょう]の試合[しあい]は予定[よてい]どおり始[はじ]まるまい。",
-          "english": "In this rain today's match surely won't start on schedule."
+          "ruby": "この件[けん]については、誰[だれ]にも相談[そうだん]するまい。",
+          "english": "On this matter I won't be consulting anyone."
         }
       ]
     }

@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "I21",
   "class_name": "推量-高確実性-ニチガイナイ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "there is no doubt that"
       ],
       "usage_note": "The everyday high-certainty inference: the speaker reasons from evidence in front of them and commits to the conclusion. It attaches to plain forms, and a noun or na-adjective stem goes in bare with no だ. Among its siblings, に決まっている is the pushier, more colloquial \"obviously\" that typically answers or overrides someone else's assumption, while に相違ない is the stiff written counterpart. The は variant には違いない is not rough at all but concessive — it grants the point before a but-clause (便利には違いないが、値段が高すぎる) — while the further contractions にゃ違いない and 違いねえ belong to rough casual speech and fiction dialogue.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "この空模様[そらもよう]なら明日[あす]も雨[あめ]が降[ふ]るに違[ちが]いない。",
@@ -41,6 +42,7 @@
         "obviously"
       ],
       "usage_note": "Colloquial and forceful: it frames the conclusion as too obvious to argue with, so it very often lands as a rebuttal of what the listener just said or assumed. Because it sounds subjective and a little pushy, it is largely avoided in formal writing, where に違いない or に相違ない is used instead. In speech the ている almost always contracts to てる.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "そんな安[やす]い宝石[ほうせき]、偽物[にせもの]に決[き]まってるよ。",
@@ -64,6 +66,7 @@
         "there can be no doubt that"
       ],
       "usage_note": "The stiff, written sibling of に違いない, at home in affidavits, reports, investigative writing and period-drama narration; in casual conversation it sounds theatrical. Its nuance of certainty is the same as に違いない, so the choice between them is one of register rather than meaning. The polite negative 相違ありません is the fixed phrase used to attest that a written statement is accurate.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "この筆跡[ひっせき]は被告[ひこく]本人[ほんにん]のものに相違[そうい]ない。",

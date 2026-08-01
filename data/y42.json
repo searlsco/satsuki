@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "y42",
   "class_name": "否定-般-マイトスル類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "be determined not to …"
       ],
       "usage_note": "まい is the negative volitional, so 〜まいとする is resolving or straining not to do something, most often an involuntary reaction the subject is suppressing. Godan verbs take the dictionary form (泣くまい); ichidan and する verbs appear both in the full form (見るまい, するまい) and, in more literary usage, shortened on the 未然形 (見まい, すまい, しまい). The は of 〜まいとはした marks contrast, conceding the attempt just before reporting that it failed, and the whole pattern belongs to narrative and written prose rather than casual talk.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "彼[かれ]は泣[な]くまいとして天井[てんじょう]をじっと見[み]ていた。",

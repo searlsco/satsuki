@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "z24",
   "class_name": "願望-働きかけ-ホウガヨイ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "I hope …"
       ],
       "usage_note": "A conditional clause plus よい: 'if you do X, that's good' — gentle, open-ended advice with no comparison behind it, unlike 〜ほうがいい, which implies the rejected alternative. と, ば, and たら all appear; たらいい and ばいい dominate casual speech, while といい often shades into a bare wish about something outside anyone's control ('I hope it clears up'). Past-tense よかった on this frame (〜ばよかった／〜たらよかった) turns it into regret — what you should have done — not advice; the relief sense you may have seen belongs to the separate 〜てよかった frame.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "味[あじ]が薄[うす]いと感[かん]じたら、醤油[しょうゆ]を少[すこ]し垂[た]らすといい。",
@@ -43,6 +44,7 @@
         "you should …"
       ],
       "usage_note": "Literally 'the … side is good', so a comparison is always implied: this option over the one being passed up. Advice given about a concrete, present decision typically takes the た-form (行ったほうがいい), which sounds more pointed than the dictionary form; the negative counterpart is 〜ないほうがいい. Because it weighs alternatives it is stronger than 〜といい but far less imperious than 〜がよい.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "大[おお]きな買[か]い物[もの]だから、一晩[ひとばん]考[かんが]えたほうがいい。",
@@ -67,6 +69,7 @@
         "you may as well …"
       ],
       "usage_note": "Dictionary form + がよい, an archaic-flavored directive spoken downward: lords, elders, sages and villains in period drama and fantasy. The がいい realization is the ordinary modern one and often carries a dismissive-permissive tone ('好きにするがいい' — suit yourself), while がよい keeps the dignified ring. Unlike 〜ほうがいい it weighs no alternative; it simply tells the listener to proceed.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "用[よう]が済[す]んだら、速[すみ]やかに立[た]ち去[さ]るがよい。",

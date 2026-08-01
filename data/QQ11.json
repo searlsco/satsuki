@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "Q11",
   "class_name": "並立-全列挙-ト類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -17,6 +17,7 @@
         "and (a complete list)"
       ],
       "usage_note": "Listing と joins nouns and claims the list is exhaustive: パンと卵 means those two and nothing else, whereas や names only samples and leaves the rest open. It repeats between every item (AとBとC); modern usage normally drops the と after the last item, though the fuller AとBと(を) survives in formal and older writing. The comitative と also follows a noun, so tell them apart by structure — listing と yields a single NP that fills one slot (パンと卵を買う), while comitative と names a companion to the verb (友達と行く). The quotative と attaches to a clause.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "朝[あさ]はパンと卵[たまご]と牛乳[ぎゅうにゅう]で済[す]ませる。",

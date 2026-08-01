@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "A21",
   "class_name": "伝聞-ぼかし-トヤラ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -17,7 +17,8 @@
         "I hear … or something",
         "apparently; something about …"
       ],
-      "usage_note": "Hedged hearsay: you relay what you heard while pointedly declining to vouch for it, which makes it the polite way to pass on news about other people. It usually closes the sentence with the verb of saying left off, and とかで introduces a reported reason. Next to そうだ, which repeats a report straight, とか signals that you may have the details wrong; next to とやら it hedges the report rather than the identity of the thing.",
+      "usage_note": "Hedged hearsay: you relay what you heard while pointedly declining to vouch for it, which makes it the polite way to pass on news about other people. It usually closes the sentence with the verb of saying left off, and とかで introduces a reported reason. Next to そうだ, which repeats a report straight, とか signals that you may have the details wrong; next to とやら it hedges the report rather than the identity of the thing. It is also distinct from the listing とか that strings examples together mid-sentence (映画とか音楽とか): hearsay とか closes the clause and stands alone, and it never comes in pairs.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "課長[かちょう]は今年[ことし]いっぱいで会社[かいしゃ]を辞[や]めるとか。",
@@ -41,6 +42,7 @@
         "… or so they call it"
       ],
       "usage_note": "Marks something the speaker cannot or will not pin down: a half-caught name, or a fashionable term held at arm's length, which is why it often lands as faintly mocking. It is bookish and turns up rarely in everyday conversation, and it attaches most often to a noun, frequently followed by いう (山田とやらいう男). Where とか hedges the reliability of a report, とやら distances the speaker from the thing being named.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "ワーケーションとやらのために、若[わか]い社員[しゃいん]が島[しま]へ渡[わた]った。",

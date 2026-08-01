@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "n21",
   "class_name": "添加-一様-ニヨラズ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "not depending on"
       ],
       "usage_note": "From 依る 'depend on', so it says the outcome is not determined by the noun named: the factor may vary freely and the result holds anyway. Compared with を問わず, which announces that a condition simply will not be asked about, によらず points at a would-be deciding factor and denies its influence, and it favours nouns naming a presumed deciding factor (見かけ, 年齢, 印象) rather than merely vague ones. It attaches directly to a noun.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "味[あじ]の好[この]みは年齢[ねんれい]によらず人[ひと]それぞれだ。",
@@ -43,6 +44,7 @@
         "without distinction of"
       ],
       "usage_note": "Literally 'without asking about', so it declares a condition off the table, and it belongs to announcements, job ads, and rules rather than casual speech; write it 〜を問わず. The noun it takes is typically one with clear, enumerable alternatives (男女, 国籍, 経験の有無, 昼夜), which is where it beats によらず and にかかわらず; conversely a vague quantity noun like 購入金額 sits better with にかかわらず. It attaches directly to a noun.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "当店[とうてん]は経験[けいけん]の有無[うむ]を問[と]わずスタッフを募集[ぼしゅう]します。",

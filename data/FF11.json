@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "F11",
   "class_name": "許可-許可-テヨイ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "you can go ahead and"
       ],
       "usage_note": "The default permission form: grants or requests permission, and after a noun (これでいい) concedes that a lesser option is acceptable rather than merely permitted. たって / だって are the colloquial contracted variants, and でも after a noun covers \"even X is fine.\" Compared with てもかまわない it sounds more positively welcoming. It is the neutral, everyday form between equals and downward. Upward, ask rather than grant, and raise the politeness: 〜てもよろしいでしょうか or 〜てもかまいませんか.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "熱[ねつ]がないなら、明日[あす]から出社[しゅっしゃ]してもいいですよ。",
@@ -41,6 +42,7 @@
         "may, as far as I'm concerned"
       ],
       "usage_note": "Literally \"it doesn't bother me,\" so it expresses indifference or tolerance rather than the warm approval of てもいい; granted as permission it can sound faintly grudging, but asked as てもかまいませんか it is the more deferential of the two and the safer form with a superior. The ん / ぬ / ねえ endings in this family are markedly blunt or dialectal; かまいません is the ordinary polite form.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "席[せき]は空[あ]いていますので、どこに座[すわ]ってもかまいません。",
@@ -64,6 +66,7 @@
         "may, without any problem"
       ],
       "usage_note": "The stiffest member of the group, at home in business correspondence, forms, and administrative announcements. 差し支える means \"to get in the way,\" so the expression rules out a practical obstacle rather than offering encouragement, and it typically appears where a rule, deadline, or procedure is at issue rather than a personal favor. The conditional 差し支えなければ (\"if it's no trouble\") is a very common polite preface; in polite finite position speakers usually say 差し支えありません instead of this ない form.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "会場[かいじょう]の写真[しゃしん]は撮[と]っても差[さ]し支[つか]えないでしょうか。",

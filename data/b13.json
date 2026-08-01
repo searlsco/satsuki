@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "b13",
   "class_name": "対象-関連-ニマツワル類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "connected with (a story or legend)"
       ],
       "usage_note": "Use it for what clings to something: the tales, legends, superstitions and memories attached to a place, object or name. It pairs most naturally with nouns like 話, 伝説, エピソード, 逸話, and it adds an air of narrative that the flatter に関する lacks; unlike をめぐって it implies no dispute at all. It is used almost exclusively as the prenominal にまつわる, so learners are safest sticking to that form. にまつわる attaches lore or association to a thing, while をめぐる puts a thing at the centre of contention: 遺産をめぐる争い but 遺産にまつわる話.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "この古[ふる]い井戸[いど]にまつわる伝説[でんせつ]を祖母[そぼ]から聞[き]いた。",

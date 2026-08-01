@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "a12",
   "class_name": "立場-状態-ヲモッテ類",
   "tsutsuji_version": "1.1u",
@@ -6,19 +7,19 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
       "l2_id": "0061",
       "canonical_surface": "をもって",
       "glosses": [
-        "by means of …",
-        "with …",
-        "as of …"
+        "as of; with effect from",
+        "in the capacity/state of",
+        "by means of (formal)"
       ],
-      "usage_note": "A formal, written-style particle with two jobs: naming the means or grounds by which something is done (書類と面接をもって選考する), and naming the point at which something takes effect or ends (本日をもって). The second sense is what separates it from でもって, which stays instrumental. をもって is written and ceremonial; でもって is the one you may actually hear spoken. It is standard in notices, contracts and ceremonies; をもちまして is the extra-polite realization, and the fixed 身をもって ('through firsthand experience') keeps it alive in ordinary speech.",
+      "usage_note": "A formal, written-style particle whose own work here is to name the point at which something takes effect or ends (本日をもって, 来月末をもって) and the standing or faculty one acts in (身をもって). It also names means or grounds, but that instrumental job is what the sibling entries and でもって cover, and でもって is never used for the cut-off sense. をもって is standard in notices, contracts and ceremonies; をもちまして is the extra-polite realization, and the fixed 身をもって ('through firsthand experience') keeps it alive in ordinary speech.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "本日[ほんじつ]をもって当店[とうてん]は営業[えいぎょう]を終[お]えます。",
@@ -29,8 +30,8 @@
           "english": "He taught me how dangerous it was through his own hard experience."
         },
         {
-          "ruby": "選考[せんこう]は書類[しょるい]と面接[めんせつ]をもって行[おこな]います。",
-          "english": "Screening will be conducted on the basis of documents and an interview."
+          "ruby": "本契約[ほんけいやく]は明日[あす]をもって効力[こうりょく]を失[うしな]う。",
+          "english": "This contract ceases to have effect as of tomorrow."
         }
       ]
     }

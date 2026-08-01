@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "a11",
   "class_name": "立場-状態-トシテ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "by way of …"
       ],
       "usage_note": "Marks the role, status or category under which someone or something acts or is treated: 通訳として means the person is functioning in that capacity, not merely resembling an interpreter. Keep it apart from the instrumental でもって and をもって, which name the means used rather than the standing of the actor. としまして is the polite realization for speeches and customer-facing writing, としちゃ the clipped casual form of the topicalized としては (僕としちゃ反対だ), and としての is the form used before a noun (教師としての責任). をもって never marks the role someone occupies, even in 身をもって, which is about firsthand experience, not standing.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "彼女[かのじょ]は通訳[つうやく]として会議[かいぎ]に同席[どうせき]した。",
@@ -38,23 +39,23 @@
       "l2_id": "0071",
       "canonical_surface": "でもって",
       "glosses": [
-        "by means of …",
-        "with …",
-        "by dint of …"
+        "by dint of; on the strength of",
+        "with (the qualities one brings)"
       ],
-      "usage_note": "An emphatic reinforcement of the instrumental particle で: 実力でもって is 実力で with the means pushed into focus. It is the plainer, less ceremonious member of the pair with をもって, and the cut-off-in-time sense (本日をもって) is overwhelmingly をもって's; でもって is essentially never used that way in formal notices. Note that spoken Japanese also uses a completely separate sentence-initial でもって meaning 'and then, on top of that', which has nothing to do with this instrumental one.",
+      "usage_note": "An emphatic reinforcement of the instrumental particle で that names the standing, skill or resource the actor brings to bear: 実力でもって is 実力で with the means pushed into focus. Where the 仲介 sibling sets the effective means against a rejected one (言葉ではなく行動でもって), this entry foregrounds what the actor has. It is the plainer, less ceremonious member of the pair with をもって, and the cut-off-in-time sense (本日をもって) is overwhelmingly をもって's; でもって is essentially never used that way in formal notices. Note that spoken Japanese also uses a completely separate sentence-initial でもって meaning 'and then, on top of that', which has nothing to do with this instrumental one.",
+      "human_verified": false,
       "examples": [
         {
-          "ruby": "彼[かれ]は圧倒的[あっとうてき]な技術[ぎじゅつ]でもって周囲[しゅうい]を黙[だま]らせた。",
-          "english": "He silenced everyone around him by sheer technical brilliance."
+          "ruby": "彼[かれ]は長年[ながねん]の経験[けいけん]でもって難局[なんきょく]を乗[の]り切[き]った。",
+          "english": "He rode out the crisis on the strength of long years of experience."
         },
         {
           "ruby": "その案[あん]は多数決[たすうけつ]でもって承認[しょうにん]された。",
           "english": "The proposal was approved by a majority vote."
         },
         {
-          "ruby": "監督[かんとく]は言葉[ことば]ではなく態度[たいど]でもって選手[せんしゅ]を導[みちび]いた。",
-          "english": "The manager led his players by example rather than by talk."
+          "ruby": "彼女[かのじょ]は確[たし]かな実力[じつりょく]でもって代表[だいひょう]の座[ざ]を勝[か]ち取[と]った。",
+          "english": "She won the national team place on sheer ability."
         }
       ]
     }

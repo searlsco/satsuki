@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "K31",
   "class_name": "授受-内の受益-テモラウ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "have … done for one's benefit"
       ],
       "usage_note": "The receiver is the subject, so the event is framed as a benefit obtained, very often one the receiver arranged or asked for; てくれる (1271) reports the same favor with the giver as subject. The person who acts is marked with に (から is also possible when something is handed over or told). Unlike てくれる, the beneficiary here need not be the speaker: 弟は先輩に直してもらった is fine. The humble counterpart is ていただく (1301).",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "兄[あに]に自転車[じてんしゃ]のパンクを直[なお]してもらった。",
@@ -41,6 +42,7 @@
         "have (someone) kindly do …"
       ],
       "usage_note": "The humble (謙譲語) counterpart of てもらう, used when the person doing the favor outranks you; 〜ていただけますか / 〜ていただけませんか are the standard way to phrase a business request. Keep one perspective per sentence: ていただく puts you, the receiver, in the subject slot, while てくださる (1281) keeps the other person there. 頂く and 戴く are the kanji spellings, but the auxiliary is usually written in kana.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "先生[せんせい]に卒業論文[そつぎょうろんぶん]を読[よ]んでいただいた。",

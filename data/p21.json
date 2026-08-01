@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "p21",
   "class_name": "継起-最後-タキリ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "only that once"
       ],
       "usage_note": "Emphatic colloquial variant of 〜たきり (the small っ is what adds the emphasis), attached to the plain past form of a verb: it marks that action as the last time, with nothing following it. The second clause is almost always negative or otherwise describes a state that has simply persisted ever since, and the pattern typically carries worry, resignation, or mild complaint rather than neutral reporting. Reserve it for speech and casual writing; 〜たきり is the neutral form and 〜たまま is the choice when you mean a state left unchanged rather than an event never repeated.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "弟[おとうと]は部屋[へや]に駆[か]け込[こ]んだっきり出[で]て来[こ]ない。",

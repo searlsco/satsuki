@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "u12",
   "class_name": "対比-般-カワリニ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "on the other hand"
       ],
       "usage_note": "One form covers two jobs: substitution (someone or something stands in for another) and compensation, where a clause states a trade-off, a plus balanced against a minus. A noun needs の before it (先生のかわりに), a verb or い-adjective attaches in its plain form, and a な-adjective takes な (静かなかわりに). にかわって covers only the substitution job; the compensation reading is かわりに's alone. Its classmate かと思うと contrasts two events in time, and 反面 / 一方で mark the same plus-versus-minus balance in writing; かわりに adds the sense that one side is payment for the other.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "兄[あに]が犬[いぬ]の散歩[さんぽ]に行[い]くかわりに、僕[ぼく]が皿[さら]を洗[あら]った。",
@@ -43,6 +44,7 @@
         "just when you think …"
       ],
       "usage_note": "Marks two events colliding: the second follows so fast, or reverses the first so sharply, that the whole sentence reads as surprising. Teaching references state flatly that it is not used of the speaker's own actions, and the main clause almost never carries a command, request, or statement of intention. In running text it attaches most often to the past form (降り出したかと思うと); the plain form used here is its other standard attachment. Dictionary form goes with an alternating, non-past main clause; a one-off past event needs the た form (やんだかと思うと). かと思ったら and かと思えば are close variants rather than free substitutes: かと思ったら also reports an outcome contrary to the speaker's expectation, and かと思えば can enumerate alternating cases (〜かと思えば、〜もいる).",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "弟[おとうと]は泣[な]いているかと思[おも]うと、もう笑[わら]っている。",

@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "d31",
   "class_name": "状況-座標-ニ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "on"
       ],
       "usage_note": "The coordinate に: it fixes an event to a point in space or time rather than describing an activity's setting, so it is the particle for existence and location (ある, いる, 住[す]む, 置[お]く) and for clock times, dates and days. Contrast で, which marks the arena where something happens: 公園[こうえん]にいる is where you are, 公園で遊[あそ]ぶ is where the playing goes on. Relative time words like 昨日[きのう] and 来週[らいしゅう] usually appear bare, without に. にゃ is the casual spoken contraction of には, common in fiction and regional speech.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "駅[えき]の裏[うら]に小[ちい]さな古本屋[ふるほんや]がある。",

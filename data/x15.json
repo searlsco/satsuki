@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "x15",
   "class_name": "疑問-問いかけ-モノカ類",
   "tsutsuji_version": "1.1u",
@@ -6,19 +7,19 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
       "l2_id": "2542",
       "canonical_surface": "もんか",
       "glosses": [
-        "as if …!",
-        "hardly; certainly not",
-        "like hell …"
+        "as if it were …!",
+        "not … in the least",
+        "hardly … at all"
       ],
-      "usage_note": "A question in form only: もんか throws the proposition back in rejection, so 痛いもんか means it does not hurt in the slightest, and 負けるもんか means I refuse to lose. It is the colloquial contraction of ものか and sounds rough and emphatic, so it stays out of formal settings and away from superiors; the ものですか / もんですか forms are the politer variants and are more associated with female speakers. With a verb it commonly declares the speaker's own refusal (二度と行くもんか).",
+      "usage_note": "Denies a state rather than an act: put as a question, 痛いもんか says it does not hurt in the slightest and うまいもんか says the food is nothing of the sort. The corpus licenses it after a plain adjective (and after past た/だ), which is what separates it from the verb-attaching もんか of the ハズガナイ group, where 二度と行くもんか is a vow of refusal rather than a verdict on how things are. It is the colloquial contraction of ものか and sounds rough and emphatic, so it stays out of formal settings and away from superiors; ものですか / もんですか are the politer variants and are more associated with female speakers.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "このくらいのかすり傷[きず]が痛[いた]いもんか。",
@@ -29,8 +30,8 @@
           "english": "As if the food at a place like that could be any good."
         },
         {
-          "ruby": "今[いま]さら謝[あやま]られたって、嬉[うれ]しいもんか。",
-          "english": "An apology at this point? As if that would make me happy."
+          "ruby": "あんな作[つく]り話[ばなし]の映画[えいが]が怖[こわ]いもんか。",
+          "english": "A movie that made-up? As if it could be scary."
         }
       ]
     }

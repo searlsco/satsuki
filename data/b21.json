@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "b21",
   "class_name": "対象-指向-ニタイシテ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "in response to; with regard to"
       ],
       "usage_note": "Marks the person, group or thing an action, attitude or feeling is aimed at, so it goes with words like 抗議する, 反対する, 優しい, 厳しい. Keep it clear of について and に関して, which name what is being discussed rather than who it is aimed at: a presentation is 温暖化問題について, not に対して. It also does not stand in for the を that marks a verb's direct object, and in its prenominal form に対する it commonly heads nouns like 反応, 批判, 態度.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "店員[てんいん]の態度[たいど]に対[たい]して、客[きゃく]が強[つよ]く抗議[こうぎ]した。",
@@ -37,22 +38,23 @@
       "l2_id": "2932",
       "canonical_surface": "にゃ",
       "glosses": [
-        "as for … to; to (a target, marked contrastively)",
-        "casual spoken contraction of には"
+        "toward (someone), as an attitude",
+        "as for (how one behaves) toward …"
       ],
-      "usage_note": "にゃ is the casual spoken contraction of には (には → にゃ, parallel to では → じゃ, ては → ちゃ). It keeps には's contrastive force (that one, at least, I haven't told) and carries a blunt, gruff colouring, so it belongs to rough or older-speaker speech, dialect and fiction dialogue, never to writing or polite speech. Written or formal counterparts are plain には, with に対して as the heavier, explicit alternative when the target needs weight. Watch out for a homophonous にゃ that contracts ねば (行かにゃならん), a different construction entirely.",
+      "usage_note": "The に that aims an attitude, feeling or reaction at someone — the slot に対して fills when it needs weight — so it turns up with 厳しい, 優しい, 甘い, 冷たい, 腹を立てる rather than with verbs of handing something over. にゃ is the casual spoken contraction of には (parallel to では→じゃ, ては→ちゃ), so it adds は's contrastive force (that one, at any rate) and belongs to rough, familiar or old-fashioned speech, never to writing, where には or に対して is used instead. Keep it apart from sibling 2933, whose に marks the party spoken to, asked or handed something (親にゃ言えない), and from the homophonous にゃ that contracts ねば (行かにゃならん).",
+      "human_verified": false,
       "examples": [
         {
-          "ruby": "その話[はなし]はまだ両親[りょうしん]にゃ言[い]っていない。",
-          "english": "I still haven't breathed a word of that to my folks."
+          "ruby": "うちの親父[おやじ]は昔[むかし]から俺[おれ]にゃ厳[きび]しかった。",
+          "english": "My old man was always hard on me, at least."
         },
         {
-          "ruby": "こんな細[こま]かい作業[さぎょう]、俺[おれ]にゃとても無理[むり]だ。",
-          "english": "Fiddly work like this is well beyond me."
+          "ruby": "あの犬[いぬ]は子供[こども]にゃ不思議[ふしぎ]と優[やさ]しいんだ。",
+          "english": "That dog is oddly gentle when it comes to kids."
         },
         {
-          "ruby": "あいつにゃ何[なに]を言[い]っても無駄[むだ]だよ。",
-          "english": "There's no point saying anything to that guy."
+          "ruby": "あいつは店[みせ]の客[きゃく]にゃいつも腰[こし]が低[ひく]い。",
+          "english": "With the shop's customers, that guy is all deference."
         }
       ]
     }

@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "J33",
   "class_name": "進行-継続-テクル類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "go and … and come back"
       ],
       "usage_note": "Change that has built up to the present, or motion oriented toward the speaker; 〜てきた is the usual shape for a state that has newly emerged. Contrast 〜ていく, which sends the same change forward and away. Its humble-formal counterpart is 〜てまいりました, and with motion verbs it keeps the literal 'go do it and come back' sense.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "夕方[ゆうがた]から急[きゅう]に風[かぜ]が強[つよ]くなってきた。",
@@ -42,6 +43,7 @@
         "have gradually come to …"
       ],
       "usage_note": "The 参る-based humble/formal counterpart of 〜てくる, covering developments that have reached the present; it is the standard register for seasonal greetings and for recounting what you or your company has done to date. The very same forms in the non-past carry the forward-looking 〜ていく sense, so tense and context decide the direction. As a humble form it describes your own side or impersonal happenings rather than a respected person's actions.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "朝晩[あさばん]はずいぶん冷[ひ]え込[こ]んでまいりました。",
@@ -65,10 +67,11 @@
         "(honorific) bring / go along …ing"
       ],
       "usage_note": "Honorific of 〜てくる (and of 〜ていく), used for a respected person approaching, arriving, or bringing something along. It shares its surface with the honorific of 〜ている, so the verb and the situation tell you whether motion or an ongoing state is meant. 〜ておいでになる often alternates with it, and for your own actions you would say 〜てまいりました instead.",
+      "human_verified": false,
       "examples": [
         {
-          "ruby": "お客様[きゃくさま]が受付[うけつけ]まで歩[ある]いていらっしゃいます。",
-          "english": "The guest is walking over to reception."
+          "ruby": "社長[しゃちょう]がこちらへ戻[もど]っていらっしゃいました。",
+          "english": "The president has come back over here."
         },
         {
           "ruby": "部長[ぶちょう]が重[おも]い資料[しりょう]を運[はこ]んでいらっしゃいました。",

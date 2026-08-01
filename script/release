@@ -1,0 +1,37 @@
+#!/usr/bin/env bash
+# Cut a satsuki release: validate every data file with the mechanical gate,
+# assemble the single-file export, tag, and publish a GitHub release with
+# the export attached. Usage: script/release <version>   (e.g. 1.0.0)
+set -euo pipefail
+
+REPO="$(cd "$(dirname "$0")/.." && pwd)"
+VERSION="${1:?usage: script/release <version>}"
+GATE="$REPO/tools/gate/.build/debug/PatternGate"
+: "${GATE_DB:=$HOME/code/searls/memory_hole/MemoryHoleCore/Sources/Resources/Dictionary/dictionary.sqlite}"
+: "${GATE_DIC:=$HOME/code/searls/lip_gloss/LipGlossCore/Sources/Resources/SudachiDict/system_small.dic}"
+
+cd "$REPO"
+[ -z "$(git status --porcelain)" ] || { echo "working tree not clean" >&2; exit 1; }
+[ "$(git branch --show-current)" = main ] || { echo "not on main" >&2; exit 1; }
+
+[ -x "$GATE" ] || { echo "gate not built; run: cd tools/gate && swift build" >&2; exit 1; }
+[ -f "$GATE_DB" ] || { echo "missing dictionary.sqlite (set GATE_DB)" >&2; exit 1; }
+[ -f "$GATE_DIC" ] || { echo "missing SudachiDict (set GATE_DIC)" >&2; exit 1; }
+
+echo "Validating $(ls data/*.json | wc -l | tr -d ' ') data files..."
+for f in data/*.json; do
+  "$GATE" "$f" "$GATE_DB" "$GATE_DIC" > /dev/null 2>&1 \
+    || { echo "gate failure in $f:" >&2; "$GATE" "$f" "$GATE_DB" "$GATE_DIC" | grep FAIL >&2; exit 1; }
+done
+echo "All clear."
+
+script/assemble "$VERSION"
+ASSET="dist/satsuki-$VERSION.json"
+shasum -a 256 "$ASSET" | tee "$ASSET.sha256"
+
+git tag "v$VERSION"
+git push origin main "v$VERSION"
+gh release create "v$VERSION" "$ASSET" "$ASSET.sha256" \
+  --title "satsuki $VERSION" \
+  --notes "Single-file export of the full corpus: every Tsutsuji abstract pattern with English glosses, usage notes, and 3 gate-validated ruby example sentences (plus derived plain \`text\`). CC BY-SA 4.0; attribute Searls LLC and link this repository. See README for schema."
+echo "Released v$VERSION"

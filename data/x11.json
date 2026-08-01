@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "x11",
   "class_name": "疑問-問いかけ-カ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -16,9 +16,10 @@
       "glosses": [
         "…?",
         "question marker",
-        "whether …"
+        "whether … (embedded question)"
       ],
-      "usage_note": "The neutral, all-purpose question marker: it turns a plain or polite clause into a question and makes no claim about who is being asked. On plain forms it sounds blunt and rather masculine, so ordinary casual speech usually drops it and relies on rising intonation; after です/ます it is simply the polite question ending. Only か can subordinate a question inside a larger clause (来るかどうか分からない); the siblings are sentence-final only.",
+      "usage_note": "The neutral, all-purpose question marker: it turns a plain or polite clause into a question and makes no claim about who is being asked. On plain forms it sounds blunt and rather masculine, so ordinary casual speech usually drops it and relies on rising intonation; after です/ます it is simply the polite question ending. Only か can subordinate a question inside a larger clause (来るかどうか分からない); the siblings are sentence-final only. Do not confuse this with coordinating か 'either … or': that one stands between the alternatives inside the clause (紅茶かコーヒー) and leaves the sentence a statement, whereas interrogative か closes the clause and puts the whole proposition in question.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "おい、そこの電気[でんき]はもう消[け]したか。",
@@ -42,6 +43,7 @@
         "… , maybe?"
       ],
       "usage_note": "Musing rather than interrogating: you turn the question over in your own mind, so it works both for thinking aloud and as a softened way of asking someone. It is used by speakers of any gender in casual speech, with かしら as its typically female counterpart, and 〜ないかな is the standard way to hint at a wish or a request. It attaches to plain forms, and after a noun or な-adjective the copula is normally dropped (雨かな).",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "今度[こんど]の試合[しあい]は雨[あめ]で中止[ちゅうし]になるかな。",
@@ -65,6 +67,7 @@
         "… , I wonder?"
       ],
       "usage_note": "The feminine-flavored counterpart of かな: same wondering-aloud function, but strongly associated with female speakers in conversation and with female characters in fiction, though older men use it occasionally. It comes from か + 知ら(ぬ), and the older realization かしらん preserves that ん; it now reads as dated or literary. Like かな it follows plain forms with the copula dropped after nouns, and 〜ないかしら is a soft way to float a request.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "このワンピースの色[いろ]、私[わたし]に似合[にあ]うかしら。",

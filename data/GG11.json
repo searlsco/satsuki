@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "G11",
   "class_name": "意志-意図-ウ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "won't so much as attempt to …"
       ],
       "usage_note": "This is plain 〜(よ)うとする with a focus particle (さえ・も・は・など・すら) wedged in before する, and in practice it almost always appears in the negative, so the effect is reproachful: the subject didn't make even a token attempt. Choose it over bare 〜う (3262) when you are commenting on someone else's failure to act rather than announcing your own intention; 〜んとする (1901) is its literary counterpart. Attaches to the ウ接続 stem, so ichidan and する verbs take よう (見ようともしない, 説明しようとさえしない). Other particles in the slot shift the flavour: も・すら pile on, while は merely contrasts.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "彼[かれ]は一度[いちど]も謝[あやま]ろうとさえしなかった。",
@@ -42,6 +43,7 @@
         "went so far as to attempt …, yet"
       ],
       "usage_note": "Literary 〜んとする is the classical ancestor of modern 〜(よ)うとする (未然形 plus the volitional auxiliary む, nasalized to ん), and it is the literary sibling of the 〜うとする family seen in 1881. The inserted は is contrastive: it concedes that the attempt was made while the following clause reports that it failed or fell short (言わんとはしたが、言葉にならなかった); without は the form is simply 〜んとする. Plain 〜んとする already survives only in narration, headlines and set phrases (言わんとするところ); the は-inserted variant is rarer still and effectively confined to written narrative, so recognize it rather than produce it in speech. Note the shapes: godan take the 未然形 (沈まんとする), ichidan attach to the bare stem (告げんとする), and する becomes せんとする, 来る こんとする.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "彼[かれ]は何[なに]か言[い]わんとはしたが、声[こえ]にならなかった。",
@@ -66,6 +68,7 @@
         "I'll …"
       ],
       "usage_note": "The bare volitional: う after a consonant-stem (godan) verb, よう after ichidan and する/来る. Alone it states the speaker's own resolve or invites the listener along; with と思う it softens to a decision just reached, and with とする it becomes an attempt (the base of 1881 and 1901). It is plain-style, so use ましょう when speaking politely, and it does not work with verbs of no volition (*雨が降ろう as an intention).",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "明日[あした]の朝[あさ]は六時[ろくじ]に起[お]きて走[はし]ろう。",

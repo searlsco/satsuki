@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "t22",
   "class_name": "逆接-確定-トハイエ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -19,6 +19,7 @@
         "although you call it …"
       ],
       "usage_note": "The everyday member of this family: it picks up a label or claim just made — usually the speaker's own — and immediately cuts it down to size (社長とはいったって、社員は三人). とはいったって and っていったって are the casual contractions of とはいっても, which is the neutral realization you can safely use in polite speech; とはいえ and とはいうものの are the written-style siblings. Because the point is deflation rather than contrast for its own sake, the second clause is typically a 'but only …', 'but hardly …' scaling-down remark.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "片付[かたづ]けたとはいったって、机[つくえ]の上[うえ]だけだよ。",
@@ -43,6 +44,7 @@
         "although"
       ],
       "usage_note": "The written-style workhorse of the group, built on the classical 已然形 of 言ふ (surviving as いえ): it concedes the first clause as true and then states something that runs against the expectation it raises. Unlike とはいうものの it does not need an actual utterance to be echoing, so it attaches comfortably to a bare noun or a plain clause, and it also stands alone at the head of a sentence as a conjunction ('Even so, …'). It sits a notch above とはいっても in formality and is at home in essays, editorials and careful speech.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "春[はる]とはいえ、朝晩[あさばん]の冷[ひ]え込[こ]みは厳[きび]しい。",
@@ -67,6 +69,7 @@
         "for all that"
       ],
       "usage_note": "Literally 'although one says that', with the concessive particle ものの doing the work: it takes up a claim already on the table — the speaker's own words, a piece of received wisdom, an official line — and reports that reality has not followed. Japanese usage guides note that without such a prior statement to echo it reads less naturally than とはいえ, which is otherwise nearly interchangeable. Register is neutral to polite written Japanese; in polite speech the same idea usually surfaces as とは言いましても, and とは言いますものの exists but is rare.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "経験[けいけん]があるとはいうものの、実務[じつむ]となると勝手[かって]が違[ちが]う。",
@@ -91,6 +94,7 @@
         "notwithstanding"
       ],
       "usage_note": "A stiff, overwhelmingly written variant of とはいうものの that keeps the 'while saying' force of ながら, so it leans toward exposing a gap between what someone professes and what they actually do. It is most natural when the first clause is somebody's stated position and the second reports behaviour that contradicts it, most often about a third party's stated position rather than one's own; for a plain factual concession, とはいえ reads far more naturally. Expect it in essays, columns and narration rather than conversation.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "引退[いんたい]するとはいいながら、彼[かれ]は今[いま]も現場[げんば]に立[た]つ。",
@@ -115,6 +119,7 @@
         "however much of a … it may be"
       ],
       "usage_note": "The classical shape of the family: 已然形 いえ plus concessive ども, often written 雖も, with といえど as the clipped variant. It concedes an extreme or authoritative case in order to deny it any exemption ('even a king …'), which makes it the natural choice for maxims, statutes, editorials and period narration, and it is regularly reinforced by いかに or たとえ. Modern Japanese also attaches it to plain verbs and adjectives (いかに急ぐといえども).",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "一分[いっぷん]とはいえども、無駄[むだ]にはできない。",

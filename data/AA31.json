@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "A31",
   "class_name": "伝聞-認め-ソウ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "reportedly"
       ],
       "usage_note": "The hearsay そうだ repeats a report as received, with no hedging and no evidence of the speaker's own, and it attaches to plain forms (降ったそうだ, いいそうだ, 学生だそうだ). Keep it clear of the look-alike conjecture そうだ, which attaches to the masu-stem or adjective stem (降りそうだ, いい→よさそうだ) and inflects like a な-adjective; the hearsay form has essentially only 〜そうだ／〜そうで, with no prenominal 〜そうな and no negative of its own. Naming the source with 〜によると is common.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "北[きた]の山[やま]では、ゆうべ初雪[はつゆき]が降[ふ]ったそうだ。",

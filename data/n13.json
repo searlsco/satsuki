@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "n13",
   "class_name": "添加-非限定-シ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -17,15 +17,16 @@
         "and what's more",
         "… and besides"
       ],
-      "usage_note": "Strings together two or more reasons or qualities as a loose, open-ended list, implying there is more that could be said; that lingering 'among other things' feeling is what separates it from the closed two-item addition of うえに or だけじゃなく. It very often supplies grounds for a following decision or invitation, and a single し can trail off as a soft, slightly excuse-making reason ('もう遅いし…'). It attaches to plain non-past and past forms and to the copula だ.",
+      "usage_note": "Piles up two or more qualities or facts about one topic as a loose, open-ended list, implying there is more that could be said; that lingering 'among other things' feeling is what separates it from the closed two-item addition of うえに or だけじゃなく. Here the members simply add up to a characterization, with no conclusion in view: when a 〜し clause instead sets up a following (or merely implied) decision, refusal, or invitation, it is being heard as the separate causal 〜し, 'since, what with'. It attaches to plain non-past and past forms and to the copula だ.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "この本[ほん]は字[じ]が大[おお]きいし写真[しゃしん]も多[おお]い。",
           "english": "This book has big type, and plenty of photos besides."
         },
         {
-          "ruby": "明日[あした]は朝[あさ]が早[はや]いし今夜[こんや]はもう寝[ね]るよ。",
-          "english": "I've got an early start tomorrow, so I'm turning in for the night."
+          "ruby": "兄[あに]はギターも弾[ひ]くし料理[りょうり]も上手[じょうず]だ。",
+          "english": "My brother plays guitar, and he's a good cook besides."
         },
         {
           "ruby": "駅前[えきまえ]のカフェは静[しず]かだし店員[てんいん]も親切[しんせつ]だ。",

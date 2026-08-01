@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "c11",
   "class_name": "仲介-原因-ニヨッテ類",
   "tsutsuji_version": "1.1u",
@@ -6,18 +7,18 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
       "l2_id": "0062",
       "canonical_surface": "をもっての",
       "glosses": [
-        "by means of; with",
-        "through (the use of)"
+        "by means of; through (a medium)",
+        "with (a document, a vote, a method)"
       ],
-      "usage_note": "をもって is the formal, document-register way of naming an instrument or medium, at home in notices, ceremonies, and legal or business prose (書面をもって, 投票をもって); in ordinary speech で or によって does the same work. It attaches to nouns, typically abstract ones — a method, a document, a faculty, a show of feeling — rather than to everyday physical tools, so 箸をもって食べる sounds wrong where 箸で is right. The same form also marks a cut-off point ('as of', 本日をもって閉店), a separate sense from the instrumental one here. The similar-looking でもって is not a formality marker but an emphasis marker, so 書面をもって belongs in a notice while 行動でもって belongs in an argument.",
+      "usage_note": "をもって is the formal, document-register way of naming the medium or instrument an act travels through, at home in notices, ceremonies, and legal or business prose (書面をもって, 投票をもって); in ordinary speech で or によって does the same work. It attaches to nouns, typically abstract ones — a method, a document, a faculty — rather than to everyday physical tools, so 箸をもって食べる sounds wrong where 箸で is right. The same form also marks a cut-off point ('as of', 本日をもって閉店) and, in the standard-marking class, the criterion or attitude brought to bear (所定の基準をもって, 誠意をもって); both are separate senses from the medium-marking one here. The similar-looking でもって is not a formality marker but an emphasis marker, so 書面をもって belongs in a notice while 行動でもって belongs in an argument.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "選考[せんこう]の結果[けっか]は書面[しょめん]をもってお知[し]らせします。",
@@ -41,7 +42,8 @@
         "due to; because of",
         "through (the agency of)"
       ],
-      "usage_note": "によって is the all-purpose noun-marking connector for means and cause, and unlike the ceremonial をもって it is at home in conversation, textbooks, and news alike. It leans toward causes, methods, and abstract agency rather than hand-held instruments — で covers the pen and the bus, によって covers the earthquake, the negotiation, and the reform. により is the clipped, stiffer written variant; による is the ordinary adnominal form (地震による被害), neutral in any register.",
+      "usage_note": "によって is the all-purpose noun-marking connector for means, cause, and agency, and unlike the ceremonial をもって it is at home in conversation, textbooks, and news alike. It leans toward causes, methods, and abstract agency rather than hand-held instruments — で covers the pen and the bus, によって covers the earthquake, the negotiation, and the reform. Its neighbours take the other jobs of the same form: conformity to a rule belongs to the 根拠 entry (規則によって禁じられている) and case-to-case variation to the 状況 one (人によって違う). により is the clipped, stiffer written variant; による is the ordinary adnominal form (地震による被害), neutral in any register.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "事故[じこ]によって電車[でんしゃ]が三十分[さんじっぷん]も遅[おく]れた。",

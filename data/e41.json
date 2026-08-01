@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "e41",
   "class_name": "起点-離脱-ヲ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "off (a vehicle)"
       ],
       "usage_note": "Marks the place or state something separates from, with intransitive verbs of departure and exit (出る、降りる、離れる), plus 卒業する. Nothing is acted on here, so it behaves quite unlike the direct-object を: the noun is simply the point left behind. から is often available with the motion verbs (家を出る／家から出る, バスを降りる／バスから降りる), where を frames the departure as one completed event and から draws attention to the physical path out; but with 卒業する only を works (○大学を卒業する, ×大学から卒業する).",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "兄[あに]は毎朝[まいあさ]六時[ろくじ]に家[いえ]を出[で]て走[はし]っている。",

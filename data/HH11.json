@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "H11",
   "class_name": "自然発生-客観的-コトニナル類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "it works out that …"
       ],
       "usage_note": "Reports an outcome settled by circumstances or by someone other than the speaker, in contrast to volitional ことにする; speakers also use it about their own choices to sound less self-assertive. The こととなる variant is stiffer and typical of formal announcements. It has a second, calculating sense (\"that means …\", \"that amounts to …\") used when spelling out a logical consequence, usually as 〜たことになる or ということになる.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "来月[らいげつ]から名古屋[なごや]支社[ししゃ]で働[はたら]くことになりました。",
@@ -42,6 +43,7 @@
         "reach the point where one can …"
       ],
       "usage_note": "Marks a gradual change into a new habit, ability, or state, so it pairs especially naturally with potential forms. Where ことになる reports that something was decided or arranged, ようになる reports how things came to be done. The corpus rule licenses a dictionary-form verb; real Japanese also allows the negative (〜ないようになる), though 〜なくなる is far more common there.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "毎朝[まいあさ]コーヒーを自分[じぶん]で入[い]れるようになりました。",
@@ -66,6 +68,7 @@
         "culminate in …"
       ],
       "usage_note": "Formal written Japanese: news copy, reports, and narration, where a long process finally arrives at a notable or extreme endpoint. It sounds heavy in conversation, where ことになる or 〜てしまう would carry the same news. It also takes nouns in real Japanese (現在に至る, 今日に至るまで), though the corpus rule here licenses only a dictionary-form verb.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "交渉[こうしょう]は難航[なんこう]し、ついに決裂[けつれつ]するに至[いた]った。",

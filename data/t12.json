@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "t12",
   "class_name": "逆接-仮定-トシテモ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -17,11 +17,12 @@
         "even if; even though",
         "even (a) …"
       ],
-      "usage_note": "Colloquial contraction of ても/でも: だって appears after ta-stems that voice the た (読んだって, 急いだって) and たって elsewhere (食べたって, 話したって). After a noun it shades into 'even X', close to も. It belongs to everyday speech and is rarely written outside dialogue; the formal counterparts are ても and にしても.",
+      "usage_note": "Colloquial contraction of ても/でも: だって appears after ta-stems that voice the た (読んだって, 急いだって) and たって elsewhere (食べたって, 話したって). Its work in this concessive class is to grant an action and deny that it helps; the bare noun＋だって of 子供だって知っている is the separate 'even X' particle of the extreme-example class. It belongs to everyday speech and is rarely written outside dialogue; the formal counterparts are ても and にしても.",
+      "human_verified": false,
       "examples": [
         {
-          "ruby": "素人[しろうと]だって、これがおかしいことくらい分[わ]かる。",
-          "english": "Even an amateur can tell this much is off."
+          "ruby": "今[いま]から呼[よ]んだって、もう間[ま]に合[あ]わないだろう。",
+          "english": "Calling him now isn't going to get him here in time."
         },
         {
           "ruby": "そんな記事[きじ]を読[よ]んだって、気分[きぶん]が沈[しず]むだけだよ。",
@@ -40,7 +41,8 @@
         "even supposing (that)",
         "even if we grant that"
       ],
-      "usage_note": "A spoken-register 〜としても built on とする + たって: it grants a supposition for the sake of argument, and the main clause typically denies that the supposition changes anything. It attaches to plain forms, including だ and た. Its sibling にしたって picks up an actual case rather than a hypothesis.",
+      "usage_note": "A spoken-register 〜としても built on とする + たって: it supposes a scenario that has not come about, and the main clause typically denies that the supposition changes anything. The 確定 sibling instead grants a claim someone has actually put forward. It attaches to plain forms, including だ and た. Its sibling にしたって picks up a case rather than framing an explicit supposition.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "明日[あした]から始[はじ]めるとしたって、準備[じゅんび]がまるで足[た]りない。",
@@ -60,22 +62,23 @@
       "l2_id": "0891",
       "canonical_surface": "にしたって",
       "glosses": [
-        "even in the case of; even for",
-        "even …, for that matter"
+        "even if (we suppose) …",
+        "even where … , for that matter"
       ],
-      "usage_note": "Colloquial 〜にしても: it singles out a person, group, or case and says the point holds even there. It is most at home after a noun naming someone or some organization ('even X, for their part'), and the following clause is typically negative or concessive. Compare としたって, which grants a hypothesis instead of raising a real case; the formal counterparts are にしても／にしろ／にせよ.",
+      "usage_note": "Colloquial 〜にしても used to grant a case that has not actually come about: you suppose it for the sake of argument (手伝うにしたって, 雨が降るにしたって) and the main clause says it changes nothing. The 確定 sibling starts instead from a real, already-established case (部長にしたって), and としたって frames the supposition explicitly with とする. The formal counterparts are にしても／にしろ／にせよ.",
+      "human_verified": false,
       "examples": [
         {
-          "ruby": "ベテランの彼[かれ]にしたって、この機械[きかい]は扱[あつか]いにくいそうだ。",
-          "english": "Even a veteran like him finds this machine awkward to handle, apparently."
+          "ruby": "安[やす]く買[か]えるにしたって、これ以上[いじょう]物[もの]は増[ふ]やせない。",
+          "english": "Even supposing I could get it cheap, I've no room for another thing."
         },
         {
           "ruby": "手伝[てつだ]うにしたって、これだけの量[りょう]は今日[きょう]中[じゅう]に終[お]わらない。",
           "english": "Even if I pitch in, there's no finishing this much today."
         },
         {
-          "ruby": "うちの部長[ぶちょう]にしたって、この件[けん]は知[し]らされていなかった。",
-          "english": "Even our own department head, for that matter, was never told about this."
+          "ruby": "明日[あした]雨[あめ]が降[ふ]るにしたって、準備[じゅんび]だけは進[すす]めておこう。",
+          "english": "Even if it does rain tomorrow, let's at least get the preparations done."
         }
       ]
     },
@@ -86,11 +89,12 @@
         "even if … (it's no use)",
         "no matter how much you …"
       ],
-      "usage_note": "A concessive hypothetical whose main clause almost always says the effort changes nothing (変わらない, 無駄だ, 〜ない), often set up by 今さら/いくら/どんなに. Because the main clause describes how things stand rather than what the speaker will do, commands and requests rarely follow it. The full form is 〜たところで／〜だところで; in casual speech ところ reduces to とこ, giving 走ったとこで, 騒いだとこで. The だ variant appears after ta-stems in ん/い (読んだ, 急いだ).",
+      "usage_note": "A concessive hypothetical whose main clause almost always says the effort changes nothing (変わらない, 無駄だ, 〜ない), often set up by 今さら/いくら/どんなに. Here the effort is entertained as a supposition; the 確定 sibling covers the same form where the pointless effort is one actually under way or being urged right now. Because the main clause describes how things stand rather than what the speaker will do, commands and requests rarely follow it. The full form is 〜たところで／〜だところで; in casual speech ところ reduces to とこ, giving 走ったとこで, 騒いだとこで. The だ variant appears after ta-stems in ん/い (読んだ, 急いだ).",
+      "human_verified": false,
       "examples": [
         {
-          "ruby": "今[いま]から駅[えき]まで走[はし]ったところで、終電[しゅうでん]には乗[の]れない。",
-          "english": "Even if you sprint to the station now, you're not catching the last train."
+          "ruby": "これ以上[いじょう]値段[ねだん]を下[さ]げたところで、客[きゃく]は戻[もど]ってこないだろう。",
+          "english": "Cutting the price any further isn't going to bring the customers back."
         },
         {
           "ruby": "ここで騒[さわ]いだとこで、決[き]まったことはひっくり返[かえ]らないよ。",
@@ -110,6 +114,7 @@
         "however much …"
       ],
       "usage_note": "An emphatic concessive on the volitional/conjectural form (行こうとも, 険しかろうとも), typically reinforced by たとえ or どんなに. It is written and declamatory in register, stiffer than 〜うと and far stiffer than colloquial ても. Dropping the も gives 〜うと, the same meaning a shade lighter.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "どんなに時間[じかん]がかかろうとも、最後[さいご]までやり抜[ぬ]く。",
@@ -129,18 +134,19 @@
       "l2_id": "0921",
       "canonical_surface": "うが",
       "glosses": [
-        "no matter whether; even if",
-        "regardless of whether"
+        "even if; whether or not …",
+        "for all I care"
       ],
-      "usage_note": "Takes the same volitional attachment as 〜うとも, but が colors it with the speaker's indifference: whatever happens, it makes no difference to me. It is a shade more conversational than うとも and is the form that most readily doubles up (行こうが行くまいが, 雨が降ろうが槍が降ろうが). The main clause commonly states the speaker's resolve or dismissal.",
+      "usage_note": "Takes the same volitional attachment as 〜うとも, but が colors it with the speaker's indifference: whatever happens, it makes no difference to me. It is a shade more conversational than うとも and is the form that most readily doubles up (行こうが行くまいが, 雨が降ろうが槍が降ろうが). Where the sibling entry favours the paired frames and brushes a condition aside as beside the point in advance, this entry's typical shape is a single condition answered by the speaker's own resolve or dismissal.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "誰[だれ]が反対[はんたい]しようが、この企画[きかく]は必[かなら]ず通[とお]してみせる。",
           "english": "I don't care who objects; I'm getting this project approved."
         },
         {
-          "ruby": "上司[じょうし]が何[なん]と言[い]おうが、この方針[ほうしん]は変[か]えるつもりはない。",
-          "english": "Whatever the boss says, I have no intention of changing this policy."
+          "ruby": "結果[けっか]がどう出[で]ようが、私[わたし]は自分[じぶん]の選択[せんたく]を悔[く]やまない。",
+          "english": "However it turns out, I won't regret the choice I made."
         },
         {
           "ruby": "本人[ほんにん]が何[なに]を思[おも]おうが、こちらが口[くち]を出[だ]す筋合[すじあ]いはない。",
@@ -155,7 +161,8 @@
         "even if",
         "whether … or …"
       ],
-      "usage_note": "The formal counterpart of 〜にしても; にせよ is stiffer still, and both lean written. Doubled, it lists alternatives and means 'whether … or …'; used singly it concedes a point before the speaker presses an objection or a demand. It attaches to nouns and plain forms, including た. Often after an interrogative (誰にしろ, 何にしろ) meaning 'whoever/whatever', and the singleton use usually leads into a criticism or a demand.",
+      "usage_note": "The formal counterpart of 〜にしても; にせよ is stiffer still, and both lean written. Doubled, it lists alternatives and means 'whether … or …'; used singly it concedes a supposition before the speaker presses an objection or a demand. The 確定 sibling instead concedes something already established (断られたにしろ). It attaches to nouns and plain forms, and often follows an interrogative (誰にしろ, 何にしろ) meaning 'whoever/whatever'.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "賛成[さんせい]するにしろ反対[はんたい]するにしろ、理由[りゆう]は述[の]べてほしい。",
@@ -166,8 +173,8 @@
           "english": "Even if you're new here, you shouldn't be skipping a check this basic."
         },
         {
-          "ruby": "知[し]らなかったにしろ、規則[きそく]違反[いはん]は違反[いはん]だ。",
-          "english": "Even if you didn't know, a breach of the rules is still a breach."
+          "ruby": "値上[ねあ]げするにしろ、事前[じぜん]の説明[せつめい]は欠[か]かせない。",
+          "english": "Even if you do raise the price, you can't skip explaining it first."
         }
       ]
     }

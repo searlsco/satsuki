@@ -1,4 +1,5 @@
 {
+  "satsuki_schema": 1,
   "class_code": "D44",
   "class_name": "判断-断定-トイッタラナイ類",
   "tsutsuji_version": "1.1u",
@@ -6,8 +7,7 @@
     "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01",
-    "human_verified": false
+    "date": "2026-08-01"
   },
   "patterns": [
     {
@@ -18,6 +18,7 @@
         "you have no idea how …"
       ],
       "usage_note": "A colloquial contraction of といったらない, which itself comes from \"if you were to put it into words, there'd be no words.\" It attaches to an i-adjective or to a noun, very often a さ-nominalization (暑さ, うるささ). References describe といったらない as usable for both praise and complaint, while the longer といったらありゃしない is reserved for negative evaluations; in practice the ったらない contraction leans strongly toward exasperation. Compare 限り (l2_id 2361), which is polite and centers on the speaker's own emotion.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "エアコンのないこの部屋[へや]は暑[あつ]いったらない。",
@@ -41,6 +42,7 @@
         "I couldn't be more …"
       ],
       "usage_note": "〜限りだ marks an emotion at its ceiling: \"there is nothing beyond this.\" The corpus licenses an i-adjective before it; な-adjectives occasionally appear (残念な限りです), but the pattern is overwhelmingly i-adjectival: 嬉しい／恥ずかしい／羨ましい／心強い限りだ. Teaching references present it as describing the speaker's own feeling, so it pairs with emotion adjectives such as 嬉しい, 恥ずかしい, 心強い, 羨ましい rather than with plain descriptive ones. Register is polite and slightly formal, at home in greetings, speeches, and business email, which sets it apart from the blunt colloquial ったらない (l2_id 2351).",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "遠[とお]い所[ところ]までお越[こ]しいただき、嬉[うれ]しい限[かぎ]りです。",
@@ -60,21 +62,23 @@
       "l2_id": "2523",
       "canonical_surface": "だい",
       "glosses": [
-        "…, then?; …, huh? (blunt question ending)"
+        "it IS …, I tell you!",
+        "… , and that's that!"
       ],
-      "usage_note": "The copula だ plus the sentence-final い, attaching to a noun or a question word. It marks a question containing an interrogative (何だい, 誰だい, どこだい, いつだい); yes-no questions in the same register take かい instead. It also attaches to the explanatory ん/の (どうしたんだい). It reads as masculine, familiar, and rather brusque, typical of older men, fiction dialogue, and bantering among close friends, so learners should recognize it more than produce it.",
+      "usage_note": "Assertive だい: the copula だ plus the emphatic 終助詞 い, driving a flat declaration home against someone who doubts it (嘘だい, ぼくの勝ちだい). There is no question word and the intonation falls, which is what separates it from the two homophone siblings — the wh-question だい (l2 2521) needs 誰／何／どこ and really asks, and the rhetorical だい (l2 2522) needs 何が／どこが and denies the label it quotes. It attaches to a noun, so it does not follow a verb directly, and it belongs to children's protests and 下町-flavored older male speech; the polite counterpart is simply です with an emphatic よ.",
+      "human_verified": false,
       "examples": [
         {
-          "ruby": "お前[まえ]が一番[いちばん]好[す]きな料理[りょうり]は何[なん]だい。",
-          "english": "So what's your favorite dish, then?"
+          "ruby": "そんな話[はなし]は嘘[うそ]だい、ぼくは絶対[ぜったい]に信[しん]じないぞ。",
+          "english": "That story's a lie, and I'm not believing a word of it."
         },
         {
-          "ruby": "あの背[せ]の高[たか]い男[おとこ]は、いったい誰[だれ]だい。",
-          "english": "Who on earth is that tall fellow?"
+          "ruby": "泣[な]いてなんかいないよ、ただの汗[あせ]だい。",
+          "english": "I'm not crying — it's just sweat, that's all."
         },
         {
-          "ruby": "今夜[こんや]の飲[の]み会[かい]でみんなが集[あつ]まる店[みせ]はどこだい。",
-          "english": "So where's the place everyone's meeting up for drinks tonight?"
+          "ruby": "この石[いし]はぼくが先[さき]に見[み]つけた宝物[たからもの]だい。",
+          "english": "This stone is treasure I found first, so it's mine!"
         }
       ]
     },
@@ -86,6 +90,7 @@
         "that's what you call …"
       ],
       "usage_note": "というものだ delivers a generalization as something self-evident, often with a faint tone of instruction or admonishment: this is simply how the world works. It attaches to a noun, a plain-form verb, an i-adjective, or だ/た. ってもん and というもん are the spoken contractions and sound noticeably rougher and more sententious. Do not confuse it with というものではない, which denies a generalization rather than asserting one.",
+      "human_verified": false,
       "examples": [
         {
           "ruby": "人[ひと]の気持[きも]ちは、時間[じかん]が経[た]てば変[か]わるというもんだ。",
