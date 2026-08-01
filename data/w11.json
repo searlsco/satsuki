@@ -22,8 +22,8 @@
       "human_verified": false,
       "examples": [
         {
-          "ruby": "彼[かれ]が先[さき]に帰[かえ]るなんて聞[き]いてないよ。",
-          "english": "Nobody told me he was heading home ahead of us!"
+          "ruby": "先輩[せんぱい]が先[さき]に帰[かえ]るなんて聞[き]いてないよ。",
+          "english": "Nobody told me our senior was heading home ahead of us!"
         },
         {
           "ruby": "あのチームに負[ま]けるなんて、悔[くや]しすぎる。",
@@ -50,8 +50,8 @@
           "english": "I never imagined he of all people would quit."
         },
         {
-          "ruby": "彼[かれ]の作品[さくひん]がこれほど高[たか]く売[う]れるとは。",
-          "english": "To think his work would fetch a price like that."
+          "ruby": "祖母[そぼ]の焼[や]いた茶碗[ちゃわん]がこれほど高[たか]く売[う]れるとは。",
+          "english": "To think a teabowl my grandmother fired would fetch a price like that."
         },
         {
           "ruby": "新人[しんじん]がここまで優秀[ゆうしゅう]だとは驚[おどろ]きだ。",
@@ -78,8 +78,8 @@
           "english": "The sheer amount my son puts away is frankly frightening to watch."
         },
         {
-          "ruby": "上司[じょうし]の自慢話[じまんばなし]といったら、もはや拷問[ごうもん]だ。",
-          "english": "My boss's bragging is nothing short of torture."
+          "ruby": "京都[きょうと]の夏[なつ]の湿気[しっけ]といったら、外[そと]に五分[ごふん]といられない。",
+          "english": "The sheer damp heat of a Kyoto summer: you can't last five minutes outdoors."
         }
       ]
     }

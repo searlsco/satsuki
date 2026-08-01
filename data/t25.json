@@ -26,12 +26,12 @@
           "english": "It's pricey, but you can't fault the food at this place."
         },
         {
-          "ruby": "説明[せつめい]は聞[き]いたが、正直[しょうじき]まだ納得[なっとく]していない。",
-          "english": "I heard them out, but honestly I'm still not convinced."
+          "ruby": "切符[きっぷ]は買[か]ったが、電車[でんしゃ]の時間[じかん]を間違[まちが]えた。",
+          "english": "I bought the ticket, but I got the train time wrong."
         },
         {
-          "ruby": "会議[かいぎ]は明日[あす]だが、資料[しりょう]がまだ届[とど]いていない。",
-          "english": "The meeting is tomorrow, but the materials still haven't arrived."
+          "ruby": "今日[きょう]は寒[さむ]いが、妹[いもうと]は半袖[はんそで]で学校[がっこう]へ行[い]った。",
+          "english": "It's cold today, but my sister went off to school in short sleeves."
         }
       ]
     },
@@ -80,8 +80,8 @@
           "english": "I called out at the top of my voice, and yet the house stayed dead silent."
         },
         {
-          "ruby": "上司[じょうし]に相談[そうだん]したところが、話[はなし]はかえって大[おお]きくなった。",
-          "english": "I took it up with my boss, and to my dismay it only blew up bigger."
+          "ruby": "弁当[べんとう]の蓋[ふた]を開[あ]けたところが、箸[はし]が入[はい]っていなかった。",
+          "english": "I opened the lid of my lunch box, only to find there were no chopsticks inside."
         }
       ]
     },
@@ -101,12 +101,12 @@
           "english": "It's cramped, but it's plenty of room for the two of us."
         },
         {
-          "ruby": "彼[かれ]は事情[じじょう]を知[し]っていながら、何[なに]も教[おし]えてくれなかった。",
-          "english": "He knew perfectly well what was going on, and still told me nothing."
+          "ruby": "兄[あに]は事情[じじょう]を知[し]っていながら、何[なに]も教[おし]えてくれなかった。",
+          "english": "My brother knew perfectly well what was going on, and still told me nothing."
         },
         {
-          "ruby": "彼女[かのじょ]は新人[しんじん]ながら、堂々[どうどう]と発表[はっぴょう]をやり遂[と]げた。",
-          "english": "New as she was, she carried the presentation off with complete poise."
+          "ruby": "妹[いもうと]は素人[しろうと]ながら、大会[たいかい]で堂々[どうどう]と踊[おど]りきった。",
+          "english": "Amateur though she was, my sister danced her whole routine at the meet with real poise."
         }
       ]
     }

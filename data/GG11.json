@@ -21,16 +21,16 @@
       "human_verified": false,
       "examples": [
         {
-          "ruby": "彼[かれ]は一度[いちど]も謝[あやま]ろうとさえしなかった。",
-          "english": "He never once so much as tried to apologize."
+          "ruby": "兄[あに]は皿[さら]を割[わ]ったのに、謝[あやま]ろうとさえしなかった。",
+          "english": "My brother broke the plate and didn't even try to apologize."
         },
         {
           "ruby": "弟[おとうと]は宿題[しゅくだい]を始[はじ]めようとさえしない。",
           "english": "My little brother won't even make a start on his homework."
         },
         {
-          "ruby": "客[きゃく]は値段[ねだん]を見[み]ようとさえしない。",
-          "english": "The customer won't so much as glance at the price."
+          "ruby": "新[あたら]しい餌[えさ]に変[か]えたら、猫[ねこ]は食[た]べようとさえしない。",
+          "english": "Since I switched the food, the cat won't so much as try a bite."
         }
       ]
     },
@@ -46,8 +46,8 @@
       "human_verified": false,
       "examples": [
         {
-          "ruby": "彼[かれ]は何[なに]か言[い]わんとはしたが、声[こえ]にならなかった。",
-          "english": "He did make as if to say something, but no voice came."
+          "ruby": "少年[しょうねん]は何[なに]か言[い]わんとはしたが、唇[くちびる]が震[ふる]えるばかりだった。",
+          "english": "The boy did try to say something, but his lips only trembled."
         },
         {
           "ruby": "老兵[ろうへい]は立[た]ち上[あ]がらんとはしたが、膝[ひざ]が動[うご]かぬ。",
@@ -79,8 +79,8 @@
           "english": "Let's all head to the beach on the next day off."
         },
         {
-          "ruby": "この件[けん]については、後[あと]でゆっくり相談[そうだん]しよう。",
-          "english": "Let's sit down and talk this one over properly later."
+          "ruby": "冷蔵庫[れいぞうこ]に卵[たまご]があるから、オムライスを作[つく]ろう。",
+          "english": "There are eggs in the fridge, so let's make omurice."
         }
       ]
     }

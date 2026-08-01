@@ -21,8 +21,8 @@
       "human_verified": false,
       "examples": [
         {
-          "ruby": "参加[さんか]することにはしたが、気[き]が進[すす]まない。",
-          "english": "I did decide to take part, but my heart isn't in it."
+          "ruby": "マラソン大会[たいかい]に申[もう]し込[こ]むことにはしたが、気[き]が進[すす]まない。",
+          "english": "I did go ahead and sign up for the marathon, but my heart isn't in it."
         },
         {
           "ruby": "医者[いしゃ]に行[い]くことにはしましたが、まだ迷[まよ]っています。",
@@ -53,8 +53,8 @@
           "english": "I do make a point of drinking hot water every morning, though I can't tell it's doing anything."
         },
         {
-          "ruby": "甘[あま]い物[もの]を控[ひか]えるようにはしたが、体重[たいじゅう]は減[へ]らない。",
-          "english": "I did try to cut back on sweets, but my weight hasn't budged."
+          "ruby": "玄関[げんかん]の靴[くつ]を並[なら]べるようにはしているが、夕方[ゆうがた]には崩[くず]れている。",
+          "english": "I do make a point of lining the shoes up in the entryway, but by evening it's a jumble again."
         }
       ]
     }

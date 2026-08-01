@@ -93,8 +93,8 @@
       "human_verified": false,
       "examples": [
         {
-          "ruby": "彼[かれ]が明日[あす]には戻[もど]るとすると、準備[じゅんび]の時間[じかん]がない。",
-          "english": "If he's back as early as tomorrow, we've no time to prepare."
+          "ruby": "日曜[にちよう]に山[やま]へ登[のぼ]るとすると、朝[あさ]四時[よじ]起[お]きだね。",
+          "english": "If we're going up the mountain on Sunday, that means a four a.m. start."
         },
         {
           "ruby": "仮[かり]に会場[かいじょう]を変[か]えるとすれば、費用[ひよう]はどうなる。",
@@ -125,8 +125,8 @@
           "english": "On terms like that, nobody is going to take the job on."
         },
         {
-          "ruby": "説明[せつめい]がその程度[ていど]じゃ、上司[じょうし]は納得[なっとく]しないだろう。",
-          "english": "If that's all the explanation we give, the boss won't buy it."
+          "ruby": "スープがこの味[あじ]じゃ、お客[きゃく]さんは戻[もど]ってこないよ。",
+          "english": "If the soup tastes like this, the customers won't be coming back."
         }
       ]
     }

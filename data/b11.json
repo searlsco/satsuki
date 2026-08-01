@@ -29,8 +29,8 @@
           "english": "I want to check on this drug's side effects first."
         },
         {
-          "ruby": "日本[にほん]の祝日[しゅくじつ]についての質問[しつもん]が生徒[せいと]から出[で]た。",
-          "english": "A question about Japanese public holidays came up from the students."
+          "ruby": "この町[まち]の祭[まつ]りについての本[ほん]を図書館[としょかん]で見[み]つけた。",
+          "english": "I found a book about this town's festival at the library."
         }
       ]
     },
@@ -45,16 +45,16 @@
       "human_verified": false,
       "examples": [
         {
-          "ruby": "個人情報[こじんじょうほう]の管理[かんり]に関[かん]して、社内規定[しゃないきてい]を見直[みなお]す。",
-          "english": "We are revising our internal rules regarding the handling of personal data."
+          "ruby": "制服[せいふく]の決[き]まりに関[かん]して、保護者[ほごしゃ]から質問[しつもん]が出[で]た。",
+          "english": "A question came from a parent regarding the uniform rules."
         },
         {
           "ruby": "今回[こんかい]の不具合[ふぐあい]に関[かん]して、詳[くわ]しいご説明[せつめい]をお願[ねが]いします。",
           "english": "We would appreciate a detailed explanation concerning this malfunction."
         },
         {
-          "ruby": "環境保護[かんきょうほご]に関[かん]する国際会議[こくさいかいぎ]が来月[らいげつ]開[ひら]かれる。",
-          "english": "An international conference on environmental protection will be held next month."
+          "ruby": "冬[ふゆ]の登山[とざん]に関[かん]する注意[ちゅうい]が入口[いりぐち]に貼[は]ってある。",
+          "english": "A notice concerning winter mountain climbing is posted at the entrance."
         }
       ]
     }

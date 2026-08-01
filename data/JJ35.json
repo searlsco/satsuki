@@ -21,8 +21,8 @@
       "human_verified": false,
       "examples": [
         {
-          "ruby": "今[いま]、彼[かれ]は報告書[ほうこくしょ]を読[よ]んでいるところです。",
-          "english": "He's in the middle of reading the report right now."
+          "ruby": "店長[てんちょう]は今[いま]、明日[あした]のパンを焼[や]いているところです。",
+          "english": "The shop owner is in the middle of baking tomorrow's bread."
         },
         {
           "ruby": "妹[いもうと]はちょうどお風呂[ふろ]に入[はい]っているところだよ。",
@@ -49,12 +49,12 @@
           "english": "The exodus of young people from this town to other prefectures just keeps growing."
         },
         {
-          "ruby": "介護[かいご]の現場[げんば]の負担[ふたん]は重[おも]くなる一方[いっぽう]である。",
-          "english": "The burden on caregivers on the ground grows heavier and heavier."
+          "ruby": "監督[かんとく]が代[か]わってから、チームの成績[せいせき]は良[よ]くなる一方[いっぽう]だ。",
+          "english": "Ever since the new manager took over, the team's results have done nothing but improve."
         },
         {
-          "ruby": "事態[じたい]は悪化[あっか]する一方[いっぽう]で、収[おさ]まる気配[けはい]がない。",
-          "english": "The situation just keeps deteriorating, with no sign of settling down."
+          "ruby": "梅雨[つゆ]に入[はい]ってから、洗濯物[せんたくもの]はたまる一方[いっぽう]だ。",
+          "english": "Since the rainy season set in, the laundry just keeps piling up."
         }
       ]
     }

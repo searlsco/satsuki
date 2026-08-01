@@ -21,8 +21,8 @@
       "human_verified": false,
       "examples": [
         {
-          "ruby": "あの几帳面[きちょうめん]な彼[かれ]が期限[きげん]を間違[まちが]えるわけがない。",
-          "english": "There's no way someone as meticulous as he is got the deadline wrong."
+          "ruby": "毎朝[まいあさ]五時[ごじ]に起[お]きる姉[あね]が寝坊[ねぼう]するわけがない。",
+          "english": "My sister is up at five every morning — there's no way she overslept."
         },
         {
           "ruby": "あれだけ材料[ざいりょう]にこだわった料理[りょうり]がまずいわけがない。",
@@ -45,12 +45,12 @@
       "human_verified": false,
       "examples": [
         {
-          "ruby": "時間[じかん]どおりに出[で]た彼[かれ]が遅[おく]れるはずがない。",
-          "english": "He left right on time, so there's no way he'd be late."
+          "ruby": "あんなに練習[れんしゅう]した弟[おとうと]が本番[ほんばん]でしくじるはずがない。",
+          "english": "After all that practice, there's no way my little brother flubs it on the day."
         },
         {
-          "ruby": "あれだけ念[ねん]を押[お]したのだから、彼[かれ]が約束[やくそく]を破[やぶ]るはずがない。",
-          "english": "I hammered it home that hard, so there's no way he'd break his promise."
+          "ruby": "毎日[まいにち]水[みず]をやっているこの鉢[はち]の花[はな]が枯[か]れるはずがない。",
+          "english": "I water this pot every day, so there's no way the flowers are dying."
         },
         {
           "ruby": "毎日[まいにち]点検[てんけん]しているのだから、機械[きかい]が故障[こしょう]するはずはない。",
@@ -73,8 +73,8 @@
           "english": "A story that convenient? As if I'd buy it."
         },
         {
-          "ruby": "あんな身勝手[みがって]な奴[やつ]に頭[あたま]を下[さ]げるかい。",
-          "english": "Bow my head to a selfish jerk like that? Not a chance."
+          "ruby": "そんな高[たか]い自転車[じてんしゃ]、今[いま]の俺[おれ]に買[か]えるかい。",
+          "english": "A bike that pricey? Like I could afford it right now."
         },
         {
           "ruby": "今[いま]さら謝[あやま]って、あいつが許[ゆる]すかい。",
@@ -101,8 +101,8 @@
           "english": "How could I ever forget what you did for me that day?"
         },
         {
-          "ruby": "これほどの結末[けつまつ]を、いったい誰[だれ]が予想[よそう]しようか。",
-          "english": "Who on earth would ever predict an ending like this?"
+          "ruby": "この道[みち]を選[えら]んだ以上[いじょう]、今[いま]さら何[なに]を恐[おそ]れようか。",
+          "english": "Having chosen this path, what on earth is there left for me to fear?"
         }
       ]
     },
@@ -147,12 +147,12 @@
           "english": "By the look of the sky, we're unlikely to get any rain today."
         },
         {
-          "ruby": "彼女[かのじょ]ほどの実力[じつりょく]なら、今回[こんかい]も失敗[しっぱい]するまい。",
-          "english": "As able as she is, she surely won't slip up this time either."
+          "ruby": "姉[あね]ほどの実力[じつりょく]なら、今回[こんかい]も失敗[しっぱい]するまい。",
+          "english": "As able as my sister is, she surely won't slip up this time either."
         },
         {
-          "ruby": "まさか彼[かれ]がこの提案[ていあん]に反対[はんたい]することはあるまい。",
-          "english": "Surely he isn't going to oppose this proposal."
+          "ruby": "一度[いちど]道[みち]に迷[まよ]ったのだから、兄[あに]も今度[こんど]は地図[ちず]を忘[わす]れるまい。",
+          "english": "Having gotten lost once, my brother surely won't forget the map this time."
         }
       ]
     }

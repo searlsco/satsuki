@@ -22,8 +22,8 @@
       "human_verified": false,
       "examples": [
         {
-          "ruby": "上司[じょうし]に何[なに]を言[い]われようが、会社[かいしゃ]を辞[や]める気[き]はない。",
-          "english": "Whatever my boss says to me, I have no intention of quitting."
+          "ruby": "指[ゆび]がどれだけ震[ふる]えようが、祖父[そふ]は毎日[まいにち]筆[ふで]を握[にぎ]る。",
+          "english": "No matter how badly his fingers shake, my grandfather picks up his brush every day."
         },
         {
           "ruby": "どんなに値段[ねだん]が高[たか]かろうが、兄[あに]はあの時計[とけい]を買[か]うつもりらしい。",
@@ -55,8 +55,8 @@
           "english": "Go easy on her; she's still just a kid, come on."
         },
         {
-          "ruby": "その資料[しりょう]、先週[せんしゅう]までにお願[ねが]いしたじゃないですか。",
-          "english": "I asked you to have that document ready by last week, didn't I?"
+          "ruby": "ほら、あの雲[くも]、犬[いぬ]の形[かたち]をしているじゃないですか。",
+          "english": "Look — that cloud, it's shaped like a dog, isn't it?"
         }
       ]
     }

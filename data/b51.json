@@ -21,8 +21,8 @@
       "human_verified": false,
       "examples": [
         {
-          "ruby": "昨日[きのう]の夜[よる]、久[ひさ]しぶりに従兄弟[いとこ]と電話[でんわ]で話[はな]した。",
-          "english": "Last night I caught up with my cousin on the phone for the first time in ages."
+          "ruby": "昼休[ひるやす]みに、隣[となり]のクラスの子[こ]と将棋[しょうぎ]で勝負[しょうぶ]した。",
+          "english": "At lunch break I took on the kid from the next class at shogi."
         },
         {
           "ruby": "来月[らいげつ]、妹[いもうと]は同僚[どうりょう]と結婚[けっこん]することになった。",
@@ -50,8 +50,8 @@
           "english": "There's no way on earth I could tell my folks something like this."
         },
         {
-          "ruby": "弱音[よわね]は先輩[せんぱい]にゃ吐[は]けないんだよな。",
-          "english": "You just can't let yourself whine to your senpai, you know?"
+          "ruby": "結果[けっか]は監督[かんとく]にゃ俺[おれ]から伝[つた]えておくよ。",
+          "english": "I'll be the one to tell the coach the result, at any rate."
         },
         {
           "ruby": "あいつにゃ何[なに]を頼[たの]んでも無駄[むだ]だと思[おも]う。",

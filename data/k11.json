@@ -46,12 +46,12 @@
       "human_verified": false,
       "examples": [
         {
-          "ruby": "なぜ辞[や]めたかというと、上司[じょうし]と合[あ]わなかったからだ。",
-          "english": "The reason I quit is that I just couldn't get along with my boss."
+          "ruby": "なぜ山[やま]に登[のぼ]るかというと、頂上[ちょうじょう]の風[かぜ]が忘[わす]れられないからだ。",
+          "english": "If you ask why I climb, it's because I can't forget the wind at the summit."
         },
         {
-          "ruby": "どこが違[ちが]うかというと、値段[ねだん]ではなく手間[てま]です。",
-          "english": "As for where the difference lies, it's not the price but the effort."
+          "ruby": "何[なに]が壊[こわ]れたかというと、洗濯機[せんたくき]のドアの部品[ぶひん]です。",
+          "english": "As for what broke, it's the little part on the washing machine door."
         },
         {
           "ruby": "誰[だれ]が担当[たんとう]かというと、実[じつ]は私[わたし]なんです。",

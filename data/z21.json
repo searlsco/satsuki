@@ -30,8 +30,8 @@
           "english": "I wish he'd at least play outside with the kids on his days off."
         },
         {
-          "ruby": "明日[あした]の会議[かいぎ]には君[きみ]にも来[き]てほしい。",
-          "english": "I'd like you to come to tomorrow's meeting too."
+          "ruby": "日曜[にちよう]の試合[しあい]、お母[かあ]さんにも見[み]に来[き]てほしい。",
+          "english": "I want you to come watch Sunday's game too, Mom."
         }
       ]
     },
@@ -55,8 +55,8 @@
           "english": "I'd like you to feel a bit more responsibility here."
         },
         {
-          "ruby": "この機械[きかい]は必[かなら]ず二人[ふたり]で操作[そうさ]してもらいたい。",
-          "english": "I want this machine operated by two people, without exception."
+          "ruby": "毎朝[まいあさ]の練習[れんしゅう]には、遅[おく]れずに参加[さんか]してもらいたい。",
+          "english": "I expect everyone to turn up on time for morning practice."
         }
       ]
     },
@@ -96,8 +96,8 @@
       "human_verified": false,
       "examples": [
         {
-          "ruby": "今年[ことし]の夏[なつ]はもう少[すこ]し涼[すず]しくならないかな。",
-          "english": "I wish this summer would cool down a little."
+          "ruby": "駅前[えきまえ]にもう一軒[いっけん]、安[やす]いパン屋[や]ができないかな。",
+          "english": "I wish another cheap bakery would open up by the station."
         },
         {
           "ruby": "今夜[こんや]は雲[くも]が晴[は]れて星[ほし]がきれいに見[み]えないかな。",

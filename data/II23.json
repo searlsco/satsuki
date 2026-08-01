@@ -72,16 +72,16 @@
       "human_verified": false,
       "examples": [
         {
-          "ruby": "この分[ぶん]だと明日[あした]も雨[あめ]が降[ふ]るだろう。",
-          "english": "At this rate it'll probably rain again tomorrow."
+          "ruby": "この店[みせ]のラーメンは子[こ]どもには少[すこ]し辛[から]いだろう。",
+          "english": "The ramen at this place will probably be a little too spicy for the kids."
         },
         {
-          "ruby": "彼[かれ]への手紙[てがみ]はもう届[とど]いただろう。",
-          "english": "My letter to him has probably arrived by now."
+          "ruby": "妹[いもうと]は今[いま]ごろプールで泳[およ]いでいるだろう。",
+          "english": "My little sister is off swimming at the pool about now, I expect."
         },
         {
-          "ruby": "彼女[かのじょ]なら一人[ひとり]でも大丈夫[だいじょうぶ]でしょう。",
-          "english": "She'll be fine on her own, I should think."
+          "ruby": "明日[あした]の朝[あさ]は山[やま]の上[うえ]が白[しろ]くなっているでしょう。",
+          "english": "By tomorrow morning the mountaintop will most likely be white."
         }
       ]
     },
@@ -126,8 +126,8 @@
           "english": "This approach, too, could conceivably solve the problem."
         },
         {
-          "ruby": "彼[かれ]がそんな嘘[うそ]をつくとは考[かんが]え得[え]ない。",
-          "english": "That he would tell a lie like that is simply unthinkable."
+          "ruby": "薬[くすり]の飲[の]み合[あ]わせによっては、強[つよ]い副作用[ふくさよう]もあり得[え]ます。",
+          "english": "Depending on how the medicines combine, serious side effects are entirely possible."
         },
         {
           "ruby": "誰[だれ]にでも起[お]こり得[う]る単純[たんじゅん]な失敗[しっぱい]だ。",

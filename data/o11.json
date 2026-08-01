@@ -47,8 +47,8 @@
       "human_verified": false,
       "examples": [
         {
-          "ruby": "会議[かいぎ]が始[はじ]まると同時[どうじ]に停電[ていでん]した。",
-          "english": "The power went out just as the meeting started."
+          "ruby": "花火[はなび]が上[あ]がると同時[どうじ]に、犬[いぬ]が机[つくえ]の下[した]に潜[もぐ]り込[こ]んだ。",
+          "english": "The instant the fireworks went up, the dog burrowed under the desk."
         },
         {
           "ruby": "電車[でんしゃ]が出発[しゅっぱつ]すると同時[どうじ]にスマホの充電[じゅうでん]が切[き]れた。",
@@ -101,8 +101,8 @@
           "english": "No sooner do I tidy up than the kids scatter their toys again."
         },
         {
-          "ruby": "注意[ちゅうい]したそばから、彼[かれ]はまた同[おな]じミスをする。",
-          "english": "No sooner do I warn him than he makes the very same mistake again."
+          "ruby": "教[おし]えたそばから、生徒[せいと]は同[おな]じ漢字[かんじ]を書[か]き間違[まちが]える。",
+          "english": "No sooner do I teach it than my student misspells the very same kanji again."
         },
         {
           "ruby": "稼[かせ]ぐそばから使[つか]ってしまうので、貯金[ちょきん]が全[まった]く増[ふ]えない。",
@@ -122,8 +122,8 @@
       "human_verified": false,
       "examples": [
         {
-          "ruby": "ベルが鳴[な]るや否[いな]や、生徒[せいと]たちは教室[きょうしつ]を飛[と]び出[だ]した。",
-          "english": "No sooner had the bell rung than the students bolted out of the classroom."
+          "ruby": "店長[てんちょう]が看板[かんばん]を出[だ]すや否[いな]や、常連客[じょうれんきゃく]が暖簾[のれん]をくぐった。",
+          "english": "No sooner had the owner set out the signboard than a regular was ducking under the curtain."
         },
         {
           "ruby": "犯人[はんにん]は警官[けいかん]の姿[すがた]を見[み]るや否[いな]や逃[に]げ出[だ]した。",
@@ -147,8 +147,8 @@
       "human_verified": false,
       "examples": [
         {
-          "ruby": "彼[かれ]は部屋[へや]に入[はい]るなり、黙[だま]って窓[まど]を開[あ]け放[はな]った。",
-          "english": "The moment he entered the room, he threw the window wide open without a word."
+          "ruby": "新入生[しんにゅうせい]は舞台[ぶたい]に立[た]つなり、台詞[せりふ]を忘[わす]れて笑[わら]い出[だ]した。",
+          "english": "The moment the new student stepped onstage, he forgot his lines and burst out laughing."
         },
         {
           "ruby": "弟[おとうと]は帰宅[きたく]するなり、鞄[かばん]を放[ほう]り出[だ]して寝[ね]てしまった。",
@@ -171,16 +171,16 @@
       "human_verified": false,
       "examples": [
         {
-          "ruby": "電話[でんわ]が鳴[な]るや、彼[かれ]は受話器[じゅわき]をひったくった。",
-          "english": "The instant the phone rang, he snatched up the receiver."
+          "ruby": "老[お]いた漁師[りょうし]は風[かぜ]の向[む]きが変[か]わるや、黙[だま]って舵[かじ]を切[き]った。",
+          "english": "The instant the wind shifted, the old fisherman silently put the rudder over."
         },
         {
           "ruby": "男[おとこ]は札束[さつたば]を見[み]るや、目[め]の色[いろ]を変[か]えた。",
           "english": "The moment the man laid eyes on the wad of bills, his eyes lit up."
         },
         {
-          "ruby": "会見[かいけん]が終了[しゅうりょう]するや、記者[きしゃ]たちは一斉[いっせい]に駆[か]け出[だ]した。",
-          "english": "No sooner had the press conference ended than the reporters all rushed off at once."
+          "ruby": "幕[まく]が下[お]りるや、客席[きゃくせき]から深[ふか]い溜[た]め息[いき]が漏[も]れた。",
+          "english": "The moment the curtain came down, a deep sigh escaped the audience."
         }
       ]
     },
@@ -200,8 +200,8 @@
           "english": "The instant the chime sounded, the children tore off toward the schoolyard."
         },
         {
-          "ruby": "母[はは]は私[わたし]の姿[すがた]を見[み]つけるが早[はや]いか、駆[か]け寄[よ]ってきた。",
-          "english": "The moment my mother spotted me, she came running over."
+          "ruby": "皿[さら]に唐揚[からあ]げを盛[も]るが早[はや]いか、四方[しほう]から手[て]が伸[の]びてきた。",
+          "english": "The fried chicken was hardly on the plate before hands came at it from every side."
         },
         {
           "ruby": "そのニュースが流[なが]れるが早[はや]いか、店[みせ]の前[まえ]には長[なが]い列[れつ]ができた。",

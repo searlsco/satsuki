@@ -22,16 +22,16 @@
       "human_verified": false,
       "examples": [
         {
-          "ruby": "新雪[しんせつ]の斜面[しゃめん]は、砂糖[さとう]をふりかけたようだ。",
-          "english": "The fresh snow on the slope looks as if someone had dusted it with sugar."
+          "ruby": "外[そと]から帰[かえ]った弟[おとうと]の手[て]は、氷[こおり]のようだった。",
+          "english": "My little brother came in from outside with hands like ice."
         },
         {
-          "ruby": "彼女[かのじょ]の歌声[うたごえ]は澄[す]んだ鈴[すず]の音[ね]のようだった。",
-          "english": "Her singing voice was like the clear ring of a bell."
+          "ruby": "母[はは]が焼[や]いたパンは、雲[くも]のようにやわらかい。",
+          "english": "The bread my mother baked is as soft as a cloud."
         },
         {
-          "ruby": "風[かぜ]のない朝[あさ]、湖[みずうみ]の水面[みなも]は鏡[かがみ]のようだ。",
-          "english": "On a windless morning the surface of the lake is like a mirror."
+          "ruby": "山[やま]の上[うえ]から見[み]ると、走[はし]る車[くるま]がおもちゃのようだ。",
+          "english": "Seen from the top of the mountain, the cars driving below look like toys."
         }
       ]
     },
@@ -47,8 +47,8 @@
       "human_verified": false,
       "examples": [
         {
-          "ruby": "彼[かれ]の部屋[へや]はまるで倉庫[そうこ]みたいだ。",
-          "english": "His room is like a warehouse."
+          "ruby": "隣[となり]の家[いえ]の犬[いぬ]は、子牛[こうし]みたいに大[おお]きい。",
+          "english": "The dog at the house next door is as big as a calf."
         },
         {
           "ruby": "三月[さんがつ]なのに、今日[きょう]は真夏[まなつ]みたいに暑[あつ]い。",
@@ -76,8 +76,8 @@
           "english": "The man's gaze was as keen as a blade."
         },
         {
-          "ruby": "群衆[ぐんしゅう]は波[なみ]のごとく広場[ひろば]へ押[お]し寄[よ]せた。",
-          "english": "The crowd swept into the square like a wave."
+          "ruby": "老[お]いた庭師[にわし]の手[て]は、樫[かし]の根[ね]のごとく節[ふし]くれ立[だ]っていた。",
+          "english": "The old gardener's hands were as gnarled as the roots of an oak."
         },
         {
           "ruby": "彼[かれ]のごとき臆病者[おくびょうもの]に務[つと]まる役[やく]ではない。",

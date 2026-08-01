@@ -22,8 +22,8 @@
       "human_verified": false,
       "examples": [
         {
-          "ruby": "彼女[かのじょ]は通訳[つうやく]として会議[かいぎ]に同席[どうせき]した。",
-          "english": "She sat in on the meeting as an interpreter."
+          "ruby": "祖父[そふ]は町[まち]の医者[いしゃ]として五十年[ごじゅうねん]働[はたら]いた。",
+          "english": "My grandfather worked as the town doctor for fifty years."
         },
         {
           "ruby": "これは冗談[じょうだん]として受[う]け取[と]ってほしい。",
@@ -46,16 +46,16 @@
       "human_verified": false,
       "examples": [
         {
-          "ruby": "彼[かれ]は長年[ながねん]の経験[けいけん]でもって難局[なんきょく]を乗[の]り切[き]った。",
-          "english": "He rode out the crisis on the strength of long years of experience."
+          "ruby": "店長[てんちょう]は長年[ながねん]の経験[けいけん]でもって難局[なんきょく]を乗[の]り切[き]った。",
+          "english": "The manager rode out the crisis on the strength of long years of experience."
         },
         {
           "ruby": "その案[あん]は多数決[たすうけつ]でもって承認[しょうにん]された。",
           "english": "The proposal was approved by a majority vote."
         },
         {
-          "ruby": "彼女[かのじょ]は確[たし]かな実力[じつりょく]でもって代表[だいひょう]の座[ざ]を勝[か]ち取[と]った。",
-          "english": "She won the national team place on sheer ability."
+          "ruby": "主将[しゅしょう]は落[お]ち着[つ]いた声[こえ]でもって、浮[う]き足[あし]立[だ]つ後輩[こうはい]をまとめた。",
+          "english": "With nothing but a calm voice, the captain pulled the rattled younger players together."
         }
       ]
     }

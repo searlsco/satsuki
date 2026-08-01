@@ -21,8 +21,8 @@
       "human_verified": false,
       "examples": [
         {
-          "ruby": "この料理[りょうり]には手作[てづく]りならではの温[あたた]かみがある。",
-          "english": "There's a warmth to this food that only home cooking has."
+          "ruby": "生[なま]の演奏[えんそう]ならではの迫力[はくりょく]に、客席[きゃくせき]が静[しず]まり返[かえ]った。",
+          "english": "The hall fell silent before a force only live playing can carry."
         },
         {
           "ruby": "島[しま]ならではの食材[しょくざい]を使[つか]った料理[りょうり]が並[なら]んだ。",
@@ -101,8 +101,8 @@
           "english": "I was looking for somewhere the two of us could talk alone."
         },
         {
-          "ruby": "もうこれっきりにすると、彼[かれ]は静[しず]かに言[い]った。",
-          "english": "I'm done after this, he said quietly."
+          "ruby": "お菓子[かし]はこれっきりだからねと母[はは]に言[い]われた。",
+          "english": "That's the last of the sweets, my mother told me."
         }
       ]
     }

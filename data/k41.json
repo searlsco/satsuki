@@ -21,16 +21,16 @@
       "human_verified": false,
       "examples": [
         {
-          "ruby": "市[し]としても、この事故[じこ]を重[おも]く受[う]け止[と]めております。",
-          "english": "The city, for its part, is taking this accident very seriously."
+          "ruby": "母[はは]としても、私[わたし]の一人[ひとり]暮[ぐ]らしは心配[しんぱい]なのだろう。",
+          "english": "My mother, for her part, must be worried about me living alone."
         },
         {
-          "ruby": "私[わたし]としても、この結果[けっか]は残念[ざんねん]でなりません。",
-          "english": "For my own part as well, I find this outcome deeply regrettable."
+          "ruby": "私[わたし]としても、練習[れんしゅう]は土曜[どよう]のほうがありがたい。",
+          "english": "For my part too, I'd be glad if practice were on Saturday."
         },
         {
-          "ruby": "会社[かいしゃ]としましても、全力[ぜんりょく]で対応[たいおう]いたします。",
-          "english": "The company as well will do everything it can to respond."
+          "ruby": "学校[がっこう]としましても、給食[きゅうしょく]の見直[みなお]しを進[すす]めております。",
+          "english": "The school, for its part, is working on a review of the lunch program."
         }
       ]
     },

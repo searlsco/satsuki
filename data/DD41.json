@@ -25,8 +25,8 @@
           "english": "My brother is a doctor, and I chose not to follow the same path."
         },
         {
-          "ruby": "昨日[きのう]の会議[かいぎ]は三時[さんじ]までで、その後[あと]は自由[じゆう]だった。",
-          "english": "Yesterday's meeting ran until three, and after that we were free."
+          "ruby": "今朝[けさ]の雨[あめ]は昼[ひる]までで、午後[ごご]はきれいに晴[は]れた。",
+          "english": "This morning's rain lasted only until noon, and the afternoon cleared up beautifully."
         },
         {
           "ruby": "今日[きょう]は休[やす]みで、朝[あさ]からずっと家[いえ]にいます。",
@@ -45,16 +45,16 @@
       "human_verified": false,
       "examples": [
         {
-          "ruby": "彼[かれ]は詩人[しじん]であり、優[すぐ]れた翻訳家[ほんやくか]でもあった。",
-          "english": "He was a poet, and a fine translator as well."
+          "ruby": "父[ちち]は数学[すうがく]の先生[せんせい]であり、サッカーチームのコーチでもある。",
+          "english": "My father is a math teacher, and the coach of a soccer team as well."
         },
         {
-          "ruby": "この決定[けってい]は苦渋[くじゅう]の選択[せんたく]ではあるが、後戻[あともど]りはできない。",
-          "english": "This decision is admittedly an agonizing one, but there is no going back."
+          "ruby": "小[ちい]さな店[みせ]ではあるが、パンの味[あじ]は町[まち]で一番[いちばん]だ。",
+          "english": "It is a tiny shop, granted, but its bread is the best in town."
         },
         {
-          "ruby": "沈黙[ちんもく]は時[とき]に、最[もっと]も雄弁[ゆうべん]な返事[へんじ]でもある。",
-          "english": "Silence is, at times, also the most eloquent of answers."
+          "ruby": "妹[いもうと]は家族[かぞく]でもあり、一番[いちばん]仲[なか]のいい友[とも]だちでもある。",
+          "english": "My little sister is family, and my closest friend besides."
         }
       ]
     }

@@ -25,8 +25,8 @@
           "english": "Calling him now isn't going to get him here in time."
         },
         {
-          "ruby": "そんな記事[きじ]を読[よ]んだって、気分[きぶん]が沈[しず]むだけだよ。",
-          "english": "Reading articles like that will only get you down."
+          "ruby": "傘[かさ]を持[も]って行[い]ったって、この風[かぜ]じゃ意味[いみ]がないよ。",
+          "english": "Even if you take an umbrella, it's no use in wind like this."
         },
         {
           "ruby": "いくら考[かんが]えたって、いい案[あん]なんて浮[う]かばない。",
@@ -49,8 +49,8 @@
           "english": "Even supposing we start tomorrow, we're nowhere near ready."
         },
         {
-          "ruby": "彼[かれ]が謝[あやま]ったとしたって、そう簡単[かんたん]には水[みず]に流[なが]せない。",
-          "english": "Even if he did apologize, I can't just let it go that easily."
+          "ruby": "薬[くすり]が効[き]いたとしたって、この熱[ねつ]では明日[あした]も休[やす]むしかない。",
+          "english": "Even granting the medicine worked, with a fever like this I'll have to take tomorrow off too."
         },
         {
           "ruby": "冗談[じょうだん]だとしたって、その言[い]い方[かた]はひどすぎる。",
@@ -93,8 +93,8 @@
       "human_verified": false,
       "examples": [
         {
-          "ruby": "これ以上[いじょう]値段[ねだん]を下[さ]げたところで、客[きゃく]は戻[もど]ってこないだろう。",
-          "english": "Cutting the price any further isn't going to bring the customers back."
+          "ruby": "そんなに水[みず]をやったところで、この鉢[はち]の花[はな]は元気[げんき]にならないよ。",
+          "english": "Watering it that much isn't going to perk up the flowers in this pot."
         },
         {
           "ruby": "ここで騒[さわ]いだとこで、決[き]まったことはひっくり返[かえ]らないよ。",
@@ -125,8 +125,8 @@
           "english": "Even if I lose everything, this one conviction I will not bend."
         },
         {
-          "ruby": "道[みち]がどれほど険[けわ]しかろうとも、彼[かれ]は歩[あゆ]みを止[と]めなかった。",
-          "english": "No matter how steep the road, he never once stopped walking."
+          "ruby": "周[まわ]りに何[なに]を言[い]われようとも、妹[いもうと]は毎朝[まいあさ]の練習[れんしゅう]をやめなかった。",
+          "english": "No matter what anyone said to her, my sister never once skipped her morning practice."
         }
       ]
     },
@@ -149,8 +149,8 @@
           "english": "However it turns out, I won't regret the choice I made."
         },
         {
-          "ruby": "本人[ほんにん]が何[なに]を思[おも]おうが、こちらが口[くち]を出[だ]す筋合[すじあ]いはない。",
-          "english": "Whatever he chooses to think, it is no place of ours to butt in."
+          "ruby": "値段[ねだん]が上[あ]がろうが、この味噌[みそ]だけは他[ほか]に替[か]えられない。",
+          "english": "The price can climb all it likes; this is the one miso I won't trade for another."
         }
       ]
     },
@@ -173,8 +173,8 @@
           "english": "Even if you're new here, you shouldn't be skipping a check this basic."
         },
         {
-          "ruby": "値上[ねあ]げするにしろ、事前[じぜん]の説明[せつめい]は欠[か]かせない。",
-          "english": "Even if you do raise the price, you can't skip explaining it first."
+          "ruby": "引[ひ]っ越[こ]すにしろ、この部屋[へや]の荷物[にもつ]は半分[はんぶん]に減[へ]らすしかない。",
+          "english": "Even if you do move, there's nothing for it but to cut what's in this room by half."
         }
       ]
     }

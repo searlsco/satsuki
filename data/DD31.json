@@ -72,8 +72,8 @@
       "human_verified": false,
       "examples": [
         {
-          "ruby": "彼[かれ]は昨日[きのう]出発[しゅっぱつ]したから、もう着[つ]いているはずだ。",
-          "english": "He left yesterday, so he ought to have arrived by now."
+          "ruby": "姉[あね]は昨日[きのう]の夜行[やこう]バスで出[で]たから、もう着[つ]いているはずだ。",
+          "english": "My sister took the overnight bus last night, so she ought to be there by now."
         },
         {
           "ruby": "駅前[えきまえ]の店[みせ]なら、値段[ねだん]はもっと安[やす]いはずだ。",

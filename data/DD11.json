@@ -21,8 +21,8 @@
       "human_verified": false,
       "examples": [
         {
-          "ruby": "提出書類[ていしゅつしょるい]には印鑑[いんかん]を押[お]さなければならない。",
-          "english": "Documents you submit have to be stamped with your seal."
+          "ruby": "プールに入[はい]る前[まえ]に、シャワーで体[からだ]を流[なが]さなければならない。",
+          "english": "Before you get into the pool you have to rinse off under the shower."
         },
         {
           "ruby": "全員[ぜんいん]が九時[くじ]までに集合[しゅうごう]しなければならない。",
@@ -101,8 +101,8 @@
           "english": "If you've realized you were wrong, you should just admit it."
         },
         {
-          "ruby": "署名[しょめい]する前[まえ]に条件[じょうけん]をよく確認[かくにん]するべきだ。",
-          "english": "You should go over the terms carefully before you sign."
+          "ruby": "初[はじ]めての店[みせ]では、まず店主[てんしゅ]のおすすめを注文[ちゅうもん]するべきだ。",
+          "english": "At a place you've never been, you ought to start with whatever the owner recommends."
         }
       ]
     },
@@ -118,8 +118,8 @@
       "human_verified": false,
       "examples": [
         {
-          "ruby": "この件[けん]は上司[じょうし]に報告[ほうこく]せねばなるまい。",
-          "english": "This is something I'll have to report to my superior."
+          "ruby": "祖父[そふ]の畑[はたけ]は、そろそろ誰[だれ]かが世話[せわ]をせねばなるまい。",
+          "english": "Grandfather's field will have to be taken over by somebody before much longer."
         },
         {
           "ruby": "我々[われわれ]も相応[そうおう]の負担[ふたん]を負[お]わねばなるまい。",

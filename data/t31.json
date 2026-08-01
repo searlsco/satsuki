@@ -26,8 +26,8 @@
           "english": "Despite the downpour, a long line had formed outside the venue."
         },
         {
-          "ruby": "何度[なんど]も注意[ちゅうい]したにもかかわらず、彼[かれ]は同[おな]じ失敗[しっぱい]を繰[く]り返[かえ]した。",
-          "english": "Even though I warned him time and again, he made the very same mistake."
+          "ruby": "何度[なんど]も注意[ちゅうい]したにもかかわらず、弟[おとうと]は同[おな]じ失敗[しっぱい]を繰[く]り返[かえ]した。",
+          "english": "Even though I warned him time and again, my brother made the very same mistake."
         },
         {
           "ruby": "医者[いしゃ]に止[と]められているにもかかわらず、父[ちち]は煙草[たばこ]をやめない。",
@@ -47,16 +47,16 @@
       "human_verified": false,
       "examples": [
         {
-          "ruby": "周囲[しゅうい]の心配[しんぱい]をよそに、彼[かれ]は単身[たんしん]で山[やま]へ向[む]かった。",
-          "english": "Heedless of everyone's concern, he set off for the mountains alone."
+          "ruby": "周囲[しゅうい]の心配[しんぱい]をよそに、祖父[そふ]は単身[たんしん]で山[やま]へ向[む]かった。",
+          "english": "Heedless of everyone's concern, my grandfather set off for the mountains alone."
         },
         {
           "ruby": "住民[じゅうみん]の反対[はんたい]をよそに、工事[こうじ]は着々[ちゃくちゃく]と進[すす]められた。",
           "english": "In defiance of the residents' objections, the construction pushed steadily ahead."
         },
         {
-          "ruby": "彼女[かのじょ]は母[はは]の落胆[らくたん]をよそに、留学[りゅうがく]の準備[じゅんび]を進[すす]めた。",
-          "english": "Paying no attention to her mother's dismay, she pressed ahead with her plans to study abroad."
+          "ruby": "弟[おとうと]は家族[かぞく]の落胆[らくたん]をよそに、大学[だいがく]をやめて店[みせ]を開[ひら]いた。",
+          "english": "Paying no attention to his family's dismay, my brother quit university and opened a shop."
         }
       ]
     }

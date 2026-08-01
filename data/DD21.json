@@ -29,8 +29,8 @@
           "english": "The parts haven't arrived, so we have no choice but to push the construction back."
         },
         {
-          "ruby": "この案[あん]は諦[あきら]めるよりほかに仕方[しかた]がない。",
-          "english": "There's simply no option left but to give this plan up."
+          "ruby": "切符[きっぷ]をなくしたので、もう一度[いちど]買[か]うよりほかに仕方[しかた]がない。",
+          "english": "I lost my ticket, so there's nothing for it but to buy another one."
         }
       ]
     },
@@ -53,8 +53,8 @@
           "english": "If you've missed the last train, there's no alternative but to walk home."
         },
         {
-          "ruby": "本人[ほんにん]が黙[だま]っているなら、こちらで推測[すいそく]するよりほかはない。",
-          "english": "If the person himself won't talk, we have no choice but to guess."
+          "ruby": "材料[ざいりょう]が足[た]りないので、晩[ばん]ごはんはカレーで我慢[がまん]するよりほかはない。",
+          "english": "We're out of ingredients, so dinner will just have to be curry."
         }
       ]
     },
@@ -70,12 +70,12 @@
       "human_verified": false,
       "examples": [
         {
-          "ruby": "実績[じっせき]を見[み]れば、彼[かれ]の実力[じつりょく]は認[みと]めざるを得[え]ない。",
-          "english": "Looking at his track record, you can't help but acknowledge how good he is."
+          "ruby": "連勝[れんしょう]記録[きろく]を見[み]れば、あの高校[こうこう]の強[つよ]さは認[みと]めざるを得[え]ない。",
+          "english": "Look at that winning streak and you cannot help but grant how strong that school is."
         },
         {
-          "ruby": "上司[じょうし]に強[つよ]く言[い]われては、従[したが]わざるを得[え]ない。",
-          "english": "When the boss presses that hard, you have little choice but to go along with it."
+          "ruby": "熱[ねつ]が下[さ]がらないので、今週[こんしゅう]の旅行[りょこう]は諦[あきら]めざるを得[え]ない。",
+          "english": "My fever won't come down, so I have no choice but to give up on this week's trip."
         },
         {
           "ruby": "新[あたら]しい事実[じじつ]が出[で]てきて、結論[けつろん]を修正[しゅうせい]せざるを得[え]ない。",
@@ -99,8 +99,8 @@
           "english": "If we want it finished, tonight we just have to pull an all-nighter."
         },
         {
-          "ruby": "ここまで来[き]たら、最後[さいご]までやるっきゃないよ。",
-          "english": "Now that we've come this far, we just have to see it through."
+          "ruby": "チケットが取[と]れなかったら、家[いえ]でテレビ観戦[かんせん]するっきゃない。",
+          "english": "If we can't get tickets, we'll just have to watch it on TV at home."
         },
         {
           "ruby": "言[い]い訳[わけ]はもういい、あとは走[はし]るっきゃない。",

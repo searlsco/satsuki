@@ -45,8 +45,8 @@
       "human_verified": false,
       "examples": [
         {
-          "ruby": "会議[かいぎ]の資料[しりょう]をコピーしておきました。",
-          "english": "I made copies of the meeting materials ahead of time."
+          "ruby": "遠足[えんそく]の朝[あさ]、水筒[すいとう]にお茶[ちゃ]を入[い]れておきました。",
+          "english": "On the morning of the field trip I filled my flask with tea before we set off."
         },
         {
           "ruby": "ビールは冷[ひ]やしといたから、遠慮[えんりょ]しないでね。",
@@ -77,8 +77,8 @@
           "english": "I had breakfast and then headed out."
         },
         {
-          "ruby": "子[こ]どもの頃[ころ]、この川[かわ]でよく泳[およ]いだ。",
-          "english": "When I was a kid I swam in this river all the time."
+          "ruby": "妹[いもうと]は迷[まよ]わず、一番[いちばん]大[おお]きなケーキを選[えら]んだ。",
+          "english": "My little sister went straight for the biggest piece of cake."
         }
       ]
     }

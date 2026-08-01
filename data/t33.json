@@ -22,8 +22,8 @@
       "human_verified": false,
       "examples": [
         {
-          "ruby": "部屋[へや]はこんなに寒[さむ]いのに、彼[かれ]は窓[まど]を開[あ]けたがる。",
-          "english": "The room is freezing, and yet he keeps wanting to open the window."
+          "ruby": "部屋[へや]はこんなに寒[さむ]いのに、弟[おとうと]は窓[まど]を開[あ]けたがる。",
+          "english": "The room is freezing, and yet my little brother keeps wanting to open the window."
         },
         {
           "ruby": "毎日[まいにち]水[みず]をやるのに、この鉢[はち]の花[はな]は咲[さ]かない。",
@@ -55,8 +55,8 @@
           "english": "If he'd said one word to me, I could have scared up the money."
         },
         {
-          "ruby": "もう少[すこ]し待[ま]てば席[せき]に座[すわ]れるものを、彼[かれ]は帰[かえ]った。",
-          "english": "A seat would have opened up if he'd waited a bit, and off he went instead."
+          "ruby": "早[はや]めに出[で]れば間[ま]に合[あ]うものを、妹[いもうと]はぎりぎりまで寝[ね]ていた。",
+          "english": "Leaving early would have got her there in time, and my sister lay in bed till the last second."
         }
       ]
     },

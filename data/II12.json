@@ -45,16 +45,16 @@
       "human_verified": false,
       "examples": [
         {
-          "ruby": "この分[ぶん]だと、今日[きょう]の会議[かいぎ]は長引[ながび]くようだ。",
-          "english": "At this rate it looks like today's meeting is going to drag on."
+          "ruby": "喉[のど]が痛[いた]いし体[からだ]も重[おも]い、風邪[かぜ]をひいたようだ。",
+          "english": "My throat hurts and my body feels heavy — it seems I've caught a cold."
         },
         {
           "ruby": "どうやら私[わたし]は道[みち]を一本[いっぽん]間違[まちが]えたようだ。",
           "english": "It seems I took the wrong street."
         },
         {
-          "ruby": "隣[となり]の家[いえ]は、もう引[ひ]っ越[こ]してしまったようです。",
-          "english": "It looks as though the family next door has already moved out."
+          "ruby": "改札[かいさつ]の前[まえ]に人[ひと]が集[あつ]まっている、電車[でんしゃ]が遅[おく]れているようです。",
+          "english": "People are bunched up in front of the ticket gates; it looks like the trains are running late."
         }
       ]
     },
@@ -72,8 +72,8 @@
           "english": "Looks like the folks upstairs are still up."
         },
         {
-          "ruby": "この匂[にお]い、どうも焦[こ]げたパンみたいだ。",
-          "english": "This smell — it's kind of like burnt toast."
+          "ruby": "スープの味[あじ]が薄[うす]い、塩[しお]を入[い]れ忘[わす]れたみたい。",
+          "english": "The soup tastes thin — looks like I forgot the salt."
         },
         {
           "ruby": "時計[とけい]の針[はり]が止[と]まっているから、電池[でんち]が切[き]れたみたい。",

@@ -22,8 +22,8 @@
       "human_verified": false,
       "examples": [
         {
-          "ruby": "会議[かいぎ]は五時[ごじ]からだから、急[いそ]がなくてもいいよ。",
-          "english": "The meeting isn't until five, so there's no need to rush."
+          "ruby": "切符[きっぷ]は車内[しゃない]でも買[か]えるから、並[なら]ばなくてもいいよ。",
+          "english": "You can buy a ticket on board, so there's no need to line up."
         },
         {
           "ruby": "残[のこ]ったお皿[さら]は片付[かたづ]けなくたっていいからね。",
@@ -51,8 +51,8 @@
           "english": "One slip-up is no reason to get that down on yourself."
         },
         {
-          "ruby": "まだ間[ま]に合[あ]うんだから、そこまで焦[あせ]ることはないですよ。",
-          "english": "There's still time, so there's no need to get that worked up."
+          "ruby": "お土産[みやげ]なんて、わざわざ買[か]ってくることはないよ。",
+          "english": "You really don't need to go out of your way to bring back a souvenir."
         },
         {
           "ruby": "そんな噂[うわさ]をいちいち気[き]にするこたないよ。",
@@ -76,12 +76,12 @@
           "english": "It's a matter that hardly warrants a trip out to head office."
         },
         {
-          "ruby": "彼女[かのじょ]の実力[じつりょく]は改[あらた]めて褒[ほ]めるまでもない。",
-          "english": "Her ability is obvious — no need to praise it all over again."
+          "ruby": "毎日[まいにち]通[かよ]っている道[みち]だから、地図[ちず]を見[み]るまでもない。",
+          "english": "It's a road I walk every day, so there's hardly any need for a map."
         },
         {
-          "ruby": "これは全員[ぜんいん]に確認[かくにん]するまでもない小[ちい]さな変更[へんこう]だ。",
-          "english": "This is a change small enough that there's no need to run it past everyone."
+          "ruby": "この程度[ていど]の汚[よご]れなら、洗剤[せんざい]を使[つか]うまでもない。",
+          "english": "For a stain this minor, there's no need to break out the detergent."
         }
       ]
     },

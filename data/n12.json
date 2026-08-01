@@ -22,8 +22,8 @@
       "human_verified": false,
       "examples": [
         {
-          "ruby": "彼[かれ]はバイクどころか車[くるま]まで持[も]っている。",
-          "english": "He doesn't just have a motorbike, he's even got a car."
+          "ruby": "祖母[そぼ]はスマホどころかタブレットまで使[つか]いこなす。",
+          "english": "My grandmother doesn't just handle a smartphone, she's mastered a tablet too."
         },
         {
           "ruby": "その計画[けいかく]は難[むずか]しいどころか実現[じつげん]は不可能[ふかのう]に近[ちか]い。",
@@ -55,8 +55,8 @@
           "english": "At that place the food is slow to come out, and it's expensive on top of it."
         },
         {
-          "ruby": "彼[かれ]はよく気[き]がつく上[うえ]に仕事[しごと]も早[はや]い。",
-          "english": "He's attentive, and quick at his work besides."
+          "ruby": "この自転車[じてんしゃ]は軽[かる]い上[うえ]に折[お]りたためるので、電車[でんしゃ]にも持[も]ち込[こ]める。",
+          "english": "This bike is light, and folds up besides, so you can even take it on the train."
         }
       ]
     },

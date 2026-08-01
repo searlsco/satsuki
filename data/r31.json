@@ -45,16 +45,16 @@
       "human_verified": false,
       "examples": [
         {
-          "ruby": "彼[かれ]が犯人[はんにん]だとすると動機[どうき]が説明[せつめい]できない。",
-          "english": "If we assume he is the culprit, the motive can't be explained."
+          "ruby": "熱[ねつ]が本当[ほんとう]に三十九度[さんじゅうきゅうど]だとすると、今日[きょう]は休[やす]むしかない。",
+          "english": "If the fever really is thirty-nine degrees, there's nothing for it but to stay home today."
         },
         {
           "ruby": "今[いま]から出[で]るとすると到着[とうちゃく]は九時[くじ]を過[す]ぎる。",
           "english": "Assuming we leave now, we won't get there until after nine."
         },
         {
-          "ruby": "この記録[きろく]が正[ただ]しいとすると、彼[かれ]の話[はなし]と食[く]い違[ちが]う。",
-          "english": "If this record is accurate, then it contradicts his account."
+          "ruby": "レシピの砂糖[さとう]が大[おお]さじ三[さん]だとすると、ちょっと甘[あま]すぎる。",
+          "english": "If the recipe really calls for three tablespoons of sugar, that's a bit too sweet."
         }
       ]
     },
