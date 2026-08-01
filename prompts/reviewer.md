@@ -17,6 +17,11 @@ it. Review, for every pattern:
    in this register? Literary patterns demand narrative prose; plain
    patterns conversational style. Flag anything stiff, translationese,
    collocationally off, or semantically odd.
+   Also flag **difficulty mismatch** (vocabulary harder than the
+   pattern's tier — an A2 sentence should burden a JLPT N4 learner with
+   grammar only, never with 契約-grade vocabulary) and **blandness or
+   stock scenes** (each example should be a concrete, memorable little
+   scene; three office sentences per pattern is a defect).
 2. **Semantic fit**: does each sentence exemplify THIS pattern's nuance,
    not just its syntax? A grammatical sentence that reads equally well with
    a sibling pattern is doing nothing.

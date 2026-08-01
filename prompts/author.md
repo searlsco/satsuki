@@ -62,6 +62,22 @@ corpus's connection data).
      patterns each demonstrated with "Xが終了する → crowd surges" defeats
      the disambiguation the set exists for). Before finishing, reread all
      your sentences together and replace any that rhyme.
+   - **Vocabulary matched to the pattern's difficulty tier.** The grammar
+     is the lesson; vocabulary must never be the obstacle. A1/A2: everyday
+     concrete words a JLPT N4 learner knows (no business/legal/bureaucratic
+     or abstract-formal vocabulary — no 契約, 審判, 環境保護会議 in a
+     beginner's sentence). B: ~N3 comfort. C: ~N2. F: unrestricted, but
+     natural for its literary register.
+   - **Scenes from varied walks of life.** Across each pattern's 3
+     examples use three different spheres — home, school, work, travel,
+     food, weather, sports, hobbies, health, family, friendships, nature,
+     technology. Avoid the corpus's stock scenes (office meetings, 上司,
+     rain starting, crowds surging) unless the register demands them.
+   - **Vary the subject.** First person, second person, named roles (妹,
+     店長, 隣の人) — never default to 彼/彼女 narration.
+   - **Memorable, not bland; specific, not weird.** A sentence should
+     paint one concrete little scene worth remembering. No placeholder
+     blandness (人が来た), no absurdism.
    - 15–35 characters of Japanese. One sentence, ends with 。
    - **ruby**: inline bracket ruby. Every kanji run gets its reading in
      brackets immediately after: 家[いえ]に帰[かえ]るとすぐに寝[ね]た。 Kana

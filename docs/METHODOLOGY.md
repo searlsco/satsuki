@@ -47,6 +47,17 @@ of the value).
    exemplifies a sibling sense. In the v1 run this changed 36 of 62
    families.
 
+## Pre-flight (learned the hard way)
+
+Before any fleet run, test the mechanical gate against one hand-written
+example per morphological family in the work list (dictionary-form
+attachments, た-fusions, volitional う/よう-onsets, …). The v1 run paid
+for skipping this: う-onset patterns cannot be chunked after godan verbs
+(言おう fuses into one morpheme) and the gate needed surgery mid-run.
+Likewise, design artifact naming around identifier quirks up front —
+case-sensitive Tsutsuji class codes on a case-insensitive filesystem
+silently overwrote 39 files until filenames doubled their initial letter.
+
 ## Design choices worth knowing
 
 - **Original sentences only.** Reference sites and corpora are consulted
