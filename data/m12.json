@@ -1,0 +1,106 @@
+{
+  "class_code": "m12",
+  "class_name": "限定-そのもの-ノミ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "2731",
+      "canonical_surface": "ならでは",
+      "glosses": [
+        "unique to; distinctive of",
+        "only … could manage"
+      ],
+      "usage_note": "Says that something could come from this place, person or method and no other. It is usually positive, sometimes just characterizing, which makes it the staple of tourism copy, menus and reviews. Where だけ and のみ merely fence off a quantity, ならでは points at what is exclusive about the source. It descends from classical ならで (= でなくて) plus は, literally 'if not for X', which is why the negative frame 〜ならでは〜ない still turns up; in modern Japanese it is used mostly as ならではの before a noun or ならではだ at the end of a clause.",
+      "examples": [
+        {
+          "ruby": "この料理[りょうり]には手作[てづく]りならではの温[あたた]かみがある。",
+          "english": "There's a warmth to this food that only home cooking has."
+        },
+        {
+          "ruby": "島[しま]ならではの食材[しょくざい]を使[つか]った料理[りょうり]が並[なら]んだ。",
+          "english": "Out came dishes built on ingredients you can only get on the island."
+        },
+        {
+          "ruby": "隅々[すみずみ]まで行[い]き届[とど]いた気配[きくば]りは老舗[しにせ]ならではだ。",
+          "english": "That attention to every last detail is the mark of an old establishment."
+        }
+      ]
+    },
+    {
+      "l2_id": "3071",
+      "canonical_surface": "だけ",
+      "glosses": [
+        "only; just",
+        "no more than"
+      ],
+      "usage_note": "The everyday limiter, at home in every register and the default choice in speech. It takes nouns, plain-form verbs and adjectives, and た alike. のみ takes nouns and plain verbs too but is confined to written register, while だけ goes everywhere; っきり is the casual one that clings to counted amounts, and ならでは is a praising expression rather than a plain restriction. だけ also has a second life measuring extent rather than restricting it (できるだけ, 好きなだけ), a sense のみ does not share.",
+      "examples": [
+        {
+          "ruby": "今日[きょう]は水[みず]だけ飲[の]んで一日[いちにち]を過[す]ごした。",
+          "english": "I got through the whole day on nothing but water."
+        },
+        {
+          "ruby": "あとは焼[や]くだけだから、すぐに用意[ようい]できるよ。",
+          "english": "All that's left is to grill it, so it'll be ready in no time."
+        },
+        {
+          "ruby": "名前[なまえ]を呼[よ]んだだけで、犬[いぬ]は尻尾[しっぽ]を振[ふ]り始[はじ]めた。",
+          "english": "Just saying his name set the dog's tail going."
+        }
+      ]
+    },
+    {
+      "l2_id": "3091",
+      "canonical_surface": "のみ",
+      "glosses": [
+        "only; solely",
+        "nothing but"
+      ],
+      "usage_note": "The written, formal twin of だけ: notices, contracts, academic prose, and set expressions such as 〜のみならず and ただ〜のみ. In ordinary conversation it sounds stiff or deliberately grand, so learners should reach for だけ there and keep のみ for the page. It restricts and nothing more, unlike だけ's extent sense (there is no のみ counterpart to できるだけ), and unlike ならでは it makes no claim that the limited thing is admirable.",
+      "examples": [
+        {
+          "ruby": "当[とう]ホテルの駐車場[ちゅうしゃじょう]は宿泊客[しゅくはくきゃく]のみご利用[りよう]いただけます。",
+          "english": "The hotel car park is for the use of guests only."
+        },
+        {
+          "ruby": "準備[じゅんび]は整[ととの]ったので、あとは結果[けっか]を待[ま]つのみだ。",
+          "english": "Everything is in place; all that remains is to await the result."
+        },
+        {
+          "ruby": "残[のこ]された証拠[しょうこ]はこの一枚[いちまい]の写真[しゃしん]のみであった。",
+          "english": "The only evidence left to us was this single photograph."
+        }
+      ]
+    },
+    {
+      "l2_id": "3411",
+      "canonical_surface": "っきり",
+      "glosses": [
+        "only; just",
+        "and that's the last of it"
+      ],
+      "usage_note": "The conversational 'only'. The doubled っきり is the form you hear in speech, きり the plainer variant. It attaches overwhelmingly to counted amounts and small groups (一度きり, 三日きり, 二人きり) and to これ・それ・あれ, and it colors the amount as meagre, final, or intimate in a way flat だけ does not. It cannot stand in for だけ after a plain-form verb (×食べるっきり), the substitution だけ-first learners reach for. Keep it apart from the separate 〜たきり pattern, where a past-form verb marks the last thing that happened before a state set in.",
+      "examples": [
+        {
+          "ruby": "会[あ]ったのは一度[いちど]っきりだが、今[いま]でもよく覚[おぼ]えている。",
+          "english": "We met just the one time, but I remember it well even now."
+        },
+        {
+          "ruby": "二人[ふたり]っきりで話[はな]せる場所[ばしょ]を探[さが]していた。",
+          "english": "I was looking for somewhere the two of us could talk alone."
+        },
+        {
+          "ruby": "もうこれっきりにすると、彼[かれ]は静[しず]かに言[い]った。",
+          "english": "I'm done after this, he said quietly."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "class_code": "O31",
+  "class_name": "主体-経由-カラ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0273",
+      "canonical_surface": "から",
+      "glosses": [
+        "from (the party who acts)",
+        "on the part of"
+      ],
+      "usage_note": "With verbs of giving, telling and receiving, から names the side the action originates from, so 私から説明します presents you as the one taking the initiative. Against に in the same slot (先生に聞いた / 先生から聞いた), から foregrounds the source as an active starting point rather than a mere point of contact, and it is preferred when the source is an institution (学校から通知が届いた).",
+      "examples": [
+        {
+          "ruby": "その知[し]らせは本人[ほんにん]から直接[ちょくせつ]聞[き]いた。",
+          "english": "I heard that news straight from the person himself."
+        },
+        {
+          "ruby": "まず私[わたし]から自己紹介[じこしょうかい]させてください。",
+          "english": "Let me start things off by introducing myself."
+        },
+        {
+          "ruby": "奨学金[しょうがくきん]の結果[けっか]は大学[だいがく]から郵送[ゆうそう]で届[とど]いた。",
+          "english": "The scholarship results arrived from the university by post."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "class_code": "Q41",
+  "class_name": "並立-対比-ニ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "2937",
+      "canonical_surface": "に",
+      "glosses": [
+        "and (paired with)",
+        "plus; with"
+      ],
+      "usage_note": "Additive に joins nouns that belong together as a set — a meal and its side, an outfit and its footwear, a color scheme — adding the second item onto the first the way you add numbers, so the pair reads as one coordinated whole rather than as sampled examples. It is a small, closed listing and cannot take verbs or adjectives, which keeps it clearly apart from や and とか; it shows up constantly in menus, captions, and set phrases (鬼に金棒).",
+      "examples": [
+        {
+          "ruby": "朝[あさ]ごはんはトーストに目玉焼[めだまや]きが定番[ていばん]だ。",
+          "english": "Breakfast around here is toast with a fried egg, always."
+        },
+        {
+          "ruby": "ビールに枝豆[えだまめ]があれば、それでいい。",
+          "english": "Give me a beer and some edamame and I'm happy."
+        },
+        {
+          "ruby": "浴衣[ゆかた]に下駄[げた]で夏祭[なつまつ]りへ向[む]かった。",
+          "english": "I headed off to the summer festival in a yukata and geta."
+        }
+      ]
+    }
+  ]
+}

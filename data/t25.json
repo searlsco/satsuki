@@ -1,0 +1,110 @@
+{
+  "class_code": "t25",
+  "class_name": "逆接-確定-ケレドモ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0951",
+      "canonical_surface": "が",
+      "glosses": [
+        "but",
+        "although …",
+        "though"
+      ],
+      "usage_note": "The plainest clause-linking 'but', at home in writing, speeches and careful speech where けど would sound too casual. It attaches to the plain form (行くが, 高いが, 明日だが) and equally to the polite ます/です forms in speech. Note that it is often not adversative at all: 失礼ですが or 一つ伺いますが simply prefaces what follows, so context, not が itself, tells you whether a contrast is coming.",
+      "examples": [
+        {
+          "ruby": "値段[ねだん]は高[たか]いが、この店[みせ]の味[あじ]は文句[もんく]なしだ。",
+          "english": "It's pricey, but you can't fault the food at this place."
+        },
+        {
+          "ruby": "説明[せつめい]は聞[き]いたが、正直[しょうじき]まだ納得[なっとく]していない。",
+          "english": "I heard them out, but honestly I'm still not convinced."
+        },
+        {
+          "ruby": "会議[かいぎ]は明日[あす]だが、資料[しりょう]がまだ届[とど]いていない。",
+          "english": "The meeting is tomorrow, but the materials still haven't arrived."
+        }
+      ]
+    },
+    {
+      "l2_id": "0961",
+      "canonical_surface": "けども",
+      "glosses": [
+        "but",
+        "although …",
+        "even though"
+      ],
+      "usage_note": "One rung down from が in formality: けれども is the full form, and けれど and けども are middling clippings, けど the most casual and by far the most common in speech. Like が it also works as a soft preface (すみませんけど) and, again like が, can be left dangling at the end of a sentence to trail off (行きたいんですけど…); けど just makes the trailing-off casual where ですが keeps it businesslike. Keep けれども for essays and set speeches; reserve けど and けども for conversation.",
+      "examples": [
+        {
+          "ruby": "妹[いもうと]は平気[へいき]で泳[およ]げるけども、私[わたし]は水[みず]が苦手[にがて]だ。",
+          "english": "My sister can swim without a second thought, but I'm no good in water."
+        },
+        {
+          "ruby": "傘[かさ]は持[も]ってきたけれども、結局[けっきょく]一度[いちど]も差[さ]さなかった。",
+          "english": "I brought an umbrella along, though in the end I never once put it up."
+        },
+        {
+          "ruby": "兄[あに]は文句[もんく]ばかり言[い]うけど、頼[たの]めば必[かなら]ず手伝[てつだ]う。",
+          "english": "My brother complains nonstop, but ask him and he'll always pitch in."
+        }
+      ]
+    },
+    {
+      "l2_id": "1021",
+      "canonical_surface": "ところが",
+      "glosses": [
+        "but (to my surprise)",
+        "and yet",
+        "only to find that …"
+      ],
+      "usage_note": "Unlike が or けれども, this one demands a reversal of expectation: the speaker did something, and what actually happened contradicted what they had counted on. Clause-internally it appears as 〜たところが (〜だところが after verbs whose past is voiced: 呼んだところが), so the frame is 〜たところが、〜 ('I went and did X, only to find Y'); the same sentence with plain たら would be neutral about surprise. It is narrative and somewhat bookish, and the outcome clause typically reports a discovery rather than the speaker's own decision.",
+      "examples": [
+        {
+          "ruby": "電話[でんわ]してみたところが、番号[ばんごう]はすでに変[か]わっていた。",
+          "english": "I tried calling, only to find the number had already been changed."
+        },
+        {
+          "ruby": "大声[おおごえ]で呼[よ]んだところが、家[いえ]の中[なか]は静[しず]まり返[かえ]っていた。",
+          "english": "I called out at the top of my voice, and yet the house stayed dead silent."
+        },
+        {
+          "ruby": "上司[じょうし]に相談[そうだん]したところが、話[はなし]はかえって大[おお]きくなった。",
+          "english": "I took it up with my boss, and to my dismay it only blew up bigger."
+        }
+      ]
+    },
+    {
+      "l2_id": "1142",
+      "canonical_surface": "ながら",
+      "glosses": [
+        "although …",
+        "despite being …",
+        "while being …"
+      ],
+      "usage_note": "Concessive ながら sets a persisting state against a clashing main clause, and it attaches to nouns and na-adjective stems (新人ながら), i-adjectives (狭いながら) and the masu-stem of verbs (知っていながら) — the noun and adjective attachments are exactly what its close sibling つつ cannot do. The two clauses almost always share one subject, which is why it suits a compact 'X, yet X' portrait rather than a two-actor contrast. ながらも is the same meaning with the concession pressed harder, and it is the form to reach for when a bare ながら might be misread as the simultaneous-action 'while'.",
+      "examples": [
+        {
+          "ruby": "狭[せま]いながらも、二人[ふたり]で暮[く]らすには十分[じゅうぶん]な部屋[へや]だ。",
+          "english": "It's cramped, but it's plenty of room for the two of us."
+        },
+        {
+          "ruby": "彼[かれ]は事情[じじょう]を知[し]っていながら、何[なに]も教[おし]えてくれなかった。",
+          "english": "He knew perfectly well what was going on, and still told me nothing."
+        },
+        {
+          "ruby": "彼女[かのじょ]は新人[しんじん]ながら、堂々[どうどう]と発表[はっぴょう]をやり遂[と]げた。",
+          "english": "New as she was, she carried the presentation off with complete poise."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "class_code": "r22",
+  "class_name": "順接-仮定-ナラ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0581",
+      "canonical_surface": "なら",
+      "glosses": [
+        "if; if it's the case that",
+        "if you're talking about; as for"
+      ],
+      "usage_note": "Picks up something already in play — what the other person just said, or a topic on the table — and responds to it with advice, an offer or a judgment, which is why it attaches straight to a bare noun (それなら, 温泉なら) and why commands, requests and statements of intention are perfectly at home in the main clause, unlike と, which bars them outright, and unlike ば, which permits them only when its own clause is stative (安ければ買いたい is fine, ×東京へ行けば連絡してください is not). It is also the one conditional with no fixed time order: 日本へ行くなら地図を買っておきなさい has the buying happen before the going, where 日本へ行ったら地図を買います puts it after arrival.",
+      "examples": [
+        {
+          "ruby": "駅前[えきまえ]のカフェなら、八時[はちじ]から開[あ]いているよ。",
+          "english": "If you mean the cafe by the station, it's open from eight."
+        },
+        {
+          "ruby": "温泉[おんせん]に行[い]くなら、平日[へいじつ]のほうが空[す]いている。",
+          "english": "If you're going to a hot spring, weekdays are less crowded."
+        },
+        {
+          "ruby": "そんなに眠[ねむ]いなら、先[さき]に休[やす]んでいいよ。",
+          "english": "If you're that sleepy, go ahead and turn in first."
+        }
+      ]
+    },
+    {
+      "l2_id": "0631",
+      "canonical_surface": "うもんなら",
+      "glosses": [
+        "if one so much as …",
+        "if you were to so much as …, (disaster)"
+      ],
+      "usage_note": "Built on the volitional form plus ものなら, it names an action the speaker treats as reckless and follows it with an exaggerated disaster, so the main clause is virtually always undesirable and the tone is one of dread or grumbling. Pair it with 少しでも or 一度でも to sharpen the \"so much as\" reading. もんなら is the spoken contraction of ものなら; do not confuse it with plain 〜ものなら on the dictionary or potential form, which expresses a wish rather than a threat.",
+      "examples": [
+        {
+          "ruby": "部長[ぶちょう]に文句[もんく]を言[い]おうもんなら、三倍[さんばい]になって返[かえ]ってくる。",
+          "english": "Breathe one complaint to the boss and you'll get it back threefold."
+        },
+        {
+          "ruby": "一度[いちど]でも遅[おく]れようもんなら、二度[にど]と誘[さそ]ってもらえない。",
+          "english": "Show up late even once and you'll never be invited again."
+        },
+        {
+          "ruby": "ここで反対[はんたい]しようものなら、全部[ぜんぶ]こっちの責任[せきにん]にされる。",
+          "english": "Dare to object here and the whole thing gets pinned on us."
+        }
+      ]
+    },
+    {
+      "l2_id": "0641",
+      "canonical_surface": "もんなら",
+      "glosses": [
+        "if only one could …",
+        "if you can, then (go ahead and) …"
+      ],
+      "usage_note": "Attaches to the dictionary form, and in practice almost always to a potential verb (戻れる, できる, 止められる), because the whole point is a condition the speaker regards as barely possible. Two settings dominate: a wistful wish, where the main clause ends in 〜たい, and a taunt, where it ends in 〜てみろ／〜てみせろ and dares the listener to try. もんなら is the casual contraction of ものなら; the volitional-form 〜(よ)うものなら is a different pattern that predicts a disaster instead.",
+      "examples": [
+        {
+          "ruby": "学生時代[がくせいじだい]に戻[もど]れるもんなら戻[もど]りたい。",
+          "english": "If I could go back to my student days, I'd go in a heartbeat."
+        },
+        {
+          "ruby": "できるものなら、この痛[いた]みを半分[はんぶん]引[ひ]き受[う]けたい。",
+          "english": "If it were only possible, I'd take half of this pain on myself."
+        },
+        {
+          "ruby": "追[お]いつけるもんなら、追[お]いついてみろよ。",
+          "english": "Catch up with me if you think you can."
+        }
+      ]
+    }
+  ]
+}

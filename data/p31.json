@@ -1,0 +1,38 @@
+{
+  "class_code": "p31",
+  "class_name": "継起-偶然-タトコロ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1411",
+      "canonical_surface": "だところ",
+      "glosses": [
+        "upon … ing",
+        "when (I) did … , it turned out that",
+        "having … , (I found)"
+      ],
+      "usage_note": "Attached to the plain past form of a verb, this reports an actual one-off action and the outcome that happened to come to light because of it, so the following clause is almost always in the past tense and states a fact rather than a plan or a request. Unlike 〜たら it is never hypothetical, and unlike 〜と it does not describe a habitual or general consequence. It leans written and businesslike (reports, inquiries, apologies), which is why 調べたところ and 問い合わせたところ are its most typical hosts.",
+      "examples": [
+        {
+          "ruby": "棚[たな]の裏側[うらがわ]を覗[のぞ]き込[こ]んだところ、鍵[かぎ]が落[お]ちていた。",
+          "english": "When I peered behind the shelf, there was the key on the floor."
+        },
+        {
+          "ruby": "担当者[たんとうしゃ]に問[と]い合[あ]わせたところ、在庫[ざいこ]はまだあるとのことだった。",
+          "english": "I checked with the person in charge, and was told they still had stock."
+        },
+        {
+          "ruby": "久[ひさ]しぶりに実家[じっか]へ電話[でんわ]したところ、母[はは]が出[で]た。",
+          "english": "I phoned home for the first time in ages, and my mother picked up."
+        }
+      ]
+    }
+  ]
+}

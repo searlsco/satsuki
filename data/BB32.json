@@ -1,0 +1,37 @@
+{
+  "class_code": "B32",
+  "class_name": "過去-事後-テアル類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1421",
+      "canonical_surface": "でさえあり",
+      "glosses": [
+        "has been done (and left that way)",
+        "is already taken care of"
+      ],
+      "usage_note": "Attaches to the te-form of what is almost always a transitive verb and reports the lingering result of something a person did on purpose, very often a preparation made in advance; the doer usually goes unmentioned, and the affected thing is marked が／は when the sentence describes the resulting state (窓が開けてある), and を when it reports the speaker's own advance preparation (切符はもう買ってある／切符をもう買ってある). Inserting a particle, as the headword てはある／てもある／てさえある does, turns the same frame into a concession or a point of emphasis. Contrast intransitive + ている (窓が開いている, a bare state) with transitive + てある (窓が開けてある, a state someone arranged).",
+      "examples": [
+        {
+          "ruby": "会議用[かいぎよう]の資料[しりょう]は机[つくえ]の上[うえ]に置[お]いてある。",
+          "english": "The materials for the meeting are already set out on the desk."
+        },
+        {
+          "ruby": "壁[かべ]には去年[きょねん]のカレンダーが貼[は]ってあった。",
+          "english": "Last year's calendar was still up on the wall."
+        },
+        {
+          "ruby": "連絡[れんらく]はしてはあるが、返事[へんじ]がまだ来[こ]ない。",
+          "english": "I did get in touch with them, it's just that there's still no reply."
+        }
+      ]
+    }
+  ]
+}

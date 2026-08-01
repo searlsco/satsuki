@@ -1,0 +1,36 @@
+{
+  "class_code": "Q11",
+  "class_name": "並立-全列挙-ト類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0594",
+      "canonical_surface": "と",
+      "glosses": [
+        "and (a complete list)"
+      ],
+      "usage_note": "Listing と joins nouns and claims the list is exhaustive: パンと卵 means those two and nothing else, whereas や names only samples and leaves the rest open. It repeats between every item (AとBとC); modern usage normally drops the と after the last item, though the fuller AとBと(を) survives in formal and older writing. The comitative と also follows a noun, so tell them apart by structure — listing と yields a single NP that fills one slot (パンと卵を買う), while comitative と names a companion to the verb (友達と行く). The quotative と attaches to a clause.",
+      "examples": [
+        {
+          "ruby": "朝[あさ]はパンと卵[たまご]と牛乳[ぎゅうにゅう]で済[す]ませる。",
+          "english": "For breakfast I make do with bread, eggs, and milk."
+        },
+        {
+          "ruby": "荷物[にもつ]は財布[さいふ]と鍵[かぎ]と携帯[けいたい]を持[も]って出[で]た。",
+          "english": "For luggage I took my wallet, keys, and phone and headed out."
+        },
+        {
+          "ruby": "週末[しゅうまつ]は大阪[おおさか]と京都[きょうと]を回[まわ]る予定[よてい]だ。",
+          "english": "Over the weekend I plan to make the rounds of Osaka and Kyoto."
+        }
+      ]
+    }
+  ]
+}

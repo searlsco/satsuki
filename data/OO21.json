@@ -1,0 +1,37 @@
+{
+  "class_code": "O21",
+  "class_name": "主体-場所-デ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0342",
+      "canonical_surface": "での",
+      "glosses": [
+        "by (an organization acting as a body)",
+        "(before a noun) …'s; made/held by — 委員会での決定 \"the committee's decision\""
+      ],
+      "usage_note": "Agentive で names a place, body or set of people as the one acting, not the site of the action: 警察で調べる means the police are doing the investigating. The usual test is that swapping in が leaves the meaning intact. It attaches to nouns denoting organizations or groupings (会社, 委員会, みんな, 二人), and before a noun it appears as での (委員会での決定).",
+      "examples": [
+        {
+          "ruby": "その件[けん]は警察[けいさつ]で調[しら]べているそうだ。",
+          "english": "I hear the police are looking into that matter."
+        },
+        {
+          "ruby": "引[ひ]っ越[こ]しの費用[ひよう]は会社[かいしゃ]で負担[ふたん]してくれる。",
+          "english": "The company covers the moving expenses for us."
+        },
+        {
+          "ruby": "来年度[らいねんど]の予算[よさん]は委員会[いいんかい]での議論[ぎろん]を経[へ]て決[き]まる。",
+          "english": "Next year's budget is settled through discussion in committee."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "class_code": "y13",
+  "class_name": "否定-強い表現-ウニ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "2561",
+      "canonical_surface": "うに",
+      "glosses": [
+        "even if one wanted to …, (one can't)",
+        "try as one might to …"
+      ],
+      "usage_note": "The volitional plus にも concedes the intention and then blocks it: the second half is almost always the potential negative of the same verb (帰ろうにも帰れない), and the obstacle is outside circumstance rather than the speaker's own reluctance. Next to 〜たくても〜ない, which is about thwarted desire, this frame is about the attempt itself being impossible; both halves normally share one subject. Godan verbs take the うに shape shown here, while ichidan and する verbs surface as 〜ようにも (起きようにも, 相談しようにも).",
+      "examples": [
+        {
+          "ruby": "終電[しゅうでん]を逃[のが]して、帰[かえ]ろうにも帰[かえ]れなくなった。",
+          "english": "I missed the last train, so now I couldn't get home even if I wanted to."
+        },
+        {
+          "ruby": "熱[ねつ]でふらふらして、立[た]とうにも立[た]てない。",
+          "english": "I'm so light-headed with fever I couldn't stand up if I tried."
+        },
+        {
+          "ruby": "レシートがないので、返品[へんぴん]を頼[たの]もうにも頼[たの]めない。",
+          "english": "I don't have the receipt, so there's no asking for a refund even if I wanted to."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "class_code": "s11",
+  "class_name": "理由-因状況-イジョウハ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0831",
+      "canonical_surface": "からにゃ",
+      "glosses": [
+        "now that; if it comes to",
+        "since (one has committed to)"
+      ],
+      "usage_note": "からにゃ is a rough spoken squeeze of からには, at home in blunt male speech and fiction dialogue; the neutral forms are からには and the terser からは. It takes a fact the speaker has accepted and demands the resolve that ought to follow, so the second clause is typically a vow, an obligation, or an urging (〜つもりだ、〜べきだ、〜てほしい) rather than a neutral consequence. The front clause is normally something someone deliberately did or decided, which is why uncontrollable events like 雨が降るからには sound off; 以上は takes those comfortably.",
+      "examples": [
+        {
+          "ruby": "引[ひ]き受[う]けたからにゃ、途中[とちゅう]で投[な]げ出[だ]すわけにはいかねえ。",
+          "english": "Now that I've taken it on, there's no way I'm dropping it halfway."
+        },
+        {
+          "ruby": "金[かね]を取[と]るからにゃ、半端[はんぱ]な仕事[しごと]はできねえ。",
+          "english": "If I'm charging money for it, I can't very well do a half-baked job."
+        },
+        {
+          "ruby": "約束[やくそく]しちまったからにゃ、意地[いじ]でも行[い]くしかねえ。",
+          "english": "I went and promised, so now I've got to go, come what may."
+        }
+      ]
+    },
+    {
+      "l2_id": "0841",
+      "canonical_surface": "いじょうは",
+      "glosses": [
+        "now that; since; as long as",
+        "given that"
+      ],
+      "usage_note": "Marks a fact the speaker consciously acknowledges, and the clause that follows states the responsibility, resolve, or judgment that logically falls out of it. It is the flexible middle sibling: unlike からには, which wants a course of action someone chose, 以上は also accepts circumstances nobody chose (雨で中止になった以上は…), and unlike 上は it works in speech as easily as in writing. It also attaches to nouns and な-adjectives through である (学生である以上は).",
+      "examples": [
+        {
+          "ruby": "親[おや]が反対[はんたい]している以上[いじょう]は、今[いま]は動[うご]けない。",
+          "english": "As long as my parents are against it, I can't make a move."
+        },
+        {
+          "ruby": "医者[いしゃ]に止[と]められた以上[いじょう]は、酒[さけ]は控[ひか]えるべきだ。",
+          "english": "Now that the doctor has told me to stop, I really ought to lay off the drink."
+        },
+        {
+          "ruby": "日本[にほん]で暮[く]らす以上[いじょう]は、地震[じしん]に備[そな]えておこう。",
+          "english": "If we're going to live in Japan, let's be ready for earthquakes."
+        }
+      ]
+    },
+    {
+      "l2_id": "0851",
+      "canonical_surface": "うえは",
+      "glosses": [
+        "now that; since",
+        "seeing that (there is no turning back)"
+      ],
+      "usage_note": "The stiffest member of the trio, at home in speeches, editorials, and narration rather than conversation. The front clause names a commitment or a situation the speaker treats as already sealed — the fixed かくなる上は and the past-form こうなった上は are its signature openings — and the second clause states what one is now bound to do or the single course left, so it carries a note of burnt bridges that 以上は lacks; for a neutral or impersonal premise, and in ordinary speech, 以上は is the safer choice and has largely displaced 上は in modern prose. Its most idiomatic openings are かくなる上は and the past-form こうなった上は; with a non-past verb, take care, since 〜する上は is easily misread as the unrelated 〜する上で (\"in the course of doing X\").",
+      "examples": [
+        {
+          "ruby": "かくなる上[うえ]は、正面[しょうめん]から戦[たたか]うほかあるまい。",
+          "english": "It having come to this, there is nothing left but to fight them head-on."
+        },
+        {
+          "ruby": "この道[みち]を選[えら]ぶ上[うえ]は、もう後戻[あともど]りはできない。",
+          "english": "Having chosen this road, there is no turning back now."
+        },
+        {
+          "ruby": "一国[いっこく]を率[ひき]いる上[うえ]は、私情[しじょう]を挟[はさ]む余地[よち]はない。",
+          "english": "In leading a nation, there is no room for personal feeling."
+        }
+      ]
+    }
+  ]
+}

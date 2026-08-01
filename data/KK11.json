@@ -1,0 +1,83 @@
+{
+  "class_code": "K11",
+  "class_name": "授受-内の授与-テヤル類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1241",
+      "canonical_surface": "だげ",
+      "glosses": [
+        "do … for someone",
+        "do … as a favor"
+      ],
+      "usage_note": "The neutral outward benefactive: the te-form plus あげる sends the action from the speaker's side to someone who is neither a superior owed honorifics nor a junior you would talk down to. Because it names the act as a favor, saying it to the beneficiary's face can sound like you are angling for credit, so Japanese often drops to a plain form or お〜します when actually offering. てやる below it is blunt and downward, て差し上げる above it is humble; ては／ても insertions turn the frame into a concession. A light 〜てあげるよ between friends is unremarkable; the risk rises with formality and with distance from the hearer.",
+      "examples": [
+        {
+          "ruby": "友[とも]だちの引[ひ]っ越[こ]しを一日[いちにち]かけて手伝[てつだ]ってあげた。",
+          "english": "I spent a whole day helping a friend with their move."
+        },
+        {
+          "ruby": "道[みち]に迷[まよ]っている人[ひと]を交番[こうばん]まで案内[あんない]してあげた。",
+          "english": "I walked a lost stranger over to the police box."
+        },
+        {
+          "ruby": "見[み]えにくいなら、私[わたし]の席[せき]と替[か]えてあげるよ。",
+          "english": "If you can't see well, I'll swap seats with you."
+        }
+      ]
+    },
+    {
+      "l2_id": "1251",
+      "canonical_surface": "でさえやり",
+      "glosses": [
+        "do … for someone (casually, downward)",
+        "… , just you watch"
+      ],
+      "usage_note": "Same outward benefactive as てあげる but blunt, aimed at children, younger siblings, juniors, animals and plants; directed at anyone else it reads as rude, and in speech it leans male. It has a second life with no beneficiary at all, where the speaker's own volitional form voices defiant resolve — 絶対に勝ってやる, 見返してやる — and that use is what most often separates it from てあげる in real conversation. The polite やります exists but sits oddly with the form's roughness.",
+      "examples": [
+        {
+          "ruby": "落[お]ち込[こ]んでいる後輩[こうはい]に昼飯[ひるめし]をおごってやった。",
+          "english": "I bought lunch for a junior colleague who was down in the dumps."
+        },
+        {
+          "ruby": "今度[こんど]こそ結果[けっか]を出[だ]して見返[みかえ]してやる。",
+          "english": "This time I'll deliver, and I'll show them all."
+        },
+        {
+          "ruby": "猫[ねこ]が鳴[な]くので、窓[まど]を細[ほそ]く開[あ]けてやった。",
+          "english": "The cat kept meowing, so I cracked the window open for him."
+        }
+      ]
+    },
+    {
+      "l2_id": "1261",
+      "canonical_surface": "でばかりさしあげ",
+      "glosses": [
+        "do … for someone (humbly)",
+        "do … for a superior or customer"
+      ],
+      "usage_note": "The humble member of the てやる／てあげる／て差し上げる ladder: the action goes from the speaker's side to a superior, a guest or a customer, and 差し上げる lowers the doer. Business-manner guides warn that it still carries the 'I am doing you a favor' flavor of あげる, so announcing ご案内して差し上げます to the person's face often lands as condescending; it is safest in third-person narration or when instructing staff, with お〜する as the plain humble offer. Reserve it for things the other party actually wants done. Say お荷物をお部屋までお運びします, not 運んで差し上げます, when speaking to the guest.",
+      "examples": [
+        {
+          "ruby": "お客様[きゃくさま]の荷物[にもつ]を部屋[へや]まで運[はこ]んで差[さ]し上[あ]げてください。",
+          "english": "Please carry the guest's luggage up to their room."
+        },
+        {
+          "ruby": "会長[かいちょう]のためにお車[くるま]を手配[てはい]して差[さ]し上[あ]げました。",
+          "english": "I arranged a car for the chairman."
+        },
+        {
+          "ruby": "先生[せんせい]のご都合[つごう]を先方[せんぽう]に伝[つた]えて差[さ]し上[あ]げた。",
+          "english": "I passed the professor's availability along to the other party for him."
+        }
+      ]
+    }
+  ]
+}

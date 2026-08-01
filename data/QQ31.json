@@ -1,0 +1,37 @@
+{
+  "class_code": "Q31",
+  "class_name": "並立-選択肢-カ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "2472",
+      "canonical_surface": "か",
+      "glosses": [
+        "or",
+        "either … or …; whether … or …"
+      ],
+      "usage_note": "Coordinating か lays out genuine alternatives from which one is to be settled on, which is why it fits deciding, choosing, and wondering, while や and とか merely sample a set nobody has to choose from. It attaches to nouns, plain-form verbs, i-adjectives, and た, and the final か may be dropped before a particle (お茶かコーヒーを). When the sentence is about not knowing which, the tail often becomes 〜かわからない / 〜か覚えていない. なり likewise offers options, but only as suggestions the hearer may act on; か frames alternatives whose resolution is at issue.",
+      "examples": [
+        {
+          "ruby": "紅茶[こうちゃ]かコーヒーか、好[す]きな方[ほう]を選[えら]んでください。",
+          "english": "Tea or coffee — take whichever you prefer."
+        },
+        {
+          "ruby": "電車[でんしゃ]で来[く]るか歩[ある]いて来[く]るか、決[き]めておいて。",
+          "english": "Decide in advance whether you're coming by train or on foot."
+        },
+        {
+          "ruby": "彼[かれ]が笑[わら]ったか泣[な]いたか、よく分[わ]からなかった。",
+          "english": "I couldn't tell whether he was laughing or crying."
+        }
+      ]
+    }
+  ]
+}

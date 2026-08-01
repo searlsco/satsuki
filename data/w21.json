@@ -1,0 +1,155 @@
+{
+  "class_code": "w21",
+  "class_name": "感嘆-詠嘆-モノ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0823",
+      "canonical_surface": "もん",
+      "glosses": [
+        "how … it is!",
+        "what a … thing",
+        "… really does …, doesn't it"
+      ],
+      "usage_note": "Exclamatory もの(だ): the speaker lets a feeling well up over something taken as a truth of the world — how fast the years go, how impressive or how outrageous someone is. もん is the casual contraction of もの and is typically spoken rather than written, and よく(も) or なんて often sets it up. Keep it apart from the same-shaped 回顧 〜たものだ ('used to') and from the excuse-making もん ('because'), which attaches straight to a plain-form clause (だって寒いもん) as well as to んだ (知らなかったんだもん) and usually answers a なんで/どうして, spoken or implied.",
+      "examples": [
+        {
+          "ruby": "あれからもう十年[じゅうねん]、月日[つきひ]が経[た]つのは早[はや]いもんだ。",
+          "english": "Ten years already since then — time really does fly, doesn't it."
+        },
+        {
+          "ruby": "よくもあんな大[おお]きな荷物[にもつ]を担[かつ]いで運[はこ]べるもんだ。",
+          "english": "The nerve — how does he even lift a load that size and haul it around?"
+        },
+        {
+          "ruby": "人[ひと]の縁[えん]というのは、思[おも]わぬところでつながるもんだ。",
+          "english": "It's funny how people's paths end up crossing in the least expected places."
+        }
+      ]
+    },
+    {
+      "l2_id": "1592",
+      "canonical_surface": "こった",
+      "glosses": [
+        "what a … thing!",
+        "how … (that is)!"
+      ],
+      "usage_note": "A blunt spoken squeeze of ことだ, at home in gruff 下町-flavored speech and in fiction that evokes it; it delivers a verdict — gratitude, sarcasm, or plain exasperation — rather than a neutral remark. It attaches most naturally to an evaluative i-adjective (ありがたいこった), and equally to な-adjectives and nouns (結構なこった, 面倒なこった). Next to もんだ it sounds rougher and more offhand; next to ことか it passes judgment instead of asking an unanswerable question.",
+      "examples": [
+        {
+          "ruby": "みんな無事[ぶじ]に戻[もど]ってきて、ありがたいこった。",
+          "english": "Everyone made it back in one piece — thank heaven for that."
+        },
+        {
+          "ruby": "五年[ごねん]も音沙汰[おとさた]なしとは、水臭[みずくさ]いこった。",
+          "english": "Not a word out of him in five years — that's cold of him, that is."
+        },
+        {
+          "ruby": "まったく、朝[あさ]から晩[ばん]まで働[はたら]きづめとは、忙[いそが]しいこった。",
+          "english": "Honestly — flat out from dawn to dusk. Busy, busy."
+        }
+      ]
+    },
+    {
+      "l2_id": "2431",
+      "canonical_surface": "ことか",
+      "glosses": [
+        "how … !; how very …",
+        "you have no idea how …"
+      ],
+      "usage_note": "Rhetorical exclamation: paired with どんなに・どれほど・なんと, it says the degree is past measuring, and because the shape is a question no answer is expected. It leans emotional and inward, common in soliloquy and in writing; 〜ことだろう／ことでしょう is a softer, more speculative variant of the same exclamation — often about someone else's feeling — rather than a spoken/written split; ことか itself is at home in speech. Where もんだ marvels at a general truth, ことか measures the speaker's own feeling, and it almost always wants that degree adverb in front of it.",
+      "examples": [
+        {
+          "ruby": "この日[ひ]をどんなに待[ま]ちわびていたことか。",
+          "english": "You have no idea how long I'd been waiting for this day."
+        },
+        {
+          "ruby": "あの一言[ひとこと]がどれほど嬉[うれ]しかったことか。",
+          "english": "You've no idea how happy that one remark made me."
+        },
+        {
+          "ruby": "一人[ひとり]で暮[く]らす娘[むすめ]を、毎晩[まいばん]どんなに案[あん]じていることか。",
+          "english": "Every night I worry about my daughter living on her own — more than words can say."
+        }
+      ]
+    },
+    {
+      "l2_id": "2441",
+      "canonical_surface": "じゃないか",
+      "glosses": [
+        "well, isn't that …!",
+        "hey, look at that — you …!",
+        "why, that's …"
+      ],
+      "usage_note": "Said on a falling tone, じゃないか turns a negative question into an exclamation of surprise or praise: 'well, would you look at that.' The bare か form is blunt and tends to read as masculine; じゃないですか／ではないですか are the polite shapes and じゃない alone is the neutral everyday one. The same string on a rising tone is the separate 'right?' that fishes for agreement, so delivery and context carry the difference. It also points the surprise at the listener's own situation ('look at that, you did it'), where な keeps the feeling inward and ね asks for a nod.",
+      "examples": [
+        {
+          "ruby": "その帽子[ぼうし]、なかなか君[きみ]に似合[にあ]うじゃないか。",
+          "english": "Hey, that hat actually suits you rather well."
+        },
+        {
+          "ruby": "初[はじ]めてなのに、ちゃんと一人[ひとり]で作[つく]れたじゃないか。",
+          "english": "First time trying and you made it all by yourself — nice work!"
+        },
+        {
+          "ruby": "さんざん探[さが]し回[まわ]ったのに、鍵[かぎ]はここにあるじゃないか。",
+          "english": "After all that hunting around — the key was right here!"
+        }
+      ]
+    },
+    {
+      "l2_id": "3151",
+      "canonical_surface": "な",
+      "glosses": [
+        "how …!; … indeed",
+        "…, isn't it (musing to oneself)"
+      ],
+      "usage_note": "The all-purpose 詠嘆 な: a feeling voiced half to oneself — admiration, resignation, wistfulness — and often drawn out as なあ. It is more inward than ね, which hands the thought to a listener, and gentler than よ, which presses information on one. After a dictionary-form verb the same syllable is also the prohibitive な (行くな 'don't go'), but that one is clipped and sharply falling while the exclamatory な tends to lengthen.",
+      "examples": [
+        {
+          "ruby": "三年[さんねん]ぶりに来[き]たけど、ここの海[うみ]はきれいだな。",
+          "english": "First time back in three years — the sea here really is beautiful."
+        },
+        {
+          "ruby": "今夜[こんや]中[じゅう]に片[かた]づけるには、この量[りょう]はさすがに多[おお]いな。",
+          "english": "If I'm supposed to clear this by tonight, this really is too much."
+        },
+        {
+          "ruby": "ずいぶん久[ひさ]しぶりに、いい写真[しゃしん]が撮[と]れたな。",
+          "english": "It's been ages since I got a shot this good."
+        }
+      ]
+    },
+    {
+      "l2_id": "3171",
+      "canonical_surface": "わ",
+      "glosses": [
+        "…, I must say",
+        "my, …!",
+        "… indeed"
+      ],
+      "usage_note": "Sentence-final わ tints a statement with the speaker's felt reaction — mild surprise, dismay, or quiet resolve — arrived at through their own experience. Two rather different voices share the shape: rising わ is the stereotyped feminine, お嬢様-flavored register of Tokyo speech, while falling わ is everyday Kansai speech used by men and women alike; the rising-わ voice now reads as fiction-flavored rather than everyday Tokyo speech. Unlike ね it asks for no agreement, and unlike よ it presses nothing on the listener; next to な, わ registers the speaker's felt reaction while な voices the musing itself.",
+      "examples": [
+        {
+          "ruby": "うっかりして、財布[さいふ]を家[いえ]に置[お]いてきたわ。",
+          "english": "Oh no — I've gone and left my wallet at home."
+        },
+        {
+          "ruby": "まあ、庭[にわ]のばらがこんなに見事[みごと]だわ。",
+          "english": "My, the roses in the garden are absolutely splendid."
+        },
+        {
+          "ruby": "今日[きょう]の相手[あいて]は、思[おも]ったより手強[てごわ]いわ。",
+          "english": "Today's opponent is tougher than I bargained for, I must say."
+        }
+      ]
+    }
+  ]
+}

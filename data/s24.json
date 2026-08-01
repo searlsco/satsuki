@@ -1,0 +1,62 @@
+{
+  "class_code": "s24",
+  "class_name": "理由-因果-コトダシ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0751",
+      "canonical_surface": "し",
+      "glosses": [
+        "and besides",
+        "what's more",
+        "since (for one thing)"
+      ],
+      "usage_note": "Joins plain forms (dictionary form, い-adjective, た, or だ) and lists grounds rather than exhausting them: even a single 〜し implies other reasons left unsaid, which is why it softens a refusal or a decision. Where ことだし holds up a single settled fact, し stacks grounds and can be repeated (〜し、〜し); only し freely appears more than once in a sentence. The subject particle typically shifts to も (雨も降るし), and the clause is often left dangling before an unspoken conclusion. Register-neutral: it attaches to polite forms too (降りますし, 早いですし).",
+      "examples": [
+        {
+          "ruby": "今日[きょう]は疲[つか]れたし、駅[えき]まで歩[ある]くのはやめよう。",
+          "english": "I'm worn out today, so let's skip walking all the way to the station."
+        },
+        {
+          "ruby": "値段[ねだん]も安[やす]いし、駅[えき]から近[ちか]いし、この店[みせ]にしよう。",
+          "english": "It's cheap, and it's close to the station, so let's go with this place."
+        },
+        {
+          "ruby": "弟[おとうと]も来[く]るし、鍋[なべ]でも囲[かこ]まないか。",
+          "english": "My brother's coming over too, so how about we do a hot pot?"
+        }
+      ]
+    },
+    {
+      "l2_id": "2641",
+      "canonical_surface": "ことだし",
+      "glosses": [
+        "seeing as",
+        "since; given that",
+        "now that … (among other things)"
+      ],
+      "usage_note": "Formed from the nominalizer こと plus だ and the reason-listing し, and it is the more deliberate, explanatory cousin of bare し: it holds up one already-settled fact that both speakers know as the trigger for the decision, invitation, or suggestion that follows, rather than piling up reasons. Colloquial and typically forward-looking, so the second clause usually ends in 〜よう, 〜ませんか, or 〜たらどう; the polite variant is ことですし. Unlike し, ことだし is not repeated and does not stack: one fact, one decision. Nouns take の before it (日曜日のことだし、ゆっくりしよう), which 日本語NET lists as a standard attachment.",
+      "examples": [
+        {
+          "ruby": "試験[しけん]も終[お]わったことだし、久[ひさ]しぶりに飲[の]みに行[い]こう。",
+          "english": "Now that exams are over, let's go out for drinks for the first time in ages."
+        },
+        {
+          "ruby": "子[こ]どもも寝[ね]ていることだし、静[しず]かに話[はな]そう。",
+          "english": "The kids are asleep, so let's keep our voices down."
+        },
+        {
+          "ruby": "まだ時間[じかん]も早[はや]いことだし、もう一軒[いっけん]寄[よ]っていこう。",
+          "english": "It's still early, so let's stop off at one more place."
+        }
+      ]
+    }
+  ]
+}

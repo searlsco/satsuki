@@ -1,0 +1,131 @@
+{
+  "class_code": "n12",
+  "class_name": "添加-非限定-ダケデナク類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1132",
+      "canonical_surface": "どころか",
+      "glosses": [
+        "not only … but even",
+        "far from merely …, actually",
+        "much less (English order reversed)"
+      ],
+      "usage_note": "Adds a second item while overturning the scale of the first: the speaker signals that the stated item badly understates (or misstates) reality, so the follow-up is typically marked with も or まで. Unlike the flat addition of だけじゃなく or うえに, どころか carries an evaluative jolt, and it works in both directions (upward praise or downward 'let alone'), which is why the second clause often ends up far more extreme than the first. When the second clause is negative or contrary rather than merely bigger, どころか flatly denies the first item ('成功するどころか失敗ばかりだ' = far from succeeding) — the additive reading above requires the follow-up to outrank, not contradict, the first item. In practice it attaches to nouns and plain non-past forms; 〜たどころか is vanishingly rare.",
+      "examples": [
+        {
+          "ruby": "彼[かれ]はバイクどころか車[くるま]まで持[も]っている。",
+          "english": "He doesn't just have a motorbike, he's even got a car."
+        },
+        {
+          "ruby": "その計画[けいかく]は難[むずか]しいどころか実現[じつげん]は不可能[ふかのう]に近[ちか]い。",
+          "english": "Calling that plan difficult is generous, pulling it off is next to impossible."
+        },
+        {
+          "ruby": "弟[おとうと]は泳[およ]げるどころか大会[たいかい]で優勝[ゆうしょう]するほどだ。",
+          "english": "My brother can do more than just swim, he's good enough to win tournaments."
+        }
+      ]
+    },
+    {
+      "l2_id": "1181",
+      "canonical_surface": "うえの",
+      "glosses": [
+        "on top of that",
+        "in addition to",
+        "not only … but also"
+      ],
+      "usage_note": "Piles a second property onto the first, and the two almost always point the same direction (two good points or two bad ones) and describe the same subject; mixing praise with complaint sounds off. Written 上に or うえに mid-sentence, it is the neutral 'and what's more' of the group, milder than the surprise of ばかりか and less colloquial than だけじゃなく. It takes plain non-past and past forms alike, so 〜た上に is the normal way to stack up a run of misfortunes.",
+      "examples": [
+        {
+          "ruby": "この宿[やど]は温泉[おんせん]がある上[うえ]に朝食[ちょうしょく]も豪華[ごうか]だ。",
+          "english": "This inn has a hot spring, and the breakfast is lavish on top of that."
+        },
+        {
+          "ruby": "あの店[みせ]は料理[りょうり]が出[で]てくるのが遅[おそ]い上[うえ]に値段[ねだん]も高[たか]い。",
+          "english": "At that place the food is slow to come out, and it's expensive on top of it."
+        },
+        {
+          "ruby": "彼[かれ]はよく気[き]がつく上[うえ]に仕事[しごと]も早[はや]い。",
+          "english": "He's attentive, and quick at his work besides."
+        }
+      ]
+    },
+    {
+      "l2_id": "1191",
+      "canonical_surface": "ばかりか",
+      "glosses": [
+        "not only … but even",
+        "not merely … but also"
+      ],
+      "usage_note": "Adds a second item the listener would not have expected, so it usually pairs with も or まで in the following clause and carries a faint 'and on top of all that' astonishment. It leans more written and emphatic than だけじゃなく, but is less stiff than のみならず; unlike どころか it does not overturn the first item, it simply outdoes it. Nouns, plain non-past forms, and past 〜た all attach.",
+      "examples": [
+        {
+          "ruby": "この薬[くすり]は眠気[ねむけ]を誘[さそ]うばかりか食欲[しょくよく]まで奪[うば]う。",
+          "english": "This medicine doesn't just make you drowsy, it robs you of your appetite as well."
+        },
+        {
+          "ruby": "あの人[ひと]は英語[えいご]ばかりかロシア語[ご]も話[はな]せる。",
+          "english": "That person speaks not only English but Russian as well."
+        },
+        {
+          "ruby": "兄[あに]は料理[りょうり]ができるばかりか包丁[ほうちょう]まで自分[じぶん]で研[と]ぐ。",
+          "english": "My brother can cook, and what's more he sharpens his own knives."
+        }
+      ]
+    },
+    {
+      "l2_id": "2771",
+      "canonical_surface": "だけじゃなく",
+      "glosses": [
+        "not just … but also",
+        "not only … but"
+      ],
+      "usage_note": "The everyday workhorse for plain addition, with none of the surprise of ばかりか or the evaluative jolt of どころか; だけじゃなく is the contracted spoken shape, while だけではなく and だけでなく are the fuller forms you write. It attaches to nouns and plain forms, and the second clause normally carries も/まで (or another additive marker such as 〜でも). When the sentence needs to sound formal, swap in のみならず.",
+      "examples": [
+        {
+          "ruby": "今日[きょう]は雨[あめ]だけじゃなく風[かぜ]もすごく強[つよ]いよ。",
+          "english": "It's not just raining today, the wind is really howling too."
+        },
+        {
+          "ruby": "あの先生[せんせい]は教[おし]えるだけじゃなく相談[そうだん]にも乗[の]ってくれる。",
+          "english": "That teacher doesn't just teach, he'll hear you out about your problems too."
+        },
+        {
+          "ruby": "この靴[くつ]は軽[かる]いだけじゃなく雨[あめ]の日[ひ]でも滑[すべ]らない。",
+          "english": "These shoes aren't just light, they also grip on wet days."
+        }
+      ]
+    },
+    {
+      "l2_id": "2781",
+      "canonical_surface": "のみならず",
+      "glosses": [
+        "not only … but also",
+        "and moreover"
+      ],
+      "usage_note": "The formal written counterpart of だけじゃなく, built from limiting のみ plus the classical negative ならず, and at home in reports, editorials, and speeches rather than conversation. It can also open a fresh sentence ('のみならず、…') to tack an additional point onto what was just said, something だけじゃなく does not do comfortably. Against ばかりか the split is one of stance: ばかりか flags counter-expectation in writing that still sounds close to speech, while のみならず is neutral formal enumeration in institutional prose. Nouns, plain non-past forms, and past 〜た attach; the following clause typically carries も or まで.",
+      "examples": [
+        {
+          "ruby": "当社[とうしゃ]は国内[こくない]のみならず海外[かいがい]でも事業[じぎょう]を広[ひろ]げている。",
+          "english": "The company is expanding its operations not only at home but abroad as well."
+        },
+        {
+          "ruby": "新[あら]たな制度[せいど]は学生[がくせい]を支[ささ]えるのみならず地域[ちいき]も潤[うるお]す。",
+          "english": "The new system not only supports students but enriches the surrounding community."
+        },
+        {
+          "ruby": "その報告[ほうこく]は事実[じじつ]を誤認[ごにん]していたのみならず出典[しゅってん]も欠[か]いていた。",
+          "english": "The report not only got the facts wrong, it cited no sources either."
+        }
+      ]
+    }
+  ]
+}

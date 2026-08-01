@@ -1,0 +1,37 @@
+{
+  "class_code": "L21",
+  "class_name": "放置-事前-ナイデオク類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1481",
+      "canonical_surface": "ないでさえおき",
+      "glosses": [
+        "leave … undone (on purpose)",
+        "refrain from doing … for now"
+      ],
+      "usage_note": "The negative counterpart of 〜ておく: a deliberate decision to leave something as it is, usually with a reason or a later moment in view. Because the choice is volitional it sits naturally with 〜よう and 〜つもり (触れないでおこう), which is what separates it from ないでいる (1471), where the non-action is merely described rather than decided. ずに variants (触れずにおく) are the written, stiffer option.",
+      "examples": [
+        {
+          "ruby": "明日[あした]使[つか]うので、箱[はこ]は開[あ]けないでおく。",
+          "english": "I need it tomorrow, so I'm leaving the box unopened."
+        },
+        {
+          "ruby": "まだ早[はや]いから、母[はは]を起[お]こさないでおきましょう。",
+          "english": "It's still early, so let's leave Mom asleep."
+        },
+        {
+          "ruby": "気[き]まずくなるので、その話[はなし]には触[ふ]れずにおいた。",
+          "english": "It would only get awkward, so I left the subject untouched."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "class_code": "a32",
+  "class_name": "立場-根拠-ニヨッテ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0142",
+      "canonical_surface": "によっての",
+      "glosses": [
+        "in accordance with",
+        "on the basis of",
+        "depending on"
+      ],
+      "usage_note": "Points to the basis a result rests on: a rule or decision it conforms to (規則によって), the means or investigation that produced it (調査によって), or a variable the outcome tracks (人によって違う). Keep it apart from によると, which outside the fixed frames 場合によると／ことによると (\"depending on the case\", \"possibly\") reports information rather than stating grounds; によって states the grounds themselves. により is the stiffer written form favored in notices and legal prose, によっての the adnominal one (though the plain による is far more usual: 時期による違い), and によりまして the polite spoken one; the same によって also marks the agent in passive sentences.",
+      "examples": [
+        {
+          "ruby": "規則[きそく]によって、駐車場[ちゅうしゃじょう]の利用[りよう]は禁[きん]じられている。",
+          "english": "Under the rules, use of the parking lot is prohibited."
+        },
+        {
+          "ruby": "人[ひと]によって、辛[から]さの感[かん]じ方[かた]はずいぶん違[ちが]う。",
+          "english": "How strongly you taste the heat varies a lot from person to person."
+        },
+        {
+          "ruby": "調査[ちょうさ]の結果[けっか]により、原因[げんいん]が明[あき]らかになった。",
+          "english": "The findings of the investigation brought the cause to light."
+        }
+      ]
+    }
+  ]
+}

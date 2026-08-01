@@ -1,0 +1,61 @@
+{
+  "class_code": "v11",
+  "class_name": "付帯-続行-ママデ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1161",
+      "canonical_surface": "まんまでの",
+      "glosses": [
+        "as it is; still (in that state)",
+        "leaving it unchanged",
+        "without changing"
+      ],
+      "usage_note": "Freezes a state: whatever the preceding た-form, noun + の, or い-adjective describes stays in force while the main clause happens, often with a hint that it should not have. Hence 靴を履いたまま, 昔のまま, 冷たいまま. まんま is the casual spoken variant; the stiff, literary near-synonym たなり / だなり says much the same thing but is far rarer and confined to writing.",
+      "examples": [
+        {
+          "ruby": "靴[くつ]を履[は]いたまんま部屋[へや]に上[あ]がっちゃだめだよ。",
+          "english": "You can't come up into the room with your shoes still on."
+        },
+        {
+          "ruby": "祖母[そぼ]の家[いえ]の台所[だいどころ]は、昔[むかし]のまんまだった。",
+          "english": "The kitchen in my grandmother's house was exactly as it had always been."
+        },
+        {
+          "ruby": "このスープ、冷[つめ]たいまんまでも十分[じゅうぶん]おいしいよ。",
+          "english": "This soup tastes plenty good even cold."
+        }
+      ]
+    },
+    {
+      "l2_id": "1171",
+      "canonical_surface": "だなりでの",
+      "glosses": [
+        "and left it that way",
+        "and stayed that way ever since"
+      ],
+      "usage_note": "A stiff, literary equivalent of 〜たまま: someone does something once and the resulting state simply persists, usually with the implication that the expected follow-up never came. Unlike まま it attaches to a past verb only. It attaches where た attaches, so nasal and ガ-row godan verbs voice it to だなり (脱いだなり, 読んだなり). It belongs to written narration; in speech people say まま. Keep it apart from the 〜なり that follows a dictionary form and means \"the instant that\".",
+      "examples": [
+        {
+          "ruby": "老人[ろうじん]は窓辺[まどべ]に座[すわ]ったなり、一言[ひとこと]も口[くち]をきかなかった。",
+          "english": "The old man sat down by the window and did not speak a single word after that."
+        },
+        {
+          "ruby": "客[きゃく]は帽子[ぼうし]を脱[ぬ]いだなり、玄関[げんかん]に立[た]ち尽[つ]くしていた。",
+          "english": "The visitor took off his hat and then just stood there in the entryway."
+        },
+        {
+          "ruby": "祖父[そふ]は一礼[いちれい]したなり、二度[にど]と振[ふ]り返[かえ]らなかった。",
+          "english": "My grandfather gave a single bow and never looked back again."
+        }
+      ]
+    }
+  ]
+}

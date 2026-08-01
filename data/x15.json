@@ -1,0 +1,38 @@
+{
+  "class_code": "x15",
+  "class_name": "疑問-問いかけ-モノカ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "2542",
+      "canonical_surface": "もんか",
+      "glosses": [
+        "as if …!",
+        "hardly; certainly not",
+        "like hell …"
+      ],
+      "usage_note": "A question in form only: もんか throws the proposition back in rejection, so 痛いもんか means it does not hurt in the slightest, and 負けるもんか means I refuse to lose. It is the colloquial contraction of ものか and sounds rough and emphatic, so it stays out of formal settings and away from superiors; the ものですか / もんですか forms are the politer variants and are more associated with female speakers. With a verb it commonly declares the speaker's own refusal (二度と行くもんか).",
+      "examples": [
+        {
+          "ruby": "このくらいのかすり傷[きず]が痛[いた]いもんか。",
+          "english": "A scratch this size? It doesn't hurt one bit."
+        },
+        {
+          "ruby": "あんな店[みせ]の料理[りょうり]がうまいもんか。",
+          "english": "As if the food at a place like that could be any good."
+        },
+        {
+          "ruby": "今[いま]さら謝[あやま]られたって、嬉[うれ]しいもんか。",
+          "english": "An apology at this point? As if that would make me happy."
+        }
+      ]
+    }
+  ]
+}

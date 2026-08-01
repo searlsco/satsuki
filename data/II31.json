@@ -1,0 +1,38 @@
+{
+  "class_code": "I31",
+  "class_name": "推量-反実-トコロ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0482",
+      "canonical_surface": "とこ",
+      "glosses": [
+        "was about to …",
+        "nearly …",
+        "came close to …"
+      ],
+      "usage_note": "Counterfactual ところ: the event was on the verge of happening but in the end did not, so it is typically set up by 危[あぶ]なく, もう少しで or あやうく. This near-miss reading needs the dictionary form in front (するところ); after the past tense (〜たところ) the same noun instead means 'had just done it'. Past ところだった／ところであった reports the averted event, while present ところだ describes something still teetering on the brink; とこ is the clipped conversational shape.",
+      "examples": [
+        {
+          "ruby": "もう少[すこ]しで電車[でんしゃ]に乗[の]り遅[おく]れるとこだ。",
+          "english": "I came within a hair of missing my train."
+        },
+        {
+          "ruby": "あぶない、コップを落[お]とすとこだ。",
+          "english": "Careful, you're about to drop that glass."
+        },
+        {
+          "ruby": "一歩[いっぽ]間違[まちが]えば大[おお]けがをするところだ。",
+          "english": "One wrong step and you'd be badly hurt."
+        }
+      ]
+    }
+  ]
+}

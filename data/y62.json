@@ -1,0 +1,60 @@
+{
+  "class_code": "y62",
+  "class_name": "否定-不可能-コトモナラナイ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1791",
+      "canonical_surface": "ことしかならない",
+      "glosses": [
+        "cannot even …",
+        "is not so much as able to …"
+      ],
+      "usage_note": "A literary negation inherited from classical Japanese: こと nominalizes the verb and 成る carries its older sense \"be feasible\", so 〜こともならない says \"it is not even feasible to …\". The particle slot (も／さえ／すら) supplies the \"not even\" scaling. It is essentially obsolete in contemporary Japanese, where こともできない and ことすらできない have taken over, and now appears mainly in period narration and in quoted older speech.",
+      "examples": [
+        {
+          "ruby": "高熱[こうねつ]が続[つづ]き、床[とこ]から起[お]き上[あ]がることもならなかった。",
+          "english": "The fever would not break, and he could not so much as raise himself from his bed."
+        },
+        {
+          "ruby": "雪[ゆき]に閉[と]ざされ、村[むら]を出[で]ることもならず、冬[ふゆ]が過[す]ぎた。",
+          "english": "Shut in by the snow, unable even to leave the village, they watched the winter pass."
+        },
+        {
+          "ruby": "監視[かんし]の目[め]が厳[きび]しく、日中[にっちゅう]は外出[がいしゅつ]することもならない。",
+          "english": "The watch over him is so close that he cannot even go out by day."
+        }
+      ]
+    },
+    {
+      "l2_id": "1801",
+      "canonical_surface": "べくはない",
+      "glosses": [
+        "there is no way one could …",
+        "cannot possibly …"
+      ],
+      "usage_note": "べく is the 連用形 of the classical auxiliary べし, so 〜べくもない says there are not even the grounds on which one might do the thing: the impossibility is objective and complete, not a question of permission as with わけにはいかない. In practice べくもない is far the commonest realization — べくはない itself is vanishingly rare in modern text — and it collocates with verbs of knowing, doubting, comparing and hoping (知るべくもない, 疑うべくもない, 比べるべくもない, 望むべくもない, 敵うべくもない). With する, classical すべくもない stands beside the modern するべくもない.",
+      "examples": [
+        {
+          "ruby": "素人[しろうと]の腕前[うでまえ]では、名人[めいじん]と比[くら]べるべくもない。",
+          "english": "An amateur's skill simply doesn't bear comparison with a master's."
+        },
+        {
+          "ruby": "当時[とうじ]の彼[かれ]には、この結末[けつまつ]を知[し]るべくもなかった。",
+          "english": "The man he was then had no way whatever of knowing how it would end."
+        },
+        {
+          "ruby": "これだけ証拠[しょうこ]がそろっては、もはや疑[うたが]うべくもない。",
+          "english": "With this much evidence assembled, there is no longer any room for doubt."
+        }
+      ]
+    }
+  ]
+}

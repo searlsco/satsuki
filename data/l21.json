@@ -1,0 +1,61 @@
+{
+  "class_code": "l21",
+  "class_name": "強調-全面的-トシテ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0032",
+      "canonical_surface": "として",
+      "glosses": [
+        "not a single …",
+        "not one …"
+      ],
+      "usage_note": "This emphatic として rides on a minimal-unit phrase — 一つ, 一人, 一度, 一日, 一点 — and is answered later in the sentence by a negative predicate; it is the stronger, stiffer relative of 一つも〜ない and belongs to careful written or formal spoken Japanese. With an interrogative in front (誰一人として, 何一つとして) the として may simply be dropped without changing the meaning, only the force. Keep it apart from the role-marking として of 医者として and from the concessive にしても, which needs neither a counter nor a negative.",
+      "examples": [
+        {
+          "ruby": "その場[ば]にいた誰[だれ]一人[ひとり]として、口[くち]を開[ひら]かなかった。",
+          "english": "Not a single person there opened their mouth."
+        },
+        {
+          "ruby": "出品[しゅっぴん]された絵[え]は、一点[いってん]として売[う]れなかった。",
+          "english": "Not a single one of the paintings entered sold."
+        },
+        {
+          "ruby": "十年間[じゅうねんかん]、彼[かれ]は一日[いちにち]として練習[れんしゅう]を休[やす]まなかった。",
+          "english": "In ten years he never missed even one day of practice."
+        }
+      ]
+    },
+    {
+      "l2_id": "0893",
+      "canonical_surface": "にしたって",
+      "glosses": [
+        "even …",
+        "… is no different",
+        "no matter …"
+      ],
+      "usage_note": "The colloquial contraction of にしても (the same 〜ても → 〜たって shift as 行っても → 行ったって), and a near-neighbour of the heavier にしたところで: it concedes that the noun in front is no exception to whatever is being said (僕にしたって = \"even I\"), and with an interrogative (誰にしたって, どこにしたって) it generalizes over every case. The realizations line up by register — にしたって in relaxed speech, にしても as the neutral default, にしましても in polite address — so a written report would normally take にしても. Unlike the total-negation として it needs no counter word and pairs freely with affirmative predicates.",
+      "examples": [
+        {
+          "ruby": "僕[ぼく]にしたって、好[す]きでやっているわけじゃない。",
+          "english": "It's not as if I'm doing this because I enjoy it, you know."
+        },
+        {
+          "ruby": "誰[だれ]にしたって、あんな言[い]い方[かた]をされたら腹[はら]が立[た]つ。",
+          "english": "Anyone would be furious if they were spoken to like that."
+        },
+        {
+          "ruby": "値段[ねだん]にしたって、去年[きょねん]より千円[せんえん]も上[あ]がっている。",
+          "english": "The price, too, is a good thousand yen higher than last year."
+        }
+      ]
+    }
+  ]
+}

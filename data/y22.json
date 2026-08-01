@@ -1,0 +1,62 @@
+{
+  "class_code": "y22",
+  "class_name": "否定-無意味-テモシカタガナイ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "2331",
+      "canonical_surface": "でもしかたない",
+      "glosses": [
+        "there's no use …ing",
+        "no point in …ing",
+        "even if …, it can't be helped"
+      ],
+      "usage_note": "Concessive 〜ても plus 仕方ない: doing or feeling this changes nothing, so let it go. It is the level-headed member of the family — 仕方ない stays respectable in writing, while its sibling しょうがない is markedly casual — and the たって／だって variants shift it toward speech. Do not confuse it with 〜てしかたがない (no も), which means 'unbearably'.",
+      "examples": [
+        {
+          "ruby": "終[お]わったことをいつまでも悔[く]やんでも仕方[しかた]ない。",
+          "english": "There's no use going on regretting what's already done."
+        },
+        {
+          "ruby": "電車[でんしゃ]の遅[おく]れに腹[はら]を立[た]てても仕方[しかた]がない。",
+          "english": "Getting angry at a delayed train gets you nowhere."
+        },
+        {
+          "ruby": "今[いま]から慌[あわ]てて準備[じゅんび]しても仕方[しかた]ないよ。",
+          "english": "Scrambling to get ready at this point isn't going to help."
+        }
+      ]
+    },
+    {
+      "l2_id": "2341",
+      "canonical_surface": "だってしようがない",
+      "glosses": [
+        "no use …ing",
+        "…ing gets you nowhere",
+        "nothing to be done even if …"
+      ],
+      "usage_note": "The same verdict as でもしかたない — the action changes nothing — but built on 仕様がない, and the たって／だって shape is more casual still than ても／でも. 仕様がない contracts to しょうがない; the difference from 仕方ない is register, not meaning — しょうがない is the spoken form and, like 仕方ない, also stands alone as a resigned 'oh well'. The separate 〜てしょうがない, without も, means 'unbearably' and is a different pattern.",
+      "examples": [
+        {
+          "ruby": "そんなに急[せ]かしたってしょうがないよ。",
+          "english": "Rushing me like that isn't going to speed anything up."
+        },
+        {
+          "ruby": "悩[なや]みを一人[ひとり]で抱[かか]え込[こ]んだってしょうがない。",
+          "english": "Bottling your worries up on your own gets you nowhere."
+        },
+        {
+          "ruby": "上司[じょうし]に文句[もんく]を言[い]ったってしようがない。",
+          "english": "There's no use griping to the boss about it."
+        }
+      ]
+    }
+  ]
+}

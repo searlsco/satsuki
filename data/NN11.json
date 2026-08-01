@@ -1,0 +1,62 @@
+{
+  "class_code": "N11",
+  "class_name": "目的-般-タメニ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0732",
+      "canonical_surface": "ための",
+      "glosses": [
+        "in order to …",
+        "for the purpose of …",
+        "for …ing"
+      ],
+      "usage_note": "The general-purpose goal marker: on the dictionary form it states the aim that the main clause action serves, so the main predicate is normally a deliberate, controllable action (勉強する, 貯める, 買う). ために modifies a verb; ための modifies a following noun (合格するための勉強). When the main predicate is instead an evaluation, a cost, or a requirement (便利だ, 必要だ, 時間がかかる), のに is the natural choice rather than ために. A different ため means \"because\"; the diagnostic that actually separates the two is form, not volition: causal ため follows a past or stative clause or a noun + の (病気のため, 彼が辞めたため), while the purpose reading requires a non-past volitional verb.",
+      "examples": [
+        {
+          "ruby": "留学[りゅうがく]するために毎朝[まいあさ]英語[えいご]を勉強[べんきょう]している。",
+          "english": "I study English every morning so that I can go study abroad."
+        },
+        {
+          "ruby": "試合[しあい]に勝[か]つための練習[れんしゅう]を一年[いちねん]続[つづ]けた。",
+          "english": "We kept up a year of training aimed at winning the match."
+        },
+        {
+          "ruby": "早[はや]く起[お]きるための工夫[くふう]をいろいろ試[ため]した。",
+          "english": "I tried all sorts of tricks for getting up early."
+        }
+      ]
+    },
+    {
+      "l2_id": "0861",
+      "canonical_surface": "んに",
+      "glosses": [
+        "for …ing",
+        "when it comes to …ing",
+        "in …ing"
+      ],
+      "usage_note": "Also on the dictionary form, but the frame is different from ために: のに introduces the use an object or route is being judged for, so the main clause is typically an evaluation, a requirement, or a cost (便利だ, ちょうどいい, 必要だ, 時間がかかる, 金がかかる). んに is the contraction of のに and appears in relaxed and regional speech. Keep it apart from the concessive のに (\"even though\"), which follows the plain form of any predicate and takes な after na-adjectives and nouns (静[しず]かなのに, 学生[がくせい]なのに) and takes a clause on both sides.",
+      "examples": [
+        {
+          "ruby": "このアプリは乗[の]り換[か]えを調[しら]べるのに便利[べんり]だ。",
+          "english": "This app is handy for looking up transfers."
+        },
+        {
+          "ruby": "ここから駅[えき]まで歩[ある]くのに二十分[にじゅっぷん]かかる。",
+          "english": "It takes twenty minutes to walk from here to the station."
+        },
+        {
+          "ruby": "書類[しょるい]を郵送[ゆうそう]するのに封筒[ふうとう]が要[い]る。",
+          "english": "You need an envelope to mail the documents."
+        }
+      ]
+    }
+  ]
+}

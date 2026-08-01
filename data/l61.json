@@ -1,0 +1,37 @@
+{
+  "class_code": "l61",
+  "class_name": "強調-比喩-トバカリニ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "2681",
+      "canonical_surface": "とばかりに",
+      "glosses": [
+        "as if to say …",
+        "with an air of (saying) …"
+      ],
+      "usage_note": "Quotative と plus ばかり: the quoted words are usually not actually spoken, they are what the person's manner broadcasts, though a real shout or interjection can occupy the same slot. That makes it a description of behavior watched from the outside, at home in narration and vivid description rather than casual chat. 〜んばかり is close kin: with 言う it produces 言わんばかり, all but interchangeable with とばかりに. The difference is that んばかり attaches to a verb stem and says the action itself was on the brink, so it also covers non-speech verbs (泣かんばかり, 割れんばかり) where とばかりに cannot go. It very often follows imperatives and sentence-final particles (早く帰れとばかりに, ここぞとばかりに, これでもかとばかりに).",
+      "examples": [
+        {
+          "ruby": "待[ま]ってましたとばかりに、子供[こども]たちが庭[にわ]に飛[と]び出[だ]した。",
+          "english": "The kids burst out into the yard as if they'd been waiting for the word."
+        },
+        {
+          "ruby": "邪魔[じゃま]だとばかりに、彼[かれ]は書類[しょるい]を机[つくえ]の端[はし]に寄[よ]せた。",
+          "english": "He shoved the papers to the edge of the desk as if they were in his way."
+        },
+        {
+          "ruby": "まぶしいとばかりに、彼女[かのじょ]は目[め]を細[ほそ]めた。",
+          "english": "She narrowed her eyes as if the light were too much for her."
+        }
+      ]
+    }
+  ]
+}

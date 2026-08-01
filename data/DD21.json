@@ -1,0 +1,108 @@
+{
+  "class_code": "D21",
+  "class_name": "判断-不可避-ザルヲエナイ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "2281",
+      "canonical_surface": "よりほかにはしかたない",
+      "glosses": [
+        "there is no choice but to …",
+        "there's nothing for it but to …"
+      ],
+      "usage_note": "The most explicit member of this family: 「〜より」 rules out every alternative and 「仕方がない」 states that no method remains, so it suits resigned, slightly formal statements about a situation the speaker cannot control. It is wordier and heavier than the plain よりほかはない and much heavier than しかない, so it is typically reserved for writing or deliberate speech. In this frame the antecedent is a dictionary-form verb; noun antecedents appear in the related Nよりほかに〜はない. The が in 仕方がない is optional (よりほかに仕方ない) and 外・他 are common kanji spellings.",
+      "examples": [
+        {
+          "ruby": "今[いま]は結果[けっか]を待[ま]つよりほかに仕方[しかた]がない。",
+          "english": "For now there's nothing for it but to wait for the results."
+        },
+        {
+          "ruby": "部品[ぶひん]が届[とど]かないので、工事[こうじ]を延期[えんき]するよりほかには仕方[しかた]がない。",
+          "english": "The parts haven't arrived, so we have no choice but to push the construction back."
+        },
+        {
+          "ruby": "この案[あん]は諦[あきら]めるよりほかに仕方[しかた]がない。",
+          "english": "There's simply no option left but to give this plan up."
+        }
+      ]
+    },
+    {
+      "l2_id": "2291",
+      "canonical_surface": "よりほかはない",
+      "glosses": [
+        "there is nothing to do but …",
+        "no alternative but to …"
+      ],
+      "usage_note": "Same resignation as よりほかに仕方がない but leaner: it asserts only that no other option exists, without the extra 「仕方がない」 claim that no method remains, and it reads as stiffer and more written than しかない. Unlike ざるを得ない, which foregrounds the speaker's reluctance under outside pressure, よりほかはない simply reports that the alternatives have run out. It attaches to a dictionary-form verb, and the は may drop (よりほかない).",
+      "examples": [
+        {
+          "ruby": "この天気[てんき]では出発[しゅっぱつ]を見合[みあ]わせるよりほかはない。",
+          "english": "In this weather there's nothing to do but hold off on setting out."
+        },
+        {
+          "ruby": "終電[しゅうでん]を逃[のが]したなら、歩[ある]いて帰[かえ]るよりほかはない。",
+          "english": "If you've missed the last train, there's no alternative but to walk home."
+        },
+        {
+          "ruby": "本人[ほんにん]が黙[だま]っているなら、こちらで推測[すいそく]するよりほかはない。",
+          "english": "If the person himself won't talk, we have no choice but to guess."
+        }
+      ]
+    },
+    {
+      "l2_id": "2301",
+      "canonical_surface": "ざるもえない",
+      "glosses": [
+        "cannot help but …",
+        "be forced to …",
+        "have no choice but to …"
+      ],
+      "usage_note": "Classical in origin (ざる is the attributive of the negative ず, and 得ない means \"cannot obtain\"), so it is stiff and belongs to writing, news and formal speech; the modern spoken equivalent is 〜しかない. Its distinctive nuance is reluctance under outside pressure: the speaker would rather not, but circumstances or evidence leave no room. It attaches to the irrealis stem (the ない-form minus ない), and する is irregular, giving せざるを得ない, while 来る gives 来[こ]ざるを得ない; the も variant (ざるも得ない) is essentially unattested in modern writing, so use を.",
+      "examples": [
+        {
+          "ruby": "実績[じっせき]を見[み]れば、彼[かれ]の実力[じつりょく]は認[みと]めざるを得[え]ない。",
+          "english": "Looking at his track record, you can't help but acknowledge how good he is."
+        },
+        {
+          "ruby": "上司[じょうし]に強[つよ]く言[い]われては、従[したが]わざるを得[え]ない。",
+          "english": "When the boss presses that hard, you have little choice but to go along with it."
+        },
+        {
+          "ruby": "新[あたら]しい事実[じじつ]が出[で]てきて、結論[けつろん]を修正[しゅうせい]せざるを得[え]ない。",
+          "english": "New facts have come to light, so we are forced to revise our conclusion."
+        }
+      ]
+    },
+    {
+      "l2_id": "3221",
+      "canonical_surface": "っきゃない",
+      "glosses": [
+        "all one can do is …",
+        "nothing for it but to …",
+        "just have to …"
+      ],
+      "usage_note": "っきゃない is the casual spoken contraction of しかない (やるっきゃない), at home in dialogue, lyrics and self-exhortation, and too rough for writing or polite speech. It follows a dictionary-form verb and, colloquially, a noun (これっきゃない); the fuller しかない likewise takes a noun or quantity (これしかない, 千円しかない), while ざるを得ない only follows a verb. Compared with ざるを得ない it sounds bracing rather than reluctant, closer to \"well, we just have to do it.\"",
+      "examples": [
+        {
+          "ruby": "終[お]わらせるには、今夜[こんや]は徹夜[てつや]でやるっきゃない。",
+          "english": "If we want it finished, tonight we just have to pull an all-nighter."
+        },
+        {
+          "ruby": "ここまで来[き]たら、最後[さいご]までやるっきゃないよ。",
+          "english": "Now that we've come this far, we just have to see it through."
+        },
+        {
+          "ruby": "言[い]い訳[わけ]はもういい、あとは走[はし]るっきゃない。",
+          "english": "Enough excuses; from here all we can do is run."
+        }
+      ]
+    }
+  ]
+}

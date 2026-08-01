@@ -1,0 +1,86 @@
+{
+  "class_code": "d12",
+  "class_name": "状況-般-ニオイテ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0191",
+      "canonical_surface": "においての",
+      "glosses": [
+        "in",
+        "at",
+        "in the field of"
+      ],
+      "usage_note": "The formal written counterpart of で for the place, time, or domain in which something takes place (国際[こくさい]会議[かいぎ]において, 教育[きょういく]の分野[ぶんや]において). It does not take over で's other jobs: tool, material, and cause stay with で (はさみで切[き]る, 風邪[かぜ]で休[やす]む). Used of everyday activities it sounds stilted, so keep it for documents, announcements, and academic prose. における／においての is the shape used before a noun.",
+      "examples": [
+        {
+          "ruby": "開会式[かいかいしき]は市民[しみん]ホールにおいて行[おこな]われる。",
+          "english": "The opening ceremony will be held at the civic hall."
+        },
+        {
+          "ruby": "医療[いりょう]の分野[ぶんや]において、人工知能[じんこうちのう]の活用[かつよう]が進[すす]む。",
+          "english": "In the medical field, the use of artificial intelligence is advancing."
+        },
+        {
+          "ruby": "当社[とうしゃ]は品質[ひんしつ]において他社[たしゃ]に劣[おと]らない。",
+          "english": "In terms of quality, our company yields to no competitor."
+        }
+      ]
+    },
+    {
+      "l2_id": "0251",
+      "canonical_surface": "にしての",
+      "glosses": [
+        "at",
+        "in (a single stroke)",
+        "at (an age or attempt), notably"
+      ],
+      "usage_note": "A literary 〜で inherited from classical Japanese and now alive mainly in set expressions: 一夜[いちや]にして and 一瞬[いっしゅん]にして for a change that lands all at once, 今[いま]にして思[おも]えば for a realization that arrives only in hindsight, and an age or an ordinal for a point reached strikingly early or late (四十[しじゅう]にして, 三度目[さんどめ]にして). A note of surprise or admiration comes with it, so a plain \"in／at\" is better carried by において or で. Nouns only, and rare outside writing and these fixed turns.",
+      "examples": [
+        {
+          "ruby": "その街[まち]は一夜[いちや]にして灰[はい]と化[か]した。",
+          "english": "That town was reduced to ashes overnight."
+        },
+        {
+          "ruby": "今[いま]にして思[おも]えば、あれは別[わか]れの言葉[ことば]だった。",
+          "english": "Looking back on it now, those were words of farewell."
+        },
+        {
+          "ruby": "彼[かれ]は四十[しじゅう]にして初[はじ]めて筆[ふで]を執[と]った。",
+          "english": "It was at forty that he first took up the pen."
+        }
+      ]
+    },
+    {
+      "l2_id": "0343",
+      "canonical_surface": "での",
+      "glosses": [
+        "at",
+        "in",
+        "on"
+      ],
+      "usage_note": "The everyday particle for the setting an action takes place in, and the default wherever において, にあって, or にして would sound ceremonial. The same で also marks means, material, cause, and scope (バスで行[い]く, 木[き]で作[つく]る, 病気[びょうき]で休[やす]む), duties its stiffer relatives in this family do not take on. With verbs of existence (いる／ある) and with location of residence, the place takes に (家[いえ]にいる), not で. で is neutral for means; によって is chosen when the means is a deliberate method or procedure, and is obligatory for the agent of a passive.",
+      "examples": [
+        {
+          "ruby": "駅[えき]の前[まえ]で友[とも]だちと待[ま]ち合[あ]わせた。",
+          "english": "I met up with my friend in front of the station."
+        },
+        {
+          "ruby": "昨日[きのう]はカフェで三時間[さんじかん]も勉強[べんきょう]した。",
+          "english": "Yesterday I studied at a cafe for a good three hours."
+        },
+        {
+          "ruby": "母[はは]は台所[だいどころ]で味噌汁[みそしる]を作[つく]っている。",
+          "english": "My mother is making miso soup in the kitchen."
+        }
+      ]
+    }
+  ]
+}

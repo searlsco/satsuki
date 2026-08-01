@@ -1,0 +1,37 @@
+{
+  "class_code": "i21",
+  "class_name": "同格-堅い表現-トコロノ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1231",
+      "canonical_surface": "ところの",
+      "glosses": [
+        "that which; which",
+        "what is (called)"
+      ],
+      "usage_note": "A stiff, overtly bookish relative-clause marker inserted between a modifying clause and the noun it modifies, where plain Japanese would simply juxtapose the two. It grew out of the 漢文訓読 use of 所 and was then pressed into service as a calque of European relative pronouns, so dictionaries describe it as belonging mostly to 翻訳調 written style; in ordinary speech it sounds affected or parodic. Because it adds little meaning, it is almost always deletable without loss of meaning, and its real work is rhythmic: it keeps a long modifying clause from crashing into its head noun in academic, legal or philosophical prose.",
+      "examples": [
+        {
+          "ruby": "著者[ちょしゃ]が本書[ほんしょ]で試[こころ]みるところの分析[ぶんせき]である。",
+          "english": "This is the analysis which the author attempts in the present volume."
+        },
+        {
+          "ruby": "我々[われわれ]が正義[せいぎ]と呼[よ]ぶところのものは何[なに]か。",
+          "english": "What, then, is that which we call justice?"
+        },
+        {
+          "ruby": "本論[ほんろん]では、法[ほう]が保護[ほご]するところの利益[りえき]を検討[けんとう]する。",
+          "english": "This paper examines the interests which the law protects."
+        }
+      ]
+    }
+  ]
+}

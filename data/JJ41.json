@@ -1,0 +1,60 @@
+{
+  "class_code": "J41",
+  "class_name": "進行-事前-トコロ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0481",
+      "canonical_surface": "とこ",
+      "glosses": [
+        "be about to …",
+        "be just going to …"
+      ],
+      "usage_note": "Dictionary form + ところ pins the instant just before the action starts, so it pairs naturally with これから, 今から and ちょうど. とこ is simply the spoken squeeze of ところ and carries no separate meaning. Two things to keep straight: ているところ is 'in the middle of', not 'about to', and the past ところだった normally reports a near miss ('I almost …') rather than a plain past intention. Against 〜ようとするところ, the bare 辞書形 version simply schedules the action; the volitional version says the subject has already started moving on it.",
+      "examples": [
+        {
+          "ruby": "これから駅[えき]に向[む]かうところです。",
+          "english": "I'm just about to head for the station."
+        },
+        {
+          "ruby": "もう遅[おそ]いから、子[こ]どもはそろそろ寝[ね]るとこだ。",
+          "english": "It's late, so the kids are just about to turn in."
+        },
+        {
+          "ruby": "兄[あに]は今[いま]まさに出発[しゅっぱつ]するところだ。",
+          "english": "My brother is on the very point of setting off."
+        }
+      ]
+    },
+    {
+      "l2_id": "1311",
+      "canonical_surface": "うとさえするとこ",
+      "glosses": [
+        "just as one is about to …",
+        "right at the point of …ing"
+      ],
+      "usage_note": "Volitional + とする + ところ marks the moment someone has already begun to move on an intention, so it is a beat later and more physical than the bare 辞書形＋ところ. It typically sits inside a larger sentence, with に, で, へ or を marking the moment something else cut in, rather than standing alone as the predicate. With a non-volitional change verb it shifts to 'on the verge of' (ドアが閉まろうとするところ), and the さえ／は／すら insertions add the usual emphasis or concession.",
+      "examples": [
+        {
+          "ruby": "家[いえ]を出[で]ようとするところで雨[あめ]が降[ふ]り出[だ]した。",
+          "english": "Just as I was about to leave the house, it started to rain."
+        },
+        {
+          "ruby": "話[はなし]を切[き]り出[だ]そうとするところへ店員[てんいん]が来[き]た。",
+          "english": "Just as I was about to broach the subject, the waiter came over."
+        },
+        {
+          "ruby": "電車[でんしゃ]のドアが閉[し]まろうとするところに駆[か]け込[こ]んだ。",
+          "english": "I dashed in just as the train doors were about to close."
+        }
+      ]
+    }
+  ]
+}

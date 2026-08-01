@@ -1,0 +1,37 @@
+{
+  "class_code": "t11",
+  "class_name": "逆接-仮定-ナイマデモ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0941",
+      "canonical_surface": "ないまでも",
+      "glosses": [
+        "even if not …, (at least)",
+        "if not … then at least"
+      ],
+      "usage_note": "Attaches to a verb's ない-form and concedes a high standard in order to insist on a lower one that must still be met. The second clause typically expresses a wish, request, or intention (〜たい, 〜てほしい, 〜べきだ) and often carries せめて or 少なくとも. It leans written and formal, and is especially common in the frame 〜とは言わないまでも; the ぬまでも variant is stiffer still and largely confined to literary prose. Nouns and な-adjectives reach it through ではない (専門家ではないまでも).",
+      "examples": [
+        {
+          "ruby": "毎日[まいにち]とは言[い]わないまでも、週[しゅう]に一度[いちど]は連絡[れんらく]がほしい。",
+          "english": "I don't expect to hear from you every day, but I'd like a call at least once a week."
+        },
+        {
+          "ruby": "完璧[かんぺき]に暗記[あんき]しないまでも、せめて要点[ようてん]だけは押[お]さえるべきだ。",
+          "english": "Even if you don't memorize it perfectly, you should at least have the key points down."
+        },
+        {
+          "ruby": "優勝[ゆうしょう]は狙[ねら]えないまでも、決勝[けっしょう]までは進[すす]みたい。",
+          "english": "Winning it all may be out of reach, but we want to make it to the final at least."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "class_code": "b11",
+  "class_name": "対象-関連-ニツイテ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0091",
+      "canonical_surface": "についての",
+      "glosses": [
+        "about; concerning",
+        "regarding; on (the subject of)"
+      ],
+      "usage_note": "The everyday way to name what is being talked, asked, written or thought about; neutral enough for both conversation and formal prose. Compared with に関して it typically takes up that one topic rather than the matters around it. The adnominal についての is far less common than plain について; when a noun has to follow, writers often reach for に関する instead. Keep it apart from に対して, which points an action at a target instead of naming a subject.",
+      "examples": [
+        {
+          "ruby": "来週[らいしゅう]の遠足[えんそく]について、先生[せんせい]から説明[せつめい]があった。",
+          "english": "Our teacher walked us through next week's field trip."
+        },
+        {
+          "ruby": "この薬[くすり]の副作用[ふくさよう]について、先[さき]に確認[かくにん]しておきたい。",
+          "english": "I want to check on this drug's side effects first."
+        },
+        {
+          "ruby": "日本[にほん]の祝日[しゅくじつ]についての質問[しつもん]が生徒[せいと]から出[で]た。",
+          "english": "A question about Japanese public holidays came up from the students."
+        }
+      ]
+    },
+    {
+      "l2_id": "0101",
+      "canonical_surface": "にかんしての",
+      "glosses": [
+        "regarding; concerning",
+        "with respect to; in connection with"
+      ],
+      "usage_note": "The formal sibling of について, at home in news copy, papers, notices and business correspondence, and it readily lets the discussion spread to matters connected with the topic rather than the topic alone. When a noun follows, に関する is far more usual than に関しての, while the clipped に関し belongs to written notices and statutes. It attaches to a noun, so a clause has to be nominalized (〜ことに関して), though an embedded question can attach directly (〜かに関して).",
+      "examples": [
+        {
+          "ruby": "個人情報[こじんじょうほう]の管理[かんり]に関[かん]して、社内規定[しゃないきてい]を見直[みなお]す。",
+          "english": "We are revising our internal rules regarding the handling of personal data."
+        },
+        {
+          "ruby": "今回[こんかい]の不具合[ふぐあい]に関[かん]して、詳[くわ]しいご説明[せつめい]をお願[ねが]いします。",
+          "english": "We would appreciate a detailed explanation concerning this malfunction."
+        },
+        {
+          "ruby": "環境保護[かんきょうほご]に関[かん]する国際会議[こくさいかいぎ]が来月[らいげつ]開[ひら]かれる。",
+          "english": "An international conference on environmental protection will be held next month."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "class_code": "J35",
+  "class_name": "進行-継続-イッポウ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1361",
+      "canonical_surface": "でるところ",
+      "glosses": [
+        "be in the middle of …ing",
+        "be right in the midst of …ing"
+      ],
+      "usage_note": "The te-form plus いるところ freezes a moment in which the action is already running — a snapshot, not a duration — and it is the answer to '(right) now, what are you doing?'. Keep it apart from its siblings by the form of the attached verb: 辞書形＋ところ is the instant before, ているところ is during, たところ is the instant after. In speech ている routinely contracts to てる and ところ to とこ (してるとこ), and 一方だ, the other member of this class, is not a snapshot at all but an escalating trend.",
+      "examples": [
+        {
+          "ruby": "今[いま]、彼[かれ]は報告書[ほうこくしょ]を読[よ]んでいるところです。",
+          "english": "He's in the middle of reading the report right now."
+        },
+        {
+          "ruby": "妹[いもうと]はちょうどお風呂[ふろ]に入[はい]っているところだよ。",
+          "english": "My sister is in the bath right now, actually."
+        },
+        {
+          "ruby": "今[いま]ちょうど夕飯[ゆうはん]の支度[したく]をしてるところだよ。",
+          "english": "I'm right in the middle of getting dinner ready."
+        }
+      ]
+    },
+    {
+      "l2_id": "1401",
+      "canonical_surface": "いっぽう",
+      "glosses": [
+        "keep …ing (more and more)",
+        "go on …ing with no let-up"
+      ],
+      "usage_note": "Dictionary form + 一方だ says a change is running in a single direction and shows no sign of turning around. It needs a verb of change: teaching grammars state flatly that it cannot take a state, so 高い一方だ is wrong where 高くなる一方だ is right. It works for improvement as well as decline, but because it typically reports a development that defies what one hoped for, it lands on unwelcome trends far more often. Do not confuse it with the separate 〜一方で 'on the other hand', which contrasts two facts rather than tracking one; against つつある, 一方だ is evaluative escalation while つつある is neutral progress toward a new state.",
+      "examples": [
+        {
+          "ruby": "この町[まち]の若者[わかもの]の県外流出[けんがいりゅうしゅつ]は増[ふ]える一方[いっぽう]だ。",
+          "english": "The exodus of young people from this town to other prefectures just keeps growing."
+        },
+        {
+          "ruby": "介護[かいご]の現場[げんば]の負担[ふたん]は重[おも]くなる一方[いっぽう]である。",
+          "english": "The burden on caregivers on the ground grows heavier and heavier."
+        },
+        {
+          "ruby": "事態[じたい]は悪化[あっか]する一方[いっぽう]で、収[おさ]まる気配[けはい]がない。",
+          "english": "The situation just keeps deteriorating, with no sign of settling down."
+        }
+      ]
+    }
+  ]
+}

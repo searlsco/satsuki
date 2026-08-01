@@ -1,0 +1,38 @@
+{
+  "class_code": "D12",
+  "class_name": "判断-当為-モノ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0822",
+      "canonical_surface": "もん",
+      "glosses": [
+        "one should …",
+        "that's how it's done",
+        "it's only natural to"
+      ],
+      "usage_note": "In this use ものだ states a social norm or the way things properly are, so the advice appeals to common sense rather than to the listener's particular circumstances — that is the job of ことだ. The negative もんじゃない is a standard rebuke for behavior that breaches the norm. もん is the spoken contraction of もの; keep it apart from the reason-giving 〜もん(だから) and from 〜たものだ, which reminisces about the past rather than prescribing anything.",
+      "examples": [
+        {
+          "ruby": "人[ひと]から借[か]りた物[もの]はすぐに返[かえ]すもんだ。",
+          "english": "When you borrow something from someone, you give it back right away."
+        },
+        {
+          "ruby": "朝[あさ]の挨拶[あいさつ]くらい自分[じぶん]からするもんだよ。",
+          "english": "A morning greeting is the kind of thing you offer first, you know."
+        },
+        {
+          "ruby": "他人[たにん]の失敗[しっぱい]をそんなに責[せ]めるもんじゃない。",
+          "english": "You shouldn't come down that hard on other people's mistakes."
+        }
+      ]
+    }
+  ]
+}

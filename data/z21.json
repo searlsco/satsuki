@@ -1,0 +1,109 @@
+{
+  "class_code": "z21",
+  "class_name": "願望-働きかけ-テホシイ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "2161",
+      "canonical_surface": "じゃほしい",
+      "glosses": [
+        "want (someone) to do …",
+        "I'd like you to …",
+        "I wish you would …"
+      ],
+      "usage_note": "The everyday way to say you want someone else to act: 〜てほしい, with 〜でほしい after the ん/い ta-stems (読んでほしい, 急いでほしい). Teaching references state flatly that it cannot be aimed at a superior, since ほしい has no humble-polite counterpart the way もらいたい has いただきたい. A contrastive は can be inserted (〜てはほしい, as in 分かってはほしいが無理はさせたくない), but it is far rarer than plain 〜てほしい; ほしい also takes non-volitional subjects (雨がやんでほしい), which もらいたい tends to resist.",
+      "examples": [
+        {
+          "ruby": "今度[こんど]こそ本当[ほんとう]のことを話[はな]してほしい。",
+          "english": "This time I really want you to tell me the truth."
+        },
+        {
+          "ruby": "休[やす]みの日[ひ]くらいは子[こ]どもと外[そと]で遊[あそ]んでほしい。",
+          "english": "I wish he'd at least play outside with the kids on his days off."
+        },
+        {
+          "ruby": "明日[あした]の会議[かいぎ]には君[きみ]にも来[き]てほしい。",
+          "english": "I'd like you to come to tomorrow's meeting too."
+        }
+      ]
+    },
+    {
+      "l2_id": "2171",
+      "canonical_surface": "じゃもらいたい",
+      "glosses": [
+        "I want you to …",
+        "I'd like you to …",
+        "I expect you to …"
+      ],
+      "usage_note": "〜てもらいたい frames the act as a favor the speaker receives, so it presupposes the other party's cooperation and usually lands as a firm expectation, natural from a position of entitlement (boss to staff, customer to shop) or among equals, rarely upward. It sits between casual 〜てほしい and 〜ていただきたい, which is simply its humble-polite counterpart. Because もらう wants a willing agent, the doer is almost always a person, unlike ほしい.",
+      "examples": [
+        {
+          "ruby": "出発[しゅっぱつ]まで時間[じかん]がないので急[いそ]いでもらいたい。",
+          "english": "There's no time before we leave, so I need you to hurry."
+        },
+        {
+          "ruby": "君[きみ]にはもう少[すこ]し責任[せきにん]を感[かん]じてもらいたい。",
+          "english": "I'd like you to feel a bit more responsibility here."
+        },
+        {
+          "ruby": "この機械[きかい]は必[かなら]ず二人[ふたり]で操作[そうさ]してもらいたい。",
+          "english": "I want this machine operated by two people, without exception."
+        }
+      ]
+    },
+    {
+      "l2_id": "2181",
+      "canonical_surface": "ではいただきたい",
+      "glosses": [
+        "I would like you to …",
+        "we ask that you …"
+      ],
+      "usage_note": "The humble-polite member of this family: 〜ていただきたい is 〜てもらいたい with いただく, standard in business mail, notices, and speech to customers or superiors. A bare 〜ていただきたい in writing reads as a firm directive, so the standard hedge is 〜ていただきたいのですが; 〜ていただきたいです is common in speech but often criticized in formal writing, and 〜ていただきたく存じます is the letter-writing softener. Besides the te-form, noun requests are equally common with no て at all (ご確認いただきたい, ご了承いただきたい).",
+      "examples": [
+        {
+          "ruby": "契約内容[けいやくないよう]は口頭[こうとう]ではなく書面[しょめん]で残[のこ]していただきたい。",
+          "english": "We would like the terms of the contract put in writing, not left verbal."
+        },
+        {
+          "ruby": "受付[うけつけ]で名札[なふだ]を受[う]け取[と]っていただきたい。",
+          "english": "We ask that you pick up your name badge at the reception desk."
+        },
+        {
+          "ruby": "新人[しんじん]には基本[きほん]から丁寧[ていねい]に教[おし]えていただきたいです。",
+          "english": "I'd be grateful if you'd teach the new hires carefully, right from the basics."
+        }
+      ]
+    },
+    {
+      "l2_id": "2591",
+      "canonical_surface": "ないかな",
+      "glosses": [
+        "I wish … would …",
+        "I hope …",
+        "won't …, I wonder"
+      ],
+      "usage_note": "〜ないかな(あ) is a negative question aimed at yourself: most often it voices a wish that the event will happen (早く来ないかな = I wish it would hurry up and come), though with an outcome the speaker dreads it can instead read as apprehension or plain wondering (間に合わないかな). It is casual thinking-aloud; said within earshot of the listener it turns into a soft hint or request. Unlike 〜てほしい/〜てもらいたい, which target a person to act, it has no addressee built in, wishing about a state of affairs, so it suits weather, timing, and luck. 〜ないかしら is the same expression in a feminine-sounding register, and 〜ないものか is its stiffer, more strongly yearning cousin.",
+      "examples": [
+        {
+          "ruby": "今年[ことし]の夏[なつ]はもう少[すこ]し涼[すず]しくならないかな。",
+          "english": "I wish this summer would cool down a little."
+        },
+        {
+          "ruby": "今夜[こんや]は雲[くも]が晴[は]れて星[ほし]がきれいに見[み]えないかな。",
+          "english": "I hope the clouds clear and the stars come out nicely tonight."
+        },
+        {
+          "ruby": "試験[しけん]が終[お]わって早[はや]く週末[しゅうまつ]が来[こ]ないかな。",
+          "english": "I wish the exams were over and the weekend would just get here."
+        }
+      ]
+    }
+  ]
+}

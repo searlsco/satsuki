@@ -1,0 +1,129 @@
+{
+  "class_code": "Q21",
+  "class_name": "並立-代表例-ヤ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0432",
+      "canonical_surface": "なり",
+      "glosses": [
+        "… or … , whichever",
+        "either … or …; or something like that"
+      ],
+      "usage_note": "〜なり〜なり offers the listener a couple of representative options and leaves the choice open, so it is almost always followed by a suggestion, request, permission, or the speaker's own resolve rather than by a statement of past fact. Unlike や and とか, which merely exemplify, なり pushes the hearer to pick one, and か lays out alternatives one of which is actually true or must be settled while なり merely tosses out representative options and tells the hearer any of them (or something like them) is fine. Directed upward it can sound curt, so it is avoided toward superiors. A single なり is common (電話するなりして), and 何なり / なりとも are the same particle.",
+      "examples": [
+        {
+          "ruby": "余[あま]った野菜[やさい]は煮[に]るなり焼[や]くなり好[す]きにして。",
+          "english": "Do whatever you like with the leftover vegetables — simmer them, grill them, your call."
+        },
+        {
+          "ruby": "週末[しゅうまつ]は映画[えいが]なり温泉[おんせん]なりで気分[きぶん]を変[か]えよう。",
+          "english": "Let's change things up this weekend with a movie or a hot spring or something."
+        },
+        {
+          "ruby": "心配[しんぱい]なら見[み]に来[く]るなり電話[でんわ]するなりしてよ。",
+          "english": "If you're worried, come see for yourself or give me a call — either one."
+        }
+      ]
+    },
+    {
+      "l2_id": "0442",
+      "canonical_surface": "や",
+      "glosses": [
+        "and (among other things)",
+        "… , … , etc."
+      ],
+      "usage_note": "や joins nouns only and signals that the items named are just samples of a longer list, so it is the neutral, everyday partner of the exhaustive と. It carries no attitude of its own — no complaint, no exasperation — which is what separates it from だの and やら, and it is at home in writing as well as speech. The listing is often closed off with など (鍵や財布など).",
+      "examples": [
+        {
+          "ruby": "机[つくえ]の上[うえ]に鍵[かぎ]や財布[さいふ]が置[お]いてある。",
+          "english": "There are keys, a wallet, and things like that sitting on the desk."
+        },
+        {
+          "ruby": "休[やす]みの日[ひ]は洗濯[せんたく]や掃除[そうじ]であっという間[ま]だ。",
+          "english": "My days off fly by doing laundry, cleaning, and the rest of it."
+        },
+        {
+          "ruby": "公園[こうえん]には桜[さくら]や銀杏[いちょう]の木[き]が多[おお]い。",
+          "english": "The park has plenty of cherry and ginkgo trees, among others."
+        }
+      ]
+    },
+    {
+      "l2_id": "2622",
+      "canonical_surface": "とか",
+      "glosses": [
+        "… or something; things like … and …",
+        "such as"
+      ],
+      "usage_note": "とか is the conversational workhorse for citing examples: it attaches far more freely than や — nouns, plain-form verbs, i-adjectives, and past た all take it — and it stays emotionally neutral where だの complains and やら despairs. Because the softening it adds can read as vague or non-committal, it is usually avoided in formal writing, apologies, and business reports. In casual speech it also tags a single item (来週とか暇？), and the wrap-up form 〜とか〜とかする is common.",
+      "examples": [
+        {
+          "ruby": "来月[らいげつ]引[ひ]っ越[こ]すとか転職[てんしょく]するとか言[い]っていた。",
+          "english": "He was saying something about moving next month, or changing jobs, or whatever."
+        },
+        {
+          "ruby": "甘[あま]いとか酸[す]っぱいとか、感想[かんそう]がばらばらだ。",
+          "english": "Sweet, sour — everyone described it differently."
+        },
+        {
+          "ruby": "昼[ひる]はカレーとかパスタとかでいいよ。",
+          "english": "Curry, pasta, whatever — anything's fine for lunch."
+        }
+      ]
+    },
+    {
+      "l2_id": "3121",
+      "canonical_surface": "だの",
+      "glosses": [
+        "… and … and (what have you)",
+        "going on about … and … (and I'm sick of it)"
+      ],
+      "usage_note": "だの lists examples with the speaker's irritation attached: the items are typically gripes, excuses, or a jumble the speaker is fed up with, so it pairs naturally with 文句・不満・うるさい and rarely appears in neutral description. It is spoken, somewhat coarse, and roughly as flexible as とか in attachment (nouns, plain verbs, i-adjectives, た), but the complaining tone is what makes it the wrong choice when you simply want examples. Compare やら, which sounds overwhelmed rather than annoyed.",
+      "examples": [
+        {
+          "ruby": "部屋[へや]が狭[せま]いだの暗[くら]いだのと注文[ちゅうもん]が多[おお]い。",
+          "english": "The room's too small, it's too dark — he's endlessly demanding."
+        },
+        {
+          "ruby": "味[あじ]が薄[うす]いだの量[りょう]が少[すく]ないだのと文句[もんく]ばかりだ。",
+          "english": "Too bland, too small a portion — it's nothing but complaints."
+        },
+        {
+          "ruby": "走[はし]るだの泳[およ]ぐだの言[い]うだけで、何[なに]もしない。",
+          "english": "He goes on about running and swimming and whatnot, and never does any of it."
+        }
+      ]
+    },
+    {
+      "l2_id": "3131",
+      "canonical_surface": "やら",
+      "glosses": [
+        "what with … and …",
+        "… and … and (it's all too much)"
+      ],
+      "usage_note": "〜やら〜やら piles up items to convey that the situation is chaotic, overwhelming, or emotionally mixed, so it is at its best with clashing feelings (嬉しいやら悲しいやら) and with the debris of a busy stretch of life. Where だの points its irritation at someone, やら usually leaves the speaker simply swamped. It is common in speech and also survives in written narration, unlike だの, and although this entry licenses nouns and i-adjectives, natives also attach it to plain-form verbs (泣くやら笑うやら).",
+      "examples": [
+        {
+          "ruby": "引[ひ]っ越[こ]しやら手続[てつづ]きやらで目[め]が回[まわ]りそうだ。",
+          "english": "Between the move and all the paperwork, my head is spinning."
+        },
+        {
+          "ruby": "嬉[うれ]しいやら恥[は]ずかしいやらで、顔[かお]が赤[あか]くなった。",
+          "english": "Half delighted, half mortified, I went red in the face."
+        },
+        {
+          "ruby": "鞄[かばん]の中[なか]はレシートやら飴[あめ]やらでぐちゃぐちゃだ。",
+          "english": "My bag is a disaster — receipts, loose candy, you name it."
+        }
+      ]
+    }
+  ]
+}

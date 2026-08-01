@@ -1,0 +1,60 @@
+{
+  "class_code": "N31",
+  "class_name": "目的-目標-ヘ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "2936",
+      "canonical_surface": "にゃ",
+      "glosses": [
+        "to; toward",
+        "as for (going) to"
+      ],
+      "usage_note": "Colloquial contraction of goal-marking には, so it carries は's contrastive force: 店にゃ行かない sets that destination against others rather than simply naming it. It belongs to casual speech and to fiction dialogue that wants a rough or old-fashioned voice, and it is essentially never written in neutral prose, where には or plain に is used instead. Compare へ, which is the plain directional marker with no contrastive coloring at all. Distinguish the identically written experiencer にゃ (俺にゃ分からない), which marks the person a capacity rests with rather than a destination.",
+      "examples": [
+        {
+          "ruby": "あんな店[みせ]にゃ二度[にど]と行[い]かないと決[き]めた。",
+          "english": "I've decided I'm never setting foot in that place again."
+        },
+        {
+          "ruby": "その話[はなし]は社長[しゃちょう]にゃ通[とお]してあるから大丈夫[だいじょうぶ]だ。",
+          "english": "Don't worry, that one I've already run past the boss at least."
+        },
+        {
+          "ruby": "この荷物[にもつ]は本社[ほんしゃ]にゃ送[おく]らなくていいよ。",
+          "english": "This one you don't have to send to head office, at least."
+        }
+      ]
+    },
+    {
+      "l2_id": "2971",
+      "canonical_surface": "へ",
+      "glosses": [
+        "to; toward",
+        "for (a destination)"
+      ],
+      "usage_note": "へ points at the direction or endpoint of movement and, by extension, at the person a message or thing is headed for. Where に pins down arrival at a goal, へ typically keeps the focus on the heading, which is why it sounds slightly softer and is the usual choice on envelopes and dedications (山田様へ). Unlike its class-mate にゃ it is fully neutral and at home in writing.",
+      "examples": [
+        {
+          "ruby": "来週[らいしゅう]の月曜[げつよう]に大阪[おおさか]へ出張[しゅっちょう]します。",
+          "english": "I'm heading to Osaka on business next Monday."
+        },
+        {
+          "ruby": "子[こ]どもたちが公園[こうえん]へ駆[か]け出[だ]していった。",
+          "english": "The kids went tearing off toward the park."
+        },
+        {
+          "ruby": "新[あたら]しい住所[じゅうしょ]を旧友[きゅうゆう]へ葉書[はがき]で知[し]らせた。",
+          "english": "I sent an old friend a postcard with my new address."
+        }
+      ]
+    }
+  ]
+}

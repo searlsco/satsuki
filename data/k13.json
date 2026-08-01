@@ -1,0 +1,37 @@
+{
+  "class_code": "k13",
+  "class_name": "話題-提示-ハ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "2981",
+      "canonical_surface": "は",
+      "glosses": [
+        "as for",
+        "(topic marker)"
+      ],
+      "usage_note": "Lifts something out as what the sentence is about, which is why it presents known or already-established information while が introduces what is new. が and を are replaced by は outright; へ, で, から, まで and と are kept in front of it (へは, までは, からは), and に is normally kept too, though it is often dropped with time expressions (三時は無理だ). In that stacked position it usually adds contrast: 大阪へは行った implies somewhere else was skipped. It also attaches to the て-form (ては), where the sense is conditional rather than contrastive.",
+      "examples": [
+        {
+          "ruby": "私[わたし]は毎朝[まいあさ]、犬[いぬ]と公園[こうえん]を走[はし]っています。",
+          "english": "As for me, I run in the park with my dog every morning."
+        },
+        {
+          "ruby": "大阪[おおさか]へは行[い]きましたが、神戸[こうべ]へは寄[よ]りませんでした。",
+          "english": "I did go to Osaka, but I didn't stop by Kobe."
+        },
+        {
+          "ruby": "明日[あした]の昼[ひる]までは家[いえ]で仕事[しごと]をしています。",
+          "english": "Up until noon tomorrow, at least, I'll be working from home."
+        }
+      ]
+    }
+  ]
+}

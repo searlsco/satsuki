@@ -1,0 +1,37 @@
+{
+  "class_code": "b61",
+  "class_name": "対象-範囲-マデ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0303",
+      "canonical_surface": "まで",
+      "glosses": [
+        "up to; as far as",
+        "until; till"
+      ],
+      "usage_note": "まで marks the far end of a continuous stretch — of space, of time, or of degree — and implies the whole span leading up to it, which is why the predicate is usually durative (待つ, 歩く, 続ける). Keep it apart from までに, which sets a deadline by which a one-shot event must happen: 五時まで待つ is waiting the whole time, 五時までに来る is arriving at some point before five. In real Japanese まで also attaches to a plain-form verb (終わるまで待つ) and pairs with から for an explicit start point; the corpus rule recorded here covers only the noun-attached use.",
+      "examples": [
+        {
+          "ruby": "今日[きょう]は夕方[ゆうがた]まで図書館[としょかん]で調[しら]べ物[もの]をする。",
+          "english": "I'll be doing research at the library until early evening today."
+        },
+        {
+          "ruby": "駅[えき]までなら歩[ある]いて十分[じゅっぷん]もかからない。",
+          "english": "As far as the station it's not even a ten-minute walk."
+        },
+        {
+          "ruby": "荷物[にもつ]は玄関[げんかん]まで運[はこ]んでおきました。",
+          "english": "I've carried the bags as far as the entryway for you."
+        }
+      ]
+    }
+  ]
+}

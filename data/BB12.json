@@ -1,0 +1,37 @@
+{
+  "class_code": "B12",
+  "class_name": "過去-回想-ニキマッテイタ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "2381",
+      "canonical_surface": "にきまってた",
+      "glosses": [
+        "was bound to; was sure to",
+        "of course it would (have)"
+      ],
+      "usage_note": "Retrospective 〜に決まってた looks back and declares the outcome a foregone conclusion — 'obviously it would'. It voices the speaker's own conviction rather than evidence-based inference, so it is blunter than 〜はずだった. In real Japanese it also follows nouns and adjectives (嘘に決まってた, 高いに決まってた), but the attachment licensed here is a plain dictionary-form verb; 〜てた is the casual contraction of 〜ていた, and 〜に決まっていました is its polite counterpart.",
+      "examples": [
+        {
+          "ruby": "あんなに練習[れんしゅう]したんだから、勝[か]つに決[き]まってた。",
+          "english": "After all that practice, of course they were going to win."
+        },
+        {
+          "ruby": "そんな嘘[うそ]、すぐばれるに決[き]まってた。",
+          "english": "A lie like that was bound to come out right away."
+        },
+        {
+          "ruby": "準備[じゅんび]もせずに挑[いど]んだんだから、失敗[しっぱい]するに決[き]まってた。",
+          "english": "Going in with no preparation at all, of course it was going to fail."
+        }
+      ]
+    }
+  ]
+}

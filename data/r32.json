@@ -1,0 +1,37 @@
+{
+  "class_code": "r32",
+  "class_name": "順接-確定-テ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "3371",
+      "canonical_surface": "で",
+      "glosses": [
+        "and; and then",
+        "and so; owing to"
+      ],
+      "usage_note": "The plain te-form link between clauses: で after nouns and な-adjectives (風邪[かぜ]で) and wherever the te-form is voiced (む/ぶ/ぬ and ぐ godan verbs: 呼[よ]んで, 泳[およ]いで), て elsewhere, くて for i-adjectives. It leaves the relation between the clauses to context, so it reads as sequence, simultaneous description, or loose cause depending on content. On the causal reading the main clause is typically a statement of fact rather than a command or request.",
+      "examples": [
+        {
+          "ruby": "風邪[かぜ]で三日[みっか]も学校[がっこう]を休[やす]みました。",
+          "english": "A cold kept me out of school for three whole days."
+        },
+        {
+          "ruby": "友達[ともだち]を呼[よ]んで一緒[いっしょ]に晩[ばん]ご飯[はん]を作[つく]った。",
+          "english": "I invited a friend over and we made dinner together."
+        },
+        {
+          "ruby": "荷物[にもつ]が重[おも]くて一人[ひとり]では持[も]てなかった。",
+          "english": "The luggage was so heavy I couldn't carry it alone."
+        }
+      ]
+    }
+  ]
+}

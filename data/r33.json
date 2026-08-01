@@ -1,0 +1,37 @@
+{
+  "class_code": "r33",
+  "class_name": "順接-確定-テハ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0623",
+      "canonical_surface": "じゃ",
+      "glosses": [
+        "if you (keep) doing …, …",
+        "it won't do to …; you mustn't …"
+      ],
+      "usage_note": "Spoken contraction of では/ては attaching to a verb in te-form: doing the action, once or repeatedly, is presented as leading to a bad outcome, so it very often lands as a warning to the listener and is frequently closed with だめだ or いけない. じゃ appears wherever the te-form is voiced (む/ぶ/ぬ and ぐ godan verbs: 飲[の]んじゃ, 泳[およ]いじゃ) and ちゃ elsewhere. Unlike 0622, this sense builds on an action someone performs rather than on a state of affairs, and it does not take a bare noun.",
+      "examples": [
+        {
+          "ruby": "そんなに飲[の]んじゃ明日[あした]の朝[あさ]が辛[つら]いよ。",
+          "english": "Drink that much and you'll pay for it in the morning."
+        },
+        {
+          "ruby": "途中[とちゅう]でやめちゃ今[いま]までの努力[どりょく]が無駄[むだ]だよ。",
+          "english": "Quit halfway and everything you've put in so far goes to waste."
+        },
+        {
+          "ruby": "毎日[まいにち]夜更[よふ]かしをしちゃ授業[じゅぎょう]に集中[しゅうちゅう]できない。",
+          "english": "Stay up late every night and you'll never be able to focus in class."
+        }
+      ]
+    }
+  ]
+}

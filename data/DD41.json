@@ -1,0 +1,60 @@
+{
+  "class_code": "D41",
+  "class_name": "判断-断定-ダ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "3201",
+      "canonical_surface": "で",
+      "glosses": [
+        "is; are (copula)",
+        "…, and (linking form)"
+      ],
+      "usage_note": "The ordinary copula, whose forms include plain だ, polite です, prenominal な, past だっ(た)/でし(た), and the linking form で that joins a noun predicate to whatever follows. Use で to chain a noun or particle phrase onto a following clause where English would say \"and\"; it attaches to nouns and to particle phrases (三時までで, 大阪からで). Its analytic sibling である/でもある (l2_id 3211) spells the copula out as で + ある (linking form であり) and optionally wedges in a focus particle, which raises the register or adds は/も contrast.",
+      "examples": [
+        {
+          "ruby": "兄[あに]は医者[いしゃ]で、僕[ぼく]は同[おな]じ道[みち]を選[えら]ばなかった。",
+          "english": "My brother is a doctor, and I chose not to follow the same path."
+        },
+        {
+          "ruby": "昨日[きのう]の会議[かいぎ]は三時[さんじ]までで、その後[あと]は自由[じゆう]だった。",
+          "english": "Yesterday's meeting ran until three, and after that we were free."
+        },
+        {
+          "ruby": "今日[きょう]は休[やす]みで、朝[あさ]からずっと家[いえ]にいます。",
+          "english": "Today's my day off, and I've been home since morning."
+        }
+      ]
+    },
+    {
+      "l2_id": "3211",
+      "canonical_surface": "ででもあり",
+      "glosses": [
+        "is; to be (formal copula)",
+        "is also …; is indeed …"
+      ],
+      "usage_note": "The copula spelled out as で + ある, optionally with a focus particle wedged in: である is the neutral written/expository copula, でもある adds \"is also, is at the same time,\" ではある concedes (\"it is X, but…\"), and でさえある/ですらある push to \"is even X.\" Choose it over plain だ (l2_id 3201) when you want essay or documentary register, or when the focus particle is doing real work; である is normal in writing but sounds declamatory in casual speech.",
+      "examples": [
+        {
+          "ruby": "彼[かれ]は詩人[しじん]であり、優[すぐ]れた翻訳家[ほんやくか]でもあった。",
+          "english": "He was a poet, and a fine translator as well."
+        },
+        {
+          "ruby": "この決定[けってい]は苦渋[くじゅう]の選択[せんたく]ではあるが、後戻[あともど]りはできない。",
+          "english": "This decision is admittedly an agonizing one, but there is no going back."
+        },
+        {
+          "ruby": "沈黙[ちんもく]は時[とき]に、最[もっと]も雄弁[ゆうべん]な返事[へんじ]でもある。",
+          "english": "Silence is, at times, also the most eloquent of answers."
+        }
+      ]
+    }
+  ]
+}

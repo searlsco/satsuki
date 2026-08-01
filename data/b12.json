@@ -1,0 +1,37 @@
+{
+  "class_code": "b12",
+  "class_name": "対象-関連-ヲメグッテ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0121",
+      "canonical_surface": "をめぐっての",
+      "glosses": [
+        "over; surrounding (a contested matter)",
+        "concerning (something in dispute)"
+      ],
+      "usage_note": "Reserve this for a topic people are contending over: the predicate that follows is almost always one of dispute or divided opinion (争う, 対立する, 議論が続く, 意見が割れる), so competing parties or divided views are usually in play, though it also covers a swirl of talk with no clear sides (憶測が流れる, 謎が残る). Where について and に関して are neutral about the subject matter, をめぐって frames it as contested, and it leans toward news-report and written registers rather than casual chat. The prenominal をめぐる is at least as common as the て-form.",
+      "examples": [
+        {
+          "ruby": "遺産[いさん]の相続[そうぞく]をめぐって、親族[しんぞく]が長年[ながねん]争[あらそ]っている。",
+          "english": "The relatives have been fighting over the inheritance for years."
+        },
+        {
+          "ruby": "新[あたら]しい球場[きゅうじょう]の建設[けんせつ]をめぐって、市民[しみん]の意見[いけん]が割[わ]れた。",
+          "english": "Residents were split over the construction of the new ballpark."
+        },
+        {
+          "ruby": "監督[かんとく]の交代[こうたい]をめぐる報道[ほうどう]が連日[れんじつ]続[つづ]いている。",
+          "english": "Coverage of the manager's replacement has run day after day."
+        }
+      ]
+    }
+  ]
+}

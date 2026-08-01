@@ -1,0 +1,61 @@
+{
+  "class_code": "k12",
+  "class_name": "話題-提示-トイウト類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "2821",
+      "canonical_surface": "というと",
+      "glosses": [
+        "speaking of",
+        "when you mention",
+        "that reminds me of"
+      ],
+      "usage_note": "Picks up a word someone just said (or that is simply in the air) and makes it the topic, typically leading to the association it triggers in the speaker. Neutral in feeling: sibling とくると narrows to a domain the subject behaves distinctively in, while the neighboring ときたら colors the topic with complaint or exasperation, something というと itself does not do. といえば and といったら are the everyday conditional variants, っていうと the casual contraction, and と言いますと the polite one used to ask a speaker to say more.",
+      "examples": [
+        {
+          "ruby": "京都[きょうと]というと、まず清水寺[きよみずでら]を思[おも]い浮[う]かべる。",
+          "english": "Speaking of Kyoto, the first thing that comes to mind is Kiyomizu Temple."
+        },
+        {
+          "ruby": "山[やま]というと、父[ちち]は決[き]まって富士山[ふじさん]の話[はなし]を始[はじ]める。",
+          "english": "Mention mountains and my father invariably starts in on Mt. Fuji."
+        },
+        {
+          "ruby": "担当[たんとう]というと、営業[えいぎょう]の山田[やまだ]のことですか。",
+          "english": "The person in charge? You mean Yamada in sales?"
+        }
+      ]
+    },
+    {
+      "l2_id": "2841",
+      "canonical_surface": "とくると",
+      "glosses": [
+        "when it comes to",
+        "where … is concerned"
+      ],
+      "usage_note": "Singles out one topic or field as the area where the subject behaves unlike they do elsewhere, so the following clause almost always reports that distinctive reaction rather than a neutral fact. It is more observational than the ときたら realization, which colors the topic with the speaker's irritation, and it is less about a threshold being crossed than ともなると. In practice it attaches overwhelmingly to nouns even though the corpus also licenses plain-form verbs and adjectives.",
+      "examples": [
+        {
+          "ruby": "弟[おとうと]は甘[あま]い物[もの]とくると、目[め]の色[いろ]が変[か]わる。",
+          "english": "Where sweets are concerned, my little brother is a different person entirely."
+        },
+        {
+          "ruby": "この店[みせ]は、魚[さかな]とくると値段[ねだん]が急[きゅう]に上[あ]がる。",
+          "english": "At this place, the moment fish is involved the prices jump."
+        },
+        {
+          "ruby": "母[はは]は健康[けんこう]番組[ばんぐみ]とくると、必[かなら]ずメモを取[と]る。",
+          "english": "When it comes to health programs, my mother never fails to take notes."
+        }
+      ]
+    }
+  ]
+}

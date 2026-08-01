@@ -1,0 +1,38 @@
+{
+  "class_code": "x13",
+  "class_name": "疑問-問いかけ-タッケ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "2491",
+      "canonical_surface": "だっけ",
+      "glosses": [
+        "was it …?",
+        "… , right?",
+        "what was it again"
+      ],
+      "usage_note": "A memory check: you knew this once and are dredging it back up, asking the listener or yourself to confirm it. It follows the past form, so it comes out as たっけ or だっけ according to that verb's own past tense (行ったっけ / 読んだっけ), and attaches directly to a noun for present facts (集合は明日だっけ); the polite versions are でしたっけ and ましたっけ. Unlike plain か it presupposes prior knowledge, and unlike かな it is retrieval rather than idle speculation.",
+      "examples": [
+        {
+          "ruby": "明日[あした]の集合[しゅうごう]場所[ばしょ]は駅[えき]の北口[きたぐち]だっけ。",
+          "english": "Tomorrow's meeting spot is the station's north exit, right?"
+        },
+        {
+          "ruby": "あの分厚[ぶあつ]い小説[しょうせつ]、君[きみ]はもう読[よ]んだっけ。",
+          "english": "That doorstop of a novel — did you already read it, or am I misremembering?"
+        },
+        {
+          "ruby": "去年[きょねん]の忘年会[ぼうねんかい]はどこの店[みせ]で食[た]べたっけ。",
+          "english": "Where was it we ate for last year's end-of-year party again?"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "class_code": "e21",
+  "class_name": "起点-移動起点-ヨリ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "2961",
+      "canonical_surface": "より",
+      "glosses": [
+        "from (a place or time)",
+        "starting from"
+      ],
+      "usage_note": "The formal written counterpart of から for the point something starts or sets out from: signage, station and store announcements, invitations, and business correspondence (北口より、九時より). In ordinary speech it is largely confined to that announcement register, and speakers otherwise reach for から, which also keeps it clear of the comparative より. Here it attaches to a noun, whereas comparative より readily follows clauses and adjectives.",
+      "examples": [
+        {
+          "ruby": "お客様[きゃくさま]は正面[しょうめん]玄関[げんかん]よりお入[はい]りください。",
+          "english": "Customers are asked to enter through the main entrance."
+        },
+        {
+          "ruby": "山頂[さんちょう]へは北側[きたがわ]の尾根[おね]よりお進[すす]みください。",
+          "english": "For the summit, please proceed by way of the ridge on the north side."
+        },
+        {
+          "ruby": "特急[とっきゅう]は三番[さんばん]ホームより発車[はっしゃ]いたします。",
+          "english": "The limited express will depart from platform three."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "class_code": "E11",
+  "class_name": "可能-可能-コトガデキル類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1751",
+      "canonical_surface": "ことでき",
+      "glosses": [
+        "can; be able to",
+        "it is possible to"
+      ],
+      "usage_note": "Attaches to the dictionary form and is the most neutral, unambiguous way to say \"can\": unlike the れる/られる potential it can never be misread as a passive or an honorific, so it is the safe choice in writing, announcements, and formal speech. It is heavier than the short potential, so casual conversation usually shortens it. The negative is normally written with は (ことはできない / ことはできません); this is the unmarked negative shape, and only heavy stress or an explicit contrast (見ることはできるが、触ることはできない) gives it a concessive edge.",
+      "examples": [
+        {
+          "ruby": "予約[よやく]すれば、朝[あさ]九時[くじ]から入場[にゅうじょう]することができます。",
+          "english": "If you book ahead, you can get in from nine in the morning."
+        },
+        {
+          "ruby": "この橋[はし]は、大[おお]きな車[くるま]でも渡[わた]ることができる。",
+          "english": "Even a large vehicle can cross this bridge."
+        },
+        {
+          "ruby": "姉[あね]は子供[こども]に五[ご]か国語[こくご]を教[おし]えることができます。",
+          "english": "My older sister is able to teach children five languages."
+        }
+      ]
+    },
+    {
+      "l2_id": "3321",
+      "canonical_surface": "れ",
+      "glosses": [
+        "can; be able to",
+        "can be done"
+      ],
+      "usage_note": "The short potential, built here on the irrealis stem of ichidan verbs (見る → 見られる, 食べる → 食べられる). Because the same られる form also serves as passive and honorific, context has to disambiguate, which is one reason casual speech so often drops the ら (見れる, 食べれる); that ら-less form is still avoided in writing and broadcasting. Choose ことができる instead when ambiguity would be costly, and 得る when you mean \"could conceivably happen\" rather than \"is able to.\"",
+      "examples": [
+        {
+          "ruby": "今日[きょう]は忙[いそが]しくて、夜[よる]のドラマは見[み]られない。",
+          "english": "I'm too busy today to watch tonight's drama."
+        },
+        {
+          "ruby": "明日[あす]なら、六時[ろくじ]でも起[お]きられます。",
+          "english": "If it's tomorrow, I can get up even at six."
+        },
+        {
+          "ruby": "甘[あま]いものが苦手[にがて]で、羊羹[ようかん]は半分[はんぶん]しか食[た]べられない。",
+          "english": "I'm not big on sweets, so I can only get through half a piece of yokan."
+        }
+      ]
+    },
+    {
+      "l2_id": "3331",
+      "canonical_surface": "え",
+      "glosses": [
+        "can; be possible to",
+        "could conceivably; is possible"
+      ],
+      "usage_note": "A written, rather formal auxiliary on the masu-stem. It mostly reports that something is possible in the circumstances or conceivable, not that a person has the skill, so it pairs naturally with verbs of occurrence and cognition (起こり得る, 考え得る); with a human subject it does shade into \"is in a position to\" (成し得る). The plain and prenominal form may be read うる or える, but in modern usage every other form is え- (得ます・得ない・得た); only fossilized literary forms such as あり得べき keep う.",
+      "examples": [
+        {
+          "ruby": "誰[だれ]にでも起[お]こり得[う]る事故[じこ]だと思[おも]う。",
+          "english": "I'd say it's the kind of accident that could happen to anyone."
+        },
+        {
+          "ruby": "この資料[しりょう]だけでは、噂[うわさ]の出所[でどころ]を突[つ]き止[と]め得[え]ない。",
+          "english": "These documents alone cannot get us to the source of the rumor."
+        },
+        {
+          "ruby": "今[いま]の予算[よさん]で成[な]し得[う]る最善[さいぜん]の案[あん]がこれだ。",
+          "english": "This is the best plan we could conceivably pull off on the current budget."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "class_code": "l22",
+  "class_name": "強調-全面的-ニシテ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0252",
+      "canonical_surface": "にして",
+      "glosses": [
+        "in as little as …",
+        "at (the age of) …",
+        "on the very …"
+      ],
+      "usage_note": "Emphatic にして takes a measure of time, an age, or an ordinal attempt and presents it as remarkable — startlingly short (一夜にして), startlingly late or early (三十路にして, 五十歳にして), or hard-won (三度目にして). It carries a formal, written flavour and survives in set phrases such as ローマは一日にして成らず; casual speech would use で or たった〜で instead. The same form has two other lives worth recognizing: joining two properties of one person (学者にして詩人), and, chiefly in older or stiff prose, meaning \"even\" (彼にしてこの失敗) where modern Japanese would say 彼でさえ or 彼ほどの人でも.",
+      "examples": [
+        {
+          "ruby": "長年[ながねん]の努力[どりょく]が、一夜[いちや]にして水[みず]の泡[あわ]となった。",
+          "english": "Years of effort came to nothing in the space of a single night."
+        },
+        {
+          "ruby": "三十路[みそじ]にして、彼女[かのじょ]は初[はじ]めて筆[ふで]を執[と]った。",
+          "english": "It was in her thirties that she first took up the pen."
+        },
+        {
+          "ruby": "三度目[さんどめ]の挑戦[ちょうせん]にして、彼[かれ]の小説[しょうせつ]は賞[しょう]を取[と]った。",
+          "english": "On his third try, and only then, his novel took the prize."
+        }
+      ]
+    }
+  ]
+}

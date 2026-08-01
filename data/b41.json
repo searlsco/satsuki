@@ -1,0 +1,37 @@
+{
+  "class_code": "b41",
+  "class_name": "対象-状態の対象-ガ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0953",
+      "canonical_surface": "が",
+      "glosses": [
+        "marks the object of a stative predicate",
+        "(what is liked, understood, wanted, or perceived)"
+      ],
+      "usage_note": "With predicates that describe a state rather than an action — 好きだ, 嫌いだ, 上手だ, 苦手だ, 分かる, できる, 要る, 見える, 聞こえる, potentials, and 〜たい / 〜がほしい — the thing the state is about is marked with が, not を, while the experiencer takes は or が, and with 分かる, 見える, 聞こえる, 要る it may also take には. Learners who transfer English transitivity and write 日本語を分かる produce the classic mistake. を does turn up with 〜たい and with some potential verbs when the speaker stresses the action itself (水を飲みたい), but が is the default and the safe answer in short, simple clauses; を is normal once the object is separated from the predicate or the action itself is in focus.",
+      "examples": [
+        {
+          "ruby": "帰[かえ]り道[みち]で、とにかく冷[つめ]たい水[みず]が飲[の]みたかった。",
+          "english": "On the walk home, all I wanted was a drink of cold water."
+        },
+        {
+          "ruby": "弟[おとうと]は昔[むかし]から蜘蛛[くも]が苦手[にがて]らしい。",
+          "english": "My little brother has apparently always been squeamish about spiders."
+        },
+        {
+          "ruby": "祖父[そふ]は今[いま]でも細[こま]かい字[じ]がよく見[み]えるらしい。",
+          "english": "My grandfather can still make out fine print perfectly well, it seems."
+        }
+      ]
+    }
+  ]
+}

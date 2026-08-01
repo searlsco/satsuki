@@ -1,0 +1,37 @@
+{
+  "class_code": "x14",
+  "class_name": "疑問-問いかけ-ダイ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "2521",
+      "canonical_surface": "だい",
+      "glosses": [
+        "…?",
+        "(familiar wh-question)"
+      ],
+      "usage_note": "The interrogative-word counterpart of かい: it wants 何, 誰, どこ, いつ or どうして in the sentence, whereas かい takes the yes-no questions. It attaches to a noun, or to explanatory の/ん (〜んだい), rather than directly to a verb. Like かい it is familiar, markedly masculine and rather dated, fine with family, friends and juniors but not with a superior.",
+      "examples": [
+        {
+          "ruby": "こんな時間[じかん]に一体[いったい]どこへ行[い]く気[き]だい。",
+          "english": "Where on earth do you think you're off to at this hour?"
+        },
+        {
+          "ruby": "君[きみ]が一番[いちばん]好[す]きな季節[きせつ]はいつだい。",
+          "english": "Which season's your favorite, then?"
+        },
+        {
+          "ruby": "入口[いりぐち]の前[まえ]に立[た]っている男[おとこ]は誰[だれ]だい。",
+          "english": "Who's that fellow standing in front of the entrance?"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "class_code": "s22",
+  "class_name": "理由-因果-ノデ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0272",
+      "canonical_surface": "から",
+      "glosses": [
+        "because …",
+        "since …",
+        "so …"
+      ],
+      "usage_note": "The plainest and most subjective reason marker: it presents the reason as the speaker's own grounds for saying or doing something, which is why blunt commands and prohibitions prefer it (熱いから触るな); ので is perfectly usable before a polite request (熱いのでお気をつけください) but sounds more deferential, and only the もの-family rules such main clauses out. It hooks onto plain forms directly, but a noun or na-adjective needs だ first (休みだから). ので is the more detached, more deferential sibling, so business writing and apologies lean that way while conversation and argument lean on から.",
+      "examples": [
+        {
+          "ruby": "先生[せんせい]が待[ま]っているから、急[いそ]いで教室[きょうしつ]へ行[い]こう。",
+          "english": "The teacher's waiting for us, so let's hurry over to the classroom."
+        },
+        {
+          "ruby": "危[あぶ]ないから、そこには近[ちか]づかないでください。",
+          "english": "It's dangerous, so please don't go near there."
+        },
+        {
+          "ruby": "財布[さいふ]を家[いえ]に忘[わす]れたから、お金[かね]が払[はら]えない。",
+          "english": "I left my wallet at home, so I can't pay."
+        }
+      ]
+    },
+    {
+      "l2_id": "0721",
+      "canonical_surface": "んで",
+      "glosses": [
+        "because …",
+        "since …",
+        "so …"
+      ],
+      "usage_note": "The spoken contraction of ので, and it inherits ので's job: presenting the reason as a plain circumstance rather than as the speaker's insistence, which makes it the softer choice when excusing yourself or asking for allowances. The contraction is conversational — say it, and write ので instead in anything at or above the level of an email. Like ので it takes な after a noun or na-adjective (不在なんで), never だ.",
+      "examples": [
+        {
+          "ruby": "ちょっと熱[ねつ]があるんで、今日[きょう]は早[はや]めに帰[かえ]ります。",
+          "english": "I'm running a bit of a fever, so I'll head home early today."
+        },
+        {
+          "ruby": "今[いま]から出[で]るんで、二十分[にじゅっぷん]ほどで着[つ]きます。",
+          "english": "I'm leaving now, so I'll be there in about twenty minutes."
+        },
+        {
+          "ruby": "駅前[えきまえ]の道[みち]が混[こ]んでいるんで、少[すこ]し遅[おく]れます。",
+          "english": "The road by the station is jammed, so I'll be a little late."
+        }
+      ]
+    },
+    {
+      "l2_id": "0741",
+      "canonical_surface": "もんだから",
+      "glosses": [
+        "(it's) just that …",
+        "because … , you see",
+        "seeing as …"
+      ],
+      "usage_note": "From the nominalizer もの plus だから: it packages the reason as a state of affairs that anyone would have been swept along by, so it is the grammar of excuses and self-justification ('the dog kept barking, so of course …'). The main clause reports what happened, not what should happen: commands, requests and invitations do not follow it (×うるさいもんだから静かにしてください). もんだから and もんですから are the spoken contractions of ものだから and ものですから; drop back to the full もの spelling in polite or written contexts, and note that a noun or na-adjective attaches with な rather than だ (苦手なもんだから、ビールは遠慮します).",
+      "examples": [
+        {
+          "ruby": "上司[じょうし]がしつこく催促[さいそく]するもんだから、慌[あわ]てて資料[しりょう]を送[おく]った。",
+          "english": "My boss kept badgering me about it, so I fired off the documents in a panic."
+        },
+        {
+          "ruby": "隣[となり]の犬[いぬ]が一晩中[ひとばんじゅう]吠[ほ]えるもんだから、苦情[くじょう]を言[い]いに行[い]った。",
+          "english": "The dog next door barked all night long, so of course I went over to complain."
+        },
+        {
+          "ruby": "彼[かれ]の話[はなし]があまりに長[なが]いもんだから、途中[とちゅう]で席[せき]を立[た]った。",
+          "english": "His story just dragged on and on, so I got up and left partway through."
+        }
+      ]
+    },
+    {
+      "l2_id": "0811",
+      "canonical_surface": "もんで",
+      "glosses": [
+        "because …",
+        "what with …",
+        "… , you see"
+      ],
+      "usage_note": "The で-connective member of the ものだから family, and the mildest of them: where もんだから pushes the excuse at the listener, もんで simply lays the circumstance down and lets the sentence trail off, which is why it is the standard opener of a polite apology (急な用事が入ったもんで…). It shares the family's restriction against commands, requests and invitations in the main clause. もので is the neutral spelling and もんで the contracted, conversational one; politeness rides on the main clause rather than on the connective (急な用事が入ったもので、失礼いたします). ものですから is the polite member of the ものだから branch.",
+      "examples": [
+        {
+          "ruby": "毎朝[まいあさ]六時[ろくじ]に家[いえ]を出[で]るもんで、夜[よる]は早[はや]く寝[ね]ています。",
+          "english": "I leave the house at six every morning, you see, so I turn in early."
+        },
+        {
+          "ruby": "電波[でんぱ]がここだけ弱[よわ]いもんで、声[こえ]が途切[とぎ]れて申[もう]し訳[わけ]ありません。",
+          "english": "The signal is poor just here, so I'm sorry if I keep cutting out."
+        },
+        {
+          "ruby": "この時期[じき]はどうしても忙[いそが]しくなるもんで、返事[へんじ]が遅[おそ]くなりました。",
+          "english": "This time of year always gets hectic, so I'm sorry to be slow replying."
+        }
+      ]
+    },
+    {
+      "l2_id": "0821",
+      "canonical_surface": "もん",
+      "glosses": [
+        "because …",
+        "… , that's why",
+        "'cause … (petulant)"
+      ],
+      "usage_note": "The sentence-final version of the same もの, used to push back at a listener who is blaming or doubting you: it hands over your reason with a note of complaint or 甘え, and it very often answers a preceding だって. Dictionaries tie it especially to women's and children's speech, and it stays firmly casual — the full もの sounds softer and more feminine, もん blunter. It follows plain forms directly, and in speech it also follows a noun plus だ (まだ子供だもん).",
+      "examples": [
+        {
+          "ruby": "だって、私[わたし]よりあの子[こ]のほうが上手[じょうず]にできるもん。",
+          "english": "But she's better at it than I am!"
+        },
+        {
+          "ruby": "今[いま]さらそんなこと言[い]われても困[こま]るもん。",
+          "english": "You can't spring that on me now; it just leaves me stuck."
+        },
+        {
+          "ruby": "私[わたし]だって約束[やくそく]はちゃんと守[まも]るもん。",
+          "english": "I keep my promises too, you know."
+        }
+      ]
+    }
+  ]
+}

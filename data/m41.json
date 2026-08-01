@@ -1,0 +1,38 @@
+{
+  "class_code": "m41",
+  "class_name": "限定-熱中-バカリ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "3022",
+      "canonical_surface": "ばっかり",
+      "glosses": [
+        "nothing but …",
+        "always …",
+        "just … and nothing else"
+      ],
+      "usage_note": "The emphatic, conversational stretching of ばかり, and it usually carries the speaker's exasperation at someone stuck on one thing. After a noun it means the person does or has nothing but that (ゲームばっかり); after a dictionary-form verb it means they do nothing except that action, typically running on into 〜ばかりで. Keep it apart from 〜たばかり \"has just done\", a different construction entirely; and note that speech leans even harder on 〜てばかりいる, which this corpus rule does not license.",
+      "examples": [
+        {
+          "ruby": "息子[むすこ]は休[やす]みの日[ひ]はゲームばっかりしている。",
+          "english": "My son does nothing but play video games on his days off."
+        },
+        {
+          "ruby": "あの人[ひと]は文句[もんく]ばっかりで、手[て]を動[うご]かさない。",
+          "english": "All that guy does is complain; he never lifts a finger."
+        },
+        {
+          "ruby": "妹[いもうと]は泣[な]くばっかりで、何[なに]があったか話[はな]さない。",
+          "english": "My sister just cries and won't tell me what happened."
+        }
+      ]
+    }
+  ]
+}

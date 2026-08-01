@@ -1,0 +1,38 @@
+{
+  "class_code": "G31",
+  "class_name": "意志-計画-ツモリ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1851",
+      "canonical_surface": "つもり",
+      "glosses": [
+        "intend to …",
+        "plan to …",
+        "mean to …"
+      ],
+      "usage_note": "A noun meaning 'intention', so it takes the dictionary form and a copula: 〜つもりだ. It reports a plan already formed and held, which is why it sounds settled next to the on-the-spot 〜(よ)う, and why asking a superior 何をするつもりですか can come out accusatory. The negative 〜ないつもりだ says the plan is not to act; 〜つもりはない denies having any such intention at all.",
+      "examples": [
+        {
+          "ruby": "来月[らいげつ]、京都[きょうと]へ引[ひ]っ越[こ]すつもりです。",
+          "english": "I'm planning to move to Kyoto next month."
+        },
+        {
+          "ruby": "この話[はなし]はまだ誰[だれ]にも伝[つた]えるつもりはない。",
+          "english": "I have no intention of passing this on to anyone yet."
+        },
+        {
+          "ruby": "その件[けん]は上司[じょうし]に報告[ほうこく]するつもりだった。",
+          "english": "I had meant to report that matter to my boss."
+        }
+      ]
+    }
+  ]
+}

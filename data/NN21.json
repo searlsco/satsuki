@@ -1,0 +1,37 @@
+{
+  "class_code": "N21",
+  "class_name": "目的-移動の目的-ニ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "2938",
+      "canonical_surface": "にゃ",
+      "glosses": [
+        "(go/come) to …",
+        "to … (purpose of motion)"
+      ],
+      "usage_note": "The purpose-of-motion に: it takes either a noun of activity (買い物に, 散歩に) or a verb's masu-stem (見に, 迎えに), and the main clause is a verb of movement — 行く, 来る, 帰る, 出かける, 寄る — which casual speech may leave unsaid (「ちょっと買い物に。」). Because the slot is the masu-stem, no object may follow the pattern; whatever is being fetched or watched goes before it (雑誌を買いに行く). にゃ is the casual contraction of には, so it adds the contrastive shading of は to the same purpose phrase and belongs to relaxed or regional speech. Do not confuse it with the homographic にゃ from なければ (行[い]かにゃならん), which contracts a conditional rather than には.",
+      "examples": [
+        {
+          "ruby": "今日[きょう]は昼[ひる]から友達[ともだち]と映画[えいが]を見[み]に行[い]く。",
+          "english": "This afternoon I'm going to see a movie with a friend."
+        },
+        {
+          "ruby": "母[はは]が空港[くうこう]まで迎[むか]えに来[き]てくれた。",
+          "english": "My mother came all the way to the airport to pick me up."
+        },
+        {
+          "ruby": "スーパーは近[ちか]いから、車[くるま]で買[か]い物[もの]にゃ行[い]かないよ。",
+          "english": "The supermarket's close by, so it's not like I drive out to do the shopping."
+        }
+      ]
+    }
+  ]
+}

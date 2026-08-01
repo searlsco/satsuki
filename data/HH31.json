@@ -1,0 +1,60 @@
+{
+  "class_code": "H31",
+  "class_name": "自然発生-強制-ナイデハオカナイ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1961",
+      "canonical_surface": "ないでなんかいられない",
+      "glosses": [
+        "can't help …ing",
+        "can't keep oneself from …ing"
+      ],
+      "usage_note": "Describes a reaction the subject is unable to suppress, almost always the speaker's own feeling or an act driven by it; the ずに variants are the everyday shape (する becomes せずにはいられない) and the ないでは variants are a little heavier, while the なんか・など・だって insertions add exasperation. Contrast the sibling ないではおかない, which is about what an event inevitably forces on someone else rather than what the speaker cannot resist.",
+      "examples": [
+        {
+          "ruby": "その手紙[てがみ]を読[よ]んで、涙[なみだ]をこぼさずにはいられなかった。",
+          "english": "Reading that letter, I just couldn't hold back the tears."
+        },
+        {
+          "ruby": "友[とも]だちが困[こま]っているのに、助[たす]けないでなんかいられないよ。",
+          "english": "My friend's having a hard time; there's no way I could just not help."
+        },
+        {
+          "ruby": "連絡[れんらく]が途絶[とだ]えたままなので、心配[しんぱい]せずにはいられません。",
+          "english": "With no word from them at all, I can't help worrying."
+        }
+      ]
+    },
+    {
+      "l2_id": "2001",
+      "canonical_surface": "ないではおかない",
+      "glosses": [
+        "inevitably brings about …",
+        "will not rest until …"
+      ],
+      "usage_note": "Two readings share one form: with an event or a causative verb as subject, the thing inevitably provokes the result (この結末は読者を泣かせずにはおかない); with a human subject it is a hard vow not to let the matter rest. This is formal, written Japanese — commentary, criticism, courtroom-flavored prose — rather than conversation, and する becomes せずにはおかない. Where ずにはいられない reports a feeling the speaker cannot suppress, this pattern points outward at what will be inflicted or forced.",
+      "examples": [
+        {
+          "ruby": "この判決[はんけつ]は社会[しゃかい]に大[おお]きな議論[ぎろん]を呼[よ]ばずにはおかない。",
+          "english": "This ruling is bound to touch off a major debate in society."
+        },
+        {
+          "ruby": "この物語[ものがたり]の結末[けつまつ]は、読[よ]む者[もの]の心[こころ]を捉[とら]えないではおかない。",
+          "english": "The ending of this tale cannot fail to seize the reader's heart."
+        },
+        {
+          "ruby": "我々[われわれ]は不正[ふせい]の全容[ぜんよう]を明[あき]らかにせずにはおかない。",
+          "english": "We will not rest until the full extent of the misconduct is laid bare."
+        }
+      ]
+    }
+  ]
+}

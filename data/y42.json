@@ -1,0 +1,37 @@
+{
+  "class_code": "y42",
+  "class_name": "否定-般-マイトスル類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1911",
+      "canonical_surface": "まいとはし",
+      "glosses": [
+        "try not to …",
+        "be determined not to …"
+      ],
+      "usage_note": "まい is the negative volitional, so 〜まいとする is resolving or straining not to do something, most often an involuntary reaction the subject is suppressing. Godan verbs take the dictionary form (泣くまい); ichidan and する verbs appear both in the full form (見るまい, するまい) and, in more literary usage, shortened on the 未然形 (見まい, すまい, しまい). The は of 〜まいとはした marks contrast, conceding the attempt just before reporting that it failed, and the whole pattern belongs to narrative and written prose rather than casual talk.",
+      "examples": [
+        {
+          "ruby": "彼[かれ]は泣[な]くまいとして天井[てんじょう]をじっと見[み]ていた。",
+          "english": "Determined not to cry, he kept his eyes fixed on the ceiling."
+        },
+        {
+          "ruby": "二度[にど]と同[おな]じ失敗[しっぱい]をするまいとしている。",
+          "english": "He is making very sure he never repeats that mistake."
+        },
+        {
+          "ruby": "余計[よけい]なことは書[か]くまいとはしたが、つい長文[ちょうぶん]になった。",
+          "english": "I did try to keep the extra remarks out of it, but it still turned into a wall of text."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "class_code": "a21",
+  "class_name": "立場-視点-ニトッテ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0011",
+      "canonical_surface": "にとっての",
+      "glosses": [
+        "for (someone)",
+        "to (someone)",
+        "as far as … is concerned"
+      ],
+      "usage_note": "Marks the person or group for whom an evaluation holds, so it is almost always followed by an assessing predicate (大切だ, ありがたい, 難[むずか]しい) rather than by an action the noun performs. Where からすると invites you to reason from that party's position toward a conclusion, にとって simply says who the value judgment is true for. にとっての is the adnominal shape used before a noun (私にとっての宝物); にとりまして is the polite business variant and にとっちゃ the casual one.",
+      "examples": [
+        {
+          "ruby": "子[こ]どもにとって、遊[あそ]びは大切[たいせつ]な学[まな]びだ。",
+          "english": "For a child, play is a vital form of learning."
+        },
+        {
+          "ruby": "母[はは]にとって、猫[ねこ]は家族[かぞく]の一員[いちいん]です。",
+          "english": "To my mother, the cat is a member of the family."
+        },
+        {
+          "ruby": "彼[かれ]にとっての幸[しあわ]せは、静[しず]かに本[ほん]を読[よ]む時間[じかん]だ。",
+          "english": "For him, happiness is time spent quietly reading."
+        }
+      ]
+    }
+  ]
+}

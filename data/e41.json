@@ -1,0 +1,37 @@
+{
+  "class_code": "e41",
+  "class_name": "起点-離脱-ヲ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "2943",
+      "canonical_surface": "を",
+      "glosses": [
+        "from (leaving); out of",
+        "off (a vehicle)"
+      ],
+      "usage_note": "Marks the place or state something separates from, with intransitive verbs of departure and exit (出る、降りる、離れる), plus 卒業する. Nothing is acted on here, so it behaves quite unlike the direct-object を: the noun is simply the point left behind. から is often available with the motion verbs (家を出る／家から出る, バスを降りる／バスから降りる), where を frames the departure as one completed event and から draws attention to the physical path out; but with 卒業する only を works (○大学を卒業する, ×大学から卒業する).",
+      "examples": [
+        {
+          "ruby": "兄[あに]は毎朝[まいあさ]六時[ろくじ]に家[いえ]を出[で]て走[はし]っている。",
+          "english": "My brother leaves the house at six every morning and goes running."
+        },
+        {
+          "ruby": "次[つぎ]の角[かど]でバスを降[お]りたほうが近道[ちかみち]だよ。",
+          "english": "You're better off getting off the bus at the next corner; it's a shortcut."
+        },
+        {
+          "ruby": "姉[あね]は去年[きょねん]大学[だいがく]を卒業[そつぎょう]して働[はたら]いている。",
+          "english": "My sister graduated from university last year and is working now."
+        }
+      ]
+    }
+  ]
+}

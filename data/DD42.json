@@ -1,0 +1,37 @@
+{
+  "class_code": "D42",
+  "class_name": "判断-断定-ダケアル類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "2311",
+      "canonical_surface": "だけはあり",
+      "glosses": [
+        "no wonder …; …, as you'd expect",
+        "it shows that …; it was worth …"
+      ],
+      "usage_note": "Ties an observed quality back to the effort, training, price, or reputation that earned it: \"X, and it shows.\" It attaches to a plain-form verb or た-form, to an i-adjective, to a な-adjective + な, or directly to a noun, and it very often pairs with さすが. だけのことはある is the fuller, more emphatic wording and the more common one in speech; bare だけはある is comparatively terse, and だけあって is the same judgment used adverbially mid-sentence. The evaluation is normally positive or at least admiring, so it sits oddly on a disappointing result.",
+      "examples": [
+        {
+          "ruby": "三年[さんねん]も習[なら]っただけあって、発音[はつおん]がまるで違[ちが]う。",
+          "english": "Three whole years of lessons really do show—the pronunciation is on a completely different level."
+        },
+        {
+          "ruby": "さすが本場[ほんば]で修業[しゅぎょう]しただけのことはある味[あじ]だ。",
+          "english": "This tastes exactly like you'd hope from someone who trained where the dish comes from."
+        },
+        {
+          "ruby": "この鞄[かばん]は十年[じゅうねん]使[つか]っても平気[へいき]で、高[たか]いだけはある。",
+          "english": "This bag is still going strong after ten years—you really do get what you pay for."
+        }
+      ]
+    }
+  ]
+}

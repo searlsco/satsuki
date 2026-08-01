@@ -1,0 +1,38 @@
+{
+  "class_code": "l31",
+  "class_name": "強調-感情-アマリニ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "2671",
+      "canonical_surface": "あまりに",
+      "glosses": [
+        "out of sheer …",
+        "so much … that …",
+        "in one's excessive …"
+      ],
+      "usage_note": "The noun 余り \"excess\" frozen into a cause clause: an emotion or an overdone action is pushed too far, and the result — usually unwelcome or extreme — follows. It hangs on a plain-form verb (心配するあまりに) or on a noun of feeling through の (緊張のあまりに); the に is optional and often dropped in print. Do not confuse it with the ordinary adverb あまり(に), which means \"(not) very\" or \"excessively\" and modifies a predicate directly; the pattern here is narrative in tone rather than conversational.",
+      "examples": [
+        {
+          "ruby": "娘[むすめ]を心配[しんぱい]するあまりに、母[はは]は毎晩[まいばん]電話[でんわ]をかけた。",
+          "english": "So consumed with worry for her daughter, the mother phoned every single night."
+        },
+        {
+          "ruby": "緊張[きんちょう]のあまりに、自分[じぶん]の名前[なまえ]を言[い]い間違[まちが]えた。",
+          "english": "I was so keyed up that I got my own name wrong."
+        },
+        {
+          "ruby": "勝[か]ちを急[いそ]ぐあまりに、彼[かれ]は守[まも]りをおろそかにした。",
+          "english": "In his rush to win, he let his defence slide."
+        }
+      ]
+    }
+  ]
+}

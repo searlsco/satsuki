@@ -1,0 +1,86 @@
+{
+  "class_code": "D31",
+  "class_name": "判断-当然-ワケ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1611",
+      "canonical_surface": "ん",
+      "glosses": [
+        "(explanatory) it's that …",
+        "the fact is …",
+        "you see"
+      ],
+      "usage_note": "ん is the spoken contraction of explanatory の(だ); it frames a statement as background, reason, or a request for one, rather than as bare news. Unlike わけだ, which draws a conclusion that follows logically from something just learned, んだ simply presents the situation as the explanation for what is at issue. It takes the prenominal form, so a noun or na-adjective links with な (学生なんです), never with だ.",
+      "examples": [
+        {
+          "ruby": "悪[わる]いけれど、明日[あした]は朝[あさ]が早[はや]いんだ。",
+          "english": "Sorry, but the thing is I have an early start tomorrow."
+        },
+        {
+          "ruby": "電気[でんき]が消[き]えているけど、もう寝[ね]るんですか。",
+          "english": "The lights are off — are you going to bed already?"
+        },
+        {
+          "ruby": "実[じつ]は昨日[きのう]、財布[さいふ]を落[お]としたんです。",
+          "english": "The truth is, I dropped my wallet yesterday."
+        }
+      ]
+    },
+    {
+      "l2_id": "1621",
+      "canonical_surface": "わけ",
+      "glosses": [
+        "no wonder …",
+        "that's why …",
+        "it naturally follows that …"
+      ],
+      "usage_note": "わけだ presents the clause as the conclusion that naturally follows from a fact the speaker has just learned or worked out; it pairs readily with どうりで and それで. It differs from はずだ, which states an expectation that may still turn out wrong, and from んだ, which supplies an explanation rather than deriving a consequence. It takes the prenominal form, with な after a noun or na-adjective, and belongs to ordinary neutral speech and writing alike.",
+      "examples": [
+        {
+          "ruby": "窓[まど]が開[あ]いていたのか、どうりで部屋[へや]が寒[さむ]いわけだ。",
+          "english": "So the window was open — no wonder the room is freezing."
+        },
+        {
+          "ruby": "値上[ねあ]げしたのだから、客[きゃく]が減[へ]るわけだ。",
+          "english": "They raised prices, so naturally customers drop off."
+        },
+        {
+          "ruby": "十年[じゅうねん]もパリで暮[く]らしていれば、フランス語[ご]がうまいわけだ。",
+          "english": "Live in Paris for ten whole years and no wonder your French is good."
+        }
+      ]
+    },
+    {
+      "l2_id": "1631",
+      "canonical_surface": "はず",
+      "glosses": [
+        "is supposed to …",
+        "ought to …",
+        "should (by expectation)"
+      ],
+      "usage_note": "はずだ states a confident expectation grounded in a reason the speaker knows — a schedule, a rule, a calculation — so it can be contradicted by reality, and はずだったのに reports exactly that disappointment. わけだ, by contrast, records something the speaker has already accepted as following from the facts, so use わけ only when the outcome is already confirmed. It takes the prenominal form (noun + の, na-adjective + な) and is typically avoided for the speaker's own deliberate plans, where つもり is the natural choice.",
+      "examples": [
+        {
+          "ruby": "彼[かれ]は昨日[きのう]出発[しゅっぱつ]したから、もう着[つ]いているはずだ。",
+          "english": "He left yesterday, so he ought to have arrived by now."
+        },
+        {
+          "ruby": "駅前[えきまえ]の店[みせ]なら、値段[ねだん]はもっと安[やす]いはずだ。",
+          "english": "At the shop by the station the price should be cheaper."
+        },
+        {
+          "ruby": "約束[やくそく]の時間[じかん]は三時[さんじ]だったはずです。",
+          "english": "The time we agreed on was supposed to be three o'clock."
+        }
+      ]
+    }
+  ]
+}

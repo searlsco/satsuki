@@ -1,0 +1,86 @@
+{
+  "class_code": "t33",
+  "class_name": "逆接-想外-ノニ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0862",
+      "canonical_surface": "のに",
+      "glosses": [
+        "even though …",
+        "although …",
+        "and yet …"
+      ],
+      "usage_note": "The everyday marker for a result that contradicts what the first clause led you to expect, usually coloured with dissatisfaction, regret or surprise; the first clause states something already established, not a hypothesis. It is neutral about who the subjects are, so it covers ground くせに cannot: くせに needs one shared, criticizable person, while のに happily contrasts two different subjects or none at all. After a noun or na-adjective it needs な (まだ四月なのに), and left dangling at the end of a sentence it becomes a sigh of regret (来てくれればよかったのに).",
+      "examples": [
+        {
+          "ruby": "部屋[へや]はこんなに寒[さむ]いのに、彼[かれ]は窓[まど]を開[あ]けたがる。",
+          "english": "The room is freezing, and yet he keeps wanting to open the window."
+        },
+        {
+          "ruby": "毎日[まいにち]水[みず]をやるのに、この鉢[はち]の花[はな]は咲[さ]かない。",
+          "english": "I water it every day, and still the flowers in this pot won't bloom."
+        },
+        {
+          "ruby": "約束[やくそく]の時間[じかん]を過[す]ぎたのに、電車[でんしゃ]はまだ来[こ]ない。",
+          "english": "The scheduled time has come and gone, and the train still isn't here."
+        }
+      ]
+    },
+    {
+      "l2_id": "1071",
+      "canonical_surface": "もんを",
+      "glosses": [
+        "if only …",
+        "when all it would have taken was …",
+        "and yet …"
+      ],
+      "usage_note": "Formal noun もの plus を, used to voice exasperation or regret that an easy better course was not taken; it typically follows a conditional (〜ば / 〜たら … ものを) and very often ends the sentence, leaving the actual outcome unspoken and the complaint hanging. It is stiffer and more emotionally loaded than のに, which can report a plain contradiction with no blame attached; もんを is its spoken contraction. It also attaches to i-adjectives, most often in the fixed frame 〜ばいいものを (黙っていればいいものを).",
+      "examples": [
+        {
+          "ruby": "素直[すなお]に謝[あやま]れば済[す]むものを、彼[かれ]は言[い]い訳[わけ]を並[なら]べた。",
+          "english": "A simple apology would have settled it, and instead he reeled off excuses."
+        },
+        {
+          "ruby": "一言[ひとこと]相談[そうだん]してくれれば、金[かね]の工面[くめん]はできるものを。",
+          "english": "If he'd said one word to me, I could have scared up the money."
+        },
+        {
+          "ruby": "もう少[すこ]し待[ま]てば席[せき]に座[すわ]れるものを、彼[かれ]は帰[かえ]った。",
+          "english": "A seat would have opened up if he'd waited a bit, and off he went instead."
+        }
+      ]
+    },
+    {
+      "l2_id": "1101",
+      "canonical_surface": "ところを",
+      "glosses": [
+        "when …",
+        "though it is …",
+        "where … would normally"
+      ],
+      "usage_note": "Formal noun ところ plus を, marking a situation that the following clause then cuts against. Two uses share the form: prefacing a request, apology or thanks by naming the inconvenience being imposed (お忙しいところを恐れ入りますが), and pointing out a departure from the normal course of things (普段なら三十分で着くところを). It belongs to ceremonious speech and written narration, and the preceding clause is typically non-past. After a noun it takes の (お休みのところを).",
+      "examples": [
+        {
+          "ruby": "お忙[いそが]しいところを、わざわざお越[こ]しいただき恐縮[きょうしゅく]です。",
+          "english": "I'm much obliged to you for coming all this way when you're so busy."
+        },
+        {
+          "ruby": "普段[ふだん]なら三十分[さんじゅっぷん]で着[つ]くところを、二時間[にじかん]も要[よう]した。",
+          "english": "A trip that would normally take half an hour ended up taking two full hours."
+        },
+        {
+          "ruby": "実費[じっぴ]を請求[せいきゅう]できるところを、先方[せんぽう]は無償[むしょう]で応[おう]じた。",
+          "english": "They would have been within their rights to bill us for costs, yet they handled it free of charge."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "class_code": "c12",
+  "class_name": "仲介-原因-デモッテ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0072",
+      "canonical_surface": "でもっての",
+      "glosses": [
+        "with; by means of (emphatic)"
+      ],
+      "usage_note": "でもって is で with もって bolted on for emphasis: it puts weight on the means itself, often when the speaker is contrasting it with some other means that failed or was expected (力ではなく理屈でもって). It takes nouns like で does, but it sounds either slightly literary or slightly blustery, so plain で is safer in neutral writing; the written variants 以て・以って are the stiffest. Do not confuse it with the casual sentence-opening でもって ('and besides…'), which links clauses rather than marking an instrument.",
+      "examples": [
+        {
+          "ruby": "彼[かれ]は言葉[ことば]ではなく行動[こうどう]でもって答[こた]えた。",
+          "english": "He answered not with words but with what he actually did."
+        },
+        {
+          "ruby": "圧倒的[あっとうてき]な物量[ぶつりょう]でもって相手[あいて]を押[お]し切[き]った。",
+          "english": "They simply overwhelmed their opponent with sheer numbers."
+        },
+        {
+          "ruby": "こちらは誠意[せいい]でもって対応[たいおう]するほかない。",
+          "english": "All we can do on our end is meet them with genuine good faith."
+        }
+      ]
+    },
+    {
+      "l2_id": "0253",
+      "canonical_surface": "にして",
+      "glosses": [
+        "in (the space of); within",
+        "at a single stroke of"
+      ],
+      "usage_note": "In this instrumental-manner use にして is a bookish stand-in for で that almost always attaches to a noun naming a very short or very compressed span — 一瞬・一夜・一代・数年 — and it carries the speaker's astonishment that so much happened in so little. It belongs to narration and news writing; in speech 一瞬で and 一晩で are the ordinary equivalents. The same にして has quite separate uses (七十歳にして 'at the age of', 学者にして詩人 'both scholar and poet') that this instrumental sense should not be blurred with.",
+      "examples": [
+        {
+          "ruby": "火[ひ]の手[て]は一瞬[いっしゅん]にして倉庫[そうこ]全体[ぜんたい]を包[つつ]んだ。",
+          "english": "In an instant the flames had engulfed the entire warehouse."
+        },
+        {
+          "ruby": "彼[かれ]の名[な]は一夜[いちや]にして全国[ぜんこく]に知[し]れ渡[わた]った。",
+          "english": "Overnight, his name was known the length of the country."
+        },
+        {
+          "ruby": "祖父[そふ]は一代[いちだい]にして小[ちい]さな工場[こうじょう]を築[きず]いた。",
+          "english": "My grandfather built that little factory from nothing in a single generation."
+        }
+      ]
+    },
+    {
+      "l2_id": "0344",
+      "canonical_surface": "での",
+      "glosses": [
+        "with; by; using",
+        "out of (a material)"
+      ],
+      "usage_note": "で is the plain, unmarked instrumental particle and the default for concrete tools, vehicles, materials, and manner — everything the heavier をもって, でもって, and によって dress up. It attaches straight to a noun with no formality of its own, which makes it the right choice in conversation and the wrong one in ceremonial notices. Before a noun it becomes での (電話での問い合わせ).",
+      "examples": [
+        {
+          "ruby": "余[あま]った布[ぬの]で子供[こども]用[よう]の小[ちい]さな袋[ふくろ]を作[つく]った。",
+          "english": "I made a little bag for the kids out of some leftover fabric."
+        },
+        {
+          "ruby": "予約[よやく]はアプリで簡単[かんたん]に取[と]れますよ。",
+          "english": "You can book it easily right in the app."
+        },
+        {
+          "ruby": "大[おお]きな声[こえ]で名前[なまえ]を呼[よ]ばれて驚[おどろ]いた。",
+          "english": "It startled me to hear my name called out so loudly."
+        }
+      ]
+    }
+  ]
+}

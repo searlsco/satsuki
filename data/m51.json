@@ -1,0 +1,38 @@
+{
+  "class_code": "m51",
+  "class_name": "限定-範囲内-マデ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0304",
+      "canonical_surface": "まで",
+      "glosses": [
+        "until …",
+        "up to …",
+        "as far as …"
+      ],
+      "usage_note": "Marks the far edge of a stretch — of time, distance or degree — that the action continues over, and it pairs naturally with から for the near edge. Contrast 〜までに, which names a deadline for a one-shot action (五時までに出す \"hand it in by five\"), and the additive まで meaning \"even\", which belongs to a different pattern.",
+      "examples": [
+        {
+          "ruby": "駅[えき]から公園[こうえん]までゆっくり歩[ある]いた。",
+          "english": "We strolled all the way from the station to the park."
+        },
+        {
+          "ruby": "この図書館[としょかん]は夜[よる]九時[くじ]まで利用[りよう]できる。",
+          "english": "This library is open for use until nine at night."
+        },
+        {
+          "ruby": "彼[かれ]はコップの底[そこ]まで一気[いっき]に飲[の]み干[ほ]した。",
+          "english": "He drained the glass in one go, right down to the bottom."
+        }
+      ]
+    }
+  ]
+}

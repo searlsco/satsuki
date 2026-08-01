@@ -1,0 +1,86 @@
+{
+  "class_code": "t32",
+  "class_name": "逆接-想外-クセニ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1061",
+      "canonical_surface": "にしちゃ",
+      "glosses": [
+        "for a …",
+        "considering (that) …",
+        "given (that) …"
+      ],
+      "usage_note": "Names an explicit yardstick and then reports a result that overshoots or undershoots it: 新人にしては means 'measured against the standard for a newcomer'. The standard has to be something nameable, so it hooks straight onto a bare noun where its sibling わりに needs の first, and unlike わりに it is not normally used after a plain i-adjective. にしちゃ is the clipped conversational realization, にしては the everyday one, and にしましては the ます-polite realization heard in formal service speech.",
+      "examples": [
+        {
+          "ruby": "一日[いちにち]で仕上[しあ]げたにしては、上出来[じょうでき]だと思[おも]う。",
+          "english": "For something finished in a single day, I'd say it came out well."
+        },
+        {
+          "ruby": "彼[かれ]は新人[しんじん]にしては度胸[どきょう]が据[す]わっている。",
+          "english": "He's remarkably unflappable for a first-year hire."
+        },
+        {
+          "ruby": "三月[さんがつ]にしちゃ、ずいぶん風[かぜ]が冷[つめ]たいね。",
+          "english": "Pretty biting wind for March, isn't it."
+        }
+      ]
+    },
+    {
+      "l2_id": "1081",
+      "canonical_surface": "わりにゃ",
+      "glosses": [
+        "considering …",
+        "for all the …",
+        "more/less … than you'd expect"
+      ],
+      "usage_note": "Weighs a result against the degree the first clause would lead you to expect, so it takes gradable material — i-adjectives, past events with a measurable amount, or a noun of scale via の (値段の割に). That i-adjective slot is what separates it from にしては, and unlike くせに it carries no reproach, only a mild 'more/less than you'd think'. Keep it apart from the homophonous adverb 割に / 割と ('fairly, comparatively', as in 割に寒い), which is a separate word; わりにゃ is the clipped spoken realization and 割に the ordinary written one.",
+      "examples": [
+        {
+          "ruby": "この店[みせ]は狭[せま]い割[わり]に品揃[しなぞろ]えが豊富[ほうふ]だ。",
+          "english": "For such a cramped shop, it carries a surprising range."
+        },
+        {
+          "ruby": "五[ご]キロも走[はし]った割[わり]に、まったく疲[つか]れていない。",
+          "english": "Considering I ran five kilometers, I'm not tired in the slightest."
+        },
+        {
+          "ruby": "値段[ねだん]の割[わり]に、この鞄[かばん]は縫[ぬ]い目[め]が粗[あら]い。",
+          "english": "For what it costs, the stitching on this bag is sloppy."
+        }
+      ]
+    },
+    {
+      "l2_id": "1091",
+      "canonical_surface": "くせして",
+      "glosses": [
+        "and yet (of all people) …",
+        "for someone who's only …",
+        "even though … (said with reproach)"
+      ],
+      "usage_note": "The reproachful member of this group: the speaker is criticizing, mocking or looking down on someone whose behavior clashes with what they are. Teaching references state the restriction that both clauses must share a subject, and that subject is normally a person, which is why くせに cannot simply be swapped in for every のに. It attaches to a noun through の (子供のくせに) and to a na-adjective through な; くせして is the blunter, more colloquial realization of くせに and is best avoided about anyone senior to you.",
+      "examples": [
+        {
+          "ruby": "本当[ほんとう]は知[し]っているくせに、何[なに]も教[おし]えてくれない。",
+          "english": "He knows perfectly well, and yet he won't tell me a thing."
+        },
+        {
+          "ruby": "彼[かれ]は毎回[まいかい]遅[おく]れてくるくせして、平気[へいき]な顔[かお]をしている。",
+          "english": "He turns up late every single time and still has the nerve to look unbothered."
+        },
+        {
+          "ruby": "子供[こども]のくせに、ずいぶん大人[おとな]びた口[くち]をきく。",
+          "english": "Quite the grown-up way of talking, for a kid."
+        }
+      ]
+    }
+  ]
+}

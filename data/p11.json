@@ -1,0 +1,62 @@
+{
+  "class_code": "p11",
+  "class_name": "継起-般-タスエニ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0511",
+      "canonical_surface": "だすえの",
+      "glosses": [
+        "after (much) …, finally",
+        "in the end, after …",
+        "as the upshot of …"
+      ],
+      "usage_note": "Marks a drawn-out process — deliberating, struggling, negotiating — and then the outcome it finally arrived at, so it pairs naturally with 長い間, 何度も, さんざん. The interest is in the process, and the outcome itself may be good, bad, or neutral, which is exactly what separates it from 〜たあげく, whose result is virtually always unwelcome. It reads a shade formal; 〜た末に is the adverbial shape, 〜た末の modifies a noun.",
+      "examples": [
+        {
+          "ruby": "三時間[さんじかん]も話[はな]し合[あ]った末[すえ]に、計画[けいかく]は白紙[はくし]に戻[もど]った。",
+          "english": "After three solid hours of discussion, the plan was back to square one."
+        },
+        {
+          "ruby": "長[なが]い間[あいだ]悩[なや]んだ末[すえ]に、彼女[かのじょ]は留学[りゅうがく]を決[き]めた。",
+          "english": "After agonizing over it for a long time, she decided to study abroad."
+        },
+        {
+          "ruby": "何度[なんど]も試[ため]した末[すえ]に、ようやく原因[げんいん]を突[つ]き止[と]めた。",
+          "english": "After any number of attempts, we finally pinned down the cause."
+        }
+      ]
+    },
+    {
+      "l2_id": "0521",
+      "canonical_surface": "だあげくの",
+      "glosses": [
+        "after all that …, (only to)",
+        "and in the end, …",
+        "having gone to all the trouble of …"
+      ],
+      "usage_note": "Like 〜た末に it sums up a long or troublesome process, but the speaker is passing judgment: the result is disappointing, wasteful, or worse, so it does not take a happy ending (三年頑張ったあげく合格した is odd; 末に is what you want there). That evaluative charge also keeps it away from purely objective or natural events. 挙げ句 is the closing verse of a linked poem, hence \"what it all finally came to\".",
+      "examples": [
+        {
+          "ruby": "さんざん値切[ねぎ]ったあげく、彼[かれ]は何[なに]も買[か]わずに帰[かえ]った。",
+          "english": "After haggling endlessly, he went home without buying a thing."
+        },
+        {
+          "ruby": "叔父[おじ]は借金[しゃっきん]を重[かさ]ねたあげく、家[いえ]を手放[てばな]した。",
+          "english": "My uncle piled up debt after debt and ended up losing the house."
+        },
+        {
+          "ruby": "一時間[いちじかん]も並[なら]んだあげく、目当[めあ]ての品[しな]は売[う]り切[き]れだった。",
+          "english": "We queued for a whole hour only for the thing we came for to be sold out."
+        }
+      ]
+    }
+  ]
+}

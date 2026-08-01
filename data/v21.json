@@ -1,0 +1,60 @@
+{
+  "class_code": "v21",
+  "class_name": "付帯-並行-ナガラ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1141",
+      "canonical_surface": "ながらの",
+      "glosses": [
+        "while …; as one …",
+        "at the same time as"
+      ],
+      "usage_note": "The everyday marker of two actions at once, attached to the ます-stem; references state that both actions belong to the same subject, and the ながら clause is the backgrounded one. It also has a concessive sense (\"although\"), but that reading depends on a contrast being present in the context. The concessive ながら also attaches to nouns and adjectives (子供ながら、狭いながらも). つつ covers the same ground in formal prose.",
+      "examples": [
+        {
+          "ruby": "音楽[おんがく]を聞[き]きながら走[はし]るのが日課[にっか]になっている。",
+          "english": "Running with music on has become part of my daily routine."
+        },
+        {
+          "ruby": "友人[ゆうじん]は電話[でんわ]しながらノートに何[なに]かを書[か]きつけた。",
+          "english": "My friend scribbled something in a notebook while on the phone."
+        },
+        {
+          "ruby": "味[あじ]を見[み]ながら少[すこ]しずつ塩[しお]を足[た]していった。",
+          "english": "I added the salt little by little, tasting as I went."
+        }
+      ]
+    },
+    {
+      "l2_id": "1151",
+      "canonical_surface": "つつの",
+      "glosses": [
+        "while …; as one …",
+        "even while …; although"
+      ],
+      "usage_note": "The written-language counterpart of ながら, taking the same ます-stem and, likewise, a single shared subject. The concessive reading is the one that dominates modern prose, especially with verbs of thinking or knowing, as in 悪いと知りつつ (\"even knowing it's bad\"); つつも makes that reading explicit. Do not confuse it with 〜つつある, which says a change is in progress.",
+      "examples": [
+        {
+          "ruby": "体[からだ]に悪[わる]いと知[し]りつつ、つい夜更[よふ]かしをしてしまう。",
+          "english": "Knowing full well it's bad for me, I still end up staying up late."
+        },
+        {
+          "ruby": "険[けわ]しい山道[やまみち]を登[のぼ]りつつ、彼[かれ]は遠[とお]い日[ひ]のことを思[おも]い出[だ]した。",
+          "english": "As he climbed the steep mountain path, he found himself recalling days long past."
+        },
+        {
+          "ruby": "専門家[せんもんか]の意見[いけん]を参考[さんこう]にしつつ、計画[けいかく]を練[ね]り直[なお]した。",
+          "english": "Drawing on expert opinion, we reworked the plan."
+        }
+      ]
+    }
+  ]
+}

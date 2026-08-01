@@ -1,0 +1,129 @@
+{
+  "class_code": "r21",
+  "class_name": "順接-仮定-トシタラ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0571",
+      "canonical_surface": "ば",
+      "glosses": [
+        "if; provided that",
+        "whenever (general rule)"
+      ],
+      "usage_note": "The general-rule conditional: it states what reliably follows from a condition, which is why proverbs, math and statements of prerequisite live here (急がなければ間に合わない); for step-by-step operating instructions と is the default, while ば foregrounds the condition as a prerequisite rather than the sequence. It hangs on the 仮定形 stem (押す→押せば, 安い→安ければ); nouns and な-adjectives have no 仮定形 of their own, so they use なら(ば) or, in writing, であれば (学生であれば, 静かであれば). Teaching grammars treat a command, request or statement of the speaker's own intention in the main clause as blocked, but the block lifts when the ば-clause is stative or the two clauses have different subjects (安ければ買いたい is fine).",
+      "examples": [
+        {
+          "ruby": "もう少[すこ]し早[はや]く出[で]れば、最終[さいしゅう]バスに間[ま]に合[あ]う。",
+          "english": "Leave a little earlier and we'll make the last bus."
+        },
+        {
+          "ruby": "少[すこ]しずつ練習[れんしゅう]すれば、必[かなら]ず上手[じょうず]になる。",
+          "english": "Practice a little at a time and you're bound to get good at it."
+        },
+        {
+          "ruby": "値段[ねだん]が安[やす]ければ、こっちを選[えら]ぶ人[ひと]も多[おお]い。",
+          "english": "If the price is low, plenty of people go for this one."
+        }
+      ]
+    },
+    {
+      "l2_id": "0591",
+      "canonical_surface": "と",
+      "glosses": [
+        "when; whenever",
+        "if (as an automatic result)"
+      ],
+      "usage_note": "Links a condition to a result that follows automatically, so it is the conditional of natural law, habit, route directions and machine behavior; with a past main clause it also reports a discovery (角を曲がると海が見えた). Because the result is presented as out of anyone's hands, teaching grammars state that a command, request, invitation or statement of intention cannot follow it, which is the sharpest line between と and たら/なら. It takes the plain non-past form, affirmative or negative (降ると／降らないと), and a noun or な-adjective needs だ in front (静かだと).",
+      "examples": [
+        {
+          "ruby": "春[はる]が来[く]ると、この土手[どて]は桜[さくら]で埋[う]まる。",
+          "english": "When spring comes, this embankment is buried in cherry blossoms."
+        },
+        {
+          "ruby": "湿度[しつど]が高[たか]いと、洗濯物[せんたくもの]がなかなか乾[かわ]かない。",
+          "english": "When the humidity is high, the laundry just won't dry."
+        },
+        {
+          "ruby": "部屋[へや]が静[しず]かだと、かえって眠[ねむ]れなくなる。",
+          "english": "If the room is quiet, I actually end up unable to sleep."
+        }
+      ]
+    },
+    {
+      "l2_id": "0601",
+      "canonical_surface": "としたら",
+      "glosses": [
+        "supposing that; if we say that",
+        "if it turns out that"
+      ],
+      "usage_note": "Openly flags what follows as a supposition (\"let's say that…\"), where bare と or ば would present the link as a fact, so it handles everything from realistic planning to pure what-ifs. The main clause is typically the speaker's own judgment, wish or question, which is where it parts company with the more deductive とすると. としたら takes the plain form (a noun needs だ); としましたら is the polite variant, and もし or 仮に often sits at the head of the clause.",
+      "examples": [
+        {
+          "ruby": "今[いま]から出[で]かけるとしたら、何時[なんじ]の電車[でんしゃ]になりますか。",
+          "english": "Supposing we set out now, which train would that put us on?"
+        },
+        {
+          "ruby": "この話[はなし]が本当[ほんとう]だとしたら、放[ほう]ってはおけない。",
+          "english": "If this story turns out to be true, we can't just let it slide."
+        },
+        {
+          "ruby": "私[わたし]が社長[しゃちょう]だとしたら、真[ま]っ先[さき]に休暇[きゅうか]を増[ふ]やしたい。",
+          "english": "If I were the boss, the first thing I'd do is give people more time off."
+        }
+      ]
+    },
+    {
+      "l2_id": "0611",
+      "canonical_surface": "とすると",
+      "glosses": [
+        "assuming that; if that's so",
+        "then that would mean"
+      ],
+      "usage_note": "Reasons forward from a premise, usually one the speaker has just been handed, to the conclusion that objectively follows: \"if that's the case, then…\". That objectivity makes a wish or intention in the main clause sit badly (〜とすると買いたい is odd where としたら is fine), and it is the reason とすると reads as calculation rather than daydreaming. とすれば is the equally common variant, としますと the polite one, and とすりゃ the casual one; all take the plain form, with だ after a noun.",
+      "examples": [
+        {
+          "ruby": "彼[かれ]が明日[あす]には戻[もど]るとすると、準備[じゅんび]の時間[じかん]がない。",
+          "english": "If he's back as early as tomorrow, we've no time to prepare."
+        },
+        {
+          "ruby": "この計算[けいさん]が正[ただ]しいとすれば、予算[よさん]が足[た]りない。",
+          "english": "Assuming this calculation is right, the budget comes up short."
+        },
+        {
+          "ruby": "新[あたら]しい機械[きかい]を入[い]れるとすると、置[お]き場所[ばしょ]に困[こま]る。",
+          "english": "If we're bringing in a new machine, then we've got nowhere to put it."
+        }
+      ]
+    },
+    {
+      "l2_id": "0621",
+      "canonical_surface": "じゃ",
+      "glosses": [
+        "if it's …, (that's a problem)",
+        "it won't do to …"
+      ],
+      "usage_note": "The spoken squeeze of では／ては, and its main clause is almost always something unwelcome — 困る, だめだ, 間に合わない, 体を壊す — so it lands as a warning or a complaint rather than a neutral condition. After a noun or な-adjective the form is じゃ (では), after a verb it is ちゃ／じゃ from the て-form (食べては→食べちゃ, 飲んでは→飲んじゃ) and after an い-adjective くては／くちゃ. Write では／ては and keep じゃ／ちゃ for speech; note that a repeated 〜ては〜ては (書いては消し) is a different, non-conditional use.",
+      "examples": [
+        {
+          "ruby": "こんな大雨[おおあめ]じゃ、今日[きょう]の試合[しあい]は中止[ちゅうし]だろう。",
+          "english": "In rain like this, today's game is surely off."
+        },
+        {
+          "ruby": "毎晩[まいばん]そんなに飲[の]んじゃ、体[からだ]を壊[こわ]すよ。",
+          "english": "Drinking that much every night, you're going to wreck your health."
+        },
+        {
+          "ruby": "途中[とちゅう]でやめちゃ、これまでの苦労[くろう]が水[みず]の泡[あわ]だ。",
+          "english": "Quit halfway and everything you've put in goes down the drain."
+        }
+      ]
+    }
+  ]
+}

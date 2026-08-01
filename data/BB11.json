@@ -1,0 +1,60 @@
+{
+  "class_code": "B11",
+  "class_name": "過去-回想-タッケ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "2492",
+      "canonical_surface": "だっけ",
+      "glosses": [
+        "was it …?; did … ?",
+        "…, wasn't it? (digging for a half-remembered fact)"
+      ],
+      "usage_note": "Casual recollection: you are groping for something you once knew, either checking with your listener or muttering to yourself. だっけ is the shape after a noun and after the ta-stems that voice た to だ (飲んだっけ); elsewhere it surfaces as たっけ (控えたっけ, 出したっけ). It also rides on the non-past through ん (明日[あした]は休[やす]みなんだっけ, これ、どうやって開[あ]けるんだっけ), and unlike its sibling たもんだ, which only reminisces, だっけ can either check one half-remembered fact or, with よく and a time frame, drift into the same fond recollection.",
+      "examples": [
+        {
+          "ruby": "次[つぎ]の打[う]ち合[あ]わせって、来週[らいしゅう]の水曜[すいよう]だっけ。",
+          "english": "Our next meeting is Wednesday next week, right?"
+        },
+        {
+          "ruby": "あの角[かど]のラーメン屋[や]、名前[なまえ]なんて言[い]ったっけ。",
+          "english": "That ramen place on the corner — what was it called again?"
+        },
+        {
+          "ruby": "彼[かれ]の連絡先[れんらくさき]、確[たし]かノートに控[ひか]えたっけ。",
+          "english": "His contact details — did I write them down in my notebook?"
+        }
+      ]
+    },
+    {
+      "l2_id": "3401",
+      "canonical_surface": "だもん",
+      "glosses": [
+        "used to (do); would often",
+        "we'd always (do); those were the days when I'd (do)"
+      ],
+      "usage_note": "Looks back fondly on something done again and again over a stretch of past time, so it sits naturally with よく or 毎日; for a one-off past experience 〜たことがある is normally the right choice instead. The realization is だもん／だもの after the ta-stems that voice た to だ (泳いだもんだ) and たもん／たもの elsewhere, with もん the more casual contraction of もの. Do not confuse it with the excuse-making 〜んだもん ('because, you know'), which attaches to plain forms and nouns and is a different construction.",
+      "examples": [
+        {
+          "ruby": "子供[こども]の頃[ころ]は、日[ひ]が暮[く]れるまで川[かわ]で泳[およ]いだもんだ。",
+          "english": "As a kid I'd swim in the river until the sun went down."
+        },
+        {
+          "ruby": "昔[むかし]の職場[しょくば]では、終電[しゅうでん]まで資料[しりょう]を集[あつ]めたものだ。",
+          "english": "At my old workplace we'd be digging up material right up to the last train."
+        },
+        {
+          "ruby": "祖母[そぼ]の家[いえ]までは、よく一人[ひとり]で電車[でんしゃ]に乗[の]って行[い]ったものだ。",
+          "english": "I used to ride the train out to my grandmother's house all on my own."
+        }
+      ]
+    }
+  ]
+}

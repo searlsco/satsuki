@@ -1,0 +1,60 @@
+{
+  "class_code": "r12",
+  "class_name": "順接-限定-ナイコトニハ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0681",
+      "canonical_surface": "ないと",
+      "glosses": [
+        "have to; must",
+        "if (you) don't …"
+      ],
+      "usage_note": "This is the everyday spoken workhorse for obligation: the ないと clause names what has to happen, and the consequence is often simply dropped (そろそろ行かないと。), an ellipsis only the obligation reading allows, since the plain \"if you don't …\" conditional still needs its main clause. なきゃ and なくちゃ are the casual contractions of なければ and なくては; なければ and なくては are neutral; ねば is the older classical negative (ず の已然形 ね + ば) and reads stiff and bookish. Compared with ないことには, ないと is lighter and does not require the main clause to be negative.",
+      "examples": [
+        {
+          "ruby": "早[はや]く出[で]ないと、終電[しゅうでん]に間[ま]に合[あ]わないよ。",
+          "english": "We've got to leave soon or we'll miss the last train."
+        },
+        {
+          "ruby": "薬[くすり]を飲[の]まないと、熱[ねつ]が下[さ]がらない。",
+          "english": "The fever won't come down unless you take the medicine."
+        },
+        {
+          "ruby": "明日[あした]までに返事[へんじ]しないと、席[せき]がなくなる。",
+          "english": "I have to reply by tomorrow or I'll lose my spot."
+        }
+      ]
+    },
+    {
+      "l2_id": "0691",
+      "canonical_surface": "ないことにゃ",
+      "glosses": [
+        "unless; without (doing)",
+        "until … happens, (nothing will)"
+      ],
+      "usage_note": "ないことには presents the preceding clause as an indispensable prerequisite, and teaching references describe the main clause as regularly negative or as saying that nothing can proceed (判断できない, 話にならない, 始まらない). It is heavier and more deliberate than plain ないと, which is the ordinary conversational equivalent. ないことにゃ is the contracted colloquial form, at home in relaxed or gruff speech rather than in writing.",
+      "examples": [
+        {
+          "ruby": "現場[げんば]を見[み]ないことにゃ、原因[げんいん]なんて分[わ]かるもんか。",
+          "english": "Without laying eyes on the site, how's anyone supposed to work out the cause?"
+        },
+        {
+          "ruby": "元手[もとで]を用意[ようい]しないことにゃ、商売[しょうばい]は始[はじ]まらん。",
+          "english": "Without putting up some seed money, there's no business to speak of."
+        },
+        {
+          "ruby": "直接[ちょくせつ]話[はな]してみないことにゃ、本当[ほんとう]のところは分[わ]からん。",
+          "english": "Without talking to him face to face, you'll never know the real story."
+        }
+      ]
+    }
+  ]
+}

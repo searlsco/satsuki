@@ -1,0 +1,83 @@
+{
+  "class_code": "y41",
+  "class_name": "否定-般-ナイ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1641",
+      "canonical_surface": "わけじゃない",
+      "glosses": [
+        "it's not that …",
+        "it doesn't mean that …"
+      ],
+      "usage_note": "Partial negation: it denies a conclusion the listener might reasonably have drawn rather than the fact itself, so it typically heads off a misunderstanding. わけではない is the stiffer written variant and わけじゃない the spoken one, while わけでもない softens further to \"not exactly\". It attaches adnominally (plain forms; な after a na-adjective; nouns normally take という, as in 学生というわけではない); keep it distinct from わけがない, which denies possibility outright. Unlike 〜とは限らない, which denies that a claim holds in every case, わけではない denies one specific inference the listener has drawn.",
+      "examples": [
+        {
+          "ruby": "この仕事[しごと]が特別[とくべつ]つらいわけじゃないが、朝[あさ]が早[はや]すぎる。",
+          "english": "It's not that this job is especially hard, but the mornings are brutal."
+        },
+        {
+          "ruby": "事情[じじょう]を全部[ぜんぶ]わかっているわけではない。",
+          "english": "It's not as though I know the whole story."
+        },
+        {
+          "ruby": "約束[やくそく]を忘[わす]れたわけじゃなく、言[い]い出[だ]せなかっただけだ。",
+          "english": "It's not that I forgot my promise, I just couldn't bring myself to mention it."
+        }
+      ]
+    },
+    {
+      "l2_id": "3341",
+      "canonical_surface": "ない",
+      "glosses": [
+        "not",
+        "don't"
+      ],
+      "usage_note": "The everyday plain negative auxiliary: 未然形 plus ない for verbs (する becomes しない, 来る becomes こない), く plus ない for i-adjectives. ある is suppletive, its negative being simply ない. Polite speech normally uses 〜ません, with 〜ないです common but casual. The ず/ぬ series is the stiff written counterpart of the same meaning.",
+      "examples": [
+        {
+          "ruby": "弟[おとうと]は今日[きょう]も部屋[へや]から出[で]てこない。",
+          "english": "My brother hasn't come out of his room today either."
+        },
+        {
+          "ruby": "この件[けん]は誰[だれ]にも言[い]わないでほしいんだ。",
+          "english": "I'd rather you didn't tell anyone about this."
+        },
+        {
+          "ruby": "熱[ねつ]があるなら無理[むり]をしないほうがいいよ。",
+          "english": "If you have a fever, you'd better not push yourself."
+        }
+      ]
+    },
+    {
+      "l2_id": "3351",
+      "canonical_surface": "ね",
+      "glosses": [
+        "if … not (…ねば)",
+        "have to … (…ねばならない)"
+      ],
+      "usage_note": "The classical negative ぬ, surviving in modern Japanese as adverbial ず (\"without …ing\"), prenominal ぬ, the casual contraction ん, and the 仮定形 ね, which survives only in 〜ねばならない/〜ねばなるまい. It attaches to 未然形, with する irregularly becoming せ (せず, せねば). ず and ぬ read as formal or literary and ん as colloquial with a strong western-dialect flavor, whereas ない is the neutral everyday choice.",
+      "examples": [
+        {
+          "ruby": "何[なん]の準備[じゅんび]もせずに本番[ほんばん]を迎[むか]えてしまった。",
+          "english": "I ended up going into the real thing with no preparation at all."
+        },
+        {
+          "ruby": "彼[かれ]は何[なに]も言[い]わず、静[しず]かに部屋[へや]を出[で]て行[い]った。",
+          "english": "He left the room quietly without saying a word."
+        },
+        {
+          "ruby": "一歩[いっぽ]も外[そと]に出[で]ぬまま冬[ふゆ]が終[お]わった。",
+          "english": "Winter ended without my once setting foot outdoors."
+        }
+      ]
+    }
+  ]
+}

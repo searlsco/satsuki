@@ -1,0 +1,60 @@
+{
+  "class_code": "k31",
+  "class_name": "話題-は観点-トシテハ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "2901",
+      "canonical_surface": "としちゃ",
+      "glosses": [
+        "as for; speaking as",
+        "from my/our standpoint"
+      ],
+      "usage_note": "A clipped, spoken squeeze of としては: it names the capacity or standpoint the following opinion is spoken from, so it pairs naturally with 俺, うち, 親 and other words for who you are in the situation. としちゃ belongs to casual speech and dialogue in fiction; write としては in anything that will be read, and としましては when the listener outranks you. Unlike にしてみると it states your own position rather than asking the listener to imagine someone else's. にしたって is the casual squeeze of a different pattern — it concedes a case (\"even X\"), where としちゃ claims a standpoint.",
+      "examples": [
+        {
+          "ruby": "俺[おれ]としちゃ、今[いま]の案[あん]で十分[じゅうぶん]だと思[おも]うけどな。",
+          "english": "Me, I'd say the plan we've got is good enough."
+        },
+        {
+          "ruby": "親[おや]としちゃ、心配[しんぱい]しないわけにはいかないんだよ。",
+          "english": "Speaking as a parent, I can't just not worry."
+        },
+        {
+          "ruby": "うちの店[みせ]としちゃ、値上[ねあ]げは避[さ]けたいところだ。",
+          "english": "From where our shop sits, we'd rather not raise prices."
+        }
+      ]
+    },
+    {
+      "l2_id": "2911",
+      "canonical_surface": "にしてみると",
+      "glosses": [
+        "from X's point of view",
+        "as X sees it; in X's shoes"
+      ],
+      "usage_note": "Invites the listener to step inside someone else's position and see why they feel as they do, so the noun in front is typically a person or another creature with feelings, and what follows is typically a judgment or emotion attributed to them rather than a plain fact. It leans sympathetic where にとって is flatly neutral, and it most often takes a third party, because the point is to make the listener imagine a position not their own; 私にしてみれば is possible and asks the listener to take up the speaker's side, where としては simply states it. にしてみれば and にしてみたら are the everyday variants; にしてみちゃ is markedly casual and にしてみますと is the polite one.",
+      "examples": [
+        {
+          "ruby": "猫[ねこ]にしてみると、掃除機[そうじき]の音[おと]は恐怖[きょうふ]でしかない。",
+          "english": "As far as the cat is concerned, the vacuum cleaner is pure terror."
+        },
+        {
+          "ruby": "新人[しんじん]にしてみれば、この量[りょう]の資料[しりょう]は多[おお]すぎる。",
+          "english": "Put yourself in a new hire's shoes and this much paperwork is just too much."
+        },
+        {
+          "ruby": "見送[みおく]る側[がわ]にしてみると、一年[いちねん]の留学[りゅうがく]は長[なが]い。",
+          "english": "For those left waving goodbye, a year abroad feels like a long time."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "class_code": "I12",
+  "class_name": "推量-不確実-ラシイ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "3231",
+      "canonical_surface": "らしい",
+      "glosses": [
+        "seems; apparently",
+        "I hear (that)"
+      ],
+      "usage_note": "Reports a conclusion built on information that reached the speaker from outside — heard, read, or inferred from circumstances the speaker did not witness firsthand — so it keeps the speaker at arm's length from the claim, whereas ようだ leans on evidence the speaker has taken in directly. It attaches straight to plain forms and to bare nouns, with no の or な. Do not confuse it with the homophonous suffix らしい meaning \"befitting, every inch a …\" (男らしい), which is a different word.",
+      "examples": [
+        {
+          "ruby": "隣[となり]のご主人[しゅじん]、来月[らいげつ]大阪[おおさか]に転勤[てんきん]するらしいです。",
+          "english": "Apparently the husband next door is being transferred to Osaka next month."
+        },
+        {
+          "ruby": "昨日[きのう]の試合[しあい]は大雨[おおあめ]で中止[ちゅうし]になったらしい。",
+          "english": "I hear yesterday's match got called off because of the downpour."
+        },
+        {
+          "ruby": "あの峠[とうげ]の道[みち]は思[おも]った以上[いじょう]に険[けわ]しいらしい。",
+          "english": "That mountain-pass road is supposedly steeper than you'd expect."
+        }
+      ]
+    },
+    {
+      "l2_id": "3241",
+      "canonical_surface": "よう",
+      "glosses": [
+        "it seems; it looks like",
+        "as if"
+      ],
+      "usage_note": "The most neutral and the most writable of this group: an inference the speaker draws from what they themselves see, hear, or feel, and also \"as if\" comparison, often with か before it (諦めたかのようだ). After a noun it takes の and after a na-adjective な, which is exactly where its casual counterpart みたい differs by attaching bare; らしい, by contrast, hands off responsibility to an outside source.",
+      "examples": [
+        {
+          "ruby": "この分[ぶん]だと、今日[きょう]の会議[かいぎ]は長引[ながび]くようだ。",
+          "english": "At this rate it looks like today's meeting is going to drag on."
+        },
+        {
+          "ruby": "どうやら私[わたし]は道[みち]を一本[いっぽん]間違[まちが]えたようだ。",
+          "english": "It seems I took the wrong street."
+        },
+        {
+          "ruby": "彼[かれ]の横顔[よこがお]は、何[なに]かを諦[あきら]めたかのようだった。",
+          "english": "His profile looked as though he had given something up."
+        }
+      ]
+    },
+    {
+      "l2_id": "3251",
+      "canonical_surface": "みたい",
+      "glosses": [
+        "seems like; looks like"
+      ],
+      "usage_note": "The colloquial counterpart of ようだ, at home in speech and casual writing but out of place in formal prose. It attaches directly to a noun with no の (子供みたいだ) and covers both inference and plain resemblance. Where らしい passes along what someone else reported, みたい presents the speaker's own on-the-spot impression, though in casual speech みたい can also relay something heard, where らしい would sound more detached.",
+      "examples": [
+        {
+          "ruby": "二階[にかい]の住人[じゅうにん]、まだ起[お]きているみたいだね。",
+          "english": "Looks like the folks upstairs are still up."
+        },
+        {
+          "ruby": "この匂[にお]い、どうも焦[こ]げたパンみたいだ。",
+          "english": "This smell — it's kind of like burnt toast."
+        },
+        {
+          "ruby": "時計[とけい]の針[はり]が止[と]まっているから、電池[でんち]が切[き]れたみたい。",
+          "english": "The clock hands aren't moving, so it looks like the battery died."
+        }
+      ]
+    }
+  ]
+}

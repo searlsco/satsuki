@@ -1,0 +1,60 @@
+{
+  "class_code": "c21",
+  "class_name": "仲介-経由-ヲツウジテ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0151",
+      "canonical_surface": "をとおしての",
+      "glosses": [
+        "through; by way of",
+        "throughout (a period)"
+      ],
+      "usage_note": "を通して frames the noun as something the subject deliberately goes through to reach a goal, so it is the natural pick when a person is used as an intermediary on purpose or when an experience is credited with teaching something. With a span of time it means 'all the way through' (一年を通して). Its twin を通じて is largely interchangeable but sounds more written and more detached; を通して is the more volitional, more conversational of the pair.",
+      "examples": [
+        {
+          "ruby": "友人[ゆうじん]を通[とお]して先方[せんぽう]に話[はなし]を伝[つた]えてもらった。",
+          "english": "I had a friend pass word along to them for me."
+        },
+        {
+          "ruby": "一年[いちねん]を通[とお]して気温[きおん]の変化[へんか]が少[すく]ない島[しま]だ。",
+          "english": "It's an island where the temperature barely shifts all year round."
+        },
+        {
+          "ruby": "部活[ぶかつ]を通[とお]して仲間[なかま]と協力[きょうりょく]する大切[たいせつ]さを学[まな]んだ。",
+          "english": "Being in a club taught me how much working with others matters."
+        }
+      ]
+    },
+    {
+      "l2_id": "0161",
+      "canonical_surface": "をつうじての",
+      "glosses": [
+        "through; via",
+        "by way of; over the course of"
+      ],
+      "usage_note": "を通じて names the route or channel something travels along, and it typically just reports the fact rather than crediting anyone's intention, which is why it dominates in news copy, reports, and other written registers. Compared with its near-twin を通して it is more detached and less volitional: 報道を通じて知られた describes how word spread, while 友人を通して頼んだ describes a choice someone made. The two are interchangeable in most sentences, so the difference is one of tone rather than a rule.",
+      "examples": [
+        {
+          "ruby": "事件[じけん]の詳細[しょうさい]は報道[ほうどう]を通[つう]じて明[あき]らかになった。",
+          "english": "The details of the case came out through news coverage."
+        },
+        {
+          "ruby": "交渉[こうしょう]は仲介役[ちゅうかいやく]を通[つう]じて続[つづ]けられている。",
+          "english": "Talks are being carried on through an intermediary."
+        },
+        {
+          "ruby": "長年[ながねん]の交流[こうりゅう]を通[つう]じて厚[あつ]い信頼[しんらい]が育[そだ]った。",
+          "english": "Deep trust grew up over long years of exchange."
+        }
+      ]
+    }
+  ]
+}

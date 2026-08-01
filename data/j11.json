@@ -1,0 +1,62 @@
+{
+  "class_code": "j11",
+  "class_name": "定義-定義-トハ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "2452",
+      "canonical_surface": "とは",
+      "glosses": [
+        "… is (defined as)",
+        "by … is meant",
+        "what … means is"
+      ],
+      "usage_note": "The defining marker of written Japanese: it puts a term on the table and hands the rest of the sentence over to its definition, so it pairs naturally with a closing ことだ, ものだ or 意味だ. In this definitional job it is close to というのは and colloquial ってのは, differing mainly in register, with とは preferred in dictionaries, textbooks and formal exposition; note that とは forces a genuine definition, while というのは and its casual ってのは also tolerate mere topic-raising. The same surface とは has other lives outside this corpus slot, notably the exclamatory 「合格[ごうかく]するとは驚[おどろ]いた」 pattern; tell them apart by what follows — definitional とは hands off to a defining predicate (ことだ・ものだ・意味だ), while the exclamatory one is followed by an evaluation of surprise or is left dangling entirely.",
+      "examples": [
+        {
+          "ruby": "幸[しあわ]せとは、他人[たにん]と比[くら]べないことだと思[おも]う。",
+          "english": "Happiness, I think, means not measuring yourself against others."
+        },
+        {
+          "ruby": "発酵[はっこう]とは微生物[びせいぶつ]が食品[しょくひん]を変[か]える働[はたら]きだ。",
+          "english": "Fermentation is the action by which microbes transform food."
+        },
+        {
+          "ruby": "敬語[けいご]とは相手[あいて]を立[た]てるための道具[どうぐ]です。",
+          "english": "Honorific language is a tool for showing deference to the person you're dealing with."
+        }
+      ]
+    },
+    {
+      "l2_id": "2811",
+      "canonical_surface": "ってのは",
+      "glosses": [
+        "… is (basically)",
+        "what … means is",
+        "… , that's"
+      ],
+      "usage_note": "The spoken definition marker, contracted from というのは by way of っていうのは, and the casual equivalent of とは. Use it when explaining a word or category to someone face to face; the payoff is usually a plain ものだ, ことだ or an outright paraphrase, and the tone is confiding rather than authoritative. Keep it out of written definitions, where とは or というのは carries the same content without sounding chatty.",
+      "examples": [
+        {
+          "ruby": "友達[ともだち]ってのは、困[こま]った時[とき]に分[わ]かるものだよ。",
+          "english": "You only find out who your real friends are when you're in trouble."
+        },
+        {
+          "ruby": "敷金[しききん]ってのは、退去[たいきょ]の時[とき]に返[かえ]ってくるお金[かね]だ。",
+          "english": "A deposit is basically money that comes back to you when you move out."
+        },
+        {
+          "ruby": "相棒[あいぼう]ってのは、背中[せなか]を預[あず]けられる相手[あいて]だ。",
+          "english": "A partner is someone you can trust to watch your back."
+        }
+      ]
+    }
+  ]
+}

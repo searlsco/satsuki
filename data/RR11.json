@@ -1,0 +1,86 @@
+{
+  "class_code": "R11",
+  "class_name": "比況-比況-ミタイ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "3242",
+      "canonical_surface": "よう",
+      "glosses": [
+        "it seems (that) …",
+        "it looks as though …",
+        "like …"
+      ],
+      "usage_note": "The neutral likening-and-inference marker: it either compares one thing to another (鏡のようだ) or reports the speaker's own reasoned inference from evidence in front of them. It attaches to plain verb and た forms directly, but to a noun only through の (夢のようだ) and to na-adjectives through な (元気なようだ) — that の is exactly what its colloquial sibling みたい drops. ように and ような are the adverbial and prenominal shapes, and ようだ is at home in writing and careful speech where みたい would sound too casual.",
+      "examples": [
+        {
+          "ruby": "物音[ものおと]がするから、隣[となり]の部屋[へや]に誰[だれ]かいるようだ。",
+          "english": "I can hear something, so there seems to be someone in the next room."
+        },
+        {
+          "ruby": "彼[かれ]は約束[やくそく]をすっかり忘[わす]れたようだ。",
+          "english": "It looks as though he's completely forgotten about our plans."
+        },
+        {
+          "ruby": "風[かぜ]のない朝[あさ]、湖[みずうみ]の水面[みなも]は鏡[かがみ]のようだ。",
+          "english": "On a windless morning the surface of the lake is like a mirror."
+        }
+      ]
+    },
+    {
+      "l2_id": "3252",
+      "canonical_surface": "みたい",
+      "glosses": [
+        "like …",
+        "seems like …",
+        "just like a …"
+      ],
+      "usage_note": "The colloquial counterpart of ようだ, contracted historically from 見たよう. It hooks straight onto a bare noun with no の (子供みたい, not 子供のみたい) and then inflects like a na-adjective: みたいだ, みたいな, みたいに. In real speech it also follows plain verbs and adjectives (降るみたい、高いみたい). Either way it stays conversational and is usually replaced by ようだ in essays, news copy and business writing.",
+      "examples": [
+        {
+          "ruby": "彼[かれ]の部屋[へや]はまるで倉庫[そうこ]みたいだ。",
+          "english": "His room is like a warehouse."
+        },
+        {
+          "ruby": "三月[さんがつ]なのに、今日[きょう]は真夏[まなつ]みたいに暑[あつ]い。",
+          "english": "It's only March, but today it's as hot as midsummer."
+        },
+        {
+          "ruby": "子供[こども]みたいなことを言[い]わないでほしい。",
+          "english": "I'd rather you didn't say childish things like that."
+        }
+      ]
+    },
+    {
+      "l2_id": "3311",
+      "canonical_surface": "のごとし",
+      "glosses": [
+        "like …",
+        "as though …",
+        "the likes of …"
+      ],
+      "usage_note": "The 文語 likening auxiliary ごとし, the classical (漢文訓読体) counterpart of ようだ, which itself descends from 様(やう)なり, inflecting on the adjective pattern: ごとく adverbially, ごとし to close a sentence, ごとき before a noun. It survives in proverbs, ceremonial speech and deliberately grand narration, so a plain conversational sentence built on it will sound like a parody. Attached to a person, ごとき often carries a dismissive or self-deprecating edge ('someone like him', 'someone as unworthy as I'), and in that use the の is frequently dropped (私ごとき).",
+      "examples": [
+        {
+          "ruby": "その男[おとこ]の視線[しせん]は刃[やいば]のごとく鋭[するど]かった。",
+          "english": "The man's gaze was as keen as a blade."
+        },
+        {
+          "ruby": "群衆[ぐんしゅう]は波[なみ]のごとく広場[ひろば]へ押[お]し寄[よ]せた。",
+          "english": "The crowd swept into the square like a wave."
+        },
+        {
+          "ruby": "彼[かれ]のごとき臆病者[おくびょうもの]に務[つと]まる役[やく]ではない。",
+          "english": "This is not a part that a coward of his sort could ever carry off."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "class_code": "y63",
+  "class_name": "否定-不可能-テイラレナイ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1781",
+      "canonical_surface": "じゃいられない",
+      "glosses": [
+        "can't just keep …ing",
+        "cannot afford to stay …",
+        "can't stand idly by"
+      ],
+      "usage_note": "て／で + いる + られない: the speaker cannot go on remaining in the state they are in, usually because something urgent has broken in, so the form carries restlessness or alarm rather than plain inability. Unlike わけにはいかない, which denies permission, ていられない denies the possibility of continuing the current state. In real Japanese ではいられない also attaches straight to nouns and na-adjectives (他人事ではいられない, 冷静ではいられない). じゃいられない and ちゃいられない are the contracted conversational shapes of ではいられない and てはいられない.",
+      "examples": [
+        {
+          "ruby": "締[し]め切[き]りが目前[もくぜん]なので、のんびりしてはいられない。",
+          "english": "The deadline is right on top of us, so there's no taking it easy."
+        },
+        {
+          "ruby": "隣[となり]の部屋[へや]から悲鳴[ひめい]が聞[き]こえ、座[すわ]ってはいられなかった。",
+          "english": "A scream came from the next room, and I couldn't just stay in my seat."
+        },
+        {
+          "ruby": "子[こ]どもが熱[ねつ]を出[だ]した夜[よる]は、親[おや]も寝[ね]てはいられない。",
+          "english": "On a night when your child spikes a fever, you as the parent can't just go to sleep either."
+        }
+      ]
+    }
+  ]
+}

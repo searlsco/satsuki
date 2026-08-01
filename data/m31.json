@@ -1,0 +1,38 @@
+{
+  "class_code": "m31",
+  "class_name": "限定-他の否定-シカ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "3081",
+      "canonical_surface": "しか",
+      "glosses": [
+        "only …",
+        "nothing but …",
+        "no more than …"
+      ],
+      "usage_note": "Always answered by a negative predicate: しか + 肯定 is ungrammatical, and that pairing is what gives it its \"and that's not enough\" colouring, where だけ merely counts. It swallows が and を but stacks on top of に, へ, で, から, まで, と (東京にしかない). It also follows a plain verb to mean \"no choice but to\" (行くしかない), an attachment the corpus rule here does not cover.",
+      "examples": [
+        {
+          "ruby": "財布[さいふ]には千円[せんえん]しか入[はい]っていなかった。",
+          "english": "There was only a thousand yen in my wallet."
+        },
+        {
+          "ruby": "この花[はな]は高[たか]い山[やま]にしか咲[さ]かないそうだ。",
+          "english": "Apparently this flower blooms nowhere but high in the mountains."
+        },
+        {
+          "ruby": "その店[みせ]は五時[ごじ]までしか開[あ]いていないよ。",
+          "english": "That place is only open till five, you know."
+        }
+      ]
+    }
+  ]
+}

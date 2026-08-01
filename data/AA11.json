@@ -1,0 +1,85 @@
+{
+  "class_code": "A11",
+  "class_name": "伝聞-未確認-トノコト類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1212",
+      "canonical_surface": "って",
+      "glosses": [
+        "I hear (that); they say",
+        "apparently",
+        "…, or so I'm told"
+      ],
+      "usage_note": "The all-purpose spoken quotative: a contraction of と (言う), it passes on what you heard in the loosest possible way and can simply end the sentence with the verb of saying dropped. Unlike とのこと it makes no claim about how reliable the source is, it is typically too casual for business writing, and where sibling だって delivers the report as fresh news with a flicker of surprise, って is the flat pass-along. It attaches to the plain form, and after a noun or na-adjective the copula だ is normally kept (雨だって, 学生だって); bare noun＋って is the separate naming/topic って.",
+      "examples": [
+        {
+          "ruby": "体育館[たいいくかん]の裏[うら]に田中[たなか]さんの財布[さいふ]が落[お]ちているって。",
+          "english": "Tanaka's wallet is lying behind the gym, apparently."
+        },
+        {
+          "ruby": "隣[となり]のクラスの担任[たんにん]が来週[らいしゅう]から代[か]わるって。",
+          "english": "I hear the homeroom teacher for the class next door is changing as of next week."
+        },
+        {
+          "ruby": "あの映画[えいが]、後半[こうはん]がすごく怖[こわ]いって。",
+          "english": "They say the back half of that movie is seriously scary."
+        }
+      ]
+    },
+    {
+      "l2_id": "2411",
+      "canonical_surface": "とのこと",
+      "glosses": [
+        "I'm told (that); word is (that)",
+        "according to (the message)"
+      ],
+      "usage_note": "The workhorse of relayed messages: use it when you are passing along something a specific, identifiable person told you, especially in business email and phone notes. It works in writing as comfortably as in speech, where って and だって stay casual and are out of place in business correspondence, and because it presents the report as received fact rather than rumor it pairs naturally with a named source (〜さんによると). A noun predicate may drop だ before it (来月中旬とのことです); ということだ also draws conclusions from what was said, while とのこと only relays.",
+      "examples": [
+        {
+          "ruby": "先方[せんぽう]は来週[らいしゅう]の火曜[かよう]まで待[ま]ってくれるとのことです。",
+          "english": "I'm told the client will hold off until Tuesday of next week."
+        },
+        {
+          "ruby": "担当者[たんとうしゃ]はすでに書類[しょるい]を発送[はっそう]したとのことでした。",
+          "english": "Word was that the person handling it had already sent the paperwork out."
+        },
+        {
+          "ruby": "工事[こうじ]の完了[かんりょう]は来月[らいげつ]中旬[ちゅうじゅん]とのことです。",
+          "english": "The work is due to be finished in the middle of next month, I'm told."
+        }
+      ]
+    },
+    {
+      "l2_id": "2502",
+      "canonical_surface": "だって",
+      "glosses": [
+        "apparently; I hear (that)",
+        "they say",
+        "…, or so they tell me"
+      ],
+      "usage_note": "Sentence-final colloquial hearsay, usually delivered as fresh news with a flicker of surprise; ですって is the polite variant and is especially common in women's speech. Before a verb or i-adjective speakers almost always slip in ん/の first (転勤するんだって), so bare 動詞＋だって turns up mostly as an incredulous echo of what someone just said (辞めるだって？). Keep it apart from the unrelated だって meaning 'because' or 'even'.",
+      "examples": [
+        {
+          "ruby": "あの店[みせ]、今日[きょう]は臨時[りんじ]休業[きゅうぎょう]だって。",
+          "english": "That place is closed for the day, apparently."
+        },
+        {
+          "ruby": "山田[やまだ]さん、来月[らいげつ]から大阪[おおさか]支社[ししゃ]に転勤[てんきん]だって。",
+          "english": "Yamada's being moved to the Osaka branch next month, apparently."
+        },
+        {
+          "ruby": "奥[おく]さま、お隣[となり]の庭[にわ]の桜[さくら]がもう満開[まんかい]ですって。",
+          "english": "Ma'am, they say the cherry tree in the garden next door is already in full bloom."
+        }
+      ]
+    }
+  ]
+}

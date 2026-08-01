@@ -1,0 +1,134 @@
+{
+  "class_code": "M11",
+  "class_name": "不必要-不必要-ナクテヨイ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1701",
+      "canonical_surface": "なくたってよい",
+      "glosses": [
+        "don't have to …",
+        "it's all right not to …",
+        "there's no need to …"
+      ],
+      "usage_note": "The everyday way to lift an obligation: it builds on the negative stem (行かない → 行かなくてもいい) and also takes adjectives (高くなくてもいい) and the copula (学生でなくてもいい); the siblings in this group are essentially restricted to verbs (には及ばない additionally takes bare nouns: お礼には及びません). Register slides along the realization: なくてもよろしい and なくとも/ずともよい are stiff and written, なくてもいい is neutral, and なくたっていい・ないでいい are casual speech. Compare ことはない and までもない, which argue that an action is pointless or excessive rather than simply granting permission to skip it.",
+      "examples": [
+        {
+          "ruby": "会議[かいぎ]は五時[ごじ]からだから、急[いそ]がなくてもいいよ。",
+          "english": "The meeting isn't until five, so there's no need to rush."
+        },
+        {
+          "ruby": "残[のこ]ったお皿[さら]は片付[かたづ]けなくたっていいからね。",
+          "english": "You can just leave the dishes that are left, okay?"
+        },
+        {
+          "ruby": "この資料[しりょう]は無理[むり]に覚[おぼ]えなくたっていい。",
+          "english": "You don't have to force yourself to memorize this handout."
+        }
+      ]
+    },
+    {
+      "l2_id": "1711",
+      "canonical_surface": "こたない",
+      "glosses": [
+        "there's no need to …",
+        "you needn't …",
+        "it's not worth …ing"
+      ],
+      "usage_note": "Attaches to the dictionary form and talks the listener out of an action they are already inclined to take, so it carries the speaker's judgment and typically shows up as reassurance or consolation (謝ることはない, 落ち込むことはない). It is more subjective and more direct than には及ばない, which softens the same message into a polite decline. こたない (and こたねえ) is the contracted spoken form of ことはない; ことはない is the neutral default, and the variant こともない is a shade softer and more written than ことはない, though it is not a free substitute because it also carries a competing sense (\"nothing so special as to …\").",
+      "examples": [
+        {
+          "ruby": "一度[いちど]の失敗[しっぱい]でそんなに落[お]ち込[こ]むことはない。",
+          "english": "One slip-up is no reason to get that down on yourself."
+        },
+        {
+          "ruby": "まだ間[ま]に合[あ]うんだから、そこまで焦[あせ]ることはないですよ。",
+          "english": "There's still time, so there's no need to get that worked up."
+        },
+        {
+          "ruby": "そんな噂[うわさ]をいちいち気[き]にするこたないよ。",
+          "english": "Don't waste your time letting gossip like that get to you."
+        }
+      ]
+    },
+    {
+      "l2_id": "1721",
+      "canonical_surface": "までもない",
+      "glosses": [
+        "there's no need to go so far as to …",
+        "not even worth …ing",
+        "hardly necessary to …"
+      ],
+      "usage_note": "Attaches to the dictionary form and says the action would be overkill because the matter is obvious, trivial, or already settled — the force is \"it doesn't even rise to the level of …ing,\" not merely \"it isn't required.\" It pairs naturally with わざわざ and with verbs of stating or checking (言う, 聞く, 調べる, 説明する), and it sounds more formal and more written than なくてもいい. Against には及ばない, までもない judges the action itself as excessive relative to a trivial or self-evident matter, while には及ばない declines a courtesy or a worry directed at the speaker; までもない is not used to wave off an offer (お礼には及びません, not ×お礼を言うまでもありません in that social sense). The adverbial までもなく is common at the head of a clause, and までのことはない / までのこともない are heavier equivalents.",
+      "examples": [
+        {
+          "ruby": "わざわざ本社[ほんしゃ]まで出向[でむ]くまでもない用件[ようけん]だ。",
+          "english": "It's a matter that hardly warrants a trip out to head office."
+        },
+        {
+          "ruby": "彼女[かのじょ]の実力[じつりょく]は改[あらた]めて褒[ほ]めるまでもない。",
+          "english": "Her ability is obvious — no need to praise it all over again."
+        },
+        {
+          "ruby": "これは全員[ぜんいん]に確認[かくにん]するまでもない小[ちい]さな変更[へんこう]だ。",
+          "english": "This is a change small enough that there's no need to run it past everyone."
+        }
+      ]
+    },
+    {
+      "l2_id": "1731",
+      "canonical_surface": "にはおよばない",
+      "glosses": [
+        "there's no need to …",
+        "no need to go to the trouble of …",
+        "please don't trouble yourself"
+      ],
+      "usage_note": "Attaches to the dictionary form and, in real use, just as often to a noun (お礼には及びません, ご心配には及びません), which the corpus rule here does not license. It is the courteous, self-effacing member of this group: its home turf is gently waving off someone's concern or offer, so it tends to sound softer and less blunt than ことはない. The polished negatives (には及びません, には及ばず) are the ones to reach for in service or business speech. Note that 及ばない has a separate sense of falling short of something (彼には及ばない = he's out of my league); that is not this pattern.",
+      "examples": [
+        {
+          "ruby": "予定[よてい]どおり進[すす]んでいますので、慌[あわ]てるには及[およ]びません。",
+          "english": "Everything is on schedule, so there's no cause for alarm."
+        },
+        {
+          "ruby": "ご厚意[こうい]はありがたいのですが、そこまでしていただくには及[およ]びません。",
+          "english": "I appreciate the thought, but please don't go to that much trouble for me."
+        },
+        {
+          "ruby": "たかが捻挫[ねんざ]ですから、入院[にゅういん]するには及[およ]びません。",
+          "english": "It's only a sprain, so there's no need for a hospital stay."
+        }
+      ]
+    },
+    {
+      "l2_id": "1741",
+      "canonical_surface": "にはおよぶまい",
+      "glosses": [
+        "there would be no need to …",
+        "surely there is no call to …",
+        "it would hardly be necessary to …"
+      ],
+      "usage_note": "には及ばない with the literary negative conjecture まい in place of ない, so the judgment is offered as the speaker's inference rather than as fact: \"there would presumably be no need to …\". It belongs to written narration, editorial prose, and the deliberately weighty speech of fiction; in conversation a speaker would say には及ばないだろう instead. Like its parent it attaches to the dictionary form; まい has no past form, and in modern prose it stays plain, while a polite 〜ますまい (には及びますまい) survives only in archaic or deliberately old-fashioned writing.",
+      "examples": [
+        {
+          "ruby": "あの男[おとこ]の言葉[ことば]など、真[ま]に受[う]けるには及[およ]ぶまい。",
+          "english": "Surely there is no call to take a word that man says at face value."
+        },
+        {
+          "ruby": "今[いま]さら過去[かこ]を悔[く]やむには及[およ]ぶまい。",
+          "english": "There would be little point in regretting the past at this late hour."
+        },
+        {
+          "ruby": "あんな些細[ささい]な手違[てちが]いで辞任[じにん]するには及[およ]ぶまい。",
+          "english": "A slip that trivial would hardly warrant resigning over."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "class_code": "k14",
+  "class_name": "話題-提示-ニシテハ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1062",
+      "canonical_surface": "にしちゃ",
+      "glosses": [
+        "for (a)",
+        "considering (it's)",
+        "given that it's"
+      ],
+      "usage_note": "Measures something against the standard its own category implies and reports that the result is unexpected, so the following clause carries a note of surprise, often mild praise. Sibling としては makes the same comparison flatly and objectively (相撲取りとしては小柄だ, simply below the norm), whereas にしては adds the 意外性: 相撲取りにしては小柄だ sounds like a discovery. にしちゃ is the casual spoken contraction of にしては, confined to casual speech and the writing that imitates it; it does not appear in formal writing.",
+      "examples": [
+        {
+          "ruby": "素人[しろうと]にしちゃ、ずいぶん思[おも]い切[き]った攻[せ]め方[かた]だな。",
+          "english": "That's a remarkably bold line of attack for an amateur."
+        },
+        {
+          "ruby": "この値段[ねだん]にしちゃ、味[あじ]はなかなかのものだ。",
+          "english": "For what it costs, the taste is honestly pretty good."
+        },
+        {
+          "ruby": "三月[さんがつ]にしては、今日[きょう]はやけに風[かぜ]が冷[つめ]たい。",
+          "english": "For March, the wind today is awfully cold."
+        }
+      ]
+    },
+    {
+      "l2_id": "2902",
+      "canonical_surface": "としちゃ",
+      "glosses": [
+        "as",
+        "in the capacity of",
+        "from the standpoint of"
+      ],
+      "usage_note": "Names the position, role, or category from which the following statement is made; with a person it gives that person's stance (私としては賛成だ), and with a category it compares against that category's norm without the surprise にしては adds. The standpoint sense cannot be swapped for にしては at all. としましては is the polite business form, としちゃ the casual spoken contraction.",
+      "examples": [
+        {
+          "ruby": "親[おや]としては、そろそろ本音[ほんね]を聞[き]かせてほしい。",
+          "english": "As his parent, I'd like to hear what he actually thinks, and soon."
+        },
+        {
+          "ruby": "弊社[へいしゃ]としましては、今回[こんかい]の条件[じょうけん]をお受[う]けできません。",
+          "english": "Speaking for our company, we are unable to accept the terms on offer."
+        },
+        {
+          "ruby": "俺[おれ]としちゃ、明日[あした]でも構[かま]わないんだけどな。",
+          "english": "Personally, I'd be fine with tomorrow, for what it's worth."
+        }
+      ]
+    }
+  ]
+}

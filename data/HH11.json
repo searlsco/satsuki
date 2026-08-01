@@ -1,0 +1,85 @@
+{
+  "class_code": "H11",
+  "class_name": "自然発生-客観的-コトニナル類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1921",
+      "canonical_surface": "ことにゃなり",
+      "glosses": [
+        "it has been decided that …",
+        "it works out that …"
+      ],
+      "usage_note": "Reports an outcome settled by circumstances or by someone other than the speaker, in contrast to volitional ことにする; speakers also use it about their own choices to sound less self-assertive. The こととなる variant is stiffer and typical of formal announcements. It has a second, calculating sense (\"that means …\", \"that amounts to …\") used when spelling out a logical consequence, usually as 〜たことになる or ということになる.",
+      "examples": [
+        {
+          "ruby": "来月[らいげつ]から名古屋[なごや]支社[ししゃ]で働[はたら]くことになりました。",
+          "english": "It's been decided that I'll be working at the Nagoya branch from next month."
+        },
+        {
+          "ruby": "長[なが]い話[はな]し合[あ]いを経[へ]て、旅行[りょこう]は来春[らいしゅん]に延期[えんき]することになった。",
+          "english": "After long discussions, the trip ended up being pushed to next spring."
+        },
+        {
+          "ruby": "駅前[えきまえ]の書店[しょてん]は今月末[こんげつまつ]で閉[し]めることとなった。",
+          "english": "The bookshop by the station is to close at the end of this month."
+        }
+      ]
+    },
+    {
+      "l2_id": "1931",
+      "canonical_surface": "ようにゃなり",
+      "glosses": [
+        "come to (do)",
+        "start (doing) …",
+        "reach the point where one can …"
+      ],
+      "usage_note": "Marks a gradual change into a new habit, ability, or state, so it pairs especially naturally with potential forms. Where ことになる reports that something was decided or arranged, ようになる reports how things came to be done. The corpus rule licenses a dictionary-form verb; real Japanese also allows the negative (〜ないようになる), though 〜なくなる is far more common there.",
+      "examples": [
+        {
+          "ruby": "毎朝[まいあさ]コーヒーを自分[じぶん]で入[い]れるようになりました。",
+          "english": "I've gotten into the habit of brewing my own coffee every morning."
+        },
+        {
+          "ruby": "練習[れんしゅう]を重[かさ]ねて、彼[かれ]は速[はや]く泳[およ]げるようになった。",
+          "english": "After a lot of practice, he got to where he could swim fast."
+        },
+        {
+          "ruby": "引[ひ]っ越[こ]してから、電車[でんしゃ]で通勤[つうきん]するようになった。",
+          "english": "Since moving, I've come to commute by train."
+        }
+      ]
+    },
+    {
+      "l2_id": "1991",
+      "canonical_surface": "にゃいたっ",
+      "glosses": [
+        "reach the point of (doing)",
+        "go so far as to …",
+        "culminate in …"
+      ],
+      "usage_note": "Formal written Japanese: news copy, reports, and narration, where a long process finally arrives at a notable or extreme endpoint. It sounds heavy in conversation, where ことになる or 〜てしまう would carry the same news. It also takes nouns in real Japanese (現在に至る, 今日に至るまで), though the corpus rule here licenses only a dictionary-form verb.",
+      "examples": [
+        {
+          "ruby": "交渉[こうしょう]は難航[なんこう]し、ついに決裂[けつれつ]するに至[いた]った。",
+          "english": "The talks ran into trouble and ultimately broke down completely."
+        },
+        {
+          "ruby": "地道[じみち]な調査[ちょうさ]の末[すえ]、真相[しんそう]を突[つ]き止[と]めるに至[いた]った。",
+          "english": "Patient investigation finally led all the way to the truth."
+        },
+        {
+          "ruby": "長年[ながねん]の交流[こうりゅう]が実[みの]り、両市[りょうし]は姉妹[しまい]都市[とし]となるに至[いた]った。",
+          "english": "Years of exchange bore fruit, and the two cities went so far as to become sister cities."
+        }
+      ]
+    }
+  ]
+}

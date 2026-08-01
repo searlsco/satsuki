@@ -1,0 +1,61 @@
+{
+  "class_code": "J32",
+  "class_name": "進行-継続-テイク類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1332",
+      "canonical_surface": "ででもまいり",
+      "glosses": [
+        "(humble) will go on …ing",
+        "will continue to … (from now on)"
+      ],
+      "usage_note": "The 参る-based humble/formal counterpart of 〜ていく, pointing forward from the present, which is why it is the standard closing of pledges in speeches, press releases and customer letters. Because 参る is humble, it is used of your own or your organization's actions, or of impersonal developments, not of a respected person's actions. The same forms also serve the 〜てくる sense (progress up to now); direction is read from context and tense.",
+      "examples": [
+        {
+          "ruby": "今後[こんご]も品質[ひんしつ]の向上[こうじょう]に努[つと]めてまいります。",
+          "english": "We will keep working to improve our quality going forward."
+        },
+        {
+          "ruby": "この技術[ぎじゅつ]はこれからさらに身近[みぢか]なものになってまいります。",
+          "english": "This technology is going to keep becoming more and more a part of everyday life."
+        },
+        {
+          "ruby": "新[あたら]しい制度[せいど]は来春[らいしゅん]から順次[じゅんじ]導入[どうにゅう]してまいります。",
+          "english": "We will be rolling out the new system in stages starting next spring."
+        }
+      ]
+    },
+    {
+      "l2_id": "1381",
+      "canonical_surface": "でけ",
+      "glosses": [
+        "go on …ing",
+        "gradually become … (from now on)",
+        "… and go off"
+      ],
+      "usage_note": "Continuation or gradual change heading away from the present moment or from where the speaker stands; it is the mirror image of 〜てくる, which tracks change accumulating up to now. 〜てく／〜でく is the casual spoken contraction, and 〜てまいります the formal humble version. With motion verbs it keeps its literal 'do it and go' reading.",
+      "examples": [
+        {
+          "ruby": "この村[むら]の人口[じんこう]はこれからも減[へ]っていくだろう。",
+          "english": "This village's population will probably keep shrinking from here on."
+        },
+        {
+          "ruby": "記憶[きおく]はゆっくりと薄[うす]れていくものだ。",
+          "english": "Memories are the sort of thing that slowly fade away."
+        },
+        {
+          "ruby": "傘[かさ]は重[おも]いから、ここに置[お]いてくね。",
+          "english": "The umbrella's heavy, so I'll just leave it here and head off."
+        }
+      ]
+    }
+  ]
+}

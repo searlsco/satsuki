@@ -1,0 +1,129 @@
+{
+  "class_code": "r31",
+  "class_name": "順接-確定-タラ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0592",
+      "canonical_surface": "と",
+      "glosses": [
+        "when; whenever",
+        "as soon as; and then"
+      ],
+      "usage_note": "Attaches to the plain non-past and presents the second event as following automatically whenever the first holds: natural law, machine operation, habit, or a one-off discovery told in narration. Because the link is presented as automatic, the main clause normally cannot be a command, request, invitation, or a statement of the speaker's own intention; use たら or ば for those. What と buys in exchange is inevitability: it is chosen precisely when the speaker wants the second event to sound automatic rather than chosen. Compare だら/たら (0701), which frames one concrete occasion rather than a standing regularity.",
+      "examples": [
+        {
+          "ruby": "窓[まど]を開[あ]けると冷[つめ]たい風[かぜ]が入[はい]ってきた。",
+          "english": "The moment I opened the window, a cold draft blew in."
+        },
+        {
+          "ruby": "このボタンを押[お]すと切符[きっぷ]が出[で]てきます。",
+          "english": "Press this button and your ticket comes out."
+        },
+        {
+          "ruby": "弟[おとうと]は緊張[きんちょう]すると急[きゅう]に早口[はやくち]になってしまう。",
+          "english": "Whenever my little brother gets nervous, he suddenly starts talking a mile a minute."
+        }
+      ]
+    },
+    {
+      "l2_id": "0612",
+      "canonical_surface": "とすると",
+      "glosses": [
+        "supposing that; assuming that",
+        "if that is the case, then"
+      ],
+      "usage_note": "Follows the plain non-past (including the copula だ) and frames what precedes as a supposition, with the main clause stating the conclusion the speaker deduces from it. Next to its siblings it sounds the most objective: としたら is the freest with remote or counterfactual suppositions and with questions and wishes in the main clause, とすれば leans toward the speaker's evaluation, while とすると reads as \"then it follows that…\". The polite form is としますと; there is no colloquial contraction of this member (とすりゃ belongs to とすれば).",
+      "examples": [
+        {
+          "ruby": "彼[かれ]が犯人[はんにん]だとすると動機[どうき]が説明[せつめい]できない。",
+          "english": "If we assume he is the culprit, the motive can't be explained."
+        },
+        {
+          "ruby": "今[いま]から出[で]るとすると到着[とうちゃく]は九時[くじ]を過[す]ぎる。",
+          "english": "Assuming we leave now, we won't get there until after nine."
+        },
+        {
+          "ruby": "全員[ぜんいん]が来[く]るとすると椅子[いす]が足[た]りなくなる。",
+          "english": "Supposing everyone shows up, we're going to run short of chairs."
+        }
+      ]
+    },
+    {
+      "l2_id": "0622",
+      "canonical_surface": "じゃ",
+      "glosses": [
+        "with … like this; given that …",
+        "if it's …, then …"
+      ],
+      "usage_note": "Colloquial contraction of では/ては that takes an existing state of affairs as sufficient grounds for a conclusion, which is almost always an undesirable one: \"things being this way, it's no good.\" It is the branch of ては that attaches to nouns (この雨じゃ) and to i-adjectives in the くて form (こう暑くちゃ) as well as to verbs, and it pairs naturally with こう/この pointing at the present situation. The sibling ては of 0623 instead targets an action someone performs; because the consequent here is a negative assessment, requests and invitations rarely follow.",
+      "examples": [
+        {
+          "ruby": "この雨[あめ]じゃ花火[はなび]大会[たいかい]は中止[ちゅうし]だろうね。",
+          "english": "With rain like this, the fireworks are bound to be called off."
+        },
+        {
+          "ruby": "こう暑[あつ]くちゃ何[なに]もする気[き]になれない。",
+          "english": "When it's this hot, you can't work up the will to do anything."
+        },
+        {
+          "ruby": "給料[きゅうりょう]がこれじゃ都会[とかい]で暮[く]らしていけないよ。",
+          "english": "On a salary like this, there's no way to keep living in the city."
+        }
+      ]
+    },
+    {
+      "l2_id": "0701",
+      "canonical_surface": "だら",
+      "glosses": [
+        "if; when",
+        "once …; after …"
+      ],
+      "usage_note": "The all-purpose conditional, formed on the ta-stem (読んだら, 起きたら, 高かったら); だら appears wherever the plain past is voiced: after む/ぶ/ぬ godan verbs (読んだら, 遊[あそ]んだら, 死[し]んだら) and after ぐ godan verbs (泳[およ]いだら). It typically sets up one concrete occasion rather than a standing rule, and unlike と (0592) it freely allows a request, command, invitation, or the speaker's own intention in the main clause. With a past main clause it loses the conditional sense and reports what was found on doing something.",
+      "examples": [
+        {
+          "ruby": "駅[えき]に着[つ]いたら電話[でんわ]してください。",
+          "english": "Give me a call once you get to the station."
+        },
+        {
+          "ruby": "明日[あした]早[はや]く起[お]きたら散歩[さんぽ]に行[い]こうと思[おも]う。",
+          "english": "If I manage to get up early tomorrow, I think I'll go for a walk."
+        },
+        {
+          "ruby": "家[いえ]に帰[かえ]ったら玄関[げんかん]の鍵[かぎ]が開[あ]いていた。",
+          "english": "When I got home, the front door was unlocked."
+        }
+      ]
+    },
+    {
+      "l2_id": "0711",
+      "canonical_surface": "でみると",
+      "glosses": [
+        "upon (actually) doing …",
+        "when you try …, it turns out …"
+      ],
+      "usage_note": "Built on てみる \"do something and see,\" so it marks the preceding action as the occasion of a discovery and the main clause reports what came to light; the main clause is therefore usually past tense and usually something the speaker did not expect. で appears wherever the te-form is voiced (む/ぶ/ぬ and ぐ godan verbs: 読んでみると, 泳いでみると) and て elsewhere (調べてみると). てみたら is freely interchangeable here; てみれば is not, since it leans reflective or hypothetical (考えてみれば…) rather than reporting an actual past discovery, and set phrases like 振[ふ]り返[かえ]ってみると and 考えてみると keep みると.",
+      "examples": [
+        {
+          "ruby": "棚[たな]の奥[おく]を調[しら]べてみると古[ふる]い手紙[てがみ]が出[で]てきた。",
+          "english": "When I dug around at the back of the shelf, an old letter turned up."
+        },
+        {
+          "ruby": "その本[ほん]を読[よ]んでみると意外[いがい]に面白[おもしろ]かった。",
+          "english": "I gave the book a try, and it was unexpectedly good."
+        },
+        {
+          "ruby": "実際[じっさい]に計算[けいさん]してみると予想[よそう]より費用[ひよう]がかかった。",
+          "english": "Once I actually ran the numbers, it came to more than I'd figured."
+        }
+      ]
+    }
+  ]
+}

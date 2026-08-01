@@ -1,0 +1,62 @@
+{
+  "class_code": "y21",
+  "class_name": "否定-無意味-ドコロデハナイ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1681",
+      "canonical_surface": "どころじゃない",
+      "glosses": [
+        "this is no time for …",
+        "far from …ing",
+        "… is out of the question"
+      ],
+      "usage_note": "Sweeps a suggestion off the table: things are so pressing that the named activity is unthinkable, and it usually carries an edge of irritation that the neutral 〜ている場合ではない lacks. どころではない is the more formal written twin of spoken どころじゃない, and the の話じゃない variants pile on extra scorn. Keep it apart from 〜どころか, which corrects a mistaken expectation instead of dismissing an activity as untimely.",
+      "examples": [
+        {
+          "ruby": "締[し]め切[き]り前[まえ]で、旅行[りょこう]どころじゃないんだ。",
+          "english": "I'm up against a deadline — a trip is completely out of the question."
+        },
+        {
+          "ruby": "腰[こし]を痛[いた]めて、しばらく走[はし]るどころではなかった。",
+          "english": "I hurt my back, and for a while running was the last thing I could do."
+        },
+        {
+          "ruby": "子供[こども]が熱[ねつ]を出[だ]して、今日[きょう]は残業[ざんぎょう]どころじゃない。",
+          "english": "My kid's come down with a fever — working late tonight is out of the question."
+        }
+      ]
+    },
+    {
+      "l2_id": "2551",
+      "canonical_surface": "だものじゃない",
+      "glosses": [
+        "not something you could call …ing",
+        "hardly fit to …",
+        "you can't … it at all"
+      ],
+      "usage_note": "An exasperated disqualification: what happened does not deserve the name. In this 'not fit to be called that' sense it typically follows a potential form (食えたもんじゃない), with the contracted たもんじゃない as the everyday shape and たものではない the version that survives in writing. The same shape after 分かる gives a separate high-frequency idiom, 〜か分かったもんじゃない, 'there's no telling what/whether …'. Where どころじゃない says an activity is untimely, this says the thing itself falls hopelessly short.",
+      "examples": [
+        {
+          "ruby": "あの店[みせ]の魚[さかな]は生臭[なまぐさ]くて、食[く]えたもんじゃない。",
+          "english": "The fish at that place reeks — it's not fit to eat."
+        },
+        {
+          "ruby": "この字[じ]は崩[くず]しすぎていて、とても読[よ]めたものじゃない。",
+          "english": "This handwriting is so scrawled you haven't a hope of reading it."
+        },
+        {
+          "ruby": "隣[となり]の工事[こうじ]がうるさくて、夜[よる]も眠[ねむ]れたもんじゃない。",
+          "english": "The building work next door is so loud I can't get any sleep at night."
+        }
+      ]
+    }
+  ]
+}

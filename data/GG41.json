@@ -1,0 +1,37 @@
+{
+  "class_code": "G41",
+  "class_name": "意志-覚悟-テミセル類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1891",
+      "canonical_surface": "でもみせ",
+      "glosses": [
+        "actually go and do …, to prove it",
+        "not just say it — do … in front of them"
+      ],
+      "usage_note": "Literally 'do it and show you', 〜てみせる has two lives: a declaration of resolve, typically in the plain form and directed at doubters, and a demonstration performed for someone's benefit (先生が書いてみせた). Because it asserts the speaker's will it pairs with volitional verbs, not with things that merely happen. Inserting も (〜てもみせる) puts the act alongside something already done or said: not merely claiming, but performing it for others to see, and it is at home in past narration rather than in a forward-looking vow. Finally, the て/で alternation follows the ordinary te-form of the attached verb.",
+      "examples": [
+        {
+          "ruby": "泳[およ]げると言[い]うだけでなく、実際[じっさい]に泳[およ]いでもみせた。",
+          "english": "He didn't just say he could swim it — he went and swam it in front of us."
+        },
+        {
+          "ruby": "手順[てじゅん]を説明[せつめい]し、その場[ば]で組[く]み立[た]ててもみせた。",
+          "english": "She talked through the steps and then assembled it right there to prove it."
+        },
+        {
+          "ruby": "彼[かれ]は反論[はんろん]せず、根拠[こんきょ]となる数字[すうじ]を出[だ]してもみせた。",
+          "english": "Rather than arguing back, he produced the numbers to back it up."
+        }
+      ]
+    }
+  ]
+}

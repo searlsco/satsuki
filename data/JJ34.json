@@ -1,0 +1,38 @@
+{
+  "class_code": "J34",
+  "class_name": "進行-継続-ツツアル類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1391",
+      "canonical_surface": "つつさえあり",
+      "glosses": [
+        "be in the process of …ing",
+        "be gradually …ing",
+        "be coming to be …"
+      ],
+      "usage_note": "Written-register progressive: it attaches to the masu-stem and frames a change as already under way and heading toward its endpoint, so it belongs to news copy, reports and essays where speech would say ている or ていく. It is the form to reach for with punctual change verbs — 消えつつある, 死につつある mean 'approaching that state', which ている cannot express — and reference grammars rule it out for plain activity verbs, so 食べつつある is not an alternative to 食べている. The particle-inserted realizations (つつもある, つつさえある) are bookish and rare. Note that 〜つつ／〜つつも without ある is the separate concessive \"while/although\" pattern (知りつつ黙っていた), not this progressive.",
+      "examples": [
+        {
+          "ruby": "地球[ちきゅう]の平均気温[へいきんきおん]は年々[ねんねん]上昇[じょうしょう]しつつある。",
+          "english": "The earth's average temperature is climbing year after year."
+        },
+        {
+          "ruby": "古[ふる]い商店街[しょうてんがい]の灯[あか]りが一[ひと]つずつ消[き]えつつある。",
+          "english": "The lights of the old shopping street are going out one by one."
+        },
+        {
+          "ruby": "伝統的[でんとうてき]な祭[まつ]りの担[にな]い手[て]が確実[かくじつ]に減[へ]りつつある。",
+          "english": "The people who keep the old festivals going are steadily dwindling."
+        }
+      ]
+    }
+  ]
+}

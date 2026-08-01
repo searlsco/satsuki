@@ -1,0 +1,83 @@
+{
+  "class_code": "b31",
+  "class_name": "対象-取り上げ-ニカケテ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0111",
+      "canonical_surface": "にかけての",
+      "glosses": [
+        "when it comes to; as far as … goes",
+        "in the area of"
+      ],
+      "usage_note": "Attached to a noun naming a skill, field, or activity, にかけて(は) singles that domain out and then rates someone within it; the follow-up is almost always a superlative or an unmatched-in-that-field claim (一番だ, 右に出る者がいない, 誰にも負けない), so a neutral or negative evaluation usually sounds off. The は-marked にかけては is by far the commonest realization because the contrast (\"in THAT area, whatever else may be true\") is the point; にかけましては is its polite-business form and にかけちゃ its casual contraction. Do not confuse it with the から〜にかけて that spans a stretch of time or space, which is a different pattern, or with sibling 0112 にかけて(も), which stakes something valued.",
+      "examples": [
+        {
+          "ruby": "暗記[あんき]にかけては、姉[あね]に勝[か]てる気[き]がしない。",
+          "english": "When it comes to memorizing things, I don't stand a chance against my sister."
+        },
+        {
+          "ruby": "掃除[そうじ]にかけては父[ちち]の右[みぎ]に出[で]る者[もの]がいない。",
+          "english": "When it comes to cleaning, nobody can hold a candle to my dad."
+        },
+        {
+          "ruby": "接客[せっきゃく]にかけては彼女[かのじょ]が店[みせ]で一番[いちばん]だ。",
+          "english": "For dealing with customers, she's the best in the shop."
+        }
+      ]
+    },
+    {
+      "l2_id": "0112",
+      "canonical_surface": "にかけての",
+      "glosses": [
+        "staking …; I swear on/by …",
+        "even at the cost of …"
+      ],
+      "usage_note": "Here the noun is something the speaker holds precious — 命, 名誉, 名, プライド, 面子, a company's signboard — and putting it にかけて(も) means \"I am willing to forfeit it if I fail,\" so the clause that follows carries a vow, a strong resolve, or a flat denial. Adding も raises the stakes rhetorically but is optional, and the whole expression is earnest and somewhat literary rather than everyday. It differs from sibling 0111 にかけては, which merely picks out a field of expertise and offers no wager at all.",
+      "examples": [
+        {
+          "ruby": "名誉[めいよ]にかけて、この事件[じけん]は必[かなら]ず解決[かいけつ]する。",
+          "english": "On my honor, I will crack this case, whatever it takes."
+        },
+        {
+          "ruby": "職人[しょくにん]の意地[いじ]にかけても、途中[とちゅう]では投[な]げ出[だ]さない。",
+          "english": "My pride as a craftsman won't let me walk away half-finished."
+        },
+        {
+          "ruby": "母[はは]の名[な]にかけて、嘘[うそ]は言[い]っていない。",
+          "english": "I swear on my mother's name, I'm not lying."
+        }
+      ]
+    },
+    {
+      "l2_id": "0131",
+      "canonical_surface": "にかけると",
+      "glosses": [
+        "once you put it in the hands of …",
+        "when it is entrusted to …"
+      ],
+      "usage_note": "This is the transitive twin of the far commoner 〜にかかると: you hand the thing over to the named expert or apparatus, and an outcome that would normally be hard or impossible follows as a matter of course, so the main clause typically reports an effortless or surprising result. It is stiff, rather bookish Japanese today, and modern speakers usually reach for にかかると or 〜の手にかかると instead; にかけますと is the polite variant and suits narration or formal explanation. The noun before にかけると must be a place, process, or specialist that かける itself already selects (医者にかける, 機械にかける, 裁判にかける, 校閲にかける); where かける does not collocate that way, Japanese uses 〜にかかると instead.",
+      "examples": [
+        {
+          "ruby": "名医[めいい]にかけると、どんな病[やまい]も治[なお]ってしまう。",
+          "english": "Put a patient in the hands of a top doctor and any illness simply clears up."
+        },
+        {
+          "ruby": "あの機械[きかい]にかけますと、贋作[がんさく]もすぐに露見[ろけん]します。",
+          "english": "Run a piece through that machine and a forgery comes to light at once."
+        },
+        {
+          "ruby": "どんな原稿[げんこう]も校閲[こうえつ]にかけると、誤字[ごじ]が山[やま]ほど出[で]る。",
+          "english": "Put any manuscript through proofreading and typos turn up by the dozen."
+        }
+      ]
+    }
+  ]
+}

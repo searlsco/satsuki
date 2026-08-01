@@ -1,0 +1,38 @@
+{
+  "class_code": "e13",
+  "class_name": "起点-極端例-カラ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0271",
+      "canonical_surface": "からの",
+      "glosses": [
+        "from (a starting point)",
+        "starting from",
+        "(everything) from … (to)"
+      ],
+      "usage_note": "The everyday starting-point marker; paired with まで it brackets a range by naming its two extremes (子供から大人まで), and those extremes are offered as illustrations of how wide the range is rather than as exact limits. より (2961) swaps in for から only when the near end is a plain starting point in formal writing or announcements (九時より五時まで); it is not used for this extreme-example listing (×子供より大人まで), and に至るまで (0311) is the emphatic far end. In this use から attaches to a noun; the から that follows a clause or a te-form verb is the separate causal (寒いから) or sequential (帰ってから) conjunction.",
+      "examples": [
+        {
+          "ruby": "この本[ほん]は子供[こども]から大人[おとな]まで幅広[はばひろ]く読[よ]まれている。",
+          "english": "This book is read widely, by everyone from children to adults."
+        },
+        {
+          "ruby": "この駅[えき]は始発[しはつ]から終電[しゅうでん]まで人[ひと]が絶[た]えない。",
+          "english": "This station never empties out, from the first train to the last."
+        },
+        {
+          "ruby": "部品[ぶひん]の設計[せっけい]から組[く]み立[た]てまで自社[じしゃ]で行[おこな]う。",
+          "english": "We handle it in house, right from the design of the parts through assembly."
+        }
+      ]
+    }
+  ]
+}

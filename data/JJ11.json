@@ -1,0 +1,38 @@
+{
+  "class_code": "J11",
+  "class_name": "進行-習慣-コトニシテイル類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "2401",
+      "canonical_surface": "ことにして",
+      "glosses": [
+        "make a point of …",
+        "make it a rule to …",
+        "have decided to …"
+      ],
+      "usage_note": "ことにする (a decision the speaker makes) in the ている form: a self-imposed habit or policy that the speaker keeps up. Contrast ことになっている, where the rule is imposed from outside. It attaches to the dictionary form, and the negative habit uses the plain negative (食べないことにしている). ことにしてる and the polite ことにしてます are the spoken contractions.",
+      "examples": [
+        {
+          "ruby": "毎朝[まいあさ]六時[ろくじ]に起[お]きることにしている。",
+          "english": "I make a point of getting up at six every morning."
+        },
+        {
+          "ruby": "休[やす]みの日[ひ]は仕事[しごと]の話[はなし]を避[さ]けることにしてる。",
+          "english": "I make a point of steering clear of work talk on my days off."
+        },
+        {
+          "ruby": "出張[しゅっちょう]のたびに土産[みやげ]を買[か]うことにしています。",
+          "english": "I make it a rule to buy souvenirs on every business trip."
+        }
+      ]
+    }
+  ]
+}

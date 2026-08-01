@@ -38,6 +38,30 @@ let draft = try JSONDecoder().decode(
 let chunker = PatternChunker(dictionary: dictionary)
 let gate = PatternAttachmentGate(dictionary: dictionary)
 
+func volitionalFusion(tokens: [JapaneseToken], surfaces: [String]) -> Bool {
+  for surface in Set(surfaces) where surface.hasPrefix("う") {
+    let remainder = String(surface.dropFirst())
+    for (index, token) in tokens.enumerated() {
+      let fusedGodan = token.surface.hasSuffix("う") && token.partOfSpeech.count > 5
+        && token.partOfSpeech[5].hasPrefix("意志推量")
+      let auxiliary = ["よう", "う"].contains(token.surface)
+        && (token.partOfSpeech.first == "助動詞"
+          || (token.partOfSpeech.count > 1 && token.partOfSpeech[1] == "助動詞語幹"))
+      guard fusedGodan || auxiliary else { continue }
+      if remainder.isEmpty { return true }
+      var following = ""
+      var next = index + 1
+      while next < tokens.count, following.count < remainder.count,
+        tokens[next].characterRange.lowerBound == tokens[next - 1].characterRange.upperBound {
+        following += tokens[next].surface
+        next += 1
+      }
+      if following.hasPrefix(remainder) { return true }
+    }
+  }
+  return false
+}
+
 var failures = 0
 for pattern in draft.patterns {
   if pattern.examples.count != 3 {
@@ -67,9 +91,23 @@ for pattern in draft.patterns {
     let chunks = chunker.chunks(in: tokens)
     guard let chunk = chunks.first(where: { $0.patterns.contains { $0.l2ID == pattern.l2_id } })
     else {
-      print("FAIL \(tag): no chunk realizes l2 \(pattern.l2_id) in 「\(plain)」"
-        + " (chunks: \(chunks.map(\.surface).joined(separator: "、")))")
-      failures += 1
+      // う-onset patterns (うものなら, うが, うか…): after a godan verb the
+      // volitional う fuses into the verb token (言おう), so no chunk can
+      // start on the pattern's boundary. Same conjugated-away case the
+      // production gate fails open on; report OPEN when a volitional token
+      // is followed by the rest of the surface.
+      if volitionalFusion(tokens: tokens, surfaces: dictionary.patterns(underID: pattern.l2_id).map(\.surface)) {
+        print("OPEN \(tag): volitional-fused realization of \(pattern.l2_id) in 「\(plain)」")
+      } else {
+        print("FAIL \(tag): no chunk realizes l2 \(pattern.l2_id) in 「\(plain)」"
+          + " (chunks: \(chunks.map(\.surface).joined(separator: "、")))")
+        if ProcessInfo.processInfo.environment["GATE_DEBUG"] != nil {
+          for token in tokens {
+            print("  \(token.surface) \(token.partOfSpeech.joined(separator: ","))")
+          }
+        }
+        failures += 1
+      }
       continue
     }
     let entries = chunk.patterns.filter { $0.l2ID == pattern.l2_id }

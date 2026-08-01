@@ -1,0 +1,38 @@
+{
+  "class_code": "w31",
+  "class_name": "感嘆-確認-ネ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "3161",
+      "canonical_surface": "ね",
+      "glosses": [
+        "…, isn't it?",
+        "…, right?",
+        "…, don't you think?"
+      ],
+      "usage_note": "Confirmation-seeking ね hands the proposition to the listener for a nod: a shared observation, a fact being checked, an assertion softened. Rising ね genuinely asks, while falling ね simply invites the listener to feel the same way about something you both perceive. Unlike な, which is turned inward and works with nobody listening, ね presupposes a hearer, and unlike よ it does not deliver news the listener lacks.",
+      "examples": [
+        {
+          "ruby": "昨日[きのう]と違[ちが]って、今日[きょう]はずいぶん風[かぜ]が強[つよ]いね。",
+          "english": "Quite unlike yesterday — the wind's really up today, isn't it."
+        },
+        {
+          "ruby": "この写真[しゃしん]、去年[きょねん]の運動会[うんどうかい]だね。",
+          "english": "This photo is from last year's sports day, right?"
+        },
+        {
+          "ruby": "駅[えき]の前[まえ]に、新[あたら]しいパン屋[や]ができたね。",
+          "english": "A new bakery's opened up in front of the station, hasn't it."
+        }
+      ]
+    }
+  ]
+}

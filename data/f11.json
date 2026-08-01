@@ -1,0 +1,107 @@
+{
+  "class_code": "f11",
+  "class_name": "範囲-範囲-ニカケテ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0113",
+      "canonical_surface": "にかけての",
+      "glosses": [
+        "from … through (to)",
+        "over (a span of); through"
+      ],
+      "usage_note": "Names the far end of an approximate stretch of time or space, almost always with から marking the near end (夕方から夜にかけて). The span is deliberately fuzzy and continuous, which suits weather, seasons, historical periods, and the spread of a sensation; a firm deadline or an exact boundary takes まで (0301) instead. へかけて (0321) is a rarer, more directional variant, and に至るまで (0311) shifts the emphasis onto how far the range surprisingly reaches.",
+      "examples": [
+        {
+          "ruby": "三月[さんがつ]から四月[しがつ]にかけて引[ひ]っ越[こ]しの依頼[いらい]が増[ふ]える。",
+          "english": "Moving requests pick up over the stretch from March into April."
+        },
+        {
+          "ruby": "肩[かた]から背中[せなか]にかけて鈍[にぶ]い痛[いた]みが続[つづ]いている。",
+          "english": "A dull ache runs from my shoulder on across my back and won't let up."
+        },
+        {
+          "ruby": "深夜[しんや]から明[あ]け方[がた]にかけて雨[あめ]が強[つよ]まる見込[みこ]みです。",
+          "english": "The rain is expected to intensify from late at night through toward dawn."
+        }
+      ]
+    },
+    {
+      "l2_id": "0301",
+      "canonical_surface": "までの",
+      "glosses": [
+        "until; till",
+        "up to; as far as"
+      ],
+      "usage_note": "The plain, definite limit: a terminal point in time, space, or degree. It attaches to a plain (dictionary-form) verb as readily as to a noun (雨がやむまで待つ), where にかけて (0113) and へかけて (0321) take only nouns. Unlike にかけて it names a sharp boundary and needs no から partner, and unlike に至るまで (0311) it carries no suggestion that the range is unexpectedly wide.",
+      "examples": [
+        {
+          "ruby": "この道[みち]は途中[とちゅう]の橋[はし]までしか続[つづ]いていない。",
+          "english": "This road only goes as far as the bridge partway along."
+        },
+        {
+          "ruby": "雨[あめ]がやむまで軒下[のきした]で少[すこ]し待[ま]つことにした。",
+          "english": "I decided to wait a little under the eaves until the rain let up."
+        },
+        {
+          "ruby": "返事[へんじ]が来[く]るまで何[なに]も決[き]められない状態[じょうたい]だ。",
+          "english": "We're stuck unable to decide anything until a reply comes."
+        }
+      ]
+    },
+    {
+      "l2_id": "0311",
+      "canonical_surface": "にいたるまでの",
+      "glosses": [
+        "(all the way) up to",
+        "down to (even)",
+        "right through to"
+      ],
+      "usage_note": "Emphatic まで: it holds up the end point as a striking or exhaustive extreme, so the sentence typically reads 'everything from A right down to B' (衣装から小道具に至るまで), or stresses that a state has persisted all the way to now (現在に至るまで). The register is formal and written; substituting plain まで (0301) keeps the boundary but loses the note of how far the range extends. It is transparently 至る 'to reach' plus まで, and like まで it takes a noun or a plain verb.",
+      "examples": [
+        {
+          "ruby": "あの事件[じけん]は現在[げんざい]に至[いた]るまで解決[かいけつ]していない。",
+          "english": "That case remains unsolved right up to the present day."
+        },
+        {
+          "ruby": "衣装[いしょう]から小道具[こどうぐ]に至[いた]るまで全[すべ]て手作[てづく]りだ。",
+          "english": "Everything is handmade, from the costumes down to the smallest prop."
+        },
+        {
+          "ruby": "彼[かれ]が真相[しんそう]を打[う]ち明[あ]けるに至[いた]るまで十年[じゅうねん]かかった。",
+          "english": "It took ten years before he finally came out with the truth."
+        }
+      ]
+    },
+    {
+      "l2_id": "0321",
+      "canonical_surface": "へかけての",
+      "glosses": [
+        "from … over toward",
+        "through (to); across as far as"
+      ],
+      "usage_note": "A directional variant of にかけて (0113): the へ preserves a sense of motion toward the far end, so it fits spans that trace a path or a spread in one direction (中腹から頂上へかけて). It is considerably less frequent than にかけて, which is the unmarked choice in most sentences, so save へかけて for spans that genuinely run from one point toward another. Beware that the same string also turns up literally as へ plus 掛ける or 駆ける, which has nothing to do with this pattern.",
+      "examples": [
+        {
+          "ruby": "山[やま]の中腹[ちゅうふく]から頂上[ちょうじょう]へかけて紅葉[こうよう]が進[すす]む。",
+          "english": "The autumn colors creep up from the mountainside toward the summit."
+        },
+        {
+          "ruby": "北[きた]の山[やま]から海岸[かいがん]へかけて濃[こ]い霧[きり]が広[ひろ]がった。",
+          "english": "A thick fog spread out from the northern hills toward the coast."
+        },
+        {
+          "ruby": "幕末[ばくまつ]から明治[めいじ]へかけて西洋[せいよう]の技術[ぎじゅつ]が流入[りゅうにゅう]した。",
+          "english": "Western technology poured in across the years from the late Edo period into Meiji."
+        }
+      ]
+    }
+  ]
+}

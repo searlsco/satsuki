@@ -1,0 +1,84 @@
+{
+  "class_code": "J33",
+  "class_name": "進行-継続-テクル類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1321",
+      "canonical_surface": "でさえき",
+      "glosses": [
+        "come to …; gradually become …",
+        "have been …ing (up to now)",
+        "go and … and come back"
+      ],
+      "usage_note": "Change that has built up to the present, or motion oriented toward the speaker; 〜てきた is the usual shape for a state that has newly emerged. Contrast 〜ていく, which sends the same change forward and away. Its humble-formal counterpart is 〜てまいりました, and with motion verbs it keeps the literal 'go do it and come back' sense.",
+      "examples": [
+        {
+          "ruby": "夕方[ゆうがた]から急[きゅう]に風[かぜ]が強[つよ]くなってきた。",
+          "english": "The wind has suddenly picked up since early evening."
+        },
+        {
+          "ruby": "引[ひ]っ越[こ]し先[さき]の暮[く]らしにもだんだん慣[な]れてきました。",
+          "english": "I've gradually gotten used to life in my new place."
+        },
+        {
+          "ruby": "ちょっとコンビニで牛乳[ぎゅうにゅう]を買[か]ってくる。",
+          "english": "I'm just going to run to the convenience store for some milk."
+        }
+      ]
+    },
+    {
+      "l2_id": "1331",
+      "canonical_surface": "ではまいり",
+      "glosses": [
+        "(humble) have been …ing (up to now)",
+        "have gradually come to …"
+      ],
+      "usage_note": "The 参る-based humble/formal counterpart of 〜てくる, covering developments that have reached the present; it is the standard register for seasonal greetings and for recounting what you or your company has done to date. The very same forms in the non-past carry the forward-looking 〜ていく sense, so tense and context decide the direction. As a humble form it describes your own side or impersonal happenings rather than a respected person's actions.",
+      "examples": [
+        {
+          "ruby": "朝晩[あさばん]はずいぶん冷[ひ]え込[こ]んでまいりました。",
+          "english": "Mornings and evenings have turned quite chilly now."
+        },
+        {
+          "ruby": "当店[とうてん]は開店[かいてん]以来[いらい]、同[おな]じ味[あじ]を守[まも]り続[つづ]けてまいりました。",
+          "english": "We have kept the same flavor alive ever since the day this shop opened."
+        },
+        {
+          "ruby": "桜[さくら]の便[たよ]りが南[みなみ]から届[とど]いてまいりました。",
+          "english": "Word of the cherry blossoms has come up to us from the south."
+        }
+      ]
+    },
+    {
+      "l2_id": "1341",
+      "canonical_surface": "でらっしゃり",
+      "glosses": [
+        "(honorific) come …ing",
+        "(honorific) bring / go along …ing"
+      ],
+      "usage_note": "Honorific of 〜てくる (and of 〜ていく), used for a respected person approaching, arriving, or bringing something along. It shares its surface with the honorific of 〜ている, so the verb and the situation tell you whether motion or an ongoing state is meant. 〜ておいでになる often alternates with it, and for your own actions you would say 〜てまいりました instead.",
+      "examples": [
+        {
+          "ruby": "お客様[きゃくさま]が受付[うけつけ]まで歩[ある]いていらっしゃいます。",
+          "english": "The guest is walking over to reception."
+        },
+        {
+          "ruby": "部長[ぶちょう]が重[おも]い資料[しりょう]を運[はこ]んでいらっしゃいました。",
+          "english": "The manager came over carrying the heavy documents."
+        },
+        {
+          "ruby": "恩師[おんし]がわざわざ我[わ]が家[や]まで訪[たず]ねていらっしゃった。",
+          "english": "My old teacher went out of his way to come all the way to our house."
+        }
+      ]
+    }
+  ]
+}

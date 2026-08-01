@@ -1,0 +1,62 @@
+{
+  "class_code": "x21",
+  "class_name": "疑問-非難-ウガ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0922",
+      "canonical_surface": "うが",
+      "glosses": [
+        "no matter whether …",
+        "even if; whatever/however … may be",
+        "regardless of …"
+      ],
+      "usage_note": "Volitional form plus が: a concessive that brushes the preceding condition aside as irrelevant, often with a curt, washing-my-hands tone, and typically stronger and more emphatic than 〜ても, which it beats precisely when the condition is being declared beside the point in advance rather than genuinely weighed as a live possibility. It is almost always interchangeable with 〜(よ)うと, though 〜(よ)うと is the more neutral, written-leaning member of the pair and 〜うが the more emphatic one, most at home in the paired frames (〜うが〜うが, 〜うが〜まいが). The corpus rule licenses only verbs and い-adjectives here (行こうが, 高かろうが); nouns and な-adjectives take the same construction through the copula (学生だろうが, 下手だろうが).",
+      "examples": [
+        {
+          "ruby": "上司[じょうし]に何[なに]を言[い]われようが、会社[かいしゃ]を辞[や]める気[き]はない。",
+          "english": "Whatever my boss says to me, I have no intention of quitting."
+        },
+        {
+          "ruby": "どんなに値段[ねだん]が高[たか]かろうが、兄[あに]はあの時計[とけい]を買[か]うつもりらしい。",
+          "english": "However expensive it is, my brother apparently means to buy that watch."
+        },
+        {
+          "ruby": "雨[あめ]が降[ふ]ろうが雪[ゆき]が降[ふ]ろうが、大会[たいかい]は予定[よてい]どおり行[おこな]われる。",
+          "english": "Rain or snow, the tournament goes ahead as scheduled."
+        }
+      ]
+    },
+    {
+      "l2_id": "2442",
+      "canonical_surface": "じゃないか",
+      "glosses": [
+        "isn't it …?; … , isn't it!",
+        "…, didn't you! (reproach)",
+        "look, … / come on, …"
+      ],
+      "usage_note": "A rhetorical question that presses a judgment the speaker treats as obvious onto the hearer; in this class the typical color is reproach or complaint, though the same form also carries admiration (いい店じゃないか). Bare 〜じゃない with rising intonation is the gender-neutral everyday equivalent and the one most speakers actually say; adding か is what makes it blunt and masculine-sounding, じゃないですか is the polite version and often just softens an assertion, ではないか is written or formal, and じゃねえか is rough speech. Note that after a volitional (行こうじゃないか) it stops being a rhetorical question and becomes an invitation, a separate function.",
+      "examples": [
+        {
+          "ruby": "昨日[きのう]ちゃんと確認[かくにん]すると言[い]ったじゃないか。",
+          "english": "You told me yesterday you'd double-check it, didn't you!"
+        },
+        {
+          "ruby": "そんなに怒[おこ]らなくても、あの子[こ]はまだ子供[こども]じゃないか。",
+          "english": "Go easy on her; she's still just a kid, come on."
+        },
+        {
+          "ruby": "その資料[しりょう]、先週[せんしゅう]までにお願[ねが]いしたじゃないですか。",
+          "english": "I asked you to have that document ready by last week, didn't I?"
+        }
+      ]
+    }
+  ]
+}

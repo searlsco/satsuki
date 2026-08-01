@@ -1,0 +1,37 @@
+{
+  "class_code": "Q51",
+  "class_name": "並立-用言の並立-ノ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1613",
+      "canonical_surface": "の",
+      "glosses": [
+        "… this, … that",
+        "going on about … and …"
+      ],
+      "usage_note": "〜の〜の strings two plain-form predicates together — usually an opposed or clashing pair — to report someone making a fuss over them, so it nearly always continues into と言う・と騒ぐ・と文句を言う (verbs of saying or making a fuss). It reports the fuss with a touch of impatience rather than stating a real alternative, which is what separates it from choosing か. It is colloquial, and the pair is very often a verb and its negative (行くの行かないの).",
+      "examples": [
+        {
+          "ruby": "暑[あつ]いの寒[さむ]いのと、朝[あさ]からうるさい。",
+          "english": "Too hot, too cold — he's been carrying on since morning."
+        },
+        {
+          "ruby": "買[か]うの借[か]りるのと、ずっと言[い]い合[あ]っている。",
+          "english": "Buy it, rent it — they've been going round and round about it."
+        },
+        {
+          "ruby": "息子[むすこ]は行[い]くの行[い]かないのと言[い]ってきかない。",
+          "english": "My son keeps going on about whether he's going or not and won't let it drop."
+        }
+      ]
+    }
+  ]
+}

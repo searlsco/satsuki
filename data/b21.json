@@ -1,0 +1,60 @@
+{
+  "class_code": "b21",
+  "class_name": "対象-指向-ニタイシテ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0081",
+      "canonical_surface": "にたいしての",
+      "glosses": [
+        "toward; to (the target of an action or feeling)",
+        "in response to; with regard to"
+      ],
+      "usage_note": "Marks the person, group or thing an action, attitude or feeling is aimed at, so it goes with words like 抗議する, 反対する, 優しい, 厳しい. Keep it clear of について and に関して, which name what is being discussed rather than who it is aimed at: a presentation is 温暖化問題について, not に対して. It also does not stand in for the を that marks a verb's direct object, and in its prenominal form に対する it commonly heads nouns like 反応, 批判, 態度.",
+      "examples": [
+        {
+          "ruby": "店員[てんいん]の態度[たいど]に対[たい]して、客[きゃく]が強[つよ]く抗議[こうぎ]した。",
+          "english": "A customer lodged a strong protest over the clerk's attitude."
+        },
+        {
+          "ruby": "子供[こども]に対[たい]して、そんな言[い]い方[かた]をするべきではない。",
+          "english": "You shouldn't speak to a child like that."
+        },
+        {
+          "ruby": "提案[ていあん]に対[たい]する反対意見[はんたいいけん]が次々[つぎつぎ]と出[で]てきた。",
+          "english": "Objections to the proposal came thick and fast."
+        }
+      ]
+    },
+    {
+      "l2_id": "2932",
+      "canonical_surface": "にゃ",
+      "glosses": [
+        "as for … to; to (a target, marked contrastively)",
+        "casual spoken contraction of には"
+      ],
+      "usage_note": "にゃ is the casual spoken contraction of には (には → にゃ, parallel to では → じゃ, ては → ちゃ). It keeps には's contrastive force (that one, at least, I haven't told) and carries a blunt, gruff colouring, so it belongs to rough or older-speaker speech, dialect and fiction dialogue, never to writing or polite speech. Written or formal counterparts are plain には, with に対して as the heavier, explicit alternative when the target needs weight. Watch out for a homophonous にゃ that contracts ねば (行かにゃならん), a different construction entirely.",
+      "examples": [
+        {
+          "ruby": "その話[はなし]はまだ両親[りょうしん]にゃ言[い]っていない。",
+          "english": "I still haven't breathed a word of that to my folks."
+        },
+        {
+          "ruby": "こんな細[こま]かい作業[さぎょう]、俺[おれ]にゃとても無理[むり]だ。",
+          "english": "Fiddly work like this is well beyond me."
+        },
+        {
+          "ruby": "あいつにゃ何[なに]を言[い]っても無駄[むだ]だよ。",
+          "english": "There's no point saying anything to that guy."
+        }
+      ]
+    }
+  ]
+}

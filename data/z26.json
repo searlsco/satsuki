@@ -1,0 +1,221 @@
+{
+  "class_code": "z26",
+  "class_name": "願望-働きかけ-テクレマスカ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "2191",
+      "canonical_surface": "でください",
+      "glosses": [
+        "please do …",
+        "do …, please"
+      ],
+      "usage_note": "The everyday polite request: it attaches to the て-form, appearing as でください after godan verbs whose て-form voices (読んで、飲んで、死んで) and as てください elsewhere. It is polite but still a directive, so toward a superior or a customer the question forms ていただけますか / てくださいませんか are safer. For requesting an object rather than an action, use the noun-taking sibling ください (お茶をください).",
+      "examples": [
+        {
+          "ruby": "もう少[すこ]し大[おお]きな声[こえ]で読[よ]んでください。",
+          "english": "Please read it in a slightly louder voice."
+        },
+        {
+          "ruby": "出[で]かける前[まえ]に窓[まど]を閉[し]めてください。",
+          "english": "Please shut the windows before you head out."
+        },
+        {
+          "ruby": "明日[あした]の授業[じゅぎょう]の資料[しりょう]をコピーしてください。",
+          "english": "Please make copies of the handouts for tomorrow's class."
+        }
+      ]
+    },
+    {
+      "l2_id": "2201",
+      "canonical_surface": "じゃくれるか",
+      "glosses": [
+        "won't you …?",
+        "could you … (for me)?"
+      ],
+      "usage_note": "Asks the listener to do something for the speaker's benefit, keeping the listener in the giver role; because it addresses the listener's willingness head-on it tends to feel more direct than てもらえませんか. The plain てくれないか is for friends, family and subordinates and has a somewhat blunt, male-leaning ring, while てくれませんか / てくれないでしょうか are polite and progressively more tentative. Negative shapes soften the ask, so てくれないか is gentler than てくれるか.",
+      "examples": [
+        {
+          "ruby": "ちょっとそこの椅子[いす]を動[うご]かしてくれないか。",
+          "english": "Mind shifting that chair over a bit?"
+        },
+        {
+          "ruby": "引[ひ]っ越[こ]しの日[ひ]に少[すこ]しだけ手伝[てつだ]ってくれませんか。",
+          "english": "Could you give me a little help on moving day?"
+        },
+        {
+          "ruby": "誰[だれ]か、この機械[きかい]の使[つか]い方[かた]を教[おし]えてくれないだろうか。",
+          "english": "Isn't there anyone who could show me how this machine works?"
+        }
+      ]
+    },
+    {
+      "l2_id": "2211",
+      "canonical_surface": "じゃもらえるか",
+      "glosses": [
+        "could I get you to …?",
+        "would you mind …?"
+      ],
+      "usage_note": "Frames the request as whether the speaker may receive the action rather than whether the listener will grant it, which makes it feel a shade more indirect and less imposing than てくれませんか. It is the plain-politeness counterpart of ていただけますか: fine with colleagues, shop staff and strangers, but for a superior or a client the いただく version is the safer choice. Negative-question shapes (てもらえませんか、てもらえないでしょうか) are the more tentative end of the range.",
+      "examples": [
+        {
+          "ruby": "すみません、あそこで写真[しゃしん]を撮[と]ってもらえますか。",
+          "english": "Excuse me, could you take a photo of us over there?"
+        },
+        {
+          "ruby": "この単語[たんご]の意味[いみ]を辞書[じしょ]で調[しら]べてもらえませんか。",
+          "english": "Would you mind looking this word up in the dictionary for me?"
+        },
+        {
+          "ruby": "部長[ぶちょう]にこの件[けん]を伝[つた]えてもらえないでしょうか。",
+          "english": "I wonder if I could get you to pass this along to the manager."
+        }
+      ]
+    },
+    {
+      "l2_id": "2221",
+      "canonical_surface": "ください",
+      "glosses": [
+        "please …",
+        "please give me …"
+      ],
+      "usage_note": "This is ください attached straight to a noun or a masu-stem, not to the て-form. With お+masu-stem or ご+Sino-noun it is the honorific request of signage, announcements and service speech (お待ちください、ご記入ください), politer and more impersonal than てください; with a plain noun it simply asks for the thing (コーヒーください). In everyday speech the noun is usually marked with を (お茶をください), a shape the corpus rule does not cover.",
+      "examples": [
+        {
+          "ruby": "順番[じゅんばん]が来[く]るまでこちらでお待[ま]ちください。",
+          "english": "Please wait here until your turn comes."
+        },
+        {
+          "ruby": "会場[かいじょう]に到着[とうちゃく]したら、すぐにご連絡[れんらく]ください。",
+          "english": "Please get in touch as soon as you reach the venue."
+        },
+        {
+          "ruby": "詳[くわ]しくは受付[うけつけ]までお問[と]い合[あ]わせください。",
+          "english": "For details, please inquire at the reception desk."
+        }
+      ]
+    },
+    {
+      "l2_id": "2231",
+      "canonical_surface": "ではいただけるか",
+      "glosses": [
+        "could I ask you to …?",
+        "would you be so kind as to …?"
+      ],
+      "usage_note": "The humble-receiving keigo request and the workhorse of business Japanese: いただく lowers the speaker, so it is more deferential than its plain counterpart てもらえますか and generally the safest form toward a superior, a client or a stranger. ていただけますか asks about possibility, while ていただけませんか and ていただけないでしょうか add negative and dubitative padding for progressively more careful requests. Compare てくださいますか, which honors the listener as the doer instead.",
+      "examples": [
+        {
+          "ruby": "恐[おそ]れ入[い]りますが、もう一度[いちど]説明[せつめい]していただけますか。",
+          "english": "I'm sorry to trouble you, but could I ask you to explain that once more?"
+        },
+        {
+          "ruby": "今週中[こんしゅうちゅう]に書類[しょるい]を送[おく]っていただけませんか。",
+          "english": "Would you be able to send the documents over sometime this week?"
+        },
+        {
+          "ruby": "こちらの用紙[ようし]に日付[ひづけ]を書[か]いていただけないでしょうか。",
+          "english": "I wonder if I might ask you to write the date on this form."
+        }
+      ]
+    },
+    {
+      "l2_id": "2241",
+      "canonical_surface": "ではくださるか",
+      "glosses": [
+        "won't you please …?",
+        "would you kindly …?"
+      ],
+      "usage_note": "Built on respectful くださる, this elevates the listener as the one performing the favor, whereas ていただけますか lowers the speaker as the one receiving it; the two are close in politeness, but the くださる version is markedly less frequent in modern conversation and tends to read formal, warm or faintly old-fashioned. てくださいませんか in particular carries a pleading, heartfelt tone and turns up often in earnest personal appeals rather than routine business requests.",
+      "examples": [
+        {
+          "ruby": "どうか、あの日[ひ]の出来事[できごと]を話[はな]してくださいませんか。",
+          "english": "Please, won't you tell me what happened that day?"
+        },
+        {
+          "ruby": "母[はは]の代[か]わりに、式[しき]に出[で]てくださいますか。",
+          "english": "Would you kindly attend the ceremony in my mother's place?"
+        },
+        {
+          "ruby": "よろしければ、担当[たんとう]の方[かた]を紹介[しょうかい]してくださいませんか。",
+          "english": "If you don't mind, would you kindly introduce me to the person in charge?"
+        }
+      ]
+    },
+    {
+      "l2_id": "2251",
+      "canonical_surface": "ねがう",
+      "glosses": [
+        "we ask that you …",
+        "please …"
+      ],
+      "usage_note": "A formal request built on 願う \"to wish\", attaching to a noun or a masu-stem with お/ご (ご了承願います、お知らせ願います) rather than to the て-form. It belongs to announcements, notices and written business Japanese; dressing a directive as a wish keeps it courteous, but the addressee is expected to comply, so it lands firmer and more impersonal than ていただけますか. The question form 願えますか (sibling) softens it into an actual request.",
+      "examples": [
+        {
+          "ruby": "ご不明[ふめい]な点[てん]は係員[かかりいん]までお尋[たず]ね願[ねが]います。",
+          "english": "If anything is unclear, we ask that you inquire with a staff member."
+        },
+        {
+          "ruby": "工事[こうじ]中[ちゅう]はご不便[ふべん]をおかけしますが、ご了承[りょうしょう]願[ねが]います。",
+          "english": "We apologize for the inconvenience during construction and ask for your understanding."
+        },
+        {
+          "ruby": "発車[はっしゃ]しますので、白線[はくせん]の内側[うちがわ]までお下[さ]がり願[ねが]います。",
+          "english": "The train is departing, so please step back behind the white line."
+        }
+      ]
+    },
+    {
+      "l2_id": "2261",
+      "canonical_surface": "ねがえるか",
+      "glosses": [
+        "could I ask you to …?",
+        "might I trouble you to …?"
+      ],
+      "usage_note": "The interrogative potential of 願う, taking a noun or masu-stem with お/ご just as 願います does. Asking about ability rather than stating a wish makes it a genuine request instead of an instruction, so it is politer than 願います, but it stays stiff and business-like: it belongs to counters, offices and formal correspondence, where ていただけますか would sound warmer and more personal. The negative shapes 願えませんか / 願えないでしょうか are the most deferential of the set.",
+      "examples": [
+        {
+          "ruby": "契約[けいやく]内容[ないよう]について、ご確認[かくにん]願[ねが]えますか。",
+          "english": "Could I ask you to check over the terms of the contract?"
+        },
+        {
+          "ruby": "集合[しゅうごう]場所[ばしょ]が決[き]まりましたら、ご一報[いっぽう]願[ねが]えないでしょうか。",
+          "english": "Once the meeting place is settled, might I trouble you to drop us a line?"
+        },
+        {
+          "ruby": "館内[かんない]では携帯[けいたい]の電源[でんげん]をお切[き]り願[ねが]えますか。",
+          "english": "Could we ask you to switch off your phone inside the building?"
+        }
+      ]
+    },
+    {
+      "l2_id": "2271",
+      "canonical_surface": "でちょうだい",
+      "glosses": [
+        "…, please",
+        "do … for me"
+      ],
+      "usage_note": "From 頂戴 \"to receive\", this is a soft familiar directive used downward or between intimates: parents to children, spouses, close friends. In adult speech it reads distinctly feminine and gentler than てください, with a coaxing rather than commanding tone, and it is not used toward superiors. Like てください it takes the て-form, surfacing as でちょうだい after voiced て-forms (畳んでちょうだい).",
+      "examples": [
+        {
+          "ruby": "悪[わる]いけど、洗濯物[せんたくもの]を畳[たた]んでちょうだい。",
+          "english": "Sorry, but fold the laundry for me, would you?"
+        },
+        {
+          "ruby": "遊[あそ]ぶ前[まえ]にちゃんと手[て]を洗[あら]ってちょうだい。",
+          "english": "Wash your hands properly before you go play, please."
+        },
+        {
+          "ruby": "帰[かえ]りに牛乳[ぎゅうにゅう]を買[か]ってきてちょうだい。",
+          "english": "Pick up some milk on your way home for me, would you?"
+        }
+      ]
+    }
+  ]
+}

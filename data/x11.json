@@ -1,0 +1,84 @@
+{
+  "class_code": "x11",
+  "class_name": "疑問-問いかけ-カ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "2471",
+      "canonical_surface": "か",
+      "glosses": [
+        "…?",
+        "question marker",
+        "whether …"
+      ],
+      "usage_note": "The neutral, all-purpose question marker: it turns a plain or polite clause into a question and makes no claim about who is being asked. On plain forms it sounds blunt and rather masculine, so ordinary casual speech usually drops it and relies on rising intonation; after です/ます it is simply the polite question ending. Only か can subordinate a question inside a larger clause (来るかどうか分からない); the siblings are sentence-final only.",
+      "examples": [
+        {
+          "ruby": "おい、そこの電気[でんき]はもう消[け]したか。",
+          "english": "Hey — did you turn the lights off in there?"
+        },
+        {
+          "ruby": "先生[せんせい]に出[だ]す宿題[しゅくだい]はもう終[お]わったか。",
+          "english": "Have you finished the homework you're handing in to the teacher?"
+        },
+        {
+          "ruby": "昨日[きのう]の電話[でんわ]で聞[き]いた話[はなし]は本当[ほんとう]か。",
+          "english": "Is what I heard on the phone yesterday actually true?"
+        }
+      ]
+    },
+    {
+      "l2_id": "2481",
+      "canonical_surface": "かな",
+      "glosses": [
+        "I wonder …",
+        "… , maybe?"
+      ],
+      "usage_note": "Musing rather than interrogating: you turn the question over in your own mind, so it works both for thinking aloud and as a softened way of asking someone. It is used by speakers of any gender in casual speech, with かしら as its typically female counterpart, and 〜ないかな is the standard way to hint at a wish or a request. It attaches to plain forms, and after a noun or な-adjective the copula is normally dropped (雨かな).",
+      "examples": [
+        {
+          "ruby": "今度[こんど]の試合[しあい]は雨[あめ]で中止[ちゅうし]になるかな。",
+          "english": "I wonder if the next match will get rained out."
+        },
+        {
+          "ruby": "今[いま]の説明[せつめい]で彼[かれ]はきちんと納得[なっとく]するかな。",
+          "english": "I wonder if this explanation will really satisfy him."
+        },
+        {
+          "ruby": "駅前[えきまえ]にできた新[あたら]しい店[みせ]は安[やす]いかな。",
+          "english": "I wonder if that new place by the station is cheap."
+        }
+      ]
+    },
+    {
+      "l2_id": "3141",
+      "canonical_surface": "かしら",
+      "glosses": [
+        "I wonder …",
+        "… , I wonder?"
+      ],
+      "usage_note": "The feminine-flavored counterpart of かな: same wondering-aloud function, but strongly associated with female speakers in conversation and with female characters in fiction, though older men use it occasionally. It comes from か + 知ら(ぬ), and the older realization かしらん preserves that ん; it now reads as dated or literary. Like かな it follows plain forms with the copula dropped after nouns, and 〜ないかしら is a soft way to float a request.",
+      "examples": [
+        {
+          "ruby": "このワンピースの色[いろ]、私[わたし]に似合[にあ]うかしら。",
+          "english": "This dress — do you think the color suits me?"
+        },
+        {
+          "ruby": "母[はは]は寝[ね]る前[まえ]に薬[くすり]を飲[の]んだかしら。",
+          "english": "I wonder whether Mom took her medicine before bed."
+        },
+        {
+          "ruby": "この時間[じかん]から一人[ひとり]で歩[ある]くのは危[あぶ]ないかしら。",
+          "english": "I wonder if it isn't dangerous to walk alone this late."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "class_code": "x12",
+  "class_name": "疑問-問いかけ-カイ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "2511",
+      "canonical_surface": "かい",
+      "glosses": [
+        "…?",
+        "(familiar yes-no question)"
+      ],
+      "usage_note": "A warm, familiar yes-no question, prototypically addressed downward or to an intimate: teacher to pupil, older man to a younger person. かい takes yes/no questions; its sibling だい takes questions with an interrogative word (何・誰・どこ・いつ・どうして). Where plain 〜か is brusque and top-down, かい is affectionate — same yes/no job, opposite warmth; it is markedly old-fashioned 役割語 today, rare among young speakers, and it is not used to a superior.",
+      "examples": [
+        {
+          "ruby": "その大[おお]きな荷物[にもつ]、一人[ひとり]で運[はこ]べるかい。",
+          "english": "That big load — can you carry it on your own?"
+        },
+        {
+          "ruby": "新[あたら]しい仕事[しごと]にはもう慣[な]れたかい。",
+          "english": "So, have you settled into the new job yet?"
+        },
+        {
+          "ruby": "この写真[しゃしん]に写[うつ]っている人[ひと]は君[きみ]の弟[おとうと]かい。",
+          "english": "Is the person in this photo your little brother?"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "class_code": "w11",
+  "class_name": "感嘆-驚き-トイッタラ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "2421",
+      "canonical_surface": "なんて",
+      "glosses": [
+        "(to think) that …!",
+        "…, of all things",
+        "I can't believe that …"
+      ],
+      "usage_note": "The colloquial member of this group: it presents a fact the speaker did not see coming and loads it with surprise, dismay, or scorn. It typically trails off or is followed by 思わなかった・知らなかった・信じられない. Note that 〜なんて has a separate, non-exclamatory belittling use ('things like X') with no とは equivalent — とは only does the surprise reaction — and that after a noun or na-adjective everyday speech usually inserts だ (〜だなんて), a shape the corpus rule here does not cover.",
+      "examples": [
+        {
+          "ruby": "彼[かれ]が先[さき]に帰[かえ]るなんて聞[き]いてないよ。",
+          "english": "Nobody told me he was heading home ahead of us!"
+        },
+        {
+          "ruby": "あのチームに負[ま]けるなんて、悔[くや]しすぎる。",
+          "english": "Losing to that team, of all teams — I can't stand it."
+        },
+        {
+          "ruby": "財布[さいふ]を落[お]としたなんて、ついてないね。",
+          "english": "You lost your wallet? What rotten luck."
+        }
+      ]
+    },
+    {
+      "l2_id": "2451",
+      "canonical_surface": "とは",
+      "glosses": [
+        "(to think) that …!",
+        "who would have thought that …"
+      ],
+      "usage_note": "The written, formal counterpart of 〜なんて for the same 'to think that …!' reaction: standard in narration, commentary, and dignified speech, and noticeably stiffer than なんて in conversation. It very often ends the sentence outright (〜とは。) or is completed by 思わなかった・驚きだ・信じられない. Keep it apart from the definitional 〜とは ('X means …'), which is a different construction that happens to share the surface.",
+      "examples": [
+        {
+          "ruby": "まさか彼[かれ]が辞[や]めるとは思[おも]わなかった。",
+          "english": "I never imagined he of all people would quit."
+        },
+        {
+          "ruby": "彼[かれ]の作品[さくひん]がこれほど高[たか]く売[う]れるとは。",
+          "english": "To think his work would fetch a price like that."
+        },
+        {
+          "ruby": "新人[しんじん]がここまで優秀[ゆうしゅう]だとは驚[おどろ]きだ。",
+          "english": "It's astonishing that a newcomer should be this capable."
+        }
+      ]
+    },
+    {
+      "l2_id": "2461",
+      "canonical_surface": "といったら",
+      "glosses": [
+        "the sheer … of it",
+        "as for …, it was beyond words"
+      ],
+      "usage_note": "Unlike なんて and とは, which react to a surprising event, といったら takes a noun — usually one naming a quality or quantity (美しさ, 量, 態度) — and declares its degree indescribable; the emotion can be admiration or exasperation. The follow-up is typically a ほど・ぐらい clause, an expression of speechlessness, or nothing at all. Casual speech contracts it to 〜ったら (あの暑[あつ]さったらなかった), and the emphatic extensions 〜といったらない・〜といったらありはしない spell the indescribability out; do not confuse it with the polite conditional と言いましたら or with 〜といいますと ('speaking of …'), which are different constructions.",
+      "examples": [
+        {
+          "ruby": "初[はじ]めて富士山[ふじさん]を見[み]た時[とき]の感動[かんどう]といったら。",
+          "english": "The awe I felt the first time I laid eyes on Mount Fuji — there are no words."
+        },
+        {
+          "ruby": "息子[むすこ]の食[た]べる量[りょう]といったら、見[み]ていて怖[こわ]い。",
+          "english": "The sheer amount my son puts away is frankly frightening to watch."
+        },
+        {
+          "ruby": "上司[じょうし]の自慢話[じまんばなし]といったら、もはや拷問[ごうもん]だ。",
+          "english": "My boss's bragging is nothing short of torture."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "class_code": "s23",
+  "class_name": "理由-因果-オカゲデ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0761",
+      "canonical_surface": "おかげで",
+      "glosses": [
+        "thanks to …",
+        "owing to …",
+        "because of …"
+      ],
+      "usage_note": "Names a cause the speaker is grateful for, so the main clause reports a welcome outcome; お陰 literally means 'shade, shelter', and the sense of being sheltered by someone's help is still audible. せいで is its negative mirror image. Speakers do turn it ironically on bad outcomes (おかげでひどい目にあった), and that sarcasm only lands because the positive reading is the default. A noun attaches through の (眼鏡のおかげで). おかげで names the benefactor or enabling cause and is unusable when the outcome is merely neutral (×電車が来たおかげで乗った).",
+      "examples": [
+        {
+          "ruby": "先輩[せんぱい]が手伝[てつだ]ってくれたおかげで、締[し]め切[き]りに間[ま]に合[あ]った。",
+          "english": "Thanks to my senior pitching in, I made the deadline."
+        },
+        {
+          "ruby": "散歩[さんぽ]を続[つづ]けているおかげで、去年[きょねん]より体調[たいちょう]がいい。",
+          "english": "Thanks to keeping up my walks, I'm in better shape than I was last year."
+        },
+        {
+          "ruby": "新[あたら]しい眼鏡[めがね]のおかげで、細[こま]かい字[じ]がよく見[み]える。",
+          "english": "Thanks to my new glasses, I can read the fine print easily."
+        }
+      ]
+    },
+    {
+      "l2_id": "0771",
+      "canonical_surface": "せいで",
+      "glosses": [
+        "because of …",
+        "owing to …",
+        "thanks to … (ironic)"
+      ],
+      "usage_note": "The blaming counterpart of おかげで: the clause after せいで reports an unwelcome result. It points at the cause as the thing at fault, so it is what you reach for when assigning responsibility, whether to weather, machinery or a person. せいでの is occasionally seen before a noun (大雪のせいでの遅延), and the related せいにする means to pin the blame on someone. A noun attaches through の.",
+      "examples": [
+        {
+          "ruby": "寝坊[ねぼう]したせいで、面接[めんせつ]に遅刻[ちこく]してしまった。",
+          "english": "Because I overslept, I turned up late to the interview."
+        },
+        {
+          "ruby": "工事[こうじ]の音[おと]がうるさいせいで、少[すこ]しも集中[しゅうちゅう]できない。",
+          "english": "The construction noise is loud, and because of it I can't concentrate at all."
+        },
+        {
+          "ruby": "大雪[おおゆき]のせいで、電車[でんしゃ]が三時間[さんじかん]も止[と]まっている。",
+          "english": "Because of the heavy snow, the trains have been stopped for three hours."
+        }
+      ]
+    },
+    {
+      "l2_id": "0781",
+      "canonical_surface": "せいか",
+      "glosses": [
+        "perhaps because …",
+        "maybe on account of …"
+      ],
+      "usage_note": "せい plus the uncertainty particle か: the speaker offers a cause they are not sure of, which is exactly what separates it from せいで. Because the cause is only a guess, the result it explains need not be a bad one — unlike せいで, せいか is reported as usable with favourable outcomes too — the licensing reason is that the cause is only a guess, so せいか tolerates neutral or even welcome results where せいで does not — though the せい in it still tilts the sentence toward something the speaker finds unwelcome or odd. Fixed favourites include 年のせいか and 疲れのせいか; note that 気のせいか is a separate idiom from the noun 気のせい. A noun attaches through の.",
+      "examples": [
+        {
+          "ruby": "連休[れんきゅう]明[あ]けのせいか、教室[きょうしつ]がやけに静[しず]かだ。",
+          "english": "Maybe because the long weekend just ended, the classroom is oddly quiet."
+        },
+        {
+          "ruby": "雨[あめ]が続[つづ]いているせいか、今年[ことし]の野菜[やさい]は値段[ねだん]が高[たか]い。",
+          "english": "Perhaps because of all this rain, vegetables are expensive this year."
+        },
+        {
+          "ruby": "昨夜[さくや]よく眠[ねむ]れなかったせいか、今日[きょう]は妙[みょう]に頭[あたま]が重[おも]い。",
+          "english": "Maybe because I slept badly last night, my head feels strangely heavy today."
+        }
+      ]
+    }
+  ]
+}

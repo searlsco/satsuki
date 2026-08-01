@@ -1,0 +1,86 @@
+{
+  "class_code": "z24",
+  "class_name": "願望-働きかけ-ホウガヨイ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "2101",
+      "canonical_surface": "とよい",
+      "glosses": [
+        "it'd be good to …",
+        "you should …",
+        "I hope …"
+      ],
+      "usage_note": "A conditional clause plus よい: 'if you do X, that's good' — gentle, open-ended advice with no comparison behind it, unlike 〜ほうがいい, which implies the rejected alternative. と, ば, and たら all appear; たらいい and ばいい dominate casual speech, while といい often shades into a bare wish about something outside anyone's control ('I hope it clears up'). Past-tense よかった on this frame (〜ばよかった／〜たらよかった) turns it into regret — what you should have done — not advice; the relief sense you may have seen belongs to the separate 〜てよかった frame.",
+      "examples": [
+        {
+          "ruby": "味[あじ]が薄[うす]いと感[かん]じたら、醤油[しょうゆ]を少[すこ]し垂[た]らすといい。",
+          "english": "If it tastes bland to you, a few drops of soy sauce will do the trick."
+        },
+        {
+          "ruby": "道[みち]が分[わ]からなければ、駅前[えきまえ]の交番[こうばん]で聞[き]けばいい。",
+          "english": "If you can't find your way, just ask at the police box by the station."
+        },
+        {
+          "ruby": "風[かぜ]が強[つよ]いから、上着[うわぎ]を一枚[いちまい]羽織[はお]るといい。",
+          "english": "It's windy out, so you'd do well to throw a jacket on."
+        }
+      ]
+    },
+    {
+      "l2_id": "2111",
+      "canonical_surface": "ほうがよい",
+      "glosses": [
+        "had better …",
+        "it's better to …",
+        "you should …"
+      ],
+      "usage_note": "Literally 'the … side is good', so a comparison is always implied: this option over the one being passed up. Advice given about a concrete, present decision typically takes the た-form (行ったほうがいい), which sounds more pointed than the dictionary form; the negative counterpart is 〜ないほうがいい. Because it weighs alternatives it is stronger than 〜といい but far less imperious than 〜がよい.",
+      "examples": [
+        {
+          "ruby": "大[おお]きな買[か]い物[もの]だから、一晩[ひとばん]考[かんが]えたほうがいい。",
+          "english": "It's a big purchase, so you're better off sleeping on it."
+        },
+        {
+          "ruby": "熱[ねつ]が下[さ]がらないうちは、医者[いしゃ]に行[い]ったほうがいい。",
+          "english": "As long as the fever isn't coming down, you'd better see a doctor."
+        },
+        {
+          "ruby": "説明[せつめい]は細[こま]かいより短[みじか]いほうがいい。",
+          "english": "An explanation is better short than detailed."
+        }
+      ]
+    },
+    {
+      "l2_id": "2141",
+      "canonical_surface": "がよい",
+      "glosses": [
+        "you'd do well to …",
+        "go ahead and …",
+        "you may as well …"
+      ],
+      "usage_note": "Dictionary form + がよい, an archaic-flavored directive spoken downward: lords, elders, sages and villains in period drama and fantasy. The がいい realization is the ordinary modern one and often carries a dismissive-permissive tone ('好きにするがいい' — suit yourself), while がよい keeps the dignified ring. Unlike 〜ほうがいい it weighs no alternative; it simply tells the listener to proceed.",
+      "examples": [
+        {
+          "ruby": "用[よう]が済[す]んだら、速[すみ]やかに立[た]ち去[さ]るがよい。",
+          "english": "Once your business is done, take your leave at once."
+        },
+        {
+          "ruby": "申[もう]したいことがあるなら、遠慮[えんりょ]せずに述[の]べるがよい。",
+          "english": "If you have something to say, say it without holding back."
+        },
+        {
+          "ruby": "疲[つか]れておるだろう、今宵[こよい]はここで休[やす]むがよい。",
+          "english": "You must be weary. Rest here for tonight."
+        }
+      ]
+    }
+  ]
+}

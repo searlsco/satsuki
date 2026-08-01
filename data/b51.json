@@ -1,0 +1,61 @@
+{
+  "class_code": "b51",
+  "class_name": "対象-相手-ト類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0593",
+      "canonical_surface": "と",
+      "glosses": [
+        "with (someone)",
+        "marks the partner in a mutual action"
+      ],
+      "usage_note": "と names a genuine co-participant: both sides are involved in the same event, which is why it is the particle for 話す, 相談する, 結婚する, けんかする, 付き合う and other reciprocal verbs (似ている takes と only when the resemblance is stated as mutual: 二人はよく似ている; one-way resemblance takes に: 父に似ている). Against sibling 2933 に, which points one way at a recipient or target, と implies the other person is engaged too — 先生に相談する asks for advice, 先生と相談する works the problem out together. With inherently two-sided verbs like 結婚する or けんかする, と cannot be swapped for に at all (×同僚に結婚する).",
+      "examples": [
+        {
+          "ruby": "昨日[きのう]の夜[よる]、久[ひさ]しぶりに従兄弟[いとこ]と電話[でんわ]で話[はな]した。",
+          "english": "Last night I caught up with my cousin on the phone for the first time in ages."
+        },
+        {
+          "ruby": "来月[らいげつ]、妹[いもうと]は同僚[どうりょう]と結婚[けっこん]することになった。",
+          "english": "Next month my little sister is marrying a coworker."
+        },
+        {
+          "ruby": "家族[かぞく]とじっくり相談[そうだん]してから決[き]めます。",
+          "english": "I'll make up my mind after talking it through properly with my family."
+        }
+      ]
+    },
+    {
+      "l2_id": "2933",
+      "canonical_surface": "にゃ",
+      "glosses": [
+        "to (someone); at (someone)",
+        "marks the person addressed or acted upon",
+        "to … at least; as for telling …"
+      ],
+      "usage_note": "The underlying に points one way at the other party: the person told, asked, handed something, or complained to (言う, 頼む, 打ち明ける, 渡す, 叱られる). にゃ is a casual spoken squeeze of には, so it carries the contrastive force of は on top — \"him, at any rate\" — and it belongs to rough, familiar speech; it would be out of place in writing or with a superior. Compare sibling 0593 と, which makes the other person a partner in the act rather than its target.",
+      "examples": [
+        {
+          "ruby": "こんな話[はなし]、親[おや]にゃとても言[い]えないよ。",
+          "english": "There's no way on earth I could tell my folks something like this."
+        },
+        {
+          "ruby": "弱音[よわね]は先輩[せんぱい]にゃ吐[は]けないんだよな。",
+          "english": "You just can't let yourself whine to your senpai, you know?"
+        },
+        {
+          "ruby": "あいつにゃ何[なに]を頼[たの]んでも無駄[むだ]だと思[おも]う。",
+          "english": "Asking that guy for anything is a waste of breath, if you ask me."
+        }
+      ]
+    }
+  ]
+}

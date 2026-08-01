@@ -1,0 +1,85 @@
+{
+  "class_code": "y61",
+  "class_name": "否定-不可能-ワケニハイカナイ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1761",
+      "canonical_surface": "わけにゃいかない",
+      "glosses": [
+        "can't very well …",
+        "can't allow oneself to …",
+        "there's no way one can …"
+      ],
+      "usage_note": "This denies permissibility, not ability: the act is perfectly doable, but duty, conscience or circumstances rule it out, which is what separates it from 〜ことができない. Attached to a negated verb it flips into obligation (行かないわけにはいかない, \"I have no choice but to go\"). It typically describes a human predicament the speaker is inside of, and the fuller written shape is わけにはいかない, with わけにゃ／わけにゃゆかない as spoken contractions.",
+      "examples": [
+        {
+          "ruby": "大事[だいじ]な打[う]ち合[あ]わせだから、遅刻[ちこく]するわけにはいかない。",
+          "english": "It's an important meeting, so I can't afford to turn up late."
+        },
+        {
+          "ruby": "借[か]りた本[ほん]を汚[よご]したまま返[かえ]すわけにはいかない。",
+          "english": "I can't very well hand a borrowed book back with a stain still on it."
+        },
+        {
+          "ruby": "ここまで来[き]て、今[いま]さらやめるわけにゃいかない。",
+          "english": "We've come this far; no way we're quitting now."
+        }
+      ]
+    },
+    {
+      "l2_id": "1771",
+      "canonical_surface": "わけにゃいくまい",
+      "glosses": [
+        "can hardly …",
+        "it surely wouldn't do to …"
+      ],
+      "usage_note": "わけにはいかない with the conjectural まい fused onto いく, so the refusal is offered as a judgment the hearer is expected to share rather than flatly asserted. It belongs to written narration, speeches and the deliberative inner monologue of older, usually male speakers; ordinary conversation says わけにはいかないだろう instead. まい already carries the negation, so no second negative attaches to いく itself; the preceding verb, however, is freely negative, and 〜ないわけにはいくまい (\"one can hardly not …\") is the ordinary obligation shape, whose neutral everyday counterpart is 〜ないわけにはいかない.",
+      "examples": [
+        {
+          "ruby": "これほど世話[せわ]になった相手[あいて]を見捨[みす]てるわけにはいくまい。",
+          "english": "After all he has done for us, we can hardly abandon him."
+        },
+        {
+          "ruby": "部下[ぶか]の失態[しったい]なのだから、知[し]らぬ顔[かお]をするわけにはいくまい。",
+          "english": "It was my subordinate's blunder; I can scarcely pretend not to notice."
+        },
+        {
+          "ruby": "事[こと]ここに至[いた]っては、真相[しんそう]を伏[ふ]せておくわけにはいくまい。",
+          "english": "Matters having come to this, it would hardly do to keep the truth hidden."
+        }
+      ]
+    },
+    {
+      "l2_id": "3272",
+      "canonical_surface": "まい",
+      "glosses": [
+        "probably won't …",
+        "I'll never …",
+        "I don't intend to …"
+      ],
+      "usage_note": "The negative twin of よう／だろう: with a first-person subject it is negative resolve (二度と行くまい, \"I'll never go again\"), with a third-person subject negative conjecture (\"probably won't\"). Godan verbs take the dictionary form; ichidan and する are also found in a shorter shape (見まい, しまい／すまい) beside 見るまい, するまい, and 来る has a contested short form (こまい from the 未然形 beside classical くまい) alongside 来るまい. Everyday speech now prefers ないだろう or ないつもりだ, so まい reads bookish or stiffly formal.",
+      "examples": [
+        {
+          "ruby": "あんな店[みせ]には二度[にど]と入[はい]るまいと心[こころ]に決[き]めた。",
+          "english": "I made up my mind never to set foot in that shop again."
+        },
+        {
+          "ruby": "彼[かれ]の性格[せいかく]からして、素直[すなお]に認[みと]めるまい。",
+          "english": "Knowing his temperament, he's unlikely to just admit it."
+        },
+        {
+          "ruby": "この雨[あめ]では、今日[きょう]の試合[しあい]は予定[よてい]どおり始[はじ]まるまい。",
+          "english": "In this rain today's match surely won't start on schedule."
+        }
+      ]
+    }
+  ]
+}

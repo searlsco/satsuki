@@ -1,0 +1,83 @@
+{
+  "class_code": "B21",
+  "class_name": "過去-完了-タ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1451",
+      "canonical_surface": "じまい",
+      "glosses": [
+        "end up …ing",
+        "do … completely; finish …ing"
+      ],
+      "usage_note": "〜てしまう carries an action through to completion and very often colors it with regret or irreversibility — it is done, and it cannot be taken back. That is what separates it from the bare past た, which merely reports the event, and from 〜ておく, which frames the act as deliberate groundwork. ちゃう and じゃう are colloquial contractions of てしまう/でしまう; じゃう appears on the verbs whose te-form is で — ぐ verbs (泳いで→泳いじゃう) and む/ぬ/ぶ verbs (読んで→読んじゃう). てしまう itself is register-neutral.",
+      "examples": [
+        {
+          "ruby": "電車[でんしゃ]に財布[さいふ]を忘[わす]れてしまった。",
+          "english": "I went and left my wallet on the train."
+        },
+        {
+          "ruby": "宿題[しゅくだい]はもう全部[ぜんぶ]やっちゃったよ。",
+          "english": "I've already knocked out all my homework."
+        },
+        {
+          "ruby": "牛乳[ぎゅうにゅう]を一気[いっき]に飲[の]んじゃいました。",
+          "english": "I went and downed the milk in one go."
+        }
+      ]
+    },
+    {
+      "l2_id": "1461",
+      "canonical_surface": "どき",
+      "glosses": [
+        "do … in advance",
+        "do … and leave it that way (for later)"
+      ],
+      "usage_note": "〜ておく is doing something ahead of time, or leaving the result standing for later use, so the act is inherently deliberate — that is the line between it and 〜てしまう, whose completion is often unintended, and the neutral past た. It describes the preparer's action, whereas 〜てある describes the state that action left behind. Casual speech contracts it to とく/どく (読んどく, 冷やしとく).",
+      "examples": [
+        {
+          "ruby": "会議[かいぎ]の資料[しりょう]をコピーしておきました。",
+          "english": "I made copies of the meeting materials ahead of time."
+        },
+        {
+          "ruby": "ビールは冷[ひ]やしといたから、遠慮[えんりょ]しないでね。",
+          "english": "I've got the beer chilling, so help yourself."
+        },
+        {
+          "ruby": "暑[あつ]いので窓[まど]は開[あ]けておいてください。",
+          "english": "It's hot, so please leave the window open."
+        }
+      ]
+    },
+    {
+      "l2_id": "3381",
+      "canonical_surface": "だ",
+      "glosses": [
+        "-ed (past)",
+        "has (already) done"
+      ],
+      "usage_note": "Plain た/だ is the unmarked past-perfective: it simply reports that the event happened, without the regret of 〜てしまった or the forward-looking intent of 〜ておいた. The same ending voices to だ on the verbs whose te-form is で: ぐ verbs (泳いで→泳いだ) and む/ぬ/ぶ verbs (読んで→読んだ), which is why た and だ are one item here. It also does non-past work — discovery (あ、ここにあった) and brisk commands (どいた、どいた) — so 'past tense' is only its commonest job.",
+      "examples": [
+        {
+          "ruby": "昨日[きのう]は公園[こうえん]で古[ふる]い友人[ゆうじん]に会[あ]った。",
+          "english": "Yesterday I ran into an old friend at the park."
+        },
+        {
+          "ruby": "朝[あさ]ごはんを食[た]べてから出[で]かけた。",
+          "english": "I had breakfast and then headed out."
+        },
+        {
+          "ruby": "子[こ]どもの頃[ころ]、この川[かわ]でよく泳[およ]いだ。",
+          "english": "When I was a kid I swam in this river all the time."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "class_code": "a33",
+  "class_name": "立場-根拠-ニツキ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0181",
+      "canonical_surface": "につき",
+      "glosses": [
+        "owing to",
+        "due to",
+        "on account of"
+      ],
+      "usage_note": "The stiff written 'because of': it belongs to signage, notices and business correspondence, and is hardly ever heard in ordinary conversation, where ため or ので does the work. It attaches to a noun naming the circumstance and the following clause is typically an announcement of what will therefore happen, often in humble-polite style. Historically に + 付き; do not confuse it with the distributive につき of 一人につき五百円 ('per'), which is a separate use.",
+      "examples": [
+        {
+          "ruby": "本日[ほんじつ]は改装[かいそう]工事[こうじ]につき、臨時[りんじ]休業[きゅうぎょう]いたします。",
+          "english": "Owing to renovation work, we are closed today."
+        },
+        {
+          "ruby": "強風[きょうふう]につき、屋上[おくじょう]の見学[けんがく]は中止[ちゅうし]となりました。",
+          "english": "Due to high winds, rooftop viewing has been cancelled."
+        },
+        {
+          "ruby": "満席[まんせき]につき、これ以上[いじょう]のご入場[にゅうじょう]はお断[ことわ]りいたします。",
+          "english": "As the house is full, no further admissions can be accepted."
+        }
+      ]
+    }
+  ]
+}

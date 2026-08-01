@@ -1,0 +1,61 @@
+{
+  "class_code": "L11",
+  "class_name": "放置-継続-ナイデイル類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1471",
+      "canonical_surface": "ないでばかりい",
+      "glosses": [
+        "remain without doing …",
+        "go on not doing …",
+        "keep from doing …"
+      ],
+      "usage_note": "〜ないで plus stative いる: a state of continuing not to do something, either by choice or because one cannot bring oneself to. The subject is normally animate and volitional, so it is not used of weather or other natural events, and する appears as せずにいる in the stiffer ずに variant. Contrast ないでおく (1481), which leaves something undone deliberately with a later purpose in view, and ないでしまう (1491), which reports that the action never happened at all; the ばかり/さえ-infixed shapes (〜ないでばかりいる) are rare and add a critical \"does nothing but\" coloring.",
+      "examples": [
+        {
+          "ruby": "彼女[かのじょ]はあれから何[なに]も食[た]べないでいる。",
+          "english": "She hasn't eaten a thing since it happened."
+        },
+        {
+          "ruby": "怖[こわ]くて、検査[けんさ]の結果[けっか]を見[み]ないでいる。",
+          "english": "I'm too scared to look, so I've been leaving the test results unread."
+        },
+        {
+          "ruby": "悔[くや]しくても、私[わたし]は泣[な]かずにいた。",
+          "english": "Bitter as it was, I kept myself from crying."
+        }
+      ]
+    },
+    {
+      "l2_id": "1501",
+      "canonical_surface": "ないでさえおり",
+      "glosses": [
+        "remain without doing … (humble or blunt)",
+        "be going without doing …"
+      ],
+      "usage_note": "Same \"continuing not to do\" meaning as ないでいる (1471), but with おる. In 〜ないでおります it is 謙譲語, the form you use about yourself or your own company when speaking to a customer; plain 〜ないでおる is blunt or Western-Japanese and older-speaker flavored rather than neutrally polite. Because おる is humble, applying it to the listener's own state sounds rude (the honorific 〜ておられる is a separate matter), and the ずに shapes such as 出さずにおります are the most formal of all.",
+      "examples": [
+        {
+          "ruby": "その件[けん]はまだ社長[しゃちょう]に伝[つた]えないでおります。",
+          "english": "We have not yet informed the president of the matter."
+        },
+        {
+          "ruby": "差[さ]し出[で]がましいので、こちらからは連絡[れんらく]せずにおります。",
+          "english": "It would be presumptuous of us, so we have refrained from reaching out."
+        },
+        {
+          "ruby": "祖父[そふ]は昨日[きのう]から薬[くすり]を飲[の]まないでおる。",
+          "english": "Grandpa's been going without his medicine since yesterday."
+        }
+      ]
+    }
+  ]
+}

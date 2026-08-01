@@ -22,7 +22,10 @@ with:
 ## Data layout
 
 One JSON file per Tsutsuji semantic class under `data/`, named by class
-code (`data/o11.json`). Each file carries a provenance header (pipeline
+code (`data/o11.json`). Class codes are case-sensitive but common
+filesystems are not, so uppercase-initial codes double their letter in the
+filename: class `A11` lives at `data/AA11.json` (the `class_code` field
+inside is always authoritative). Each file carries a provenance header (pipeline
 version, generating/reviewing model, date, `human_verified` flag) and its
 patterns in `l2_id` order:
 

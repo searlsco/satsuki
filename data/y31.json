@@ -1,0 +1,60 @@
+{
+  "class_code": "y31",
+  "class_name": "否定-不満-ガナ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "2571",
+      "canonical_surface": "がな",
+      "glosses": [
+        "…, I tell you",
+        "come on, …"
+      ],
+      "usage_note": "A sentence-final particle of Kansai and other western dialects, tacked onto plain forms to push back at the listener: the speaker is irritated that the hearer has missed something obvious or is making him repeat himself. It is spoken language and appears in writing mainly as dialogue; standard-Japanese equivalents are 〜じゃないか and 〜だろ. After a noun or na-adjective it rides on the Kansai copula や, so the shape is 〜やがな rather than 〜だがな. Do not confuse it with the archaic optative 〜もがな, which is a separate construction.",
+      "examples": [
+        {
+          "ruby": "それくらいのこと、自分[じぶん]でできるがな。",
+          "english": "Come on, you can manage that much yourself."
+        },
+        {
+          "ruby": "昨日[きのう]のうちにちゃんと電話[でんわ]したがな。",
+          "english": "I called you yesterday, I told you."
+        },
+        {
+          "ruby": "この荷物[にもつ]、一人[ひとり]で運[はこ]ぶには重[おも]いがな。",
+          "english": "Come on, this thing is way too heavy to carry alone."
+        }
+      ]
+    },
+    {
+      "l2_id": "2581",
+      "canonical_surface": "ときたら",
+      "glosses": [
+        "when it comes to …",
+        "as for … (exasperated)"
+      ],
+      "usage_note": "Takes a bare noun, typically a person or thing in the speaker's own orbit, and sets it up as a topic the speaker is about to complain about; the following clause is almost always a negative evaluation. It is far more emotive than plain は or 〜については. The pattern has no polite variant: it stays 〜ときたら even in otherwise polite speech, because the complaint itself is a lapse into familiarity. Where がな vents at the listener, ときたら vents about someone or something not present.",
+      "examples": [
+        {
+          "ruby": "うちの部長[ぶちょう]ときたら、人[ひと]の話[はなし]を全然[ぜんぜん]聞[き]かない。",
+          "english": "Honestly, my department head never listens to a word anyone says."
+        },
+        {
+          "ruby": "最近[さいきん]の天気[てんき]ときたら、朝[あさ]と夜[よる]で別世界[べっせかい]だ。",
+          "english": "The weather lately is absurd; morning and night feel like different worlds."
+        },
+        {
+          "ruby": "あの店[みせ]の接客[せっきゃく]ときたら、思[おも]い出[だ]すだけで腹[はら]が立[た]つ。",
+          "english": "The service at that place, ugh, just remembering it makes my blood boil."
+        }
+      ]
+    }
+  ]
+}

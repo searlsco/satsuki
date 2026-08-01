@@ -1,0 +1,83 @@
+{
+  "class_code": "r11",
+  "class_name": "順接-限定-アイダハ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0651",
+      "canonical_surface": "あいだは",
+      "glosses": [
+        "while; during the time that",
+        "for as long as"
+      ],
+      "usage_note": "間は marks a bounded stretch of time — one with a clear start and end — throughout which the main clause holds; contrast 間に, which places a one-off event somewhere inside that stretch. Unlike うちは it carries no suggestion that the situation is about to change, and unlike 限りは it names a period rather than setting a condition. It attaches to plain verbs, i-adjectives, な-adjectives with な (静かな間は) and noun+の (雨の間は).",
+      "examples": [
+        {
+          "ruby": "雨[あめ]が降[ふ]っている間[あいだ]は、店[みせ]の中[なか]で待[ま]とう。",
+          "english": "Let's wait inside the shop for as long as it keeps raining."
+        },
+        {
+          "ruby": "子[こ]どもが昼寝[ひるね]をしている間[あいだ]は、テレビを消[け]しておく。",
+          "english": "I keep the TV off the whole time the kids are napping."
+        },
+        {
+          "ruby": "信号[しんごう]が赤[あか]い間[あいだ]は、絶対[ぜったい]に渡[わた]らない。",
+          "english": "As long as the light is red, you don't cross — ever."
+        }
+      ]
+    },
+    {
+      "l2_id": "0661",
+      "canonical_surface": "うちは",
+      "glosses": [
+        "while (it still is); as long as it lasts",
+        "for now, while"
+      ],
+      "usage_note": "うちは frames the span as a state that will not last, so the main clause is what holds or what you should do before the change arrives; 間は is neutral about any such change. It collocates strongly with states that fade (若い, 明るい, 元気, 〜ている), and it also takes な-adjectives with な and nouns with の (元気なうちは, 独身のうちは).",
+      "examples": [
+        {
+          "ruby": "若[わか]いうちは、少[すこ]しくらい無茶[むちゃ]をしてもいい。",
+          "english": "While you're still young, you can afford to overdo it a little."
+        },
+        {
+          "ruby": "母[はは]が起[お]きているうちは、台所[だいどころ]の電気[でんき]は消[け]せない。",
+          "english": "I can't turn the kitchen light off while my mother is still up."
+        },
+        {
+          "ruby": "明[あか]るいうちは、部屋[へや]の電気[でんき]をつけない。",
+          "english": "While it's still light out, I don't turn the room light on."
+        }
+      ]
+    },
+    {
+      "l2_id": "0671",
+      "canonical_surface": "かぎりは",
+      "glosses": [
+        "as long as; so long as",
+        "provided that"
+      ],
+      "usage_note": "限りは states a condition rather than a time span: the main clause holds only while that condition does, with the implication that the opposite follows once it stops. It is more emphatic and more formal than 間は and うちは, and it pairs naturally with commitments and with statements of impossibility (…限りは…できない). Besides plain verbs it takes nouns and な-adjectives through である (学生である限りは), and the very common 〜ない限り(は) means \"unless\", where は is usually dropped, which is why learners meet ない限り far more often than ない限りは.",
+      "examples": [
+        {
+          "ruby": "この会社[かいしゃ]に籍[せき]を置[お]く限[かぎ]りは、規則[きそく]に従[したが]う。",
+          "english": "So long as my name is on this company's books, I'll follow its rules."
+        },
+        {
+          "ruby": "私[わたし]が生[い]きている限[かぎ]りは、この土地[とち]は売[う]らせない。",
+          "english": "As long as I'm alive, I won't let anyone sell this land."
+        },
+        {
+          "ruby": "選手[せんしゅ]が望[のぞ]む限[かぎ]りは、支援[しえん]を打[う]ち切[き]らない。",
+          "english": "Provided the athlete still wants it, we won't cut off support."
+        }
+      ]
+    }
+  ]
+}

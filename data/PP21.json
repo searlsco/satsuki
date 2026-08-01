@@ -1,0 +1,105 @@
+{
+  "class_code": "P21",
+  "class_name": "例示-極端例-サエ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "2503",
+      "canonical_surface": "だって",
+      "glosses": [
+        "even",
+        "too; as well"
+      ],
+      "usage_note": "だって picks out an extreme or unexpected case the way でも does, but it is distinctly casual and lands with more force, so it fits a spoken protest or push-back better than a written argument. It stacks freely on case particles (にだって, からだって), but it does not float suggestions the way でも does (お茶でも飲もう, not ×お茶だって飲もう). Keep it apart from the sentence-initial だって ('but, I mean, because…'), a homophonous conjunction, not this particle — it cannot be swapped in here.",
+      "examples": [
+        {
+          "ruby": "子供[こども]だってそんな話[はなし]は信[しん]じないよ。",
+          "english": "Even a kid wouldn't buy a story like that."
+        },
+        {
+          "ruby": "先生[せんせい]にだって分[わ]からない問題[もんだい]がある。",
+          "english": "There are problems even a teacher can't solve."
+        },
+        {
+          "ruby": "東京[とうきょう]からだって日帰[ひがえ]りで行[い]けるよ。",
+          "english": "You can get there and back in a day even from Tokyo."
+        }
+      ]
+    },
+    {
+      "l2_id": "3031",
+      "canonical_surface": "でも",
+      "glosses": [
+        "even",
+        "… or something; … or the like"
+      ],
+      "usage_note": "でも is the register-neutral 'even', milder than だって and less pointed than さえ: it offers its noun as a representative case rather than the most extreme one. That same softness powers its other job, floating a casual suggestion (お茶でも), where さえ and すら are impossible. After a て-form, 〜てでも means 'even if it takes doing that'.",
+      "examples": [
+        {
+          "ruby": "素人[しろうと]でも三十分[さんじゅっぷん]あれば組[く]み立[た]てられる。",
+          "english": "Even a beginner can put it together in thirty minutes."
+        },
+        {
+          "ruby": "お茶[ちゃ]でも飲[の]みながら話[はな]しませんか。",
+          "english": "How about we talk over a cup of tea or something?"
+        },
+        {
+          "ruby": "借金[しゃっきん]をしてでもあの車[くるま]が欲[ほ]しい。",
+          "english": "I want that car badly enough to go into debt for it."
+        }
+      ]
+    },
+    {
+      "l2_id": "3041",
+      "canonical_surface": "さえ",
+      "glosses": [
+        "even",
+        "if only …; as long as"
+      ],
+      "usage_note": "さえ names the case least likely to hold and thereby settles everything below it, so it is sharper than でも and typically appears where the situation is bad or surprising. It alone forms the sufficient-condition frame さえ〜ば ('if only X, then …'), which すら cannot replace. Register sits between casual でも and bookish すら. でさえ is the usual shape when the marked element is the subject or a copular predicate (専門家でさえ間違える); さえ alone simply replaces が/を, while に・から keep their particle (にさえ, からさえ). ただでさえ is a frozen phrase.",
+      "examples": [
+        {
+          "ruby": "忙[いそが]しくて食事[しょくじ]さえ取[と]る暇[ひま]がない。",
+          "english": "I'm so busy I don't even have time to eat."
+        },
+        {
+          "ruby": "この温暖[おんだん]な町[まち]にさえ今年[ことし]は雪[ゆき]が降[ふ]った。",
+          "english": "Snow fell even on this mild town this year."
+        },
+        {
+          "ruby": "天気[てんき]さえ良[よ]ければ、明日[あした]は出発[しゅっぱつ]できる。",
+          "english": "As long as the weather holds, we can set out tomorrow."
+        }
+      ]
+    },
+    {
+      "l2_id": "3061",
+      "canonical_surface": "すら",
+      "glosses": [
+        "even (often under negation: 〜すら〜ない)"
+      ],
+      "usage_note": "すら is the bookish twin of さえ — same 'even the least likely case' meaning, but at home in writing, formal speech, and narration rather than chat, and it very often pairs with a negative. It does not enter the さえ〜ば conditional, and the fixed phrase ただでさえ has no すら version. Choose すら when the surrounding text is written or formal (reports, narration, speeches); in conversation さえ is the default.",
+      "examples": [
+        {
+          "ruby": "事故[じこ]の直後[ちょくご]、彼[かれ]は自分[じぶん]の名前[なまえ]すら言[い]えなかった。",
+          "english": "Right after the crash he could not so much as say his own name."
+        },
+        {
+          "ruby": "その提案[ていあん]は議題[ぎだい]にすら上[のぼ]らなかった。",
+          "english": "The proposal never even made it onto the agenda."
+        },
+        {
+          "ruby": "当時[とうじ]の政府[せいふ]は事実[じじつ]の公表[こうひょう]すら拒[こば]んだ。",
+          "english": "The government of the day refused even to make the facts public."
+        }
+      ]
+    }
+  ]
+}

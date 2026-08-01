@@ -1,0 +1,130 @@
+{
+  "class_code": "D11",
+  "class_name": "判断-当為-ナケレバナラナイ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1551",
+      "canonical_surface": "なけりゃならない",
+      "glosses": [
+        "must; have to",
+        "be obliged to"
+      ],
+      "usage_note": "A double negative literally meaning \"it won't do if you don't\": the verb's negative stem takes a conditional tail — なければ (spoken なけりゃ/なきゃ), the なくては series (spoken なくちゃ), or literary ねば — and then ならない. Compared with its sibling なけりゃいけない, ならない tends to present the obligation as objective — imposed by rules, law, or circumstance rather than by the speaker's own judgment — and is the form conventionally used in statutes and written regulations. なけりゃ/なきゃ/なくちゃ belong to casual speech, なければ to neutral writing, and ねばならない/ねばならぬ sound formal or literary.",
+      "examples": [
+        {
+          "ruby": "提出書類[ていしゅつしょるい]には印鑑[いんかん]を押[お]さなければならない。",
+          "english": "Documents you submit have to be stamped with your seal."
+        },
+        {
+          "ruby": "全員[ぜんいん]が九時[くじ]までに集合[しゅうごう]しなければならない。",
+          "english": "Everyone is required to assemble by nine o'clock."
+        },
+        {
+          "ruby": "明日[あした]までに荷物[にもつ]をまとめなきゃならない。",
+          "english": "I've got to have my things packed up by tomorrow."
+        }
+      ]
+    },
+    {
+      "l2_id": "1561",
+      "canonical_surface": "なけりゃいけない",
+      "glosses": [
+        "must; have to",
+        "need to"
+      ],
+      "usage_note": "Built on the same negative-conditional frame as なけりゃならない, but いけない adds the speaker's own sense that leaving it undone would be bad, so it typically covers an obligation arising in a particular situation or falling on a particular person, where ならない leans institutional and stiffer. ないと(いけない) is the everyday conversational realization, and なきゃ/なくちゃ/なけりゃ are its more clipped spoken contractions; いけません gives the polite form.",
+      "examples": [
+        {
+          "ruby": "風邪[かぜ]をひいたので今日[きょう]は早[はや]く寝[ね]なきゃいけない。",
+          "english": "I caught a cold, so I need to turn in early tonight."
+        },
+        {
+          "ruby": "そろそろ子供[こども]を迎[むか]えに行[い]かなきゃいけない。",
+          "english": "It's about time I went to pick up the kids."
+        },
+        {
+          "ruby": "予約[よやく]を取[と]り消[け]すなら電話[でんわ]しないといけない。",
+          "english": "If you're cancelling the booking, you have to phone them."
+        }
+      ]
+    },
+    {
+      "l2_id": "1571",
+      "canonical_surface": "なけりゃだめ",
+      "glosses": [
+        "have to; it's no good unless …",
+        "you'd better"
+      ],
+      "usage_note": "だめ stands in for ならない/いけない at the end of the same negative-conditional frame, and the result is squarely spoken: it sounds more personal and blunter than なきゃいけない, and it is common when coaxing or scolding — parents to children, coaches to players. Politeness is carried by だめです/だめですよ rather than by any dedicated polite ending, and 駄目 is the kanji spelling of the same word.",
+      "examples": [
+        {
+          "ruby": "野菜[やさい]もちゃんと食[た]べなきゃだめだよ。",
+          "english": "You've got to eat your vegetables too, you know."
+        },
+        {
+          "ruby": "遅[おく]れたんだから謝[あやま]らなくちゃだめだ。",
+          "english": "You were late, so you have to apologize."
+        },
+        {
+          "ruby": "上手[じょうず]になりたきゃ毎日[まいにち]練習[れんしゅう]しなけりゃだめだ。",
+          "english": "If you want to get good, practicing every day is the only way."
+        }
+      ]
+    },
+    {
+      "l2_id": "1581",
+      "canonical_surface": "べき",
+      "glosses": [
+        "should; ought to",
+        "be supposed to"
+      ],
+      "usage_note": "From classical べし, attaching to the plain form (するべき); すべき is the older form inherited from classical す + べし and is still the norm in formal writing. It states what is right by the speaker's moral or social judgment, so it is at home in opinions, criticism, and editorial writing; for obligations set by rules, schedules, or one's own already-fixed plans, なければならない is the usual choice. ものだ appeals to what everyone knows to be proper, べきだ to a judgment the speaker is willing to argue for. Negation is 〜べきではない, unfulfilled obligation is 〜べきだった, and with nouns and な-adjectives it appears as であるべき rather than attaching directly.",
+      "examples": [
+        {
+          "ruby": "政治家[せいじか]は国民[こくみん]との約束[やくそく]を守[まも]るべきだ。",
+          "english": "Politicians ought to keep the promises they make to the public."
+        },
+        {
+          "ruby": "間違[まちが]いに気[き]づいたなら素直[すなお]に認[みと]めるべきだ。",
+          "english": "If you've realized you were wrong, you should just admit it."
+        },
+        {
+          "ruby": "署名[しょめい]する前[まえ]に条件[じょうけん]をよく確認[かくにん]するべきだ。",
+          "english": "You should go over the terms carefully before you sign."
+        }
+      ]
+    },
+    {
+      "l2_id": "1601",
+      "canonical_surface": "なけりゃなるまい",
+      "glosses": [
+        "will have to",
+        "there's no getting around …ing",
+        "one must, I suppose"
+      ],
+      "usage_note": "なるまい is ならない recast with the classical negative-conjecture まい, so the speaker reasons his way to an obligation instead of simply asserting it — closer to \"I suppose we'll have to\" than to a flat \"must.\" It sounds formal and old-fashioned, turning up in essays and commentary and, in fiction, in the speech of gruff or elderly men; ねばなるまい is the most frequent realization, while なけりゃ/なきゃなるまい and the なるめえ variants are the rougher spoken ones.",
+      "examples": [
+        {
+          "ruby": "この件[けん]は上司[じょうし]に報告[ほうこく]せねばなるまい。",
+          "english": "This is something I'll have to report to my superior."
+        },
+        {
+          "ruby": "我々[われわれ]も相応[そうおう]の負担[ふたん]を負[お]わねばなるまい。",
+          "english": "We too will have to shoulder our fair share of the burden."
+        },
+        {
+          "ruby": "いよいよ腹[はら]を決[き]めなけりゃなるまい。",
+          "english": "The time has come when I'll just have to make up my mind."
+        }
+      ]
+    }
+  ]
+}

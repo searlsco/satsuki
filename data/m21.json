@@ -1,0 +1,62 @@
+{
+  "class_code": "m21",
+  "class_name": "限定-選択肢なし-イガイ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "3101",
+      "canonical_surface": "ほか",
+      "glosses": [
+        "besides …",
+        "other than …",
+        "apart from …"
+      ],
+      "usage_note": "As a formal noun it takes a noun through の (この店のほか) and a plain dictionary-form verb directly (そうするほかない); its sibling 以外 clamps straight onto the bare noun instead. The particle after it sets the direction: のほかに／のほかも adds a second item, のほかは with a negative predicate sets everything else aside (この道のほかは知らない), and のほかに with a negative narrows things down to one (彼のほかにいない). ほか leans additive (\"besides\", comfortable with も) and is written in kana rather than 他 in 公用文 and most publishing style; 以外 is the Sino-formal, explicitly exclusionary member (\"except for\").",
+      "examples": [
+        {
+          "ruby": "この店[みせ]では和菓子[わがし]のほかに洋菓子[ようがし]も売[う]っている。",
+          "english": "Besides Japanese sweets, this shop also sells Western-style pastries."
+        },
+        {
+          "ruby": "彼[かれ]のほかに、この機械[きかい]を直[なお]せる人[ひと]はいない。",
+          "english": "Apart from him, there's nobody who can fix this machine."
+        },
+        {
+          "ruby": "ご連絡[れんらく]はメールのほか、お電話[でんわ]でも承[うけたまわ]ります。",
+          "english": "You can reach us by phone as well as by email."
+        }
+      ]
+    },
+    {
+      "l2_id": "3111",
+      "canonical_surface": "いがい",
+      "glosses": [
+        "other than …",
+        "except (for) …",
+        "besides …"
+      ],
+      "usage_note": "Normally written 以外. It attaches directly to a bare noun with no の, and also to a plain dictionary-form verb (謝る以外に方法がない), so it is the workhorse for drawing an exclusion line around a whole action. Both ほか and 以外 take verbs; what separates them is register and force: 以外 is the Sino-formal, explicitly exclusionary member, and it is the default in set-phrase exclusions like それ以外. With a following negative it hardens into \"nothing but\"; with は or に it simply sets everything else aside.",
+      "examples": [
+        {
+          "ruby": "日曜日[にちようび]以外[いがい]は、朝[あさ]六時[ろくじ]に起[お]きています。",
+          "english": "Except on Sundays, I'm up at six in the morning."
+        },
+        {
+          "ruby": "もう一度[いちど]謝[あやま]る以外[いがい]に、方法[ほうほう]はないだろう。",
+          "english": "There's probably nothing for it but to apologize one more time."
+        },
+        {
+          "ruby": "会議[かいぎ]の資料[しりょう]以外[いがい]は、机[つくえ]の上[うえ]に置[お]かないでください。",
+          "english": "Please don't leave anything on the desk except the meeting materials."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "class_code": "g11",
+  "class_name": "基準-基準-ヲモッテ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0063",
+      "canonical_surface": "をもっての",
+      "glosses": [
+        "with; by means of",
+        "by (using)"
+      ],
+      "usage_note": "The formal, written member of this group, at home in notices, contracts, and ceremonial speech, where it presents the means as the authoritative one. It descends from をもちて (持つ), it also fronts an attitude or quality brought to bear (誠意をもって, 責任をもって), and it carries a separate deadline sense ('as of', 本日をもって閉店) that has nothing to do with means. でもって is its emphatic everyday counterpart and plain で the neutral one.",
+      "examples": [
+        {
+          "ruby": "選考[せんこう]の結果[けっか]は書面[しょめん]をもってお知[し]らせします。",
+          "english": "The results of the selection will be communicated in writing."
+        },
+        {
+          "ruby": "全[すべ]ての手続[てつづ]きは電子[でんし]署名[しょめい]をもって完了[かんりょう]する。",
+          "english": "All the paperwork is finalized by electronic signature."
+        },
+        {
+          "ruby": "弊社[へいしゃ]は誠意[せいい]をもって対応[たいおう]いたします。",
+          "english": "We will handle the matter in good faith."
+        }
+      ]
+    },
+    {
+      "l2_id": "0073",
+      "canonical_surface": "でもって",
+      "glosses": [
+        "with; by means of",
+        "using (emphatic)"
+      ],
+      "usage_note": "An emphatic expansion of the particle で that puts extra weight on the instrument or resource being used; it is at home in speech and relaxed writing rather than in official notices, where をもって is the expected choice. Learners should keep it apart from the sentence-initial conversational connective でもって ('and then'), which is a different animal.",
+      "examples": [
+        {
+          "ruby": "その問題[もんだい]は結局[けっきょく]お金[かね]でもって解決[かいけつ]した。",
+          "english": "In the end, that problem got solved with money."
+        },
+        {
+          "ruby": "彼[かれ]は理屈[りくつ]でもって人[ひと]を説得[せっとく]しようとする。",
+          "english": "He tries to win people over by sheer logic."
+        },
+        {
+          "ruby": "新[あたら]しい方法[ほうほう]でもってやり直[なお]してみよう。",
+          "english": "Let's start over with a new approach."
+        }
+      ]
+    },
+    {
+      "l2_id": "0341",
+      "canonical_surface": "での",
+      "glosses": [
+        "with; by; using",
+        "by means of"
+      ],
+      "usage_note": "The plain, unmarked way to name the means or instrument of an action, and the everyday default against which をもって sounds formal and でもって sounds emphatic. Before a noun it takes the form での (電話での連絡), which is why the dictionary form of the pattern is listed that way.",
+      "examples": [
+        {
+          "ruby": "詳[くわ]しい内容[ないよう]はメールでのご案内[あんない]となります。",
+          "english": "We'll send you the details by email."
+        },
+        {
+          "ruby": "味噌汁[みそしる]の出汁[だし]は昆布[こんぶ]で取[と]る。",
+          "english": "We make the stock for the miso soup with kelp."
+        },
+        {
+          "ruby": "学校[がっこう]までは毎日[まいにち]バスで通[かよ]っている。",
+          "english": "I commute to school by bus every day."
+        }
+      ]
+    }
+  ]
+}

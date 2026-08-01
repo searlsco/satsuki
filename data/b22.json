@@ -1,0 +1,37 @@
+{
+  "class_code": "b22",
+  "class_name": "対象-指向-ヲ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "2941",
+      "canonical_surface": "を",
+      "glosses": [
+        "(marks the direct object of a verb)",
+        "(the thing an action works on)"
+      ],
+      "usage_note": "を marks the thing an action works on directly, the object the verb actually reaches. That is what separates it from に and に対して, which aim an action at a target without necessarily affecting it, and from について, which names a topic rather than an object. It is the neutral choice in every register; casual speech often drops it, but writing keeps it.",
+      "examples": [
+        {
+          "ruby": "台所[だいどころ]の窓[まど]を開[あ]けて、空気[くうき]を入[い]れ替[か]えた。",
+          "english": "I opened the kitchen window and aired the place out."
+        },
+        {
+          "ruby": "弟[おとうと]は毎朝[まいあさ]、大[おお]きな犬[いぬ]の世話[せわ]をしてから学校[がっこう]へ行[い]く。",
+          "english": "Every morning my little brother looks after the big dog before heading to school."
+        },
+        {
+          "ruby": "彼女[かのじょ]は少[すこ]しも迷[まよ]わず窓際[まどぎわ]の席[せき]を選[えら]んだ。",
+          "english": "She picked the seat by the window without a moment's hesitation."
+        }
+      ]
+    }
+  ]
+}

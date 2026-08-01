@@ -1,0 +1,38 @@
+{
+  "class_code": "e12",
+  "class_name": "起点-極端例-カラシテ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0291",
+      "canonical_surface": "からして",
+      "glosses": [
+        "starting with",
+        "even (the) … for one",
+        "if even the … is anything to go by"
+      ],
+      "usage_note": "Picks out the most basic or first-noticed detail and invites you to extrapolate: if even that much is so, the whole is. It attaches straight to a noun and the predicate is an evaluation — most often critical (看板[かんばん]からして怪[あや]しい) but equally admiring (食器[しょっき]からして違[ちが]う). Keep it distinct from the inferential からすると family: the same surface からして serves as their adverbial variant, but this pattern is exemplifying, not reasoning from evidence to a guess. からしまして is the polite form.",
+      "examples": [
+        {
+          "ruby": "あの店[みせ]は看板[かんばん]からして怪[あや]しい。",
+          "english": "That place looks dodgy starting with the sign out front."
+        },
+        {
+          "ruby": "この映画[えいが]はタイトルからして意味[いみ]が分[わ]からない。",
+          "english": "With this film, even the title makes no sense, and it goes downhill from there."
+        },
+        {
+          "ruby": "あの旅館[りょかん]は玄関[げんかん]の生[い]け花[ばな]からして違[ちが]う。",
+          "english": "That inn is on another level, starting with the flower arrangement in the entryway."
+        }
+      ]
+    }
+  ]
+}

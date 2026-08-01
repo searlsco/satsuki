@@ -1,0 +1,60 @@
+{
+  "class_code": "A21",
+  "class_name": "伝聞-ぼかし-トヤラ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "2621",
+      "canonical_surface": "とか",
+      "glosses": [
+        "I hear … or something",
+        "apparently; something about …"
+      ],
+      "usage_note": "Hedged hearsay: you relay what you heard while pointedly declining to vouch for it, which makes it the polite way to pass on news about other people. It usually closes the sentence with the verb of saying left off, and とかで introduces a reported reason. Next to そうだ, which repeats a report straight, とか signals that you may have the details wrong; next to とやら it hedges the report rather than the identity of the thing.",
+      "examples": [
+        {
+          "ruby": "課長[かちょう]は今年[ことし]いっぱいで会社[かいしゃ]を辞[や]めるとか。",
+          "english": "Word is the section chief is leaving the company at the end of the year."
+        },
+        {
+          "ruby": "あの二人[ふたり]、去年[きょねん]の春[はる]に式[しき]を挙[あ]げたとか。",
+          "english": "Those two had their wedding last spring, or so I gather."
+        },
+        {
+          "ruby": "新[あたら]しい支店長[してんちょう]は、九州[きゅうしゅう]の出身[しゅっしん]だとか。",
+          "english": "The new branch manager is from Kyushu, or something like that."
+        }
+      ]
+    },
+    {
+      "l2_id": "2631",
+      "canonical_surface": "とやら",
+      "glosses": [
+        "some … or other; a certain …",
+        "… or so they call it"
+      ],
+      "usage_note": "Marks something the speaker cannot or will not pin down: a half-caught name, or a fashionable term held at arm's length, which is why it often lands as faintly mocking. It is bookish and turns up rarely in everyday conversation, and it attaches most often to a noun, frequently followed by いう (山田とやらいう男). Where とか hedges the reliability of a report, とやら distances the speaker from the thing being named.",
+      "examples": [
+        {
+          "ruby": "ワーケーションとやらのために、若[わか]い社員[しゃいん]が島[しま]へ渡[わた]った。",
+          "english": "For the sake of this \"workation\" business, the younger staff shipped off to an island."
+        },
+        {
+          "ruby": "佐々木[ささき]とやらいう男[おとこ]が、朝[あさ]から門[もん]の前[まえ]に立[た]っている。",
+          "english": "Some fellow by the name of Sasaki has been standing outside the gate since morning."
+        },
+        {
+          "ruby": "流行[はや]りのサウナとやらに、部長[ぶちょう]が通[かよ]い始[はじ]めた。",
+          "english": "The department head has started going to these 'saunas' everyone's on about."
+        }
+      ]
+    }
+  ]
+}

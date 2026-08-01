@@ -1,0 +1,37 @@
+{
+  "class_code": "z22",
+  "class_name": "願望-働きかけ-ネガイタイ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "3301",
+      "canonical_surface": "ねがいたい",
+      "glosses": [
+        "I would like to ask you to …",
+        "we request that you …"
+      ],
+      "usage_note": "〜願いたい is stiff written-formal, at home in notices, business letters, and official announcements. It normally attaches with no particle, to お/ご + a verbal noun (ご確認願いたい) or お + a masu-stem (お送り願いたい); a bare 確認願いたい without ご is curt and rare. を is also possible with noun requests (ご援助を願いたい), while 〜をお願いしたい is the softer, more personal alternative. Compared with 〜ていただきたい it is more distant and impersonal, and 願いたい is the writer-side notice form: spoken announcements use 願います (お待ち願います).",
+      "examples": [
+        {
+          "ruby": "詳細[しょうさい]については担当者[たんとうしゃ]にご確認[かくにん]願[ねが]いたい。",
+          "english": "For details, we ask that you check with the person in charge."
+        },
+        {
+          "ruby": "資料[しりょう]は締[し]め切[き]りの前日[ぜんじつ]までにお送[おく]り願[ねが]いたい。",
+          "english": "We ask that the materials be sent in by the day before the deadline."
+        },
+        {
+          "ruby": "開演[かいえん]までロビーで静[しず]かにお待[ま]ち願[ねが]いたい。",
+          "english": "Patrons are asked to wait quietly in the lobby until curtain."
+        }
+      ]
+    }
+  ]
+}

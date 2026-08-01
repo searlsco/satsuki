@@ -1,0 +1,85 @@
+{
+  "class_code": "k21",
+  "class_name": "話題-到達-トナルト類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "2851",
+      "canonical_surface": "にいたると",
+      "glosses": [
+        "when it gets to",
+        "when it comes to (of all things)"
+      ],
+      "usage_note": "Marks the point a progression finally reaches, and in its dominant に至っては shape it singles out the most extreme member of a series already under discussion, so it wants earlier, milder cases named first, and the following clause typically delivers dismay or a damning assessment. That makes it heavier and more evaluative than ともなると or にもなると, which merely note that a threshold brings its natural consequences. Written and formal-spoken register; the polite にいたりますと and にいたりましては appear mostly in speeches and reports.",
+      "examples": [
+        {
+          "ruby": "兄[あに]は三杯[さんばい]、弟[おとうと]に至[いた]っては十杯[じゅっぱい]も平[たい]らげた。",
+          "english": "My older brother had three bowls, and my younger brother put away ten."
+        },
+        {
+          "ruby": "遅刻[ちこく]が続[つづ]き、昨日[きのう]に至[いた]っては無断[むだん]欠勤[けっきん]だ。",
+          "english": "He kept turning up late, and yesterday he simply failed to show at all."
+        },
+        {
+          "ruby": "話[はなし]が費用[ひよう]に至[いた]ると、全員[ぜんいん]が黙[だま]り込[こ]んだ。",
+          "english": "The moment the discussion got as far as cost, the whole room went silent."
+        }
+      ]
+    },
+    {
+      "l2_id": "2881",
+      "canonical_surface": "ともなると",
+      "glosses": [
+        "once it's",
+        "once you become",
+        "when it's a matter of"
+      ],
+      "usage_note": "Raises a noun to a notable status, age, or occasion and presents what follows as the consequence anyone would expect of it, with も adding a touch of admiration or wonder at the level reached. Beside plain となると it feels weightier and more exclamatory, and beside にもなると it stresses that the consequence simply comes with the territory rather than tracking a gradual transition. The corpus also licenses plain-form predicates, and となると in particular is common after them (一人で暮らすとなると); ともなると itself favors nouns.",
+      "examples": [
+        {
+          "ruby": "プロともなると、練習[れんしゅう]の量[りょう]からして違[ちが]う。",
+          "english": "Once you're a professional, even the sheer volume of practice is different."
+        },
+        {
+          "ruby": "店長[てんちょう]ともなれば、売[う]り上[あ]げの責任[せきにん]も背負[せお]う。",
+          "english": "Once you're the store manager, the sales figures land on your shoulders too."
+        },
+        {
+          "ruby": "一人[ひとり]で暮[く]らすとなると、家賃[やちん]がまず問題[もんだい]だ。",
+          "english": "Once living alone is actually on the table, rent is the first hurdle."
+        }
+      ]
+    },
+    {
+      "l2_id": "2891",
+      "canonical_surface": "にもなると",
+      "glosses": [
+        "once you reach",
+        "by the time it's",
+        "when it gets to be"
+      ],
+      "usage_note": "Presents a stage reached — an age, a school year, a point in the calendar — and states what naturally holds there, with に keeping the focus on the transition into that stage. Compared with ともなると it sounds less exclamatory and pairs especially readily with numbers and periods; dropping も gives plain になると, which states the same shift without the sense that the stage is a notable one. As a rule of thumb, にもなると is the natural choice with ages, grades and dates, ともなると with statuses and roles, and only ともなると takes the ともなれば conditional freely.",
+      "examples": [
+        {
+          "ruby": "高校[こうこう]にもなると、親[おや]に相談[そうだん]しなくなるものだ。",
+          "english": "Once they're in high school, kids stop bringing things to their parents."
+        },
+        {
+          "ruby": "十二月[じゅうにがつ]にもなると、朝[あさ]の空気[くうき]が刺[さ]すように痛[いた]い。",
+          "english": "Once December rolls around, the morning air stings your skin."
+        },
+        {
+          "ruby": "五十[ごじゅう]になると、小[ちい]さな文字[もじ]がぼやけて見[み]える。",
+          "english": "When you hit fifty, small print starts going blurry on you."
+        }
+      ]
+    }
+  ]
+}

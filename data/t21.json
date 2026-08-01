@@ -1,0 +1,37 @@
+{
+  "class_code": "t21",
+  "class_name": "逆接-確定-カラトイッテ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1011",
+      "canonical_surface": "からとて",
+      "glosses": [
+        "just because … (doesn't mean)",
+        "merely on the grounds that"
+      ],
+      "usage_note": "Denies an inference: just because A holds, it does not follow that B. The main clause almost always closes on a denial (〜とは限らない, 〜わけではない, 〜ない) or a rhetorical question. からって is the colloquial form, からといって the neutral standard, and からとて the stiff, literary one.",
+      "examples": [
+        {
+          "ruby": "日本[にほん]に長[なが]く住[す]んでいるからとて、敬語[けいご]が達者[たっしゃ]とは限[かぎ]らない。",
+          "english": "Long residence in Japan is no guarantee that one's keigo is any good."
+        },
+        {
+          "ruby": "安[やす]いからとて、不要[ふよう]な物[もの]まで買[か]い込[こ]むのは感心[かんしん]しない。",
+          "english": "Cheapness is hardly a reason to lay in things one has no need of."
+        },
+        {
+          "ruby": "相手[あいて]が子供[こども]だからとて、非礼[ひれい]が見過[みす]ごされてよいはずがない。",
+          "english": "That the other party is a child hardly makes rudeness excusable."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "class_code": "y51",
+  "class_name": "否定-当然の否定-トハカギラナイ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1651",
+      "canonical_surface": "ともかぎらない",
+      "glosses": [
+        "not necessarily …",
+        "there's no guarantee that …"
+      ],
+      "usage_note": "Denies that something holds without exception. The とは限らない shape is the frequent one and follows an affirmative claim, often with 必ずしも earlier in the sentence; ともかぎらない more typically follows a negative predicate (〜ないともかぎらない) and then reads as a warning that the unwanted case could still happen. Both are neutral in register and equally at home in speech and writing.",
+      "examples": [
+        {
+          "ruby": "値段[ねだん]が高[たか]いものが必[かなら]ずしもよいとはかぎらない。",
+          "english": "Expensive doesn't automatically mean good."
+        },
+        {
+          "ruby": "油断[ゆだん]していると、大[おお]きな事故[じこ]につながるともかぎらない。",
+          "english": "Let your guard down and there's no guarantee it won't lead to a serious accident."
+        },
+        {
+          "ruby": "この方法[ほうほう]が誰[だれ]にでも通用[つうよう]するともかぎらない。",
+          "english": "There's no guarantee this approach will work for everyone."
+        }
+      ]
+    },
+    {
+      "l2_id": "2801",
+      "canonical_surface": "ともなく",
+      "glosses": [
+        "without really …ing",
+        "without particularly …",
+        "from somewhere or other"
+      ],
+      "usage_note": "Marks an action performed with no intention behind it, or an origin nobody can pin down. With a verb it usually repeats that verb (見るともなく見る) for \"looking without really looking\"; with an interrogative word it gives a vague source. With an interrogative the particle is normally kept: どこからともなく (\"from out of nowhere\") and 誰にともなく (\"to no one in particular\") are the commonest shapes. It is literary and narrative in flavor, and ともなしに is a near-interchangeable variant.",
+      "examples": [
+        {
+          "ruby": "窓[まど]の外[そと]を見[み]るともなく見[み]ていたら、時間[じかん]が過[す]ぎた。",
+          "english": "I gazed out the window without really looking, and the time slipped away."
+        },
+        {
+          "ruby": "二人[ふたり]はどちらともなく歩[ある]き出[だ]し、川沿[かわぞ]いを進[すす]んだ。",
+          "english": "Neither of them led, yet the two set off together and followed the river."
+        },
+        {
+          "ruby": "待[ま]つともなく改札[かいさつ]の前[まえ]に佇[たたず]んでいた。",
+          "english": "Not that I was waiting for anyone, I just stood there by the ticket gates."
+        }
+      ]
+    }
+  ]
+}

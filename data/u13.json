@@ -1,0 +1,37 @@
+{
+  "class_code": "u13",
+  "class_name": "対比-般-トドウジニ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0362",
+      "canonical_surface": "とどうじに",
+      "glosses": [
+        "at the same time as; the moment (that)",
+        "while also being; and at once"
+      ],
+      "usage_note": "Two readings share the form: temporal simultaneity after a verb (ドアが閉まると同時に, the instant the doors shut) and dual identity after である or an い-adjective (医師であると同時に母, a doctor and a mother at once). A bare event noun attaches directly (卒業と同時に); である is only needed for the dual-identity reading. It is more formal than とすぐに, and unlike かと思うと it carries no surprise: the second event is simply concurrent, and it may perfectly well be planned or deliberate.",
+      "examples": [
+        {
+          "ruby": "ドアが閉[し]まると同時[どうじ]に、電車[でんしゃ]はゆっくり動[うご]き出[だ]した。",
+          "english": "The moment the doors shut, the train began to pull away."
+        },
+        {
+          "ruby": "彼女[かのじょ]は医師[いし]であると同時[どうじ]に、二人[ふたり]の母[はは]でもある。",
+          "english": "She is a physician and, at the same time, a mother of two."
+        },
+        {
+          "ruby": "大会[たいかい]が開幕[かいまく]すると同時[どうじ]に、街[まち]の空気[くうき]が変[か]わった。",
+          "english": "The instant the tournament opened, the whole mood of the town changed."
+        }
+      ]
+    }
+  ]
+}

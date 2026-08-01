@@ -1,0 +1,86 @@
+{
+  "class_code": "p12",
+  "class_name": "継起-般-テカラ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0461",
+      "canonical_surface": "でからの",
+      "glosses": [
+        "after (doing) …",
+        "once … is done",
+        "ever since …"
+      ],
+      "usage_note": "The basic sequencer: it insists that the first action be finished before the second starts, which is why it fits instructions and conditions (手を洗ってから食べる). With a duration or state in the second half it also gives the \"ever since\" reading that 〜たあとで does not (日本に来てから五年になる). Keep it to two events that genuinely belong together; for a loose \"later on\", 〜たあとで is the neutral choice, and for a deliberate preliminary step, 〜た上で.",
+      "examples": [
+        {
+          "ruby": "薬[くすり]を飲[の]んでから、三十分[さんじゅっぷん]ほど横[よこ]になった。",
+          "english": "After taking the medicine, I lay down for about half an hour."
+        },
+        {
+          "ruby": "日本[にほん]に来[き]てから、もう五年[ごねん]になります。",
+          "english": "It's been five years now since I came to Japan."
+        },
+        {
+          "ruby": "宿題[しゅくだい]を片付[かたづ]けてから、ゲームをしてもいいよ。",
+          "english": "You can play your game once you've finished your homework."
+        }
+      ]
+    },
+    {
+      "l2_id": "0471",
+      "canonical_surface": "だあとでの",
+      "glosses": [
+        "after …",
+        "once … was over",
+        "following …"
+      ],
+      "usage_note": "The plainest \"after\" of the group: it locates the second event later in time and nothing more, so the gap can be long and the two halves need not be connected. Where 〜てから presses the two actions together and can mean \"ever since\", 〜たあとで just says \"later than\", and unlike 〜た上で it implies no purpose. 〜た後に marks the point in time and leans written; 〜た後で is the everyday form.",
+      "examples": [
+        {
+          "ruby": "大学[だいがく]を出[で]た後[あと]で、彼[かれ]の消息[しょうそく]は分[わ]からなくなった。",
+          "english": "After he left university, no one heard from him again."
+        },
+        {
+          "ruby": "会議[かいぎ]が終[お]わった後[あと]で、詳[くわ]しい資料[しりょう]をお送[おく]りします。",
+          "english": "I'll send you the detailed materials once the meeting is over."
+        },
+        {
+          "ruby": "荷物[にもつ]を運[はこ]んだ後[あと]で、鍵[かぎ]をなくしたことに気[き]づいた。",
+          "english": "It was only after hauling the boxes in that I realized I'd lost my key."
+        }
+      ]
+    },
+    {
+      "l2_id": "0491",
+      "canonical_surface": "だうえでの",
+      "glosses": [
+        "after (first) …",
+        "upon …",
+        "on the basis of having …"
+      ],
+      "usage_note": "Not just \"after\" but \"after doing the groundwork\": the first action is a deliberate preliminary the second one depends on, which is why it belongs to contracts, procedures, and business correspondence. Both halves are almost always volitional acts of the same person, so accidents and natural events go to 〜たあとで instead. 〜た上での modifies a noun (検討した上での結論), and note the unrelated 〜た上に, which means \"on top of that\".",
+      "examples": [
+        {
+          "ruby": "契約書[けいやくしょ]をよく読[よ]んだ上[うえ]で、署名[しょめい]をお願[ねが]いします。",
+          "english": "Please read the contract carefully and only then sign it."
+        },
+        {
+          "ruby": "家族[かぞく]と相談[そうだん]した上[うえ]で、返事[へんじ]をさせていただきます。",
+          "english": "I'll give you my answer after I've had a chance to talk it over with my family."
+        },
+        {
+          "ruby": "現地[げんち]を自分[じぶん]の目[め]で確[たし]かめた上[うえ]で、結論[けつろん]を出[だ]したい。",
+          "english": "I'd rather see the site with my own eyes first and draw my conclusions from there."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "class_code": "J31",
+  "class_name": "進行-継続-テイル類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1342",
+      "canonical_surface": "でらっしゃり",
+      "glosses": [
+        "(honorific) be …ing",
+        "(honorific) be in a state of having …"
+      ],
+      "usage_note": "Honorific counterpart of 〜ている, used of the listener or a third party you are elevating; for your own side you switch to 〜ております, and the plain form is 〜ている. 〜ておいでになる is a near-equivalent that is often felt to be a shade more formal. Note that でいらっしゃる also attaches to nouns and adjectives (お元気でいらっしゃる, 部長でいらっしゃる), an attachment outside the verbal te-form pattern shown here.",
+      "examples": [
+        {
+          "ruby": "先生[せんせい]は今[いま]、論文[ろんぶん]を書[か]いていらっしゃいます。",
+          "english": "The professor is working on a paper at the moment."
+        },
+        {
+          "ruby": "奥様[おくさま]は庭[にわ]の花[はな]に水[みず]をあげていらっしゃる。",
+          "english": "Your wife is out watering the flowers in the garden."
+        },
+        {
+          "ruby": "会長[かいちょう]は毎年[まいとし]この式典[しきてん]に出席[しゅっせき]していらっしゃる。",
+          "english": "The chairman attends this ceremony every year."
+        }
+      ]
+    },
+    {
+      "l2_id": "1351",
+      "canonical_surface": "じゃい",
+      "glosses": [
+        "be …ing",
+        "be in the state of having …"
+      ],
+      "usage_note": "The neutral, default progressive/resultative: with an activity verb it marks an action in progress, with a change-of-state verb the state that resulted. 〜てる and 〜でる are the everyday contracted forms in speech; 〜ていらっしゃる is the honorific and 〜ております the humble counterpart. Politeness is carried by the ます ending, not by the pattern itself.",
+      "examples": [
+        {
+          "ruby": "妹[いもうと]は好[す]きな音楽[おんがく]をずっと聴[き]いている。",
+          "english": "My little sister has been listening to her favorite music this whole time."
+        },
+        {
+          "ruby": "猫[ねこ]はまだソファの上[うえ]に寝[ね]そべっています。",
+          "english": "The cat is still stretched out on the sofa."
+        },
+        {
+          "ruby": "弟[おとうと]はさっきから宿題[しゅくだい]の続[つづ]きをしてる。",
+          "english": "My little brother's been plugging away at the rest of his homework."
+        }
+      ]
+    },
+    {
+      "l2_id": "1371",
+      "canonical_surface": "どり",
+      "glosses": [
+        "(humble/formal) be …ing",
+        "(Western dialect) be …ing"
+      ],
+      "usage_note": "Two quite different lives: 〜ております is the humble-polite 〜ている used about yourself, your family or your company in business and public speech, while plain 〜ておる about someone else is not honorific at all; in standard Japanese it sounds blunt, condescending or archaic, so use 〜ている or 〜ていらっしゃる instead. The contracted 〜とる／〜どる is a Western-Japan colloquial equivalent of 〜てる and carries no humility at all.",
+      "examples": [
+        {
+          "ruby": "ただ今[いま]、担当[たんとう]の者[もの]が席[せき]を外[はず]しております。",
+          "english": "I'm afraid the person handling this is away from their desk right now."
+        },
+        {
+          "ruby": "父[ちち]は昼[ひる]から縁側[えんがわ]でビールを飲[の]んどる。",
+          "english": "Dad's been out on the veranda drinking beer since noon."
+        },
+        {
+          "ruby": "弊社[へいしゃ]では新[あら]たな支援[しえん]制度[せいど]を設[もう]けております。",
+          "english": "We have a new support program in place here at our company."
+        }
+      ]
+    }
+  ]
+}

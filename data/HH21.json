@@ -1,0 +1,129 @@
+{
+  "class_code": "H21",
+  "class_name": "自然発生-抑制不能-テシカタガナイ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1522",
+      "canonical_surface": "でならない",
+      "glosses": [
+        "can't help feeling …",
+        "unbearably; terribly"
+      ],
+      "usage_note": "Used for feeling that wells up on its own and refuses to be suppressed, so it sits especially well with spontaneous predicates (気になって, 思えて, 悔やまれて) and with な-adjectives of regret. Teacher references describe it as leaning toward inner, involuntary emotion and toward negative feeling, and as somewhat literary and old-fashioned next to the neutral てしかたがない. Attaches to い-adjective くて, な-adjective/noun で, and verb て-form alike.",
+      "examples": [
+        {
+          "ruby": "夜中[よなか]の物音[ものおと]が今[いま]も気[き]になってならない。",
+          "english": "That noise in the night still nags at me, and I can't shake it."
+        },
+        {
+          "ruby": "彼[かれ]の沈黙[ちんもく]には何[なに]か訳[わけ]があると思[おも]えてならない。",
+          "english": "I can't help feeling there's some reason behind his silence."
+        },
+        {
+          "ruby": "祖父[そふ]に一言[ひとこと]も伝[つた]えられなかったのが残念[ざんねん]でならない。",
+          "english": "It grieves me no end that I never got to say a single word to my grandfather."
+        }
+      ]
+    },
+    {
+      "l2_id": "1941",
+      "canonical_surface": "でたまらない",
+      "glosses": [
+        "unbearably …",
+        "can't stand how … it is"
+      ],
+      "usage_note": "The most bodily member of this family: heat, itch, pain, hunger, or a craving pushed past what one can endure. Teacher references note that it typically resists spontaneous-feeling predicates such as 思えて or 気になって, where てならない or てしかたがない are preferred instead. It is at home in casual speech and takes both positive and negative feelings; the corpus rule here licenses noun/な-adjective + で and い-adjective + くて.",
+      "examples": [
+        {
+          "ruby": "クーラーが壊[こわ]れて、部屋[へや]の中[なか]が暑[あつ]くてたまらない。",
+          "english": "The AC broke and the room is unbearably hot."
+        },
+        {
+          "ruby": "明日[あした]の面接[めんせつ]のことが不安[ふあん]でたまらない。",
+          "english": "I'm a nervous wreck about tomorrow's interview."
+        },
+        {
+          "ruby": "久[ひさ]しぶりに孫[まご]に会[あ]えて嬉[うれ]しくてたまらない。",
+          "english": "Seeing my grandchild after so long, I'm just bursting with happiness."
+        }
+      ]
+    },
+    {
+      "l2_id": "1951",
+      "canonical_surface": "でしかたない",
+      "glosses": [
+        "can't help being …",
+        "terribly; awfully"
+      ],
+      "usage_note": "The widest-ranging and most neutral member of this family: references describe it as usable with sensations, emotions, and spontaneous feelings alike, which makes it the safe default when the others feel risky. The fuller てしかたがない is slightly more formal; the clipped てしかたない is conversational, and てしょうがない is the still more casual cousin. It tends to describe a state that persists rather than a single spike of feeling.",
+      "examples": [
+        {
+          "ruby": "隣[となり]の工事[こうじ]の音[おと]がうるさくてしかたない。",
+          "english": "The construction noise next door is driving me up the wall."
+        },
+        {
+          "ruby": "息子[むすこ]の帰[かえ]りが遅[おそ]く、心配[しんぱい]でしかたない。",
+          "english": "My son is late getting home, and I'm worried sick."
+        },
+        {
+          "ruby": "昼[ひる]を抜[ぬ]いたので、腹[はら]が減[へ]ってしかたない。",
+          "english": "I skipped lunch, so now I'm starving out of my mind."
+        }
+      ]
+    },
+    {
+      "l2_id": "1971",
+      "canonical_surface": "でしょうがない",
+      "glosses": [
+        "can't stand it, it's so …",
+        "terribly; incredibly"
+      ],
+      "usage_note": "The casual spoken counterpart of てしかたがない, しょうがない being a worn-down しようがない. It leans negative and complaining, and typically describes an ongoing nuisance rather than a momentary peak of feeling. Keep it out of formal writing, where てしかたがない or てならない fit better.",
+      "examples": [
+        {
+          "ruby": "花粉[かふん]のせいで目[め]がかゆくてしょうがない。",
+          "english": "The pollen has my eyes itching like crazy."
+        },
+        {
+          "ruby": "同[おな]じ曲[きょく]が頭[あたま]の中[なか]でぐるぐる回[まわ]ってしょうがない。",
+          "english": "The same song keeps going round and round in my head and it's driving me nuts."
+        },
+        {
+          "ruby": "新[あたら]しい職場[しょくば]の人間[にんげん]関係[かんけい]が憂鬱[ゆううつ]でしょうがない。",
+          "english": "The politics at my new workplace get me down something awful."
+        }
+      ]
+    },
+    {
+      "l2_id": "1981",
+      "canonical_surface": "でいけない",
+      "glosses": [
+        "it's a nuisance that …",
+        "so … that it's a problem"
+      ],
+      "usage_note": "An old-fashioned complaint, close in force to 〜て困る or 〜てかなわない: the situation is bothersome and one wishes it were otherwise. It is common in older speech and prose, while contemporary speakers usually reach for てしょうがない or てかなわない. The corpus rule licenses only verbs here, but 〜くていけない with い-adjectives (暑くていけない) is just as attested in real Japanese; note also the unrelated 〜てはいけない, which is prohibition, not complaint.",
+      "examples": [
+        {
+          "ruby": "窓[まど]の隙間[すきま]から風[かぜ]が入[はい]ってきていけない。",
+          "english": "A draft keeps coming in through the gap in the window, and it's a real nuisance."
+        },
+        {
+          "ruby": "歳[とし]を取[と]ると物忘[ものわす]れが増[ふ]えていけない。",
+          "english": "As you get on in years you forget more and more, and it's no good at all."
+        },
+        {
+          "ruby": "雨[あめ]の日[ひ]は古傷[ふるきず]が痛[いた]んでいけない。",
+          "english": "On rainy days my old injury aches, and it's a bother."
+        }
+      ]
+    }
+  ]
+}

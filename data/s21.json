@@ -1,0 +1,83 @@
+{
+  "class_code": "s21",
+  "class_name": "理由-因果-タメニ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0731",
+      "canonical_surface": "ため",
+      "glosses": [
+        "because of; owing to",
+        "on account of"
+      ],
+      "usage_note": "A past or stative clause before it reports a cause, while a non-past volitional verb states a purpose; noun+のため is decided by the noun's meaning rather than its form — 大雪のため is a cause, 家族のため a purpose. The causal use is the composed, slightly formal way to give a reason in announcements and written notices, where から and ので sound chattier, and it presents the reason as objective fact, so it usually avoids leading into a request, invitation, or command (雨のため中止します is natural; 雨のため休んでください is not). ために simply spells out the case particle, and 為 is the kanji spelling, still common in formal or older text.",
+      "examples": [
+        {
+          "ruby": "大雪[おおゆき]のため、明日[あす]の試合[しあい]は中止[ちゅうし]になりました。",
+          "english": "Owing to the heavy snow, tomorrow's match has been called off."
+        },
+        {
+          "ruby": "電車[でんしゃ]が遅[おく]れたため、会議[かいぎ]に間[ま]に合[あ]わなかった。",
+          "english": "Because the train was delayed, I was unable to make the meeting."
+        },
+        {
+          "ruby": "システム障害[しょうがい]のため、受付[うけつけ]を一時[いちじ]停止[ていし]しております。",
+          "english": "Owing to a system failure, we have temporarily suspended intake."
+        }
+      ]
+    },
+    {
+      "l2_id": "0791",
+      "canonical_surface": "ばっかりに",
+      "glosses": [
+        "just because; all because",
+        "simply on account of"
+      ],
+      "usage_note": "Pins the blame for a bad turn on one small, often trivial cause, so it comes wrapped in regret or self-reproach and the following clause is almost always an unwelcome outcome out of all proportion to the trivial cause. A past-form verb before it points at a single misstep, while a non-past adjective or habitual verb blames a standing trait for repeated trouble; ばっかりに is the emphatic spoken doubling that thickens the grumble. Compare だけに, which draws a reasonable, sometimes admiring conclusion from its cause, while ばかりに looks back and winces; the separate 〜たいばかりに means \"so badly wanting to …\".",
+      "examples": [
+        {
+          "ruby": "気[き]が小[ちい]さいばっかりに、言[い]いたいことも言[い]えない。",
+          "english": "All because he's such a timid soul, he can't even say what he wants to."
+        },
+        {
+          "ruby": "人[ひと]が良[よ]すぎるばっかりに、あいつは何度[なんど]も騙[だま]される。",
+          "english": "Just because he's too good-natured for his own good, he keeps getting taken in over and over."
+        },
+        {
+          "ruby": "何[なん]でも一人[ひとり]で抱[かか]え込[こ]むばっかりに、いつも体[からだ]を壊[こわ]す。",
+          "english": "Simply because she shoulders everything alone, she always ends up making herself ill."
+        }
+      ]
+    },
+    {
+      "l2_id": "0801",
+      "canonical_surface": "だけに",
+      "glosses": [
+        "precisely because; all the more because",
+        "being … as one would expect"
+      ],
+      "usage_note": "Presents the second clause as the conclusion its cause makes obvious, often with an added \"all the more so\" that なおさら fits neatly into. The outcome may be welcome or unwelcome, and a favorable cause followed by a poor result gives the familiar disappointment reading (期待していただけに残念だ). Unlike ばかりに it apportions no blame, and unlike ため it asks the hearer to agree the link is natural rather than merely reporting it; it also attaches straight to a bare noun (プロだけに). Its close sibling だけあって is limited to results that live up to the cause.",
+      "examples": [
+        {
+          "ruby": "値段[ねだん]が高[たか]いだけに、作[つく]りがしっかりしている。",
+          "english": "It's expensive, and sure enough it's solidly built."
+        },
+        {
+          "ruby": "元[もと]プロだけに、フォームがまるで違[ちが]う。",
+          "english": "He's a former pro, and it shows: his form is on another level."
+        },
+        {
+          "ruby": "毎年[まいとし]優勝[ゆうしょう]しているだけに、周[まわ]りの期待[きたい]も大[おお]きい。",
+          "english": "They win it every year, which makes the expectations around them all the heavier."
+        }
+      ]
+    }
+  ]
+}

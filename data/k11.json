@@ -1,0 +1,61 @@
+{
+  "class_code": "k11",
+  "class_name": "話題-提示-トイウノハ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "2812",
+      "canonical_surface": "ってのは",
+      "glosses": [
+        "as for; when it comes to",
+        "the thing about … is"
+      ],
+      "usage_note": "Same shape as the defining ってのは, but here it raises a topic rather than explains a term, and the comment that follows is an evaluation or complaint (大変だ, きついよ, いつも同じだ). This use readily takes a whole clause, where the defining use normally wants a bare noun, so a verb or i-adjective in plain form can sit directly in front of it. Against かというと, which poses a question and then answers it, this one simply foregrounds something already on both speakers' minds; against bare は it adds an audible dose of feeling.",
+      "examples": [
+        {
+          "ruby": "毎朝[まいあさ]早[はや]く起[お]きるってのは、思[おも]ったより大変[たいへん]だ。",
+          "english": "Getting up early every morning is rougher than you'd expect."
+        },
+        {
+          "ruby": "あいつの言[い]い訳[わけ]ってのは、いつも同[おな]じ話[はなし]だ。",
+          "english": "With that guy's excuses, it's always the exact same story."
+        },
+        {
+          "ruby": "一人[ひとり]で引[ひ]っ越[こ]しするってのは、案外[あんがい]きついよ。",
+          "english": "Moving house on your own is surprisingly brutal, let me tell you."
+        }
+      ]
+    },
+    {
+      "l2_id": "2831",
+      "canonical_surface": "かというと",
+      "glosses": [
+        "as to why …",
+        "if you ask whether …",
+        "as for the question of"
+      ],
+      "usage_note": "Sets up an embedded question and then answers it in the same breath, so the speaker gets to control both halves of the exchange. With なぜ or どうして it is the standard way to walk back into a reason, and the answer clause typically lands on ～からだ or ～ためだ. It also serves a concessive turn, ～かというとそうでもない, conceding that the obvious answer is not quite right; the polite かといいますと and the casual かっていうと are the same pattern dressed for the room.",
+      "examples": [
+        {
+          "ruby": "なぜ辞[や]めたかというと、上司[じょうし]と合[あ]わなかったからだ。",
+          "english": "The reason I quit is that I just couldn't get along with my boss."
+        },
+        {
+          "ruby": "どこが違[ちが]うかというと、値段[ねだん]ではなく手間[てま]です。",
+          "english": "As for where the difference lies, it's not the price but the effort."
+        },
+        {
+          "ruby": "誰[だれ]が担当[たんとう]かというと、実[じつ]は私[わたし]なんです。",
+          "english": "As to who's in charge, it's actually me."
+        }
+      ]
+    }
+  ]
+}

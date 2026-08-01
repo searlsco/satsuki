@@ -1,0 +1,62 @@
+{
+  "class_code": "f12",
+  "class_name": "範囲-範囲-ニワタッテ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0162",
+      "canonical_surface": "をつうじての",
+      "glosses": [
+        "throughout",
+        "all through (a period)",
+        "over the whole of"
+      ],
+      "usage_note": "Presents a whole stretch of time as one unbroken span within which a state holds: 一年を通じて雨が多い. Its sibling にわたって instead measures out how far a single event extends, so a week of meetings is 一週間にわたって; 一週間を通じて would instead say a state held steady through the week. を通して is a near-equivalent, slightly more spoken and more willing to foreground an active means, while を通じて is the neutral/written choice and additionally has a separate 'via, through the good offices of' use with people and channels that does not belong to this span sense.",
+      "examples": [
+        {
+          "ruby": "この地域[ちいき]は一年[いちねん]を通[つう]じて湿気[しっけ]が多[おお]い。",
+          "english": "This area is humid all year round."
+        },
+        {
+          "ruby": "祖父[そふ]は生涯[しょうがい]を通[つう]じて絵[え]を描[か]き続[つづ]けた。",
+          "english": "My grandfather went on painting his whole life long."
+        },
+        {
+          "ruby": "四季[しき]を通[つう]じて水温[すいおん]がほとんど変[か]わらない泉[いずみ]だ。",
+          "english": "It's a spring whose water stays at nearly the same temperature through all four seasons."
+        }
+      ]
+    },
+    {
+      "l2_id": "0331",
+      "canonical_surface": "にわたっての",
+      "glosses": [
+        "over; spanning",
+        "extending across",
+        "for (a stretch of)"
+      ],
+      "usage_note": "Marks the extent an event covers, and the covered range can be time, territory, or a count of items, so it usually pairs with an explicit measure (三日間, 全域, 五十項目). Where を通じて says a state held uninterrupted through a period, にわたって stresses the sheer breadth of what happened. It comes from the verb 亘る/渡る, so the usual adnominal is にわたる (三日にわたる交渉); にわたっての also occurs but is the marked, less frequent option.",
+      "examples": [
+        {
+          "ruby": "会議[かいぎ]は三日間[みっかかん]にわたって続[つづ]いた。",
+          "english": "The conference ran for three days straight."
+        },
+        {
+          "ruby": "停電[ていでん]の影響[えいきょう]は市内[しない]全域[ぜんいき]にわたった。",
+          "english": "The blackout's effects spread across the entire city."
+        },
+        {
+          "ruby": "調査[ちょうさ]は五十[ごじゅう]項目[こうもく]にわたって行[おこな]われた。",
+          "english": "The survey covered fifty separate items."
+        }
+      ]
+    }
+  ]
+}

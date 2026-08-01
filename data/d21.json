@@ -1,0 +1,85 @@
+{
+  "class_code": "d21",
+  "class_name": "状況-特別-オリニ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0221",
+      "canonical_surface": "おりの",
+      "glosses": [
+        "on the occasion of",
+        "when (the chance arises)"
+      ],
+      "usage_note": "Formal, letter-and-greeting Japanese for an occasion framed as a welcome opportunity, so it fits 帰国の折に or お立ち寄りの折に and sits badly on unwelcome events such as accidents, though adverse ongoing states are fine (お忙しい折に, ご多忙の折); bare commands and prohibitions are rare after it, though polite requests in ください and お願いします are routine. It attaches to a dictionary- or た-form verb, an i-adjective, or N+の. Sibling 際に is the neutral procedural 'when you do X', while 折 keeps the flavour of 'should the chance come'; 折の is the adnominal shape and 折にゃ the contracted colloquial one.",
+      "examples": [
+        {
+          "ruby": "祖父[そふ]の家[いえ]を訪[おとず]れた折[おり]に、古[ふる]い写真[しゃしん]を見[み]つけた。",
+          "english": "When I paid my grandfather's house a visit, I came across some old photographs."
+        },
+        {
+          "ruby": "ご帰国[きこく]の折[おり]に、ぜひご連絡[れんらく]ください。",
+          "english": "Do get in touch when you're back in the country."
+        },
+        {
+          "ruby": "来春[らいしゅん]そちらへ伺[うかが]う折[おり]に、お目[め]にかかれれば幸[さいわ]いです。",
+          "english": "I would be delighted to see you when I come your way next spring."
+        }
+      ]
+    },
+    {
+      "l2_id": "0261",
+      "canonical_surface": "おりからの",
+      "glosses": [
+        "at a time of",
+        "given the season of",
+        "just then"
+      ],
+      "usage_note": "Literary and epistolary: 折柄 (折 + the suffix 柄 'given the nature or circumstances of') presents the prevailing season or conditions as the backdrop for the concern or event that follows, which is why it is a fixture of seasonal greetings — 寒さ厳しい折から、ご自愛ください. Its adnominal shape 折からの modifies a following noun with the sense 'the ~ that happened to be falling/blowing at the time' (折からの雨). Where sibling 折に points at a chance to do something, 折から points at circumstances you are living through, and in the greeting formulas that dominate its use it is overwhelmingly non-past (寒さ厳しい折から), not た-form.",
+      "examples": [
+        {
+          "ruby": "梅雨[つゆ]の折[おり]から、どうぞご自愛[じあい]ください。",
+          "english": "With the rainy season upon us, please do take care of yourself."
+        },
+        {
+          "ruby": "寒[さむ]さ厳[きび]しい折[おり]から、皆様[みなさま]のご健康[けんこう]をお祈[いの]りします。",
+          "english": "In this season of bitter cold, I wish you all continued good health."
+        },
+        {
+          "ruby": "折[おり]からの雨[あめ]で運動会[うんどうかい]は取[と]りやめになった。",
+          "english": "The rain that had set in just then got sports day called off."
+        }
+      ]
+    },
+    {
+      "l2_id": "2951",
+      "canonical_surface": "さいにゃ",
+      "glosses": [
+        "when",
+        "on the occasion of",
+        "in the event of"
+      ],
+      "usage_note": "The neutral formal 'when' of announcements, manuals, forms and business speech; it is indifferent to whether the occasion is welcome or not, so unlike sibling 折に it is at home in warnings, prohibitions and unwelcome events (事故の際に, 故障した際には); both take polite requests freely. It attaches to a dictionary- or た-form verb or to N+の, and it prefers occasions worth singling out, so it sounds starched on everyday trivia where 時 would do (歯[は]を磨[みが]く時 rather than 磨く際). 際には is the topicalized form, and には contracts to にゃ in casual speech, though 際にゃ itself is rare.",
+      "examples": [
+        {
+          "ruby": "機械[きかい]を使用[しよう]する際[さい]に、必[かなら]ず手袋[てぶくろ]をつけてください。",
+          "english": "When operating the machine, be sure to put on gloves."
+        },
+        {
+          "ruby": "口座[こうざ]を開[ひら]いた際[さい]に、印鑑[いんかん]の登録[とうろく]も済[す]ませた。",
+          "english": "When I opened the account, I got the seal registration out of the way too."
+        },
+        {
+          "ruby": "面接[めんせつ]の際[さい]に、志望[しぼう]動機[どうき]を詳[くわ]しく聞[き]かれた。",
+          "english": "At the interview they questioned me closely about why I wanted the job."
+        }
+      ]
+    }
+  ]
+}

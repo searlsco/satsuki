@@ -1,0 +1,86 @@
+{
+  "class_code": "o21",
+  "class_name": "同時性-対比-タトオモウト類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "0381",
+      "canonical_surface": "だかとおもうと",
+      "glosses": [
+        "no sooner … than",
+        "the moment (that) …",
+        "one second … and the next …"
+      ],
+      "usage_note": "Hooks onto the plain past form and reports two events treated as instantaneous, with the speaker's surprise built in: the second half is typically something unexpected, or the flat opposite of what the first half led you to expect. Because it describes something the speaker witnessed and was caught off guard by, it is not used of your own actions, and the second clause states what happened rather than a request, command, or intention. The かと is the surprise-heightening part; plain 〜たと思うと and the softer 〜たと思ったら are the same construction with less of it.",
+      "examples": [
+        {
+          "ruby": "弟[おとうと]は席[せき]に着[つ]いたかと思[おも]うと、もう眠[ねむ]っていた。",
+          "english": "My brother had barely sat down before he was fast asleep."
+        },
+        {
+          "ruby": "太陽[たいよう]が沈[しず]んだかと思[おも]うと、辺[あた]りは真[ま]っ暗[くら]になった。",
+          "english": "No sooner had the sun gone down than everything around us went pitch black."
+        },
+        {
+          "ruby": "妹[いもうと]は家[いえ]に入[はい]ってきたかと思[おも]うと、もう出[で]かけて行[い]った。",
+          "english": "My sister walked in the door and was straight back out again."
+        }
+      ]
+    },
+    {
+      "l2_id": "0391",
+      "canonical_surface": "とまもなく",
+      "glosses": [
+        "soon after …",
+        "shortly after …",
+        "it wasn't long after … that"
+      ],
+      "usage_note": "The adverb 間もなく (\"before long\") riding on the temporal と, so it attaches to the dictionary form rather than the past form its siblings in this class take. Unlike 〜たかと思うと it allows a real if short gap and carries no surprise: it simply narrates that one thing followed hard on another, and it leans written and descriptive. Unlike 〜てから and 〜たあとで, which happily take a request or a plan after them, this is a と clause, so the second half reports an outcome the speaker observed, never a request, invitation, or command — that restriction, not the length of the gap, is the real dividing line.",
+      "examples": [
+        {
+          "ruby": "列車[れっしゃ]が駅[えき]を出[で]ると間[ま]もなく、車掌[しゃしょう]が切符[きっぷ]を見[み]に来[き]た。",
+          "english": "Shortly after the train pulled out of the station, the conductor came around to check tickets."
+        },
+        {
+          "ruby": "鐘[かね]が鳴[な]ると間[ま]もなく、生徒[せいと]たちが校門[こうもん]から出[で]てきた。",
+          "english": "Soon after the bell rang, students began streaming out of the school gate."
+        },
+        {
+          "ruby": "予約[よやく]すると間[ま]もなく、確認[かくにん]のメールが届[とど]いた。",
+          "english": "A confirmation email arrived not long after I made the booking."
+        }
+      ]
+    },
+    {
+      "l2_id": "0401",
+      "canonical_surface": "だかとおもうまもなく",
+      "glosses": [
+        "before … could even sink in",
+        "with no time even to register …",
+        "no sooner … than"
+      ],
+      "usage_note": "〜たかと思う (\"just as it seemed X happened\") followed by 間もなく, \"with no interval at all\" — it removes even the sliver of a gap that 〜たかと思うと tolerates, and it is not to be confused with 〜と間もなく, which reports an ordinary short interval where here there is none. It is narration rather than conversation, at home describing disasters, accidents, and sudden violence. In real writing this tail very often follows a quoted thought rather than a plain verb: 「しまった」と思う間もなく、車は壁に突っ込んでいた。",
+      "examples": [
+        {
+          "ruby": "地面[じめん]が揺[ゆ]れたかと思[おも]う間[ま]もなく、天井[てんじょう]が崩[くず]れ落[お]ちた。",
+          "english": "The ground shook, and before it could even register, the ceiling came down."
+        },
+        {
+          "ruby": "男[おとこ]が叫[さけ]んだかと思[おも]う間[ま]もなく、銃声[じゅうせい]が響[ひび]いた。",
+          "english": "The man's shout had scarcely left his mouth when a gunshot rang out."
+        },
+        {
+          "ruby": "波[なみ]が引[ひ]いたかと思[おも]う間[ま]もなく、次[つぎ]の高波[たかなみ]が押[お]し寄[よ]せた。",
+          "english": "The wave had barely drawn back before the next swell came crashing in."
+        }
+      ]
+    }
+  ]
+}

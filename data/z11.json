@@ -1,0 +1,37 @@
+{
+  "class_code": "z11",
+  "class_name": "願望-詠嘆-ガナ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "2572",
+      "canonical_surface": "がな",
+      "glosses": [
+        "I do hope …",
+        "… , I wish"
+      ],
+      "usage_note": "A wistful wish-and-sigh ending: が leaves the thought hanging as something not yet granted and な voices the feeling, so 〜といいがな(あ) means \"I do hope …\", with a hint that it may not come off. The productive frame is a whole clause plus と＋いい／よい／ありがたい in dictionary form, and the drawn-out がなあ is the commonest shape; a bare adjective plus がな is marginal. It suits relaxed, somewhat older-sounding speech. Do not confuse it with the Kansai emphatic がな of ええがな, which is a different が＋な and carries no wish.",
+      "examples": [
+        {
+          "ruby": "息子[むすこ]の就職[しゅうしょく]がうまく決[き]まるといいがな。",
+          "english": "I do hope my son's job hunt works out."
+        },
+        {
+          "ruby": "出[で]かけるまでに雨[あめ]がやんでくれるとよいがな。",
+          "english": "It'd be nice if the rain let up before we head out."
+        },
+        {
+          "ruby": "もう少[すこ]し涼[すず]しくなってくれるとありがたいがな。",
+          "english": "I do wish it would cool down a bit."
+        }
+      ]
+    }
+  ]
+}

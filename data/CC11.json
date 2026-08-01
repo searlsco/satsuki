@@ -1,0 +1,108 @@
+{
+  "class_code": "C11",
+  "class_name": "不許可-不許可-テハイケナイ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1511",
+      "canonical_surface": "じゃいけない",
+      "glosses": [
+        "must not …",
+        "may not …",
+        "you're not allowed to …"
+      ],
+      "usage_note": "The everyday prohibition: it works both for stating a rule and for telling the person in front of you to stop, and it typically comes from someone entitled to prohibit (a parent, a teacher, a sign), so it sounds presumptuous aimed upward. ちゃ／じゃ are the spoken contractions of ては／では and the ません form is the polite one. Compared with てはならない it is less institutional, and unlike ちゃだめ it is at home in written notices as well as speech; aimed upward, use ご遠慮ください or 〜ないでください instead.",
+      "examples": [
+        {
+          "ruby": "試験中[しけんちゅう]は辞書[じしょ]を使[つか]ってはいけません。",
+          "english": "You may not use a dictionary during the exam."
+        },
+        {
+          "ruby": "まだ熱[ねつ]があるから、無理[むり]しちゃいけないよ。",
+          "english": "You've still got a fever, so you mustn't push yourself."
+        },
+        {
+          "ruby": "人[ひと]の手紙[てがみ]を勝手[かって]に読[よ]んじゃいけない。",
+          "english": "You don't get to read other people's letters without asking."
+        }
+      ]
+    },
+    {
+      "l2_id": "1521",
+      "canonical_surface": "じゃならない",
+      "glosses": [
+        "must not …",
+        "it will not do to …"
+      ],
+      "usage_note": "The weightier sibling of てはいけない: it typically voices a rule that holds for everyone (regulations, contracts, professional codes, moral maxims) rather than scolding the individual in front of you, and it is far more common in writing and in speeches than in conversation. The ません and ぬ forms are correspondingly stiff, and the ず form (てはならず) is used to chain clauses in legal prose; on signs and in slogans the classical べからず says the same thing more curtly (立入るべからず). The colloquial contractions ちゃならない／じゃならない exist but sound old-fashioned or gruff (note that the frequent 〜なくちゃならない is the obligation form なくてはならない, not this prohibition).",
+      "examples": [
+        {
+          "ruby": "契約内容[けいやくないよう]を第三者[だいさんしゃ]に漏[も]らしてはならない。",
+          "english": "The terms of the contract must not be disclosed to any third party."
+        },
+        {
+          "ruby": "選手[せんしゅ]は審判[しんぱん]の判定[はんてい]に逆[さか]らってはなりません。",
+          "english": "Players are not to dispute the referee's decisions."
+        },
+        {
+          "ruby": "我々[われわれ]はこの事故[じこ]の教訓[きょうくん]を忘[わす]れてはならない。",
+          "english": "We must never forget the lesson of this accident."
+        }
+      ]
+    },
+    {
+      "l2_id": "1531",
+      "canonical_surface": "じゃだめ",
+      "glosses": [
+        "you mustn't …",
+        "don't …",
+        "it's no good if you …"
+      ],
+      "usage_note": "The casual spoken prohibition, literally \"doing it is no good\": it is aimed at the person you are talking to, typically a child, a friend, or a family member, though it just as readily relays a rule about somewhere else (あの部屋、勝手に入っちゃだめらしいよ), and it stays out of the formal regulations where てはいけない and てはならない belong. だめ can be written 駄目, and softeners (よ, って) and a rising intonation are common. It also accepts a たら／だら conditional stem (飲んだらだめ) alongside the て-form.",
+      "examples": [
+        {
+          "ruby": "子供[こども]がいるんだから、そんな大声[おおごえ]を出[だ]しちゃだめだよ。",
+          "english": "There are kids around, so don't go shouting like that."
+        },
+        {
+          "ruby": "そっちを見[み]ちゃだめ、まだ準備中[じゅんびちゅう]だから。",
+          "english": "Don't look over there, we're still getting it ready."
+        },
+        {
+          "ruby": "薬[くすり]をお酒[さけ]と一緒[いっしょ]に飲[の]んじゃだめだよ。",
+          "english": "You really shouldn't take your medicine with alcohol."
+        }
+      ]
+    },
+    {
+      "l2_id": "1541",
+      "canonical_surface": "べからず",
+      "glosses": [
+        "must not …",
+        "… is forbidden"
+      ],
+      "usage_note": "Classical Japanese: the negative ず attached to べし (べくあらず → べからず), and it is the classical prohibition that modern てはいけない has displaced, not a contraction or variant of it. In modern Japanese it survives on signs, notices, house rules, and proverbs, where it closes the sentence with no copula (立入るべからず); it is not used in ordinary conversation. The adnominal form べからざる modifies a following noun (許すべからざる行為). With する, the classical stem gives すべからず, though するべからず is also seen today.",
+      "examples": [
+        {
+          "ruby": "危険[きけん]につき、この先[さき]へ立入[たちい]るべからず。",
+          "english": "Danger: no entry beyond this point."
+        },
+        {
+          "ruby": "社外[しゃがい]の者[もの]に本資料[ほんしりょう]を見[み]せるべからず。",
+          "english": "This document is not to be shown to anyone outside the company."
+        },
+        {
+          "ruby": "それは仲間[なかま]として許[ゆる]すべからざる裏切[うらぎ]りだった。",
+          "english": "It was a betrayal no comrade could ever forgive."
+        }
+      ]
+    }
+  ]
+}

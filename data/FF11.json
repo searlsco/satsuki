@@ -1,0 +1,83 @@
+{
+  "class_code": "F11",
+  "class_name": "許可-許可-テヨイ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1811",
+      "canonical_surface": "だってよい",
+      "glosses": [
+        "may; it's all right to",
+        "you can go ahead and"
+      ],
+      "usage_note": "The default permission form: grants or requests permission, and after a noun (これでいい) concedes that a lesser option is acceptable rather than merely permitted. たって / だって are the colloquial contracted variants, and でも after a noun covers \"even X is fine.\" Compared with てもかまわない it sounds more positively welcoming. It is the neutral, everyday form between equals and downward. Upward, ask rather than grant, and raise the politeness: 〜てもよろしいでしょうか or 〜てもかまいませんか.",
+      "examples": [
+        {
+          "ruby": "熱[ねつ]がないなら、明日[あす]から出社[しゅっしゃ]してもいいですよ。",
+          "english": "If your fever's gone, feel free to come back to the office tomorrow."
+        },
+        {
+          "ruby": "冷[さ]めないうちに、先[さき]に飲[の]んでもいい。",
+          "english": "Go ahead and start drinking before it gets cold."
+        },
+        {
+          "ruby": "しんどければ、稽古[けいこ]は途中[とちゅう]でやめてもいい。",
+          "english": "If you're worn out, it's fine to drop out of practice partway."
+        }
+      ]
+    },
+    {
+      "l2_id": "1821",
+      "canonical_surface": "だってかまわない",
+      "glosses": [
+        "I don't mind if; it doesn't matter if",
+        "may, as far as I'm concerned"
+      ],
+      "usage_note": "Literally \"it doesn't bother me,\" so it expresses indifference or tolerance rather than the warm approval of てもいい; granted as permission it can sound faintly grudging, but asked as てもかまいませんか it is the more deferential of the two and the safer form with a superior. The ん / ぬ / ねえ endings in this family are markedly blunt or dialectal; かまいません is the ordinary polite form.",
+      "examples": [
+        {
+          "ruby": "席[せき]は空[あ]いていますので、どこに座[すわ]ってもかまいません。",
+          "english": "There are plenty of seats free, so sit wherever you like."
+        },
+        {
+          "ruby": "多少[たしょう]高[たか]くてもかまわないから、丈夫[じょうぶ]な靴[くつ]がほしい。",
+          "english": "I don't care if it costs a bit more, I want shoes that will last."
+        },
+        {
+          "ruby": "お支払[しはら]いは現金[げんきん]でも銀行[ぎんこう]振込[ふりこみ]でもかまいません。",
+          "english": "Payment by cash or by bank transfer is equally fine with us."
+        }
+      ]
+    },
+    {
+      "l2_id": "1841",
+      "canonical_surface": "だってさしつかえない",
+      "glosses": [
+        "there is no objection to; it is quite all right to",
+        "may, without any problem"
+      ],
+      "usage_note": "The stiffest member of the group, at home in business correspondence, forms, and administrative announcements. 差し支える means \"to get in the way,\" so the expression rules out a practical obstacle rather than offering encouragement, and it typically appears where a rule, deadline, or procedure is at issue rather than a personal favor. The conditional 差し支えなければ (\"if it's no trouble\") is a very common polite preface; in polite finite position speakers usually say 差し支えありません instead of this ない form.",
+      "examples": [
+        {
+          "ruby": "会場[かいじょう]の写真[しゃしん]は撮[と]っても差[さ]し支[つか]えないでしょうか。",
+          "english": "Would there be any objection to my photographing the venue?"
+        },
+        {
+          "ruby": "担当者[たんとうしゃ]が不在[ふざい]なら、代理[だいり]の方[かた]が受[う]け取[と]っても差[さ]し支[つか]えない。",
+          "english": "If the person in charge is out, there is no objection to a proxy accepting it."
+        },
+        {
+          "ruby": "事情[じじょう]があれば、届出[とどけで]が一日[いちにち]遅[おく]れても差[さ]し支[つか]えない。",
+          "english": "If there is good reason, filing a day late presents no problem."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "class_code": "t24",
+  "class_name": "逆接-確定-モノノ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "1001",
+      "canonical_surface": "ものの",
+      "glosses": [
+        "although; even though",
+        "… but (contrary to what follows)"
+      ],
+      "usage_note": "Concedes something the speaker accepts as fact, then reports that what you would expect from it did not follow; the second clause is usually a shortfall, a doubt, or an unrealized result rather than a neutral contrast. It is more written and more deliberate than けれど or が: unlike にしろ, which concedes a case that may be merely supposed, and たところで, which supposes a futile action, ものの concedes a fact the speaker accepts as true. It also follows a な-adjective + な (便利[べんり]なものの) and a noun + である (事実[じじつ]であるものの).",
+      "examples": [
+        {
+          "ruby": "頭[あたま]では分[わ]かっているものの、なかなか実行[じっこう]できない。",
+          "english": "I understand it well enough in my head, but I just can't put it into practice."
+        },
+        {
+          "ruby": "値段[ねだん]は高[たか]いものの、品質[ひんしつ]には文句[もんく]のつけようがない。",
+          "english": "It is expensive, but you can't fault the quality."
+        },
+        {
+          "ruby": "弟[おとうと]はよく食[た]べるものの、少[すこ]しも太[ふと]らない。",
+          "english": "My little brother eats plenty, yet he never puts on any weight."
+        }
+      ]
+    },
+    {
+      "l2_id": "1051",
+      "canonical_surface": "かとおもいきや",
+      "glosses": [
+        "I thought … but (in fact)",
+        "contrary to expectation"
+      ],
+      "usage_note": "Reports that reality turned out to contradict what the speaker had assumed, so it carries audible surprise; the classical 思ひきや behind it gives it a slightly bookish, storytelling flavor even in casual speech. The base form is と思いきや; か may be added after a noun or question-like clause (かと思いきや), and the outcome is normally something already observed rather than a prediction. Compare ものの, which concedes a fact without any element of surprise.",
+      "examples": [
+        {
+          "ruby": "雨[あめ]が降[ふ]るかと思[おも]いきや、空[そら]はすっかり晴[は]れ上[あ]がった。",
+          "english": "I was sure it would rain, and instead the sky cleared up completely."
+        },
+        {
+          "ruby": "簡単[かんたん]な問題[もんだい]かと思[おも]いきや、全然[ぜんぜん]解[と]き方[かた]が分[わ]からない。",
+          "english": "It looked like an easy problem, but I can't figure out how to solve it at all."
+        },
+        {
+          "ruby": "もう帰[かえ]ったかと思[おも]いきや、まだ会議室[かいぎしつ]に残[のこ]っていた。",
+          "english": "I assumed he'd gone home, but there he still was in the meeting room."
+        }
+      ]
+    }
+  ]
+}

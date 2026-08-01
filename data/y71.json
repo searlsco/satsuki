@@ -1,0 +1,38 @@
+{
+  "class_code": "y71",
+  "class_name": "否定-回避-トコロダッタ類",
+  "tsutsuji_version": "1.1u",
+  "provenance": {
+    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "authored_by": "claude-opus-5",
+    "reviewed_by": "claude-opus-5",
+    "date": "2026-08-01",
+    "human_verified": false
+  },
+  "patterns": [
+    {
+      "l2_id": "2091",
+      "canonical_surface": "とこだった",
+      "glosses": [
+        "was about to …",
+        "nearly …",
+        "came close to …ing"
+      ],
+      "usage_note": "The near-miss counterfactual: the dictionary-form event was on the very brink of happening and then did not, so the sentence usually lands as relief, and what is named is typically an unwanted outcome. The same shape 〜するところだった also has a merely aspectual reading (\"was just on the point of …\", with no escape implied); the near-miss reading is what the adverbs もう少しで／あと少しで／危なく signal. とこだった／とこでした are the clipped conversational spellings.",
+      "examples": [
+        {
+          "ruby": "もう少[すこ]しで電車[でんしゃ]に乗[の]り遅[おく]れるところだった。",
+          "english": "I very nearly missed my train."
+        },
+        {
+          "ruby": "駅[えき]の階段[かいだん]で、危[あぶ]なく財布[さいふ]を落[お]とすところでした。",
+          "english": "On the station stairs I came within a hair of dropping my wallet."
+        },
+        {
+          "ruby": "あやうく確認[かくにん]せずに送信[そうしん]するところだった。",
+          "english": "I very nearly sent it off without checking."
+        }
+      ]
+    }
+  ]
+}
