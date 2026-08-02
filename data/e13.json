@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "e13",
   "class_name": "起点-極端例-カラ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0271",
       "canonical_surface": "からの",
+      "sense_rank": 1,
       "glosses": [
         "from (a starting point)",
-        "starting from",
-        "(everything) from … (to)"
+        "starting at",
+        "(everything) from … to"
       ],
-      "usage_note": "The everyday starting-point marker; paired with まで it brackets a range by naming its two extremes (子供から大人まで), and those extremes are offered as illustrations of how wide the range is rather than as exact limits. より (2961) swaps in for から only when the near end is a plain starting point in formal writing or announcements (九時より五時まで); it is not used for this extreme-example listing (×子供より大人まで), and に至るまで (0311) is the emphatic far end. In this use から attaches to a noun; the から that follows a clause or a te-form verb is the separate causal (寒いから) or sequential (帰ってから) conjunction.",
+      "usage_note": "Marks the point a range starts from, in time, space or a scale (九時から, 東京から), and paired with まで it brackets the range by naming its two extremes (子供から大人まで) as illustrations of its width, not exact limits. Two sibling entries take the other readings: the party an action comes from (先生から聞いた) and the speaker's reason for an action (寒いから). より replaces から at the near end in formal writing and announcements (九時より五時まで).",
       "human_verified": false,
       "examples": [
         {
@@ -30,8 +33,8 @@
           "english": "This station never empties out, from the first train to the last."
         },
         {
-          "ruby": "弟[おとうと]は野球[やきゅう]からサッカーまで何[なん]でもやりたがる。",
-          "english": "My little brother wants to try everything, from baseball to soccer."
+          "ruby": "来月[らいげつ]からの新[あたら]しい仕事[しごと]が少[すこ]し不安[ふあん]だ。",
+          "english": "I'm a little nervous about the new job that starts next month."
         }
       ]
     }

@@ -1,23 +1,25 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "x14",
   "class_name": "疑問-問いかけ-ダイ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2521",
       "canonical_surface": "だい",
+      "sense_rank": 1,
       "glosses": [
-        "…?",
-        "(familiar wh-question)"
+        "…? (familiar wh-question)"
       ],
-      "usage_note": "The interrogative-word counterpart of かい: it wants 何, 誰, どこ, いつ or どうして in the sentence, whereas かい takes the yes-no questions. It attaches to a noun, or to explanatory の/ん (〜んだい), rather than directly to a verb. Like かい it is familiar, markedly masculine and rather dated, fine with family, friends and juniors but not with a superior. This is the だい that actually asks: with 何が／どこが and a falling tone the same ending turns into rhetorical denial (l2 2522, 何が名医だい), and with no question word at all it is a flat assertion (l2 2523, 嘘だい).",
+      "usage_note": "Familiar wh-question ending: the sentence carries 何, 誰, どこ, いつ or どうして and genuinely asks for that information (誰だい, いつ行くんだい). Two sibling senses share the form: with 何が or どこが plus a label it denies instead of asking (何が名医だい), and with no question word at all it is a flat assertion (嘘だい). It sits on a noun or on explanatory の／ん rather than on a verb, and it is markedly masculine and dated.",
       "human_verified": false,
       "examples": [
         {

@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "b61",
   "class_name": "対象-範囲-マデ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0303",
       "canonical_surface": "まで",
+      "sense_rank": 1,
       "glosses": [
         "as far as; all the way to",
-        "until (keeping on the whole time)"
+        "until (a stated time)"
       ],
-      "usage_note": "This まで is the complement that says how far an action reaches over a noun — of space, of time, or of degree — so it implies the whole span leading up to that point and the predicate is usually durative (待つ, 歩く, 続ける). Keep it apart from までに, which sets a deadline by which a one-shot event must happen: 五時まで待つ is waiting the whole time, 五時までに来る is arriving at some point before five. It is also not the limiting まで of 0304, which caps an allowance and shuts out anything beyond it (一人二枚まで), nor the range まで of 0301, which can take a whole verb clause (終わるまで) and yields the adnominal までの. In real Japanese this まで attaches to a plain-form verb too and pairs with から for an explicit start point; the corpus rule recorded here covers only the noun-attached use.",
+      "usage_note": "Marks how far an action reaches over a noun of place, time, or degree, covering the whole span up to that point, so the predicate is usually durative: 駅まで歩く, 五時まで待つ. Sibling lanes take the other jobs: the clause-attached range running until an event happens (雨がやむまで), the limiting まで that caps an allowance (一人二枚まで), and 〜までだ for a fallback plan (やり直すまでだ). Use までに when a one-shot event has a deadline: 五時までに来る.",
       "human_verified": false,
       "examples": [
         {

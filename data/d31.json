@@ -1,24 +1,25 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "d31",
   "class_name": "状況-座標-ニ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2935",
       "canonical_surface": "にゃ",
+      "sense_rank": 1,
       "glosses": [
-        "at",
-        "in",
-        "on"
+        "at; in; on (a place or time)"
       ],
-      "usage_note": "The coordinate に: it fixes an event to a point in space or time rather than describing an activity's setting, so it is the particle for existence and location (ある, いる, 住[す]む, 置[お]く) and for clock times, dates and days. Contrast で, which marks the arena where something happens: 公園[こうえん]にいる is where you are, 公園で遊[あそ]ぶ is where the playing goes on. Relative time words like 昨日[きのう] and 来週[らいしゅう] usually appear bare, without に. にゃ is the casual spoken contraction of には, common in fiction and regional speech.",
+      "usage_note": "Fixes an event to a point in space or time: where something exists or is put (駅の裏にある, 長野に住む) and clock times and dates (七時に起きる). Sibling lanes take a destination moved to (東京に戻る), the person told something (親に言う), and the one who can or knows (俺には分からない). Contrast で, which marks the arena an action goes on in (公園にいる vs 公園で遊ぶ). にゃ contracts には in speech and fiction dialogue, not in neutral prose.",
       "human_verified": false,
       "examples": [
         {

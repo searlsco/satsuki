@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "J34",
   "class_name": "進行-継続-ツツアル類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1391",
       "canonical_surface": "つつさえあり",
+      "sense_rank": 1,
       "glosses": [
         "be in the process of …ing",
         "be gradually …ing",
         "be coming to be …"
       ],
-      "usage_note": "Written-register progressive: it attaches to the masu-stem and frames a change as already under way and heading toward its endpoint, so it belongs to news copy, reports and essays where speech would say ている or ていく. It is the form to reach for with punctual change verbs — 消えつつある, 死につつある mean 'approaching that state', which ている cannot express — and reference grammars rule it out for plain activity verbs, so 食べつつある is not an alternative to 食べている. The particle-inserted realizations (つつもある, つつさえある) are bookish and rare. Note that 〜つつ／〜つつも without ある is the separate concessive \"while/although\" pattern (知りつつ黙っていた), not this progressive.",
+      "usage_note": "Frames a change as already under way and heading toward its endpoint: it attaches to the masu-stem and belongs to news copy, reports and essays where speech uses ている or ていく (気温が上昇しつつある). It is used with change verbs, where 消えつつある and 死につつある mean 'approaching that state' as ている cannot, and not with plain activity verbs: 食べつつある is not a substitute for 食べている.",
       "human_verified": false,
       "examples": [
         {

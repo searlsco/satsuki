@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "k21",
   "class_name": "話題-到達-トナルト類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2851",
       "canonical_surface": "にいたると",
+      "sense_rank": 1,
       "glosses": [
         "when it gets to",
         "when it comes to (of all things)"
       ],
-      "usage_note": "Marks the point a progression finally reaches, and in its dominant に至っては shape it singles out the most extreme member of a series already under discussion, so it wants earlier, milder cases named first, and the following clause typically delivers dismay or a damning assessment. That makes it heavier and more evaluative than ともなると or にもなると, which merely note that a threshold brings its natural consequences. Written and formal-spoken register; the polite にいたりますと and にいたりましては appear mostly in speeches and reports.",
+      "usage_note": "Marks the point a progression finally reaches, and in its dominant に至っては shape it singles out the most extreme member of a series already named (遅刻が続き、昨日に至っては無断欠勤だ), with the following clause delivering dismay or a damning verdict. The near-synonyms ともなると and にもなると only note that a threshold brings its natural consequences. Written and formal-spoken register.",
       "human_verified": false,
       "examples": [
         {
@@ -37,12 +40,13 @@
     {
       "l2_id": "2881",
       "canonical_surface": "ともなると",
+      "sense_rank": 1,
       "glosses": [
         "once it's",
         "once you become",
         "when it's a matter of"
       ],
-      "usage_note": "Raises a noun to a notable status, age, or occasion and presents what follows as the consequence anyone would expect of it, with も adding a touch of admiration or wonder at the level reached. Beside plain となると it feels weightier and more exclamatory, and beside にもなると it stresses that the consequence simply comes with the territory rather than tracking a gradual transition. The corpus also licenses plain-form predicates, and となると in particular is common after them (一人で暮らすとなると); ともなると itself favors nouns.",
+      "usage_note": "Raises a noun to a notable status, age, or occasion and presents what follows as the consequence anyone would expect of it (プロともなると、練習の量からして違う), with も adding wonder at the level reached. The sibling にもなると pairs more readily with ages, grades, and dates, where ともなると takes statuses and roles. Plain となると attaches freely to clauses (一人で暮らすとなると); ともなると favors nouns.",
       "human_verified": false,
       "examples": [
         {
@@ -62,12 +66,13 @@
     {
       "l2_id": "2891",
       "canonical_surface": "にもなると",
+      "sense_rank": 1,
       "glosses": [
         "once you reach",
         "by the time it's",
         "when it gets to be"
       ],
-      "usage_note": "Presents a stage reached — an age, a school year, a point in the calendar — and states what naturally holds there, with に keeping the focus on the transition into that stage. Compared with ともなると it sounds less exclamatory and pairs especially readily with numbers and periods; dropping も gives plain になると, which states the same shift without the sense that the stage is a notable one. As a rule of thumb, にもなると is the natural choice with ages, grades and dates, ともなると with statuses and roles, and only ともなると takes the ともなれば conditional freely.",
+      "usage_note": "Presents a stage reached (an age, a school year, a point in the calendar) and states what naturally holds there (高校にもなると、親に相談しなくなる). Compared with ともなると it is less exclamatory and pairs readily with numbers and periods, where ともなると takes statuses and roles. Dropping も gives plain になると, the same shift without marking the stage as a notable one.",
       "human_verified": false,
       "examples": [
         {

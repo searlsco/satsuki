@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "L21",
   "class_name": "放置-事前-ナイデオク類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1481",
       "canonical_surface": "ないでさえおき",
+      "sense_rank": 1,
       "glosses": [
         "leave … undone (on purpose)",
         "refrain from doing … for now"
       ],
-      "usage_note": "The negative counterpart of 〜ておく: a deliberate decision to leave something as it is, usually with a reason or a later moment in view. Because the choice is volitional it sits naturally with 〜よう and 〜つもり (触れないでおこう), which is what separates it from ないでいる (1471), where the non-action is merely described rather than decided. ずに variants (触れずにおく) are the written, stiffer option.",
+      "usage_note": "Leaves something undone on purpose: the negative counterpart of 〜ておく, a deliberate choice not to act, usually with a reason or a later moment in view (明日使うので開けないでおく). Because the choice is volitional it combines with 〜よう and 〜つもり (触れないでおこう), which separates it from ないでいる, where the non-action is only described. The ずに variants (触れずにおく) are the written option.",
       "human_verified": false,
       "examples": [
         {

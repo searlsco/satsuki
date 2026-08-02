@@ -1,23 +1,25 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "b22",
   "class_name": "対象-指向-ヲ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2941",
       "canonical_surface": "を",
+      "sense_rank": 1,
       "glosses": [
-        "(marks the direct object of a verb)",
-        "(the thing an action works on)"
+        "marks the direct object of a verb"
       ],
-      "usage_note": "を marks the thing an action works on directly, the object the verb actually reaches. That is what separates it from に and に対して, which aim an action at a target without necessarily affecting it, and from について, which names a topic rather than an object. It is the neutral choice in every register; casual speech often drops it, but writing keeps it.",
+      "usage_note": "Marks the direct object, the thing the verb acts on: 窓を開ける, 本を読む, 犬の世話をする. Two sibling entries take the other readings of this particle: the route a motion verb passes along (道を歩く, 橋を渡る) and the place or state something leaves (家を出る, 大学を卒業する). Casual speech often drops it, but writing keeps it.",
       "human_verified": false,
       "examples": [
         {

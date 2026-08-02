@@ -1,24 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "A11",
   "class_name": "伝聞-未確認-トノコト類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1212",
       "canonical_surface": "って",
+      "sense_rank": 2,
       "glosses": [
         "I hear (that); they say",
-        "apparently",
-        "…, or so I'm told"
+        "apparently"
       ],
-      "usage_note": "The all-purpose spoken quotative: a contraction of と (言う), it passes on what you heard in the loosest possible way and can simply end the sentence with the verb of saying dropped. Unlike とのこと it makes no claim about how reliable the source is, it is typically too casual for business writing, and where sibling だって delivers the report as fresh news with a flicker of surprise, って is the flat pass-along. It attaches to the plain form, and after a noun or na-adjective the copula だ is normally kept (雨だって, 学生だって); bare noun＋って is the separate naming/topic って.",
+      "usage_note": "Passes on something heard: a plain-form sentence takes って and stops there, the following と言っている dropped, so 明日は休みだって means 休みだそうだ. The sibling lane hangs って on a following noun instead, to name it or to state what it contains (田中って人, 帰るって話). Before this sentence-final って a noun or na-adjective normally keeps だ (雨だって, 学生だって), and it is rare in edited prose outside dialogue.",
       "human_verified": false,
       "examples": [
         {
@@ -27,7 +29,7 @@
         },
         {
           "ruby": "隣[となり]の家[いえ]の犬[いぬ]、夜中[よなか]ずっと吠[ほ]えるって。",
-          "english": "The dog next door was barking all night, apparently."
+          "english": "The dog next door barks all night long, apparently."
         },
         {
           "ruby": "あの映画[えいが]、後半[こうはん]がすごく怖[こわ]いって。",
@@ -38,11 +40,12 @@
     {
       "l2_id": "2411",
       "canonical_surface": "とのこと",
+      "sense_rank": 1,
       "glosses": [
         "I'm told (that); word is (that)",
         "according to (the message)"
       ],
-      "usage_note": "The workhorse of relayed messages: use it when you are passing along something a specific, identifiable person told you, especially in business email and phone notes. It works in writing as comfortably as in speech, where って and だって stay casual and are out of place in business correspondence, and because it presents the report as received fact rather than rumor it pairs naturally with a named source (〜さんによると). A noun predicate may drop だ before it (来月中旬とのことです); ということだ also draws conclusions from what was said, while とのこと only relays.",
+      "usage_note": "Relays a message from a specific, identifiable source, especially in business email and phone notes (火曜まで待ってくれるとのことです). It presents the report as received fact and pairs naturally with a named source (〜さんによると), where the siblings って and だって stay casual and are out of place in correspondence. A noun predicate may drop だ before it (来月中旬とのことです).",
       "human_verified": false,
       "examples": [
         {
@@ -62,12 +65,12 @@
     {
       "l2_id": "2502",
       "canonical_surface": "だって",
+      "sense_rank": 2,
       "glosses": [
         "apparently; I hear (that)",
-        "they say",
-        "…, or so they tell me"
+        "they say"
       ],
-      "usage_note": "Sentence-final colloquial hearsay, usually delivered as fresh news with a flicker of surprise; ですって is the polite variant and is especially common in women's speech. Said on a falling tone it simply hands the news over; the same string on a rising tone (中止だって？) is the separate checking question that asks the hearer to confirm what you heard. Before a verb or i-adjective speakers almost always slip in ん/の first (転勤するんだって), so bare 動詞＋だって turns up mostly as an incredulous echo of what someone just said (辞めるだって？). Keep it apart from the unrelated だって meaning 'because' or 'even'.",
+      "usage_note": "Passes on news the speaker has heard, sentence-final and on a falling tone (臨時休業だって); ですって is the polite variant. Three siblings share the string: the same form on a rising tone is a checking question that asks the hearer to confirm (校庭だって？), 'even' on a bare noun (子供だって), and 'even if' on a ta-stem verb (呼んだって). Before a verb or i-adjective speakers usually insert ん first (転勤するんだって).",
       "human_verified": false,
       "examples": [
         {

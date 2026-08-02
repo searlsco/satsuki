@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "l21",
   "class_name": "強調-全面的-トシテ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0032",
       "canonical_surface": "として",
+      "sense_rank": 2,
       "glosses": [
         "not a single …",
         "not one …"
       ],
-      "usage_note": "This emphatic として rides on a minimal-unit phrase — 一つ, 一人, 一度, 一日, 一点 — and is answered later in the sentence by a negative predicate; it is the stronger, stiffer relative of 一つも〜ない and belongs to careful written or formal spoken Japanese. With an interrogative in front (誰一人として, 何一つとして) the として may simply be dropped without changing the meaning, only the force. Keep it apart from the role-marking として of 医者として and from the concessive にしても, which needs neither a counter nor a negative.",
+      "usage_note": "Marks emphatic total denial: it attaches to a minimal-unit phrase such as 一人, 一つ, 一度, 一日, 一点 and is answered by a negative predicate later in the sentence, 一日として休まなかった. The sibling entry is the ordinary role or category として, 医者として, 冗談として, which takes a plain noun and needs no negative. After an interrogative, 誰一人として, 何一つとして, the として can be dropped, weakening the force but not the meaning.",
       "human_verified": false,
       "examples": [
         {
@@ -37,11 +40,12 @@
     {
       "l2_id": "0893",
       "canonical_surface": "にしたって",
+      "sense_rank": 4,
       "glosses": [
         "no matter who/what …",
-        "any … , without exception"
+        "whoever it is; whatever it is"
       ],
-      "usage_note": "The colloquial contraction of にしても, and in this emphatic use it rides on an interrogative — 誰にしたって, 何にしたって, どこにしたって — sweeping in every case at once ('whoever it is, all the same'). The realizations line up by register — にしたって in relaxed speech, にしても as the neutral default, にしましても in polite address — so a written report would normally take にしても. When it singles out one particular person or case instead ('even the boss, for his part'), that is the concessive siblings' job, not this total-scope one. Unlike the total-negation として it needs no counter word and pairs freely with affirmative predicates.",
+      "usage_note": "Rides on an interrogative to sweep in every case at once — 誰にしたって, 何にしたって, どこにしたって — saying the statement holds whoever or whatever it may be. Sibling lanes single out one case instead: a real one granted as an extreme example (部長にしたって), a supposed one that has not come about (手伝うにしたって), or a further party the same thing holds of (親にしたって). It pairs freely with affirmative predicates.",
       "human_verified": false,
       "examples": [
         {

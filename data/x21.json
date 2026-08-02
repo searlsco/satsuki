@@ -1,49 +1,51 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "x21",
   "class_name": "疑問-非難-ウガ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0922",
       "canonical_surface": "うが",
+      "sense_rank": 2,
       "glosses": [
-        "no matter whether …",
-        "even if; whatever/however … may be",
-        "regardless of …"
+        "… , isn't it! (blunt reproach)",
+        "I told you, didn't I!"
       ],
-      "usage_note": "Volitional form plus が: a concessive that brushes the preceding condition aside as irrelevant, often with a curt, washing-my-hands tone, and typically stronger and more emphatic than 〜ても, which it beats precisely when the condition is being declared beside the point in advance rather than genuinely weighed as a live possibility. It is almost always interchangeable with 〜(よ)うと, though 〜(よ)うと is the more neutral, written-leaning member of the pair and 〜うが the more emphatic one, most at home in the paired frames (〜うが〜うが, 〜うが〜まいが). The corpus rule licenses only verbs and い-adjectives here (行こうが, 高かろうが); nouns and な-adjectives take the same construction through the copula (学生だろうが, 下手だろうが).",
+      "usage_note": "A sentence-final reproach: だろうが or でしょうが presses on the hearer a fact the speaker treats as obvious, complaining that they should have known it (だから言っただろうが, 危ないでしょうが). The other entry for this form is the concessive, which brushes a condition aside mid-sentence (誰が反対しようが, 学生だろうが). Sentence-final position is what fixes this reading; the tone is blunt and confrontational.",
       "human_verified": false,
       "examples": [
         {
-          "ruby": "指[ゆび]がどれだけ震[ふる]えようが、祖父[そふ]は毎日[まいにち]筆[ふで]を握[にぎ]る。",
-          "english": "No matter how badly his fingers shake, my grandfather picks up his brush every day."
+          "ruby": "傘[かさ]を持[も]って行[い]けとあれほど言[い]っただろうが。",
+          "english": "I told you over and over to take an umbrella!"
         },
         {
-          "ruby": "どんなに値段[ねだん]が高[たか]かろうが、兄[あに]はあの時計[とけい]を買[か]うつもりらしい。",
-          "english": "However expensive it is, my brother apparently means to buy that watch."
+          "ruby": "今[いま]のは誰[だれ]が見[み]てもファウルだろうが。",
+          "english": "Anyone could see that was a foul!"
         },
         {
-          "ruby": "雨[あめ]が降[ふ]ろうが雪[ゆき]が降[ふ]ろうが、大会[たいかい]は予定[よてい]どおり行[おこな]われる。",
-          "english": "Rain or snow, the tournament goes ahead as scheduled."
+          "ruby": "その鍵[かぎ]は昨日[きのう]あなたに渡[わた]したでしょうが。",
+          "english": "But I gave you that key yesterday!"
         }
       ]
     },
     {
       "l2_id": "2442",
       "canonical_surface": "じゃないか",
+      "sense_rank": 1,
       "glosses": [
-        "isn't it …?; … , isn't it!",
-        "…, didn't you! (reproach)",
-        "look, … / come on, …"
+        "…, isn't it! (pressing an obvious point)",
+        "…, didn't you! (reproach)"
       ],
-      "usage_note": "A rhetorical question that presses a judgment the speaker treats as obvious onto the hearer; in this class the typical color is reproach or complaint, though the same form also carries admiration (いい店じゃないか). Bare 〜じゃない with rising intonation is the gender-neutral everyday equivalent and the one most speakers actually say; adding か is what makes it blunt and masculine-sounding, じゃないですか is the polite version and often just softens an assertion, ではないか is written or formal, and じゃねえか is rough speech. Note that after a volitional (行こうじゃないか) it stops being a rhetorical question and becomes an invitation, a separate function.",
+      "usage_note": "Presses a judgment the speaker treats as obvious onto the hearer as a question, most often as reproach or complaint (確認すると言ったじゃないか, まだ子供じゃないか). The sibling lane is the falling-tone exclamation of surprise or admiration at something just noticed (鍵はここにあるじゃないか). Polite じゃないですか often only invites the hearer to confirm shared knowledge, with no blame; after a volitional it is an invitation (行こうじゃないか).",
       "human_verified": false,
       "examples": [
         {
@@ -55,8 +57,8 @@
           "english": "Go easy on her; she's still just a kid, come on."
         },
         {
-          "ruby": "ほら、あの雲[くも]、犬[いぬ]の形[かたち]をしているじゃないですか。",
-          "english": "Look — that cloud, it's shaped like a dog, isn't it?"
+          "ruby": "そんな大声[おおごえ]で話[はな]したら、周[まわ]りの人[ひと]に迷惑[めいわく]じゃないか。",
+          "english": "Talk that loudly and you're bothering everyone around us, come on."
         }
       ]
     }

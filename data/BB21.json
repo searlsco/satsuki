@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "B21",
   "class_name": "過去-完了-タ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1451",
       "canonical_surface": "じまい",
+      "sense_rank": 1,
       "glosses": [
         "end up …ing",
         "do … completely; finish …ing"
       ],
-      "usage_note": "〜てしまう carries an action through to completion and very often colors it with regret or irreversibility — it is done, and it cannot be taken back. That is what separates it from the bare past た, which merely reports the event, and from 〜ておく, which frames the act as deliberate groundwork. ちゃう and じゃう are colloquial contractions of てしまう/でしまう; じゃう appears on the verbs whose te-form is で — ぐ verbs (泳いで→泳いじゃう) and む/ぬ/ぶ verbs (読んで→読んじゃう). てしまう itself is register-neutral.",
+      "usage_note": "Carries an action through to completion, very often coloring it with regret or irreversibility: it is done and cannot be taken back (財布を忘れてしまった, 全部やっちゃった). The bare past た merely reports the event, and 〜ておく frames the act as deliberate groundwork. ちゃう and じゃう are colloquial contractions of てしまう/でしまう; じゃう goes on the verbs whose te-form is で, that is ぐ verbs (泳いじゃう) and む/ぬ/ぶ verbs (読んじゃう).",
       "human_verified": false,
       "examples": [
         {
@@ -37,11 +40,12 @@
     {
       "l2_id": "1461",
       "canonical_surface": "どき",
+      "sense_rank": 1,
       "glosses": [
         "do … in advance",
         "do … and leave it that way (for later)"
       ],
-      "usage_note": "〜ておく is doing something ahead of time, or leaving the result standing for later use, so the act is inherently deliberate — that is the line between it and 〜てしまう, whose completion is often unintended, and the neutral past た. It describes the preparer's action, whereas 〜てある describes the state that action left behind. Casual speech contracts it to とく/どく (読んどく, 冷やしとく).",
+      "usage_note": "Does something ahead of time, or leaves a result standing for later use, so the act is inherently deliberate (お茶を入れておきました, 窓は開けておいてください). That is the line between it and 〜てしまう, whose completion is often unintended, and the neutral past た. It describes the preparer's action, whereas 〜てある describes the state that action left behind. Casual speech contracts it to とく/どく (読んどく, 冷やしとく).",
       "human_verified": false,
       "examples": [
         {
@@ -61,11 +65,12 @@
     {
       "l2_id": "3381",
       "canonical_surface": "だ",
+      "sense_rank": 1,
       "glosses": [
-        "-ed (past)",
-        "has (already) done"
+        "-ed (past tense)",
+        "has done; did"
       ],
-      "usage_note": "Plain た/だ is the unmarked past-perfective: it simply reports that the event happened, without the regret of 〜てしまった or the forward-looking intent of 〜ておいた. The same ending voices to だ on the verbs whose te-form is で: ぐ verbs (泳いで→泳いだ) and む/ぬ/ぶ verbs (読んで→読んだ), which is why た and だ are one item here. It also does non-past work — discovery (あ、ここにあった) and brisk commands (どいた、どいた) — so 'past tense' is only its commonest job.",
+      "usage_note": "Plain た/だ marks a completed event or state and simply reports that it happened (昨日友達に会った), without the regret of てしまった or the preparation of ておいた. だ is the same ending on verbs whose te-form takes で, that is ぐ・む・ぬ・ぶ verbs (泳いだ、読んだ、選んだ). The separate 並立 item だの is unrelated: it strings complaints together (高いだのまずいだの). た also does non-past work, discovery (あ、ここにあった) and brisk commands (どいた、どいた).",
       "human_verified": false,
       "examples": [
         {

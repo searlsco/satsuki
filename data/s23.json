@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "s23",
   "class_name": "理由-因果-オカゲデ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0761",
       "canonical_surface": "おかげで",
+      "sense_rank": 1,
       "glosses": [
         "thanks to …",
         "owing to …",
         "because of …"
       ],
-      "usage_note": "Names a cause the speaker is grateful for, so the main clause reports a welcome outcome; お陰 literally means 'shade, shelter', and the sense of being sheltered by someone's help is still audible. せいで is its negative mirror image. Speakers do turn it ironically on bad outcomes (おかげでひどい目にあった), and that sarcasm only lands because the positive reading is the default. A noun attaches through の (眼鏡のおかげで). おかげで names the benefactor or enabling cause and is unusable when the outcome is merely neutral (×電車が来たおかげで乗った).",
+      "usage_note": "Names a cause the speaker credits for a welcome outcome: the main clause reports something good the cause made possible (先輩が手伝ってくれたおかげで間に合った). Its siblings assign the cause differently: せいで blames it for an unwelcome result, せいか offers it as a guess. A noun attaches through の (眼鏡のおかげで). Used ironically on bad outcomes (おかげでひどい目にあった), the sarcasm works because the positive reading is the default.",
       "human_verified": false,
       "examples": [
         {
@@ -38,12 +41,13 @@
     {
       "l2_id": "0771",
       "canonical_surface": "せいで",
+      "sense_rank": 1,
       "glosses": [
         "because of …",
         "owing to …",
         "thanks to … (ironic)"
       ],
-      "usage_note": "The blaming counterpart of おかげで: the clause after せいで reports an unwelcome result. It points at the cause as the thing at fault, so it is what you reach for when assigning responsibility, whether to weather, machinery or a person. せいでの is occasionally seen before a noun (大雪のせいでの遅延), and the related せいにする means to pin the blame on someone. A noun attaches through の.",
+      "usage_note": "Names a cause blamed for an unwelcome result: what follows せいで is damage, failure, or inconvenience (大雪のせいで電車が止まっている). おかげで is the positive counterpart, crediting a cause for a good outcome, and せいか marks a cause the speaker is only guessing at. A noun attaches through の, and せいでの stands before a noun (大雪のせいでの遅延).",
       "human_verified": false,
       "examples": [
         {
@@ -63,11 +67,12 @@
     {
       "l2_id": "0781",
       "canonical_surface": "せいか",
+      "sense_rank": 1,
       "glosses": [
         "perhaps because …",
         "maybe on account of …"
       ],
-      "usage_note": "せい plus the uncertainty particle か: the speaker offers a cause they are not sure of, which is exactly what separates it from せいで. Because the cause is only a guess, the result it explains need not be a bad one — unlike せいで, せいか is reported as usable with favourable outcomes too — the licensing reason is that the cause is only a guess, so せいか tolerates neutral or even welcome results where せいで does not — though the せい in it still tilts the sentence toward something the speaker finds unwelcome or odd. Fixed favourites include 年のせいか and 疲れのせいか; note that 気のせいか is a separate idiom from the noun 気のせい. A noun attaches through の.",
+      "usage_note": "Offers a cause the speaker is not sure of: せい plus the uncertainty particle か guesses at what explains the situation (連休明けのせいか教室が静かだ). せいで states the cause outright and blames it for a bad result; おかげで credits it for a good one. Because the cause is only a guess, せいか also occurs with neutral or favourable results, though せい still tilts toward something unwelcome or odd.",
       "human_verified": false,
       "examples": [
         {

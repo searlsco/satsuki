@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "z21",
   "class_name": "願望-働きかけ-テホシイ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2161",
       "canonical_surface": "じゃほしい",
+      "sense_rank": 1,
       "glosses": [
         "want (someone) to do …",
         "I'd like you to …",
         "I wish you would …"
       ],
-      "usage_note": "The everyday way to say you want someone else to act: 〜てほしい, with 〜でほしい after the ん/い ta-stems (読んでほしい, 急いでほしい). Teaching references state flatly that it cannot be aimed at a superior, since ほしい has no humble-polite counterpart the way もらいたい has いただきたい. A contrastive は can be inserted (〜てはほしい, as in 分かってはほしいが無理はさせたくない), but it is far rarer than plain 〜てほしい; ほしい also takes non-volitional subjects (雨がやんでほしい), which もらいたい tends to resist.",
+      "usage_note": "Says you want someone else to act: 〜てほしい on the te-form, 〜でほしい after voiced ta-stems (読んでほしい, 急いでほしい). Teaching references treat it as unusable toward a superior, where 〜てもらいたい or humble 〜ていただきたい is used instead. Unlike もらいたい it also takes non-volitional subjects, so it can wish about events as well as people (雨がやんでほしい).",
       "human_verified": false,
       "examples": [
         {
@@ -38,12 +41,13 @@
     {
       "l2_id": "2171",
       "canonical_surface": "じゃもらいたい",
+      "sense_rank": 1,
       "glosses": [
         "I want you to …",
         "I'd like you to …",
         "I expect you to …"
       ],
-      "usage_note": "〜てもらいたい frames the act as a favor the speaker receives, so it presupposes the other party's cooperation and usually lands as a firm expectation, natural from a position of entitlement (boss to staff, customer to shop) or among equals, rarely upward. It sits between casual 〜てほしい and 〜ていただきたい, which is simply its humble-polite counterpart. Because もらう wants a willing agent, the doer is almost always a person, unlike ほしい.",
+      "usage_note": "Frames the act you want as a favor you receive, so it presupposes the other party's cooperation and usually lands as a firm expectation (急いでもらいたい). It sits between casual 〜てほしい and its humble-polite counterpart 〜ていただきたい, and is natural downward or among equals, rarely upward. Because もらう needs a willing agent, the doer is almost always a person, unlike ほしい.",
       "human_verified": false,
       "examples": [
         {
@@ -63,11 +67,12 @@
     {
       "l2_id": "2181",
       "canonical_surface": "ではいただきたい",
+      "sense_rank": 1,
       "glosses": [
         "I would like you to …",
         "we ask that you …"
       ],
-      "usage_note": "The humble-polite member of this family: 〜ていただきたい is 〜てもらいたい with いただく, standard in business mail, notices, and speech to customers or superiors. A bare 〜ていただきたい in writing reads as a firm directive, so the standard hedge is 〜ていただきたいのですが; 〜ていただきたいです is common in speech but often criticized in formal writing, and 〜ていただきたく存じます is the letter-writing softener. Besides the te-form, noun requests are equally common with no て at all (ご確認いただきたい, ご了承いただきたい).",
+      "usage_note": "States a request as a favor received from the listener, in humble-polite dress: standard in business mail, notices, and speech to customers or superiors (書面で残していただきたい). It is 〜てもらいたい with いただく, and a bare 〜ていただきたい in writing reads as a firm directive, so 〜ていただきたいのですが and 〜ていただきたく存じます are the usual softeners. It also attaches straight to a ご/お noun with no て at all (ご確認いただきたい).",
       "human_verified": false,
       "examples": [
         {
@@ -87,12 +92,13 @@
     {
       "l2_id": "2591",
       "canonical_surface": "ないかな",
+      "sense_rank": 1,
       "glosses": [
         "I wish … would …",
         "I hope …",
         "won't …, I wonder"
       ],
-      "usage_note": "〜ないかな(あ) is a negative question aimed at yourself: most often it voices a wish that the event will happen (早く来ないかな = I wish it would hurry up and come), though with an outcome the speaker dreads it can instead read as apprehension or plain wondering (間に合わないかな). It is casual thinking-aloud; said within earshot of the listener it turns into a soft hint or request. Unlike 〜てほしい/〜てもらいたい, which target a person to act, it has no addressee built in, wishing about a state of affairs, so it suits weather, timing, and luck. 〜ないかしら is the same expression in a feminine-sounding register, and 〜ないものか is its stiffer, more strongly yearning cousin.",
+      "usage_note": "Voices a wish to yourself as a negative question, usually that the event will happen (早く来ないかな), though with an outcome the speaker dreads it reads instead as apprehension (間に合わないかな). Unlike 〜てほしい and 〜てもらいたい, which target a person to act, it has no addressee built in, so it suits weather, timing, and luck. It is casual thinking-aloud; said within earshot it becomes a soft hint.",
       "human_verified": false,
       "examples": [
         {

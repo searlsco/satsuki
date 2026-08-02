@@ -1,24 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "a12",
   "class_name": "立場-状態-ヲモッテ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0061",
       "canonical_surface": "をもって",
+      "sense_rank": 1,
       "glosses": [
         "as of; with effect from",
-        "in the capacity/state of",
-        "by means of (formal)"
+        "ending with (a stated point)"
       ],
-      "usage_note": "A formal, written-style particle whose own work here is to name the point at which something takes effect or ends (本日をもって, 来月末をもって) and the standing or faculty one acts in (身をもって). It also names means or grounds, but that instrumental job is what the sibling entries and でもって cover, and でもって is never used for the cut-off sense. をもって is standard in notices, contracts and ceremonies; をもちまして is the extra-polite realization, and the fixed 身をもって ('through firsthand experience') keeps it alive in ordinary speech.",
+      "usage_note": "Names the point at which something takes effect or ends: the noun is a date or an occasion and the predicate is a closing or a start (本日をもって閉店, 今月末をもって退職, これをもちまして終了). Two sibling entries take the other readings of this form: the medium an act travels through (書面をもって) and the criterion a judgment rests on (所定の基準をもって). をもちまして is the extra-polite realization, usual in announcements and ceremonies.",
       "human_verified": false,
       "examples": [
         {
@@ -26,8 +28,8 @@
           "english": "This shop will cease trading as of today."
         },
         {
-          "ruby": "彼[かれ]は身[み]をもって危険[きけん]を教[おし]えてくれた。",
-          "english": "He taught me how dangerous it was through his own hard experience."
+          "ruby": "次[つぎ]の試合[しあい]をもって部活[ぶかつ]を引退[いんたい]します。",
+          "english": "I am retiring from the club after the next match."
         },
         {
           "ruby": "卒業式[そつぎょうしき]は校長[こうちょう]の挨拶[あいさつ]をもって幕[まく]を閉[と]じた。",

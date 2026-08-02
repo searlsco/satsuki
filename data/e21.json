@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "e21",
   "class_name": "起点-移動起点-ヨリ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2961",
       "canonical_surface": "より",
+      "sense_rank": 1,
       "glosses": [
         "from (a place or time)",
         "starting from"
       ],
-      "usage_note": "The formal written counterpart of から for the point something starts or sets out from: signage, station and store announcements, invitations, and business correspondence (北口より、九時より). In ordinary speech it is largely confined to that announcement register, and speakers otherwise reach for から, which also keeps it clear of the comparative より. Here it attaches to a noun, whereas comparative より readily follows clauses and adjectives.",
+      "usage_note": "Marks the point something starts or sets out from, in formal written register: signage, station and store announcements, invitations, and business correspondence (正面玄関より, 七時より). から is the ordinary equivalent everywhere else, and outside this announcement register より reads as the comparative. Here it attaches to a noun, whereas comparative より also follows clauses and adjectives.",
       "human_verified": false,
       "examples": [
         {

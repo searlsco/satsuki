@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "y22",
   "class_name": "否定-無意味-テモシカタガナイ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2331",
       "canonical_surface": "でもしかたない",
+      "sense_rank": 1,
       "glosses": [
         "there's no use …ing",
         "no point in …ing",
         "even if …, it can't be helped"
       ],
-      "usage_note": "Concessive 〜ても plus 仕方ない: doing or feeling this changes nothing, so let it go. It is the level-headed member of the family — 仕方ない stays respectable in writing, while its sibling しょうがない is markedly casual — and the たって／だって variants shift it toward speech. Do not confuse it with 〜てしかたがない (no も), which means 'unbearably'.",
+      "usage_note": "Says that doing or feeling this changes nothing, so there is no point in it: concessive 〜ても plus 仕方ない — 悔やんでも仕方ない, 腹を立てても仕方がない. The sibling でもしょうがない delivers the same verdict on 仕様がない and is more casual; within this entry the たって／だって variants likewise shift toward speech. 〜てしかたがない, without も, is a different pattern meaning \"unbearably\".",
       "human_verified": false,
       "examples": [
         {
@@ -38,12 +41,13 @@
     {
       "l2_id": "2341",
       "canonical_surface": "だってしようがない",
+      "sense_rank": 1,
       "glosses": [
         "no use …ing",
         "…ing gets you nowhere",
         "nothing to be done even if …"
       ],
-      "usage_note": "The same verdict as でもしかたない — the action changes nothing — but built on 仕様がない, and the たって／だって shape is more casual still than ても／でも. 仕様がない contracts to しょうがない; the difference from 仕方ない is register, not meaning — しょうがない is the spoken form and, like 仕方ない, also stands alone as a resigned 'oh well'. The separate 〜てしょうがない, without も, means 'unbearably' and is a different pattern.",
+      "usage_note": "Says that doing this changes nothing, so there is no point in it — 急かしたってしょうがない, 抱え込んだってしょうがない. It is built on 仕様がない, contracted to しょうがない, and differs from the sibling でもしかたない in register rather than meaning: しょうがない is the spoken form, 仕方ない the one that stays respectable in writing. 〜てしょうがない, without も, is a different pattern meaning \"unbearably\".",
       "human_verified": false,
       "examples": [
         {

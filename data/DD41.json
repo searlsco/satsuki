@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "D41",
   "class_name": "判断-断定-ダ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "3201",
       "canonical_surface": "で",
+      "sense_rank": 4,
       "glosses": [
         "is; are (copula)",
-        "…, and (noun-predicate linking form)"
+        "…, and (linking a noun predicate)"
       ],
-      "usage_note": "The ordinary copula, whose forms include plain だ, polite です, prenominal な, past だっ(た)/でし(た), and the linking form で that joins a noun predicate to whatever follows. Use で to chain a noun or particle phrase onto a following clause where English would say \"and\"; it attaches to nouns and to particle phrases (三時までで, 大阪からで). Its analytic sibling である/でもある (l2_id 3211) spells the copula out as で + ある (linking form であり) and optionally wedges in a focus particle, which raises the register or adds は/も contrast. Do not confuse it with the identical-looking clause connective で of the 順接-確定-テ類 family: that one is the te-form joint and supplies a relation between the events (sequence, or cause — 風邪で休んだ), whereas the copula's で only says 'X is such-and-such, and …' and leaves the two predications side by side.",
+      "usage_note": "The copula itself — plain だ, polite です, prenominal な, past だった/でした — and its linking form で, which hangs a noun predicate on whatever follows: 今日は休みで、家にいます. The other で entries are particles or a connective: place (駅で待つ), means, material or cause (筆で書く, 風邪で休む), price or standard (半額で), group as doer (会社で), te-form joint (呼んで). The linking で also takes particle phrases (三時までで).",
       "human_verified": false,
       "examples": [
         {
@@ -37,11 +40,12 @@
     {
       "l2_id": "3211",
       "canonical_surface": "ででもあり",
+      "sense_rank": 1,
       "glosses": [
         "is; to be (formal copula)",
         "is also …; is indeed …"
       ],
-      "usage_note": "The copula spelled out as で + ある, optionally with a focus particle wedged in: である is the neutral written/expository copula, でもある adds \"is also, is at the same time,\" ではある concedes (\"it is X, but…\"), and でさえある/ですらある push to \"is even X.\" Choose it over plain だ (l2_id 3201) when you want essay or documentary register, or when the focus particle is doing real work; である is normal in writing but sounds declamatory in casual speech.",
+      "usage_note": "The copula spelled out as で + ある, optionally with a focus particle wedged in: である is the neutral written and expository copula, でもある adds 'is also', ではある concedes ('it is X, but…'), and でさえある/ですらある reach 'is even X'. Choose it over plain だ for essay or documentary register, or when the focus particle is doing real work. である is normal in writing but sounds declamatory in casual speech.",
       "human_verified": false,
       "examples": [
         {

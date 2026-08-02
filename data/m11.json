@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "m11",
   "class_name": "限定-そのもの-ニカギッテ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2721",
       "canonical_surface": "にかぎっての",
+      "sense_rank": 1,
       "glosses": [
         "only; limited to",
         "of all times, just when …"
       ],
-      "usage_note": "Two jobs share one form. In announcements and signage the polite に限り and に限って simply fence something off as the sole case that qualifies (本日に限り, 会員の方に限り); before a noun this becomes 〜に限っての (本日に限っての特別価格, 今回に限っての措置). に限り fences a case off as the qualifying condition in official notices, where だけ and のみ merely count; and unlike だけ, に限って carries the exasperated on-that-one-occasion reading, naming the single time things perversely go wrong. A matching variant, 〜に限って〜ない, voices the speaker's refusal to believe ill of someone they trust; it states conviction rather than fact, and the うちの子に限って speaker is famously often wrong. It attaches to a noun, so a time span needs a noun head like 日 or 時 to hang on.",
+      "usage_note": "Fences a case off as the only one that qualifies: 本日に限り and 会員の方に限り in notices, 本日に限っての特別価格 before a noun. Unlike だけ, に限って also carries the exasperated on-that-one-occasion reading (急いでいる朝に限って電車が遅れる), and in 〜に限って〜ない it voices a refusal to believe ill of someone trusted (うちの子に限って), stating conviction rather than fact. It attaches to a noun, so a time span needs a head like 日 or 時.",
       "human_verified": false,
       "examples": [
         {

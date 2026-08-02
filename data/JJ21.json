@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "J21",
   "class_name": "進行-慣習-コトニナッテイル類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2391",
       "canonical_surface": "ことになって",
+      "sense_rank": 1,
       "glosses": [
         "it has been arranged that …",
         "the rule is that …",
         "is supposed to …"
       ],
-      "usage_note": "ことになる (an outcome that comes about) in the ている form: a standing arrangement, schedule or regulation that holds independently of the speaker's will, which is why it is the standard way to explain workplace and school rules. Compare ことにしている, which reports the speaker's own resolve; Japanese often prefers ことになっている even for decisions the speaker did make, to keep the statement impersonal. ことになってる is the everyday spoken form.",
+      "usage_note": "Names a standing arrangement: a schedule, rule or agreement that holds independently of the speaker's will (靴を脱ぐことになっている), which makes it the usual way to state workplace and school rules. Contrast ことにしている, which reports the speaker's own resolve; Japanese often prefers ことになっている even for decisions the speaker did make, to keep the statement impersonal.",
       "human_verified": false,
       "examples": [
         {

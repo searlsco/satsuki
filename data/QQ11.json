@@ -1,22 +1,25 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "Q11",
   "class_name": "並立-全列挙-ト類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0594",
       "canonical_surface": "と",
+      "sense_rank": 1,
       "glosses": [
         "and (a complete list)"
       ],
-      "usage_note": "Listing と joins nouns and claims the list is exhaustive: パンと卵 means those two and nothing else, whereas や names only samples and leaves the rest open. It repeats between every item (AとBとC); modern usage normally drops the と after the last item, though the fuller AとBと(を) survives in formal and older writing. The comitative と also follows a noun, so tell them apart by structure — listing と yields a single NP that fills one slot (パンと卵を買う), while comitative と names a companion to the verb (友達と行く). The quotative と attaches to a clause.",
+      "usage_note": "Joins nouns into one exhaustive list: パンと卵と牛乳 claims those items and no others, and the whole list fills a single slot in the sentence (パンと卵を買う). The other lanes of と are the companion in a mutual action (友達と話す), the conditional of an automatic result (春が来ると) or of something actually found (窓を開けると), and the written quotative との (中止との連絡). や in place of と names only samples and leaves the rest open.",
       "human_verified": false,
       "examples": [
         {

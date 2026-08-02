@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "r21",
   "class_name": "順接-仮定-トシタラ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0571",
       "canonical_surface": "ば",
+      "sense_rank": 1,
       "glosses": [
         "if; provided that",
         "whenever (general rule)"
       ],
-      "usage_note": "The general-rule conditional: it states what reliably follows from a condition, which is why proverbs, math and statements of prerequisite live here (急がなければ間に合わない); for step-by-step operating instructions と is the default, while ば foregrounds the condition as a prerequisite rather than the sequence. It hangs on the 仮定形 stem (押す→押せば, 安い→安ければ); nouns and な-adjectives have no 仮定形 of their own, so they use なら(ば) or, in writing, であれば (学生であれば, 静かであれば). Teaching grammars treat a command, request or statement of the speaker's own intention in the main clause as blocked, but the block lifts when the ば-clause is stative or the two clauses have different subjects (安ければ買いたい is fine).",
+      "usage_note": "States what reliably follows from a condition, which is why proverbs, prerequisites and general rules take it (急がなければ間に合わない). と presents the result as automatic sequence and たら frames one concrete occasion. It attaches to the 仮定形 (押す→押せば, 安ければ); nouns and な-adjectives use なら(ば) or であれば. A command or a statement of intention in the main clause is typically blocked unless the ば-clause is stative (安ければ買いたい).",
       "human_verified": false,
       "examples": [
         {
@@ -37,11 +40,12 @@
     {
       "l2_id": "0591",
       "canonical_surface": "と",
+      "sense_rank": 3,
       "glosses": [
         "if …, then (inevitably)",
         "whenever; every time"
       ],
-      "usage_note": "Links a supposed condition to the result that follows automatically, so it is the conditional of natural law, habit, route directions and machine behavior, with a non-past main clause stating a standing rule. Because the result is presented as out of anyone's hands, teaching grammars state that a command, request, invitation or statement of intention cannot follow it, which is the sharpest line between と and たら/なら. It takes the plain non-past form, affirmative or negative (降ると／降らないと), and a noun or な-adjective needs だ in front (静かだと). Sibling 0592 is the same と used of a condition actually met, where the past main clause reports what the speaker then found (窓を開けると風が入ってきた).",
+      "usage_note": "Links a supposed condition to a result that follows automatically, taking a plain non-past clause and a non-past main clause: natural law, habit, route directions, machine behavior (春が来ると桜が咲く). The sibling と reports a condition actually met, with a past main clause (窓を開けると風が入ってきた); the particle lanes list nouns (パンと卵) or name a companion (友達と話す). A command, request or intention cannot follow it; use たら or なら.",
       "human_verified": false,
       "examples": [
         {
@@ -61,11 +65,12 @@
     {
       "l2_id": "0601",
       "canonical_surface": "としたら",
+      "sense_rank": 1,
       "glosses": [
         "supposing that; if we say that",
         "if it turns out that"
       ],
-      "usage_note": "Openly flags what follows as a supposition (\"let's say that…\"), where bare と or ば would present the link as a fact, so it handles everything from realistic planning to pure what-ifs. The main clause is typically the speaker's own judgment, wish or question, which is where it parts company with the more deductive とすると. としたら takes the plain form (a noun needs だ); としましたら is the polite variant, and もし or 仮に often sits at the head of the clause.",
+      "usage_note": "Flags what follows as a supposition, \"let's say that…\", covering realistic planning and pure what-ifs alike, with the main clause typically the speaker's own judgment, wish or question (私が社長だとしたら休暇を増やしたい). That is where it parts from とすると, which reasons out a consequence and sits badly with a wish. It takes the plain form, with だ after a noun, and もし or 仮に often opens the clause.",
       "human_verified": false,
       "examples": [
         {
@@ -85,16 +90,17 @@
     {
       "l2_id": "0611",
       "canonical_surface": "とすると",
+      "sense_rank": 2,
       "glosses": [
-        "supposing (hypothetically) that …",
+        "supposing that …",
         "if we were to …, then"
       ],
-      "usage_note": "Sets up a supposition the speaker is only entertaining — a plan not yet decided, a figure not yet fixed — and reasons out what would follow. That objectivity makes a wish or intention in the main clause sit badly (〜とすると買いたい is odd where としたら is fine), and it is the reason とすると reads as calculation rather than daydreaming. とすれば is the equally common variant, としますと the polite one, and とすりゃ the casual one; all take the plain form, with だ after a noun. Sibling 0612 is the same string used of a premise already handed to the speaker and taken as fact.",
+      "usage_note": "Floats a supposition the speaker is only entertaining and works out what would follow: 仮に会場を変えるとすれば、費用はどうなる. The sibling lane is the same string used of a premise already given and taken as true, with the main clause stating what is deduced from it (熱が本当に三十九度だとすると). A wish, request, or command in the main clause is unusual with these forms: 〜とすると買いたい is odd, while としたら is natural.",
       "human_verified": false,
       "examples": [
         {
           "ruby": "日曜[にちよう]に山[やま]へ登[のぼ]るとすると、朝[あさ]四時[よじ]起[お]きだね。",
-          "english": "If we're going up the mountain on Sunday, that means a four a.m. start."
+          "english": "Supposing we went up the mountain on Sunday, it would be a four a.m. start."
         },
         {
           "ruby": "仮[かり]に会場[かいじょう]を変[か]えるとすれば、費用[ひよう]はどうなる。",
@@ -109,11 +115,12 @@
     {
       "l2_id": "0621",
       "canonical_surface": "じゃ",
+      "sense_rank": 2,
       "glosses": [
-        "if it were …, that won't do",
-        "supposing it's …, we're in trouble"
+        "if it were …; supposing it's …",
+        "were it …, that would be a problem"
       ],
-      "usage_note": "The spoken squeeze of では／ては framing a condition the speaker is only supposing, with a main clause that is almost always unwelcome — 困る, だめだ, 間に合わない, 納得しない — so it lands as a warning or a complaint rather than a neutral condition. After a noun or な-adjective the form is じゃ (では), after an い-adjective くては／くちゃ, and after a verb ちゃ／じゃ from the て-form (食べては→食べちゃ, 飲んでは→飲んじゃ). Write では／ては and keep じゃ／ちゃ for speech. Sibling 0622 is the same contraction applied to the situation actually at hand (この雨じゃ), and 0623 is the verb-attaching ては that warns about an action someone performs.",
+      "usage_note": "Supposes a condition rather than pointing at one at hand, and reports that it would not do: the main clause is unwelcome, 困る, だめだ, 間に合わない. It attaches to a noun or な-adjective, 六時じゃ, and to an い-adjective as くちゃ. The sibling senses are the situation actually at hand taken as grounds for a conclusion, この雨じゃ, and a warning about an action someone performs, 飲んじゃ. In writing these are では and くては.",
       "human_verified": false,
       "examples": [
         {
@@ -121,12 +128,12 @@
           "english": "If the meeting time is six in the morning, even the first train won't get me there."
         },
         {
-          "ruby": "そんな条件[じょうけん]じゃ、誰[だれ]も引[ひ]き受[う]けてくれないよ。",
-          "english": "On terms like that, nobody is going to take the job on."
+          "ruby": "会場[かいじょう]が屋外[おくがい]じゃ、雨[あめ]の日[ひ]は困[こま]るね。",
+          "english": "If the venue is outdoors, rainy days are going to be a problem."
         },
         {
-          "ruby": "スープがこの味[あじ]じゃ、お客[きゃく]さんは戻[もど]ってこないよ。",
-          "english": "If the soup tastes like this, the customers won't be coming back."
+          "ruby": "相手[あいて]が素人[しろうと]じゃ、本気[ほんき]で戦[たたか]えないよ。",
+          "english": "If our opponent turns out to be an amateur, we can't very well play for real."
         }
       ]
     }

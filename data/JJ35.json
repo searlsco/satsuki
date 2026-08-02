@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "J35",
   "class_name": "進行-継続-イッポウ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1361",
       "canonical_surface": "でるところ",
+      "sense_rank": 1,
       "glosses": [
         "be in the middle of …ing",
         "be right in the midst of …ing"
       ],
-      "usage_note": "The te-form plus いるところ freezes a moment in which the action is already running — a snapshot, not a duration — and it is the answer to '(right) now, what are you doing?'. Keep it apart from its siblings by the form of the attached verb: 辞書形＋ところ is the instant before, ているところ is during, たところ is the instant after. In speech ている routinely contracts to てる and ところ to とこ (してるとこ), and 一方だ, the other member of this class, is not a snapshot at all but an escalating trend.",
+      "usage_note": "Freezes a moment at which the action is already under way, a snapshot rather than a stretch of time, and answers 今何をしているの (パンを焼いているところです). The form of the attached verb is the diagnostic: 辞書形＋ところ is the instant before, ているところ is during, たところ is just after. In speech ている contracts to てる and ところ to とこ (してるとこ).",
       "human_verified": false,
       "examples": [
         {
@@ -37,11 +40,12 @@
     {
       "l2_id": "1401",
       "canonical_surface": "いっぽう",
+      "sense_rank": 1,
       "glosses": [
         "keep …ing (more and more)",
         "go on …ing with no let-up"
       ],
-      "usage_note": "Dictionary form + 一方だ says a change is running in a single direction and shows no sign of turning around. It needs a verb of change: teaching grammars state flatly that it cannot take a state, so 高い一方だ is wrong where 高くなる一方だ is right. It works for improvement as well as decline, but because it typically reports a development that defies what one hoped for, it lands on unwelcome trends far more often. Do not confuse it with the separate 〜一方で 'on the other hand', which contrasts two facts rather than tracking one; against つつある, 一方だ is evaluative escalation while つつある is neutral progress toward a new state.",
+      "usage_note": "Dictionary form + 一方だ says a change is running in one direction with no sign of turning back (増える一方だ). It needs a verb of change, not a state: 高くなる一方だ is right where 高い一方だ is not. It covers improvement as well as decline, but most often reports an unwelcome trend. The separate 一方で 'on the other hand' contrasts two facts instead of tracking one change.",
       "human_verified": false,
       "examples": [
         {

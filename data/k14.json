@@ -1,30 +1,28 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "k14",
   "class_name": "話題-提示-ニシテハ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1062",
       "canonical_surface": "にしちゃ",
+      "sense_rank": 1,
       "glosses": [
-        "for (a); by the standards of",
-        "as far as … goes",
-        "considering (it's)"
+        "for; by the standards of",
+        "as far as … goes"
       ],
-      "usage_note": "Puts a noun (or a plain clause) up front as the yardstick the rest of the sentence is judged against: 素人にしちゃ frames everything that follows as an amateur-scale assessment, usually an approving one. Class sibling としちゃ sets the same kind of yardstick flatly and objectively (相撲取りとしては小柄だ, simply below the norm), whereas にしちゃ colors the assessment with mild 意外性. When the clash with expectation is itself the point of the sentence rather than the frame — the 'and yet' reading that pairs with くせして and わりに — the corpus files the identical string in the 逆接-想外 class instead. にしちゃ is the casual spoken squeeze of にしては and stays out of formal writing.",
+      "usage_note": "Sets a noun up as the yardstick a comment is scaled to, with mild surprise at how the subject comes out against it: チワワにしちゃよく食べる. Class sibling としちゃ sets the same yardstick flatly (国産としちゃ高い). The same string is filed in the 逆接-想外 class when the standard is a clause and the mismatch itself is the news (一日で仕上げたにしては上出来だ). にしちゃ is the clipped spoken realization of にしては and rare in formal writing.",
       "human_verified": false,
       "examples": [
-        {
-          "ruby": "素人[しろうと]にしちゃ、ずいぶん思[おも]い切[き]った攻[せ]め方[かた]だな。",
-          "english": "That's a remarkably bold line of attack for an amateur."
-        },
         {
           "ruby": "この値段[ねだん]にしちゃ、味[あじ]はなかなかのものだ。",
           "english": "For what it costs, the taste is honestly pretty good."
@@ -32,18 +30,22 @@
         {
           "ruby": "うちの犬[いぬ]はチワワにしちゃ、よく食[た]べるほうだ。",
           "english": "For a chihuahua, ours puts away a fair amount of food."
+        },
+        {
+          "ruby": "三月[さんがつ]にしちゃ、ずいぶん風[かぜ]が冷[つめ]たいね。",
+          "english": "Pretty biting wind for March, isn't it."
         }
       ]
     },
     {
       "l2_id": "2902",
       "canonical_surface": "としちゃ",
+      "sense_rank": 2,
       "glosses": [
-        "as a …; for a …",
-        "by the standards of a …",
-        "measured as a …"
+        "for a …; as … go",
+        "by the standards of …"
       ],
-      "usage_note": "Names the class the subject is being measured in, so the judgment that follows is relative to that class and not to things in general: 国産としちゃ高い prices the watch against domestic watches only. Class sibling にしちゃ sets up the same kind of yardstick but adds a note of surprise, while としちゃ stays flat and evaluative. The identical string also carries a standpoint reading filed in the 観点 class (俺としちゃ賛成だ, 'speaking for myself'); there the noun is the person whose opinion it is, here it is the category the subject belongs to. としては is the everyday realization, としましては the business-polite one, としちゃ the casual squeeze.",
+      "usage_note": "Names the class the subject is measured in, so the judgment that follows is relative to that class rather than to things in general: 国産としちゃ高い prices a watch against domestic watches. The sibling lane of the same string names the capacity or standpoint an opinion is spoken from (俺としちゃ賛成だ), where the noun holds the view instead of naming a category. としちゃ is casual; としては is the neutral written form.",
       "human_verified": false,
       "examples": [
         {

@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "e11",
   "class_name": "起点-極端例-ヲハジメトシテ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0281",
       "canonical_surface": "をはじめとしての",
+      "sense_rank": 1,
       "glosses": [
         "starting with",
         "beginning with",
         "including … foremost"
       ],
-      "usage_note": "Names the leading or most representative member of a set and implies that the rest of the set follows, so the noun it marks should genuinely rank first in prominence — headline city, head of the organization, flagship product. Register is written and ceremonial (speeches, news copy, company announcements); をはじめとしまして is the polite variant and the clipped をはじめ is by far the most common shape in ordinary speech and writing. Sibling など merely offers a sample and can sound offhand, whereas をはじめとして explicitly ranks.",
+      "usage_note": "Names the leading or most representative member of a set and implies that the rest follow (校長をはじめとして先生方が並ぶ, 京都をはじめとする古都), so the noun it marks should genuinely rank first. The sibling など only offers a sample and can sound offhand, while をはじめとして ranks explicitly. Register is written and ceremonial, and the clipped をはじめ is by far the most common shape.",
       "human_verified": false,
       "examples": [
         {
@@ -38,12 +41,13 @@
     {
       "l2_id": "3051",
       "canonical_surface": "など",
+      "sense_rank": 1,
       "glosses": [
         "such as",
         "and the like",
         "things like"
       ],
-      "usage_note": "Offers a non-exhaustive sample rather than a ranked one: the item named is representative, and the listener is meant to infer that comparable things belong too. It attaches to nouns, to dictionary-form verbs and i-adjectives, and to だ/た, and it also does duty as a softener — 私[わたし]などには and お茶[ちゃ]などいかがですか lower the profile of what is named, out of modesty or politeness, and with a negative predicate it turns dismissive (謝[あやま]る気[き]など ない). なんか and なんて are its colloquial descendants, the first casual, the second coloured by surprise or scorn.",
+      "usage_note": "Offers a non-exhaustive sample: the item named is representative, and comparable things are meant to be inferred (パンやジャムなどを買う, 頭痛やめまいなどの症状). The sibling をはじめとして instead ranks its noun first in the set. It attaches to nouns, to dictionary-form verbs and i-adjectives, and to だ/た, and it also softens what it names (お茶などいかがですか); with a negative predicate it turns dismissive (謝る気などない).",
       "human_verified": false,
       "examples": [
         {

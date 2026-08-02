@@ -1,0 +1,185 @@
+#!/usr/bin/env python3
+"""Editorial lint for the satsuki corpus: the checks prompts/style.md makes
+mechanical.
+
+Tsutsuji files one surface under several semantic classes when it has
+several senses. Each filing is a lane. The failure this catches is a lane
+whose glosses restate a sibling lane's, which reads as duplicate noise in a
+consumer that shows only surface plus glosses.
+
+Usage: script/lint [data/*.json]        (defaults to every data file)
+Exits nonzero if any ERROR is reported.
+"""
+import glob
+import json
+import os
+import re
+import sys
+from collections import defaultdict
+
+REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+NOTE_MAX = 480  # style.md targets ~400; this fails only on real overruns
+GLOSS_MAX = 3
+
+# Gloss senses that are distinct strings but the same answer. A lane whose
+# glosses collapse into a sibling's under these is not distinguishable.
+SYNONYMS = [
+    {"by", "by means of", "through", "via", "with", "using"},
+    {"because of", "due to", "owing to", "on account of", "as a result of"},
+    {"in accordance with", "according to", "on the basis of", "based on",
+     "under", "in line with"},
+    {"depending on", "varying with", "varies by"},
+    {"until", "till"},  # not "as far as": spatial reach is a different answer
+    # "even if" (hypothetical) and "even though" (factual) are different
+    # answers, and Tsutsuji splits 仮定 from 確定 on exactly that line.
+    {"even if", "whether", "no matter"},
+    {"even though", "although", "despite"},
+    {"from", "starting from", "since"},
+    {"while", "during", "as"},
+    {"should", "ought to", "had better", "must", "have to"},
+    {"seems", "appears", "looks like", "apparently"},
+]
+
+RUBY = re.compile(r"[一-鿿]+\[[぀-ヿ]+\]")
+EDITORIAL = re.compile(
+    r"\b(is at home in|leans? toward|reaches? for|learners? should|"
+    r"one should note|it is worth noting)\b", re.I)
+
+
+def senses(gloss):
+    """The comparable senses in one gloss string, synonym-folded."""
+    text = re.sub(r"\(.*?\)", "", gloss.lower()).strip(" ;,.")
+    out = set()
+    for part in (p.strip() for p in re.split(r"[;,]", text) if p.strip()):
+        matched = False
+        for i, group in enumerate(SYNONYMS):
+            if part in group:
+                out.add(f"syn{i}")
+                matched = True
+        if not matched:
+            out.add(part)
+    return out
+
+
+def qualified_senses(gloss):
+    """Comparable senses, kept apart by their parenthetical qualifier."""
+    suffix = "|" + "|".join(sorted(qualifiers(gloss)))
+    return {sense + suffix for sense in senses(gloss)}
+
+
+def qualifiers(gloss):
+    """The parenthetical qualifiers in one gloss, lowercased."""
+    return {q.strip().lower() for q in re.findall(r"\((.*?)\)", gloss)}
+
+
+def normalize_surface(surface):
+    """Fold the adnominal の so によって and によっての are one family."""
+    return surface[:-1] if surface.endswith("の") and len(surface) > 1 else surface
+
+
+def load(paths):
+    patterns = []
+    for path in paths:
+        data = json.load(open(path, encoding="utf-8"))
+        for pattern in data["patterns"]:
+            pattern["_file"] = os.path.relpath(path, REPO)
+            pattern["_class"] = data["class_code"]
+            pattern["_class_name"] = data["class_name"]
+            patterns.append(pattern)
+    return patterns
+
+
+def check_pattern(pattern, errors, warnings):
+    where = f"{pattern['_file']} {pattern['l2_id']} {pattern['canonical_surface']}"
+    note = pattern.get("usage_note") or ""
+
+    if not 1 <= len(pattern["glosses"]) <= GLOSS_MAX:
+        errors.append(f"{where}: {len(pattern['glosses'])} glosses (want 1-{GLOSS_MAX})")
+    for gloss in pattern["glosses"]:
+        # A fragment is a gloss with nothing outside its parentheses. A gloss
+        # that merely opens with a qualifier — "(humble) have been …ing" — is
+        # a real answer and must not trip this.
+        if not re.sub(r"\(.*?\)", "", gloss).strip(" ;,."):
+            errors.append(f"{where}: gloss is a parenthetical fragment, not an "
+                          f"answer: {gloss!r}")
+    if RUBY.search(note):
+        errors.append(f"{where}: usage_note contains bracket ruby, which the "
+                      f"consumer renders literally")
+    if len(note) > NOTE_MAX:
+        warnings.append(f"{where}: usage_note {len(note)} chars (target ~400)")
+    if EDITORIAL.search(note):
+        warnings.append(f"{where}: editorial voice: "
+                        f"{EDITORIAL.search(note).group(0)!r}")
+
+
+def check_ranks(surface, lanes, errors):
+    """Consumers lead listings with sense_rank 1 and gate the rest behind it,
+    so the ranking must be total and unambiguous within a family. Every
+    pattern carries a rank; a surface with no sibling lane is simply its own
+    rank 1."""
+    missing = [lane["l2_id"] for lane in lanes if lane.get("sense_rank") is None]
+    if missing:
+        errors.append(f"{surface}: sense_rank missing on {', '.join(missing)}")
+        return
+    ranks = [lane["sense_rank"] for lane in lanes]
+    if sorted(ranks) != list(range(1, len(lanes) + 1)):
+        errors.append(f"{surface}: sense_rank must be 1..{len(lanes)} without gaps "
+                      f"or repeats, got {sorted(ranks)}")
+
+
+def check_families(patterns, errors, warnings):
+    """Sibling lanes of one surface must be distinguishable by gloss alone."""
+    families = defaultdict(list)
+    for pattern in patterns:
+        families[normalize_surface(pattern["canonical_surface"])].append(pattern)
+
+    for surface, lanes in sorted(families.items()):
+        check_ranks(surface, lanes, errors)
+        if len(lanes) < 2:
+            continue
+        for i, a in enumerate(lanes):
+            for b in lanes[i + 1:]:
+                pair = (f"{surface}: {a['_class']}/{a['l2_id']} vs "
+                        f"{b['_class']}/{b['l2_id']}")
+                lead_a, lead_b = senses(a["glosses"][0]), senses(b["glosses"][0])
+                if lead_a & lead_b:
+                    # style.md allows one short parenthetical naming the lane.
+                    # Two differing qualifiers do separate the entries in a
+                    # search row, so that is a look-at-me, not a failure.
+                    qual_a, qual_b = qualifiers(a["glosses"][0]), qualifiers(b["glosses"][0])
+                    complaint = (f"{pair}: leading glosses do not distinguish the "
+                                 f"lanes ({a['glosses'][0]!r} / {b['glosses'][0]!r})")
+                    if qual_a and qual_b and qual_a != qual_b:
+                        warnings.append(complaint + "; only the qualifiers separate them")
+                    else:
+                        errors.append(complaint)
+                # Qualifier-aware: "with (a quality one brings)" and "with (an
+                # instrument)" are different answers, so folding them together
+                # would report a subset that a reader would never perceive.
+                all_a = set().union(*(qualified_senses(g) for g in a["glosses"]))
+                all_b = set().union(*(qualified_senses(g) for g in b["glosses"]))
+                if all_a <= all_b or all_b <= all_a:
+                    warnings.append(
+                        f"{pair}: one lane's glosses are a subset of the other's")
+
+
+def main():
+    paths = sys.argv[1:] or sorted(glob.glob(os.path.join(REPO, "data", "*.json")))
+    patterns = load(paths)
+    errors, warnings = [], []
+    for pattern in patterns:
+        check_pattern(pattern, errors, warnings)
+    check_families(patterns, errors, warnings)
+
+    for warning in warnings:
+        print(f"WARN  {warning}")
+    for error in errors:
+        print(f"ERROR {error}")
+    print(f"\n{len(patterns)} patterns: {len(errors)} errors, "
+          f"{len(warnings)} warnings")
+    return 1 if errors else 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "z26",
   "class_name": "願望-働きかけ-テクレマスカ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2191",
       "canonical_surface": "でください",
+      "sense_rank": 1,
       "glosses": [
         "please do …",
         "do …, please"
       ],
-      "usage_note": "The everyday polite request: it attaches to the て-form, appearing as でください after godan verbs whose て-form voices (読んで、飲んで、死んで) and as てください elsewhere. It is polite but still a directive, so toward a superior or a customer the question forms ていただけますか / てくださいませんか are safer. For requesting an object rather than an action, use the noun-taking sibling ください (お茶をください).",
+      "usage_note": "Asks the listener to do the action, in the ordinary polite register of everyday requests: て-form + ください (窓を閉めてください). It is polite but still a directive, so toward a superior or a customer ていただけますか or てくださいませんか is safer. The form is でください after て-forms that voice (読んでください); to ask for an object rather than an action, use ください with a noun (お茶をください).",
       "human_verified": false,
       "examples": [
         {
@@ -37,11 +40,12 @@
     {
       "l2_id": "2201",
       "canonical_surface": "じゃくれるか",
+      "sense_rank": 1,
       "glosses": [
         "won't you …?",
         "could you … (for me)?"
       ],
-      "usage_note": "Asks the listener to do something for the speaker's benefit, keeping the listener in the giver role; because it addresses the listener's willingness head-on it tends to feel more direct than てもらえませんか. The plain てくれないか is for friends, family and subordinates and has a somewhat blunt, male-leaning ring, while てくれませんか / てくれないでしょうか are polite and progressively more tentative. Negative shapes soften the ask, so てくれないか is gentler than てくれるか.",
+      "usage_note": "Asks the listener to do something for the speaker's benefit, putting the listener in the giver role and addressing their willingness directly (手伝ってくれないか). てもらえないか asks instead whether the speaker may receive the action and typically feels less direct. Plain てくれるか / てくれないか is for friends, family and subordinates and can sound blunt; てくれませんか and てくれないでしょうか are the polite, more tentative end.",
       "human_verified": false,
       "examples": [
         {
@@ -61,11 +65,12 @@
     {
       "l2_id": "2211",
       "canonical_surface": "じゃもらえるか",
+      "sense_rank": 1,
       "glosses": [
         "could I get you to …?",
         "would you mind …?"
       ],
-      "usage_note": "Frames the request as whether the speaker may receive the action rather than whether the listener will grant it, which makes it feel a shade more indirect and less imposing than てくれませんか. It is the plain-politeness counterpart of ていただけますか: fine with colleagues, shop staff and strangers, but for a superior or a client the いただく version is the safer choice. Negative-question shapes (てもらえませんか、てもらえないでしょうか) are the more tentative end of the range.",
+      "usage_note": "Asks whether the speaker may receive the action from the listener, framing the request around the receiving rather than the listener's willingness (写真を撮ってもらえますか). てくれませんか addresses that willingness head-on and typically reads as more direct; ていただけますか is the humble version used toward a superior or a client. てもらえませんか and てもらえないでしょうか are the more tentative shapes.",
       "human_verified": false,
       "examples": [
         {
@@ -85,11 +90,12 @@
     {
       "l2_id": "2221",
       "canonical_surface": "ください",
+      "sense_rank": 1,
       "glosses": [
         "please …",
         "please give me …"
       ],
-      "usage_note": "This is ください attached straight to a noun or a masu-stem, not to the て-form. With お+masu-stem or ご+Sino-noun it is the honorific request of signage, announcements and service speech (お待ちください、ご記入ください), politer and more impersonal than てください; with a plain noun it simply asks for the thing (コーヒーください). In everyday speech the noun is usually marked with を (お茶をください), a shape the corpus rule does not cover.",
+      "usage_note": "Requests the thing or action named by the preceding noun or masu-stem, with no て-form: コーヒーください for an object, お待ちください and ご記入ください for the honorific request of signage, announcements and service speech. The て-form sibling てください asks for an action in ordinary polite speech and is less formal and less impersonal. In speech the noun usually takes を (お茶をください), a shape the corpus rule does not cover.",
       "human_verified": false,
       "examples": [
         {
@@ -109,11 +115,12 @@
     {
       "l2_id": "2231",
       "canonical_surface": "ではいただけるか",
+      "sense_rank": 1,
       "glosses": [
         "could I ask you to …?",
         "would you be so kind as to …?"
       ],
-      "usage_note": "The humble-receiving keigo request and the workhorse of business Japanese: いただく lowers the speaker, so it is more deferential than its plain counterpart てもらえますか and generally the safest form toward a superior, a client or a stranger. ていただけますか asks about possibility, while ていただけませんか and ていただけないでしょうか add negative and dubitative padding for progressively more careful requests. Compare てくださいますか, which honors the listener as the doer instead.",
+      "usage_note": "Asks the listener for an action while lowering the speaker as the receiver, the humble-keigo request of business Japanese (説明していただけますか). Its plain counterpart てもらえますか says the same thing without the humble verb, and てくださいますか honors the listener as the doer instead. ていただけませんか and ていただけないでしょうか add negative and dubitative padding for more careful requests.",
       "human_verified": false,
       "examples": [
         {
@@ -133,11 +140,12 @@
     {
       "l2_id": "2241",
       "canonical_surface": "ではくださるか",
+      "sense_rank": 1,
       "glosses": [
         "won't you please …?",
         "would you kindly …?"
       ],
-      "usage_note": "Built on respectful くださる, this elevates the listener as the one performing the favor, whereas ていただけますか lowers the speaker as the one receiving it; the two are close in politeness, but the くださる version is markedly less frequent in modern conversation and tends to read formal, warm or faintly old-fashioned. てくださいませんか in particular carries a pleading, heartfelt tone and turns up often in earnest personal appeals rather than routine business requests.",
+      "usage_note": "Asks the listener for an action while honoring the listener as the doer, built on respectful くださる (式に出てくださいますか). ていただけますか says the same thing by lowering the speaker as receiver and is the more usual choice in contemporary business speech; the くださる version reads formal and warm, and てくださいませんか often carries a pleading tone in earnest personal appeals.",
       "human_verified": false,
       "examples": [
         {
@@ -157,11 +165,12 @@
     {
       "l2_id": "2251",
       "canonical_surface": "ねがう",
+      "sense_rank": 1,
       "glosses": [
         "we ask that you …",
         "please …"
       ],
-      "usage_note": "A formal request built on 願う \"to wish\", attaching to a noun or a masu-stem with お/ご (ご了承願います、お知らせ願います) rather than to the て-form. It belongs to announcements, notices and written business Japanese; dressing a directive as a wish keeps it courteous, but the addressee is expected to comply, so it lands firmer and more impersonal than ていただけますか. The question form 願えますか (sibling) softens it into an actual request.",
+      "usage_note": "Asks for an action in formal written and announced Japanese, attaching to a noun or masu-stem with お/ご rather than to the て-form (ご了承願います、お知らせ願います). Phrasing the directive as a wish keeps it courteous, but compliance is expected, so it lands firmer and more impersonal than ていただけますか. The potential sibling 願えますか puts the same request as a question and softens it.",
       "human_verified": false,
       "examples": [
         {
@@ -181,11 +190,12 @@
     {
       "l2_id": "2261",
       "canonical_surface": "ねがえるか",
+      "sense_rank": 1,
       "glosses": [
         "could I ask you to …?",
         "might I trouble you to …?"
       ],
-      "usage_note": "The interrogative potential of 願う, taking a noun or masu-stem with お/ご just as 願います does. Asking about ability rather than stating a wish makes it a genuine request instead of an instruction, so it is politer than 願います, but it stays stiff and business-like: it belongs to counters, offices and formal correspondence, where ていただけますか would sound warmer and more personal. The negative shapes 願えませんか / 願えないでしょうか are the most deferential of the set.",
+      "usage_note": "Asks whether the listener could do the action: the interrogative potential of 願う, taking a noun or masu-stem with お/ご (ご確認願えますか). Against 願います, which states the wish as an instruction, asking about ability makes it a genuine request and politer. It stays stiff and business-like, at counters and in formal correspondence, where ていただけますか sounds warmer; 願えませんか and 願えないでしょうか are the most deferential.",
       "human_verified": false,
       "examples": [
         {
@@ -205,11 +215,12 @@
     {
       "l2_id": "2271",
       "canonical_surface": "でちょうだい",
+      "sense_rank": 1,
       "glosses": [
         "…, please",
         "do … for me"
       ],
-      "usage_note": "From 頂戴 \"to receive\", this is a soft familiar directive used downward or between intimates: parents to children, spouses, close friends. In adult speech it reads distinctly feminine and gentler than てください, with a coaxing rather than commanding tone, and it is not used toward superiors. Like てください it takes the て-form, surfacing as でちょうだい after voiced て-forms (畳んでちょうだい).",
+      "usage_note": "Asks the listener to do the action in a soft familiar register, used downward or between intimates: parents to children, spouses, close friends (手を洗ってちょうだい). It takes the て-form like てください, surfacing as でちょうだい after voiced て-forms (畳んでちょうだい), but it coaxes rather than commands and is not used toward superiors. In adult speech it typically reads feminine.",
       "human_verified": false,
       "examples": [
         {

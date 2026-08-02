@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "y21",
   "class_name": "否定-無意味-ドコロデハナイ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1681",
       "canonical_surface": "どころじゃない",
+      "sense_rank": 1,
       "glosses": [
         "this is no time for …",
         "far from …ing",
         "… is out of the question"
       ],
-      "usage_note": "Sweeps a suggestion off the table: things are so pressing that the named activity is unthinkable, and it usually carries an edge of irritation that the neutral 〜ている場合ではない lacks. どころではない is the more formal written twin of spoken どころじゃない, and the の話じゃない variants pile on extra scorn. Keep it apart from 〜どころか, which corrects a mistaken expectation instead of dismissing an activity as untimely.",
+      "usage_note": "Sweeps an activity off the table as untimely: circumstances are so pressing that the named thing is unthinkable — 旅行どころじゃない, 走るどころではなかった. It usually carries an irritation that the neutral 〜ている場合ではない lacks, and the の話じゃない variants add scorn. 〜どころか is a different pattern, correcting a mistaken expectation rather than dismissing an activity.",
       "human_verified": false,
       "examples": [
         {
@@ -38,12 +41,13 @@
     {
       "l2_id": "2551",
       "canonical_surface": "だものじゃない",
+      "sense_rank": 1,
       "glosses": [
         "not something you could call …ing",
         "hardly fit to …",
         "you can't … it at all"
       ],
-      "usage_note": "An exasperated disqualification: what happened does not deserve the name. In this 'not fit to be called that' sense it typically follows a potential form (食えたもんじゃない), with the contracted たもんじゃない as the everyday shape and たものではない the version that survives in writing. The same shape after 分かる gives a separate high-frequency idiom, 〜か分かったもんじゃない, 'there's no telling what/whether …'. Where どころじゃない says an activity is untimely, this says the thing itself falls hopelessly short.",
+      "usage_note": "Disqualifies something as not deserving the name: what is on offer falls hopelessly short — 食えたもんじゃない, 読めたものじゃない. In this sense it typically follows a potential form, with the contracted たもんじゃない as the spoken shape. Where the sibling どころじゃない says an activity is untimely, this says the thing itself is unfit; after 分かる the same shape gives a separate idiom, 〜か分かったもんじゃない, \"there's no telling\".",
       "human_verified": false,
       "examples": [
         {

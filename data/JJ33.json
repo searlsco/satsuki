@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "J33",
   "class_name": "進行-継続-テクル類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1321",
       "canonical_surface": "でさえき",
+      "sense_rank": 1,
       "glosses": [
         "come to …; gradually become …",
         "have been …ing (up to now)",
         "go and … and come back"
       ],
-      "usage_note": "Change that has built up to the present, or motion oriented toward the speaker; 〜てきた is the usual shape for a state that has newly emerged. Contrast 〜ていく, which sends the same change forward and away. Its humble-formal counterpart is 〜てまいりました, and with motion verbs it keeps the literal 'go do it and come back' sense.",
+      "usage_note": "Marks change that has accumulated up to the present, or motion oriented toward the speaker: 風が強くなってきた for a state that has newly emerged, 買ってくる for going, doing it, and coming back. 〜ていく sends the same change forward and away from now. The humble counterpart is 〜てまいる and the honorific 〜ていらっしゃる.",
       "human_verified": false,
       "examples": [
         {
@@ -38,11 +41,12 @@
     {
       "l2_id": "1331",
       "canonical_surface": "ではまいり",
+      "sense_rank": 1,
       "glosses": [
         "(humble) have been …ing (up to now)",
         "have gradually come to …"
       ],
-      "usage_note": "The 参る-based humble/formal counterpart of 〜てくる, covering developments that have reached the present; it is the standard register for seasonal greetings and for recounting what you or your company has done to date. The very same forms in the non-past carry the forward-looking 〜ていく sense, so tense and context decide the direction. As a humble form it describes your own side or impersonal happenings rather than a respected person's actions.",
+      "usage_note": "Reports change or continuation reaching the present, in humble register: 朝晩は冷え込んでまいりました, 開店以来同じ味を守ってまいりました. It is the standard wording for seasonal greetings and for recounting what you or your company has done to date. The non-past 〜てまいります points forward instead, like 〜ていく, and as a humble form it describes your own side or impersonal happenings, not a respected person's actions.",
       "human_verified": false,
       "examples": [
         {
@@ -62,11 +66,12 @@
     {
       "l2_id": "1341",
       "canonical_surface": "でらっしゃり",
+      "sense_rank": 2,
       "glosses": [
         "(honorific) come …ing",
-        "(honorific) bring / go along …ing"
+        "(honorific) bring along"
       ],
-      "usage_note": "Honorific of 〜てくる (and of 〜ていく), used for a respected person approaching, arriving, or bringing something along. It shares its surface with the honorific of 〜ている, so the verb and the situation tell you whether motion or an ongoing state is meant. 〜ておいでになる often alternates with it, and for your own actions you would say 〜てまいりました instead.",
+      "usage_note": "Honorific of 〜てくる: a person you are elevating comes or arrives while doing something, or brings someone or something with them (戻っていらっしゃいました, 花束を抱えて入っていらっしゃった). The sibling lane of this same form is the honorific of 〜ている, an action in progress or a continuing state (書いていらっしゃいます); a verb of motion toward the speaker marks this lane. For your own movement use 〜てまいります.",
       "human_verified": false,
       "examples": [
         {

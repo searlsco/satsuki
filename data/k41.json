@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "k41",
   "class_name": "話題-も観点-トシテモ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0883",
       "canonical_surface": "としても",
+      "sense_rank": 1,
       "glosses": [
         "for one's own part, too",
         "as X as well; from X's side also"
       ],
-      "usage_note": "The も version of としては: it grants that others have their positions and adds that the named party, in its own capacity, holds this one as well. Business and public speech use it constantly with institutions and with 私 to signal shared concern (市としても, 会社としましても), and it typically implies some commitment or feeling rather than a bare fact. Note that a clause plus としても is a different construction meaning \"even if\"; this entry is the noun-attached standpoint use.",
+      "usage_note": "States the named party's own standpoint: X, in its capacity as X, holds this position as well as whoever else does (市としても対応を急いでおります, 私としても賛成だ), usually implying commitment or feeling rather than a bare fact. The sibling にしても・にしたって instead grants a case the listener assumed was exceptional. A clause plus としても is a separate construction meaning \"even if\"; this entry attaches to nouns.",
       "human_verified": false,
       "examples": [
         {
@@ -37,20 +40,21 @@
     {
       "l2_id": "0894",
       "canonical_surface": "にしたって",
+      "sense_rank": 3,
       "glosses": [
-        "even (for) X; X is no exception",
-        "even in X's case"
+        "as far as X is concerned too",
+        "for X's part as well"
       ],
-      "usage_note": "Colloquial にしても, and it pushes back: you raise X, the case the listener assumed was different, and say the same thing holds for it too. That argumentative edge and the って ending keep it in speech and dialogue, where it often carries a touch of exasperation; the neutral にしても and the polite にしましても are what you write. Compare としても, which claims a standpoint of one's own instead of contesting an assumption.",
+      "usage_note": "Adds X as one more party the same thing is true of: the noun names a further person or side alongside the one under discussion (親にしたって心配なんだ), often pushing back on the assumption that X was different. Sibling lanes grant a case that is already real as an extreme example (部長にしたって), suppose a case that has not come about (手伝うにしたって), or sweep in every case after an interrogative (誰にしたって).",
       "human_verified": false,
       "examples": [
         {
-          "ruby": "先輩[せんぱい]にしたって、最初[さいしょ]は失敗[しっぱい]ばかりだったんだ。",
-          "english": "Even the senior guys did nothing but screw up at the start, you know."
+          "ruby": "親[おや]にしたって、心配[しんぱい]だから言[い]っているんだよ。",
+          "english": "My parents, for their part, only say it because they're worried."
         },
         {
           "ruby": "機械[きかい]にしたって、休[やす]ませなきゃいつかは壊[こわ]れる。",
-          "english": "Even a machine will give out eventually if you never let it rest."
+          "english": "A machine too will give out eventually if you never let it rest."
         },
         {
           "ruby": "私[わたし]にしたって、同[おな]じ立場[たちば]なら断[ことわ]れなかったよ。",
@@ -61,24 +65,25 @@
     {
       "l2_id": "0933",
       "canonical_surface": "にしろ",
+      "sense_rank": 3,
       "glosses": [
-        "even if it is; granted that it is",
-        "whether it be"
+        "even X; X is no exception",
+        "even in X's case"
       ],
-      "usage_note": "Built on the imperative しろ of する, which gives it a curt, assertive ring: you concede the noun in front and then press the objection that survives the concession. It is blunter than にしても, blunt enough that it lands as argument or reproof rather than gentle conversation; にせよ is its stiffer written twin. It also runs in pairs, 〜にしろ〜にしろ, to say the conclusion holds whichever alternative applies.",
+      "usage_note": "Raises a noun as a case and says that what holds elsewhere holds for it too (新人にしろ, 大手の企業にしろ), typically the very case the listener assumed would be different. Sibling entries concede a supposition that has not come about (引っ越すにしろ) or something already established (断られたにしろ). It attaches to a noun here, not a clause; にしても is the ordinary-register form of this same use.",
       "human_verified": false,
       "examples": [
         {
-          "ruby": "冗談[じょうだん]にしろ、あの言[い]い方[かた]は失礼[しつれい]すぎる。",
-          "english": "Joke or not, putting it that way was flat-out rude."
+          "ruby": "新人[しんじん]にしろ、この程度[ていど]の確認[かくにん]は怠[おこた]るべきでない。",
+          "english": "Newcomers are no exception: a check this basic shouldn't be skipped."
         },
         {
-          "ruby": "一時的[いちじてき]な措置[そち]にしろ、住民[じゅうみん]への説明[せつめい]は要[い]る。",
-          "english": "Even as a stopgap, it still has to be explained to residents."
+          "ruby": "大手[おおて]の企業[きぎょう]にしろ、人手[ひとで]不足[ぶそく]とは無縁[むえん]ではない。",
+          "english": "Even the big firms are no exception to the labor shortage."
         },
         {
-          "ruby": "善意[ぜんい]にしろ、勝手[かって]に決[き]められては困[こま]る。",
-          "english": "Well-meant or not, I can't have things decided without me."
+          "ruby": "大人[おとな]にしろ、慣[な]れない場所[ばしょ]では緊張[きんちょう]する。",
+          "english": "Adults are no exception; unfamiliar places make them tense too."
         }
       ]
     }

@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "z22",
   "class_name": "願望-働きかけ-ネガイタイ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "3301",
       "canonical_surface": "ねがいたい",
+      "sense_rank": 1,
       "glosses": [
         "I would like to ask you to …",
         "we request that you …"
       ],
-      "usage_note": "〜願いたい is stiff written-formal, at home in notices, business letters, and official announcements. It normally attaches with no particle, to お/ご + a verbal noun (ご確認願いたい) or お + a masu-stem (お送り願いたい); a bare 確認願いたい without ご is curt and rare. を is also possible with noun requests (ご援助を願いたい), while 〜をお願いしたい is the softer, more personal alternative. Compared with 〜ていただきたい it is more distant and impersonal, and 願いたい is the writer-side notice form: spoken announcements use 願います (お待ち願います).",
+      "usage_note": "Makes a formal request that the addressee do something: お/ご plus a verbal noun, or お plus a masu-stem, followed by 願いたい (ご確認願いたい, お送り願いたい). It belongs to written notices, business letters, and official announcements, and is more distant and impersonal than 〜ていただきたい. Spoken announcements use 願います (お待ち願います) instead.",
       "human_verified": false,
       "examples": [
         {

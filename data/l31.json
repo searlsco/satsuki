@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "l31",
   "class_name": "強調-感情-アマリニ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2671",
       "canonical_surface": "あまりに",
+      "sense_rank": 1,
       "glosses": [
         "out of sheer …",
         "so much … that …",
         "in one's excessive …"
       ],
-      "usage_note": "The noun 余り \"excess\" frozen into a cause clause: an emotion or an overdone action is pushed too far, and the result — usually unwelcome or extreme — follows. It hangs on a plain-form verb (心配するあまりに) or on a noun of feeling through の (緊張のあまりに); the に is optional and often dropped in print. Do not confuse it with the ordinary adverb あまり(に), which means \"(not) very\" or \"excessively\" and modifies a predicate directly; the pattern here is narrative in tone rather than conversational.",
+      "usage_note": "Names an emotion or an overdone action pushed too far, with the result, usually unwelcome or extreme, following: 娘を心配するあまりに, 勝ちを急ぐあまりに. It attaches to a plain non-past verb, or to a noun of feeling through の (緊張のあまりに), and the に is optional. Distinct from the ordinary adverb あまり(に) \"(not) very; excessively\", which modifies a predicate directly. The tone is narrative.",
       "human_verified": false,
       "examples": [
         {

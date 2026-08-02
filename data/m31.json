@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "m31",
   "class_name": "限定-他の否定-シカ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "3081",
       "canonical_surface": "しか",
+      "sense_rank": 1,
       "glosses": [
         "only …",
         "nothing but …",
         "no more than …"
       ],
-      "usage_note": "Always answered by a negative predicate: しか + 肯定 is ungrammatical, and that pairing is what gives it its \"and that's not enough\" colouring, where だけ merely counts. It swallows が and を but stacks on top of に, へ, で, から, まで, と (東京にしかない). It also follows a plain verb to mean \"no choice but to\" (行くしかない), an attachment the corpus rule here does not cover.",
+      "usage_note": "Singles out one item and denies everything else, so the predicate is always negative: 千円しかない says the amount falls short, where だけ merely counts it. It replaces が and を but stacks on に, へ, で, から, まで, と (東京にしかない). After a plain verb it also gives 行くしかない, \"no choice but to\", an attachment this rule does not cover.",
       "human_verified": false,
       "examples": [
         {

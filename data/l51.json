@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "l51",
   "class_name": "強調-一応-コトハ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2691",
       "canonical_surface": "ことは",
+      "sense_rank": 1,
       "glosses": [
         "it is true that … (but)",
         "… all right, but …",
         "admittedly …"
       ],
-      "usage_note": "A concessive frame built by repeating the predicate around it: 読むことは読んだ, 安いことは安い. The first copy is usually plain non-past, though it may also copy the past tense (読んだことは読んだが); the second copy always carries the tense and politeness that count, and a が or けど with the speaker's real point almost always follows — leaving it unsaid is possible but sounds pointedly reluctant. It grants the minimum the other side asked for and no more, which makes it common in hedged answers; the evaluative ことに (嬉しいことに) is a different animal entirely.",
+      "usage_note": "Concedes a point by repeating the predicate around it: 読むことは読んだ, 安いことは安い. The first copy is usually plain non-past, the second carries the tense and politeness that count, and a が or けど with the speaker's real point almost always follows. It grants the minimum asked for and no more, which makes it common in hedged answers. The evaluative ことに (嬉しいことに) is a separate pattern.",
       "human_verified": false,
       "examples": [
         {

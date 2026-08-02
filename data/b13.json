@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "b13",
   "class_name": "対象-関連-ニマツワル類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1201",
       "canonical_surface": "にまつわっての",
+      "sense_rank": 1,
       "glosses": [
         "associated with; surrounding",
         "connected with (a story or legend)"
       ],
-      "usage_note": "Use it for what clings to something: the tales, legends, superstitions and memories attached to a place, object or name. It pairs most naturally with nouns like 話, 伝説, エピソード, 逸話, and it adds an air of narrative that the flatter に関する lacks; unlike をめぐって it implies no dispute at all. It is used almost exclusively as the prenominal にまつわる, so learners are safest sticking to that form. にまつわる attaches lore or association to a thing, while をめぐる puts a thing at the centre of contention: 遺産をめぐる争い but 遺産にまつわる話.",
+      "usage_note": "Names what clings to something: the tales, legends, superstitions and memories attached to a place, object or name, most often with 話, 伝説, エピソード, 逸話. It implies no dispute, unlike をめぐる: 遺産にまつわる話 against 遺産をめぐる争い. It appears almost entirely in the prenominal form にまつわる, and it adds a narrative air that the flatter に関する lacks.",
       "human_verified": false,
       "examples": [
         {

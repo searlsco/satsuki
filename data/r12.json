@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "r12",
   "class_name": "順接-限定-ナイコトニハ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0681",
       "canonical_surface": "ないと",
+      "sense_rank": 1,
       "glosses": [
         "have to; must",
         "if (you) don't …"
       ],
-      "usage_note": "This is the everyday spoken workhorse for obligation: the ないと clause names what has to happen, and the consequence is often simply dropped (そろそろ行かないと。), an ellipsis only the obligation reading allows, since the plain \"if you don't …\" conditional still needs its main clause. なきゃ and なくちゃ are the casual contractions of なければ and なくては; なければ and なくては are neutral; ねば is the older classical negative (ず の已然形 ね + ば) and reads stiff and bookish. Compared with ないことには, ないと is lighter and does not require the main clause to be negative.",
+      "usage_note": "States an obligation in everyday speech: the ないと clause names what has to happen, and the consequence is often dropped (そろそろ行かないと。), an ellipsis only the obligation reading allows. Its sibling ないことには is heavier and wants a main clause saying nothing can proceed; ないと is lighter and takes any main clause. なきゃ and なくちゃ are the casual contractions, なければ and なくては neutral, ねば classical and bookish.",
       "human_verified": false,
       "examples": [
         {
@@ -37,11 +40,12 @@
     {
       "l2_id": "0691",
       "canonical_surface": "ないことにゃ",
+      "sense_rank": 1,
       "glosses": [
         "unless; without (doing)",
         "until … happens, (nothing will)"
       ],
-      "usage_note": "ないことには presents the preceding clause as an indispensable prerequisite, and teaching references describe the main clause as regularly negative or as saying that nothing can proceed (判断できない, 話にならない, 始まらない). It is heavier and more deliberate than plain ないと, which is the ordinary conversational equivalent. ないことにゃ is the contracted colloquial form, at home in relaxed or gruff speech rather than in writing.",
+      "usage_note": "Presents the preceding clause as an indispensable prerequisite: until it happens, nothing else follows (現場を見ないことには、原因は分からない). The main clause is regularly negative or says matters cannot proceed (判断できない, 話にならない, 始まらない). Its sibling ないと is the ordinary conversational equivalent and carries no such restriction. ないことにゃ is the colloquial contraction, used in speech rather than writing.",
       "human_verified": false,
       "examples": [
         {

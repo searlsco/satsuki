@@ -1,24 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "x31",
   "class_name": "疑問-確認-ダッテ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2501",
       "canonical_surface": "だって",
+      "sense_rank": 4,
       "glosses": [
-        "so … , right? (checking what you heard)",
-        "…, is that right?",
-        "you're telling me … ?"
+        "…, is that right? (checking what you heard)",
+        "you're telling me …?"
       ],
-      "usage_note": "Rising-intonation だって: you throw back what you have just heard and ask the hearer to confirm it (校庭だって？ \"on the field, is it?\"), so it belongs to a question turn rather than to a plain report. It comes from the quotative って on the copula だ and so rides on nouns; in real speech it equally follows the explanatory ん (行くんだって？), an attachment this corpus rule does not license. The same string said on a falling tone is the sibling hearsay use that simply passes the news along (中止だって。); only this checking use invites an answer. ですって is the polite variant and reads as feminine in most speech. Do not confuse it with the homophonous sentence-initial だって \"because\" or the 〜だって \"even/also\" of 子供だって知っている.",
+      "usage_note": "Throws back what the speaker has just heard and asks the hearer to confirm it, on a rising tone: on a noun (校庭だって？), and in speech on a plain-form verb with or without ん (行くだって？, 行くんだって？), an attachment this corpus rule does not license. Three siblings share the string: the same form on a falling tone reports the news (臨時休業だって), 'even' on a bare noun (子供だって), and 'even if' on a ta-stem verb (呼んだって).",
       "human_verified": false,
       "examples": [
         {

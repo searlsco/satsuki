@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "G41",
   "class_name": "意志-覚悟-テミセル類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1891",
       "canonical_surface": "でもみせ",
+      "sense_rank": 1,
       "glosses": [
-        "actually go and do …, to prove it",
-        "not just say it — do … in front of them"
+        "will definitely …, just watch",
+        "do … to show it; demonstrate by doing"
       ],
-      "usage_note": "Literally 'do it and show you', 〜てみせる has two lives: a declaration of resolve, typically in the plain form and directed at doubters, and a demonstration performed for someone's benefit (先生が書いてみせた). Because it asserts the speaker's will it pairs with volitional verbs, not with things that merely happen. Inserting も (〜てもみせる) puts the act alongside something already done or said: not merely claiming, but performing it for others to see, and it is at home in past narration rather than in a forward-looking vow. Finally, the て/で alternation follows the ordinary te-form of the attached verb.",
+      "usage_note": "Declares resolve by promising the act itself: 〜てみせる is 'do it and show you', either a vow aimed at doubters (登ってみせる) or a demonstration performed for someone's benefit (先生が書いてみせた). Because it asserts the speaker's will it takes volitional verbs, not events that merely happen. The も of 〜てもみせる sets the act against something already said or claimed, typically in past narration (泳いでもみせた).",
       "human_verified": false,
       "examples": [
         {

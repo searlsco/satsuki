@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "a21",
   "class_name": "立場-視点-ニトッテ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0011",
       "canonical_surface": "にとっての",
+      "sense_rank": 1,
       "glosses": [
         "for (someone)",
         "to (someone)",
         "as far as … is concerned"
       ],
-      "usage_note": "Marks the person or group for whom an evaluation holds, so it is almost always followed by an assessing predicate (大切だ, ありがたい, 難[むずか]しい) rather than by an action the noun performs. Where からすると invites you to reason from that party's position toward a conclusion, にとって simply says who the value judgment is true for. にとっての is the adnominal shape used before a noun (私にとっての宝物); にとりまして is the polite business variant and にとっちゃ the casual one.",
+      "usage_note": "Marks the person or group for whom an evaluation holds, so the predicate is almost always an assessment (大切だ, ありがたい, 難しい) rather than something the noun does. からすると reasons from that party's position toward a conclusion; にとって only says who the judgment is true for. にとっての is the shape used before a noun (私にとっての宝物), にとりまして the polite variant and にとっちゃ the casual one.",
       "human_verified": false,
       "examples": [
         {

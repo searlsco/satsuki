@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "D44",
   "class_name": "判断-断定-トイッタラナイ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2351",
       "canonical_surface": "ったらない",
+      "sense_rank": 1,
       "glosses": [
         "indescribably …; … beyond words",
         "you have no idea how …"
       ],
-      "usage_note": "A colloquial contraction of といったらない, which itself comes from \"if you were to put it into words, there'd be no words.\" It attaches to an i-adjective or to a noun, very often a さ-nominalization (暑さ, うるささ). References describe といったらない as usable for both praise and complaint, while the longer といったらありゃしない is reserved for negative evaluations; in practice the ったらない contraction leans strongly toward exasperation. Compare 限り (l2_id 2361), which is polite and centers on the speaker's own emotion.",
+      "usage_note": "Says a quality is past describing: 暑いったらない, あいつの態度といったらない. It attaches to an i-adjective or a noun, very often a さ-nominalization. References describe といったらない as taking both praise and complaint, but the contracted ったらない usually voices exasperation, and といったらありゃしない is for negative evaluation only. Its sibling 限りだ is polite and centres on the speaker's own feeling.",
       "human_verified": false,
       "examples": [
         {
@@ -37,11 +40,12 @@
     {
       "l2_id": "2361",
       "canonical_surface": "かぎり",
+      "sense_rank": 1,
       "glosses": [
         "nothing could be more …; utterly …",
         "I couldn't be more …"
       ],
-      "usage_note": "〜限りだ marks an emotion at its ceiling: \"there is nothing beyond this.\" The corpus licenses an i-adjective before it; な-adjectives occasionally appear (残念な限りです), but the pattern is overwhelmingly i-adjectival: 嬉しい／恥ずかしい／羨ましい／心強い限りだ. Teaching references present it as describing the speaker's own feeling, so it pairs with emotion adjectives such as 嬉しい, 恥ずかしい, 心強い, 羨ましい rather than with plain descriptive ones. Register is polite and slightly formal, at home in greetings, speeches, and business email, which sets it apart from the blunt colloquial ったらない (l2_id 2351).",
+      "usage_note": "〜限りだ marks a feeling at its ceiling, with nothing beyond it: 嬉しい限りです, お恥ずかしい限りです, 心強い限りです. It reports the speaker's own emotion, so it pairs with emotion adjectives (嬉しい, 恥ずかしい, 心強い, 羨ましい) rather than plain descriptive ones. The register is polite and slightly formal, used in greetings, speeches and business email, unlike the blunt colloquial ったらない.",
       "human_verified": false,
       "examples": [
         {
@@ -61,11 +65,12 @@
     {
       "l2_id": "2523",
       "canonical_surface": "だい",
+      "sense_rank": 3,
       "glosses": [
         "it IS …, I tell you!",
-        "… , and that's that!"
+        "…, and that's that!"
       ],
-      "usage_note": "Assertive だい: the copula だ plus the emphatic 終助詞 い, driving a flat declaration home against someone who doubts it (嘘だい, ぼくの勝ちだい). There is no question word and the intonation falls, which is what separates it from the two homophone siblings — the wh-question だい (l2 2521) needs 誰／何／どこ and really asks, and the rhetorical だい (l2 2522) needs 何が／どこが and denies the label it quotes. It attaches to a noun, so it does not follow a verb directly, and it belongs to children's protests and 下町-flavored older male speech; the polite counterpart is simply です with an emphatic よ.",
+      "usage_note": "Flat assertion pushed back against doubt: だ plus the emphatic 終助詞 い, restating a fact the hearer is disputing (嘘だい, ぼくの勝ちだい), with no question word and falling intonation. The sibling senses are questions in form: a genuine wh-question with 誰 or いつ (誰だい), and a denial dressed as a question with 何が or どこが (何が名医だい). It attaches to a noun, and belongs to children's protests and older male speech.",
       "human_verified": false,
       "examples": [
         {
@@ -85,11 +90,12 @@
     {
       "l2_id": "2651",
       "canonical_surface": "というもん",
+      "sense_rank": 1,
       "glosses": [
         "that's what … is; that's just how … is",
         "that's what you call …"
       ],
-      "usage_note": "というものだ delivers a generalization as something self-evident, often with a faint tone of instruction or admonishment: this is simply how the world works. It attaches to a noun, a plain-form verb, an i-adjective, or だ/た. ってもん and というもん are the spoken contractions and sound noticeably rougher and more sententious. Do not confuse it with というものではない, which denies a generalization rather than asserting one.",
+      "usage_note": "Delivers a generalization as something self-evident, often with a note of instruction: 友達ってもんだろう, 人の失敗を責めないのが大人というものだ. It attaches to a noun, a plain-form verb, an i-adjective, or だ／た, and ってもん／というもん are the spoken contractions, rougher and more sententious. というものではない denies a generalization rather than asserting one.",
       "human_verified": false,
       "examples": [
         {

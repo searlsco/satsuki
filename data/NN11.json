@@ -1,24 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "N11",
   "class_name": "目的-般-タメニ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0732",
       "canonical_surface": "ための",
+      "sense_rank": 1,
       "glosses": [
         "in order to …",
-        "for the purpose of …",
-        "for …ing"
+        "for the sake of …"
       ],
-      "usage_note": "The general-purpose goal marker: on the dictionary form it states the aim that the main clause action serves, so the main predicate is normally a deliberate, controllable action (勉強する, 貯める, 買う). ために modifies a verb; ための modifies a following noun (合格するための勉強). When the main predicate is instead an evaluation, a cost, or a requirement (便利だ, 必要だ, 時間がかかる), のに is the natural choice rather than ために. A different ため means \"because\"; the diagnostic that actually separates the two is form, not volition: causal ため follows a past or stative clause or a noun + の (病気のため, 彼が辞めたため), while the purpose reading requires a non-past volitional verb.",
+      "usage_note": "Names the goal an action serves: a non-past volitional verb or a noun plus の states the aim, and the main clause is the deliberate action taken to reach it (合格するために勉強する, 家族のために働く). The sibling entry is the causal ため, which gives the reason something happened (大雪のため中止). ために modifies a verb and ための a following noun (留学するための資金); where the main clause reports a cost or an evaluation rather than a chosen action, のに is used.",
       "human_verified": false,
       "examples": [
         {
@@ -38,12 +40,13 @@
     {
       "l2_id": "0861",
       "canonical_surface": "んに",
+      "sense_rank": 1,
       "glosses": [
         "for …ing",
         "when it comes to …ing",
         "in …ing"
       ],
-      "usage_note": "Also on the dictionary form, but the frame is different from ために: のに introduces the use an object or route is being judged for, so the main clause is typically an evaluation, a requirement, or a cost (便利だ, ちょうどいい, 必要だ, 時間がかかる, 金がかかる). んに is the contraction of のに and appears in relaxed and regional speech. Keep it apart from the concessive のに (\"even though\"), which follows the plain form of any predicate and takes な after na-adjectives and nouns (静[しず]かなのに, 学生[がくせい]なのに) and takes a clause on both sides.",
+      "usage_note": "Names the use something is judged for: the main clause gives an evaluation, a requirement, or a cost (調べるのに便利だ, 歩くのに二十分かかる). ために states the aim a deliberate action serves instead. んに is a relaxed, regional contraction of のに. The concessive のに \"even though\" is a different pattern, taking a clause on both sides and な after na-adjectives and nouns (静かなのに).",
       "human_verified": false,
       "examples": [
         {

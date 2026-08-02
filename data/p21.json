@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "p21",
   "class_name": "継起-最後-タキリ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0501",
       "canonical_surface": "だっきり",
+      "sense_rank": 1,
       "glosses": [
         "… and that was the last of it",
         "has not … since",
         "only that once"
       ],
-      "usage_note": "Emphatic colloquial variant of 〜たきり (the small っ is what adds the emphasis), attached to the plain past form of a verb: it marks that action as the last time, with nothing following it. The second clause is almost always negative or otherwise describes a state that has simply persisted ever since, and the pattern typically carries worry, resignation, or mild complaint rather than neutral reporting. Reserve it for speech and casual writing; 〜たきり is the neutral form and 〜たまま is the choice when you mean a state left unchanged rather than an event never repeated.",
+      "usage_note": "Attaches to a verb's plain past form and marks that action as the last of its kind, with nothing since (部屋に駆け込んだっきり出て来ない). The second clause is normally negative or reports a state that has persisted ever since, and the pattern usually carries worry, resignation, or complaint. だっきり and たっきり are the emphatic colloquial variants of たきり; 〜たまま is the choice for a state left unchanged rather than an event never repeated.",
       "human_verified": false,
       "examples": [
         {

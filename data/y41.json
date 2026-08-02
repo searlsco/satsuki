@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "y41",
   "class_name": "否定-般-ナイ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1641",
       "canonical_surface": "わけじゃない",
+      "sense_rank": 1,
       "glosses": [
         "it's not that …",
         "it doesn't mean that …"
       ],
-      "usage_note": "Partial negation: it denies a conclusion the listener might reasonably have drawn rather than the fact itself, so it typically heads off a misunderstanding. わけではない is the stiffer written variant and わけじゃない the spoken one, while わけでもない softens further to \"not exactly\". It attaches adnominally (plain forms; な after a na-adjective; nouns normally take という, as in 学生というわけではない); keep it distinct from わけがない, which denies possibility outright. Unlike 〜とは限らない, which denies that a claim holds in every case, わけではない denies one specific inference the listener has drawn.",
+      "usage_note": "Partial negation: it denies a conclusion the listener could reasonably have drawn rather than the fact itself, so it heads off a misunderstanding (特別つらいわけじゃない). わけがない denies possibility outright, and 〜とは限らない denies that a claim holds in every case, whereas this denies one specific inference. It attaches adnominally, with な after a na-adjective and normally という after a noun (学生というわけではない).",
       "human_verified": false,
       "examples": [
         {
@@ -37,11 +40,12 @@
     {
       "l2_id": "3341",
       "canonical_surface": "ない",
+      "sense_rank": 1,
       "glosses": [
         "not",
         "don't"
       ],
-      "usage_note": "The everyday plain negative auxiliary: 未然形 plus ない for verbs (する becomes しない, 来る becomes こない), く plus ない for i-adjectives. ある is suppletive, its negative being simply ない. Polite speech normally uses 〜ません, with 〜ないです common but casual. The ず/ぬ series is the stiff written counterpart of the same meaning.",
+      "usage_note": "The everyday plain negative: 未然形 plus ない on verbs (する becomes しない, 来る becomes こない), く plus ない on i-adjectives (高くない). ある is suppletive, its negative being simply ない. Polite speech normally uses 〜ません, with 〜ないです common but casual, and the ず／ぬ series is the stiff written counterpart of the same meaning.",
       "human_verified": false,
       "examples": [
         {
@@ -61,11 +65,12 @@
     {
       "l2_id": "3351",
       "canonical_surface": "ね",
+      "sense_rank": 2,
       "glosses": [
-        "if … not (…ねば)",
-        "have to … (…ねばならない)"
+        "not (literary negative auxiliary)",
+        "without …ing (…ずに)"
       ],
-      "usage_note": "The classical negative ぬ, surviving in modern Japanese as adverbial ず (\"without …ing\"), prenominal ぬ, the casual contraction ん, and the 仮定形 ね, which survives only in 〜ねばならない/〜ねばなるまい. It attaches to 未然形, with する irregularly becoming せ (せず, せねば). ず and ぬ read as formal or literary and ん as colloquial with a strong western-dialect flavor, whereas ない is the neutral everyday choice.",
+      "usage_note": "The classical negative auxiliary negates a verb on its 未然形: adverbial ず (何も言わず), prenominal ぬ (知らぬ人), colloquial ん (行かん), and the conditional ね, now mostly limited to 〜ねば and 〜ねばならない. The identical ね of そうですね is a separate entry, the sentence-final particle seeking agreement. する is irregular, giving せず and せねば, and ぬ and bare ず read as literary beside everyday ない, though 〜ずに is ordinary.",
       "human_verified": false,
       "examples": [
         {
@@ -73,8 +78,8 @@
           "english": "I ended up going into the real thing with no preparation at all."
         },
         {
-          "ruby": "祖父[そふ]は何[なに]も言[い]わず、私[わたし]の肩[かた]を軽[かる]く叩[たた]いた。",
-          "english": "My grandfather said nothing, and just gave my shoulder a light pat."
+          "ruby": "彼[かれ]がなぜ怒[おこ]ったのか、さっぱり分[わ]からん。",
+          "english": "I have no idea at all why he got angry."
         },
         {
           "ruby": "一歩[いっぽ]も外[そと]に出[で]ぬまま冬[ふゆ]が終[お]わった。",

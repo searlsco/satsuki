@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "r22",
   "class_name": "順接-仮定-ナラ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0581",
       "canonical_surface": "なら",
+      "sense_rank": 1,
       "glosses": [
         "if; if it's the case that",
         "if you're talking about; as for"
       ],
-      "usage_note": "Picks up something already in play — what the other person just said, or a topic on the table — and responds to it with advice, an offer or a judgment, which is why it attaches straight to a bare noun (それなら, 温泉なら) and why commands, requests and statements of intention are perfectly at home in the main clause, unlike と, which bars them outright, and unlike ば, which permits them only when its own clause is stative (安ければ買いたい is fine, ×東京へ行けば連絡してください is not). It is also the one conditional with no fixed time order: 日本へ行くなら地図を買っておきなさい has the buying happen before the going, where 日本へ行ったら地図を買います puts it after arrival.",
+      "usage_note": "Picks up something already in play, what the other person just said or a topic on the table, and answers it with advice, an offer, or a judgment (温泉なら平日がいい). It attaches straight to a bare noun (それなら), and commands, requests, and statements of intention are free in its main clause, which と bars outright. It also has no fixed time order: 日本へ行くなら地図を買っておきなさい puts the buying before the trip, where 行ったら puts it after.",
       "human_verified": false,
       "examples": [
         {
@@ -37,11 +40,12 @@
     {
       "l2_id": "0631",
       "canonical_surface": "うもんなら",
+      "sense_rank": 1,
       "glosses": [
         "if one so much as …",
-        "if you were to so much as …, (disaster)"
+        "if you dare to …"
       ],
-      "usage_note": "Built on the volitional form plus ものなら, it names an action the speaker treats as reckless and follows it with an exaggerated disaster, so the main clause is virtually always undesirable and the tone is one of dread or grumbling. Pair it with 少しでも or 一度でも to sharpen the \"so much as\" reading. もんなら is the spoken contraction of ものなら; do not confuse it with plain 〜ものなら on the dictionary or potential form, which expresses a wish rather than a threat.",
+      "usage_note": "Names an action the speaker treats as reckless and follows it with an exaggerated disaster, so the main clause is nearly always undesirable and the tone is dread or grumbling (文句を言おうもんなら三倍返しだ). It attaches to the volitional form, and 少しでも or 一度でも sharpens the \"so much as\" reading. The sibling 〜ものなら on a potential verb (戻れるものなら) expresses a wish rather than a threat; もんなら is the spoken contraction of ものなら in both.",
       "human_verified": false,
       "examples": [
         {
@@ -61,11 +65,12 @@
     {
       "l2_id": "0641",
       "canonical_surface": "もんなら",
+      "sense_rank": 1,
       "glosses": [
         "if only one could …",
         "if you can, then (go ahead and) …"
       ],
-      "usage_note": "Attaches to the dictionary form, and in practice almost always to a potential verb (戻れる, できる, 止められる), because the whole point is a condition the speaker regards as barely possible. Two settings dominate: a wistful wish, where the main clause ends in 〜たい, and a taunt, where it ends in 〜てみろ／〜てみせろ and dares the listener to try. もんなら is the casual contraction of ものなら; the volitional-form 〜(よ)うものなら is a different pattern that predicts a disaster instead.",
+      "usage_note": "Names a condition the speaker regards as barely possible, and in practice almost always attaches to a potential verb (戻れる, できる, 止められる). Two settings dominate: a wistful wish, where the main clause ends in 〜たい, and a taunt, where it ends in 〜てみろ and dares the listener to try. The volitional-form sibling 〜(よ)うものなら predicts a disaster instead; もんなら is the casual contraction of ものなら.",
       "human_verified": false,
       "examples": [
         {

@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "s11",
   "class_name": "理由-因状況-イジョウハ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0831",
       "canonical_surface": "からにゃ",
+      "sense_rank": 1,
       "glosses": [
         "now that; if it comes to",
         "since (one has committed to)"
       ],
-      "usage_note": "からにゃ is a rough spoken squeeze of からには, at home in blunt male speech and fiction dialogue; the neutral forms are からには and the terser からは. It takes a fact the speaker has accepted and demands the resolve that ought to follow, so the second clause is typically a vow, an obligation, or an urging (〜つもりだ、〜べきだ、〜てほしい) rather than a neutral consequence. The front clause is normally something someone deliberately did or decided, which is why uncontrollable events like 雨が降るからには sound off; 以上は takes those comfortably.",
+      "usage_note": "Takes a fact the speaker has accepted and demands the resolve that ought to follow, so the second clause is typically a vow, an obligation, or an urging (引き受けたからには投げ出さない) rather than a neutral consequence. The front clause is normally something someone deliberately did or decided, which is why uncontrollable events like 雨が降るからには sound off; 以上は takes those. からにゃ is a rough spoken squeeze of からには, found in blunt speech and fiction dialogue.",
       "human_verified": false,
       "examples": [
         {
@@ -37,11 +40,12 @@
     {
       "l2_id": "0841",
       "canonical_surface": "いじょうは",
+      "sense_rank": 1,
       "glosses": [
         "now that; since; as long as",
         "given that"
       ],
-      "usage_note": "Marks a fact the speaker consciously acknowledges, and the clause that follows states the responsibility, resolve, or judgment that logically falls out of it. It is the flexible middle sibling: unlike からには, which wants a course of action someone chose, 以上は also accepts circumstances nobody chose (雨で中止になった以上は…), and unlike 上は it works in speech as easily as in writing. It also attaches to nouns and な-adjectives through である (学生である以上は).",
+      "usage_note": "Marks a fact the speaker consciously acknowledges, and the clause that follows states the responsibility, resolve, or judgment that falls out of it (医者に止められた以上は酒は控える). It is the flexible sibling: からには wants a course of action someone chose, while 以上は also accepts circumstances nobody chose (雨で中止になった以上は), and 上は belongs to formal writing and speeches. It attaches to nouns and な-adjectives through である (学生である以上は).",
       "human_verified": false,
       "examples": [
         {
@@ -61,11 +65,12 @@
     {
       "l2_id": "0851",
       "canonical_surface": "うえは",
+      "sense_rank": 1,
       "glosses": [
         "now that; since",
-        "seeing that (there is no turning back)"
+        "seeing that"
       ],
-      "usage_note": "The stiffest member of the trio, at home in speeches, editorials, and narration rather than conversation. The front clause names a commitment or a situation the speaker treats as already sealed — the fixed かくなる上は and the past-form こうなった上は are its signature openings — and the second clause states what one is now bound to do or the single course left, so it carries a note of burnt bridges that 以上は lacks; for a neutral or impersonal premise, and in ordinary speech, 以上は is the safer choice and has largely displaced 上は in modern prose. Its most idiomatic openings are かくなる上は and the past-form こうなった上は; with a non-past verb, take care, since 〜する上は is easily misread as the unrelated 〜する上で (\"in the course of doing X\").",
+      "usage_note": "Names a commitment or a situation the speaker treats as already sealed, and the main clause states what one is now bound to do or the single course left, with a note of burnt bridges. 以上は takes a neutral premise as readily and has largely displaced 上は outside speeches, editorials, and narration. かくなる上は and the past-form こうなった上は are its signature openings; with a non-past verb it is easily misread as the unrelated 〜する上で, \"in the course of doing\".",
       "human_verified": false,
       "examples": [
         {

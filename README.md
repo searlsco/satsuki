@@ -15,6 +15,14 @@ with:
 - **usage_note**: the disambiguation guidance a learner needs to choose this
   pattern over its near-synonyms (nuance, register, restrictions,
   attachment quirks)
+- **sense_rank**: reading order among the patterns sharing this surface,
+  `1` for the sense a learner meets first and most often. Tsutsuji files
+  one surface under several semantic classes when it has several senses
+  (によって three times); those siblings are ranked `1..n`, and a surface
+  with no sibling is simply its own `1`. Consumers that merge same-surface
+  patterns into a single entry should lead with rank 1 and order the rest
+  by rank; Tsutsuji difficulty cannot recover this on its own, being flat
+  across the lanes in about half of all such families
 - **examples**: 3 original example sentences, each with inline bracket ruby
   (`家[いえ]に帰[かえ]るとすぐに寝[ね]た。`) and a natural English
   translation
@@ -31,7 +39,7 @@ order, each with its own `human_verified` flag:
 
 ```json
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "o11",
   "class_name": "同時性-般-トスグニ類",
   "tsutsuji_version": "1.1u",
@@ -40,6 +48,7 @@ order, each with its own `human_verified` flag:
     {
       "l2_id": "0351",
       "canonical_surface": "とすぐに",
+      "sense_rank": 1,
       "glosses": ["as soon as", "right after", "immediately after"],
       "usage_note": "...",
       "human_verified": false,

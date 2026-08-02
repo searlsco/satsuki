@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "B31",
   "class_name": "過去-事後-タトコロ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1412",
       "canonical_surface": "だとこ",
+      "sense_rank": 1,
       "glosses": [
         "have just (done)",
         "just this moment (did)"
       ],
-      "usage_note": "〜たところ pins the instant right after an action ends, and the interval really has to be short, so it resists 三日前に-type past adverbs that 〜たばかり accepts happily. It also does not modify a noun: ×買ったところの服 against ○買ったばかりの服. Use 〜ていたところ instead when the action was still under way; とこ is the casual clipping of ところ.",
+      "usage_note": "Pins the instant just after an action ends: the event is over and the moment is now (今ちょうど着いたところです). Its class siblings are 〜ていたところ, the action still under way, and 〜たばかり, which presents an event as recent and tolerates real elapsed time (去年買ったばかり). 〜たところ resists past adverbs like 三日前に and does not modify a noun: 買ったばかりの服, not 買ったところの服.",
       "human_verified": false,
       "examples": [
         {
@@ -37,11 +40,12 @@
     {
       "l2_id": "1431",
       "canonical_surface": "でたところ",
+      "sense_rank": 1,
       "glosses": [
         "was just …ing (when)",
         "was in the middle of …ing"
       ],
-      "usage_note": "〜ていたところ freezes an action that was still in progress, typically at the point where something interrupts it, or to announce that you were on the verge of doing the very thing being asked about. Compare 〜たところ, which is the moment just after the action finished, and 〜たばかり, which is about how recent something feels. てた/でた is the everyday contraction of ていた/でいた.",
+      "usage_note": "Freezes an action that was still in progress, typically at the point something interrupts it (シャワーを浴びていたところに宅配便が来た), and with 〜ようと思っていたところ announces you were on the verge of doing the very thing being asked about. Its class siblings are 〜たところ, the moment just after the action finished, and 〜たばかり, which reports an event as recent.",
       "human_verified": false,
       "examples": [
         {
@@ -61,10 +65,11 @@
     {
       "l2_id": "1441",
       "canonical_surface": "だばっかり",
+      "sense_rank": 1,
       "glosses": [
         "just (did); only just"
       ],
-      "usage_note": "〜たばかり expresses the speaker's sense that something is still fresh, so unlike 〜たところ it survives a real stretch of elapsed time (三年前に建ったばかりのビル) and it can modify a noun directly (買ったばかりの車). ばっかり is the emphatic colloquial form of ばかり. Read it as 'only just', not as the limiting 'nothing but' sense that ばかり has after a noun.",
+      "usage_note": "Presents an action as recent in the speaker's judgment rather than by the clock, so it accepts a real stretch of elapsed time (三年前に建ったばかりのビル) where its sibling 〜たところ, the instant just after the action, does not. It also modifies a noun directly (買ったばかりの車), which 〜たところ cannot. After a noun ばかり carries the unrelated limiting sense \"nothing but\"; this lane is \"only just\".",
       "human_verified": false,
       "examples": [
         {

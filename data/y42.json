@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "y42",
   "class_name": "否定-般-マイトスル類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1911",
       "canonical_surface": "まいとはし",
+      "sense_rank": 1,
       "glosses": [
         "try not to …",
         "be determined not to …"
       ],
-      "usage_note": "まい is the negative volitional, so 〜まいとする is resolving or straining not to do something, most often an involuntary reaction the subject is suppressing. Godan verbs take the dictionary form (泣くまい); ichidan and する verbs appear both in the full form (見るまい, するまい) and, in more literary usage, shortened on the 未然形 (見まい, すまい, しまい). The は of 〜まいとはした marks contrast, conceding the attempt just before reporting that it failed, and the whole pattern belongs to narrative and written prose rather than casual talk.",
+      "usage_note": "Resolving or straining not to do something, most often an involuntary reaction the subject is suppressing (泣くまいとして天井を見ていた); まい is the negative volitional and する supplies the effort. The は of 〜まいとはした marks contrast, conceding the attempt just before reporting that it failed. Godan verbs take the dictionary form (泣くまい), while ichidan and する verbs appear both in full (見るまい) and, in more literary usage, shortened (見まい, すまい). It belongs to narrative and written prose.",
       "human_verified": false,
       "examples": [
         {

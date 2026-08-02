@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "z23",
   "class_name": "願望-働きかけ-ナイカイ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2151",
       "canonical_surface": "うじゃないか",
+      "sense_rank": 1,
       "glosses": [
         "let's …, what do you say?",
         "come on, let's …",
         "how about we just …"
       ],
-      "usage_note": "Volitional stem + じゃないか: a rallying exhortation that treats agreement as the obvious answer, so it feels more forceful and more theatrical than plain 〜ようか. It leans masculine and speech-like, and in a confrontational context it reads as a challenge ('fine, let's settle it, then'). Polite うじゃないですか and stiff/literary うではないか are the same pattern dressed up.",
+      "usage_note": "Volitional stem + じゃないか: a rallying exhortation that treats agreement as the obvious answer (頂上まで登ろうじゃないか). It is more forceful and more theatrical than 〜ようか, which simply offers, and in a confrontational context it reads as a challenge. It is typically masculine and speech-like; うじゃないですか is the polite form and うではないか the literary one.",
       "human_verified": false,
       "examples": [
         {
@@ -38,12 +41,12 @@
     {
       "l2_id": "2532",
       "canonical_surface": "うか",
+      "sense_rank": 1,
       "glosses": [
         "shall I …?",
-        "shall we …?",
-        "how about I/we …"
+        "shall we …?"
       ],
-      "usage_note": "Volitional stem + か, the neutral workhorse of this group: it either offers the speaker's own action ('shall I get that?') or floats a joint plan, with the listener free to decline. It is softer and less staged than 〜ようじゃないか, and unlike 〜ないか, which frames the act as something the listener is being asked to agree to, 〜うか presupposes the speaker's own willingness and merely checks timing or acceptance. Attaches only to the volitional stem, so there is no noun or adjective use.",
+      "usage_note": "Offers the speaker's own action or floats a joint plan: 半分持とうか offers help, そろそろ出ようか proposes leaving together, and the listener is free to decline. The sibling lane is rhetorical denial, a question asked in order to deny it (誰が従おうか, どうして忘れようか). Unlike ないか, which asks the listener to agree to the act, it presupposes the speaker's own willingness and checks only acceptance.",
       "human_verified": false,
       "examples": [
         {
@@ -63,12 +66,13 @@
     {
       "l2_id": "2601",
       "canonical_surface": "ないか",
+      "sense_rank": 1,
       "glosses": [
         "won't you …?",
         "why don't you …?",
         "how about …ing?"
       ],
-      "usage_note": "A negative question used as an invitation: it hands the decision to the listener, where 〜ようか assumes the speaker is already in. Plain-form 〜ないか as an invitation reads somewhat masculine; 〜ない？ with rising intonation is the gender-neutral casual equivalent, and in polite speech the everyday equivalent is 〜ませんか rather than the ないですか realization. Note that the corpus attachment here is verbal only; the superficially similar 〜じゃないか after nouns and adjectives is a different construction.",
+      "usage_note": "A negative question used as an invitation, handing the decision to the listener (一緒に美術館を回らないか), where 〜ようか assumes the speaker is already in. Plain-form 〜ないか as an invitation is typically masculine; 〜ない？ with rising intonation is the gender-neutral casual equivalent and 〜ませんか the everyday polite one. It attaches to verbs here; the 〜じゃないか that follows nouns and adjectives is a different construction.",
       "human_verified": false,
       "examples": [
         {
@@ -88,11 +92,12 @@
     {
       "l2_id": "2611",
       "canonical_surface": "ないかい",
+      "sense_rank": 1,
       "glosses": [
         "won't you …, hm?",
         "how about …ing, eh?"
       ],
-      "usage_note": "〜ないか softened by the casual question particle かい, giving a warm, coaxing invitation rather than a brisk one. In contemporary Japanese it is strongly typecast: fiction hands it to older male speakers (grandfathers, mentors, gruff shopkeepers), so learners should treat it as flavored speech rather than a neutral option. The polite counterpart in this register is 〜ませんかい, and it is rare enough to stay period-flavored.",
+      "usage_note": "〜ないか with the casual question particle かい, giving a coaxing invitation rather than a brisk one (そこらで一服しないかい). かい is used mainly by male speakers downward or to intimates, and fiction typecasts 〜ないかい for older men, so it carries that voice instead of reading as neutral. In polite speech the ordinary invitation is 〜ませんか.",
       "human_verified": false,
       "examples": [
         {

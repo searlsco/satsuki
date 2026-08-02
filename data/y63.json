@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "y63",
   "class_name": "否定-不可能-テイラレナイ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1781",
       "canonical_surface": "じゃいられない",
+      "sense_rank": 1,
       "glosses": [
         "can't just keep …ing",
         "cannot afford to stay …",
         "can't stand idly by"
       ],
-      "usage_note": "て／で + いる + られない: the speaker cannot go on remaining in the state they are in, usually because something urgent has broken in, so the form carries restlessness or alarm rather than plain inability. Unlike わけにはいかない, which denies permission, ていられない denies the possibility of continuing the current state. In real Japanese ではいられない also attaches straight to nouns and na-adjectives (他人事ではいられない, 冷静ではいられない). じゃいられない and ちゃいられない are the contracted conversational shapes of ではいられない and てはいられない.",
+      "usage_note": "The speaker cannot go on remaining in the state they are in, usually because something urgent has broken in, so the form carries restlessness or alarm rather than plain inability (テレビを見てはいられない). Unlike わけにはいかない, which denies permission, this denies the possibility of continuing the current state. ではいられない also attaches straight to nouns and な-adjectives (冷静ではいられない); じゃいられない and ちゃいられない are the contracted conversational shapes.",
       "human_verified": false,
       "examples": [
         {

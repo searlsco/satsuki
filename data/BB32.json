@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "B32",
   "class_name": "過去-事後-テアル類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1421",
       "canonical_surface": "でさえあり",
+      "sense_rank": 1,
       "glosses": [
         "has been done (and left that way)",
         "is already taken care of"
       ],
-      "usage_note": "Attaches to the te-form of what is almost always a transitive verb and reports the lingering result of something a person did on purpose, very often a preparation made in advance; the doer usually goes unmentioned, and the affected thing is marked が／は when the sentence describes the resulting state (窓が開けてある), and を when it reports the speaker's own advance preparation (切符はもう買ってある／切符をもう買ってある). Inserting a particle, as the headword てはある／てもある／てさえある does, turns the same frame into a concession or a point of emphasis. Contrast intransitive + ている (窓が開いている, a bare state) with transitive + てある (窓が開けてある, a state someone arranged).",
+      "usage_note": "Attaches to the te-form of a transitive verb and reports the lingering result of a deliberate act, very often a preparation made in advance (切符はもう買ってある); the doer usually goes unmentioned. The contrast to learn is intransitive + ている (窓が開いている, a bare state) against transitive + てある (窓が開けてある, a state someone arranged). Inserting a particle, as in てはある／てもある, turns the same frame into a concession or emphasis.",
       "human_verified": false,
       "examples": [
         {

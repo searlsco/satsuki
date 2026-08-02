@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "K31",
   "class_name": "授受-内の受益-テモラウ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1291",
       "canonical_surface": "でさえもらい",
+      "sense_rank": 1,
       "glosses": [
         "get (someone) to do …",
         "have … done for one's benefit"
       ],
-      "usage_note": "The receiver is the subject, so the event is framed as a benefit obtained, very often one the receiver arranged or asked for; てくれる (1271) reports the same favor with the giver as subject. The person who acts is marked with に (から is also possible when something is handed over or told). Unlike てくれる, the beneficiary here need not be the speaker: 弟は先輩に直してもらった is fine. The humble counterpart is ていただく (1301).",
+      "usage_note": "Frames an event as a benefit the receiver obtained, with the receiver as subject and the person who acts marked with に (から when something is handed over or told): 兄に自転車を直してもらった. てくれる reports the same favor with the giver as subject, and ていただく is the humble version used when the actor outranks you. The beneficiary need not be the speaker: 弟は先輩に直してもらった is fine.",
       "human_verified": false,
       "examples": [
         {
@@ -37,11 +40,12 @@
     {
       "l2_id": "1301",
       "canonical_surface": "でさえいただき",
+      "sense_rank": 1,
       "glosses": [
         "humbly receive the favor of …",
         "have (someone) kindly do …"
       ],
-      "usage_note": "The humble (謙譲語) counterpart of てもらう, used when the person doing the favor outranks you; 〜ていただけますか / 〜ていただけませんか are the standard way to phrase a business request. Keep one perspective per sentence: ていただく puts you, the receiver, in the subject slot, while てくださる (1281) keeps the other person there. 頂く and 戴く are the kanji spellings, but the auxiliary is usually written in kana.",
+      "usage_note": "The humble counterpart of てもらう: the receiver is the subject and the person doing the favor outranks them (先生に読んでいただいた). てくださる puts that other person in the subject slot instead, so keep one perspective per sentence. 〜ていただけますか and 〜ていただけませんか are the standard business request forms, and the auxiliary is usually written in kana rather than 頂く or 戴く.",
       "human_verified": false,
       "examples": [
         {

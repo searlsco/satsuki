@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "J11",
   "class_name": "進行-習慣-コトニシテイル類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2401",
       "canonical_surface": "ことにして",
+      "sense_rank": 1,
       "glosses": [
         "make a point of …",
         "make it a rule to …",
         "have decided to …"
       ],
-      "usage_note": "ことにする (a decision the speaker makes) in the ている form: a self-imposed habit or policy that the speaker keeps up. Contrast ことになっている, where the rule is imposed from outside. It attaches to the dictionary form, and the negative habit uses the plain negative (食べないことにしている). ことにしてる and the polite ことにしてます are the spoken contractions.",
+      "usage_note": "Names a self-imposed habit: 〜ことにしている reports a policy the speaker decided on and keeps up (毎晩犬と歩くことにしている). Contrast ことになっている, where the arrangement is imposed from outside. It attaches to the dictionary form, and a habit of not doing something uses the plain negative (食べないことにしている).",
       "human_verified": false,
       "examples": [
         {

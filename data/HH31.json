@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "H31",
   "class_name": "自然発生-強制-ナイデハオカナイ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1961",
       "canonical_surface": "ないでなんかいられない",
+      "sense_rank": 1,
       "glosses": [
         "can't help …ing",
         "can't keep oneself from …ing"
       ],
-      "usage_note": "Describes a reaction the subject is unable to suppress, almost always the speaker's own feeling or an act driven by it; the ずに variants are the everyday shape (する becomes せずにはいられない) and the ないでは variants are a little heavier, while the なんか・など・だって insertions add exasperation. Contrast the sibling ないではおかない, which is about what an event inevitably forces on someone else rather than what the speaker cannot resist.",
+      "usage_note": "Names a reaction the subject cannot suppress, nearly always the speaker's own feeling or an act driven by it (涙をこぼさずにはいられない, 心配せずにはいられない). The sibling ないではおかない points outward at what an event inevitably forces on someone else. する becomes せずにはいられない, and the なんか・など・だって insertions add exasperation.",
       "human_verified": false,
       "examples": [
         {
@@ -37,11 +40,12 @@
     {
       "l2_id": "2001",
       "canonical_surface": "ないではおかない",
+      "sense_rank": 1,
       "glosses": [
         "inevitably brings about …",
         "will not rest until …"
       ],
-      "usage_note": "Two readings share one form: with an event or a causative verb as subject, the thing inevitably provokes the result (この結末は読者を泣かせずにはおかない); with a human subject it is a hard vow not to let the matter rest. This is formal, written Japanese — commentary, criticism, courtroom-flavored prose — rather than conversation, and する becomes せずにはおかない. Where ずにはいられない reports a feeling the speaker cannot suppress, this pattern points outward at what will be inflicted or forced.",
+      "usage_note": "Says a result is unavoidable: with an event or a causative verb as subject, the thing inevitably provokes the outcome (読者を泣かせずにはおかない); with a human subject it is a vow not to let the matter rest. The sibling ずにはいられない reports a feeling the speaker cannot suppress rather than something inflicted from outside. It belongs to formal written Japanese, and する becomes せずにはおかない.",
       "human_verified": false,
       "examples": [
         {

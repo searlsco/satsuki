@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "y62",
   "class_name": "否定-不可能-コトモナラナイ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1791",
       "canonical_surface": "ことしかならない",
+      "sense_rank": 1,
       "glosses": [
         "cannot even …",
         "is not so much as able to …"
       ],
-      "usage_note": "A literary negation inherited from classical Japanese: こと nominalizes the verb and 成る carries its older sense \"be feasible\", so 〜こともならない says \"it is not even feasible to …\". The particle slot (も／さえ／すら) supplies the \"not even\" scaling. It is essentially obsolete in contemporary Japanese, where こともできない and ことすらできない have taken over, and now appears mainly in period narration and in quoted older speech.",
+      "usage_note": "Says an action is not even feasible, usually because circumstances physically prevent it (起き上がることもならない, 村を出ることもならず). The particle slot (も／さえ／すら) supplies the \"not even\" scaling, and ならない here is 成る in its older sense \"be possible\". It is effectively obsolete in contemporary Japanese, where こともできない has taken over, and now appears mainly in period narration.",
       "human_verified": false,
       "examples": [
         {
@@ -37,11 +40,12 @@
     {
       "l2_id": "1801",
       "canonical_surface": "べくはない",
+      "sense_rank": 1,
       "glosses": [
         "there is no way one could …",
         "cannot possibly …"
       ],
-      "usage_note": "べく is the 連用形 of the classical auxiliary べし, so 〜べくもない says there are not even the grounds on which one might do the thing: the impossibility is objective and complete, not a question of permission as with わけにはいかない. In practice べくもない is far the commonest realization — べくはない itself is vanishingly rare in modern text — and it collocates with verbs of knowing, doubting, comparing and hoping (知るべくもない, 疑うべくもない, 比べるべくもない, 望むべくもない, 敵うべくもない). With する, classical すべくもない stands beside the modern するべくもない.",
+      "usage_note": "States that there is no ground on which the thing could even be conceived: the impossibility is objective and absolute, not a question of permission as with わけにはいかない. It attaches to a dictionary-form verb, most often one of knowing, imagining, comparing or hoping (知るべくもない, 疑うべくもない, 比べるべくもない, 望むべくもない). べくもない is by far the commonest realization; べくはない is rare in modern text.",
       "human_verified": false,
       "examples": [
         {

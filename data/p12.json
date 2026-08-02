@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "p12",
   "class_name": "継起-般-テカラ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0461",
       "canonical_surface": "でからの",
+      "sense_rank": 1,
       "glosses": [
         "after (doing) …",
         "once … is done",
         "ever since …"
       ],
-      "usage_note": "The basic sequencer: it insists that the first action be finished before the second starts, which is why it fits instructions and conditions (手を洗ってから食べる). With a duration or state in the second half it also gives the \"ever since\" reading that 〜たあとで does not (日本に来てから五年になる). Keep it to two events that genuinely belong together; for a loose \"later on\", 〜たあとで is the neutral choice, and for a deliberate preliminary step, 〜た上で.",
+      "usage_note": "Sequences two events and insists the first be finished before the second starts (手を洗ってから食べる), which is what fits it to instructions and conditions. With a duration or state after it, it also gives the \"ever since\" reading that 〜たあとで does not (日本に来てから五年になる). For a loose \"later on\" use 〜たあとで, and for a deliberate preliminary step 〜た上で.",
       "human_verified": false,
       "examples": [
         {
@@ -38,12 +41,13 @@
     {
       "l2_id": "0471",
       "canonical_surface": "だあとでの",
+      "sense_rank": 1,
       "glosses": [
         "after …",
         "once … was over",
         "following …"
       ],
-      "usage_note": "The plainest \"after\" of the group: it locates the second event later in time and nothing more, so the gap can be long and the two halves need not be connected. Where 〜てから presses the two actions together and can mean \"ever since\", 〜たあとで just says \"later than\", and unlike 〜た上で it implies no purpose. 〜た後に marks the point in time and leans written; 〜た後で is the everyday form.",
+      "usage_note": "Locates the second event later in time and nothing more, so the gap can be long and the two halves need not be connected (映画を見た後で、アイスを食べに行った). 〜てから presses the two actions together and can mean \"ever since\", and 〜た上で adds that the first act is groundwork for the second. 〜た後に marks the point in time and leans written; 〜た後で is the everyday form.",
       "human_verified": false,
       "examples": [
         {
@@ -63,12 +67,13 @@
     {
       "l2_id": "0491",
       "canonical_surface": "だうえでの",
+      "sense_rank": 1,
       "glosses": [
         "after (first) …",
         "upon …",
         "on the basis of having …"
       ],
-      "usage_note": "Not just \"after\" but \"after doing the groundwork\": the first action is a deliberate preliminary the second one depends on, which is why it belongs to contracts, procedures, and business correspondence. Both halves are almost always volitional acts of the same person, so accidents and natural events go to 〜たあとで instead. 〜た上での modifies a noun (検討した上での結論), and note the unrelated 〜た上に, which means \"on top of that\".",
+      "usage_note": "Makes the first act a deliberate preliminary the second one depends on (契約書をよく読んだ上で署名する), which is why it fills contracts, procedures, and business correspondence. 〜たあとで only says \"later than\" and 〜てから only that the first action is complete. Both halves are usually volitional acts of the same person, so accidents and natural events take 〜たあとで; unrelated 〜た上に means \"on top of that\".",
       "human_verified": false,
       "examples": [
         {

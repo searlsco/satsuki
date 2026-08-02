@@ -1,24 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "a11",
   "class_name": "立場-状態-トシテ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0031",
       "canonical_surface": "として",
+      "sense_rank": 1,
       "glosses": [
-        "as …",
-        "in the capacity of …",
-        "by way of …"
+        "as (a role or category)",
+        "in the capacity of"
       ],
-      "usage_note": "Marks the role, status or category under which someone or something acts or is treated: 通訳として means the person is functioning in that capacity, not merely resembling an interpreter. Keep it apart from the instrumental でもって and をもって, which name the means used rather than the standing of the actor. としまして is the polite realization for speeches and customer-facing writing, としちゃ the clipped casual form of the topicalized としては (僕としちゃ反対だ), and としての is the form used before a noun (教師としての責任). をもって never marks the role someone occupies, even in 身をもって, which is about firsthand experience, not standing.",
+      "usage_note": "Names the role, status, or category under which someone or something acts or is treated: 通訳として働く has the person functioning in that capacity, 冗談として受け取る puts the thing in that category. A sibling entry takes the emphatic として of 一人として, 一度として, which rides on a minimal counter and is answered by a negative predicate. Before a noun the form is としての, 教師としての責任; in formal speech it appears as としまして.",
       "human_verified": false,
       "examples": [
         {
@@ -38,11 +40,12 @@
     {
       "l2_id": "0071",
       "canonical_surface": "でもって",
+      "sense_rank": 2,
       "glosses": [
-        "by dint of; on the strength of",
-        "with (the qualities one brings)"
+        "on the strength of; by dint of",
+        "with (a quality one brings)"
       ],
-      "usage_note": "An emphatic reinforcement of the instrumental particle で that names the standing, skill or resource the actor brings to bear: 実力でもって is 実力で with the means pushed into focus. Where the 仲介 sibling sets the effective means against a rejected one (言葉ではなく行動でもって), this entry foregrounds what the actor has. It is the plainer, less ceremonious member of the pair with をもって, and the cut-off-in-time sense (本日をもって) is overwhelmingly をもって's; でもって is essentially never used that way in formal notices. Note that spoken Japanese also uses a completely separate sentence-initial でもって meaning 'and then, on top of that', which has nothing to do with this instrumental one.",
+      "usage_note": "Names the quality, standing or bearing the actor brings to what is done: 長年の経験でもって, 強い意志でもって, where the noun is something the subject has, not a tool picked up. Two sibling entries take the other readings: the instrument or material an action uses (お金でもって) and the criterion a decision is reckoned by (多数決でもって). Sentence-initial でもって in conversation, meaning and on top of that, is a separate connective.",
       "human_verified": false,
       "examples": [
         {
@@ -50,12 +53,12 @@
           "english": "The manager rode out the crisis on the strength of long years of experience."
         },
         {
-          "ruby": "その案[あん]は多数決[たすうけつ]でもって承認[しょうにん]された。",
-          "english": "The proposal was approved by a majority vote."
-        },
-        {
           "ruby": "主将[しゅしょう]は落[お]ち着[つ]いた声[こえ]でもって、浮[う]き足[あし]立[だ]つ後輩[こうはい]をまとめた。",
           "english": "With nothing but a calm voice, the captain pulled the rattled younger players together."
+        },
+        {
+          "ruby": "彼女[かのじょ]は強[つよ]い意志[いし]でもって禁煙[きんえん]をやり遂[と]げた。",
+          "english": "She saw quitting smoking through on sheer willpower."
         }
       ]
     }

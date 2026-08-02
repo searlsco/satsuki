@@ -1,24 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "f12",
   "class_name": "範囲-範囲-ニワタッテ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0162",
       "canonical_surface": "をつうじての",
+      "sense_rank": 2,
       "glosses": [
         "throughout",
-        "all through (a period)",
-        "over the whole of"
+        "all through (a period or area)"
       ],
-      "usage_note": "Presents a whole stretch of time as one unbroken span within which a state holds: 一年を通じて雨が多い. Its sibling にわたって instead measures out how far a single event extends, so a week of meetings is 一週間にわたって; 一週間を通じて would instead say a state held steady through the week. を通して is a near-equivalent, slightly more spoken and more willing to foreground an active means, while を通じて is the neutral/written choice and additionally has a separate 'via, through the good offices of' use with people and channels that does not belong to this span sense.",
+      "usage_note": "Presents a whole period or area as one unbroken span within which a state holds: 一年を通じて雨が多い, 全線を通じて速度規制がかかる. Its sibling lane takes a person, medium, or activity and means via, through (報道を通じて, 交流を通じて). にわたって instead measures how far a single event extends, so a week of daily meetings is 一週間にわたって, while 一週間を通じて says a state stayed steady across the week.",
       "human_verified": false,
       "examples": [
         {
@@ -38,12 +40,13 @@
     {
       "l2_id": "0331",
       "canonical_surface": "にわたっての",
+      "sense_rank": 1,
       "glosses": [
         "over; spanning",
         "extending across",
         "for (a stretch of)"
       ],
-      "usage_note": "Marks the extent an event covers, and the covered range can be time, territory, or a count of items, so it usually pairs with an explicit measure (三日間, 全域, 五十項目). Where を通じて says a state held uninterrupted through a period, にわたって stresses the sheer breadth of what happened. It comes from the verb 亘る/渡る, so the usual adnominal is にわたる (三日にわたる交渉); にわたっての also occurs but is the marked, less frequent option.",
+      "usage_note": "Marks the extent an event covers, which can be time, territory, or a count of items, so it usually pairs with an explicit measure: 一週間にわたって, 全域にわたって, 五十項目にわたって. Where を通じて says a state held uninterrupted through a period, にわたって stresses the breadth of what happened. The usual adnominal is にわたる (三日にわたる交渉); にわたっての is the less frequent option.",
       "human_verified": false,
       "examples": [
         {

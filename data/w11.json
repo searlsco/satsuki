@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "w11",
   "class_name": "感嘆-驚き-トイッタラ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2421",
       "canonical_surface": "なんて",
+      "sense_rank": 1,
       "glosses": [
         "(to think) that …!",
         "…, of all things",
         "I can't believe that …"
       ],
-      "usage_note": "The colloquial member of this group: it presents a fact the speaker did not see coming and loads it with surprise, dismay, or scorn. It typically trails off or is followed by 思わなかった・知らなかった・信じられない. Note that 〜なんて has a separate, non-exclamatory belittling use ('things like X') with no とは equivalent — とは only does the surprise reaction — and that after a noun or na-adjective everyday speech usually inserts だ (〜だなんて), a shape the corpus rule here does not cover.",
+      "usage_note": "Presents a fact the speaker did not see coming and loads it with surprise, dismay, or scorn (あのチームに負けるなんて). It is the colloquial member of this group: とは is the written counterpart, and といったら rates the degree of a noun instead. 〜なんて also has a separate belittling use ('things like X') that とは lacks, and after a noun or na-adjective speech usually inserts だ (〜だなんて).",
       "human_verified": false,
       "examples": [
         {
@@ -38,11 +41,12 @@
     {
       "l2_id": "2451",
       "canonical_surface": "とは",
+      "sense_rank": 2,
       "glosses": [
         "(to think) that …!",
         "who would have thought that …"
       ],
-      "usage_note": "The written, formal counterpart of 〜なんて for the same 'to think that …!' reaction: standard in narration, commentary, and dignified speech, and noticeably stiffer than なんて in conversation. It very often ends the sentence outright (〜とは。) or is completed by 思わなかった・驚きだ・信じられない. Keep it apart from the definitional 〜とは ('X means …'), which is a different construction that happens to share the surface.",
+      "usage_note": "Marks surprise or strong feeling at an unexpected fact just learned: a plain-form clause plus とは, completed by 思わなかった, 驚きだ or 信じられない, and often left dangling as 〜とは。 The sibling entry is the definitional とは, which usually follows a noun and hands off to a defining predicate (敬語とは…道具です). Conversation uses なんて for this sense; とは is the written and formal counterpart.",
       "human_verified": false,
       "examples": [
         {
@@ -62,11 +66,12 @@
     {
       "l2_id": "2461",
       "canonical_surface": "といったら",
+      "sense_rank": 1,
       "glosses": [
         "the sheer … of it",
         "as for …, it was beyond words"
       ],
-      "usage_note": "Unlike なんて and とは, which react to a surprising event, といったら takes a noun — usually one naming a quality or quantity (美しさ, 量, 態度) — and declares its degree indescribable; the emotion can be admiration or exasperation. The follow-up is typically a ほど・ぐらい clause, an expression of speechlessness, or nothing at all. Casual speech contracts it to 〜ったら (あの暑[あつ]さったらなかった), and the emphatic extensions 〜といったらない・〜といったらありはしない spell the indescribability out; do not confuse it with the polite conditional と言いましたら or with 〜といいますと ('speaking of …'), which are different constructions.",
+      "usage_note": "Takes a noun, usually one naming a quality or quantity (美しさ, 量, 湿気), and declares its degree beyond description; the emotion can be admiration or exasperation. Its siblings なんて and とは react to a surprising event instead. The follow-up is typically a ほど・ぐらい clause, an expression of speechlessness, or nothing at all. Casual speech contracts it to 〜ったら (あの暑さったらなかった).",
       "human_verified": false,
       "examples": [
         {

@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "I23",
   "class_name": "推量-高確実性-ノダロウ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2011",
       "canonical_surface": "んだろう",
+      "sense_rank": 1,
       "glosses": [
         "I guess (it's because) …",
         "must be (that) …",
         "presumably …"
       ],
-      "usage_note": "のだ + だろう, contracted to んだろう in speech: unlike bare だろう it conjectures about the explanation behind something the speaker has just observed, so it typically follows a stated or implied piece of evidence. Polite んでしょう and written のだろう are the same pattern. It attaches to plain forms, and with na-adjectives and nouns the copula must surface as な (静かなんだろう), not だ.",
+      "usage_note": "Conjectures about the explanation behind something observed, so it typically follows stated or implied evidence: 電気が消えているから、もう寝たんだろう. Bare だろう predicts the fact itself with no explanatory framing, and ことだろう colors the guess with feeling. With na-adjectives and nouns the copula surfaces as な (静かなんだろう), not だ.",
       "human_verified": false,
       "examples": [
         {
@@ -38,12 +41,13 @@
     {
       "l2_id": "2051",
       "canonical_surface": "ことだろう",
+      "sense_rank": 1,
       "glosses": [
         "surely …",
         "how … it must be",
         "I can only imagine (that) …"
       ],
-      "usage_note": "A written-style, emotionally colored conjecture: it adds the speaker's sympathy, admiration or wistfulness to what plain だろう would state flatly, so it very often pairs with さぞ(かし) or どんなに. Use it when you are imagining someone else's feelings or a scene you cannot see; for a neutral prediction about facts, use だろう. The contracted こったろう survives mainly in the fixed exclamation なんてこったろう; ことでしょう is the polite counterpart.",
+      "usage_note": "Conjecture colored by the speaker's feeling, used for imagining someone else's emotions or a scene not witnessed: どんなに喜んだことだろう. It pairs with さぞ(かし) and どんなに, where plain だろう would state the same guess flatly. It belongs to writing and formal speech; the contracted こったろう survives mainly in なんてこったろう.",
       "human_verified": false,
       "examples": [
         {
@@ -63,12 +67,13 @@
     {
       "l2_id": "3181",
       "canonical_surface": "だろう",
+      "sense_rank": 1,
       "glosses": [
         "probably …",
         "I think …",
         "… , right?"
       ],
-      "usage_note": "The everyday conjecture marker, historically a contraction of である + う. It states the speaker's own estimate of a fact, with none of the explanatory framing of んだろう or the emotional coloring of ことだろう. Attached directly to nouns and na-adjective stems with no copula (明日は雨だろう), and said with rising intonation it becomes a confirmation-seeking tag; でしょう is the polite form, だろ／でしょ the casual clipped ones.",
+      "usage_note": "The everyday conjecture: states the speaker's estimate that something is so (明日は雨だろう, 泳いでいるだろう). んだろう instead frames the guess as the explanation for evidence just observed, and ことだろう adds feeling to an imagined scene. It attaches straight to nouns and na-adjective stems with no copula, and with rising intonation it becomes a tag seeking agreement.",
       "human_verified": false,
       "examples": [
         {
@@ -88,12 +93,12 @@
     {
       "l2_id": "3261",
       "canonical_surface": "う",
+      "sense_rank": 2,
       "glosses": [
-        "would be …",
-        "no doubt …",
-        "it may be well to …"
+        "probably …; no doubt …",
+        "it would be best to …"
       ],
-      "usage_note": "The bare conjectural う, attached to the 未然ウ接続 stem. In contemporary Japanese it survives as a live conjecture mainly in であろう (from ある) and in i-adjective forms such as よかろう・なかろう・高かろう; on ordinary verbs the same ending is read as volitional (行こう) instead. It belongs to formal writing and deliberately old-fashioned speech, where だろう would be the neutral choice; よかろう in particular has drifted beyond prediction into a curt granting of permission or recommendation ('that'll do', 'do as you like'); other adjective forms such as 高かろう・なかろう stay purely conjectural.",
+      "usage_note": "Predicts what is likely to be so, surviving mainly in であろう and in i-adjectives (よかろう, 高かろう, なかろう). The sibling entry is the volitional う, the speaker's resolve or an invitation, how the same ending reads on ordinary verbs (行こう, 作ろう). It belongs to formal writing and old-fashioned speech, where だろう is neutral; よかろう has drifted into recommendation and curt permission (待つのがよかろう).",
       "human_verified": false,
       "examples": [
         {
@@ -113,12 +118,12 @@
     {
       "l2_id": "3332",
       "canonical_surface": "得",
+      "sense_rank": 1,
       "glosses": [
         "could conceivably …",
-        "it is possible that …",
-        "-able"
+        "it is possible that …"
       ],
-      "usage_note": "Auxiliary 得る on the masu-stem marks logical possibility rather than acquired ability: it is the written equivalent of 〜可能性がある／〜ということもある, not of できる, so 泳ぎ得る cannot mean 'I can swim'. Dictionary and prenominal forms are read either うる or える (起こり得る), but every other form uses え-: the negative is only 得ない (えない), never うない. あり得る／あり得ない are the highest-frequency instances.",
+      "usage_note": "Auxiliary 得る on the masu-stem marks logical possibility, what could conceivably happen (起こり得る, 解決し得る), rather than acquired ability, so 泳ぎ得る does not mean 'I can swim'; it answers to 可能性がある, not できる. Dictionary and prenominal forms are read うる or える, but every other form takes え-, and the negative is 得ない (えない). あり得る and あり得ない are the most frequent instances.",
       "human_verified": false,
       "examples": [
         {

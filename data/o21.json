@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "o21",
   "class_name": "同時性-対比-タトオモウト類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0381",
       "canonical_surface": "だかとおもうと",
+      "sense_rank": 1,
       "glosses": [
         "no sooner … than",
         "the moment (that) …",
         "one second … and the next …"
       ],
-      "usage_note": "Hooks onto the plain past form and reports two events treated as instantaneous, with the speaker's surprise built in: the second half is typically something unexpected, or the flat opposite of what the first half led you to expect. Because it describes something the speaker witnessed and was caught off guard by, it is not used of your own actions, and the second clause states what happened rather than a request, command, or intention. The かと is the surprise-heightening part; plain 〜たと思うと and the softer 〜たと思ったら are the same construction with less of it.",
+      "usage_note": "Reports two events as effectively instantaneous with the speaker's surprise built in: attached to the plain past, the second half is unexpected or the flat opposite of what the first half promised (席に着いたかと思うと、もう眠っていた). It describes something witnessed, so it is typically not used of the speaker's own actions, and the second clause states what happened rather than a request, command, or intention.",
       "human_verified": false,
       "examples": [
         {
@@ -38,12 +41,13 @@
     {
       "l2_id": "0391",
       "canonical_surface": "とまもなく",
+      "sense_rank": 1,
       "glosses": [
         "soon after …",
         "shortly after …",
         "it wasn't long after … that"
       ],
-      "usage_note": "The adverb 間もなく (\"before long\") riding on the temporal と, so it attaches to the dictionary form rather than the past form its siblings in this class take. Unlike 〜たかと思うと it allows a real if short gap and carries no surprise: it simply narrates that one thing followed hard on another, and it leans written and descriptive. Unlike 〜てから and 〜たあとで, which happily take a request or a plan after them, this is a と clause, so the second half reports an outcome the speaker observed, never a request, invitation, or command — that restriction, not the length of the gap, is the real dividing line.",
+      "usage_note": "Says the second event followed hard on the first, allowing a real if short gap and carrying no surprise (列車が駅を出ると間もなく、車掌が切符を見に来た). It attaches to the dictionary form, unlike the past-form siblings 〜たかと思うと and 〜たかと思う間もなく, which report no gap at all. Being a と clause, the second half reports an observed outcome, never a request, invitation, or command, where 〜てから and 〜たあとで take those freely.",
       "human_verified": false,
       "examples": [
         {
@@ -63,12 +67,13 @@
     {
       "l2_id": "0401",
       "canonical_surface": "だかとおもうまもなく",
+      "sense_rank": 1,
       "glosses": [
         "before … could even sink in",
         "with no time even to register …",
         "no sooner … than"
       ],
-      "usage_note": "〜たかと思う (\"just as it seemed X happened\") followed by 間もなく, \"with no interval at all\" — it removes even the sliver of a gap that 〜たかと思うと tolerates, and it is not to be confused with 〜と間もなく, which reports an ordinary short interval where here there is none. It is narration rather than conversation, at home describing disasters, accidents, and sudden violence. In real writing this tail very often follows a quoted thought rather than a plain verb: 「しまった」と思う間もなく、車は壁に突っ込んでいた。",
+      "usage_note": "Removes even the sliver of a gap that 〜たかと思うと tolerates: the second event lands on top of the first with no interval (地面が揺れたかと思う間もなく、天井が崩れ落ちた). The sibling 〜と間もなく reports an ordinary short interval instead. Narration rather than conversation, at home with disasters and accidents, and it often follows a quoted thought as well as a plain past verb (「しまった」と思う間もなく).",
       "human_verified": false,
       "examples": [
         {

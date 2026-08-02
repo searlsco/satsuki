@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "t33",
   "class_name": "逆接-想外-ノニ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0862",
       "canonical_surface": "のに",
+      "sense_rank": 1,
       "glosses": [
         "even though …",
         "although …",
         "and yet …"
       ],
-      "usage_note": "The everyday marker for a result that contradicts what the first clause led you to expect, usually coloured with dissatisfaction, regret or surprise; the first clause states something already established, not a hypothesis. It is neutral about who the subjects are, so it covers ground くせに cannot: くせに needs one shared, criticizable person, while のに happily contrasts two different subjects or none at all. After a noun or na-adjective it needs な (まだ四月なのに), and left dangling at the end of a sentence it becomes a sigh of regret (来てくれればよかったのに).",
+      "usage_note": "Marks a result that contradicts what the first clause led you to expect, usually coloured with dissatisfaction, regret, or surprise (毎日水をやるのに花が咲かない); the first clause states something established, not a hypothesis. くせに needs one shared, criticizable person, while のに contrasts two different subjects or none at all. Left at the end of a sentence it becomes a sigh of regret (来てくれればよかったのに).",
       "human_verified": false,
       "examples": [
         {
@@ -38,12 +41,13 @@
     {
       "l2_id": "1071",
       "canonical_surface": "もんを",
+      "sense_rank": 1,
       "glosses": [
         "if only …",
         "when all it would have taken was …",
         "and yet …"
       ],
-      "usage_note": "Formal noun もの plus を, used to voice exasperation or regret that an easy better course was not taken; it typically follows a conditional (〜ば / 〜たら … ものを) and very often ends the sentence, leaving the actual outcome unspoken and the complaint hanging. It is stiffer and more emotionally loaded than のに, which can report a plain contradiction with no blame attached; もんを is its spoken contraction. It also attaches to i-adjectives, most often in the fixed frame 〜ばいいものを (黙っていればいいものを).",
+      "usage_note": "Voices exasperation or regret that an easy better course was not taken: a clause naming what would have sufficed, then ものを (素直に謝れば済むものを). It typically follows a conditional 〜ば / 〜たら and often ends the sentence, leaving the actual outcome unspoken. のに can report a plain contradiction with no blame attached; ものを always carries the complaint. もんを is its spoken contraction.",
       "human_verified": false,
       "examples": [
         {
@@ -63,12 +67,13 @@
     {
       "l2_id": "1101",
       "canonical_surface": "ところを",
+      "sense_rank": 1,
       "glosses": [
         "when …",
         "though it is …",
         "where … would normally"
       ],
-      "usage_note": "Formal noun ところ plus を, marking a situation that the following clause then cuts against. Two uses share the form: prefacing a request, apology or thanks by naming the inconvenience being imposed (お忙しいところを恐れ入りますが), and pointing out a departure from the normal course of things (普段なら三十分で着くところを). It belongs to ceremonious speech and written narration, and the preceding clause is typically non-past. After a noun it takes の (お休みのところを).",
+      "usage_note": "Marks a situation that the following clause then cuts against, in two uses: the inconvenience a request, apology, or thanks imposes (お忙しいところを恐れ入りますが), and a departure from the normal course of things (普段なら三十分で着くところを). のに and ものを carry the speaker's dissatisfaction, while ところを states the situation without it. It belongs to ceremonious speech and written narration.",
       "human_verified": false,
       "examples": [
         {

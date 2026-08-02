@@ -1,24 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "i11",
   "class_name": "同格-般-トイウ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1211",
       "canonical_surface": "って",
+      "sense_rank": 1,
       "glosses": [
         "called; named",
-        "the … that (someone says)",
-        "the rumor/report that"
+        "the … that (apposition to a noun)"
       ],
-      "usage_note": "Casual appositive quotative: it packs a name, a rumor or a claim onto the noun that follows (田中って人, 帰るって話), and it is the spoken contraction of という, not the other way round. The intermediate form っていう (田中っていう人) is the safer choice when the name is long or otherwise hard to parse. Compared with its formal sibling との, って belongs to speech and messaging and is rare in edited prose. In conversation it also turns up in slots this corpus rule does not license, most visibly as a topic marker (お前って優しいな) and as a sentence-final quote drop (もう終わったって), so a bare って in the wild is not always this appositive one.",
+      "usage_note": "Ties a name or a clause to the noun right after it: naming a person, shop or title the listener may not know (田中って人, ミラノっていう店), or spelling out what the noun holds (帰るって話, できるって噂). The sibling lane ends the sentence with って to pass on hearsay instead (明日は休みだって). A bare noun plus って with nothing after it is the spoken topic marker meaning とは (日本語って難しいね), which this lane's rule does not license.",
       "human_verified": false,
       "examples": [
         {
@@ -38,12 +40,12 @@
     {
       "l2_id": "1221",
       "canonical_surface": "との",
+      "sense_rank": 5,
       "glosses": [
         "to the effect that",
-        "saying that",
-        "that (a report, notice, instruction)"
+        "saying that (in a report or notice)"
       ],
-      "usage_note": "The written-register appositive quotative: case particle と plus adnominal の, attaching reported content to a noun of communication or perception (との連絡, との報告, との指示, との見方). It is the formal counterpart of って and the tighter counterpart of という: との relays the wording verbatim and neutrally, whereas という tolerates the writer's own summary, which is why news copy, minutes and business mail reach for it. Its commonest realization is the hearsay closer 〜とのことです, where the head noun is a bleached こと.",
+      "usage_note": "Attaches reported content to a noun of communication or perception in written register: との連絡, との報告, との指示, との見方, and the hearsay closer とのことです. It relays the wording as received, where という tolerates the writer's own summary, which is why news copy, minutes and business mail use it. The plain-particle lanes of this surface list nouns (パンと卵), name a companion (友達と話す), or set up a condition (春が来ると, 窓を開けると).",
       "human_verified": false,
       "examples": [
         {

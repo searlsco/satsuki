@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "k51",
   "class_name": "話題-尊敬-ニオカレマシテハ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2861",
       "canonical_surface": "には",
+      "sense_rank": 1,
       "glosses": [
         "as for (an honored person)",
         "you; he (honorific topic)"
       ],
-      "usage_note": "A rare, old-fashioned use of には that marks an esteemed person as the topic where modern Japanese would use が or は, surviving mainly in set letter openings (先生にはご健勝のことと存じます) and in period fiction. Learners should recognize it rather than produce it; におかれましては is the living equivalent, and ordinary には (location, purpose, comparison) is an unrelated everyday combination of に and は.",
+      "usage_note": "Marks an esteemed person as the topic where modern Japanese would use が or は: 先生にはご健勝のことと存じます. It survives mainly in set letter openings and in period fiction, so recognize it rather than produce it; におかれましては is the living equivalent. Ordinary には (location, purpose, comparison) is an unrelated everyday combination of に and は.",
       "human_verified": false,
       "examples": [
         {
@@ -37,11 +40,12 @@
     {
       "l2_id": "2871",
       "canonical_surface": "におかれましては",
+      "sense_rank": 1,
       "glosses": [
         "as for (you, honorific)",
         "in your case; I trust that you"
       ],
-      "usage_note": "The honorific dressing-up of においては, used to raise a respected addressee to topic in business letters, invitations and formal notices, most often in the opening health-and-prosperity greeting. Style guides state that it takes a person or an organization only, not a thing, so 御社の商品におかれましては is treated as an error; におかれては is the slightly lighter variant. It is written-register through and through; archaic honorific には fills the same role in classical and epistolary Japanese, but におかれましては is built on においては, not derived from には.",
+      "usage_note": "Raises a respected addressee to topic in business letters, invitations and formal notices, most often in the opening health-and-prosperity greeting: 貴社におかれましては益々ご発展のこととお慶び申し上げます. It takes a person or an organization only, not a thing, so 商品におかれましては is an error; a matter or an object takes につきましては. It is written register throughout, and archaic honorific には fills the same role in epistolary Japanese.",
       "human_verified": false,
       "examples": [
         {

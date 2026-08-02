@@ -1,24 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "B11",
   "class_name": "過去-回想-タッケ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2492",
       "canonical_surface": "だっけ",
+      "sense_rank": 2,
       "glosses": [
-        "did I …? (rummaging through my own memory)",
-        "come to think of it, I did …",
-        "…, wasn't it — it's coming back to me"
+        "I remember …; I used to … (looking back on the past)",
+        "come to think of it, I did …"
       ],
-      "usage_note": "Casual recollection turned inward: you dig through your own memory of what happened, half to yourself, with no real expectation that anyone will answer (あの夏[なつ]は毎日[まいにち]通[かよ]ったっけ). The same form aimed at the person in front of you is a plain confirmation question (\"it's Wednesday next week, right?\"), filed as a separate pattern; what marks this one is the backward pull into past experience, which is why よく and a time frame sit so easily with it. だっけ is the shape after a noun and after the ta-stems that voice た to だ (飲[の]んだっけ); elsewhere it surfaces as たっけ (控[ひか]えたっけ, 出[だ]したっけ), and unlike its classmate たもんだ, which only reminisces at length, だっけ can still hesitate over whether the remembered detail is right.",
+      "usage_note": "Recalls past experience aloud, half to yourself, with no answer expected, often with よく and a time frame (あの夏は毎日通ったっけ). The sibling lane is a memory check phrased as a question, put to the listener or to yourself (集合は明日だっけ、鍵を閉めたっけ). It attaches to the plain past, coming out as だっけ after ta-forms that voice た to だ (飲んだっけ) and as たっけ elsewhere.",
       "human_verified": false,
       "examples": [
         {
@@ -26,23 +28,24 @@
           "english": "Come to think of it, that summer I went to the pool every single day."
         },
         {
-          "ruby": "あの角[かど]のラーメン屋[や]、名前[なまえ]なんて言[い]ったっけ。",
-          "english": "That ramen place on the corner — what was it called again?"
+          "ruby": "学生[がくせい]の頃[ころ]は、よく駅前[えきまえ]の古本屋[ふるほんや]に寄[よ]ったっけ。",
+          "english": "Back in my student days I used to drop by the secondhand bookshop in front of the station all the time."
         },
         {
-          "ruby": "出[で]かける前[まえ]に、玄関[げんかん]の鍵[かぎ]を閉[し]めたっけ。",
-          "english": "Did I lock the front door before I left, I wonder."
+          "ruby": "祖母[そぼ]の家[いえ]では、いつも縁側[えんがわ]で猫[ねこ]と昼寝[ひるね]をしたっけ。",
+          "english": "At my grandmother's house I always used to nap on the veranda with the cat."
         }
       ]
     },
     {
       "l2_id": "3401",
       "canonical_surface": "だもん",
+      "sense_rank": 1,
       "glosses": [
         "used to (do); would often",
         "we'd always (do); those were the days when I'd (do)"
       ],
-      "usage_note": "Looks back fondly on something done again and again over a stretch of past time, so it sits naturally with よく or 毎日; for a one-off past experience 〜たことがある is normally the right choice instead. The realization is だもん／だもの after the ta-stems that voice た to だ (泳いだもんだ) and たもん／たもの elsewhere, with もん the more casual contraction of もの. Do not confuse it with the excuse-making 〜んだもん ('because, you know'), which attaches to plain forms and nouns and is a different construction.",
+      "usage_note": "Looks back on something done again and again over a stretch of past time, usually fondly, so よく and 毎日 sit naturally with it (よく電車に乗って行ったものだ). For a single past experience 〜たことがある is normally the right choice instead. It appears as だもの/だもん after the ta-stems that voice た to だ (泳いだもんだ) and たもの/たもん elsewhere; the excuse-making 〜んだもん is a different construction.",
       "human_verified": false,
       "examples": [
         {

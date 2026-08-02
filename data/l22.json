@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "l22",
   "class_name": "強調-全面的-ニシテ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0252",
       "canonical_surface": "にして",
+      "sense_rank": 3,
       "glosses": [
-        "at (the age of) …",
-        "on the very … (attempt)",
-        "only at/after …"
+        "at (the age of)",
+        "only on the … attempt",
+        "it takes a … to; even (a master)"
       ],
-      "usage_note": "Emphatic にして takes an age or an ordinal attempt and presents it as remarkable — startlingly late or early (三十路にして, 五十にして), or hard-won (三度目にして). The startlingly-short-span reading (一夜にして, 一瞬にして) belongs to the sibling instrumental entry. It carries a formal, written flavour and survives in set phrases such as ローマは一日にして成らず; casual speech would use で or たった〜で instead. The same form has two other lives worth recognizing: joining two properties of one person (学者にして詩人), and, chiefly in older or stiff prose, meaning \"even\" (彼にしてこの失敗) where modern Japanese would say 彼でさえ or 彼ほどの人でも.",
+      "usage_note": "Presents an age or an ordinal attempt as remarkable: 五十にして and 三十路にして for startlingly late or early, 三度目にして for something hard-won, and with a person as the noun, that it takes someone of that rank to manage it at all, 名人にして初めてできる. Sibling senses take the all-at-once span, 一瞬にして, 一夜にして, and the circumstance frame, 幸いにして, 今にして思えば. Formal and written; speech says 五十歳でようやく or 三度目でやっと.",
       "human_verified": false,
       "examples": [
         {
@@ -26,8 +29,8 @@
           "english": "At fifty, my father started going back to university."
         },
         {
-          "ruby": "十六[じゅうろく]にして、隣[となり]の子[こ]は三[さん]か国語[こくご]を操[あやつ]る。",
-          "english": "At sixteen, the kid next door already handles three languages."
+          "ruby": "この難[むずか]しい曲[きょく]は名人[めいじん]にして初[はじ]めて弾[ひ]ける。",
+          "english": "A piece this hard can only be played by a true master."
         },
         {
           "ruby": "三度目[さんどめ]の挑戦[ちょうせん]にして、姉[あね]の短編[たんぺん]が入選[にゅうせん]した。",

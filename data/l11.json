@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "l11",
   "class_name": "強調-問題なし-トイウ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1213",
       "canonical_surface": "という",
+      "sense_rank": 1,
       "glosses": [
         "this very …",
         "the … that is …",
-        "every single … (in the frame N という N)"
+        "every single … (N という N)"
       ],
-      "usage_note": "Emphatic という, not the quotative or naming one: it re-presents a noun in order to hold it up for attention, so 今日という日 is \"today, of all days\" rather than merely \"today\". When the same noun is repeated on both sides (店という店, 木という木) the frame sweeps the whole category — \"every last shop\" — and this repeated shape is especially at home in narrative and descriptive writing. The nuance is emotional weight or exhaustiveness, so a plain 今日は or 店が is the neutral alternative whenever that weight is unwanted.",
+      "usage_note": "Re-presents a noun to hold it up for attention: 今日という日 is \"today, of all days\" rather than merely 今日. When the same noun is repeated on both sides (店という店, 木という木) the frame sweeps the whole category, \"every last shop\". The nuance is emotional weight or exhaustiveness, so plain 今日は or 店が is the neutral alternative; this is not the quotative or naming という of 山田さんという人.",
       "human_verified": false,
       "examples": [
         {

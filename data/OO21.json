@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "O21",
   "class_name": "主体-場所-デ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0342",
       "canonical_surface": "での",
+      "sense_rank": 6,
       "glosses": [
-        "by (an organization acting as a body)",
-        "(before a noun) …'s; made/held by — 委員会での決定 \"the committee's decision\""
+        "by (an organization)",
+        "as (a group)"
       ],
-      "usage_note": "Agentive で names a place, body or set of people as the one acting, not the site of the action: 警察で調べる means the police are doing the investigating. The usual test is that swapping in が leaves the meaning intact. It attaches to nouns denoting organizations or groupings (会社, 委員会, みんな, 二人), and before a noun it appears as での (委員会での決定).",
+      "usage_note": "Names an organization or group as the one acting, not the place the action happens: 警察で調べる says the police are doing the investigating, and が can replace it (警察が調べる). Sibling で entries: place of an action (カフェで勉強する), means, material or cause (筆で書く, 風邪で休む), price or standard (半額で), copula linking form (休みで), te-form joint (呼んで). It takes nouns for bodies or groupings (会社, 委員会, 二人).",
       "human_verified": false,
       "examples": [
         {
@@ -29,8 +32,8 @@
           "english": "The company covers the moving expenses for us."
         },
         {
-          "ruby": "文化祭[ぶんかさい]の出[だ]し物[もの]はクラスでの話[はな]し合[あ]いで決[き]まった。",
-          "english": "What our class would do for the school festival was settled in a class discussion."
+          "ruby": "今年[ことし]の旅行[りょこう]の行[い]き先[さき]は家族[かぞく]で決[き]めた。",
+          "english": "We settled on this year's trip destination as a family."
         }
       ]
     }

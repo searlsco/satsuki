@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "p31",
   "class_name": "継起-偶然-タトコロ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1411",
       "canonical_surface": "だところ",
+      "sense_rank": 1,
       "glosses": [
         "upon … ing",
         "when (I) did … , it turned out that",
         "having … , (I found)"
       ],
-      "usage_note": "Attached to the plain past form of a verb, this reports an actual one-off action and the outcome that happened to come to light because of it, so the following clause is almost always in the past tense and states a fact rather than a plan or a request. Unlike 〜たら it is never hypothetical, and unlike 〜と it does not describe a habitual or general consequence. It leans written and businesslike (reports, inquiries, apologies), which is why 調べたところ and 問い合わせたところ are its most typical hosts.",
+      "usage_note": "Attaches to a verb's plain past form and reports one actual action plus the outcome that came to light through it (調べたところ, 問い合わせたところ), so the following clause is normally past tense and states a fact rather than a plan or a request. 〜たら can be hypothetical and 〜と states a habitual or general consequence; this is neither. It is typical of written and business style: reports, inquiries, apologies.",
       "human_verified": false,
       "examples": [
         {

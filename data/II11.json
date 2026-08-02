@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "I11",
   "class_name": "推量-不確実-カモシレナイ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2021",
       "canonical_surface": "かもしれない",
+      "sense_rank": 1,
       "glosses": [
         "might; may",
         "perhaps"
       ],
-      "usage_note": "The default hedge for a possibility the speaker considers real but unconfirmed; weaker and more tentative than だろう. It follows plain forms directly, and after a noun or na-adjective the copula だ drops (雨かもしれない, 静かかもしれない). Clipping it to かも is casual speech; the sibling かもわからない is a colloquial substitute many speakers avoid in writing.",
+      "usage_note": "Marks a possibility the speaker treats as real but unconfirmed, and it is the default hedge in both speech and writing (雨かもしれない); it commits less than だろう. It attaches to plain forms, and after a noun or na-adjective the copula だ drops (静かかもしれない). Clipping it to かも is casual; the sibling かもわからない says the same thing in a spoken, non-standard register.",
       "human_verified": false,
       "examples": [
         {
@@ -37,11 +40,12 @@
     {
       "l2_id": "2081",
       "canonical_surface": "かもわからない",
+      "sense_rank": 1,
       "glosses": [
         "might; may",
         "maybe; could be"
       ],
-      "usage_note": "A colloquial variant of かもしれない built on 分かる instead of 知れる. It is heard mainly in speech, noticeably in Kansai and from older speakers, and enough people treat it as non-standard that it is best kept out of writing. Semantically it is simply かもしれない — the difference is register and region, not nuance; the contracted かもわからん is especially common.",
+      "usage_note": "Marks a possibility the speaker treats as real but unconfirmed, identical in meaning to かもしれない but built on 分かる instead of 知れる (寒いかもわからん). The difference is register, not nuance: it is a spoken form that many speakers hear as non-standard, so writing uses かもしれない. The contracted かもわからん is the most common shape.",
       "human_verified": false,
       "examples": [
         {

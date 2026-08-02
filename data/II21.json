@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "I21",
   "class_name": "推量-高確実性-ニチガイナイ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2031",
       "canonical_surface": "にゃちがいない",
+      "sense_rank": 1,
       "glosses": [
         "must be; surely",
         "there is no doubt that"
       ],
-      "usage_note": "The everyday high-certainty inference: the speaker reasons from evidence in front of them and commits to the conclusion. It attaches to plain forms, and a noun or na-adjective stem goes in bare with no だ. Among its siblings, に決まっている is the pushier, more colloquial \"obviously\" that typically answers or overrides someone else's assumption, while に相違ない is the stiff written counterpart. The は variant には違いない is not rough at all but concessive — it grants the point before a but-clause (便利には違いないが、値段が高すぎる) — while the further contractions にゃ違いない and 違いねえ belong to rough casual speech and fiction dialogue.",
+      "usage_note": "The everyday high-certainty inference: the speaker reasons from evidence at hand and commits to the conclusion (明日も雨が降るに違いない). に決まっている is the pushier colloquial version, typically overriding what someone else assumed, and に相違ない is the stiff written one. It attaches to plain forms, with a noun or na-adjective stem going in bare. The は variant には違いない is concessive, granting a point before a but-clause (便利には違いないが、値段が高すぎる).",
       "human_verified": false,
       "examples": [
         {
@@ -37,11 +40,12 @@
     {
       "l2_id": "2041",
       "canonical_surface": "にきまって",
+      "sense_rank": 1,
       "glosses": [
         "is bound to be; of course it is",
         "obviously"
       ],
-      "usage_note": "Colloquial and forceful: it frames the conclusion as too obvious to argue with, so it very often lands as a rebuttal of what the listener just said or assumed. Because it sounds subjective and a little pushy, it is largely avoided in formal writing, where に違いない or に相違ない is used instead. In speech the ている almost always contracts to てる.",
+      "usage_note": "Frames a conclusion as too obvious to argue with, so it often lands as a rebuttal of what the listener just said or assumed (そんな安い宝石、偽物に決まってる). に違いない states the same certainty neutrally and に相違ない in writing; because に決まっている sounds subjective and pushy, formal writing uses those instead. In speech ている usually contracts to てる.",
       "human_verified": false,
       "examples": [
         {
@@ -61,11 +65,12 @@
     {
       "l2_id": "2071",
       "canonical_surface": "にゃそういない",
+      "sense_rank": 1,
       "glosses": [
         "must surely be",
         "there can be no doubt that"
       ],
-      "usage_note": "The stiff, written sibling of に違いない, at home in affidavits, reports, investigative writing and period-drama narration; in casual conversation it sounds theatrical. Its nuance of certainty is the same as に違いない, so the choice between them is one of register rather than meaning. The polite negative 相違ありません is the fixed phrase used to attest that a written statement is accurate.",
+      "usage_note": "The stiff written form of high-certainty inference, used in legal statements, reports, investigative writing and period-drama narration (この筆跡は被告本人のものに相違ない). Its degree of certainty matches に違いない, so the choice between them is register rather than meaning, and に決まっている sits at the colloquial end of the same scale. 相違ありません is the fixed polite phrase for attesting that a written statement is accurate.",
       "human_verified": false,
       "examples": [
         {

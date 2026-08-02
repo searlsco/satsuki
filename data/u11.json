@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "u11",
   "class_name": "対比-般-ノニタイシテ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1111",
       "canonical_surface": "のにたいして",
+      "sense_rank": 1,
       "glosses": [
         "whereas …",
         "while by contrast …",
         "as against …"
       ],
-      "usage_note": "Sets two facts side by side purely to contrast them, with none of the surprise or grievance that のに carries; the two clauses are simply weighed against each other. Do not confuse it with bare 〜に対して after a noun, which marks the target of an action or attitude (客に対して失礼だ). It leans expository and is far more common in writing, reports and comparisons than in casual talk; a na-adjective needs な (社交的なのに対して); a noun takes なの or, in written style, であるの, and のに対し is the clipped realization typical of written style, のに対しまして the polite one.",
+      "usage_note": "Sets two facts side by side purely to contrast them (兄は口数が多いのに対して、弟はほとんど話さない), without the surprise or grievance のに carries. Bare 〜に対して after a noun is a different pattern, marking the target of an action or attitude (客に対して失礼だ). A na-adjective needs な and a noun takes なの or, in written style, であるの; the pattern is far more common in writing and reports than in casual speech.",
       "human_verified": false,
       "examples": [
         {

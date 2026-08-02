@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "b51",
   "class_name": "対象-相手-ト類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0593",
       "canonical_surface": "と",
+      "sense_rank": 2,
       "glosses": [
         "with (someone)",
-        "marks the partner in a mutual action"
+        "together with"
       ],
-      "usage_note": "と names a genuine co-participant: both sides are involved in the same event, which is why it is the particle for 話す, 相談する, 結婚する, けんかする, 付き合う and other reciprocal verbs (似ている takes と only when the resemblance is stated as mutual: 二人はよく似ている; one-way resemblance takes に: 父に似ている). Against sibling 2933 に, which points one way at a recipient or target, と implies the other person is engaged too — 先生に相談する asks for advice, 先生と相談する works the problem out together. With inherently two-sided verbs like 結婚する or けんかする, と cannot be swapped for に at all (×同僚に結婚する).",
+      "usage_note": "Marks the co-participant in a mutual action: both sides take part in the same event, which is why it is the particle of 話す, 相談する, 結婚する and けんかする. に points one way at a recipient, so 先生に相談する asks for advice while 先生と相談する works the problem out together, and with 結婚する or けんかする に is impossible. The other lanes of と are the exhaustive list (パンと卵), the conditional (春が来ると, 窓を開けると), and the written quotative との (中止との連絡).",
       "human_verified": false,
       "examples": [
         {
@@ -37,12 +40,12 @@
     {
       "l2_id": "2933",
       "canonical_surface": "にゃ",
+      "sense_rank": 3,
       "glosses": [
-        "to (someone); at (someone)",
-        "marks the person addressed or acted upon",
-        "to … at least; as for telling …"
+        "to (a person addressed)",
+        "of (someone asked)"
       ],
-      "usage_note": "The underlying に points one way at the other party: the person told, asked, handed something, or complained to (言う, 頼む, 打ち明ける, 渡す, 叱られる). にゃ is a casual spoken squeeze of には, so it carries the contrastive force of は on top — \"him, at any rate\" — and it belongs to rough, familiar speech; it would be out of place in writing or with a superior. Compare sibling 0593 と, which makes the other person a partner in the act rather than its target, and sibling 2932, where the same にゃ carries an attitude aimed at someone (子供にゃ優しい) instead of an act of telling or giving.",
+      "usage_note": "Points an act one way at the other party: the person told, asked, handed something, or complained to (親に言う, あいつに頼む, 監督に伝える). Sibling lanes take an attitude aimed at someone (子供に優しい), the source something comes from (親方に教わる), a destination (東京に戻る), and the one who can or knows (俺には無理だ). Compare と, which makes the other person a partner in the act (友達と話す) rather than its target.",
       "human_verified": false,
       "examples": [
         {

@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "n13",
   "class_name": "添加-非限定-シ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0752",
       "canonical_surface": "し",
+      "sense_rank": 1,
       "glosses": [
         "and what's more",
-        "… and besides"
+        "and also; and besides"
       ],
-      "usage_note": "Piles up two or more qualities or facts about one topic as a loose, open-ended list, implying there is more that could be said; that lingering 'among other things' feeling is what separates it from the closed two-item addition of うえに or だけじゃなく. Here the members simply add up to a characterization, with no conclusion in view: when a 〜し clause instead sets up a following (or merely implied) decision, refusal, or invitation, it is being heard as the separate causal 〜し, 'since, what with'. It attaches to plain non-past and past forms and to the copula だ.",
+      "usage_note": "Piles up two or more qualities or facts about one topic as an open-ended list, implying that more could be said (字が大きいし写真も多い). The sibling lane lists the same clauses as grounds for a decision, refusal, or invitation (疲れたし、やめよう), where a conclusion follows instead of a bare characterization. It attaches to a plain non-past or past predicate, with だ after a noun or na-adjective (静かだし).",
       "human_verified": false,
       "examples": [
         {

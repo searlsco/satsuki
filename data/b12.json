@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "b12",
   "class_name": "対象-関連-ヲメグッテ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0121",
       "canonical_surface": "をめぐっての",
+      "sense_rank": 1,
       "glosses": [
         "over; surrounding (a contested matter)",
         "concerning (something in dispute)"
       ],
-      "usage_note": "Reserve this for a topic people are contending over: the predicate that follows is almost always one of dispute or divided opinion (争う, 対立する, 議論が続く, 意見が割れる), so competing parties or divided views are usually in play, though it also covers a swirl of talk with no clear sides (憶測が流れる, 謎が残る). Where について and に関して are neutral about the subject matter, をめぐって frames it as contested, and it leans toward news-report and written registers rather than casual chat. The prenominal をめぐる is at least as common as the て-form.",
+      "usage_note": "Names a matter people are contending over: the following predicate is usually one of dispute or divided opinion (争う, 対立する, 意見が割れる), though it also covers talk swirling around a matter with no clear sides (憶測が流れる). について and に関して are neutral about the subject matter, while をめぐって frames it as contested, and it belongs mainly to news-report and written registers. The prenominal をめぐる is at least as common as the て-form.",
       "human_verified": false,
       "examples": [
         {

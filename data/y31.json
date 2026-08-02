@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "y31",
   "class_name": "否定-不満-ガナ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2571",
       "canonical_surface": "がな",
+      "sense_rank": 1,
       "glosses": [
-        "…, I tell you",
-        "come on, …"
+        "come on, …",
+        "…, I tell you"
       ],
-      "usage_note": "A sentence-final particle of Kansai and other western dialects, tacked onto plain forms to push back at the listener: the speaker is irritated that the hearer has missed something obvious or is making him repeat himself. It is spoken language and appears in writing mainly as dialogue; standard-Japanese equivalents are 〜じゃないか and 〜だろ. After a noun or na-adjective it rides on the Kansai copula や, so the shape is 〜やがな rather than 〜だがな. Do not confuse it with the archaic optative 〜もがな, which is a separate construction.",
+      "usage_note": "Pushes back at the listener: attached to a plain-form clause it protests that the hearer has missed something obvious or is making the speaker say it twice (それくらいできるがな, さっき言うたがな). A sibling entry takes the wishful reading, hoping something turns out well (うまくいくといいがなあ). It is western-dialect spoken language, mainly dialogue in writing; after a noun or na-adjective it rides on や, so 〜やがな rather than 〜だがな.",
       "human_verified": false,
       "examples": [
         {
@@ -37,11 +40,12 @@
     {
       "l2_id": "2581",
       "canonical_surface": "ときたら",
+      "sense_rank": 1,
       "glosses": [
         "when it comes to …",
         "as for … (exasperated)"
       ],
-      "usage_note": "Takes a bare noun, typically a person or thing in the speaker's own orbit, and sets it up as a topic the speaker is about to complain about; the following clause is almost always a negative evaluation. It is far more emotive than plain は or 〜については. The pattern has no polite variant: it stays 〜ときたら even in otherwise polite speech, because the complaint itself is a lapse into familiarity. Where がな vents at the listener, ときたら vents about someone or something not present.",
+      "usage_note": "Takes a bare noun, typically a person or thing in the speaker's own orbit, and sets it up as a topic to complain about; the following clause is almost always a negative evaluation — うちの妹ときたら. It is far more emotive than plain は, and the clause is often broken off after ときたら, leaving the complaint implied. Where the sibling がな vents at the listener, ときたら vents about someone or something not present.",
       "human_verified": false,
       "examples": [
         {

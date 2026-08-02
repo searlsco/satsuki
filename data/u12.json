@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "u12",
   "class_name": "対比-般-カワリニ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1121",
       "canonical_surface": "かわりに",
+      "sense_rank": 1,
       "glosses": [
         "instead of; in place of",
         "in exchange for; to make up for",
         "on the other hand"
       ],
-      "usage_note": "One form covers two jobs: substitution (someone or something stands in for another) and compensation, where a clause states a trade-off, a plus balanced against a minus. A noun needs の before it (先生のかわりに), a verb or い-adjective attaches in its plain form, and a な-adjective takes な (静かなかわりに). にかわって covers only the substitution job; the compensation reading is かわりに's alone. Its classmate かと思うと contrasts two events in time, and 反面 / 一方で mark the same plus-versus-minus balance in writing; かわりに adds the sense that one side is payment for the other.",
+      "usage_note": "Covers two jobs: substitution, where someone or something stands in for another (先生のかわりに報告します), and compensation, where a clause balances a plus against a minus (パンが安いかわりに、味はいまひとつだ). にかわって covers only the substitution job; the compensation reading is かわりに's alone. A noun takes の, a verb or い-adjective attaches in plain form, and a な-adjective takes な (静かなかわりに).",
       "human_verified": false,
       "examples": [
         {
@@ -38,12 +41,13 @@
     {
       "l2_id": "3391",
       "canonical_surface": "かとおもうと",
+      "sense_rank": 1,
       "glosses": [
         "no sooner … than",
         "one moment …, the next",
         "just when you think …"
       ],
-      "usage_note": "Marks two events colliding: the second follows so fast, or reverses the first so sharply, that the whole sentence reads as surprising. Teaching references state flatly that it is not used of the speaker's own actions, and the main clause almost never carries a command, request, or statement of intention. In running text it attaches most often to the past form (降り出したかと思うと); the plain form used here is its other standard attachment. Dictionary form goes with an alternating, non-past main clause; a one-off past event needs the た form (やんだかと思うと). かと思ったら and かと思えば are close variants rather than free substitutes: かと思ったら also reports an outcome contrary to the speaker's expectation, and かと思えば can enumerate alternating cases (〜かと思えば、〜もいる).",
+      "usage_note": "Marks two events colliding: the second follows so fast, or reverses the first so sharply, that the sentence reads as surprising (泣いているかと思うと、もう笑っている). Teaching references say it is not normally used of the speaker's own actions, and the main clause rarely carries a command, request, or intention. Dictionary form goes with an alternating, non-past main clause; a one-off past event needs た (やんだかと思うと).",
       "human_verified": false,
       "examples": [
         {

@@ -1,37 +1,40 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "x15",
   "class_name": "疑問-問いかけ-モノカ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2542",
       "canonical_surface": "もんか",
+      "sense_rank": 1,
       "glosses": [
-        "as if it were …!",
-        "not … in the least",
-        "hardly … at all"
+        "how should one …?",
+        "what's the right way to …?",
+        "is it really all right to …?"
       ],
-      "usage_note": "Denies a state rather than an act: put as a question, 痛いもんか says it does not hurt in the slightest and うまいもんか says the food is nothing of the sort. The corpus licenses it after a plain adjective (and after past た/だ), which is what separates it from the verb-attaching もんか of the ハズガナイ group, where 二度と行くもんか is a vow of refusal rather than a verdict on how things are. It is the colloquial contraction of ものか and sounds rough and emphatic, so it stays out of formal settings and away from superiors; ものですか / もんですか are the politer variants and are more associated with female speakers.",
+      "usage_note": "Asks what the appropriate course would be, or whether something is permissible: after a past-form verb it deliberates (この件はどう説明したものか), and after いい it questions propriety (子どもに見せていいものか). The sibling lane is the rhetorical denial that refuses an act or rejects a quality outright (二度と行くもんか, 痛いもんか). It usually trails off before 迷う, 悩む, or 考える rather than expecting an answer.",
       "human_verified": false,
       "examples": [
         {
-          "ruby": "このくらいのかすり傷[きず]が痛[いた]いもんか。",
-          "english": "A scratch this size? It doesn't hurt one bit."
+          "ruby": "新人[しんじん]にこの仕事[しごと]を任[まか]せていいものか、まだ迷[まよ]っている。",
+          "english": "I still can't decide whether it's really all right to hand this job to the new hire."
         },
         {
-          "ruby": "十月[じゅうがつ]の海[うみ]がそんなに冷[つめ]たいもんか。",
-          "english": "As if the sea in October is that cold."
+          "ruby": "こちらから先[さき]に謝[あやま]ってよいものか、ずっと考[かんが]えている。",
+          "english": "I've been turning over whether I should be the one to apologize first."
         },
         {
-          "ruby": "あんな作[つく]り話[ばなし]の映画[えいが]が怖[こわ]いもんか。",
-          "english": "A movie that made-up? As if it could be scary."
+          "ruby": "拾[ひろ]った財布[さいふ]を交番[こうばん]に届[とど]けなくていいものか。",
+          "english": "Is it really all right not to take the wallet I found to the police box?"
         }
       ]
     }

@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "m51",
   "class_name": "限定-範囲内-マデ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0304",
       "canonical_surface": "まで",
+      "sense_rank": 3,
       "glosses": [
         "up to … (and no more)",
         "at most; no more than"
       ],
-      "usage_note": "A limiting (取り立て) まで: it caps a quantity, an allowance, or a period at the named point and shuts out anything past it, which is why it lives in rules, prices, and announcements and is usually followed straight away by だ/です, となる, or とする. The ceiling is the message, not the journey to it — that is what separates it from the range まで of 0303 (駅まで歩く traces the whole stretch, 一人二枚まで does not) and from までに, which fixes a deadline for a one-shot act. Where だけ or しか〜ない single out one item against others, this まで marks the top of a scale, so 以上, 以内, and 限度 sit naturally around it.",
+      "usage_note": "Caps a quantity, an allowance, or a period at the named point and shuts out anything past it, which is why it fills rules, prices, and notices and is usually followed by だ, となる, or とする: 一人二枚まで, 二時まで. The ceiling is the message, not the span traveled to it, which separates it from the まで of extent (駅まで歩く), from the clause range that runs until an event (雨がやむまで), and from 〜までだ, a fallback plan (やり直すまでだ).",
       "human_verified": false,
       "examples": [
         {

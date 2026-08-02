@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "A21",
   "class_name": "伝聞-ぼかし-トヤラ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2621",
       "canonical_surface": "とか",
+      "sense_rank": 2,
       "glosses": [
-        "I hear … or something",
-        "apparently; something about …"
+        "I hear that …",
+        "apparently; or so I'm told"
       ],
-      "usage_note": "Hedged hearsay: you relay what you heard while pointedly declining to vouch for it, which makes it the polite way to pass on news about other people. It usually closes the sentence with the verb of saying left off, and とかで introduces a reported reason. Next to そうだ, which repeats a report straight, とか signals that you may have the details wrong; next to とやら it hedges the report rather than the identity of the thing. It is also distinct from the listing とか that strings examples together mid-sentence (映画とか音楽とか): hearsay とか closes the clause and stands alone, and it never comes in pairs.",
+      "usage_note": "Relays something heard without vouching for it: the clause ends with とか and the verb of saying is dropped (課長は来月辞めるとか), and とかで passes on a reported reason (風邪をひいたとかで休んだ). The sibling lane is the listing とか, which cites representative examples inside a sentence and normally repeats (映画とか音楽とか). It usually follows the plain form, is informal, and is less definite than そうだ.",
       "human_verified": false,
       "examples": [
         {
@@ -37,11 +40,12 @@
     {
       "l2_id": "2631",
       "canonical_surface": "とやら",
+      "sense_rank": 1,
       "glosses": [
         "some … or other; a certain …",
         "… or so they call it"
       ],
-      "usage_note": "Marks something the speaker cannot or will not pin down: a half-caught name, or a fashionable term held at arm's length, which is why it often lands as faintly mocking. It is bookish and turns up rarely in everyday conversation, and it attaches most often to a noun, frequently followed by いう (山田とやらいう男). Where とか hedges the reliability of a report, とやら distances the speaker from the thing being named.",
+      "usage_note": "Marks a name or term the speaker cannot or will not pin down: a half-caught name (佐々木とやらいう男) or a fashionable word held at arm's length (ワーケーションとやら), which often reads as faintly mocking. Its classmate とか hedges how reliable a report is; とやら distances the speaker from the thing being named. It attaches to nouns, often followed by いう, and is bookish, uncommon in everyday speech.",
       "human_verified": false,
       "examples": [
         {

@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "J32",
   "class_name": "進行-継続-テイク類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1332",
       "canonical_surface": "ででもまいり",
+      "sense_rank": 1,
       "glosses": [
         "(humble) will go on …ing",
         "will continue to … (from now on)"
       ],
-      "usage_note": "The 参る-based humble/formal counterpart of 〜ていく, pointing forward from the present, which is why it is the standard closing of pledges in speeches, press releases and customer letters. Because 参る is humble, it is used of your own or your organization's actions, or of impersonal developments, not of a respected person's actions. The same forms also serve the 〜てくる sense (progress up to now); direction is read from context and tense.",
+      "usage_note": "Continuation or change moving forward from the present, in the humble 参る form (今後も努めてまいります), which is why it closes pledges in speeches and customer letters. Because 参る is humble it describes your own or your organization's actions, or impersonal developments, not those of a respected person. The same forms also carry the てくる sense of change accumulating up to now; direction is read from context.",
       "human_verified": false,
       "examples": [
         {
@@ -37,12 +40,13 @@
     {
       "l2_id": "1381",
       "canonical_surface": "でけ",
+      "sense_rank": 1,
       "glosses": [
         "go on …ing",
         "gradually become … (from now on)",
         "… and go off"
       ],
-      "usage_note": "Continuation or gradual change heading away from the present moment or from where the speaker stands; it is the mirror image of 〜てくる, which tracks change accumulating up to now. 〜てく／〜でく is the casual spoken contraction, and 〜てまいります the formal humble version. With motion verbs it keeps its literal 'do it and go' reading.",
+      "usage_note": "Continuation or gradual change heading away from the present moment or from where the speaker stands (減っていく, 冷たくなっていく). Its mirror image is てくる, which tracks change accumulating up to now, and the humble counterpart is てまいる. With motion verbs it keeps the literal 'do it and go' reading, and てく／でく is the casual spoken contraction.",
       "human_verified": false,
       "examples": [
         {

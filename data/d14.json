@@ -1,24 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "d14",
   "class_name": "状況-般-ニヨッテ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0143",
       "canonical_surface": "によっての",
+      "sense_rank": 2,
       "glosses": [
-        "by means of",
         "depending on",
-        "owing to"
+        "varying with; from one … to the next"
       ],
-      "usage_note": "Covers four related jobs: the means used (話[はな]し合[あ]いによって), the agent of a passive (名工[めいこう]によって建[た]てられた), the cause (不注意[ふちゅうい]によって), and variation from case to case (人[ひと]によって違[ちが]う). The variation reading needs a noun that names a set of cases plus a predicate of difference, so it is the one learners should keep distinct from the rest. The whole pattern is formal; conversation usually reaches for で or 〜次第[しだい]. による is the prenominal form and により the clipped written shape; によっては (casually によっちゃ) is a separate, topic-marked shape that only carries the \"depending on the case\" reading.",
+      "usage_note": "Names case-to-case variation: the noun names a set of cases and the predicate reports difference or inconsistency (人によって違う, 天候によって見えたり見えなかったり). That predicate of difference is the diagnostic; without one the same form reads as its siblings, means or cause or passive agent (地震によって), or conformity to a rule (規則によって). によっては, casually によっちゃ, is the topic-marked shape and carries only this reading.",
       "human_verified": false,
       "examples": [
         {
@@ -26,12 +28,12 @@
           "english": "Tastes vary widely from person to person."
         },
         {
-          "ruby": "話[はな]し合[あ]いによって問題[もんだい]を解決[かいけつ]したい。",
-          "english": "I'd like to settle the matter through discussion."
+          "ruby": "地方[ちほう]によって同[おな]じ料理[りょうり]の味付[あじつ]けが違[ちが]う。",
+          "english": "The same dish is seasoned differently from one region to the next."
         },
         {
-          "ruby": "この寺[てら]は江戸時代[えどじだい]の名工[めいこう]によって建[た]てられた。",
-          "english": "This temple was built by a master craftsman of the Edo period."
+          "ruby": "曜日[ようび]によって図書館[としょかん]の閉[し]まる時間[じかん]が変[か]わる。",
+          "english": "The library's closing time changes depending on the day of the week."
         }
       ]
     }

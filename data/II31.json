@@ -1,24 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "I31",
   "class_name": "推量-反実-トコロ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0482",
       "canonical_surface": "とこ",
+      "sense_rank": 2,
       "glosses": [
         "almost … (but didn't)",
-        "nearly …",
-        "came close to …"
+        "nearly …"
       ],
-      "usage_note": "Counterfactual ところ: the event came right to the brink and then did NOT happen, so it is set up by もう少しで, 危[あぶ]なく, あやうく or a counterfactual conditional (〜なければ…するとこだ, 'I would have …'). Do not confuse it with the imminent-action ところ of これから出るところだ (l2 0481), which schedules an event that really is about to occur: the same 辞書形＋ところ shape, opposite outcome, and only this near-miss reading takes もう少しで／危なく. Keep the plain だ here; the explicitly past 〜ところだった is catalogued as its own pattern (l2 2091), and after the past tense 〜たところ the noun instead means 'had just done it'. とこ is the clipped conversational shape.",
+      "usage_note": "Reports a near miss: the event came to the brink and then did not happen, set up by もう少しで, 危なく, あやうく or a negative conditional (君が呼んでくれなければ寝過ごすとこだ). The sibling lane is the plain imminent reading, where the same 辞書形＋ところ schedules an event that really does occur (これから出るところだ). This near miss is usually told in the past, とこだった, filed as its own entry; the non-past だ here is live commentary.",
       "human_verified": false,
       "examples": [
         {

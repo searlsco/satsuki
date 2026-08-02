@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "t31",
   "class_name": "逆接-想外-ニモカカワラズ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1041",
       "canonical_surface": "にもかかわらず",
+      "sense_rank": 1,
       "glosses": [
         "despite …",
         "in spite of the fact that …",
         "even though"
       ],
-      "usage_note": "The formal written counterpart of のに: a condition that should have produced one outcome, and an outcome that defied it, reported with a note of surprise or reproach. A bare noun works directly (大雨にもかかわらず), as do a plain verb, an i-adjective and た forms; in careful prose a na-adjective or a predicative noun takes である first (危険であるにもかかわらず). それにもかかわらず serves as the sentence-initial conjunction. Where をよそに says someone deliberately brushed the circumstance aside, にもかかわらず only says the circumstance failed to have its expected effect.",
+      "usage_note": "Reports that a circumstance failed to produce the outcome it should have, with surprise or reproach (大雨にもかかわらず、長い列ができていた); the formal written counterpart of のに. Its classmate をよそに says someone deliberately brushed the circumstance aside; にもかかわらず only says the expected effect did not follow. A bare noun, a plain verb, an i-adjective and た attach directly; a na-adjective or predicative noun takes である (危険であるにもかかわらず).",
       "human_verified": false,
       "examples": [
         {
@@ -38,12 +41,13 @@
     {
       "l2_id": "2791",
       "canonical_surface": "をよそに",
+      "sense_rank": 1,
       "glosses": [
         "heedless of …",
         "in defiance of …",
         "paying no attention to …"
       ],
-      "usage_note": "A written-style N1 expression built on 余所 ('somewhere else'): the subject shoves other people's 心配, 反対, 批判 or 期待 off to one side and goes ahead anyway. It attaches to a noun, and to a clause only through の (騒いでいるのをよそに). The feeling disregarded is typically someone else's rather than the subject's own, and the sentence usually carries a shade of disapproval or detachment, which is what separates it from the neutral にもかかわらず.",
+      "usage_note": "The subject pushes aside someone else's 心配, 反対, 批判, or 期待 and goes ahead anyway (住民の反対をよそに、工事は進められた), usually with a shade of disapproval. Its classmate にもかかわらず only reports that a circumstance failed to have its expected effect, without that deliberate disregard. Written style; it attaches to a noun, and to a clause only through の (騒いでいるのをよそに).",
       "human_verified": false,
       "examples": [
         {

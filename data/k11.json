@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "k11",
   "class_name": "話題-提示-トイウノハ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2812",
       "canonical_surface": "ってのは",
+      "sense_rank": 2,
       "glosses": [
         "as for; when it comes to",
         "the thing about … is"
       ],
-      "usage_note": "Same shape as the defining ってのは, but here it raises a topic rather than explains a term, and the comment that follows is an evaluation or complaint (大変だ, きついよ, いつも同じだ). This use readily takes a whole clause, where the defining use normally wants a bare noun, so a verb or i-adjective in plain form can sit directly in front of it. Against かというと, which poses a question and then answers it, this one simply foregrounds something already on both speakers' minds; against bare は it adds an audible dose of feeling.",
+      "usage_note": "Raises a clause or noun phrase as the topic and comments on it, typically with an evaluation or complaint (一人で引っ越しするってのは案外きつい, あいつの言い訳ってのは、いつも同じだ). The sibling lane uses the same shape to define a word, taking a bare noun and saying what it denotes (おやつってのは、食事の間に食べる軽い物だ). A plain-form verb or i-adjective clause can sit directly in front of it, where bare は would need のは.",
       "human_verified": false,
       "examples": [
         {
@@ -37,12 +40,13 @@
     {
       "l2_id": "2831",
       "canonical_surface": "かというと",
+      "sense_rank": 1,
       "glosses": [
         "as to why …",
         "if you ask whether …",
         "as for the question of"
       ],
-      "usage_note": "Sets up an embedded question and then answers it in the same breath, so the speaker gets to control both halves of the exchange. With なぜ or どうして it is the standard way to walk back into a reason, and the answer clause typically lands on ～からだ or ～ためだ. It also serves a concessive turn, ～かというとそうでもない, conceding that the obvious answer is not quite right; the polite かといいますと and the casual かっていうと are the same pattern dressed for the room.",
+      "usage_note": "Sets up an embedded question and answers it in the same breath: なぜ山に登るかというと、忘れられないからだ. With なぜ or どうして it is the standard way back into a reason, and the answer clause typically closes with ～からだ or ～ためだ. It also forms the concessive ～かというとそうでもない, conceding that the obvious answer is not quite right. Its sibling というと instead picks up a word already said.",
       "human_verified": false,
       "examples": [
         {

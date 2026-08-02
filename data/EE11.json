@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "E11",
   "class_name": "可能-可能-コトガデキル類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1751",
       "canonical_surface": "ことでき",
+      "sense_rank": 1,
       "glosses": [
         "can; be able to",
         "it is possible to"
       ],
-      "usage_note": "Attaches to the dictionary form and is the most neutral, unambiguous way to say \"can\": unlike the れる/られる potential it can never be misread as a passive or an honorific, so it is the safe choice in writing, announcements, and formal speech. It is heavier than the short potential, so casual conversation usually shortens it. The negative is normally written with は (ことはできない / ことはできません); this is the unmarked negative shape, and only heavy stress or an explicit contrast (見ることはできるが、触ることはできない) gives it a concessive edge.",
+      "usage_note": "States that something is possible or within someone's ability, attaching to the dictionary form of the verb (予約することができます). Against the れる/られる short potential it is unambiguous, since られる also serves as passive and honorific, so it is the usual choice in writing, announcements, and formal speech, and too heavy for most casual conversation. Modifying a noun, it takes の or が: 泳ぐことのできる人.",
       "human_verified": false,
       "examples": [
         {
@@ -37,11 +40,12 @@
     {
       "l2_id": "3321",
       "canonical_surface": "れ",
+      "sense_rank": 1,
       "glosses": [
         "can; be able to",
         "can be done"
       ],
-      "usage_note": "The short potential, built here on the irrealis stem of ichidan verbs (見る → 見られる, 食べる → 食べられる). Because the same られる form also serves as passive and honorific, context has to disambiguate, which is one reason casual speech so often drops the ら (見れる, 食べれる); that ら-less form is still avoided in writing and broadcasting. Choose ことができる instead when ambiguity would be costly, and 得る when you mean \"could conceivably happen\" rather than \"is able to.\"",
+      "usage_note": "The short potential: the subject is able to do something, or something can be done (六時でも起きられます). Because られる is also the passive and the honorific, only context separates them, which is why ことができる is chosen where ambiguity would be costly and 得る where the sense is \"could conceivably happen\". The ら-less form (見れる, 食べれる) is common in speech but avoided in edited writing and broadcasting.",
       "human_verified": false,
       "examples": [
         {
@@ -61,11 +65,12 @@
     {
       "l2_id": "3331",
       "canonical_surface": "え",
+      "sense_rank": 1,
       "glosses": [
         "can; be possible to",
         "could conceivably; is possible"
       ],
-      "usage_note": "A written, rather formal auxiliary on the masu-stem. It mostly reports that something is possible in the circumstances or conceivable, not that a person has the skill, so it pairs naturally with verbs of occurrence and cognition (起こり得る, 考え得る); with a human subject it does shade into \"is in a position to\" (成し得る). The plain and prenominal form may be read うる or える, but in modern usage every other form is え- (得ます・得ない・得た); only fossilized literary forms such as あり得べき keep う.",
+      "usage_note": "Says that something is possible or conceivable in the circumstances, attaching to the masu-stem (起こり得る, 考え得る); with a human subject it shades into being in a position to do something (成し得る). It reports possibility rather than personal skill, where its class siblings られる and ことができる report ability. The plain and prenominal form is read うる or える, but every other form is え- (得ます, 得ない, 得た).",
       "human_verified": false,
       "examples": [
         {

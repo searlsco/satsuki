@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "k61",
   "class_name": "話題-同類取り立て-モ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2991",
       "canonical_surface": "も",
+      "sense_rank": 1,
       "glosses": [
         "also; too",
         "even"
       ],
-      "usage_note": "Adds an item to something already established, replacing が or を outright and stacking onto other particles instead (にも, からも, までも). With a quantity or an extreme case it shades into \"even\" (挨拶もしない, 三時間も). Because it displaces the subject and object markers, 私も知っている is right and 私がも is not.",
+      "usage_note": "Adds an item to something already established: 弟も来年から働く, 子供にも使える. It replaces が and を outright and stacks onto other particles (にも, からも, までも), so 私も知っている is right and 私がも is not. With a quantity or an extreme case it shades into \"even\" (挨拶もしない, 三時間も).",
       "human_verified": false,
       "examples": [
         {

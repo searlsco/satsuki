@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "b21",
   "class_name": "対象-指向-ニタイシテ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0081",
       "canonical_surface": "にたいしての",
+      "sense_rank": 1,
       "glosses": [
-        "toward; to (the target of an action or feeling)",
-        "in response to; with regard to"
+        "toward; to (the target)",
+        "in response to"
       ],
-      "usage_note": "Marks the person, group or thing an action, attitude or feeling is aimed at, so it goes with words like 抗議する, 反対する, 優しい, 厳しい. Keep it clear of について and に関して, which name what is being discussed rather than who it is aimed at: a presentation is 温暖化問題について, not に対して. It also does not stand in for the を that marks a verb's direct object, and in its prenominal form に対する it commonly heads nouns like 反応, 批判, 態度.",
+      "usage_note": "Marks the person, group or thing an action, attitude or feeling is aimed at: 客に対して謝る, 学生に対して厳しい, and predicates like 抗議する, 反対する, 優しい. A sibling entry takes the ratio sense, setting an amount against a stated reference amount (定員三十名に対して応募が百件). Before a noun it becomes に対する (親に対する反抗心), less often に対しての. It does not replace the を of a direct object, nor the について that names a topic of discussion.",
       "human_verified": false,
       "examples": [
         {
@@ -37,11 +40,12 @@
     {
       "l2_id": "2932",
       "canonical_surface": "にゃ",
+      "sense_rank": 7,
       "glosses": [
-        "toward (someone), as an attitude",
-        "as for (how one behaves) toward …"
+        "toward (someone)",
+        "with; on (someone)"
       ],
-      "usage_note": "The に that aims an attitude, feeling or reaction at someone — the slot に対して fills when it needs weight — so it turns up with 厳しい, 優しい, 甘い, 冷たい, 腹を立てる rather than with verbs of handing something over. にゃ is the casual spoken contraction of には (parallel to では→じゃ, ては→ちゃ), so it adds は's contrastive force (that one, at any rate) and belongs to rough, familiar or old-fashioned speech, never to writing, where には or に対して is used instead. Keep it apart from sibling 2933, whose に marks the party spoken to, asked or handed something (親にゃ言えない), and from the homophonous にゃ that contracts ねば (行かにゃならん).",
+      "usage_note": "Aims an attitude, feeling or reaction at someone, the slot に対して fills when it needs weight, so it appears with 厳しい, 優しい, 甘い, 冷たい (子供に優しい, 俺に厳しい). Sibling lanes take the person told, asked or handed something (親に言う), the source something comes from (親方に教わる), and the one who can or knows (俺には無理だ). にゃ contracts には in rough speech and fiction dialogue rather than neutral prose.",
       "human_verified": false,
       "examples": [
         {

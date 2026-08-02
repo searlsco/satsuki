@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "P11",
   "class_name": "例示-程度-クライ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "3001",
       "canonical_surface": "ほど",
+      "sense_rank": 1,
       "glosses": [
         "about; approximately",
         "to the extent that; so … that",
         "not as … as"
       ],
-      "usage_note": "ほど measures a degree the speaker treats as high or noteworthy, and it is the stiffer, more written-sounding of the ほど/ぐらい pair. Two jobs are ほど's alone: the comparison AはBほど〜ない ('A is not as … as B'), where ぐらい cannot substitute, and the correlative 〜ば〜ほど. ほど also follows past た in the comparison frame (思ったほど難しくなかった). Conversely it cannot mark a pinpoint time or date (三時ごろ, not 三時ほど), and it resists ぐらい's belittling 'a mere …' sense.",
+      "usage_note": "Marks degree or extent: an approximate amount (三十分ほど) or a yardstick showing how far something goes (驚くほど安い). Against its near-synonym ぐらい it sounds more written, and two frames are ほど's alone: the comparison AはBほど〜ない and the correlative 〜ば〜ほど. It does not mark a pinpoint time, where ごろ is used (三時ごろ).",
       "human_verified": false,
       "examples": [
         {
@@ -38,12 +41,13 @@
     {
       "l2_id": "3011",
       "canonical_surface": "ぐらい",
+      "sense_rank": 1,
       "glosses": [
         "about; approximately",
         "at least; just a (trivial) …",
         "to the extent that"
       ],
-      "usage_note": "ぐらい is the everyday spoken counterpart of ほど, and it leans the opposite way on the scale: besides rough quantities it downgrades what it marks to a trifle or a bare minimum (返事ぐらい 'at least a reply'), a nuance ほど does not carry. It also forms the dismissive 〜たぐらいで(は) frame (一度会ったぐらいでは…), where the past event is written off as too slight to matter; ほど after た is not ungrammatical but reads as comparison (思ったほど〜ない), not belittlement. It is likewise fine with a pinpoint time (三時ぐらい). ぐらい and くらい are the same word and 位 is the kanji spelling; くらい is the standard form after これ/それ/どれ, and elsewhere ぐらい and くらい both occur, with ぐらい common in speech.",
+      "usage_note": "Marks a rough amount (十五分ぐらい) or an extent, and also downgrades what it marks to a triviality or a bare minimum (返事ぐらいはしてほしい). Its near-synonym ほど shares the approximation and extent senses but not that belittling one, and ほど sounds more written. くらい and ぐらい are the same word; くらい is standard after これ・それ・どれ, and ぐらい is commoner in speech.",
       "human_verified": false,
       "examples": [
         {
@@ -63,12 +67,13 @@
     {
       "l2_id": "3021",
       "canonical_surface": "ばかり",
+      "sense_rank": 1,
       "glosses": [
         "only; nothing but",
         "keep …ing; do nothing but",
         "about; some (quantity)"
       ],
-      "usage_note": "After a noun ばかり means the thing marked is all there is, and after a て/で-form it means the subject does nothing else — a complaint far more often than a neutral report, so it usually carries irritation that ほど and ぐらい do not. Its old quantity-approximating use (三日ばかり 'some three days') still turns up but sounds formal or dated; modern speech reaches for ぐらい. Note that the very common 〜たばかり 'have just …ed' attaches to past た instead and is a separate construction from the ones shown here.",
+      "usage_note": "Marks the thing named as all there is (ビールばかり) or, after a て-form, that the subject does nothing else (負けてばかり); it usually carries irritation, which ほど and ぐらい do not. Its older approximating use (三日ばかり) sounds formal or dated, and modern speech uses ぐらい instead. The frequent 〜たばかり 'have just done' attaches to past た and is a separate construction.",
       "human_verified": false,
       "examples": [
         {

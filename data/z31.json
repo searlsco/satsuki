@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "z31",
   "class_name": "願望-自分-タイ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "3281",
       "canonical_surface": "たい",
+      "sense_rank": 1,
       "glosses": [
         "want to …",
         "would like to …"
       ],
-      "usage_note": "Attaches to a verb's masu-stem and then inflects like an i-adjective (たかった, たくない, たければ). The direct object may be marked with either を or が: を is now the statistical default and is preferred when the object is long or modified, or when the focus is on the act, while が puts the spotlight on the thing wanted and is very common in short, emotive utterances (水が飲みたい). Plain たい normally states the speaker's own desire, or the listener's in a question; for a third person's desire Japanese typically switches to たがる or an evidential form such as たいらしい, though inside quotations and subordinate clauses たい is unrestricted as to person.",
+      "usage_note": "States the speaker's own desire to do something (泳ぎたい, 食べたいです), attaching to the masu-stem and inflecting like an i-adjective (たかった, たくない, たければ). The object takes を or が: を is the modern default, while が spotlights the thing wanted (水が飲みたい). A third person's desire typically switches to たがる or たいらしい, though in quotations and subordinate clauses たい is unrestricted as to person.",
       "human_verified": false,
       "examples": [
         {

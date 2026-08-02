@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "g11",
   "class_name": "基準-基準-ヲモッテ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0063",
       "canonical_surface": "をもっての",
+      "sense_rank": 3,
       "glosses": [
         "on the basis of; by the standard of",
         "with (a quality brought to bear)"
       ],
-      "usage_note": "The standard-marking member: it names the criterion a judgment rests on (所定の基準をもって) or the quality the actor brings to bear (誠意をもって, 責任をもって), presenting it as the authoritative measure. Where the sibling instrumental entry names the medium an act travels through (書面をもって知らせる), this one names what the act is measured by. It descends from をもちて (持つ), is at home in notices, contracts, and ceremonial speech, and carries a separate deadline sense ('as of', 本日をもって閉店) that has nothing to do with either. でもって is its emphatic everyday counterpart and plain で the neutral one.",
+      "usage_note": "Names the criterion a judgment or decision rests on, or the quality the actor brings to bear as its measure (所定の基準をもって判定する, 過半数をもって可決する, 誠意をもって対応する). The sibling entries mark the point at which something takes effect or ends (本日をもって閉店) and the medium an act travels through (書面をもって). It belongs to formal notices and ceremonial speech; で is the ordinary equivalent in the criterion use (過半数で可決する).",
       "human_verified": false,
       "examples": [
         {
@@ -25,8 +28,8 @@
           "english": "Pass or fail is determined against the prescribed standard."
         },
         {
-          "ruby": "全[すべ]ての手続[てつづ]きは電子[でんし]署名[しょめい]をもって完了[かんりょう]する。",
-          "english": "All the paperwork is finalized by electronic signature."
+          "ruby": "議案[ぎあん]は過半数[かはんすう]の賛成[さんせい]をもって可決[かけつ]された。",
+          "english": "The motion was passed with a majority in favor."
         },
         {
           "ruby": "弊社[へいしゃ]は誠意[せいい]をもって対応[たいおう]いたします。",
@@ -37,48 +40,50 @@
     {
       "l2_id": "0073",
       "canonical_surface": "でもって",
+      "sense_rank": 3,
       "glosses": [
-        "with; by means of",
-        "using (emphatic)"
+        "on the basis of; going by",
+        "by the standard of"
       ],
-      "usage_note": "An emphatic expansion of the particle で that puts extra weight on the instrument or resource being used; it is at home in speech and relaxed writing rather than in official notices, where をもって is the expected choice. Learners should keep it apart from the sentence-initial conversational connective でもって ('and then'), which is a different animal.",
+      "usage_note": "Names the criterion or measure by which something is decided, judged or reckoned: 多数決でもって可決する, 成績でもって決まる, with the predicate reporting a decision or its outcome. Two sibling entries take the other readings: the instrument or material an action uses (お金でもって, 竹と紙でもって) and the quality the actor brings (経験でもって, 意志でもって). For a cut-off in time, 本日をもって閉店 takes をもって rather than this form.",
       "human_verified": false,
       "examples": [
         {
-          "ruby": "その問題[もんだい]は結局[けっきょく]お金[かね]でもって解決[かいけつ]した。",
-          "english": "In the end, that problem got solved with money."
+          "ruby": "その案[あん]は多数決[たすうけつ]でもって承認[しょうにん]された。",
+          "english": "The proposal was approved on the basis of a majority vote."
         },
         {
-          "ruby": "祖父[そふ]は竹[たけ]と紙[かみ]でもって立派[りっぱ]な凧[たこ]を作[つく]った。",
-          "english": "My grandfather made a magnificent kite out of nothing but bamboo and paper."
+          "ruby": "クラス替[が]えは前期[ぜんき]の成績[せいせき]でもって決[き]まるそうだ。",
+          "english": "Apparently the new class assignments are decided by first-term grades."
         },
         {
-          "ruby": "新[あたら]しい方法[ほうほう]でもってやり直[なお]してみよう。",
-          "english": "Let's start over with a new approach."
+          "ruby": "審査員[しんさいん]は独自[どくじ]の基準[きじゅん]でもって作品[さくひん]を評価[ひょうか]した。",
+          "english": "The judges rated the entries by a standard of their own."
         }
       ]
     },
     {
       "l2_id": "0341",
       "canonical_surface": "での",
+      "sense_rank": 5,
       "glosses": [
-        "by; via (a medium or route)",
-        "using (a channel)"
+        "at (a price or rate)",
+        "by (a standard or criterion)"
       ],
-      "usage_note": "The plain, unmarked way to name the medium or route by which something is done or delivered — メールで, 窓口で, バスで — and the everyday default against which をもって sounds formal and でもって sounds emphatic. Concrete tools and materials (筆で書く, 布で作る) sit with the sibling instrumental entry. Before a noun it takes the form での (電話での連絡), which is why the dictionary form of the pattern is listed that way.",
+      "usage_note": "Names the rate, price or standard something is reckoned or settled by: 時給千円で働く, 半額で買う, 多数決で決める. Sibling で entries: means, material or cause (筆で書く, メールで送る, 風邪で休む), place of an action (カフェで勉強する), group as doer (会社で), copula linking form (休みで), te-form joint (呼んで). The heavier をもって and でもって carry this same standard reading in formal writing.",
       "human_verified": false,
       "examples": [
         {
-          "ruby": "詳[くわ]しい内容[ないよう]はメールでのご案内[あんない]となります。",
-          "english": "We'll send you the details by email."
+          "ruby": "時給[じきゅう]千円[せんえん]でアルバイトを始[はじ]めた。",
+          "english": "I took a part-time job at a thousand yen an hour."
         },
         {
-          "ruby": "祖母[そぼ]とは毎晩[まいばん]電話[でんわ]での短[みじか]い会話[かいわ]が楽[たの]しみだ。",
-          "english": "A short phone call with my grandmother every night is what I look forward to."
+          "ruby": "あの店[みせ]の服[ふく]は今[いま]なら半額[はんがく]で買[か]えるそうだ。",
+          "english": "I hear you can get the clothes at that shop for half price right now."
         },
         {
-          "ruby": "学校[がっこう]までは毎日[まいにち]バスで通[かよ]っている。",
-          "english": "I commute to school by bus every day."
+          "ruby": "クラスの代表[だいひょう]を多数決[たすうけつ]で選[えら]んだ。",
+          "english": "We picked our class representative by majority vote."
         }
       ]
     }

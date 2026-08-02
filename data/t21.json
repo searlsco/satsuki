@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "t21",
   "class_name": "逆接-確定-カラトイッテ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1011",
       "canonical_surface": "からとて",
+      "sense_rank": 1,
       "glosses": [
         "just because … (doesn't mean)",
         "merely on the grounds that"
       ],
-      "usage_note": "Denies an inference: just because A holds, it does not follow that B. The main clause almost always closes on a denial (〜とは限らない, 〜わけではない, 〜ない) or a rhetorical question. からって is the colloquial form, からといって the neutral standard, and からとて the stiff, literary one.",
+      "usage_note": "Denies an inference: just because A holds, it does not follow that B (安いからとて買い込むのは感心しない). The main clause almost always closes on a denial (〜とは限らない, 〜わけではない, 〜ない) or a rhetorical question. からって is the colloquial form, からといって the neutral standard, からとて the stiff, literary one.",
       "human_verified": false,
       "examples": [
         {

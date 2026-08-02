@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "N21",
   "class_name": "目的-移動の目的-ニ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2938",
       "canonical_surface": "にゃ",
+      "sense_rank": 4,
       "glosses": [
-        "(go/come) to …",
-        "to … (purpose of motion)"
+        "to (go and do something)",
+        "for (an errand or activity)"
       ],
-      "usage_note": "The purpose-of-motion に: it takes either a noun of activity (買い物に, 散歩に) or a verb's masu-stem (見に, 迎えに), and the main clause is a verb of movement — 行く, 来る, 帰る, 出かける, 寄る — which casual speech may leave unsaid (「ちょっと買い物に。」). Because the slot is the masu-stem, no object may follow the pattern; whatever is being fetched or watched goes before it (雑誌を買いに行く). にゃ is the casual contraction of には, so it adds the contrastive shading of は to the same purpose phrase and belongs to relaxed or regional speech. Do not confuse it with the homographic にゃ from なければ (行[い]かにゃならん), which contracts a conditional rather than には.",
+      "usage_note": "Names the purpose of a trip: the slot takes a noun of activity (買い物に, 散歩に) or a verb's masu-stem (見に, 迎えに), and the main clause is a verb of movement, 行く, 来る, 帰る, 出かける. Sibling lanes take the destination itself (東京に戻る), the person told something (親に言う), and the point where something simply is (駅の裏にある). An object goes before the masu-stem, never after the pattern (雑誌を買いに行く).",
       "human_verified": false,
       "examples": [
         {

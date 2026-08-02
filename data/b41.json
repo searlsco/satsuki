@@ -1,23 +1,25 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "b41",
   "class_name": "対象-状態の対象-ガ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0953",
       "canonical_surface": "が",
+      "sense_rank": 2,
       "glosses": [
-        "marks the object of a stative predicate",
-        "(what is liked, understood, wanted, or perceived)"
+        "marks the object of liking, ability, or perception"
       ],
-      "usage_note": "With predicates that describe a state rather than an action — 好きだ, 嫌いだ, 上手だ, 苦手だ, 分かる, できる, 要る, 見える, 聞こえる, potentials, and 〜たい / 〜がほしい — the thing the state is about is marked with が, not を, while the experiencer takes は or が, and with 分かる, 見える, 聞こえる, 要る it may also take には. Learners who transfer English transitivity and write 日本語を分かる produce the classic mistake. を does turn up with 〜たい and with some potential verbs when the speaker stresses the action itself (水を飲みたい), but が is the default and the safe answer in short, simple clauses; を is normal once the object is separated from the predicate or the action itself is in focus.",
+      "usage_note": "が marks what a stative predicate is about: the thing liked, understood, needed, wanted, seen or heard (日本語が分かる, 水が飲みたい, 音が聞こえる), where English would use a direct object. Its siblings are the plain subject marker (雨が降る) and the clause-linking が meaning but (高いが買った). を does turn up with 〜たい and with some potentials when the action itself is in focus, but が is the default in short clauses.",
       "human_verified": false,
       "examples": [
         {

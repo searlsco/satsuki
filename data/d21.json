@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "d21",
   "class_name": "状況-特別-オリニ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0221",
       "canonical_surface": "おりの",
+      "sense_rank": 1,
       "glosses": [
         "on the occasion of",
         "when (the chance arises)"
       ],
-      "usage_note": "Formal, letter-and-greeting Japanese for an occasion framed as a welcome opportunity, so it fits 帰国の折に or お立ち寄りの折に and sits badly on unwelcome events such as accidents, though adverse ongoing states are fine (お忙しい折に, ご多忙の折); bare commands and prohibitions are rare after it, though polite requests in ください and お願いします are routine. It attaches to a dictionary- or た-form verb, an i-adjective, or N+の. Sibling 際に is the neutral procedural 'when you do X', while 折 keeps the flavour of 'should the chance come'; 折の is the adnominal shape and 折にゃ the contracted colloquial one.",
+      "usage_note": "Formal letter-and-greeting Japanese for an occasion framed as a welcome opportunity: 帰国の折に, お立ち寄りの折に. It attaches to a dictionary- or た-form verb, an i-adjective, or N+の, and polite requests in ください follow it freely. Sibling 際に is the neutral procedural \"when you do X\" and takes accidents and prohibitions; 折 keeps the sense of \"should the chance arise\", though adverse ongoing states are fine (お忙しい折に).",
       "human_verified": false,
       "examples": [
         {
@@ -37,12 +40,13 @@
     {
       "l2_id": "0261",
       "canonical_surface": "おりからの",
+      "sense_rank": 1,
       "glosses": [
         "at a time of",
         "given the season of",
         "just then"
       ],
-      "usage_note": "Literary and epistolary: 折柄 (折 + the suffix 柄 'given the nature or circumstances of') presents the prevailing season or conditions as the backdrop for the concern or event that follows, which is why it is a fixture of seasonal greetings — 寒さ厳しい折から、ご自愛ください. Its adnominal shape 折からの modifies a following noun with the sense 'the ~ that happened to be falling/blowing at the time' (折からの雨). Where sibling 折に points at a chance to do something, 折から points at circumstances you are living through, and in the greeting formulas that dominate its use it is overwhelmingly non-past (寒さ厳しい折から), not た-form.",
+      "usage_note": "Presents the prevailing season or conditions as the backdrop for the concern or event that follows, which makes it a fixture of seasonal greetings: 寒さ厳しい折から、ご自愛ください. The adnominal 折からの modifies a noun with the sense of what happened to be falling or blowing at the time (折からの雨). Sibling 折に points at a chance to do something, 折から at circumstances being lived through. It is typically non-past.",
       "human_verified": false,
       "examples": [
         {
@@ -62,12 +66,13 @@
     {
       "l2_id": "2951",
       "canonical_surface": "さいにゃ",
+      "sense_rank": 1,
       "glosses": [
         "when",
         "on the occasion of",
         "in the event of"
       ],
-      "usage_note": "The neutral formal 'when' of announcements, manuals, forms and business speech; it is indifferent to whether the occasion is welcome or not, so unlike sibling 折に it is at home in warnings, prohibitions and unwelcome events (事故の際に, 故障した際には); both take polite requests freely. It attaches to a dictionary- or た-form verb or to N+の, and it prefers occasions worth singling out, so it sounds starched on everyday trivia where 時 would do (歯[は]を磨[みが]く時 rather than 磨く際). 際には is the topicalized form, and には contracts to にゃ in casual speech, though 際にゃ itself is rare.",
+      "usage_note": "The neutral formal \"when\" of announcements, manuals, forms, and business speech: 機械を使用する際に, 事故の際には. It attaches to a dictionary- or た-form verb or to N+の, and it is indifferent to whether the occasion is welcome, so warnings and prohibitions are normal after it. Sibling 折に keeps the flavour of a welcome opportunity. It prefers occasions worth singling out and sounds starched on daily trivia (歯を磨く時).",
       "human_verified": false,
       "examples": [
         {

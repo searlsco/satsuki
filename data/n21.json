@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "n21",
   "class_name": "添加-一様-ニヨラズ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2751",
       "canonical_surface": "によらず",
+      "sense_rank": 1,
       "glosses": [
         "regardless of",
         "irrespective of",
         "not depending on"
       ],
-      "usage_note": "From 依る 'depend on', so it says the outcome is not determined by the noun named: the factor may vary freely and the result holds anyway. Compared with を問わず, which announces that a condition simply will not be asked about, によらず points at a would-be deciding factor and denies its influence, and it favours nouns naming a presumed deciding factor (見かけ, 年齢, 印象) rather than merely vague ones. It attaches directly to a noun.",
+      "usage_note": "Denies that the named factor decides the outcome: the factor may vary freely and the result holds anyway (年齢によらず人それぞれだ). It attaches directly to a noun, and typically to one naming a presumed deciding factor (見かけ, 年齢, 印象). Class sibling を問わず instead announces that a condition will not be asked about, and prefers nouns with clear alternatives (男女, 国籍).",
       "human_verified": false,
       "examples": [
         {
@@ -38,12 +41,13 @@
     {
       "l2_id": "2761",
       "canonical_surface": "をとわず",
+      "sense_rank": 1,
       "glosses": [
         "regardless of",
         "no matter the",
         "without distinction of"
       ],
-      "usage_note": "Literally 'without asking about', so it declares a condition off the table, and it belongs to announcements, job ads, and rules rather than casual speech; write it 〜を問わず. The noun it takes is typically one with clear, enumerable alternatives (男女, 国籍, 経験の有無, 昼夜), which is where it beats によらず and にかかわらず; conversely a vague quantity noun like 購入金額 sits better with にかかわらず. It attaches directly to a noun.",
+      "usage_note": "Declares a condition off the table: whichever alternative holds, it makes no difference (国籍を問わず出場できる). It attaches directly to a noun, typically one with clear, enumerable alternatives (男女, 国籍, 経験の有無, 昼夜). It belongs to announcements, job ads and rules rather than casual speech, and is written 〜を問わず. Class sibling によらず points at a would-be deciding factor and denies its influence.",
       "human_verified": false,
       "examples": [
         {

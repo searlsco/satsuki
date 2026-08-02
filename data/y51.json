@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "y51",
   "class_name": "否定-当然の否定-トハカギラナイ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1651",
       "canonical_surface": "ともかぎらない",
+      "sense_rank": 1,
       "glosses": [
         "not necessarily …",
         "there's no guarantee that …"
       ],
-      "usage_note": "Denies that something holds without exception. The とは限らない shape is the frequent one and follows an affirmative claim, often with 必ずしも earlier in the sentence; ともかぎらない more typically follows a negative predicate (〜ないともかぎらない) and then reads as a warning that the unwanted case could still happen. Both are neutral in register and equally at home in speech and writing.",
+      "usage_note": "Denies that something holds without exception: the claim may be true, but not necessarily. とは限らない follows an affirmative statement and often has 必ずしも earlier in the sentence (必ずしもよいとは限らない). ともかぎらない typically follows a negative predicate (〜ないともかぎらない) and warns that the unwanted case could still happen.",
       "human_verified": false,
       "examples": [
         {
@@ -37,12 +40,13 @@
     {
       "l2_id": "2801",
       "canonical_surface": "ともなく",
+      "sense_rank": 1,
       "glosses": [
         "without really …ing",
         "without particularly …",
         "from somewhere or other"
       ],
-      "usage_note": "Marks an action performed with no intention behind it, or an origin nobody can pin down. With a verb it usually repeats that verb (見るともなく見る) for \"looking without really looking\"; with an interrogative word it gives a vague source. With an interrogative the particle is normally kept: どこからともなく (\"from out of nowhere\") and 誰にともなく (\"to no one in particular\") are the commonest shapes. It is literary and narrative in flavor, and ともなしに is a near-interchangeable variant.",
+      "usage_note": "Marks an action done with no intention behind it, or a source nobody can pin down. With a verb it usually repeats that verb (見るともなく見る), \"looking without really looking\"; with an interrogative word it gives a vague origin, and the particle is kept: どこからともなく, 誰にともなく. ともなしに is a variant with the same meaning.",
       "human_verified": false,
       "examples": [
         {

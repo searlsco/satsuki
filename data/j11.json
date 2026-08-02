@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "j11",
   "class_name": "定義-定義-トハ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2452",
       "canonical_surface": "とは",
+      "sense_rank": 1,
       "glosses": [
-        "… is (defined as)",
-        "by … is meant",
-        "what … means is"
+        "… means",
+        "… is defined as",
+        "by … is meant"
       ],
-      "usage_note": "The defining marker of written Japanese: it puts a term on the table and hands the rest of the sentence over to its definition, so it pairs naturally with a closing ことだ, ものだ or 意味だ. In this definitional job it is close to というのは and colloquial ってのは, differing mainly in register, with とは preferred in dictionaries, textbooks and formal exposition; note that とは forces a genuine definition, while というのは and its casual ってのは also tolerate mere topic-raising. The same surface とは has other lives outside this corpus slot, notably the exclamatory 「合格[ごうかく]するとは驚[おどろ]いた」 pattern; tell them apart by what follows — definitional とは hands off to a defining predicate (ことだ・ものだ・意味だ), while the exclamatory one is followed by an evaluation of surprise or is left dangling entirely.",
+      "usage_note": "Defines a term: the term comes first and the rest of the sentence says what it means, usually closing with ことだ, ものだ or という意味だ (遅刻とは…間に合わないことだ). The other entry is surprise at an unexpected fact (合格するとは驚いた), following a plain-form clause and ending in an evaluation or in nothing. The term is usually a noun, and とは is written-style; というのは is the neutral equivalent and って the casual spoken one.",
       "human_verified": false,
       "examples": [
         {
@@ -38,12 +41,12 @@
     {
       "l2_id": "2811",
       "canonical_surface": "ってのは",
+      "sense_rank": 1,
       "glosses": [
-        "… is (basically)",
         "what … means is",
-        "… , that's"
+        "… means; … refers to"
       ],
-      "usage_note": "The spoken definition marker, contracted from というのは by way of っていうのは, and the casual equivalent of とは. Use it when explaining a word or category to someone face to face; the payoff is usually a plain ものだ, ことだ or an outright paraphrase, and the tone is confiding rather than authoritative. Keep it out of written definitions, where とは or というのは carries the same content without sounding chatty. Its look-alike is the topic-raising ってのは ('as for …', 'the thing about … is'), which fronts a whole clause (毎朝早く起きるってのは) and lands on an evaluation or complaint; this defining use takes a bare noun and lands on what the word itself denotes, so if というのは could be swapped in and the sentence would still be answering 'what does X mean?', you are in this slot.",
+      "usage_note": "Defines a word or category in speech: a bare noun sits in front and what follows says what it denotes, usually closing on ものだ, ことだ, or a plain paraphrase (おやつってのは、食事の間に食べる軽い物だ). The sibling lane instead raises a topic and comments on it, taking a whole clause and landing on an evaluation or complaint (毎朝早く起きるってのは大変だ). ってのは is the spoken contraction; in writing the same definition takes とは or というのは.",
       "human_verified": false,
       "examples": [
         {

@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "t11",
   "class_name": "逆接-仮定-ナイマデモ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0941",
       "canonical_surface": "ないまでも",
+      "sense_rank": 1,
       "glosses": [
         "even if not …, (at least)",
         "if not … then at least"
       ],
-      "usage_note": "Attaches to a verb's ない-form and concedes a high standard in order to insist on a lower one that must still be met. The second clause typically expresses a wish, request, or intention (〜たい, 〜てほしい, 〜べきだ) and often carries せめて or 少なくとも. It leans written and formal, and is especially common in the frame 〜とは言わないまでも; the ぬまでも variant is stiffer still and largely confined to literary prose. Nouns and な-adjectives reach it through ではない (専門家ではないまでも).",
+      "usage_note": "Concedes a high standard on a verb's ない-form in order to insist on a lower one that must still be met (完璧に暗記しないまでも要点は押さえる). The second clause typically expresses a wish, request, or intention (〜たい, 〜てほしい, 〜べきだ) and often carries せめて or 少なくとも. Nouns and な-adjectives attach through ではない (専門家ではないまでも); the frame 〜とは言わないまでも is especially common, and ぬまでも is literary.",
       "human_verified": false,
       "examples": [
         {

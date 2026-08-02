@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "z41",
   "class_name": "願望-他人-タガル類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "3291",
       "canonical_surface": "たがり",
+      "sense_rank": 1,
       "glosses": [
         "(someone else) wants to …",
         "be eager to …",
         "keep wanting to …"
       ],
-      "usage_note": "たがる is たい plus the suffix がる, which recasts an inner feeling as behavior an observer can see, so it reports a third party's desire as displayed rather than felt. It attaches to the masu-stem and conjugates as a godan verb; non-past たがる usually reads as habitual or repeated, while たがっている describes a wish someone is showing right now. Unlike たい, たがる marks its object only with を; the が option disappears when you switch. Because it frames the person from the outside it can sound detached or faintly critical, so speakers usually avoid it about a superior, and a bare first-person subject is likewise avoided except when describing one's own habitual character (私は昔から知りたがる性格だ).",
+      "usage_note": "Reports someone else's desire as behavior an observer can see (弟は私のゲームを借りたがる). It attaches to the masu-stem and conjugates as a godan verb; non-past たがる usually reads as habitual, while たがっている describes a wish being shown right now. Its object is marked with を rather than が, and because it views the person from the outside it is typically avoided about a superior or about oneself.",
       "human_verified": false,
       "examples": [
         {

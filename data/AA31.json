@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "A31",
   "class_name": "伝聞-認め-ソウ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "3361",
       "canonical_surface": "そう",
+      "sense_rank": 1,
       "glosses": [
         "I hear (that); they say (that)",
         "reportedly"
       ],
-      "usage_note": "The hearsay そうだ repeats a report as received, with no hedging and no evidence of the speaker's own, and it attaches to plain forms (降ったそうだ, いいそうだ, 学生だそうだ). Keep it clear of the look-alike conjecture そうだ, which attaches to the masu-stem or adjective stem (降りそうだ, いい→よさそうだ) and inflects like a な-adjective; the hearsay form has essentially only 〜そうだ／〜そうで, with no prenominal 〜そうな and no negative of its own. Naming the source with 〜によると is common.",
+      "usage_note": "Repeats a report as received, with no hedging and no evidence of the speaker's own, and attaches to plain forms (降ったそうだ, いいそうだ, 学生だそうだ). The look-alike conjecture そうだ attaches instead to the masu-stem or the adjective stem (降りそうだ, よさそうだ) and inflects like a な-adjective. This hearsay form has essentially only 〜そうだ／〜そうで: no prenominal 〜そうな, and no negative of its own.",
       "human_verified": false,
       "examples": [
         {

@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "r11",
   "class_name": "順接-限定-アイダハ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0651",
       "canonical_surface": "あいだは",
+      "sense_rank": 1,
       "glosses": [
         "while; during the time that",
         "for as long as"
       ],
-      "usage_note": "間は marks a bounded stretch of time — one with a clear start and end — throughout which the main clause holds; contrast 間に, which places a one-off event somewhere inside that stretch. Unlike うちは it carries no suggestion that the situation is about to change, and unlike 限りは it names a period rather than setting a condition. It attaches to plain verbs, i-adjectives, な-adjectives with な (静かな間は) and noun+の (雨の間は).",
+      "usage_note": "Names a bounded stretch of time, one with a clear start and end, throughout which the main clause holds (雨が降っている間は待とう). 間に instead places a one-off event somewhere inside that stretch; among the siblings, うちは adds that the span will end and 限りは states a condition rather than a period. It attaches to plain verbs and i-adjectives, to な-adjectives with な (静かな間は), and to noun+の (雨の間は).",
       "human_verified": false,
       "examples": [
         {
@@ -37,11 +40,12 @@
     {
       "l2_id": "0661",
       "canonical_surface": "うちは",
+      "sense_rank": 1,
       "glosses": [
         "while (it still is); as long as it lasts",
-        "for now, while"
+        "while one still can"
       ],
-      "usage_note": "うちは frames the span as a state that will not last, so the main clause is what holds or what you should do before the change arrives; 間は is neutral about any such change. It collocates strongly with states that fade (若い, 明るい, 元気, 〜ている), and it also takes な-adjectives with な and nouns with の (元気なうちは, 独身のうちは).",
+      "usage_note": "Frames the span as a state that will not last, so the main clause is what holds, or what to do, before the change arrives (若いうちは無茶ができる). 間は names the same stretch neutrally, with no suggestion of change, and 限りは sets a condition instead of a period. It takes な-adjectives with な and nouns with の (元気なうちは, 独身のうちは), and collocates with states that fade: 若い, 明るい, 元気, 〜ている.",
       "human_verified": false,
       "examples": [
         {
@@ -61,11 +65,12 @@
     {
       "l2_id": "0671",
       "canonical_surface": "かぎりは",
+      "sense_rank": 1,
       "glosses": [
         "as long as; so long as",
         "provided that"
       ],
-      "usage_note": "限りは states a condition rather than a time span: the main clause holds only while that condition does, with the implication that the opposite follows once it stops. It is more emphatic and more formal than 間は and うちは, and it pairs naturally with commitments and with statements of impossibility (…限りは…できない). Besides plain verbs it takes nouns and な-adjectives through である (学生である限りは), and the very common 〜ない限り(は) means \"unless\", where は is usually dropped, which is why learners meet ない限り far more often than ない限りは.",
+      "usage_note": "States a condition rather than a time span: the main clause holds only while that condition does, with the opposite implied once it stops (私が生きている限りは売らせない). 間は and うちは name periods; 限りは is more emphatic and more formal, and pairs with commitments and with statements of impossibility. Besides plain verbs it takes nouns and な-adjectives through である (学生である限りは), and in the common 〜ない限り \"unless\" は is usually dropped.",
       "human_verified": false,
       "examples": [
         {

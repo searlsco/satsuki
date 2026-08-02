@@ -1,28 +1,31 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "x12",
   "class_name": "疑問-問いかけ-カイ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2511",
       "canonical_surface": "かい",
+      "sense_rank": 1,
       "glosses": [
-        "…?",
-        "(familiar yes-no question)"
+        "…? (friendly yes-no question)",
+        "is it …?; do you …?"
       ],
-      "usage_note": "A warm, familiar yes-no question, prototypically addressed downward or to an intimate: teacher to pupil, older man to a younger person. かい takes yes/no questions; its sibling だい takes questions with an interrogative word (何・誰・どこ・いつ・どうして). Where plain 〜か is brusque and top-down, かい is affectionate — same yes/no job, opposite warmth; it is markedly old-fashioned 役割語 today, rare among young speakers, and it is not used to a superior.",
+      "usage_note": "Asks a warm, familiar yes-no question, typically downward or to an intimate: 元気かい, もう慣れたかい. The sibling lane asks in order to deny and expects no answer: 知るかい, 信じるかい. It follows the plain form but drops だ after a noun or na-adjective (学生かい), questions built on 何・誰・どこ take だい, and かい is old-fashioned today, not used to a superior.",
       "human_verified": false,
       "examples": [
         {
-          "ruby": "その大[おお]きな荷物[にもつ]、一人[ひとり]で運[はこ]べるかい。",
-          "english": "That big load — can you carry it on your own?"
+          "ruby": "明日[あした]の朝[あさ]、一緒[いっしょ]に釣[つ]りに行[い]くかい。",
+          "english": "Want to come fishing with me tomorrow morning?"
         },
         {
           "ruby": "新[あたら]しい仕事[しごと]にはもう慣[な]れたかい。",

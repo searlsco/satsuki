@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "J31",
   "class_name": "進行-継続-テイル類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1342",
       "canonical_surface": "でらっしゃり",
+      "sense_rank": 1,
       "glosses": [
         "(honorific) be …ing",
         "(honorific) be in a state of having …"
       ],
-      "usage_note": "Honorific counterpart of 〜ている, used of the listener or a third party you are elevating; for your own side you switch to 〜ております, and the plain form is 〜ている. 〜ておいでになる is a near-equivalent that is often felt to be a shade more formal. Note that でいらっしゃる also attaches to nouns and adjectives (お元気でいらっしゃる, 部長でいらっしゃる), an attachment outside the verbal te-form pattern shown here.",
+      "usage_note": "Honorific of 〜ている: an action of a person you are elevating is in progress, or the state resulting from it continues (論文を書いていらっしゃる, 東京に住んでいらっしゃる). The sibling lane of this same form is the honorific of 〜てくる, a respected person coming or arriving while doing something (訪ねていらっしゃった). For your own side use 〜ております. でいらっしゃる also attaches to nouns and na-adjectives (部長でいらっしゃる), outside the pattern here.",
       "human_verified": false,
       "examples": [
         {
@@ -37,11 +40,12 @@
     {
       "l2_id": "1351",
       "canonical_surface": "じゃい",
+      "sense_rank": 1,
       "glosses": [
         "be …ing",
         "be in the state of having …"
       ],
-      "usage_note": "The neutral, default progressive/resultative: with an activity verb it marks an action in progress, with a change-of-state verb the state that resulted. 〜てる and 〜でる are the everyday contracted forms in speech; 〜ていらっしゃる is the honorific and 〜ております the humble counterpart. Politeness is carried by the ます ending, not by the pattern itself.",
+      "usage_note": "The everyday progressive and resultative: with an activity verb the action is in progress (今読んでいる), with a change-of-state verb the state that resulted (窓が開いている). 〜てる and 〜でる are the contracted spoken forms. The honorific counterpart is 〜ていらっしゃる and the humble one 〜ております; politeness comes from the ます ending, not from the pattern itself.",
       "human_verified": false,
       "examples": [
         {
@@ -61,11 +65,12 @@
     {
       "l2_id": "1371",
       "canonical_surface": "どり",
+      "sense_rank": 1,
       "glosses": [
         "(humble/formal) be …ing",
         "(Western dialect) be …ing"
       ],
-      "usage_note": "Two quite different lives: 〜ております is the humble-polite 〜ている used about yourself, your family or your company in business and public speech, while plain 〜ておる about someone else is not honorific at all; in standard Japanese it sounds blunt, condescending or archaic, so use 〜ている or 〜ていらっしゃる instead. The contracted 〜とる／〜どる is a Western-Japan colloquial equivalent of 〜てる and carries no humility at all.",
+      "usage_note": "The same progressive and resultative as 〜ている built on おる: 〜ております is the humble-polite form, used of yourself, your family or your company (担当の者が席を外しております). Used of someone else, plain 〜ておる is not honorific and can sound blunt or archaic in standard Japanese, where 〜ている or 〜ていらっしゃる is normal. The contracted 〜とる／〜どる is Western-Japan colloquial for 〜てる and carries no humility.",
       "human_verified": false,
       "examples": [
         {

@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "i21",
   "class_name": "同格-堅い表現-トコロノ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1231",
       "canonical_surface": "ところの",
+      "sense_rank": 1,
       "glosses": [
         "that which; which",
         "what is (called)"
       ],
-      "usage_note": "A stiff, overtly bookish relative-clause marker inserted between a modifying clause and the noun it modifies, where plain Japanese would simply juxtapose the two. It grew out of the 漢文訓読 use of 所 and was then pressed into service as a calque of European relative pronouns, so dictionaries describe it as belonging mostly to 翻訳調 written style; in ordinary speech it sounds affected or parodic. Because it adds little meaning, it is almost always deletable without loss of meaning, and its real work is rhythmic: it keeps a long modifying clause from crashing into its head noun in academic, legal or philosophical prose.",
+      "usage_note": "Marks a relative clause as such, sitting between a modifying clause and its head noun where plain Japanese would simply juxtapose them (法が保護するところの利益). It adds no meaning and is almost always deletable; its work is rhythmic, keeping a long modifier from crashing into its head noun. It belongs to stiff academic, legal and philosophical prose, and sounds affected in speech.",
       "human_verified": false,
       "examples": [
         {

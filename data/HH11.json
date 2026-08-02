@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "H11",
   "class_name": "自然発生-客観的-コトニナル類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1921",
       "canonical_surface": "ことにゃなり",
+      "sense_rank": 1,
       "glosses": [
         "it has been decided that …",
         "it works out that …"
       ],
-      "usage_note": "Reports an outcome settled by circumstances or by someone other than the speaker, in contrast to volitional ことにする; speakers also use it about their own choices to sound less self-assertive. The こととなる variant is stiffer and typical of formal announcements. It has a second, calculating sense (\"that means …\", \"that amounts to …\") used when spelling out a logical consequence, usually as 〜たことになる or ということになる.",
+      "usage_note": "Reports an outcome settled by circumstances or by someone other than the speaker (来月から名古屋支社で働くことになりました); speakers also use it of their own choices to sound less self-assertive. Volitional ことにする is what a speaker says when claiming the decision, and ようになる reports a gradual change in how things come to be done. こととなる is the stiffer variant, typical of formal announcements.",
       "human_verified": false,
       "examples": [
         {
@@ -37,12 +40,13 @@
     {
       "l2_id": "1931",
       "canonical_surface": "ようにゃなり",
+      "sense_rank": 1,
       "glosses": [
         "come to (do)",
         "start (doing) …",
         "reach the point where one can …"
       ],
-      "usage_note": "Marks a gradual change into a new habit, ability, or state, so it pairs especially naturally with potential forms. Where ことになる reports that something was decided or arranged, ようになる reports how things came to be done. The corpus rule licenses a dictionary-form verb; real Japanese also allows the negative (〜ないようになる), though 〜なくなる is far more common there.",
+      "usage_note": "Reports a gradual change into a new habit, ability, or state (自分でコーヒーを入れるようになりました, 泳げるようになった), which is why it pairs naturally with potential forms. Sibling ことになる reports instead that something was decided or arranged. The corpus rule licenses a dictionary-form verb; 〜ないようになる also occurs, though 〜なくなる is far more common there.",
       "human_verified": false,
       "examples": [
         {
@@ -62,12 +66,13 @@
     {
       "l2_id": "1991",
       "canonical_surface": "にゃいたっ",
+      "sense_rank": 1,
       "glosses": [
         "reach the point of (doing)",
         "go so far as to …",
         "culminate in …"
       ],
-      "usage_note": "Formal written Japanese: news copy, reports, and narration, where a long process finally arrives at a notable or extreme endpoint. It sounds heavy in conversation, where ことになる or 〜てしまう would carry the same news. It also takes nouns in real Japanese (現在に至る, 今日に至るまで), though the corpus rule here licenses only a dictionary-form verb.",
+      "usage_note": "Marks a long process finally arriving at a notable or extreme endpoint (交渉が決裂するに至った, 真相を突き止めるに至った). It belongs to formal written Japanese, in news copy, reports and narration; in conversation ことになる or 〜てしまう carries the same news. It also takes nouns in real Japanese (現在に至る, 今日に至るまで), though the corpus rule here licenses only a dictionary-form verb.",
       "human_verified": false,
       "examples": [
         {

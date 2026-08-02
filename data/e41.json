@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "e41",
   "class_name": "起点-離脱-ヲ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2943",
       "canonical_surface": "を",
+      "sense_rank": 3,
       "glosses": [
         "from (leaving); out of",
         "off (a vehicle)"
       ],
-      "usage_note": "Marks the place or state something separates from, with intransitive verbs of departure and exit (出る、降りる、離れる), plus 卒業する. Nothing is acted on here, so it behaves quite unlike the direct-object を: the noun is simply the point left behind. から is often available with the motion verbs (家を出る／家から出る, バスを降りる／バスから降りる), where を frames the departure as one completed event and から draws attention to the physical path out; but with 卒業する only を works (○大学を卒業する, ×大学から卒業する).",
+      "usage_note": "Marks the place or state something separates from, with intransitive verbs of departure and exit (家を出る, バスを降りる) and with 卒業する (大学を卒業する). Two sibling entries take the other readings: the direct object acted on (本を読む) and the route travelled (道を歩く, 橋を渡る). から is usually available with the motion verbs (家から出る, バスから降りる), but 大学を卒業する has no から counterpart.",
       "human_verified": false,
       "examples": [
         {

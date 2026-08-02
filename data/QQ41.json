@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "Q41",
   "class_name": "並立-対比-ニ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2937",
       "canonical_surface": "に",
+      "sense_rank": 1,
       "glosses": [
         "and (paired with)",
         "plus; with"
       ],
-      "usage_note": "Additive に joins nouns that belong together as a set — a meal and its side, an outfit and its footwear, a color scheme — adding the second item onto the first the way you add numbers, so the pair reads as one coordinated whole rather than as sampled examples. It is a small, closed listing and cannot take verbs or adjectives, which keeps it clearly apart from や and とか; it shows up constantly in menus, captions, and set phrases (鬼に金棒).",
+      "usage_note": "Joins nouns that go together as a conventional set: a dish and its accompaniment, an outfit and its footwear (トーストに目玉焼き, 浴衣に下駄). Unlike や and とか it does not present the items as samples of a larger set, and it joins only nouns, never verbs or adjectives. It is common in menus, captions and set phrases (鬼に金棒).",
       "human_verified": false,
       "examples": [
         {

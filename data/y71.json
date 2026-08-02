@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "y71",
   "class_name": "否定-回避-トコロダッタ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2091",
       "canonical_surface": "とこだった",
+      "sense_rank": 1,
       "glosses": [
         "was about to …",
         "nearly …",
         "came close to …ing"
       ],
-      "usage_note": "The near-miss counterfactual: the dictionary-form event was on the very brink of happening and then did not, so the sentence usually lands as relief, and what is named is typically an unwanted outcome. The same shape 〜するところだった also has a merely aspectual reading (\"was just on the point of …\", with no escape implied); the near-miss reading is what the adverbs もう少しで／あと少しで／危なく signal. とこだった／とこでした are the clipped conversational spellings.",
+      "usage_note": "The near-miss counterfactual: the dictionary-form event was on the very brink of happening and then did not, so the sentence usually lands as relief and what it names is typically an unwanted outcome (もう少しで乗り遅れるところだった). The same 〜するところだった also has a merely aspectual reading, \"was just on the point of …\" with no escape implied; the adverbs もう少しで, あと少しで and 危なく signal the near-miss. とこだった and とこでした are the clipped conversational spellings.",
       "human_verified": false,
       "examples": [
         {

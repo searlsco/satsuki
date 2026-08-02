@@ -1,24 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "w21",
   "class_name": "感嘆-詠嘆-モノ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0823",
       "canonical_surface": "もん",
+      "sense_rank": 3,
       "glosses": [
         "how … it is!",
-        "what a … thing",
         "… really does …, doesn't it"
       ],
-      "usage_note": "Exclamatory もの(だ): the speaker lets a feeling well up over something taken as a truth of the world — how fast the years go, how impressive or how outrageous someone is. もん is the casual contraction of もの and is typically spoken rather than written, and よく(も) or なんて often sets it up. Keep it apart from the same-shaped 回顧 〜たものだ ('used to') and from the excuse-making もん ('because'), which attaches straight to a plain-form clause (だって寒いもん) as well as to んだ (知らなかったんだもん) and usually answers a なんで/どうして, spoken or implied.",
+      "usage_note": "Lets a feeling well up over something the speaker takes as a truth of the world: how fast the years go, how outrageous someone is (月日が経つのは早いもんだ). Its siblings are the social norm stated as advice (早く寝るもんだ) and the excuse-making reason at the end of a clause (だって寒いんだもん). It follows plain forms, past included (よく言ったもんだ), and よく(も) often sets it up.",
       "human_verified": false,
       "examples": [
         {
@@ -38,11 +40,12 @@
     {
       "l2_id": "1592",
       "canonical_surface": "こった",
+      "sense_rank": 1,
       "glosses": [
         "what a … thing!",
-        "how … (that is)!"
+        "how … it is!"
       ],
-      "usage_note": "A blunt spoken squeeze of ことだ, at home in gruff 下町-flavored speech and in fiction that evokes it; it delivers a verdict — gratitude, sarcasm, or plain exasperation — rather than a neutral remark. It attaches most naturally to an evaluative i-adjective (ありがたいこった), and equally to な-adjectives and nouns (結構なこった, 面倒なこった). Next to もんだ it sounds rougher and more offhand; next to ことか it passes judgment instead of asking an unanswerable question.",
+      "usage_note": "Passes a verdict on a state or quality, whether gratitude, sarcasm, or exasperation: ありがたいこった, 難儀なこった, ご苦労なこった. It usually follows an evaluative i-adjective, or a na-adjective or noun plus な, and is a clipped ことだ heard in gruff colloquial speech and in fiction that evokes it. The sibling lane gives the listener advice (自分で言うこった) and follows a plain non-past verb.",
       "human_verified": false,
       "examples": [
         {
@@ -62,11 +65,12 @@
     {
       "l2_id": "2431",
       "canonical_surface": "ことか",
+      "sense_rank": 1,
       "glosses": [
         "how … !; how very …",
         "you have no idea how …"
       ],
-      "usage_note": "Rhetorical exclamation: paired with どんなに・どれほど・なんと, it says the degree is past measuring, and because the shape is a question no answer is expected. It leans emotional and inward, common in soliloquy and in writing; 〜ことだろう／ことでしょう is a softer, more speculative variant of the same exclamation — often about someone else's feeling — rather than a spoken/written split; ことか itself is at home in speech. Where もんだ marvels at a general truth, ことか measures the speaker's own feeling, and it almost always wants that degree adverb in front of it.",
+      "usage_note": "Rhetorical exclamation of degree: with どんなに, どれほど, or なんと in front, it says the degree is past measuring, and no answer is expected despite the question shape (どんなに待ちわびていたことか). Where もんだ marvels at a general truth, ことか measures the speaker's own feeling, typically inward and common in writing and soliloquy. ことだろう／ことでしょう is a softer, more speculative variant, often about someone else's feeling.",
       "human_verified": false,
       "examples": [
         {
@@ -86,12 +90,12 @@
     {
       "l2_id": "2441",
       "canonical_surface": "じゃないか",
+      "sense_rank": 2,
       "glosses": [
-        "well, isn't that …!",
-        "hey, look at that — you …!",
-        "why, that's …"
+        "well, look at that — …!",
+        "why, … after all!"
       ],
-      "usage_note": "Said on a falling tone, じゃないか turns a negative question into an exclamation of surprise or praise: 'well, would you look at that.' The bare か form is blunt and tends to read as masculine; じゃないですか／ではないですか are the polite shapes and じゃない alone is the neutral everyday one. The same string on a rising tone is the separate 'right?' that fishes for agreement, so delivery and context carry the difference. It also points the surprise at the listener's own situation ('look at that, you did it'), where な keeps the feeling inward and ね asks for a nod.",
+      "usage_note": "An exclamation at something just noticed: on a falling tone the negative question asks nothing and becomes surprise, discovery, or praise at what the speaker has taken in (鍵はここにあるじゃないか, 君に似合うじゃないか). The sibling lane is the rhetorical question that presses an obvious point onto the hearer, typically as reproach (確認すると言ったじゃないか). Bare か reads as blunt and masculine; じゃないですか is the polite shape.",
       "human_verified": false,
       "examples": [
         {
@@ -111,11 +115,12 @@
     {
       "l2_id": "3151",
       "canonical_surface": "な",
+      "sense_rank": 1,
       "glosses": [
         "how …!; … indeed",
         "…, isn't it (musing to oneself)"
       ],
-      "usage_note": "The all-purpose 詠嘆 な: a feeling voiced half to oneself — admiration, resignation, wistfulness — and often drawn out as なあ. It is more inward than ね, which hands the thought to a listener, and gentler than よ, which presses information on one. After a dictionary-form verb the same syllable is also the prohibitive な (行くな 'don't go'), but that one is clipped and sharply falling while the exclamatory な tends to lengthen.",
+      "usage_note": "Voices a feeling half to oneself — admiration, resignation, wistfulness — on a plain-form sentence, often lengthened to なあ (ここの海はきれいだな). It is more inward than ね, which hands the thought to a listener, and gentler than よ, which presses information on one. After a dictionary-form verb the same syllable is also the prohibitive な (行くな 'don't go'), which is clipped and sharply falling.",
       "human_verified": false,
       "examples": [
         {
@@ -135,12 +140,13 @@
     {
       "l2_id": "3171",
       "canonical_surface": "わ",
+      "sense_rank": 1,
       "glosses": [
         "…, I must say",
         "my, …!",
         "… indeed"
       ],
-      "usage_note": "Sentence-final わ tints a statement with the speaker's felt reaction — mild surprise, dismay, or quiet resolve — arrived at through their own experience. Two rather different voices share the shape: rising わ is the stereotyped feminine, お嬢様-flavored register of Tokyo speech, while falling わ is everyday Kansai speech used by men and women alike; the rising-わ voice now reads as fiction-flavored rather than everyday Tokyo speech. Unlike ね it asks for no agreement, and unlike よ it presses nothing on the listener; next to な, わ registers the speaker's felt reaction while な voices the musing itself.",
+      "usage_note": "Tints a statement with the speaker's own felt reaction — mild surprise, dismay, or quiet resolve — arrived at through their own experience (財布を家に置いてきたわ). Rising わ is the stereotyped feminine register, now fiction-flavored rather than everyday Tokyo speech; falling わ is ordinary Kansai speech used by men and women alike. Unlike ね it asks for no agreement, and unlike よ it presses nothing on the listener.",
       "human_verified": false,
       "examples": [
         {

@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "L31",
   "class_name": "放置-非実現-ナイデシマウ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1491",
       "canonical_surface": "ないでしまい",
+      "sense_rank": 1,
       "glosses": [
         "end up not doing …",
         "never get around to …"
       ],
-      "usage_note": "Reports that an action ended up never happening, carrying the regret that しまう typically adds in this construction — elsewhere しまう can mark bare completion with no regret at all; unlike ないでおく (1481) nothing was intended, and unlike ないでいる (1471) the window has closed. In contemporary Japanese the frozen noun 〜ずじまい, built from the same ず + しまい, is far commoner than the finite verb, and 〜ないままになる is the neutral alternative. Be aware that 〜ずにしまう is easily read as the lexical 仕舞う \"put away\" (使わずにしまった), so the context has to force the aspectual reading.",
+      "usage_note": "Reports that an action ended up never happening, with the regret しまう adds in this construction (読まないでしまった). Nothing was intended, unlike ないでおく, and the window has closed, unlike ないでいる. The frozen noun 〜ずじまい, built from the same ず + しまい, is far commoner in contemporary Japanese; 〜ずにしまう is also easily read as the lexical 仕舞う 'put away' (使わずにしまった), so context has to force the aspectual reading.",
       "human_verified": false,
       "examples": [
         {

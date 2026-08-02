@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "o11",
   "class_name": "同時性-般-トスグニ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0351",
       "canonical_surface": "とすぐに",
+      "sense_rank": 1,
       "glosses": [
         "as soon as",
         "right after",
         "immediately after"
       ],
-      "usage_note": "The plainest, most neutral member: everyday Japanese, no literary flavor, and equally at home in speech and writing. It works for one-off past events and for habits (朝起きるとすぐに…ことにしている). Because it rides on the conditional と, though, it inherits と's one real restriction: the main clause states what simply happens or happened, so no commands, requests, invitations or 〜つもり/〜(よ)う plans (帰るとすぐに電話してください ✗ → 帰ったらすぐに…). Reach for it whenever none of the literary siblings' extra flavor is wanted.",
+      "usage_note": "Marks one event following immediately on another, in the plainest terms available (電気を消すとすぐに子どもは寝てしまった). Unlike the literary siblings や否や and が早いか it is ordinary in speech and writing and covers habits as well as one-off past events (朝起きるとすぐに). Because it builds on the conditional と, the main clause only reports what happens: no commands, requests or intentions (帰ったらすぐに電話してください, not 帰るとすぐに).",
       "human_verified": false,
       "examples": [
         {
@@ -38,12 +41,13 @@
     {
       "l2_id": "0361",
       "canonical_surface": "と同時に",
+      "sense_rank": 1,
       "glosses": [
         "at the same time as",
         "the moment",
         "simultaneously with"
       ],
-      "usage_note": "Stresses genuine simultaneity rather than mere succession, and is the only member of the family that also takes a bare noun (卒業と同時に); outside of time it doubles as a neutral \"and at the same time / while also\" linker (難しいと同時に面白い).",
+      "usage_note": "Marks genuine simultaneity rather than succession: the two things hold at the same moment (花火が上がると同時に犬が潜り込んだ). It is the only member of the family that also attaches to a bare noun (卒業と同時に). Outside of time it links two properties as \"and at the same time\" (難しいと同時に面白い).",
       "human_verified": false,
       "examples": [
         {
@@ -63,12 +67,13 @@
     {
       "l2_id": "0371",
       "canonical_surface": "た途端",
+      "sense_rank": 1,
       "glosses": [
         "the moment (that)",
         "just as",
         "no sooner … than"
       ],
-      "usage_note": "The た is part of the pattern (だ途端 after ん-stem verbs: 転んだ途端), so it is past-only, and the main clause must be past too. What follows should be sudden, outside the subject's control, and often unwelcome — the speaker reports it as a surprise, so no commands, intentions or plans (and none of the family allows those anyway). Where や否や implies the subject had been poised and moved deliberately, た途端 implies nobody saw it coming; that is the line between them.",
+      "usage_note": "Marks a sudden event breaking out the instant the first one finished (立ち上がった途端、ひどいめまいがした). The た belongs to the pattern (だ途端 after 転んだ and the like), so both clauses are past, and the second is outside the subject's control and often unwelcome. Where や否や presents the second clause as a deliberate act by someone poised for it, た途端 presents it as something nobody saw coming.",
       "human_verified": false,
       "examples": [
         {
@@ -88,12 +93,12 @@
     {
       "l2_id": "0411",
       "canonical_surface": "そばから",
+      "sense_rank": 1,
       "glosses": [
         "no sooner … than (again)",
-        "as fast as one …",
-        "the moment one does X, Y undoes it"
+        "as fast as one …"
       ],
-      "usage_note": "The only member built for repetition: each time X is done it is immediately undone or repeated, so it cannot describe a one-off event, and it almost always carries the speaker's exasperation; dictionary form frames the habit, た-form each individual instance.",
+      "usage_note": "Marks repetition: each time X is done, Y immediately undoes or repeats it (片付けるそばから子どもが散らかす). It describes a recurring pattern rather than a one-off event, and it almost always carries the speaker's exasperation. Dictionary form frames the habit; た-form frames each individual instance.",
       "human_verified": false,
       "examples": [
         {
@@ -113,12 +118,13 @@
     {
       "l2_id": "0421",
       "canonical_surface": "や否や",
+      "sense_rank": 1,
       "glosses": [
         "no sooner … than",
         "the instant",
         "hardly … when"
       ],
-      "usage_note": "Formal written narration of a single past event; unlike た途端 the second clause is typically a deliberate action by someone who had been poised for it, and 否や may simply be dropped to leave the stiffer literary 〜や Although the second clause is a deliberate act, it is still reported as a past fact — no commands, intentions or negatives.",
+      "usage_note": "Marks a second event beginning the instant the first happens, in formal written narration of a single past event (店長が看板を出すや否や). Unlike た途端, the second clause is typically a deliberate action by someone already poised for it. The main clause is a plain past statement: no commands, invitations, intentions or negatives. 否や can be dropped, leaving the stiffer literary や.",
       "human_verified": false,
       "examples": [
         {
@@ -138,12 +144,13 @@
     {
       "l2_id": "0431",
       "canonical_surface": "なり",
+      "sense_rank": 2,
       "glosses": [
         "as soon as",
         "the moment",
-        "no sooner than"
+        "no sooner … than"
       ],
-      "usage_note": "Literary and narrow: both clauses must share one subject, that subject cannot be the speaker, and what follows has to strike the speaker as unexpected or out of character; past events only, so no commands, intentions or habitual readings.",
+      "usage_note": "Marks an action taken the instant another one finishes: dictionary-form verb plus なり (帰宅するなり鞄を放り出した), both clauses sharing one subject who is not the speaker, and the second action striking the speaker as abrupt or out of character. The sibling entry pairs representative options for the hearer to choose among (煮るなり焼くなり). It reports past events, so commands, intentions, and negatives cannot follow.",
       "human_verified": false,
       "examples": [
         {
@@ -163,11 +170,12 @@
     {
       "l2_id": "0441",
       "canonical_surface": "や",
+      "sense_rank": 2,
       "glosses": [
         "no sooner … than",
         "the instant"
       ],
-      "usage_note": "The bare literary 〜や — や否や is this form with 否や tacked on, not the other way round. Alive today essentially only in novels and news narration: same \"in one sweep\" force as や否や but terser and markedly stiffer, and you will not hear it in ordinary conversation. Same restrictions apply: a single past event, main clause reported as fact, no commands, intentions or negatives.",
+      "usage_note": "Attaches to a dictionary-form verb to mark an event following instantly on the one just named: 幕が下りるや means the moment the curtain came down. The sibling lane is the everyday particle や joining nouns as representative examples (鍵や財布). Confined to literary and news narration; the main clause reports a single past fact, so commands, intentions, and negatives do not follow it.",
       "human_verified": false,
       "examples": [
         {
@@ -187,12 +195,13 @@
     {
       "l2_id": "0451",
       "canonical_surface": "が早いか",
+      "sense_rank": 1,
       "glosses": [
         "no sooner … than",
         "the instant",
         "hardly … when"
       ],
-      "usage_note": "Vivid narration of a past scene in which the second action begins before the first has even finished, as if the subject had been waiting to pounce — more dramatic than や否や; the following clause must be a plain past statement, never a command, invitation, intention or negative.",
+      "usage_note": "Marks a second action starting before the first has even finished, as if the subject had been waiting to pounce (チャイムが鳴るが早いか校庭へ駆け出した). It is more dramatic than や否や and belongs to vivid narration of a past scene. The following clause is a plain past statement, never a command, invitation, intention or negative.",
       "human_verified": false,
       "examples": [
         {

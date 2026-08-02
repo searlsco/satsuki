@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "a32",
   "class_name": "立場-根拠-ニヨッテ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0142",
       "canonical_surface": "によっての",
+      "sense_rank": 3,
       "glosses": [
         "in accordance with",
         "on the basis of",
         "under (a rule)"
       ],
-      "usage_note": "Points to the grounds a statement or decision rests on: a rule, a contract, a standard it conforms to (規則によって, 会則によって). Keep it apart from によると, which outside the fixed frames 場合によると／ことによると (\"depending on the case\", \"possibly\") reports information rather than stating grounds. Two neighbouring readings of the same form belong to sibling entries: case-to-case variation (人によって違う) and cause or agency (事故によって, 名工によって建てられた). により is the stiffer written form favored in notices and legal prose, によっての the adnominal one (though the plain による is far more usual: 規則による制限), and によりまして the polite spoken one.",
+      "usage_note": "States the grounds a decision, permission, or prohibition rests on: a rule, contract, or standard that the action conforms to (規則によって禁じられている, 会則により決定する). Two sibling entries take the other readings of this form: means, cause, or passive agent (地震によって, 名工によって建てられた) and case-to-case variation (人によって違う). This use is largely written and institutional; により is usual in notices and legal prose.",
       "human_verified": false,
       "examples": [
         {

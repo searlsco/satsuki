@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "n11",
   "class_name": "添加-非限定-ニカギラズ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2741",
       "canonical_surface": "にかぎらず",
+      "sense_rank": 1,
       "glosses": [
         "not limited to …",
         "not just … (but also)"
       ],
-      "usage_note": "Written に限らず. It takes a bare noun and then opens outward: the statement holds beyond the named item, whether the follow-up is a coordinate case (子供に限らず大人も) or an outright wider set (日本に限らずどこの国でも); what it cannot do is name an unrelated item with no shared predicate. It is the written, slightly formal counterpart of だけでなく and usually leans on a following も. Its affirmative counterparts are に限り／に限って (\"only in the case of\"); the evaluative に限る (\"nothing beats\") is a separate item despite the shared kanji.",
+      "usage_note": "Takes a bare noun and states that what follows holds beyond it, either adding a coordinate case (子供に限らず大人も) or opening onto a wider set (日本に限らずどこの国でも); a following も is usual. It is the formal, written counterpart of だけでなく. The affirmative に限り／に限って means \"only in the case of\", and に限る \"nothing beats\" is a separate pattern despite the shared kanji.",
       "human_verified": false,
       "examples": [
         {

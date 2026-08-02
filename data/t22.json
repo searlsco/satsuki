@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "t22",
   "class_name": "逆接-確定-トハイエ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0971",
       "canonical_surface": "とはいったって",
+      "sense_rank": 1,
       "glosses": [
         "even though I say …",
         "well, I say …, but",
         "although you call it …"
       ],
-      "usage_note": "The everyday member of this family: it picks up a label or claim just made — usually the speaker's own — and immediately cuts it down to size (社長とはいったって、社員は三人). とはいったって and っていったって are the casual contractions of とはいっても, which is the neutral realization you can safely use in polite speech; とはいえ and とはいうものの are the written-style siblings. Because the point is deflation rather than contrast for its own sake, the second clause is typically a 'but only …', 'but hardly …' scaling-down remark.",
+      "usage_note": "Picks up a label or claim just made, usually the speaker's own, and immediately cuts it down to size (社長とはいったって、社員は三人). The second clause is typically a scaling-down remark: only that much, hardly at all. This is the casual spoken end of the family; とはいっても is the neutral form safe in polite speech, and とはいえ and とはいうものの are the written siblings.",
       "human_verified": false,
       "examples": [
         {
@@ -38,12 +41,13 @@
     {
       "l2_id": "0981",
       "canonical_surface": "とはいえ",
+      "sense_rank": 1,
       "glosses": [
         "that said …",
         "even so",
         "although"
       ],
-      "usage_note": "The written-style workhorse of the group, built on the classical 已然形 of 言ふ (surviving as いえ): it concedes the first clause as true and then states something that runs against the expectation it raises. Unlike とはいうものの it does not need an actual utterance to be echoing, so it attaches comfortably to a bare noun or a plain clause, and it also stands alone at the head of a sentence as a conjunction ('Even so, …'). It sits a notch above とはいっても in formality and is at home in essays, editorials and careful speech.",
+      "usage_note": "Concedes the first clause as true, then states something that runs against the expectation it raises (春とはいえ、朝晩の冷え込みは厳しい). It attaches to a bare noun as readily as to a plain clause, and it also stands alone at the head of a sentence as a conjunction, 'Even so, …'. It is the most formal of the everyday members and is largely written: essays, editorials and careful speech, where speech would use とはいっても.",
       "human_verified": false,
       "examples": [
         {
@@ -63,12 +67,13 @@
     {
       "l2_id": "0991",
       "canonical_surface": "とはいうものの",
+      "sense_rank": 1,
       "glosses": [
         "having said that …",
         "although",
         "for all that"
       ],
-      "usage_note": "Literally 'although one says that', with the concessive particle ものの doing the work: it takes up a claim already on the table — the speaker's own words, a piece of received wisdom, an official line — and reports that reality has not followed. Japanese usage guides note that without such a prior statement to echo it reads less naturally than とはいえ, which is otherwise nearly interchangeable. Register is neutral to polite written Japanese; in polite speech the same idea usually surfaces as とは言いましても, and とは言いますものの exists but is rare.",
+      "usage_note": "Takes up a claim already on the table, the speaker's own words, received wisdom or an official line, and reports that reality has not followed (経験があるとはいうものの、実務となると勝手が違う). It is very close to とはいえ in meaning, but is used in speech as well as writing, and it can trail off unfinished where とはいえ cannot (相談すればいい、とはいうものの…). Polite speech more often uses とは言いましても.",
       "human_verified": false,
       "examples": [
         {
@@ -88,12 +93,13 @@
     {
       "l2_id": "1031",
       "canonical_surface": "とはいいながら",
+      "sense_rank": 1,
       "glosses": [
         "even while saying …",
         "for all that one says …",
         "notwithstanding"
       ],
-      "usage_note": "A stiff, overwhelmingly written variant of とはいうものの that keeps the 'while saying' force of ながら, so it leans toward exposing a gap between what someone professes and what they actually do. It is most natural when the first clause is somebody's stated position and the second reports behaviour that contradicts it, most often about a third party's stated position rather than one's own; for a plain factual concession, とはいえ reads far more naturally. Expect it in essays, columns and narration rather than conversation.",
+      "usage_note": "Concedes a stated position and then reports something that contradicts it, keeping ながら's 'while saying' force, so it typically exposes a gap between what is professed and what is actually done (引退するとはいいながら、今も現場に立つ). Stiff and overwhelmingly written: essays, columns and narration rather than conversation. For a plain factual concession, とはいえ reads far more naturally.",
       "human_verified": false,
       "examples": [
         {
@@ -113,12 +119,13 @@
     {
       "l2_id": "2921",
       "canonical_surface": "とはいえども",
+      "sense_rank": 1,
       "glosses": [
         "even …",
         "even though it be …",
         "however much of a … it may be"
       ],
-      "usage_note": "The classical shape of the family: 已然形 いえ plus concessive ども, often written 雖も, with といえど as the clipped variant. It concedes an extreme or authoritative case in order to deny it any exemption ('even a king …'), which makes it the natural choice for maxims, statutes, editorials and period narration, and it is regularly reinforced by いかに or たとえ. Modern Japanese also attaches it to plain verbs and adjectives (いかに急ぐといえども).",
+      "usage_note": "Concedes an extreme or authoritative case in order to deny it any exemption (国王とはいえども、法を超えることは許されない). The shape is classical, so it belongs to maxims, statutes, editorials and period narration rather than ordinary speech, and it is often reinforced by いかに or たとえ. It attaches to nouns and also to plain verbs and adjectives (いかに急ぐといえども).",
       "human_verified": false,
       "examples": [
         {

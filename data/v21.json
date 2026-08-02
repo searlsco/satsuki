@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "v21",
   "class_name": "付帯-並行-ナガラ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1141",
       "canonical_surface": "ながらの",
+      "sense_rank": 1,
       "glosses": [
         "while …; as one …",
         "at the same time as"
       ],
-      "usage_note": "The everyday marker of two actions at once, attached to the ます-stem; references state that both actions belong to the same subject, and the ながら clause is the backgrounded one. つつ covers the same ground in formal prose. The identical form also carries the concessive \"although\" reading of sibling 1142, which is the only available reading after a noun or an adjective and is often flagged by ながらも; after a ます-stem, context decides, and a stative verb such as 知っている pushes it toward the concessive.",
+      "usage_note": "Marks an action carried on at the same time as the main action, attached to the ます-stem: 音楽を聞きながら歩く, one subject for both, with the ながら clause backgrounded. A sibling entry takes the concessive reading, although (知っていながら, 新人ながら), the usual sense after an adjective or a noun. After a noun, ながらの and ながらに name a state kept unchanged (昔ながらの町, 生まれながらに), a fixed set rather than a productive pattern.",
       "human_verified": false,
       "examples": [
         {
@@ -37,11 +40,12 @@
     {
       "l2_id": "1151",
       "canonical_surface": "つつの",
+      "sense_rank": 1,
       "glosses": [
         "while …; as one …",
         "even while …; although"
       ],
-      "usage_note": "The written-language counterpart of ながら, taking the same ます-stem and, likewise, a single shared subject. The concessive reading is the one that dominates modern prose, especially with verbs of thinking or knowing, as in 悪いと知りつつ (\"even knowing it's bad\"); つつも makes that reading explicit. Do not confuse it with 〜つつある, which says a change is in progress.",
+      "usage_note": "Two actions at once by a single subject, taking the ます-stem: the written-language counterpart of ながら — 山道を登りつつ, 意見を参考にしつつ. In modern prose the concessive reading, \"even while, although\", dominates, especially with verbs of thinking or knowing (悪いと知りつつ); つつも makes that reading explicit. 〜つつある is a different pattern, saying a change is in progress.",
       "human_verified": false,
       "examples": [
         {

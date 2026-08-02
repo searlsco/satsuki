@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "q11",
   "class_name": "相関-相関-ニシタガッテ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0531",
       "canonical_surface": "につれての",
+      "sense_rank": 1,
       "glosses": [
         "as … (gradually)",
         "in proportion as",
         "the more … , the more"
       ],
-      "usage_note": "Takes a noun or a dictionary-form verb and links two changes that unfold gradually and in parallel, so both sides need to be things that can progress by degrees; a single instantaneous event is a poor fit and calls for とともに or に伴って instead. Compared with にしたがって it is the more everyday, less formal of the two, and unlike に応じて it says nothing about one side adjusting itself to match the other. The second clause states a natural drift, so commands, invitations, and volitional statements sit badly with it, and the clipped 〜につれ is common in writing.",
+      "usage_note": "Links two changes that unfold gradually and in parallel: as one side progresses by degrees, so does the other (山を登るにつれて, 都市化の進行につれて). It takes a noun or a dictionary-form verb, and a one-off event calls for とともに or に伴って instead. にしたがって is the stiffer written counterpart, and に応じて states adjustment to a case rather than parallel change. The second clause reports a natural drift, so commands and volitional forms do not appear in it.",
       "human_verified": false,
       "examples": [
         {
@@ -38,12 +41,13 @@
     {
       "l2_id": "0541",
       "canonical_surface": "におうじての",
+      "sense_rank": 1,
       "glosses": [
         "according to",
         "in response to",
         "depending on"
       ],
-      "usage_note": "From 応じる \"respond to,\" this says that one thing is set or varied so as to match the case at hand, so it pairs with nouns naming a condition, level, or request (年齢, 予算, 状況, 要望) and takes no verb before it in this construction; to build one from a clause, nominalize first (〜かに応じて). Unlike につれて and にしたがって it does not require gradual parallel change, and unlike に合わせて it is formal and institutional, at home in notices and contracts.",
+      "usage_note": "Sets or varies one thing so as to match the case at hand: the noun names a condition, level or request and the predicate adjusts to it (年齢に応じて, 予算に応じて, 要望に応じて). It takes a noun, not a verb; to build one from a clause, nominalize first (〜かに応じて). につれて and にしたがって require gradual parallel change, which this does not, and に合わせて is the everyday equivalent, while に応じて belongs to notices and contracts.",
       "human_verified": false,
       "examples": [
         {
@@ -63,12 +67,13 @@
     {
       "l2_id": "0551",
       "canonical_surface": "にしたがっての",
+      "sense_rank": 1,
       "glosses": [
         "as … (progresses)",
         "in accordance with",
         "the further … , the more"
       ],
-      "usage_note": "In this correlative use, にしたがって takes a noun or a dictionary-form verb and tracks one gradual change against another, much like につれて but in a stiffer, more written register: it prefers a nominalized process or standard as its first term (経験の蓄積に従って, 時代の流れに従って) and belongs to report prose, while につれて is the default when both sides are verb clauses in ordinary narration or speech. Note that the same string also carries the unrelated \"obey / follow (rules, instructions)\" sense; the correlative reading depends on both sides naming a change, so 指示に従って is instruction-following, not correlation. The clipped 〜に従い is common in formal prose.",
+      "usage_note": "Tracks one gradual change against another: as the first term progresses, the second follows (潮が引くに従って, 経験の蓄積に従って). It takes a noun or a dictionary-form verb and belongs to written report prose, where につれて is the everyday choice for the same correlation. The same string also carries the unrelated \"obey, follow\" sense, so 指示に従って is instruction-following; the correlative reading requires both sides to name a change.",
       "human_verified": false,
       "examples": [
         {
@@ -88,12 +93,13 @@
     {
       "l2_id": "0561",
       "canonical_surface": "とともに",
+      "sense_rank": 1,
       "glosses": [
         "as …",
         "in step with",
         "hand in hand with"
       ],
-      "usage_note": "Takes a noun or a dictionary-form verb and presents two developments as moving together; unlike につれて it does not insist on a gradual, degree-by-degree drift, so it also handles a change that arrives all at once (改正の施行とともに). It is more formal and more written than につれて, and its \"together with (a person)\" and \"at the same time as\" readings live alongside this correlative one, so context has to carry the difference. 〜と共に is the same word in kanji, common in printed prose.",
+      "usage_note": "Presents two developments as moving together: as one occurs, the other does with it (桜が散るとともに, 年を取るとともに). It takes a noun or a dictionary-form verb and, unlike につれて, does not require a degree-by-degree drift, so it also covers a change that arrives all at once (改正の施行とともに). It is more formal than につれて, and the same form also reads \"together with (a person)\", so context decides.",
       "human_verified": false,
       "examples": [
         {

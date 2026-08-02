@@ -1,24 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "e12",
   "class_name": "起点-極端例-カラシテ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0291",
       "canonical_surface": "からして",
+      "sense_rank": 1,
       "glosses": [
         "starting with",
-        "even (the) … for one",
-        "if even the … is anything to go by"
+        "even (the) … for one"
       ],
-      "usage_note": "Picks out the most basic or first-noticed detail and invites you to extrapolate: if even that much is so, the whole is. It attaches straight to a noun and the predicate is an evaluation — most often critical (看板[かんばん]からして怪[あや]しい) but equally admiring (食器[しょっき]からして違[ちが]う). Keep it distinct from the inferential からすると family: the same surface からして serves as their adverbial variant, but this pattern is exemplifying, not reasoning from evidence to a guess. からしまして is the polite form.",
+      "usage_note": "Picks out the most basic or first-noticed detail and invites you to extrapolate: if even that much is so, the whole is (看板からして怪しい, 玄関の生け花からして違う). It attaches straight to a noun, and the predicate is an evaluation, critical as often as admiring. The same surface also serves as the adverbial variant of the inferential からすると family; this lane exemplifies rather than reasons from evidence to a guess.",
       "human_verified": false,
       "examples": [
         {

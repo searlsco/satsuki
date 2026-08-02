@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "I12",
   "class_name": "推量-不確実-ラシイ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "3231",
       "canonical_surface": "らしい",
+      "sense_rank": 1,
       "glosses": [
         "seems; apparently",
         "I hear (that)"
       ],
-      "usage_note": "Reports a conclusion built on information that reached the speaker from outside — heard, read, or inferred from circumstances the speaker did not witness firsthand — so it keeps the speaker at arm's length from the claim, whereas ようだ leans on evidence the speaker has taken in directly. It attaches straight to plain forms and to bare nouns, with no の or な. Do not confuse it with the homophonous suffix らしい meaning \"befitting, every inch a …\" (男らしい), which is a different word.",
+      "usage_note": "Reports a conclusion resting on information that reached the speaker from outside, heard or read or inferred from circumstances not witnessed firsthand (試合は中止になったらしい). ようだ rests on evidence the speaker took in directly, and みたい is the colloquial form of that inference. It attaches straight to plain forms and to bare nouns, with no の or な. The suffix らしい in 男らしい is a different word.",
       "human_verified": false,
       "examples": [
         {
@@ -37,11 +40,12 @@
     {
       "l2_id": "3241",
       "canonical_surface": "よう",
+      "sense_rank": 2,
       "glosses": [
         "it seems; it looks like",
-        "apparently, judging from this"
+        "apparently"
       ],
-      "usage_note": "The most neutral and the most writable of this group: an inference the speaker draws from what they themselves see, hear, or feel, with the evidence usually right there in the sentence (この分[ぶん]だと…ようだ). The same form also does plain likening (\"like a mirror\", 諦めたかのようだ), which is a separate pattern; what makes this one inferential is that there is no comparison standard, only grounds for a conclusion. After a noun it takes の and after a na-adjective な, which is exactly where its casual counterpart みたい differs by attaching bare; らしい, by contrast, hands off responsibility to an outside source.",
+      "usage_note": "Draws an inference from what the speaker sees, hears, or feels, with the grounds usually stated in the same sentence: 顔が赤いから熱があるようだ, どうやら道を間違えたようだ. The sibling lane is likening, holding one thing against a standard of comparison (氷のようだ, 飛ぶように走る). After a noun it takes の and after a na-adjective な, where casual みたい attaches bare, and らしい puts the grounds in an outside source.",
       "human_verified": false,
       "examples": [
         {
@@ -61,10 +65,12 @@
     {
       "l2_id": "3251",
       "canonical_surface": "みたい",
+      "sense_rank": 2,
       "glosses": [
-        "seems like; looks like"
+        "seems; looks like (inference from evidence)",
+        "apparently"
       ],
-      "usage_note": "The colloquial counterpart of ようだ for inference, at home in speech and casual writing but out of place in formal prose: you read the evidence in front of you and draw a conclusion (電池[でんち]が切[き]れたみたい). Its plain resemblance use (\"his room is like a warehouse\") is a separate pattern; here nothing is being compared, something is being concluded. It attaches directly to a noun with no の (子供みたいだ), and where らしい passes along what someone else reported, みたい presents the speaker's own on-the-spot impression, though in casual speech みたい can also relay something heard, where らしい would sound more detached.",
+      "usage_note": "Draws a conclusion from the evidence in front of the speaker (時計が止まっているから電池が切れたみたい, まだ起きているみたい). The sibling lane is plain resemblance, one thing held up against a standard (真夏みたいに暑い). It attaches straight to a noun with no の (病気みたいだ) and stays conversational, with ようだ in formal writing. らしい usually relays what someone else reported, みたい the speaker's own impression.",
       "human_verified": false,
       "examples": [
         {

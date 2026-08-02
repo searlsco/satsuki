@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "d12",
   "class_name": "状況-般-ニオイテ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0191",
       "canonical_surface": "においての",
+      "sense_rank": 1,
       "glosses": [
         "in",
         "at",
         "in the field of"
       ],
-      "usage_note": "The formal written counterpart of で for the place, time, or domain in which something takes place (国際[こくさい]会議[かいぎ]において, 教育[きょういく]の分野[ぶんや]において). It does not take over で's other jobs: tool, material, and cause stay with で (はさみで切[き]る, 風邪[かぜ]で休[やす]む). Used of everyday activities it sounds stilted, so keep it for documents, announcements, and academic prose. における／においての is the shape used before a noun.",
+      "usage_note": "The formal written counterpart of で for the place, time, or domain in which something takes place: 国際会議において, 教育の分野において. Sibling で is the everyday form of that same job, and にして is the literary 〜で of fixed turns such as 幸いにして. で's other duties do not transfer: tool, material, and cause stay with で (はさみで切る, 風邪で休む). における and においての are the shapes used before a noun.",
       "human_verified": false,
       "examples": [
         {
@@ -38,12 +41,12 @@
     {
       "l2_id": "0251",
       "canonical_surface": "にしての",
+      "sense_rank": 2,
       "glosses": [
-        "as it happens; as luck would have it",
-        "now, in hindsight",
-        "at; in (literary)"
+        "as it turns out; as luck would have it",
+        "now, in hindsight"
       ],
-      "usage_note": "A literary 〜で inherited from classical Japanese, used here to frame the circumstance an event falls under: 幸[さいわ]いにして／不幸[ふこう]にして for how the situation happened to turn out, and 今[いま]にして思[おも]えば for a realization that arrives only in hindsight. The all-at-once 一夜[いちや]にして and the age-or-attempt 四十[しじゅう]にして, 三度目[さんどめ]にして belong to sibling entries. A note of surprise or evaluation comes with it, so a plain \"in／at\" is better carried by において or で. Nouns only, and rare outside writing and these fixed turns.",
+      "usage_note": "Frames the circumstance an event fell under, a literary で surviving in fixed adverbials: 幸いにして and 不幸にして for how things happened to turn out, 今にして思えば for what is understood only afterwards. Sibling senses take an all-at-once span, 一瞬にして, and emphasis on an age or an attempt, 五十にして, 三度目にして. Nouns only, and rare outside these set turns; a neutral in or at is carried by において or で.",
       "human_verified": false,
       "examples": [
         {
@@ -63,12 +66,12 @@
     {
       "l2_id": "0343",
       "canonical_surface": "での",
+      "sense_rank": 1,
       "glosses": [
-        "at",
-        "in",
-        "on"
+        "at; in (a place)",
+        "in; within (a range)"
       ],
-      "usage_note": "The everyday particle for the setting an action takes place in, and the default wherever において, にあって, or にして would sound ceremonial. The same で also marks means, material, cause, and scope (バスで行[い]く, 木[き]で作[つく]る, 病気[びょうき]で休[やす]む), duties its stiffer relatives in this family do not take on. With verbs of existence (いる／ある) and with location of residence, the place takes に (家[いえ]にいる), not で. で is neutral for means; によって is chosen when the means is a deliberate method or procedure, and is obligatory for the agent of a passive.",
+      "usage_note": "Names the place or setting an action happens in: 駅で待つ, カフェで勉強する, 世界で一番, and での before a noun (東京での生活). Sibling で entries: means, material or cause (筆で書く, 風邪で休む), price or standard (半額で), group as doer (会社で), copula linking form (休みで), te-form joint (呼んで). Existence with いる and ある takes に (家にいる), but an event held somewhere takes で (公園でお祭りがある).",
       "human_verified": false,
       "examples": [
         {

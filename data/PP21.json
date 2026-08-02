@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "P21",
   "class_name": "例示-極端例-サエ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2503",
       "canonical_surface": "だって",
+      "sense_rank": 1,
       "glosses": [
         "even",
         "too; as well"
       ],
-      "usage_note": "だって picks out an extreme or unexpected case the way でも does, but it is distinctly casual and lands with more force, so it fits a spoken protest or push-back better than a written argument. It stacks freely on case particles (にだって, からだって), but it does not float suggestions the way でも does (お茶でも飲もう, not ×お茶だって飲もう). Keep it apart from the sentence-initial だって ('but, I mean, because…'), a homophonous conjunction, not this particle — it cannot be swapped in here.",
+      "usage_note": "Picks out an extreme or unexpected case, 'even X', on a noun or case particle (子供だって, 先生にだって), and plain 'too' with a person (私だって行きたい). Three siblings share the string: hearsay news (臨時休業だって), a rising-tone question checking what you heard (校庭だって？), and 'even if' on a ta-stem verb (呼んだって). Clause-initial だって is a separate conjunction, 'because; but' (だって、時間がないもん), covered by no entry here.",
       "human_verified": false,
       "examples": [
         {
@@ -37,11 +40,12 @@
     {
       "l2_id": "3031",
       "canonical_surface": "でも",
+      "sense_rank": 1,
       "glosses": [
         "even",
         "… or something; … or the like"
       ],
-      "usage_note": "でも is the register-neutral 'even', milder than だって and less pointed than さえ: it offers its noun as a representative case rather than the most extreme one. That same softness powers its other job, floating a casual suggestion (お茶でも), where さえ and すら are impossible. After a て-form, 〜てでも means 'even if it takes doing that'.",
+      "usage_note": "Offers a noun as a representative case rather than the most extreme one: even this much is enough (素人でも組み立てられる). Register-neutral between casual だって and bookish すら, and alone in this group it also floats a casual suggestion (お茶でも飲みませんか), where さえ and すら are impossible. After a て-form, 〜てでも means 'even if it takes doing that' (借金をしてでも).",
       "human_verified": false,
       "examples": [
         {
@@ -61,11 +65,12 @@
     {
       "l2_id": "3041",
       "canonical_surface": "さえ",
+      "sense_rank": 1,
       "glosses": [
         "even",
         "if only …; as long as"
       ],
-      "usage_note": "さえ names the case least likely to hold and thereby settles everything below it, so it is sharper than でも and typically appears where the situation is bad or surprising. It alone forms the sufficient-condition frame さえ〜ば ('if only X, then …'), which すら cannot replace. Register sits between casual でも and bookish すら. でさえ is the usual shape when the marked element is the subject or a copular predicate (専門家でさえ間違える); さえ alone simply replaces が/を, while に・から keep their particle (にさえ, からさえ). ただでさえ is a frozen phrase.",
+      "usage_note": "Names the case least likely to hold, so everything more likely follows from it (食事さえ取る暇がない, 五月にさえ雪が降る). Sharper than でも and typical where the situation is bad or surprising; すら is the bookish equivalent. It alone forms the sufficient-condition frame さえ〜ば, 'if only X' (天気さえ良ければ). でさえ is the usual shape when the marked element is a subject or a copular predicate (専門家でさえ間違える).",
       "human_verified": false,
       "examples": [
         {
@@ -85,10 +90,12 @@
     {
       "l2_id": "3061",
       "canonical_surface": "すら",
+      "sense_rank": 1,
       "glosses": [
-        "even (often under negation: 〜すら〜ない)"
+        "even",
+        "not even"
       ],
-      "usage_note": "すら is the bookish twin of さえ — same 'even the least likely case' meaning, but at home in writing, formal speech, and narration rather than chat, and it very often pairs with a negative. It does not enter the さえ〜ば conditional, and the fixed phrase ただでさえ has no すら version. Choose すら when the surrounding text is written or formal (reports, narration, speeches); in conversation さえ is the default.",
+      "usage_note": "Names the least likely case as さえ does, and very often pairs with a negative (名前すら思い出せない, 議題にすら上らなかった). The register is written and formal, including narration and speeches; さえ is the default in conversation. It does not enter the さえ〜ば conditional.",
       "human_verified": false,
       "examples": [
         {

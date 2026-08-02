@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "B12",
   "class_name": "過去-回想-ニキマッテイタ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2381",
       "canonical_surface": "にきまってた",
+      "sense_rank": 1,
       "glosses": [
         "was bound to; was sure to",
         "of course it would (have)"
       ],
-      "usage_note": "Retrospective 〜に決まってた looks back and declares the outcome a foregone conclusion — 'obviously it would'. It voices the speaker's own conviction rather than evidence-based inference, so it is blunter than 〜はずだった. In real Japanese it also follows nouns and adjectives (嘘に決まってた, 高いに決まってた), but the attachment licensed here is a plain dictionary-form verb; 〜てた is the casual contraction of 〜ていた, and 〜に決まっていました is its polite counterpart.",
+      "usage_note": "Looks back on an outcome and declares it a foregone conclusion: of course it was going to turn out that way. It states the speaker's own conviction rather than an evidence-based inference, which makes it blunter than 〜はずだった. 〜てた is the casual contraction of 〜ていた. Beyond the dictionary-form verb licensed here, it also follows nouns and adjectives (嘘に決まってた, 高いに決まってた).",
       "human_verified": false,
       "examples": [
         {

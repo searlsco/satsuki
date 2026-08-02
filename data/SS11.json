@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "S11",
   "class_name": "名詞化-名詞化-コト類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1593",
       "canonical_surface": "こた",
+      "sense_rank": 1,
       "glosses": [
         "as for … ing",
         "… , yes, but",
         "the thing about … ing"
       ],
-      "usage_note": "こた is the spoken contraction of ことは, so it turns up wherever topicalized こと would: most often in the concessive frame 〜こた〜が ('do it I did, but …') and in 〜こたない ('there's no need to'). It is casual and a little rough, at home in male-sounding speech and in fiction dialogue, and out of place in anything written or polite. Spell out the full ことは in any register above plain conversation.",
+      "usage_note": "Spoken contraction of ことは, so it appears wherever topicalized こと would: most often in the concessive frame 〜こた〜が (読んだこた読んだが) and in 〜こたない \"there's no need to\". It is casual and a little rough, common in male-sounding speech and in fiction dialogue. Anything written or polite uses the full ことは.",
       "human_verified": false,
       "examples": [
         {
@@ -38,12 +41,13 @@
     {
       "l2_id": "1614",
       "canonical_surface": "の",
+      "sense_rank": 1,
       "glosses": [
-        "… ing",
+        "… ing (turns a clause into a noun)",
         "the fact that …",
         "the one that …"
       ],
-      "usage_note": "The all-purpose nominalizer, used for concrete events the speaker directly perceives or experiences, which is why verbs of perception take only の as the complement marker (転ぶのを見た, never 転ぶことを見た). こと is the abstract counterpart, and it is the required one when the nominalization is itself the predicate (私の趣味は絵を描くことだ, not …描くのだ, which means something else entirely) and in fixed frames such as ことがある or ことにする. With likes, dislikes, difficulty and speed (好きだ, 難しい, 速い) either is possible, and の is the more conversational choice.",
+      "usage_note": "Turns a clause into a noun, typically a concrete event the speaker sees, hears, or experiences, which is why verbs of perception take の, not こと (転ぶのを見た). Two sibling entries take the other jobs of this の: marking the subject of a noun-modifying clause in place of が (父の作った料理) and listing what someone is fussing about (暑いの寒いのと言う). こと is the abstract counterpart, required when the nominalization is the predicate (趣味は絵を描くことだ).",
       "human_verified": false,
       "examples": [
         {

@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "G21",
   "class_name": "意志-決定-コトニスル類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1861",
       "canonical_surface": "ことにはし",
+      "sense_rank": 1,
       "glosses": [
         "have decided to …, at least",
         "did decide to …, though"
       ],
-      "usage_note": "〜ことにする marks a decision the speaker makes for themselves (contrast 〜ことになる, a decision that comes down from outside), and the inserted は sets that decision against a reservation, so a clause like が・ものの・けれど almost always follows. Pick it over 〜ようにする (1871) when the point is the one-off resolution itself rather than sustained effort. Takes the dictionary or ない form of the verb (行かないことにした); 〜ことにしている shifts the same verb to a standing practice.",
+      "usage_note": "Marks a decision the speaker makes for themselves, with the inserted は setting that decision against a reservation, so が・ものの・けれど almost always follows (申し込むことにはしたが…). 〜ことになる is the counterpart for a decision handed down from outside, and 〜ようにする is about sustained effort rather than a one-off resolution. Takes the dictionary or ない form of the verb (行かないことにした).",
       "human_verified": false,
       "examples": [
         {
@@ -37,11 +40,12 @@
     {
       "l2_id": "1871",
       "canonical_surface": "ようにゃし",
+      "sense_rank": 1,
       "glosses": [
         "do try to …, at least",
         "make a point of …, for what it's worth"
       ],
-      "usage_note": "〜ようにする is about ongoing effort or arrangement — steering yourself toward a habit — whereas its sibling 〜ことにする (1861) reports a decision already taken; 〜ようにしている describes the habit as established. ようにゃ is a colloquial squeeze of ようには, so it carries the same concessive flavour as ことにはし; the contracted にゃ is heavily colloquial and reads as rough or old-fashioned speech, and the uncontracted ようには is the form learners should produce. The dictionary-form attachment means a negative goes on the verb (食べないようにする), not on する.",
+      "usage_note": "Marks an ongoing effort to steer oneself toward a habit, with the inserted は setting it against a shortfall, so a concessive clause usually follows (返事をするようにはしているが…). Its classmate 〜ことにする reports a one-off decision already taken. ようにゃ is a colloquial squeeze of ようには and reads as rough or old-fashioned; ようには is the form to produce, with a negative on the verb (食べないようにする), not on する.",
       "human_verified": false,
       "examples": [
         {

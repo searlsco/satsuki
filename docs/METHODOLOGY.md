@@ -47,6 +47,63 @@ of the value).
    exemplifies a sibling sense. In the v1 run this changed 36 of 62
    families.
 
+## Pipeline v1.1 (the 1.1.0 editorial pass)
+
+The v1 run authored each Tsutsuji semantic class blind to the others. That
+is wrong for any surface Tsutsuji files under several classes, because each
+filing is a **lane** and an author who describes the surface rather than
+its lane writes something true that still leaves the entries
+indistinguishable. によって was filed three times and two of the three
+claimed each other's senses; a consumer showing surface plus glosses
+displayed the same entry three times. Usage notes had also drifted long
+(median 486 characters against a prompt asking for one to three sentences)
+and led with etymology and register instead of the sense.
+
+`prompts/style.md` is the editorial standard that came out of this: what a
+gloss may contain, given that consumers use glosses as flashcard answers
+and join them into one search row; the note's shape, sense first; and
+`sense_rank`, so a merged same-surface entry can lead with the sense a
+learner meets first.
+
+1. **Note reshaping**, batched by class, all 435 patterns.
+2. **Lane discrimination**, batched by surface family (56 families, 143
+   patterns), each family authored as a set against the reference
+   dictionaries, then judged by a cold reviewer and revised. Both passes
+   emit pattern-level patches, so the two batchings never contend for a
+   file, and a deterministic applier resolves precedence.
+3. **The gate moved into the agent.** In v1 the gate ran after authoring;
+   here each agent runs it on its own patch and fixes what it reports
+   before finishing. The pilot showed why: the revision stage, which had no
+   gate, introduced attachment failures the authoring stage had avoided
+   (粘り強さ and 人たち tokenize as suffixes, not 名詞, so `N によって` rejects
+   them though the Japanese is natural).
+4. **`script/lint`** makes the mechanical parts of the standard
+   enforceable: sibling lanes whose glosses collide, glosses that are
+   parenthetical fragments rather than answers, bracket ruby in a note
+   (which the consumer renders literally), and `sense_rank` contiguity.
+
+Results: 47 lint errors to 0, note median 486 to 377 characters, 31 notes
+carrying bracket ruby to 0.
+
+### What this run taught
+
+- **A dead verifier must not read as approval.** The first driver treated a
+  null verdict the same as `accept`, so 4 families whose verifier died
+  mid-response were counted as passed. 11 of 196 agents errored; every one
+  was reconciled by re-verifying explicitly rather than trusting the
+  summary count.
+- **Don't let a fleet hammer one source.** 56 concurrent agents drove
+  massif.la to HTTP 429, and 13 families' frequency claims went unmeasured
+  as a result. The same queries run serially afterwards succeeded. Corpus
+  checks belong in a serial pass, not in a fan-out.
+- **Pin frequency queries morphologically.** A bare-substring count is not
+  evidence: `したため` returns >10,000 and would have inverted ため's sense
+  ranking, but the hits are the unrelated verb したためる; `したために`
+  returns 77.
+- **Verify the ranking, not just the prose.** Corpus evidence overturned
+  three orderings that difficulty and dictionary order had suggested
+  (だい, にしたって, もんか).
+
 ## Pre-flight (learned the hard way)
 
 Before any fleet run, test the mechanical gate against one hand-written

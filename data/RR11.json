@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "R11",
   "class_name": "比況-比況-ミタイ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "3242",
       "canonical_surface": "よう",
+      "sense_rank": 1,
       "glosses": [
         "like …",
         "just as …",
         "as if …"
       ],
-      "usage_note": "The neutral likening marker: it holds one thing up against another (鏡のようだ、飛[と]ぶように走[はし]る), and with か in front it draws an openly counterfactual comparison (諦めたかのようだ). The identical form also carries evidential inference (\"it seems, judging from what I see\"), which is filed as a separate pattern; the likening reading is the one where a standard of comparison, not evidence, is in view. It attaches to plain verb and た forms directly, but to a noun only through の (夢のようだ) and to na-adjectives through な (元気なようだ) — exactly the の its colloquial sibling みたい drops; ように and ような are the adverbial and prenominal shapes, and ようだ is at home in writing and careful speech.",
+      "usage_note": "Likens one thing to another: what stands before it is the standard of comparison (氷のようだ, 雲のようにやわらかい, 飛ぶように走る), and か in front makes the comparison openly counterfactual (諦めたかのようだ). The sibling lane is evidential inference, a conclusion drawn from what the speaker observes (風邪をひいたようだ). It takes の after a noun and な after a na-adjective, the の its colloquial counterpart みたい drops.",
       "human_verified": false,
       "examples": [
         {
@@ -38,12 +41,12 @@
     {
       "l2_id": "3252",
       "canonical_surface": "みたい",
+      "sense_rank": 1,
       "glosses": [
-        "like …",
-        "just like a …",
+        "like; just like a …",
         "the way … does"
       ],
-      "usage_note": "The colloquial counterpart of ようだ for straight resemblance, contracted historically from 見[み]たよう: something is held up against a comparison standard (倉庫みたいだ、真夏みたいに暑[あつ]い). The same みたい also does evidential inference (\"looks like the battery died\"), filed separately; here a thing and the thing it resembles are both on the table. It hooks straight onto a bare noun with no の (子供みたい, not 子供のみたい) and then inflects like a na-adjective (みたいだ, みたいな, みたいに), and it stays conversational — essays, news copy and business writing switch to ようだ.",
+      "usage_note": "Holds something up against a comparison standard: X is like Y (倉庫みたいな部屋), and with に it gives the manner or degree of a predicate (真夏みたいに暑い). The sibling lane is inference from evidence, where something is concluded rather than compared (電池が切れたみたい). It hooks onto a bare noun with no の (子供みたい, not 子供のみたい) and inflects like a na-adjective (みたいだ, みたいな, みたいに). It is conversational; formal writing uses ようだ.",
       "human_verified": false,
       "examples": [
         {
@@ -63,12 +66,13 @@
     {
       "l2_id": "3311",
       "canonical_surface": "のごとし",
+      "sense_rank": 1,
       "glosses": [
         "like …",
         "as though …",
         "the likes of …"
       ],
-      "usage_note": "The 文語 likening auxiliary ごとし, the classical (漢文訓読体) counterpart of ようだ, which itself descends from 様(やう)なり, inflecting on the adjective pattern: ごとく adverbially, ごとし to close a sentence, ごとき before a noun. It survives in proverbs, ceremonial speech and deliberately grand narration, so a plain conversational sentence built on it will sound like a parody. Attached to a person, ごとき often carries a dismissive or self-deprecating edge ('someone like him', 'someone as unworthy as I'), and in that use the の is frequently dropped (私ごとき).",
+      "usage_note": "Likens one thing to another in classical style: ごとく adverbially (刃のごとく鋭い), ごとし closing a sentence, ごとき before a noun. It is the 文語 counterpart of ようだ and survives in proverbs, ceremonial speech and deliberately grand narration, so a plain conversational sentence built on it reads as parody. Attached to a person, ごとき is often dismissive or self-deprecating ('someone like him'), and there の is frequently dropped (私ごとき).",
       "human_verified": false,
       "examples": [
         {

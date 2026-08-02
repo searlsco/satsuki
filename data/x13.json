@@ -1,24 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "x13",
   "class_name": "疑問-問いかけ-タッケ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2491",
       "canonical_surface": "だっけ",
+      "sense_rank": 1,
       "glosses": [
-        "was it …?; is it … ?",
-        "… , right?",
-        "what was it again?"
+        "…, right? (checking a half-memory)",
+        "was it …?; what was it again?"
       ],
-      "usage_note": "A confirmation question put to the listener: you half-know the answer and are asking them to verify it (集合[しゅうごう]は明日[あした]だっけ、君[きみ]はもう読[よ]んだっけ). The same たっけ turned inward, rummaging through your own past experience with nobody expected to answer, is filed as a separate recollection pattern; here you are genuinely querying the person in front of you. It follows the past form, so it comes out as たっけ or だっけ according to that verb's own past tense (行[い]ったっけ / 読[よ]んだっけ), and attaches directly to a noun for present facts; the polite versions are でしたっけ and ましたっけ. Unlike plain か it presupposes prior knowledge, and unlike かな it is checking rather than idle speculation.",
+      "usage_note": "Checks a half-remembered fact, either with the listener or out loud with yourself (集合は明日だっけ、あの店の名前なんだっけ). The sibling lane is inward reminiscence about past experience, stated rather than asked (よく通ったっけ). It follows the plain past (行ったっけ / 読んだっけ) or attaches straight to a noun for present facts; the polite forms are でしたっけ and ましたっけ.",
       "human_verified": false,
       "examples": [
         {
@@ -30,8 +32,8 @@
           "english": "That doorstop of a novel — did you already read it, or am I misremembering?"
         },
         {
-          "ruby": "ねえ、玄関[げんかん]の鍵[かぎ]をかけたのは君[きみ]だっけ。",
-          "english": "Hey, you were the one who locked the front door, right?"
+          "ruby": "あの角[かど]のラーメン屋[や]、名前[なまえ]なんて言[い]ったっけ。",
+          "english": "That ramen place on the corner — what was it called again?"
         }
       ]
     }

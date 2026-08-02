@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "m41",
   "class_name": "限定-熱中-バカリ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "3022",
       "canonical_surface": "ばっかり",
+      "sense_rank": 1,
       "glosses": [
         "nothing but …",
         "always …",
         "just … and nothing else"
       ],
-      "usage_note": "The emphatic, conversational stretching of ばかり, and it usually carries the speaker's exasperation at someone stuck on one thing. After a noun it means the person does or has nothing but that (ゲームばっかり); after a dictionary-form verb it means they do nothing except that action, typically running on into 〜ばかりで. Keep it apart from 〜たばかり \"has just done\", a different construction entirely; and note that speech leans even harder on 〜てばかりいる, which this corpus rule does not license.",
+      "usage_note": "Says someone does or has nothing but the one thing, usually with exasperation at the fixation: ゲームばっかりする after a noun, 泣くばっかり after a dictionary-form verb, often continuing as 〜ばかりで. The emphatic っ is conversational; ばかり is the neutral form. 〜たばかり after a past-tense verb is a separate pattern meaning \"has just done\".",
       "human_verified": false,
       "examples": [
         {

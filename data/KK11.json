@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "K11",
   "class_name": "授受-内の授与-テヤル類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1241",
       "canonical_surface": "だげ",
+      "sense_rank": 1,
       "glosses": [
         "do … for someone",
         "do … as a favor"
       ],
-      "usage_note": "The neutral outward benefactive: the te-form plus あげる sends the action from the speaker's side to someone who is neither a superior owed honorifics nor a junior you would talk down to. Because it names the act as a favor, saying it to the beneficiary's face can sound like you are angling for credit, so Japanese often drops to a plain form or お〜します when actually offering. てやる below it is blunt and downward, て差し上げる above it is humble; ては／ても insertions turn the frame into a concession. A light 〜てあげるよ between friends is unremarkable; the risk rises with formality and with distance from the hearer.",
+      "usage_note": "Sends an action outward as a favor, from the speaker's side to someone who is neither owed honorifics nor talked down to (弟の弁当に卵焼きを入れてあげた). 〜てやる is the blunt downward member of the same ladder and 〜て差し上げる the humble one. Because it names the act as a favor, saying it to the beneficiary's face can sound self-congratulatory, so a plain form or お〜します is safer when actually offering.",
       "human_verified": false,
       "examples": [
         {
@@ -37,11 +40,12 @@
     {
       "l2_id": "1251",
       "canonical_surface": "でさえやり",
+      "sense_rank": 1,
       "glosses": [
         "do … for someone (casually, downward)",
         "… , just you watch"
       ],
-      "usage_note": "Same outward benefactive as てあげる but blunt, aimed at children, younger siblings, juniors, animals and plants; directed at anyone else it reads as rude, and in speech it leans male. It has a second life with no beneficiary at all, where the speaker's own volitional form voices defiant resolve — 絶対に勝ってやる, 見返してやる — and that use is what most often separates it from てあげる in real conversation. The polite やります exists but sits oddly with the form's roughness.",
+      "usage_note": "The same outward favor as 〜てあげる, aimed downward at children, juniors, animals or plants (犬を散歩に連れてやる); directed at anyone else it reads as rude, and in speech it is typically male. With no beneficiary at all it voices defiant resolve in the volitional (絶対に勝ってやる, 見返してやる), the use that most often separates it from 〜てあげる in conversation.",
       "human_verified": false,
       "examples": [
         {
@@ -61,11 +65,12 @@
     {
       "l2_id": "1261",
       "canonical_surface": "でばかりさしあげ",
+      "sense_rank": 1,
       "glosses": [
         "do … for someone (humbly)",
         "do … for a superior or customer"
       ],
-      "usage_note": "The humble member of the てやる／てあげる／て差し上げる ladder: the action goes from the speaker's side to a superior, a guest or a customer, and 差し上げる lowers the doer. Business-manner guides warn that it still carries the 'I am doing you a favor' flavor of あげる, so announcing ご案内して差し上げます to the person's face often lands as condescending; it is safest in third-person narration or when instructing staff, with お〜する as the plain humble offer. Reserve it for things the other party actually wants done. Say お荷物をお部屋までお運びします, not 運んで差し上げます, when speaking to the guest.",
+      "usage_note": "Does something for a superior, a guest or a customer, with 差し上げる lowering the doer (荷物を運んで差し上げる). 〜てあげる is the neutral member of the same ladder and 〜てやる the blunt downward one. It keeps あげる's favor-doing flavor, so addressed to the person's face it often lands as condescending; business-manner guides prefer お〜する (お荷物をお部屋までお運びします) when speaking to them directly.",
       "human_verified": false,
       "examples": [
         {

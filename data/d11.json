@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "d11",
   "class_name": "状況-般-ニアタッテ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0201",
       "canonical_surface": "にあたっての",
+      "sense_rank": 1,
       "glosses": [
         "on the occasion of",
         "upon (doing)",
         "as one embarks on"
       ],
-      "usage_note": "Marks a special, milestone-like occasion (開店[かいてん], 就任[しゅうにん], 卒業[そつぎょう]) and the deliberate step you take as it approaches, so the main clause is typically something planned rather than something that just happens. It attaches to a noun or to a verb in dictionary form. Its drier sibling に際[さい]して attaches the same way; the difference is register and occasion type, not attachment — にあたって leans toward welcome milestones you prepare for, に際して toward the bare moment an event occurs, including unwelcome ones. It is formal enough for speeches and written notices; in ordinary conversation 〜とき or 〜前[まえ]に does the same work. にあたり is the clipped written shape, にあたっての the form used before a noun.",
+      "usage_note": "Marks a milestone occasion and the deliberate step taken as it approaches, so the main clause is typically something planned: 開店にあたって, 留学するにあたって. It attaches to a noun or a dictionary-form verb. Sibling に際して points at the bare moment an event occurs and takes unwelcome or emergency occasions more readily; にあって frames a surrounding condition rather than an occasion. In conversation 〜とき or 〜前に does the same work.",
       "human_verified": false,
       "examples": [
         {
@@ -38,12 +41,13 @@
     {
       "l2_id": "0211",
       "canonical_surface": "にさいしての",
+      "sense_rank": 1,
       "glosses": [
         "at the time of",
         "on the occasion of",
         "when it comes to (an event)"
       ],
-      "usage_note": "Very close to にあたって, but drier and more bureaucratic: it points at the moment a specific event actually takes place and at what that moment calls for. It is most often built on a noun (使用[しよう]に際[さい]して), though a dictionary-form verb is grammatical too (署名[しょめい]するに際して); the clipped に際し is the standard shape in manuals and public notices. It takes unwelcome or emergency occasions (非常時[ひじょうじ]に際して) more readily than にあたって, which leans toward happy milestones.",
+      "usage_note": "Points at the moment a specific event takes place and at what that moment calls for: 使用に際して, 非常時に際して, 署名するに際し. It is most often built on a noun, though a dictionary-form verb is grammatical too. Sibling にあたって frames the occasion as a milestone prepared for and takes welcome events more readily; にあって frames a surrounding condition. The clipped に際し is the usual shape in manuals and public notices.",
       "human_verified": false,
       "examples": [
         {
@@ -63,12 +67,13 @@
     {
       "l2_id": "0231",
       "canonical_surface": "にあっての",
+      "sense_rank": 1,
       "glosses": [
         "in (a given situation)",
         "under the circumstances of",
         "placed in"
       ],
-      "usage_note": "Frames an entire surrounding condition or sphere (この不況[ふきょう]にあって, 戦後[せんご]の混乱[こんらん]にあって) rather than a point in time, and the main clause says what holds true inside it. It is stiffer than において or で and belongs to writing, speeches, and narration. にあっては tends to set the sphere against some other one (会社[かいしゃ]では厳[きび]しいが家庭[かてい]にあっては…), and にあっても means \"even in\". において locates an event in a place or domain; にあって places a subject inside a condition and then says how they fare there. Nouns only.",
+      "usage_note": "Frames an entire surrounding condition or sphere and says what holds true inside it: この不況にあって, 戦後の混乱にあって. It takes nouns. Siblings にあたって and に際して mark a single occasion rather than a prevailing condition, and において locates an event in a place or domain. にあっては sets one sphere against another (職場では厳しいが家庭にあっては), にあっても means \"even in\"; the form belongs to writing, speeches, and narration.",
       "human_verified": false,
       "examples": [
         {

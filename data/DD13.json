@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "D13",
   "class_name": "判断-当為-コト類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1591",
       "canonical_surface": "こった",
+      "sense_rank": 2,
       "glosses": [
         "you'd better …",
         "the thing to do is …"
       ],
-      "usage_note": "A fast-speech contraction of ことだ, attaching to the plain form. Like ことだ it gives advice aimed at this listener's own situation, unlike ものだ's appeal to general norms, but the clipped shape makes it blunt and rather masculine, often with a note of impatience — \"just go and do it, then.\" The same contraction shows up in set exclamations such as なんてこった and そういうこった, which have nothing to do with the advice sense.",
+      "usage_note": "Tells the listener what to do about the situation at hand: 早く寝るこった, 自分で確かめるこった. It follows a plain non-past verb, affirmative or negative, and is a clipped ことだ, blunt and rather masculine, often with a note of impatience. The sibling lane passes an exclamatory verdict on a state or quality (ありがたいこった, ご苦労なこった) rather than telling anyone what to do.",
       "human_verified": false,
       "examples": [
         {

@@ -1,24 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "D12",
   "class_name": "判断-当為-モノ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0822",
       "canonical_surface": "もん",
+      "sense_rank": 2,
       "glosses": [
         "one should …",
-        "that's how it's done",
-        "it's only natural to"
+        "that's how it's done"
       ],
-      "usage_note": "In this use ものだ states a social norm or the way things properly are, so the advice appeals to common sense rather than to the listener's particular circumstances — that is the job of ことだ. The negative もんじゃない is a standard rebuke for behavior that breaches the norm. もん is the spoken contraction of もの; keep it apart from the reason-giving 〜もん(だから) and from 〜たものだ, which reminisces about the past rather than prescribing anything.",
+      "usage_note": "States a social norm: what people properly do or refrain from doing (お年寄りには席を譲るものだ), appealing to shared common sense rather than the listener's own situation. Two siblings share this shape: exclamation over something felt as a truth of the world (月日が経つのは早いもんだ) and the excuse-making reason tacked onto a clause (だって嫌いなんだもん). It follows a plain present verb, and もんじゃない is the ordinary spoken rebuke.",
       "human_verified": false,
       "examples": [
         {

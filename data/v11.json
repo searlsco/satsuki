@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "v11",
   "class_name": "付帯-続行-ママデ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1161",
       "canonical_surface": "まんまでの",
+      "sense_rank": 1,
       "glosses": [
         "as it is; still (in that state)",
         "leaving it unchanged",
         "without changing"
       ],
-      "usage_note": "Freezes a state: whatever the preceding た-form, noun + の, or い-adjective describes stays in force while the main clause happens, often with a hint that it should not have. Hence 靴を履いたまま, 昔のまま, 冷たいまま. まんま is the casual spoken variant; the stiff, literary near-synonym たなり / だなり says much the same thing but is far rarer and confined to writing.",
+      "usage_note": "Freezes a state: what the preceding た-form verb, noun + の, or い-adjective describes stays in force through the main clause, often with a hint that it should not have — 靴を履いたまま, 昔のまま, 冷たいまま. まんま is the casual spoken shape of まま. The stiff literary near-synonym たなり says much the same thing but attaches only to a past verb and is largely confined to writing.",
       "human_verified": false,
       "examples": [
         {
@@ -38,11 +41,12 @@
     {
       "l2_id": "1171",
       "canonical_surface": "だなりでの",
+      "sense_rank": 1,
       "glosses": [
         "and left it that way",
         "and stayed that way ever since"
       ],
-      "usage_note": "A stiff, literary equivalent of 〜たまま: someone does something once and the resulting state simply persists, usually with the implication that the expected follow-up never came. Unlike まま it attaches to a past verb only. It attaches where た attaches, so nasal and ガ-row godan verbs voice it to だなり (脱いだなり, 読んだなり). It belongs to written narration; in speech people say まま. Keep it apart from the 〜なり that follows a dictionary form and means \"the instant that\".",
+      "usage_note": "Leaves a completed action's state standing: someone does something once and simply stays that way, usually with the implication that the expected next move never came — 座ったなり, 脱いだなり. It is the stiff literary counterpart of 〜たまま, attaches only to a past verb, and voices to だなり after nasal and ガ-row godan stems (読んだなり). It is distinct from the 〜なり on a dictionary form, which means \"the instant that\".",
       "human_verified": false,
       "examples": [
         {

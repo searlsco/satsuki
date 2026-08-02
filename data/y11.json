@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "y11",
   "class_name": "否定-強い表現-ハズガナイ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1661",
       "canonical_surface": "わけない",
+      "sense_rank": 1,
       "glosses": [
         "there's no way (that) …",
         "it's impossible that …"
       ],
-      "usage_note": "Denies a proposition outright on the strength of the speaker's own reasoning: given what we both know, that simply cannot be so. Teacher references treat it as largely interchangeable with はずがない, with わけがない carrying more of the speaker's subjective conviction while はずがない leans on commonsense or objective grounds. Unlike もんか and かい, わけがない is a calm judgment about the world rather than an emotional retort. わけがない and わけはない are the everyday shapes; bare わけない is casual speech, and the unrelated 訳ない ('easy, no trouble') is a different word entirely.",
+      "usage_note": "Denies a proposition outright on the strength of the speaker's own reasoning: given what we both know, that cannot be so (寝坊するわけがない). The near-synonym はずがない rests on nameable objective or commonsense grounds, while わけがない carries more subjective conviction. わけがない and わけはない are the everyday shapes, bare わけない is casual, and the unrelated 訳ない ('easy') is a different word.",
       "human_verified": false,
       "examples": [
         {
@@ -37,11 +40,12 @@
     {
       "l2_id": "1671",
       "canonical_surface": "はずない",
+      "sense_rank": 1,
       "glosses": [
         "can't possibly …",
         "there's no way … could be"
       ],
-      "usage_note": "Denies an expectation that the known grounds make untenable: I locked the door, I checked the machine, so that cannot be the case. It typically rests on objective or commonsense grounds and is the natural choice when you can name the reason you expect otherwise, whereas わけがない sounds more like personal conviction. It is the negation of the expectational はずだ; note the separate はずではなかった, which laments that things did not go as planned.",
+      "usage_note": "Denies an expectation that the known grounds make untenable: I inspect the machine daily, so it cannot be broken (故障するはずがない). It is the negation of expectational はずだ and the natural choice when you can name the reason you expect otherwise, where the near-synonym わけがない sounds more like personal conviction. Distinct from はずではなかった, which laments that things did not go as planned.",
       "human_verified": false,
       "examples": [
         {
@@ -61,11 +65,12 @@
     {
       "l2_id": "2512",
       "canonical_surface": "かい",
+      "sense_rank": 2,
       "glosses": [
         "as if …!",
         "you think …? (of course not)"
       ],
-      "usage_note": "The rhetorical (反語) use of sentence-final かい: put as a question, it asserts the opposite. Dictionaries list this sense alongside the plain friendly-question かい (元気かい), and context plus a flat, exasperated delivery is what separates the two. Rough, masculine, somewhat old-fashioned speech, and a stock shape in blunt masculine retorts like 知るかい and あるかい (Kansai adds な: 知るかいな). かい merely puts the denial as a question; もんか adds emotional refusal, and 〜(よ)うか is the literary/written counterpart.",
+      "usage_note": "Puts a flat denial in the shape of a question, asserting the opposite of what it asks and expecting no answer: 知るかい, そんな話を信じるかい. Its sibling is the ordinary warm yes-no question, which does want an answer: 元気かい, もう慣れたかい. Rough, masculine and somewhat old-fashioned; Kansai adds な (知るかいな), and もんか carries more emotional refusal.",
       "human_verified": false,
       "examples": [
         {
@@ -85,11 +90,12 @@
     {
       "l2_id": "2531",
       "canonical_surface": "うか",
+      "sense_rank": 2,
       "glosses": [
         "how could …?",
         "who would …? (surely no one)"
       ],
-      "usage_note": "The volitional plus か used rhetorically: it poses a question in order to deny it, the way だろうか does but with a bookish, declamatory ring suited to essays, speeches, and narration rather than conversation. It almost always rides on an interrogative such as 誰が or どうして, which signals that no answer is wanted. It attaches to the volitional form (意向形): 従おう, 忘れよう, 予想しよう, plus か — never the dictionary form. Choose 〜(よ)うか in writing and oratory; in speech the same rhetorical denial goes to もんか.",
+      "usage_note": "Asks a question in order to deny it: 誰が従おうか says that no one would, どうして忘れようか that one never could, and no answer is wanted. The sibling lane is the ordinary offer or proposal, shall I or shall we (そろそろ出ようか, 半分持とうか), which is the everyday spoken use. This lane almost always rides on an interrogative such as 誰が or どうして and belongs to essays, speeches, and narration; in conversation the same denial goes to もんか.",
       "human_verified": false,
       "examples": [
         {
@@ -109,12 +115,13 @@
     {
       "l2_id": "2541",
       "canonical_surface": "もんか",
+      "sense_rank": 2,
       "glosses": [
         "like hell I will",
-        "as if I'd …!",
-        "absolutely not"
+        "as if …!",
+        "there's no way …"
       ],
-      "usage_note": "An emotional rebuttal or refusal of an ACT rather than a calm judgment: references describe it as spoken language for strong resistance and firm resolve, and with a first-person verb it becomes a vow never to do the thing (二度と行くもんか). The same もんか after a plain adjective (痛いもんか, \"that doesn't hurt a bit\") denies a state instead and is filed with the モノカ question class. ものか and its clipped もんか are typical of male speech, while ものですか and もんですか are common in women's speech and softer registers. Where わけがない reports impossibility, もんか vents; かい just poses the denial as a question; choose もんか in speech and 〜(よ)うか in writing or oratory.",
+      "usage_note": "Denies something outright by putting it as a rhetorical question, either refusing an act (二度と行くもんか) or rejecting a quality or claim (痛いもんか, 複雑なもんか); it takes a plain verb, an い-adjective, or a な-adjective or noun plus な. The sibling lane asks in earnest what the appropriate course would be (どう説明したものか). Emotional and casual, typical of spoken language; ものですか and もんですか are the politer variants.",
       "human_verified": false,
       "examples": [
         {
@@ -122,8 +129,8 @@
           "english": "Set foot in that rude place again? Not a chance."
         },
         {
-          "ruby": "こんな安[やす]い報酬[ほうしゅう]で、仕事[しごと]を引[ひ]き受[う]けるもんか。",
-          "english": "Take the job for pay that lousy? Like hell I will."
+          "ruby": "あんな子[こ]どもだましの映画[えいが]が怖[こわ]いもんか。",
+          "english": "A cheap scare like that movie? Not in the least."
         },
         {
           "ruby": "あの人[ひと]の言[い]うことなんて、信用[しんよう]できるものですか。",
@@ -134,12 +141,12 @@
     {
       "l2_id": "3271",
       "canonical_surface": "まい",
+      "sense_rank": 1,
       "glosses": [
         "surely won't …",
-        "probably not …",
-        "I doubt … will"
+        "probably not …"
       ],
-      "usage_note": "Negative conjecture, the flat denial counterpart of だろう (≒ないだろう), used of events and of other people: the sentence reports the speaker's judgment, not a decision. The first-person resolve reading of まい (\"I'll never …\", ≒ないつもりだ) is filed separately with the わけにはいかない group; here the subject is typically third-person or an event and there is no verb of resolve. It is formal and old-fashioned, at home in writing, narration, and set phrases like 無理もあるまい, while everyday speech uses ないだろう. Godan verbs take the dictionary form (降るまい); ichidan and する/来る also allow shorter shapes in real Japanese (見まい, すまい, 来まい), though only the dictionary-form attachment is licensed here.",
+      "usage_note": "Negative conjecture: the speaker judges that something will not happen (今日は雨は降るまい, 今回も失敗するまい), the flat counterpart of ないだろう. The sibling lane is first-person negative resolve, a vow not to act (二度と入るまい, 忘れまいと誓う). Formal and old-fashioned, common in writing and in set phrases like 無理もあるまい and ではあるまいか. Besides a verb's dictionary form it takes nouns and adjectives, through ではあるまい, 高くはあるまい.",
       "human_verified": false,
       "examples": [
         {

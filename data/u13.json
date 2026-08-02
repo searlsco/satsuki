@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "u13",
   "class_name": "対比-般-トドウジニ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0362",
       "canonical_surface": "とどうじに",
+      "sense_rank": 1,
       "glosses": [
         "at the same time as; the moment (that)",
         "while also being; and at once"
       ],
-      "usage_note": "Two readings share the form: temporal simultaneity after a verb (ドアが閉まると同時に, the instant the doors shut) and dual identity after である or an い-adjective (医師であると同時に母, a doctor and a mother at once). A bare event noun attaches directly (卒業と同時に); である is only needed for the dual-identity reading. It is more formal than とすぐに, and unlike かと思うと it carries no surprise: the second event is simply concurrent, and it may perfectly well be planned or deliberate.",
+      "usage_note": "Marks two things holding at once: an event coinciding with another (ドアが閉まると同時に, the instant the doors shut), or two properties held together (医師であると同時に母, 美しいと同時に力強い). A bare event noun attaches directly (卒業と同時に); である is needed only for the dual-property reading. It is more formal than とすぐに and carries no surprise, so the second event may be planned.",
       "human_verified": false,
       "examples": [
         {

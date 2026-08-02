@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "c11",
   "class_name": "仲介-原因-ニヨッテ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0062",
       "canonical_surface": "をもっての",
+      "sense_rank": 2,
       "glosses": [
         "by means of; through (a medium)",
         "with (a document, a vote, a method)"
       ],
-      "usage_note": "をもって is the formal, document-register way of naming the medium or instrument an act travels through, at home in notices, ceremonies, and legal or business prose (書面をもって, 投票をもって); in ordinary speech で or によって does the same work. It attaches to nouns, typically abstract ones — a method, a document, a faculty — rather than to everyday physical tools, so 箸をもって食べる sounds wrong where 箸で is right. The same form also marks a cut-off point ('as of', 本日をもって閉店) and, in the standard-marking class, the criterion or attitude brought to bear (所定の基準をもって, 誠意をもって); both are separate senses from the medium-marking one here. The similar-looking でもって is not a formality marker but an emphasis marker, so 書面をもって belongs in a notice while 行動でもって belongs in an argument.",
+      "usage_note": "Names the medium or instrument an act travels through, attaching to an abstract noun: a document, a method, a faculty (書面をもって知らせる, 投票をもって決める). The sibling entries mark the point at which something takes effect or ends (本日をもって閉店) and the criterion a judgment rests on (所定の基準をもって). It is not usually used of everyday physical tools, where で is normal (箸で食べる); 身をもって, 'firsthand', is a fixed idiom.",
       "human_verified": false,
       "examples": [
         {
@@ -37,12 +40,13 @@
     {
       "l2_id": "0141",
       "canonical_surface": "によっての",
+      "sense_rank": 1,
       "glosses": [
-        "by; by means of",
-        "due to; because of",
-        "through (the agency of)"
+        "by means of; through",
+        "because of; due to",
+        "by (the agent of a passive)"
       ],
-      "usage_note": "によって is the all-purpose noun-marking connector for means, cause, and agency, and unlike the ceremonial をもって it is at home in conversation, textbooks, and news alike. It leans toward causes, methods, and abstract agency rather than hand-held instruments — で covers the pen and the bus, によって covers the earthquake, the negotiation, and the reform. Its neighbours take the other jobs of the same form: conformity to a rule belongs to the 根拠 entry (規則によって禁じられている) and case-to-case variation to the 状況 one (人によって違う). により is the clipped, stiffer written variant; による is the ordinary adnominal form (地震による被害), neutral in any register.",
+      "usage_note": "Names the means, cause, or passive agent behind an event: the method something is achieved by (話し合いによって解決する), the cause it resulted from (地震によって), or the doer in a passive (シェークスピアによって書かれた). Two sibling entries take the other readings of this form: conformity to a rule (規則によって禁じられている) and case-to-case variation (人によって違う). It is not used of everyday hand tools, where で is normal.",
       "human_verified": false,
       "examples": [
         {
@@ -50,12 +54,12 @@
           "english": "The accident held the train up by a full thirty minutes."
         },
         {
-          "ruby": "毎日[まいにち]の練習[れんしゅう]によって泳[およ]ぐのが速[はや]くなった。",
-          "english": "Practicing every day has made me a faster swimmer."
+          "ruby": "話[はな]し合[あ]いによって問題[もんだい]を解決[かいけつ]したい。",
+          "english": "I'd like to settle the matter through discussion."
         },
         {
-          "ruby": "新[あたら]しい機械[きかい]によって仕事[しごと]がずいぶん楽[らく]になった。",
-          "english": "The new machine has made the work a great deal easier."
+          "ruby": "この寺[てら]は江戸時代[えどじだい]の名工[めいこう]によって建[た]てられた。",
+          "english": "This temple was built by a master craftsman of the Edo period."
         }
       ]
     }

@@ -1,24 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "u21",
   "class_name": "対比-想外-ドコロカ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1131",
       "canonical_surface": "どころか",
+      "sense_rank": 1,
       "glosses": [
         "far from …; anything but …",
-        "let alone; much less",
-        "quite the opposite of …"
+        "quite the opposite; on the contrary"
       ],
-      "usage_note": "Knocks down what the listener was assuming and puts the contrary state of affairs in its place: the first item is denied, not topped. The second clause typically carries a negative, かえって, or も to mark how far reality falls the other way; when instead it names something that outdoes the first item ('バイクどころか車まで持っている'), that is the additive どころか of the ダケデナク family. It attaches straight to a bare noun with no particle, to the bare stem of a な-adjective (元気どころか、寝込んでいる), and to the plain form of verbs and い-adjectives. どころではない states that circumstances rule X out; どころか needs a second clause that overturns or outdoes X.",
+      "usage_note": "Denies what was expected of the first item and states the contrary instead: 効くどころか熱が上がった, 反省どころか文句を言う. The sibling lane is the scale contrast, where the second item pushes the same point further, marked with まで or, under a negative, も (スマホどころかタブレットまで, 旅行どころか外食もできない). かえって often marks the reversal, and it attaches to a bare noun with no particle and to the plain form of verbs and い-adjectives.",
       "human_verified": false,
       "examples": [
         {
@@ -26,12 +28,12 @@
           "english": "Sorry? Far from it, he turned around and complained at me."
         },
         {
-          "ruby": "今月[こんげつ]は旅行[りょこう]どころか、外食[がいしょく]する余裕[よゆう]もない。",
-          "english": "Forget a trip this month, I can't even afford to eat out."
-        },
-        {
           "ruby": "この薬[くすり]は効[き]くどころか、かえって熱[ねつ]が上[あ]がった。",
           "english": "Far from helping, this medicine actually pushed my fever higher."
+        },
+        {
+          "ruby": "今年[ことし]の夏[なつ]は涼[すず]しいどころか、去年[きょねん]より暑[あつ]い日[ひ]が続[つづ]いている。",
+          "english": "This summer is anything but cool, we're getting even hotter days than last year."
         }
       ]
     }

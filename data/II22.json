@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "I22",
   "class_name": "推量-高確実性-ニホカナラナイ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2061",
       "canonical_surface": "にほかならない",
+      "sense_rank": 1,
       "glosses": [
         "is nothing but; is none other than",
         "is precisely"
       ],
-      "usage_note": "Not a guess but an assertion of identity: it strips away alternatives and declares what something really is, typically to reframe a thing as its true essence or to pin down a single cause. It makes no conjecture at all, and it predicates on a noun or a nominalized clause rather than attaching to verbs and adjectives directly the way the ニチガイナイ patterns do. Against those siblings the selection rule is simple: に違いない answers \"is this true?\", while にほかならない answers \"what is this really?\", so it is unusable where the speaker is guessing (×あの人は犯人にほかならない as a deduction). Its very common causal use is the fixed shape 〜からにほかならない, where a whole clause plus から fills the slot, and it belongs to essayistic and formal prose rather than chat.",
+      "usage_note": "Asserts identity rather than conjecture: it strips away the alternatives and declares what something really is, or pins a result to one cause (差別にほかならない, お支えのおかげにほかなりません). に違いない answers 'is this true?'; にほかならない answers 'what is this really?', so it is unusable where the speaker is guessing. It predicates on a noun or nominalized clause, very often the fixed 〜からにほかならない, and belongs to formal and essayistic prose.",
       "human_verified": false,
       "examples": [
         {

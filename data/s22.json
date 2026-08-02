@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "s22",
   "class_name": "理由-因果-ノデ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0272",
       "canonical_surface": "から",
+      "sense_rank": 2,
       "glosses": [
         "because …",
         "since …",
         "so …"
       ],
-      "usage_note": "The plainest and most subjective reason marker: it presents the reason as the speaker's own grounds for saying or doing something, which is why blunt commands and prohibitions prefer it (熱いから触るな); ので is perfectly usable before a polite request (熱いのでお気をつけください) but sounds more deferential, and only the もの-family rules such main clauses out. It hooks onto plain forms directly, but a noun or na-adjective needs だ first (休みだから). ので is the more detached, more deferential sibling, so business writing and apologies lean that way while conversation and argument lean on から.",
+      "usage_note": "Gives the speaker's own grounds for saying or doing something, which is why commands and statements of intent prefer it (熱いから触るな); a noun naming a cause takes it directly too (不注意から事故が起こる). Two sibling entries take the other readings: the starting point of a range (九時から) and the party an action comes from (先生から聞いた). A noun or na-adjective needs だ first (休みだから).",
       "human_verified": false,
       "examples": [
         {
@@ -38,12 +41,13 @@
     {
       "l2_id": "0721",
       "canonical_surface": "んで",
+      "sense_rank": 1,
       "glosses": [
         "because …",
         "since …",
         "so …"
       ],
-      "usage_note": "The spoken contraction of ので, and it inherits ので's job: presenting the reason as a plain circumstance rather than as the speaker's insistence, which makes it the softer choice when excusing yourself or asking for allowances. The contraction is conversational — say it, and write ので instead in anything at or above the level of an email. Like ので it takes な after a noun or na-adjective (不在なんで), never だ.",
+      "usage_note": "Gives the reason as a plain circumstance rather than as the speaker's insistence (熱があるんで、早めに帰ります), which makes it the softer form for excusing yourself or asking to be let off. It is the spoken contraction of ので: say んで, and write ので in email or anything more formal. A noun or na-adjective attaches with な (不在なんで), never だ.",
       "human_verified": false,
       "examples": [
         {
@@ -63,12 +67,13 @@
     {
       "l2_id": "0741",
       "canonical_surface": "もんだから",
+      "sense_rank": 1,
       "glosses": [
         "(it's) just that …",
         "because … , you see",
         "seeing as …"
       ],
-      "usage_note": "From the nominalizer もの plus だから: it packages the reason as a state of affairs that anyone would have been swept along by, so it is the grammar of excuses and self-justification ('the dog kept barking, so of course …'). The main clause reports what happened, not what should happen: commands, requests and invitations do not follow it (×うるさいもんだから静かにしてください). もんだから and もんですから are the spoken contractions of ものだから and ものですから; drop back to the full もの spelling in polite or written contexts, and note that a noun or na-adjective attaches with な rather than だ (苦手なもんだから、ビールは遠慮します).",
+      "usage_note": "Packages the reason as a state of affairs the speaker was swept along by, so it is the grammar of excuses and self-justification (上司がしつこく催促するもんだから、慌てて送った). The main clause reports what happened, so commands, requests and invitations cannot follow it (×うるさいもんだから静かにしてください); から takes all of those. A noun or na-adjective attaches with な (苦手なもんだから).",
       "human_verified": false,
       "examples": [
         {
@@ -88,12 +93,13 @@
     {
       "l2_id": "0811",
       "canonical_surface": "もんで",
+      "sense_rank": 1,
       "glosses": [
         "because …",
         "what with …",
         "… , you see"
       ],
-      "usage_note": "The で-connective member of the ものだから family, and the mildest of them: where もんだから pushes the excuse at the listener, もんで simply lays the circumstance down and lets the sentence trail off, which is why it is the standard opener of a polite apology (急な用事が入ったもんで…). It shares the family's restriction against commands, requests and invitations in the main clause. もので is the neutral spelling and もんで the contracted, conversational one; politeness rides on the main clause rather than on the connective (急な用事が入ったもので、失礼いたします). ものですから is the polite member of the ものだから branch.",
+      "usage_note": "Lays the reason down as a circumstance and lets the sentence trail off, which makes it the standard opener of an apology or excuse (急な用事が入ったもんで、失礼いたします). It is milder than もんだから, which pushes the excuse at the listener, and it shares the family's block on commands, requests and invitations in the main clause. A noun or na-adjective attaches with な (急用なもんで).",
       "human_verified": false,
       "examples": [
         {
@@ -113,12 +119,12 @@
     {
       "l2_id": "0821",
       "canonical_surface": "もん",
+      "sense_rank": 1,
       "glosses": [
         "because …",
-        "… , that's why",
-        "'cause … (petulant)"
+        "'cause … (petulant excuse)"
       ],
-      "usage_note": "The sentence-final version of the same もの, used to push back at a listener who is blaming or doubting you: it hands over your reason with a note of complaint or 甘え, and it very often answers a preceding だって. Dictionaries tie it especially to women's and children's speech, and it stays firmly casual — the full もの sounds softer and more feminine, もん blunter. It follows plain forms directly, and in speech it also follows a noun plus だ (まだ子供だもん).",
+      "usage_note": "Hands over a personal reason or excuse at the end of a sentence, with a note of complaint or 甘え, usually answering a preceding だって or なんで (だって眠いんだもん). The same shape carries two other senses: stating a social norm as advice (早く寝るもんだ) and exclaiming over something taken as a truth (月日が経つのは早いもんだ). It follows plain forms directly, and a noun needs だ first (まだ子供だもん); もん is blunter than もの.",
       "human_verified": false,
       "examples": [
         {

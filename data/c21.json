@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "c21",
   "class_name": "仲介-経由-ヲツウジテ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0151",
       "canonical_surface": "をとおしての",
+      "sense_rank": 1,
       "glosses": [
         "through; by way of",
         "throughout (a period)"
       ],
-      "usage_note": "を通して frames the noun as something the subject deliberately goes through to reach a goal, so it is the natural pick when a person is used as an intermediary on purpose or when an experience is credited with teaching something. With a span of time it means 'all the way through' (一年を通して). Its twin を通じて is largely interchangeable but sounds more written and more detached; を通して is the more volitional, more conversational of the pair.",
+      "usage_note": "Names a route deliberately gone through to reach a goal: a person used as an intermediary on purpose (友人を通して頼む) or an experience credited with teaching something (部活を通して学ぶ). With a period noun it means all the way through (一年を通して). Its twin を通じて does the same work but sounds more written and less volitional; the two are interchangeable in most sentences.",
       "human_verified": false,
       "examples": [
         {
@@ -37,11 +40,12 @@
     {
       "l2_id": "0161",
       "canonical_surface": "をつうじての",
+      "sense_rank": 1,
       "glosses": [
         "through; via",
         "by way of; through the good offices of"
       ],
-      "usage_note": "を通じて names the route or channel something travels along, and it typically just reports the fact rather than crediting anyone's intention, which is why it dominates in news copy, reports, and other written registers. Compared with its near-twin を通して it is more detached and less volitional: 報道を通じて知られた describes how word spread, while 友人を通して頼んだ describes a choice someone made. The two are interchangeable in most sentences, so the difference is one of tone rather than a rule. A learner should keep this apart from the span use of the same form: with a period noun (一年を通じて雨が多い) it means 'throughout, all through', saying when a state holds; the channel use here takes a person, medium, or organization and says how something got from one side to the other.",
+      "usage_note": "Names the person, medium, or activity something passes through or comes about by way of: 報道を通じて知られる, 友人を通じて頼む, 交流を通じて理解が深まる. Its sibling lane takes a period or area and means throughout, saying a state held across a whole span (一年を通じて, 四季を通じて). を通して is the near-equivalent and is preferred when someone deliberately works through the intermediary, while を通じて usually just reports how something came about.",
       "human_verified": false,
       "examples": [
         {

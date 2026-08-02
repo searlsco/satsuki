@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "Q51",
   "class_name": "並立-用言の並立-ノ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1613",
       "canonical_surface": "の",
+      "sense_rank": 3,
       "glosses": [
-        "… this, … that",
+        "… this, … that (listing what someone fusses about)",
         "going on about … and …"
       ],
-      "usage_note": "〜の〜の strings two plain-form predicates together — usually an opposed or clashing pair — to report someone making a fuss over them, so it nearly always continues into と言う・と騒ぐ・と文句を言う (verbs of saying or making a fuss). It reports the fuss with a touch of impatience rather than stating a real alternative, which is what separates it from choosing か. It is colloquial, and the pair is very often a verb and its negative (行くの行かないの).",
+      "usage_note": "Strings two opposed plain-form predicates, often a verb and its own negative, to report someone fussing over them: 行くの行かないのと言い争う, 暑いの寒いのとうるさい. Two sibling entries take the other jobs of this の: turning a clause into a noun (走るのが速い) and marking the subject inside a noun-modifying clause (父の作った料理). It is colloquial, and usually continues into と plus a verb of saying or fretting, reporting a fuss rather than a real choice.",
       "human_verified": false,
       "examples": [
         {

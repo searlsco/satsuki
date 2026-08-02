@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "a33",
   "class_name": "立場-根拠-ニツキ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0181",
       "canonical_surface": "につき",
+      "sense_rank": 1,
       "glosses": [
         "owing to",
         "due to",
         "on account of"
       ],
-      "usage_note": "The stiff written 'because of': it belongs to signage, notices and business correspondence, and is hardly ever heard in ordinary conversation, where ため or ので does the work. It attaches to a noun naming the circumstance and the following clause is typically an announcement of what will therefore happen, often in humble-polite style. Historically に + 付き; do not confuse it with the distributive につき of 一人につき五百円 ('per'), which is a separate use.",
+      "usage_note": "Names the circumstance a notice gives as its reason, attaching to a noun: 改装工事につき臨時休業, 満席につき. It is stiff written style for signage, notices and business correspondence, where speech uses ため or ので, and the clause that follows typically announces what will therefore happen, often in humble-polite form. The distributive につき of 一人につき五百円 (\"per\") is a separate use.",
       "human_verified": false,
       "examples": [
         {

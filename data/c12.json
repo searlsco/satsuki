@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "c12",
   "class_name": "仲介-原因-デモッテ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0072",
       "canonical_surface": "でもっての",
+      "sense_rank": 1,
       "glosses": [
-        "with; by means of (emphatic)",
-        "through the sheer force of …"
+        "by means of; using",
+        "with (an instrument or material)"
       ],
-      "usage_note": "でもって is で with もって bolted on for emphasis: it puts weight on the means itself, often when the speaker is contrasting it with some other means that failed or was expected (力ではなく理屈でもって). It takes nouns like で does, but it sounds either slightly literary or slightly blustery, so plain で is safer in neutral writing; the written variants 以て・以って are the stiffest. Do not confuse it with the casual sentence-opening でもって ('and besides…'), which links clauses rather than marking an instrument.",
+      "usage_note": "Names the means, instrument or material an action is carried out with, で with もって added to weight the means itself: 数字でもって裏付ける, 竹と紙でもって作る, often set against a means expected instead (言葉ではなく行動でもって). Two sibling entries take the other readings: the quality the actor brings (経験でもって) and the criterion a decision is reckoned by (多数決でもって). The written variants 以て and 以って are the stiffest.",
       "human_verified": false,
       "examples": [
         {
@@ -25,8 +28,8 @@
           "english": "The captain led the rest of us not with words but with what he actually did."
         },
         {
-          "ruby": "圧倒的[あっとうてき]な物量[ぶつりょう]でもって相手[あいて]を押[お]し切[き]った。",
-          "english": "They simply overwhelmed their opponent with sheer numbers."
+          "ruby": "祖父[そふ]は竹[たけ]と紙[かみ]でもって立派[りっぱ]な凧[たこ]を作[つく]った。",
+          "english": "My grandfather made a magnificent kite out of nothing but bamboo and paper."
         },
         {
           "ruby": "その結論[けつろん]は詳[くわ]しい数字[すうじ]でもって裏付[うらづ]けられている。",
@@ -37,11 +40,12 @@
     {
       "l2_id": "0253",
       "canonical_surface": "にして",
+      "sense_rank": 1,
       "glosses": [
-        "in (the space of); within",
-        "at a single stroke of"
+        "in the space of (an instant, a night)",
+        "all at once; at a single stroke"
       ],
-      "usage_note": "In this instrumental-manner use にして is a bookish stand-in for で that almost always attaches to a noun naming a very short or very compressed span — 一瞬・一夜・一代・数年 — and it carries the speaker's astonishment that so much happened in so little. It belongs to narration and news writing; in speech 一瞬で and 一晩で are the ordinary equivalents. The same にして has quite separate uses (七十歳にして 'at the age of', 学者にして詩人 'both scholar and poet') that this instrumental sense should not be blurred with.",
+      "usage_note": "Names the whole span something took, a noun of very short or compressed time plus にして: 一瞬にして, 一夜にして, 一代にして, with the sense that so much happened in so little. Two sibling senses take the other readings of this form: framing a circumstance, 幸いにして, 今にして思えば, and emphasis on an age or an attempt, 五十にして, 三度目にして. Narration and news writing; ordinary speech says 一瞬で or 一晩で.",
       "human_verified": false,
       "examples": [
         {
@@ -61,11 +65,13 @@
     {
       "l2_id": "0344",
       "canonical_surface": "での",
+      "sense_rank": 2,
       "glosses": [
-        "with (a tool); out of (a material)",
-        "in (a manner)"
+        "with; by means of (a tool or method)",
+        "in (a manner)",
+        "because of; due to"
       ],
-      "usage_note": "で is the plain, unmarked instrumental particle and the default for concrete tools, materials, and manner — everything the heavier をもって, でもって, and によって dress up. It attaches straight to a noun with no formality of its own, which makes it the right choice in conversation and the wrong one in ceremonial notices. This is the concrete end of the family; the medium or route a message or a trip travels by (メールでの案内, バスで通う) sits with the sibling 基準 entry. Before a noun it becomes での (電話での問い合わせ).",
+      "usage_note": "Attaches to a noun naming the means, material or cause an event comes about through: 筆で書く, 布で作る, メールで送る, バスで通う, 大きな声で呼ぶ, 風邪で休む. Sibling で entries: place of an action (カフェで勉強する), price or standard (半額で), group as doer (会社で), copula linking form (休みで), te-form joint (呼んで). Cause で takes a noun; a whole clause of reason is carried by the te-form (重くて持てない).",
       "human_verified": false,
       "examples": [
         {
@@ -77,8 +83,8 @@
           "english": "This character comes out better written with a fine brush."
         },
         {
-          "ruby": "大[おお]きな声[こえ]で名前[なまえ]を呼[よ]ばれて驚[おどろ]いた。",
-          "english": "It startled me to hear my name called out so loudly."
+          "ruby": "風邪[かぜ]で三日[みっか]も学校[がっこう]を休[やす]みました。",
+          "english": "A cold kept me out of school for three whole days."
         }
       ]
     }

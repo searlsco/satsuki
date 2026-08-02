@@ -1,24 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "w31",
   "class_name": "感嘆-確認-ネ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "3161",
       "canonical_surface": "ね",
+      "sense_rank": 1,
       "glosses": [
         "…, isn't it?",
-        "…, right?",
-        "…, don't you think?"
+        "…, right?"
       ],
-      "usage_note": "Confirmation-seeking ね hands the proposition to the listener for a nod: a shared observation, a fact being checked, an assertion softened. Rising ね genuinely asks, while falling ね simply invites the listener to feel the same way about something you both perceive. Unlike な, which is turned inward and works with nobody listening, ね presupposes a hearer, and unlike よ it does not deliver news the listener lacks.",
+      "usage_note": "Sentence-final ね asks the listener to share the speaker's judgment, either as a common observation (いい天気ですね) or as a fact being checked (これ、去年のだね). The other ね in this family is not a particle but the classical negative auxiliary's conditional form, seen mostly in 〜ねばならない. Rising ね asks for confirmation and falling ね invites agreement, while よ delivers news the listener lacks.",
       "human_verified": false,
       "examples": [
         {

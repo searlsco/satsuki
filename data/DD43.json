@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "D43",
   "class_name": "判断-断定-ニスギナイ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2321",
       "canonical_surface": "にしかすぎない",
+      "sense_rank": 1,
       "glosses": [
         "is nothing more than …; is merely …",
         "no more than …"
       ],
-      "usage_note": "Downgrades whatever precedes it: the thing is real, but it does not amount to much. The base form is にすぎない, attaching to a noun, a plain-form verb, or a た-form; にしかすぎない doubles the limiting particle for emphasis and is common in speech and journalism, though prescriptivists call the しか redundant. Unlike だけだ, which just counts, this expression carries an evaluative \"and that's all it is,\" so it belongs in argument and commentary rather than plain description.",
+      "usage_note": "Downgrades whatever precedes it: the thing is real, but it does not amount to much (全体の一部にすぎない, 推測にしかすぎない). It attaches to a noun, a plain-form verb, or a た-form, and にしかすぎない doubles the limiting particle for emphasis. Unlike だけだ, which simply counts, it carries an evaluative \"and that's all it is\", so it belongs in argument and commentary rather than plain description.",
       "human_verified": false,
       "examples": [
         {

@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "O31",
   "class_name": "主体-経由-カラ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0273",
       "canonical_surface": "から",
+      "sense_rank": 3,
       "glosses": [
-        "from (the party who acts)",
+        "from (the giver or teller)",
         "on the part of"
       ],
-      "usage_note": "With verbs of giving, telling and receiving, から names the side the action originates from, so 私から説明します presents you as the one taking the initiative. Against に in the same slot (先生に聞いた / 先生から聞いた), から foregrounds the source as an active starting point rather than a mere point of contact, and it is preferred when the source is an institution (学校から通知が届いた).",
+      "usage_note": "Names the party an action comes from: with verbs of giving, telling and receiving, から marks who or what the thing originates with (母から手紙をもらった, 大学から連絡が届いた). Two sibling entries take the other readings: the starting point of a range in time or space (九時から) and the speaker's reason for saying or doing something (寒いから). Against に in the same slot (先生に聞いた / 先生から聞いた), から presents the source as an active starting point.",
       "human_verified": false,
       "examples": [
         {

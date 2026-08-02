@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "F12",
   "class_name": "許可-許可-テケッコウ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1831",
       "canonical_surface": "だってけっこう",
+      "sense_rank": 1,
       "glosses": [
         "it is quite all right to; that will do",
         "you are welcome to"
       ],
-      "usage_note": "結構 grants permission from the position of the one entitled to grant it, so it is natural from staff to customer or from a senior to a junior and can strike a superior as presumptuous; speaking upward, don't grant at all: ask with 〜てもよろしいでしょうか, or, if you must signal that something is acceptable, use 差し支えございません, which cites the absence of an obstacle rather than your own authorization. Note that 結構です standing alone is normally a polite refusal (\"no, thank you\"), a regular source of misunderstanding, whereas inside a 〜ても frame it reliably reads as permission.",
+      "usage_note": "Grants permission: 〜てもけっこうです tells the listener that doing the thing is acceptable (鉛筆でも結構です, 欠席なさっても結構です). 結構 grants from the position of the one entitled to grant it, so it runs from staff to customer or senior to junior; speaking upward, ask 〜てもよろしいでしょうか instead. 結構です standing alone is normally a polite refusal, but inside the 〜ても frame it reads as permission.",
       "human_verified": false,
       "examples": [
         {

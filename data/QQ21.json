@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "Q21",
   "class_name": "並立-代表例-ヤ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0432",
       "canonical_surface": "なり",
+      "sense_rank": 1,
       "glosses": [
-        "… or … , whichever",
-        "either … or …; or something like that"
+        "… or …, whichever you like",
+        "either … or …"
       ],
-      "usage_note": "〜なり〜なり offers the listener a couple of representative options and leaves the choice open, so it is almost always followed by a suggestion, request, permission, or the speaker's own resolve rather than by a statement of past fact. Unlike や and とか, which merely exemplify, なり pushes the hearer to pick one, and か lays out alternatives one of which is actually true or must be settled while なり merely tosses out representative options and tells the hearer any of them (or something like them) is fine. Directed upward it can sound curt, so it is avoided toward superiors. A single なり is common (電話するなりして), and 何なり / なりとも are the same particle.",
+      "usage_note": "Puts up representative options and leaves the pick to the hearer, pairing dictionary-form verbs or plain nouns: 電話するなりメールするなり, 映画なり温泉なり. The sibling entry is the 'as soon as' sense, one dictionary-form verb plus なり reporting what someone did the instant something happened (顔を見るなり泣き出した). It usually leads into a suggestion, request, or permission, and sounds curt toward a superior.",
       "human_verified": false,
       "examples": [
         {
@@ -37,11 +40,12 @@
     {
       "l2_id": "0442",
       "canonical_surface": "や",
+      "sense_rank": 1,
       "glosses": [
         "and (among other things)",
-        "… , … , etc."
+        "and the like"
       ],
-      "usage_note": "や joins nouns only and signals that the items named are just samples of a longer list, so it is the neutral, everyday partner of the exhaustive と. It carries no attitude of its own — no complaint, no exasperation — which is what separates it from だの and やら, and it is at home in writing as well as speech. The listing is often closed off with など (鍵や財布など).",
+      "usage_note": "Joins two or more nouns as representative samples of a longer set: 鍵や財布 means keys, a wallet, and other things besides. A sibling lane is the literary 〜や after a dictionary-form verb, marking one event following instantly on another (見るや). It joins nouns only, and the list is often closed with など; と instead presents the list as complete.",
       "human_verified": false,
       "examples": [
         {
@@ -61,12 +65,12 @@
     {
       "l2_id": "2622",
       "canonical_surface": "とか",
+      "sense_rank": 1,
       "glosses": [
         "things like … and …",
-        "… or … or something",
-        "such as"
+        "such as; … or something"
       ],
-      "usage_note": "とか is the conversational workhorse for citing examples: it attaches far more freely than や — nouns, plain-form verbs, i-adjectives, and past た all take it — and it stays emotionally neutral where だの complains and やら despairs. Because the softening it adds can read as vague or non-committal, it is usually avoided in formal writing, apologies, and business reports. In casual speech it also tags a single item (来週とか暇？), and the wrap-up form 〜とか〜とかする is common. Keep it apart from the sentence-final hearsay とか (会社を辞めるとか。 \"word is he's quitting\"), which is this listing use with 〜と言っていた dropped: listing とか sits inside the sentence and normally repeats, while the hearsay one ends it and appears once.",
+      "usage_note": "Cites representative examples: とか follows each item listed and marks the list as partial (カレーとかパスタとか, 走るとか出かけるとか). The sibling lane is the sentence-final hearsay とか, relaying what you heard without vouching for it (会社を辞めるとか). It attaches more freely than や, taking nouns, plain-form verbs, i-adjectives, and past た, and it is usually avoided in formal writing as too vague.",
       "human_verified": false,
       "examples": [
         {
@@ -86,11 +90,12 @@
     {
       "l2_id": "3121",
       "canonical_surface": "だの",
+      "sense_rank": 2,
       "glosses": [
-        "… and … and (what have you)",
-        "going on about … and … (and I'm sick of it)"
+        "… and … and what have you (listing gripes)",
+        "what with … and …"
       ],
-      "usage_note": "だの lists examples with the speaker's irritation attached: the items are typically gripes, excuses, or a jumble the speaker is fed up with, so it pairs naturally with 文句・不満・うるさい and rarely appears in neutral description. It is spoken, somewhat coarse, and roughly as flexible as とか in attachment (nouns, plain verbs, i-adjectives, た), but the complaining tone is what makes it the wrong choice when you simply want examples. Compare やら, which sounds overwhelmed rather than annoyed.",
+      "usage_note": "だの lists two or more examples with the speaker's irritation attached: the items are usually complaints, excuses, or a jumble the speaker is fed up with (狭いだの暗いだの), rarely a neutral description. The plain past ending た/だ is a different item (読んだ). Spoken, it attaches to nouns, plain verbs, i-adjectives and な-adjectives much as とか does, but とか is the neutral choice.",
       "human_verified": false,
       "examples": [
         {
@@ -110,11 +115,12 @@
     {
       "l2_id": "3131",
       "canonical_surface": "やら",
+      "sense_rank": 1,
       "glosses": [
         "what with … and …",
         "… and … and (it's all too much)"
       ],
-      "usage_note": "〜やら〜やら piles up items to convey that the situation is chaotic, overwhelming, or emotionally mixed, so it is at its best with clashing feelings (嬉しいやら悲しいやら) and with the debris of a busy stretch of life. Where だの points its irritation at someone, やら usually leaves the speaker simply swamped. It is common in speech and also survives in written narration, unlike だの, and although this entry licenses nouns and i-adjectives, natives also attach it to plain-form verbs (泣くやら笑うやら).",
+      "usage_note": "Piles up items to show that the situation is chaotic or the feelings mixed (引っ越しやら手続きやら, 嬉しいやら恥ずかしいやら). だの points its irritation at someone, while やら usually leaves the speaker simply swamped. Beyond the nouns and i-adjectives this entry licenses, plain-form verbs also take it (泣くやら笑うやら), and it appears in written narration as well as speech.",
       "human_verified": false,
       "examples": [
         {

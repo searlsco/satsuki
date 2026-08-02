@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "F11",
   "class_name": "許可-許可-テヨイ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1811",
       "canonical_surface": "だってよい",
+      "sense_rank": 1,
       "glosses": [
         "may; it's all right to",
         "you can go ahead and"
       ],
-      "usage_note": "The default permission form: grants or requests permission, and after a noun (これでいい) concedes that a lesser option is acceptable rather than merely permitted. たって / だって are the colloquial contracted variants, and でも after a noun covers \"even X is fine.\" Compared with てもかまわない it sounds more positively welcoming. It is the neutral, everyday form between equals and downward. Upward, ask rather than grant, and raise the politeness: 〜てもよろしいでしょうか or 〜てもかまいませんか.",
+      "usage_note": "Grants or asks permission (出社してもいいですよ), and after a noun (これでいい) concedes that a lesser option is acceptable rather than merely permitted. Its class siblings are てもかまわない, which voices indifference rather than approval, and ても差し支えない, the formal one. This is the neutral everyday form between equals and downward; upward, ask rather than grant, and raise the politeness: 〜てもよろしいでしょうか.",
       "human_verified": false,
       "examples": [
         {
@@ -37,11 +40,12 @@
     {
       "l2_id": "1821",
       "canonical_surface": "だってかまわない",
+      "sense_rank": 1,
       "glosses": [
         "I don't mind if; it doesn't matter if",
         "may, as far as I'm concerned"
       ],
-      "usage_note": "Literally \"it doesn't bother me,\" so it expresses indifference or tolerance rather than the warm approval of てもいい; granted as permission it can sound faintly grudging, but asked as てもかまいませんか it is the more deferential of the two and the safer form with a superior. The ん / ぬ / ねえ endings in this family are markedly blunt or dialectal; かまいません is the ordinary polite form.",
+      "usage_note": "Says the speaker has no objection: 構わない is \"it doesn't bother me\", so this expresses tolerance or indifference rather than the approval of its sibling てもいい (どこに座ってもかまいません). Asked as てもかまいませんか it is the more deferential of the two and the safer form with a superior, though granted as permission it can sound faintly grudging. The ん / ぬ / ねえ endings in this family are blunt or dialectal.",
       "human_verified": false,
       "examples": [
         {
@@ -61,11 +65,12 @@
     {
       "l2_id": "1841",
       "canonical_surface": "だってさしつかえない",
+      "sense_rank": 1,
       "glosses": [
         "there is no objection to; it is quite all right to",
         "may, without any problem"
       ],
-      "usage_note": "The stiffest member of the group, at home in business correspondence, forms, and administrative announcements. 差し支える means \"to get in the way,\" so the expression rules out a practical obstacle rather than offering encouragement, and it typically appears where a rule, deadline, or procedure is at issue rather than a personal favor. The conditional 差し支えなければ (\"if it's no trouble\") is a very common polite preface; in polite finite position speakers usually say 差し支えありません instead of this ない form.",
+      "usage_note": "Rules out a practical obstacle: 差し支える is \"to get in the way\", so this states that an action causes no problem rather than encouraging it (代理の方が受け取っても差し支えない). It is the formal member of this class, used where a rule, deadline, or procedure is at issue, against everyday てもいい and tolerant てもかまわない. In polite finite position 差し支えありません is more usual than this ない form.",
       "human_verified": false,
       "examples": [
         {

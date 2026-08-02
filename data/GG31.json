@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "G31",
   "class_name": "意志-計画-ツモリ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1851",
       "canonical_surface": "つもり",
+      "sense_rank": 1,
       "glosses": [
         "intend to …",
         "plan to …",
         "mean to …"
       ],
-      "usage_note": "A noun meaning 'intention', so it takes the dictionary form and a copula: 〜つもりだ. It reports a plan already formed and held, which is why it sounds settled next to the on-the-spot 〜(よ)う, and why asking a superior 何をするつもりですか can come out accusatory. The negative 〜ないつもりだ says the plan is not to act; 〜つもりはない denies having any such intention at all.",
+      "usage_note": "States a settled intention: 〜つもりだ reports a plan the speaker has already formed and holds (京都へ引っ越すつもりです). That pre-formed quality is what separates it from the on-the-spot 〜(よ)う, and it is why 何をするつもりですか put to a superior can sound accusatory. つもり is a noun, so it takes the dictionary form plus a copula; 〜ないつもりだ says the plan is not to act, while 〜つもりはない denies having any intention at all.",
       "human_verified": false,
       "examples": [
         {

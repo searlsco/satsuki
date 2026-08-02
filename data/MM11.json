@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "M11",
   "class_name": "不必要-不必要-ナクテヨイ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1701",
       "canonical_surface": "なくたってよい",
+      "sense_rank": 1,
       "glosses": [
         "don't have to …",
         "it's all right not to …",
         "there's no need to …"
       ],
-      "usage_note": "The everyday way to lift an obligation: it builds on the negative stem (行かない → 行かなくてもいい) and also takes adjectives (高くなくてもいい) and the copula (学生でなくてもいい); the siblings in this group are essentially restricted to verbs (には及ばない additionally takes bare nouns: お礼には及びません). Register slides along the realization: なくてもよろしい and なくとも/ずともよい are stiff and written, なくてもいい is neutral, and なくたっていい・ないでいい are casual speech. Compare ことはない and までもない, which argue that an action is pointless or excessive rather than simply granting permission to skip it.",
+      "usage_note": "Lifts an obligation: the negative stem plus てもいい grants permission to skip an action (並ばなくてもいい). It also takes adjectives (高くなくてもいい) and the copula (学生でなくてもいい), where the siblings in this group are essentially restricted to verbs. ことはない and までもない instead argue that the action is pointless or excessive. Register runs from stiff なくともよい through neutral なくてもいい to casual なくたっていい.",
       "human_verified": false,
       "examples": [
         {
@@ -38,12 +41,13 @@
     {
       "l2_id": "1711",
       "canonical_surface": "こたない",
+      "sense_rank": 1,
       "glosses": [
         "there's no need to …",
         "you needn't …",
         "it's not worth …ing"
       ],
-      "usage_note": "Attaches to the dictionary form and talks the listener out of an action they are already inclined to take, so it carries the speaker's judgment and typically shows up as reassurance or consolation (謝ることはない, 落ち込むことはない). It is more subjective and more direct than には及ばない, which softens the same message into a polite decline. こたない (and こたねえ) is the contracted spoken form of ことはない; ことはない is the neutral default, and the variant こともない is a shade softer and more written than ことはない, though it is not a free substitute because it also carries a competing sense (\"nothing so special as to …\").",
+      "usage_note": "Attaches to the dictionary form and tells the listener there is no need for an action they are inclined to take, typically as reassurance or consolation (謝ることはない, 落ち込むことはない). には及ばない makes the same point as a courteous decline, and までもない calls the action excessive for an obvious matter. こたない is the spoken contraction; こともない is softer but also carries a separate sense, 'nothing so special as to …'.",
       "human_verified": false,
       "examples": [
         {
@@ -63,12 +67,13 @@
     {
       "l2_id": "1721",
       "canonical_surface": "までもない",
+      "sense_rank": 1,
       "glosses": [
         "there's no need to go so far as to …",
         "not even worth …ing",
         "hardly necessary to …"
       ],
-      "usage_note": "Attaches to the dictionary form and says the action would be overkill because the matter is obvious, trivial, or already settled — the force is \"it doesn't even rise to the level of …ing,\" not merely \"it isn't required.\" It pairs naturally with わざわざ and with verbs of stating or checking (言う, 聞く, 調べる, 説明する), and it sounds more formal and more written than なくてもいい. Against には及ばない, までもない judges the action itself as excessive relative to a trivial or self-evident matter, while には及ばない declines a courtesy or a worry directed at the speaker; までもない is not used to wave off an offer (お礼には及びません, not ×お礼を言うまでもありません in that social sense). The adverbial までもなく is common at the head of a clause, and までのことはない / までのこともない are heavier equivalents.",
+      "usage_note": "Attaches to the dictionary form and says the action would be excessive because the matter is obvious, trivial, or already settled: 言うまでもない, 地図を見るまでもない. ことはない tells someone there is no need for what they are inclined to do, and には及ばない courteously waves off a concern or an offer. It is more formal than なくてもいい and pairs with わざわざ and with verbs of stating or checking; the adverbial までもなく is common clause-initially.",
       "human_verified": false,
       "examples": [
         {
@@ -88,12 +93,13 @@
     {
       "l2_id": "1731",
       "canonical_surface": "にはおよばない",
+      "sense_rank": 1,
       "glosses": [
         "there's no need to …",
         "no need to go to the trouble of …",
         "please don't trouble yourself"
       ],
-      "usage_note": "Attaches to the dictionary form and, in real use, just as often to a noun (お礼には及びません, ご心配には及びません), which the corpus rule here does not license. It is the courteous, self-effacing member of this group: its home turf is gently waving off someone's concern or offer, so it tends to sound softer and less blunt than ことはない. The polished negatives (には及びません, には及ばず) are the ones to reach for in service or business speech. Note that 及ばない has a separate sense of falling short of something (彼には及ばない = he's out of my league); that is not this pattern.",
+      "usage_note": "Attaches to the dictionary form and courteously declines a trouble, offer, or worry directed at the speaker (慌てるには及びません). ことはない makes the same point more bluntly, and までもない calls the action excessive for a self-evident matter. In real use it also takes bare nouns (お礼には及びません), which the corpus rule does not license. 及ばない separately means falling short of something (彼には及ばない), which is not this pattern.",
       "human_verified": false,
       "examples": [
         {
@@ -113,12 +119,13 @@
     {
       "l2_id": "1741",
       "canonical_surface": "にはおよぶまい",
+      "sense_rank": 1,
       "glosses": [
         "there would be no need to …",
         "surely there is no call to …",
         "it would hardly be necessary to …"
       ],
-      "usage_note": "には及ばない with the literary negative conjecture まい in place of ない, so the judgment is offered as the speaker's inference rather than as fact: \"there would presumably be no need to …\". It belongs to written narration, editorial prose, and the deliberately weighty speech of fiction; in conversation a speaker would say には及ばないだろう instead. Like its parent it attaches to the dictionary form; まい has no past form, and in modern prose it stays plain, while a polite 〜ますまい (には及びますまい) survives only in archaic or deliberately old-fashioned writing.",
+      "usage_note": "には及ばない with the literary negative conjecture まい, so the judgment is offered as inference: there would presumably be no need to do it (真に受けるには及ぶまい). It belongs to written narration and the weighty speech of fiction; conversation uses には及ばないだろう instead. Like its parent it attaches to the dictionary form, and まい has no past form.",
       "human_verified": false,
       "examples": [
         {

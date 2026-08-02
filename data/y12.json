@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "y12",
   "class_name": "否定-強い表現-ダイ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1691",
       "canonical_surface": "にはたりない",
+      "sense_rank": 1,
       "glosses": [
         "not worth …ing",
         "hardly warrants …ing",
         "no need to …"
       ],
-      "usage_note": "A stiff, written dismissal: the action named is not worth the trouble, so the thing is beneath notice. It is the negative of 〜に足る／に足りる ('worthy of') — 足りる the modern ichidan verb, 足る the older godan one, so に足らない reads more classical — and it is heavily idiomatic, clustering around 取る, 驚く, 恐れる and 信頼する rather than being used freely; it also attaches to a bare noun (信頼に足りない, 恐れるに足らぬ相手), though the verb-plus-に shape is by far the commoner one. The は is optional and emphatic (驚くには足りない); note that with a plain noun subject 〜には足りない usually reads as plain insufficiency ('not enough for'), so the 'not worth' sense lives on the verb-plus-に(は)足りない frame.",
+      "usage_note": "Dismisses something as not worth the action named, and so beneath notice: 取り上げるに足りない, 驚くに足りない. It is the negative of 〜に足る／に足りる (\"worthy of\") and is largely idiomatic, clustering around 取る, 驚く, 恐れる and 信頼する. A bare noun is also possible (信頼に足りない), but with an ordinary noun 〜には足りない usually reads as plain insufficiency (\"not enough for\"); the \"not worth\" sense lives on the verb-plus-に(は)足りない frame.",
       "human_verified": false,
       "examples": [
         {
@@ -38,12 +41,12 @@
     {
       "l2_id": "2522",
       "canonical_surface": "だい",
+      "sense_rank": 2,
       "glosses": [
-        "… , my foot!",
-        "some … he is!",
+        "…, my foot!",
         "what's so … about it?"
       ],
-      "usage_note": "Rhetorical (反語) だい: question in form, flat denial in force. It is triggered by 何が or どこが plus the very label the speaker rejects — 何が名医だい means 'he is no great doctor', not a request for information — and the intonation falls instead of rising. Keep it apart from its two homophone siblings: the plain wh-question だい (l2 2521, 誰だい, いつだい) genuinely asks and takes 誰／いつ／どこへ, while the assertive だい (l2 2523, 嘘だい) makes a bare statement with no question word at all. Like them it is だ plus the emphatic 終助詞 い, so it sits on a noun (a verb needs explanatory ん first: 何が面白いんだい), and it is brusque, masculine, mostly fiction dialogue and hot-tempered speech.",
+      "usage_note": "Denial framed as a question: 何が or どこが plus the very label the speaker rejects, so 何が名医だい asserts that he is no great doctor rather than asking anything, and the intonation falls. The sibling senses are the genuine wh-question, which asks for the information (誰だい, どこへ行くんだい), and the flat assertion with no question word (嘘だい). It sits on a noun; a verb needs explanatory ん first (何が面白いんだい).",
       "human_verified": false,
       "examples": [
         {
@@ -63,12 +66,13 @@
     {
       "l2_id": "3191",
       "canonical_surface": "だろうか",
+      "sense_rank": 1,
       "glosses": [
         "I wonder if …",
         "is it really …?",
         "could it be that …?"
       ],
-      "usage_note": "A question aimed as much at oneself as at the listener, so it turns a claim into open musing; でしょうか is its polite twin and doubles as a deferential way to put a question to someone else. Around an obvious answer it works rhetorically and amounts to a flat denial (そんなことがあるだろうか), while 〜ないだろうか adds a hopeful tilt ('might it not be …?'). It attaches straight to plain forms, and after a noun or na-adjective no だ intervenes.",
+      "usage_note": "Puts a claim into open question, aimed as much at oneself as at the listener (この値段で人が集まるだろうか); でしょうか is the polite form and doubles as a deferential way to put a question to someone else. Where the answer is obvious it reads rhetorically and amounts to a denial (そんなことがあるだろうか), while 〜ないだろうか adds a hopeful tilt. It attaches to plain forms, with no だ after a noun or na-adjective.",
       "human_verified": false,
       "examples": [
         {

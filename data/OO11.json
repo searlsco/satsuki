@@ -1,22 +1,25 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "O11",
   "class_name": "主体-般-ガ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0952",
       "canonical_surface": "が",
+      "sense_rank": 1,
       "glosses": [
-        "(marks the grammatical subject)"
+        "marks the grammatical subject"
       ],
-      "usage_note": "が names the subject as new or newsworthy information, so it is what you use when the whole sentence is the news (雨が降ってきた) or when the subject itself is the answer to a question; は instead makes the subject a known topic and puts the news after it. Within its class, が is the default: の substitutes for it only inside a clause modifying a noun, and に, usually as には (colloquially にゃ), marks the experiencer subject of ability and understanding predicates.",
+      "usage_note": "が marks the subject of a clause and presents it as new information rather than a known topic, so it is used when the whole sentence is the news (雨が降ってきた) or when the subject answers a question (私が行きます). Its siblings are the が marking what a stative predicate is about (日本語が分かる) and the clause-linking が meaning but (高いが買った). Inside a noun-modifying clause it may be replaced by の (私が読んだ本 / 私の読んだ本).",
       "human_verified": false,
       "examples": [
         {
@@ -36,11 +39,11 @@
     {
       "l2_id": "1612",
       "canonical_surface": "の",
+      "sense_rank": 2,
       "glosses": [
-        "(marks the subject inside a modifying clause)",
-        "= が inside any noun-modifying or nominalized clause"
+        "marks the subject of a noun-modifying clause"
       ],
-      "usage_note": "This の is が in disguise: it may mark a subject only inside a clause that modifies a noun (父の作った料理 = 父が作った料理), never in a main clause. It ties the clause more tightly to the noun and sounds a touch more literary or set-phrase-like, which is why it survives in fixed expressions such as 目の覚めるような. It is blocked when the modifying clause carries its own を-object, and speakers typically avoid it when the clause is long or already contains another の.",
+      "usage_note": "Marks the subject inside a noun-modifying or nominalized clause, standing where が would otherwise stand: 父の作った料理, 日の暮れるのが早い. Two sibling entries take the other jobs of this の: turning a clause into a noun (走るのが速い) and listing off what someone is fussing about (行くの行かないのと騒ぐ). It is blocked when the modifying clause carries its own を-object, and speakers typically avoid it when the clause is long or already contains another の.",
       "human_verified": false,
       "examples": [
         {
@@ -60,11 +63,12 @@
     {
       "l2_id": "2931",
       "canonical_surface": "にゃ",
+      "sense_rank": 6,
       "glosses": [
-        "for; as far as … is concerned",
-        "(marks the one who can or knows)"
+        "for (someone's capacity)",
+        "as far as … is concerned"
       ],
-      "usage_note": "Colloquial contraction of には marking the person a capacity, judgment or burden rests with: 俺にゃ分からない is 俺には分からない, the experiencer subject that pairs with potential, understanding and 無理/大変-type predicates. Because は is baked in it readily picks up contrast — someone else might manage it — though in many uses it simply sets the person up as the topic. Do not confuse it with the identically pronounced goal-marking にゃ, which points at a destination rather than at the one doing the knowing.",
+      "usage_note": "Marks the person a capacity, judgment or burden rests with, the experiencer subject that pairs with potential forms, 分かる, and 無理/大変-type predicates (俺には分からない, 素人には無理だ). Sibling lanes take the person told something (親に言う), an attitude aimed at someone (子供に優しい), and the source something comes from (親方に教わる). にゃ has は built into it, so it readily reads as contrast: someone else might manage it.",
       "human_verified": false,
       "examples": [
         {

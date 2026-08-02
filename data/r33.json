@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "r33",
   "class_name": "順接-確定-テハ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0623",
       "canonical_surface": "じゃ",
+      "sense_rank": 1,
       "glosses": [
-        "if you (keep) doing …, …",
-        "it won't do to …; you mustn't …"
+        "you mustn't …; it won't do to …",
+        "if you (keep) doing …"
       ],
-      "usage_note": "Spoken contraction of では/ては attaching to a verb in te-form: doing the action, once or repeatedly, is presented as leading to a bad outcome, so it very often lands as a warning to the listener and is frequently closed with だめだ or いけない. じゃ appears wherever the te-form is voiced (む/ぶ/ぬ and ぐ godan verbs: 飲[の]んじゃ, 泳[およ]いじゃ) and ちゃ elsewhere. Unlike 0622, this sense builds on an action someone performs rather than on a state of affairs, and it does not take a bare noun.",
+      "usage_note": "Warns that performing an action, once or repeatedly, leads to a bad result, so it lands as a caution and often closes with だめだ or いけない: 飲んじゃ, やめちゃ. It attaches to a verb in て-form; the voiced て-forms of む, ぶ, ぬ and ぐ verbs give じゃ (飲んじゃ, 泳いじゃ) and the rest give ちゃ. The siblings attach to a noun or an adjective instead: a supposed condition, 六時じゃ, and the present situation taken as grounds, この雨じゃ.",
       "human_verified": false,
       "examples": [
         {

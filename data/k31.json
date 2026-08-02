@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "k31",
   "class_name": "話題-は観点-トシテハ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2901",
       "canonical_surface": "としちゃ",
+      "sense_rank": 1,
       "glosses": [
-        "as for; speaking as",
-        "from my/our standpoint"
+        "speaking as; in one's capacity as",
+        "as for me; from where I stand"
       ],
-      "usage_note": "A clipped, spoken squeeze of としては: it names the capacity or standpoint the following opinion is spoken from, so it pairs naturally with 俺, うち, 親 and other words for who you are in the situation. としちゃ belongs to casual speech and dialogue in fiction; write としては in anything that will be read, and としましては when the listener outranks you. Unlike にしてみると it states your own position rather than asking the listener to imagine someone else's. The same string also has a category-standard reading filed in the ニシテハ class (国産としちゃ高い, 'expensive for a domestic one'), where the noun is the class the subject is being measured in rather than a holder of opinions.",
+      "usage_note": "Names the capacity or standpoint an opinion is spoken from, so the noun is a person or body with a view: 俺としちゃ, 親としちゃ, followed by what they think or want. The sibling lane of the same string measures the subject against the standards of its class (国産としちゃ高い), where the noun names a category rather than someone holding a position. としちゃ is casual, common in speech and in fiction; としては is the neutral written form.",
       "human_verified": false,
       "examples": [
         {
@@ -37,11 +40,12 @@
     {
       "l2_id": "2911",
       "canonical_surface": "にしてみると",
+      "sense_rank": 1,
       "glosses": [
         "from X's point of view",
         "as X sees it; in X's shoes"
       ],
-      "usage_note": "Invites the listener to step inside someone else's position and see why they feel as they do, so the noun in front is typically a person or another creature with feelings, and what follows is typically a judgment or emotion attributed to them rather than a plain fact. It leans sympathetic where にとって is flatly neutral, and it most often takes a third party, because the point is to make the listener imagine a position not their own; 私にしてみれば is possible and asks the listener to take up the speaker's side, where としては simply states it. にしてみれば and にしてみたら are the everyday variants; にしてみちゃ is markedly casual and にしてみますと is the polite one.",
+      "usage_note": "Invites the listener into someone else's position to see why they feel as they do, so the noun in front is a person or another creature with feelings and what follows is typically a judgment or emotion attributed to them: 猫にしてみると掃除機の音は恐怖だ. Class sibling としては simply states the speaker's own standpoint, and にとって is neutral about feeling. It most often takes a third party, though 私にしてみれば is possible.",
       "human_verified": false,
       "examples": [
         {

@@ -1,24 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "m21",
   "class_name": "限定-選択肢なし-イガイ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "3101",
       "canonical_surface": "ほか",
+      "sense_rank": 1,
       "glosses": [
         "besides …",
         "other than …",
         "apart from …"
       ],
-      "usage_note": "As a formal noun it takes a noun through の (この店のほか) and a plain dictionary-form verb directly (そうするほかない); its sibling 以外 clamps straight onto the bare noun instead. The particle after it sets the direction: のほかに／のほかも adds a second item, のほかは with a negative predicate sets everything else aside (この道のほかは知らない), and のほかに with a negative narrows things down to one (彼のほかにいない). ほか leans additive (\"besides\", comfortable with も) and is written in kana rather than 他 in 公用文 and most publishing style; 以外 is the Sino-formal, explicitly exclusionary member (\"except for\").",
+      "usage_note": "A formal noun setting the named thing aside from the rest: it takes a noun through の (この店のほか) and a plain dictionary-form verb directly (そうするほかない). The particle after it sets the direction: のほかに／のほかも adds a second item, のほかは with a negative sets everything else aside, and のほかに with a negative narrows to one (彼のほかにいない). Class sibling 以外 clamps onto the bare noun and is the Sino-formal, exclusionary member.",
       "human_verified": false,
       "examples": [
         {
@@ -38,12 +41,13 @@
     {
       "l2_id": "3111",
       "canonical_surface": "いがい",
+      "sense_rank": 1,
       "glosses": [
         "other than …",
         "except (for) …",
         "besides …"
       ],
-      "usage_note": "Normally written 以外. It attaches directly to a bare noun with no の, and also to a plain dictionary-form verb (謝る以外に方法がない), so it is the workhorse for drawing an exclusion line around a whole action. Both ほか and 以外 take verbs; what separates them is register and force: 以外 is the Sino-formal, explicitly exclusionary member, and it is the default in set-phrase exclusions like それ以外. With a following negative it hardens into \"nothing but\"; with は or に it simply sets everything else aside.",
+      "usage_note": "Draws an exclusion line around a noun or a whole action: everything but the thing named. It attaches directly to a bare noun with no の, and to a plain dictionary-form verb (謝る以外に方法がない). Class sibling ほか needs の before a noun and leans additive ('besides'); 以外 is the Sino-formal, explicitly exclusionary member and the default in set phrases like それ以外. With a following negative it hardens into 'nothing but'.",
       "human_verified": false,
       "examples": [
         {

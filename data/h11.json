@@ -1,24 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "h11",
   "class_name": "割合-割合-ニタイシテ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0082",
       "canonical_surface": "にたいしての",
+      "sense_rank": 2,
       "glosses": [
-        "as against",
-        "in proportion to",
-        "for (a given amount)"
+        "as against (a reference quantity)",
+        "relative to; per"
       ],
-      "usage_note": "In this ratio sense it sets one quantity beside a stated reference quantity so the two can be weighed against each other, and the comment that follows is usually an evaluation (多すぎる, 足りない). Its sibling につき hands out a fixed amount to each unit, whereas に対して compares two totals. Keep it apart from に対して's other lives: the target sense ('toward someone') and contrastive のに対して.",
+      "usage_note": "Sets one quantity beside a stated reference quantity so the two can be weighed, and the comment that follows is usually an evaluation of the balance (収入に対して家賃が高い, 水の量に対して米が多い). Its sibling entry marks the target of an action or feeling (子供に対して, 抗議する), and clause-level contrast uses のに対して (男性が78歳であるのに対して). につき is the usual choice when a fixed rate is charged or allotted per unit (一人につき千円).",
       "human_verified": false,
       "examples": [
         {
@@ -38,11 +40,12 @@
     {
       "l2_id": "0092",
       "canonical_surface": "についての",
+      "sense_rank": 2,
       "glosses": [
         "per; for each",
         "apiece"
       ],
-      "usage_note": "For rates, につき is the realization you will actually meet, attaching to a counted unit and assigning the same amount to every such unit; 〜あたり is the neutral spoken equivalent and shows up on price tags and forms alike. Because に対して weighs two totals against each other, につき is the one to reach for when the figure repeats per head, per dose, or per household. Note that the same string につき also serves as a stiff 'owing to' (本日休業につき), and について ordinarily means 'regarding'.",
+      "usage_note": "States a rate: a counted unit takes について or につき and the same amount goes to every such unit (一人について五百円, 一回につき二錠). The sibling lane of this string names a topic, what is talked or written about (歴史について調べる). につき is the realization normally met in this sense, and the same string is also a stiff 'owing to' in notices and formal letters (本日休業につき).",
       "human_verified": false,
       "examples": [
         {

@@ -1,24 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "t32",
   "class_name": "逆接-想外-クセニ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1061",
       "canonical_surface": "にしちゃ",
+      "sense_rank": 2,
       "glosses": [
-        "surprisingly …, for a …",
-        "even though it's …",
+        "surprisingly …, given that …",
         "contrary to what … would suggest"
       ],
-      "usage_note": "Names an explicit yardstick and then reports a result that clashes with it, so the payload of the sentence is the 'and yet': 新人にしては says the newcomer standard has been overshot, not merely met. That counter-expectation is what puts it beside くせして and わりにゃ here; the same string is filed in the 話題-提示 class when it is only setting the frame the comment is relative to. The standard has to be something nameable, so it hooks straight onto a bare noun where its sibling わりに needs の first, and unlike わりに it is not normally used after a plain i-adjective. にしちゃ is the clipped conversational realization, にしては the everyday one, and にしましては the ます-polite realization heard in formal service speech.",
+      "usage_note": "Takes an action or state stated as a clause for its standard, then reports a result that standard would not predict, so the mismatch is the news: 毎日練習しているにしては上達が遅い. The sibling lane takes the same string when the standard is a category the subject belongs to and the comment rates it inside that category (チワワにしちゃよく食べる). It attaches straight to a plain clause, where わりに needs の after a noun (値段の割に).",
       "human_verified": false,
       "examples": [
         {
@@ -26,24 +28,25 @@
           "english": "For something finished in a single day, I'd say it came out well."
         },
         {
-          "ruby": "あの子[こ]は新人[しんじん]にしては度胸[どきょう]が据[す]わっている。",
-          "english": "For a first-year, that kid is remarkably unflappable."
+          "ruby": "あれだけ道[みち]に迷[まよ]ったにしては、ずいぶん早[はや]く着[つ]いたね。",
+          "english": "For how lost we got, we made it here pretty early."
         },
         {
-          "ruby": "三月[さんがつ]にしちゃ、ずいぶん風[かぜ]が冷[つめ]たいね。",
-          "english": "Pretty biting wind for March, isn't it."
+          "ruby": "毎日[まいにち]練習[れんしゅう]しているにしては、上達[じょうたつ]が遅[おそ]い気[き]がする。",
+          "english": "For someone who practices every day, I feel like they're improving slowly."
         }
       ]
     },
     {
       "l2_id": "1081",
       "canonical_surface": "わりにゃ",
+      "sense_rank": 1,
       "glosses": [
         "considering …",
         "for all the …",
         "more/less … than you'd expect"
       ],
-      "usage_note": "Weighs a result against the degree the first clause would lead you to expect, so it takes gradable material — i-adjectives, past events with a measurable amount, or a noun of scale via の (値段の割に). That i-adjective slot is what separates it from にしては, and unlike くせに it carries no reproach, only a mild 'more/less than you'd think'. Keep it apart from the homophonous adverb 割に / 割と ('fairly, comparatively', as in 割に寒い), which is a separate word; わりにゃ is the clipped spoken realization and 割に the ordinary written one.",
+      "usage_note": "Weighs a result against the degree the first clause sets up, reporting more or less than that degree would predict (狭い割に品揃えが豊富だ, 五キロ走った割に疲れていない). It takes gradable material, i-adjectives included, where にしては wants a nameable standard, and unlike くせに it carries no reproach. A noun of scale attaches through の (値段の割に). The adverb 割に / 割と ('fairly, comparatively') is a separate word.",
       "human_verified": false,
       "examples": [
         {
@@ -63,12 +66,13 @@
     {
       "l2_id": "1091",
       "canonical_surface": "くせして",
+      "sense_rank": 1,
       "glosses": [
         "and yet (of all people) …",
         "for someone who's only …",
         "even though … (said with reproach)"
       ],
-      "usage_note": "The reproachful member of this group: the speaker is criticizing, mocking or looking down on someone whose behavior clashes with what they are. Teaching references state the restriction that both clauses must share a subject, and that subject is normally a person, which is why くせに cannot simply be swapped in for every のに. It attaches to a noun through の (子供のくせに) and to a na-adjective through な; くせして is the blunter, more colloquial realization of くせに and is best avoided about anyone senior to you.",
+      "usage_note": "Marks a reproachful contradiction: the speaker criticizes or mocks someone whose behavior clashes with what they are (子供のくせに大人びた口をきく). Both clauses normally share one subject and that subject is normally a person, which is why くせに cannot replace every のに. It attaches to a noun through の and to a na-adjective through な; くせして is blunter and out of place about anyone senior.",
       "human_verified": false,
       "examples": [
         {

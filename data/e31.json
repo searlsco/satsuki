@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "e31",
   "class_name": "起点-動作起点-ニ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2934",
       "canonical_surface": "にゃ",
+      "sense_rank": 5,
       "glosses": [
         "from (a person or source)",
         "off (someone)"
       ],
-      "usage_note": "Marks the person or organization an action's object originates with, typically alongside verbs of receiving, borrowing, learning, and hearing (もらう、借りる、習う、聞く); with 〜てもらう/〜ていただく and with 教わる an animate source normally takes に, while から becomes obligatory once the source is an organization (会社から連絡をもらう). にゃ is the colloquial contraction of には, so it always carries は's topic/contrastive force on top of marking the source (あいつにゃ貸さない, 'him I'm not lending to'), and it belongs to rough, mostly male speech and manga dialogue rather than written prose; it is unrelated to the にゃ that contracts 〜ねば in 行かにゃならん. Keep this source-marking に apart from the に that marks a destination, which points the opposite way.",
+      "usage_note": "Marks the person or group something comes from, with verbs of receiving, borrowing, learning and hearing (兄貴に助けてもらう, あいつに金を借りる, 親方に教わる). Sibling lanes point the other way or elsewhere: the person told or given something (親に言う), a destination (東京に戻る), an attitude aimed at someone (子供に優しい), and the one who can or knows (俺には無理だ). から replaces に once the source is an organization (会社から連絡をもらう).",
       "human_verified": false,
       "examples": [
         {

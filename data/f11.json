@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "f11",
   "class_name": "範囲-範囲-ニカケテ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0113",
       "canonical_surface": "にかけての",
+      "sense_rank": 1,
       "glosses": [
         "from … through (to)",
-        "over (a span of); through"
+        "over (a span of)"
       ],
-      "usage_note": "Names the far end of an approximate stretch of time or space, almost always with から marking the near end (夕方から夜にかけて). The span is deliberately fuzzy and continuous, which suits weather, seasons, historical periods, and the spread of a sensation; a firm deadline or an exact boundary takes まで (0301) instead. へかけて (0321) is a rarer, more directional variant, and に至るまで (0311) shifts the emphasis onto how far the range surprisingly reaches.",
+      "usage_note": "Marks the far end of an approximate stretch of time or space, usually with から on the near end: 夕方から夜にかけて, 肩から背中にかけて. The sibling entries single out a field of ability (暗記にかけては) and stake something precious on a vow (名誉にかけて). The span is deliberately fuzzy and continuous, which suits weather, seasons, historical periods, and a spreading sensation; an exact cutoff or a deadline takes まで instead.",
       "human_verified": false,
       "examples": [
         {
@@ -37,11 +40,12 @@
     {
       "l2_id": "0301",
       "canonical_surface": "までの",
+      "sense_rank": 2,
       "glosses": [
         "until (something happens)",
-        "up to (the far end of a span)"
+        "leading up to"
       ],
-      "usage_note": "Alone among the まで patterns this one also takes a plain-form verb clause, not just a noun (雨がやむまで待つ), and its citation form までの modifies a following noun to name the whole stretch (駅までの道のり, 出発までの三日間). The boundary is sharp and definite, where sibling にかけて (0113) leaves the far end deliberately fuzzy and wants a から partner, and に至るまで (0311) adds the sense that the range reaches surprisingly far. Keep it apart from the two noun-only siblings as well: 0303 まで marks how far an action itself extends (駅まで歩く), and the limiting まで of 0304 caps an allowance (一人二枚まで).",
+      "usage_note": "Runs a range up to the point where an event occurs, taking a plain-form verb clause as well as a noun, and its までの form modifies a noun to name the whole stretch: 雨がやむまで待つ, 出発までの三日間. Sibling lanes cover the rest: how far an action itself extends over a noun (駅まで歩く), the cap on an allowance (一人二枚まで), and 〜までだ for a fallback plan (やり直すまでだ). The far end here is a definite boundary, where にかけて leaves it vague.",
       "human_verified": false,
       "examples": [
         {
@@ -53,20 +57,21 @@
           "english": "I decided to wait a little under the eaves until the rain let up."
         },
         {
-          "ruby": "順番[じゅんばん]が来[く]るまで待合室[まちあいしつ]で漫画[まんが]を読[よ]んだ。",
-          "english": "I read manga in the waiting room until my turn came."
+          "ruby": "出発[しゅっぱつ]までの三日間[みっかかん]は毎日[まいにち]買[か]い物[もの]に出[で]かけた。",
+          "english": "For the three days leading up to departure I went out shopping every day."
         }
       ]
     },
     {
       "l2_id": "0311",
       "canonical_surface": "にいたるまでの",
+      "sense_rank": 1,
       "glosses": [
         "(all the way) up to",
         "down to (even)",
         "right through to"
       ],
-      "usage_note": "Emphatic まで: it holds up the end point as a striking or exhaustive extreme, so the sentence typically reads 'everything from A right down to B' (衣装から小道具に至るまで), or stresses that a state has persisted all the way to now (現在に至るまで). The register is formal and written; substituting plain まで (0301) keeps the boundary but loses the note of how far the range extends. It is transparently 至る 'to reach' plus まで, and like まで it takes a noun or a plain verb.",
+      "usage_note": "Holds the end point up as a striking or exhaustive extreme: everything from A right down to B (衣装から小道具に至るまで), or a state that has persisted all the way to now (現在に至るまで). The register is formal and written; plain まで keeps the same boundary but loses the sense of how far the range extends. Like まで it takes a noun or a plain-form verb (話すに至るまで).",
       "human_verified": false,
       "examples": [
         {
@@ -86,11 +91,12 @@
     {
       "l2_id": "0321",
       "canonical_surface": "へかけての",
+      "sense_rank": 1,
       "glosses": [
         "from … over toward",
         "through (to); across as far as"
       ],
-      "usage_note": "A directional variant of にかけて (0113): the へ preserves a sense of motion toward the far end, so it fits spans that trace a path or a spread in one direction (中腹から頂上へかけて). It is considerably less frequent than にかけて, which is the unmarked choice in most sentences, so save へかけて for spans that genuinely run from one point toward another. Beware that the same string also turns up literally as へ plus 掛ける or 駆ける, which has nothing to do with this pattern.",
+      "usage_note": "A directional variant of にかけて: the へ keeps a sense of motion toward the far end, so it suits spans that trace a path or spread in one direction (中腹から頂上へかけて, 幕末から明治へかけて). にかけて is much more frequent and is the unmarked choice for most spans. The same string also occurs literally as へ plus 掛ける or 駆ける, which is unrelated to this pattern.",
       "human_verified": false,
       "examples": [
         {

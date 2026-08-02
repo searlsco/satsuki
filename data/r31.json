@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "r31",
   "class_name": "順接-確定-タラ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "0592",
       "canonical_surface": "と",
+      "sense_rank": 4,
       "glosses": [
-        "when I did …, (I found that) …",
+        "when …, (I found that) …",
         "as soon as …, … (and then)"
       ],
-      "usage_note": "The same と used of a condition actually met: a plain non-past clause reports an event that did happen, and the past main clause tells what the speaker then found or what followed on its heels (角を曲がると海が見えた). Because the second event is presented as automatic, the main clause normally cannot be a command, request, invitation, or a statement of the speaker's own intention; use たら or ば for those. Sibling 0591 is the hypothetical and habitual と, a standing rule with a non-past main clause, while だら/たら (0701) frames one concrete occasion and freely allows a request or an intention afterwards.",
+      "usage_note": "Reports a condition actually met: a plain non-past clause names an event that did happen, and the past main clause tells what the speaker then found or what followed on its heels (角を曲がると海が見えた). The sibling と states a hypothetical or habitual rule with a non-past main clause (春が来ると桜が咲く); the particle lanes list nouns (パンと卵) or name a companion (友達と話す). A command, request or intention normally cannot follow it; use たら.",
       "human_verified": false,
       "examples": [
         {
@@ -37,11 +40,12 @@
     {
       "l2_id": "0612",
       "canonical_surface": "とすると",
+      "sense_rank": 1,
       "glosses": [
-        "if that is so, then …",
+        "if that is true, then …",
         "given that …, it follows that …"
       ],
-      "usage_note": "Takes what has just been established or claimed and treats it as fact, with the main clause stating the conclusion the speaker deduces from it: \"if that's really the case, then…\". Next to its siblings it sounds the most objective: としたら is the freest with remote or counterfactual suppositions and with questions and wishes in the main clause, とすれば leans toward the speaker's evaluation. It follows the plain non-past (including the copula だ); the polite form is としますと, and there is no colloquial contraction of this member (とすりゃ belongs to とすれば). Sibling 0611 is the same string used to float a supposition the speaker is only entertaining.",
+      "usage_note": "Takes a premise that has just been established or claimed, treats it as fact, and states the conclusion the speaker draws from it: 彼の話が本当だとすると、計画は来月から変わる. The sibling lane is the same string floating a supposition the speaker is only entertaining and asking what would follow (仮に会場を変えるとすれば). It follows the plain form, past included (彼が犯人だったとすると), with だ after a noun; the polite form is としますと.",
       "human_verified": false,
       "examples": [
         {
@@ -49,8 +53,8 @@
           "english": "If the fever really is thirty-nine degrees, there's nothing for it but to stay home today."
         },
         {
-          "ruby": "今[いま]から出[で]るとすると到着[とうちゃく]は九時[くじ]を過[す]ぎる。",
-          "english": "Assuming we leave now, we won't get there until after nine."
+          "ruby": "彼[かれ]の話[はなし]が本当[ほんとう]だとすると、計画[けいかく]は来月[らいげつ]から変[か]わる。",
+          "english": "If what he says is true, then the plan changes starting next month."
         },
         {
           "ruby": "レシピの砂糖[さとう]が大[おお]さじ三[さん]だとすると、ちょっと甘[あま]すぎる。",
@@ -61,11 +65,12 @@
     {
       "l2_id": "0622",
       "canonical_surface": "じゃ",
+      "sense_rank": 3,
       "glosses": [
-        "with … like this; given that …",
-        "if it's …, then …"
+        "with … like this; as things stand",
+        "seeing as it's …"
       ],
-      "usage_note": "Colloquial contraction of では/ては that takes an existing state of affairs as sufficient grounds for a conclusion, which is almost always an undesirable one: \"things being this way, it's no good.\" It is the branch of ては that attaches to nouns (この雨じゃ) and to i-adjectives in the くて form (こう暑くちゃ) as well as to verbs, and it pairs naturally with こう/この pointing at the present situation. Sibling 0621 supposes a condition instead of pointing at one, and the ては of 0623 targets an action someone performs; because the consequent here is a negative assessment, requests and invitations rarely follow.",
+      "usage_note": "Takes the situation actually in front of the speaker as grounds for a negative conclusion, typically pointing at it with こう or この: この雨じゃ, こう暑くちゃ, 給料がこれじゃ. The sibling senses are a merely supposed condition, 六時じゃ, and a warning about an action someone performs, 飲んじゃ. Because the consequent is an assessment that something will not work out, requests and invitations rarely follow.",
       "human_verified": false,
       "examples": [
         {
@@ -85,11 +90,12 @@
     {
       "l2_id": "0701",
       "canonical_surface": "だら",
+      "sense_rank": 1,
       "glosses": [
         "if; when",
         "once …; after …"
       ],
-      "usage_note": "The all-purpose conditional, formed on the ta-stem (読んだら, 起きたら, 高かったら); だら appears wherever the plain past is voiced: after む/ぶ/ぬ godan verbs (読んだら, 遊[あそ]んだら, 死[し]んだら) and after ぐ godan verbs (泳[およ]いだら). It typically sets up one concrete occasion rather than a standing rule, and unlike と (0592) it freely allows a request, command, invitation, or the speaker's own intention in the main clause. With a past main clause it loses the conditional sense and reports what was found on doing something.",
+      "usage_note": "The all-purpose ta-stem conditional: it sets up one concrete occasion and says what holds once it comes about (駅に着いたら電話して, 高かったらやめる). A sibling entry is the clipped sentence-final たら that suggests a course of action to the listener, 少し休んだら. だら is this same form after verbs whose plain past voices, 読んだら, 泳いだら, and unlike と the main clause may be a request, command, or the speaker's own intention.",
       "human_verified": false,
       "examples": [
         {
@@ -97,8 +103,8 @@
           "english": "Give me a call once you get to the station."
         },
         {
-          "ruby": "明日[あした]早[はや]く起[お]きたら散歩[さんぽ]に行[い]こうと思[おも]う。",
-          "english": "If I manage to get up early tomorrow, I think I'll go for a walk."
+          "ruby": "この本[ほん]を読[よ]んだら妹[いもうと]に貸[か]すつもりだ。",
+          "english": "Once I finish this book, I plan to lend it to my little sister."
         },
         {
           "ruby": "家[いえ]に帰[かえ]ったら玄関[げんかん]の鍵[かぎ]が開[あ]いていた。",
@@ -109,11 +115,12 @@
     {
       "l2_id": "0711",
       "canonical_surface": "でみると",
+      "sense_rank": 1,
       "glosses": [
         "upon (actually) doing …",
         "when you try …, it turns out …"
       ],
-      "usage_note": "Built on てみる \"do something and see,\" so it marks the preceding action as the occasion of a discovery and the main clause reports what came to light; the main clause is therefore usually past tense and usually something the speaker did not expect. で appears wherever the te-form is voiced (む/ぶ/ぬ and ぐ godan verbs: 読んでみると, 泳いでみると) and て elsewhere (調べてみると). てみたら is freely interchangeable here; てみれば is not, since it leans reflective or hypothetical (考えてみれば…) rather than reporting an actual past discovery, and set phrases like 振[ふ]り返[かえ]ってみると and 考えてみると keep みると.",
+      "usage_note": "Marks the preceding action as the occasion of a discovery: the main clause reports what came to light, usually in the past and usually something the speaker did not expect (調べてみると古い手紙が出てきた). で appears wherever the て-form is voiced (読んでみると, 泳いでみると), て elsewhere. てみたら is interchangeable here, but てみれば reads as reflective or hypothetical (考えてみれば), and 振り返ってみると and 考えてみると keep みると.",
       "human_verified": false,
       "examples": [
         {

@@ -1,23 +1,27 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "Q31",
   "class_name": "並立-選択肢-カ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "2472",
       "canonical_surface": "か",
+      "sense_rank": 2,
       "glosses": [
         "or",
-        "either … or …; whether … or …"
+        "either … or …",
+        "whether … or …"
       ],
-      "usage_note": "Coordinating か lays out genuine alternatives from which one is to be settled on, which is why it fits deciding, choosing, and wondering, while や and とか merely sample a set nobody has to choose from. It attaches to nouns, plain-form verbs, i-adjectives, and た, and the final か may be dropped before a particle (お茶かコーヒーを). When the sentence is about not knowing which, the tail often becomes 〜かわからない / 〜か覚えていない. なり likewise offers options, but only as suggestions the hearer may act on; か frames alternatives whose resolution is at issue. It is a different particle from the interrogative か that ends a question: this one sits between the options and needs at least two of them, so a clause-final 'whether' translation here always means 'whether A or B', never a bare yes-no question.",
+      "usage_note": "Joins two or more alternatives one of which is to be settled on (紅茶かコーヒー, 行くか行かないか), so it fits deciding, choosing, and not knowing which one holds. The sibling entry is the sentence-final question marker, which closes a clause and questions the whole proposition (もう終わったか). It attaches to nouns, plain-form verbs, i-adjectives and た, and the last か is often dropped before a particle (お茶かコーヒーを飲む).",
       "human_verified": false,
       "examples": [
         {

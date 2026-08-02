@@ -1,23 +1,26 @@
 {
-  "satsuki_schema": 1,
+  "satsuki_schema": 2,
   "class_code": "D11",
   "class_name": "判断-当為-ナケレバナラナイ類",
   "tsutsuji_version": "1.1u",
   "provenance": {
-    "pipeline": "satsuki v1: author → mechanical attachment gate → cold review → fixes applied → gate re-run",
+    "pipeline": "satsuki v1 (v1.0.1 editorial re-edit: usage-note reshaping corpus-wide, lane discrimination for same-surface families, against prompts/style.md)",
     "authored_by": "claude-opus-5",
     "reviewed_by": "claude-opus-5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "reedited_by": "claude-opus-5",
+    "reedit_date": "2026-08-02"
   },
   "patterns": [
     {
       "l2_id": "1551",
       "canonical_surface": "なけりゃならない",
+      "sense_rank": 1,
       "glosses": [
         "must; have to",
         "be obliged to"
       ],
-      "usage_note": "A double negative literally meaning \"it won't do if you don't\": the verb's negative stem takes a conditional tail — なければ (spoken なけりゃ/なきゃ), the なくては series (spoken なくちゃ), or literary ねば — and then ならない. Compared with its sibling なけりゃいけない, ならない tends to present the obligation as objective — imposed by rules, law, or circumstance rather than by the speaker's own judgment — and is the form conventionally used in statutes and written regulations. なけりゃ/なきゃ/なくちゃ belong to casual speech, なければ to neutral writing, and ねばならない/ねばならぬ sound formal or literary.",
+      "usage_note": "States an obligation as something imposed from outside the speaker: a negative conditional (なければ, なくては, ねば) plus ならない, literally that not doing it will not do (毎日薬を飲まなければならない). Its near-synonym なければいけない presents the same duty as the speaker's judgment about this one case; ならない is the form used for rules, law, and written regulations. なきゃ, なくちゃ, なけりゃ are spoken contractions and ねばならない is literary.",
       "human_verified": false,
       "examples": [
         {
@@ -37,11 +40,12 @@
     {
       "l2_id": "1561",
       "canonical_surface": "なけりゃいけない",
+      "sense_rank": 1,
       "glosses": [
         "must; have to",
         "need to"
       ],
-      "usage_note": "Built on the same negative-conditional frame as なけりゃならない, but いけない adds the speaker's own sense that leaving it undone would be bad, so it typically covers an obligation arising in a particular situation or falling on a particular person, where ならない leans institutional and stiffer. ないと(いけない) is the everyday conversational realization, and なきゃ/なくちゃ/なけりゃ are its more clipped spoken contractions; いけません gives the polite form.",
+      "usage_note": "States an obligation the speaker judges to hold in this particular case or for this particular person: a negative conditional plus いけない, since leaving it undone would be bad (今日中に返事をしないといけない). Its near-synonym なければならない frames the same duty as imposed by rules or law. ないといけない is the ordinary spoken realization, なきゃ, なくちゃ, なけりゃ its contractions, いけません the polite form.",
       "human_verified": false,
       "examples": [
         {
@@ -61,11 +65,12 @@
     {
       "l2_id": "1571",
       "canonical_surface": "なけりゃだめ",
+      "sense_rank": 1,
       "glosses": [
         "have to; it's no good unless …",
         "you'd better"
       ],
-      "usage_note": "だめ stands in for ならない/いけない at the end of the same negative-conditional frame, and the result is squarely spoken: it sounds more personal and blunter than なきゃいけない, and it is common when coaxing or scolding — parents to children, coaches to players. Politeness is carried by だめです/だめですよ rather than by any dedicated polite ending, and 駄目 is the kanji spelling of the same word.",
+      "usage_note": "States an obligation bluntly and personally, with だめ closing the same negative-conditional frame: not doing it is no good (ちゃんと野菜も食べなきゃだめだよ). It belongs to speech and is common in coaxing and scolding, where なきゃいけない is neutral and なければならない institutional. Politeness comes from だめです rather than a dedicated polite ending; 駄目 is the kanji spelling of the same word.",
       "human_verified": false,
       "examples": [
         {
@@ -85,11 +90,12 @@
     {
       "l2_id": "1581",
       "canonical_surface": "べき",
+      "sense_rank": 1,
       "glosses": [
         "should; ought to",
         "be supposed to"
       ],
-      "usage_note": "From classical べし, attaching to the plain form (するべき); すべき is the older form inherited from classical す + べし and is still the norm in formal writing. It states what is right by the speaker's moral or social judgment, so it is at home in opinions, criticism, and editorial writing; for obligations set by rules, schedules, or one's own already-fixed plans, なければならない is the usual choice. ものだ appeals to what everyone knows to be proper, べきだ to a judgment the speaker is willing to argue for. Negation is 〜べきではない, unfulfilled obligation is 〜べきだった, and with nouns and な-adjectives it appears as であるべき rather than attaching directly.",
+      "usage_note": "States what is the right thing to do by the speaker's moral or social judgment, attaching to the plain form (するべき; すべき is the older form from classical す plus べし). なければならない states an obligation already fixed by rules, schedules, or plans, while べきだ states a judgment the speaker is prepared to argue for. Negation is べきではない, unfulfilled obligation べきだった; nouns and な-adjectives take であるべき.",
       "human_verified": false,
       "examples": [
         {
@@ -109,12 +115,13 @@
     {
       "l2_id": "1601",
       "canonical_surface": "なけりゃなるまい",
+      "sense_rank": 1,
       "glosses": [
         "will have to",
         "there's no getting around …ing",
         "one must, I suppose"
       ],
-      "usage_note": "なるまい is ならない recast with the classical negative-conjecture まい, so the speaker reasons his way to an obligation instead of simply asserting it — closer to \"I suppose we'll have to\" than to a flat \"must.\" It sounds formal and old-fashioned, turning up in essays and commentary and, in fiction, in the speech of gruff or elderly men; ねばなるまい is the most frequent realization, while なけりゃ/なきゃなるまい and the なるめえ variants are the rougher spoken ones.",
+      "usage_note": "States an obligation the speaker reasons his way to rather than asserts outright, ならない recast with the classical negative conjecture まい: nearer \"we will have to\" than \"must\" (自分で行かねばなるまい). Plain なければならない simply states the duty. It is formal and old-fashioned, found in essays and commentary and, in fiction, in the speech of older men; ねばなるまい is the most frequent realization.",
       "human_verified": false,
       "examples": [
         {
