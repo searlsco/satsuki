@@ -18,8 +18,11 @@ cd "$REPO"
 [ -f "$GATE_DB" ] || { echo "missing dictionary.sqlite (set GATE_DB)" >&2; exit 1; }
 [ -f "$GATE_DIC" ] || { echo "missing SudachiDict (set GATE_DIC)" >&2; exit 1; }
 
-echo "Validating $(ls data/*.json | wc -l | tr -d ' ') data files..."
-for f in data/*.json; do
+echo "Validating $(ls data/*.json | wc -l | tr -d ' ') data files and the supplement..."
+# GATE_DB must be built from this tree's supplement (NihongoKit's ETL reads
+# it from the assembled export), or the supplement's own patterns can't be
+# found and anything they newly shadow goes unchecked.
+for f in data/*.json supplement/patterns.json; do
   "$GATE" "$f" "$GATE_DB" "$GATE_DIC" > /dev/null 2>&1 \
     || { echo "gate failure in $f:" >&2; "$GATE" "$f" "$GATE_DB" "$GATE_DIC" | grep FAIL >&2; exit 1; }
 done
@@ -33,5 +36,5 @@ git tag "v$VERSION"
 git push origin main "v$VERSION"
 gh release create "v$VERSION" "$ASSET" "$ASSET.sha256" \
   --title "satsuki $VERSION" \
-  --notes "Single-file export of the full corpus: every Tsutsuji abstract pattern with English glosses, usage notes, and 3 gate-validated ruby example sentences (plus derived plain \`text\`). CC BY-SA 4.0; attribute Searls LLC and link this repository. See README for schema."
+  --notes "Single-file export of the full corpus: every Tsutsuji abstract pattern with English glosses, usage notes, and 3 gate-validated ruby example sentences (plus derived plain \`text\`), and the hand-authored supplement of common patterns Tsutsuji lacks. CC BY-SA 4.0; attribute Searls LLC and link this repository. See README for schema."
 echo "Released v$VERSION"

@@ -7,6 +7,10 @@ several senses. Each filing is a lane. The failure this catches is a lane
 whose glosses restate a sibling lane's, which reads as duplicate noise in a
 consumer that shows only surface plus glosses.
 
+The hand-authored supplement (supplement/patterns.json) is linted with the
+class files, since its patterns share surfaces and sense ranks with them,
+and its own shape is checked too.
+
 Usage: script/lint [data/*.json]        (defaults to every data file)
 Exits nonzero if any ERROR is reported.
 """
@@ -42,6 +46,12 @@ SYNONYMS = [
 ]
 
 RUBY = re.compile(r"[一-鿿]+\[[぀-ヿ]+\]")
+SUPPLEMENT = os.path.join(REPO, "supplement", "patterns.json")
+DIFFICULTIES = {"A1", "A2", "B", "C", "F"}  # Tsutsuji's scale, easiest first
+REGISTERS = {"normal", "polite", "colloquial", "stiff"}  # Tsutsuji's styles
+# Tsutsuji connection pairs: two 2-char IDs, adjacent morpheme first.
+CONNECTION = re.compile(r"^[0-9A-Za-z]{4}$")
+
 EDITORIAL = re.compile(
     r"\b(is at home in|leans? toward|reaches? for|learners? should|"
     r"one should note|it is worth noting)\b", re.I)
@@ -87,6 +97,70 @@ def load(paths):
             pattern["_class"] = data["class_code"]
             pattern["_class_name"] = data["class_name"]
             patterns.append(pattern)
+    return patterns
+
+
+def load_supplement(errors):
+    """The supplement's own patterns, shaped like class-file patterns, after
+    checking what only the supplement carries: its ID prefix, Tsutsuji's
+    difficulty and register domains, connection IDs, and surfaces."""
+    if not os.path.exists(SUPPLEMENT):
+        return []
+    data = json.load(open(SUPPLEMENT, encoding="utf-8"))
+    where = os.path.relpath(SUPPLEMENT, REPO)
+    defined = set(data["connections"])
+
+    def check_connection(label, pair):
+        if not CONNECTION.match(pair):
+            errors.append(f"{where} {label}: connection {pair!r} is not two 2-char IDs")
+            return
+        for cid in (pair[:2], pair[2:]):
+            if cid.startswith("s") and cid not in defined:
+                errors.append(f"{where} {label}: connection ID {cid} is not defined")
+
+    for cid, expansion in data["connections"].items():
+        if not cid.startswith("s") or len(cid) != 2:
+            errors.append(f"{where}: supplement connection ID {cid!r} must be s plus one character")
+        for alternative in expansion.split(";"):
+            if "," not in alternative and alternative.startswith("s") \
+                    and alternative not in defined:
+                errors.append(f"{where}: {cid} refers to undefined {alternative}")
+
+    patterns, ids = [], set()
+    for pattern in data["patterns"]:
+        label = f"{pattern['l2_id']} {pattern['canonical_surface']}"
+        if not re.match(r"^S\d{3}$", pattern["l2_id"]) or pattern["l2_id"] in ids:
+            errors.append(f"{where} {label}: l2_id must be a unique S plus three digits")
+        ids.add(pattern["l2_id"])
+        if pattern["difficulty"] not in DIFFICULTIES:
+            errors.append(f"{where} {label}: difficulty {pattern['difficulty']!r}")
+        if pattern["register"] not in REGISTERS:
+            errors.append(f"{where} {label}: register {pattern['register']!r}")
+        if not pattern.get("connection"):
+            errors.append(f"{where} {label}: no connection description")
+        surfaces = [row["surface"] for row in pattern["surfaces"]]
+        if pattern["canonical_surface"] not in surfaces:
+            errors.append(f"{where} {label}: canonical surface is not among its surfaces")
+        if len(surfaces) != len(set(surfaces)):
+            errors.append(f"{where} {label}: repeated surface")
+        for row in pattern["surfaces"]:
+            check_connection(label, row["left_connection"])
+            if row["register"] not in REGISTERS:
+                errors.append(f"{where} {label}: register {row['register']!r}")
+        if len(pattern["examples"]) != 3:
+            errors.append(f"{where} {label}: {len(pattern['examples'])} examples (want 3)")
+        pattern["_file"] = where
+        pattern["_class"] = "supplement"
+        pattern["_class_name"] = pattern["class_name"]
+        patterns.append(pattern)
+
+    for row in data["realizations"]:
+        label = f"realization {row['l2_id']} {row['surface']}"
+        if not re.match(r"^\d{4}$", row["l2_id"]):
+            errors.append(f"{where} {label}: realizations extend Tsutsuji l2 IDs")
+        check_connection(label, row["left_connection"])
+        if row["register"] not in REGISTERS:
+            errors.append(f"{where} {label}: register {row['register']!r}")
     return patterns
 
 
@@ -165,9 +239,12 @@ def check_families(patterns, errors, warnings):
 
 
 def main():
-    paths = sys.argv[1:] or sorted(glob.glob(os.path.join(REPO, "data", "*.json")))
-    patterns = load(paths)
+    explicit = sys.argv[1:]
+    paths = explicit or sorted(glob.glob(os.path.join(REPO, "data", "*.json")))
     errors, warnings = [], []
+    patterns = load(paths)
+    if not explicit:
+        patterns += load_supplement(errors)
     for pattern in patterns:
         check_pattern(pattern, errors, warnings)
     check_families(patterns, errors, warnings)

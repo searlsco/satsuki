@@ -1,0 +1,498 @@
+{
+  "satsuki_supplement_schema": 1,
+  "description": "Hand-authored patterns and realizations that the Tsutsuji dictionary lacks. Nothing here comes from Tsutsuji: the patterns, surfaces, readings, attachment rules, difficulty, register, glosses, notes, and examples are original to satsuki. Attachment rules reuse Tsutsuji's connection-ID vocabulary, plus the few IDs defined under `connections`.",
+  "provenance": {
+    "source": "hand-authored for satsuki; not derived from Tsutsuji",
+    "authored_by": "claude-opus-5.5",
+    "reviewed_by": "claude-sonnet (independent review agents)",
+    "date": "2026-09-28"
+  },
+  "connections": {
+    "s9": "助動詞,*,*,*,*,*,ない",
+    "s0": "2A;2B;s9",
+    "s1": "2A;2B;3A;69;7D;88;89;s9",
+    "s2": "2A;2B;3A;7A;88;89;s9",
+    "s3": "2G;3L;10",
+    "s4": "10;2A;2B;3A;69;88;89;s9"
+  },
+  "patterns": [
+    {
+      "l2_id": "S001",
+      "canonical_surface": "な",
+      "reading": "な",
+      "class_name": "禁止-ナ",
+      "connection": "a dictionary-form verb (触るな; する becomes するな, in fast speech すんな)",
+      "difficulty": "A1",
+      "register": "colloquial",
+      "sense_rank": 2,
+      "glosses": [
+        "don't …!",
+        "no …ing!"
+      ],
+      "usage_note": "Forbids an action bluntly: a dictionary-form verb plus な is a negative command (触るな, 忘れるな), used between close equals, by superiors, and on warning signs. The emotive な after a sentence (きれいだな, 多いな) is a separate entry; only after a plain verb do the two share a form. In fast speech the verb's る often becomes ん (するな → すんな, 来るな → 来んな).",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "な",
+          "reading": "な",
+          "left_connection": "d190",
+          "register": "colloquial"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "危[あぶ]ないから、そのストーブには触[さわ]るな。",
+          "english": "That heater is dangerous, so don't touch it."
+        },
+        {
+          "ruby": "明日[あした]の試合[しあい]、絶対[ぜったい]に遅刻[ちこく]すんなよ。",
+          "english": "Tomorrow's game: don't you dare be late."
+        },
+        {
+          "ruby": "午後[ごご]から雨[あめ]らしいから、傘[かさ]を忘[わす]れるなよ。",
+          "english": "It's supposed to rain this afternoon, so don't forget your umbrella."
+        }
+      ]
+    },
+    {
+      "l2_id": "S002",
+      "canonical_surface": "はしない",
+      "reading": "はしない",
+      "class_name": "否定-強調-ハシナイ",
+      "connection": "a verb's stem (忘れはしない); contracted after the stem as やしない, or fused into it as ゃしない (行きゃしない)",
+      "difficulty": "B",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "won't ever …",
+        "not … at all"
+      ],
+      "usage_note": "Negates a verb emphatically by fronting it with は: the verb's stem plus はしない (忘れはしない) flatly rules the action out, often in defiance or reassurance. Speech contracts it to やしない (来やしない) or fuses the は into the verb as ゃ (行きゃしない, 見つかりゃしない). The polite form is はしません.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "はしない",
+          "reading": "はしない",
+          "left_connection": "dG90",
+          "register": "normal"
+        },
+        {
+          "surface": "やしない",
+          "reading": "やしない",
+          "left_connection": "dG90",
+          "register": "colloquial"
+        },
+        {
+          "surface": "ゃしない",
+          "reading": "ゃしない",
+          "left_connection": "9090",
+          "register": "colloquial"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "あの日[ひ]の約束[やくそく]は、一生[いっしょう]忘[わす]れはしない。",
+          "english": "I'll never forget the promise we made that day."
+        },
+        {
+          "ruby": "こんな雨[あめ]じゃ、誰[だれ]も公園[こうえん]なんか来[き]やしないよ。",
+          "english": "In rain like this, nobody is going to come to the park."
+        },
+        {
+          "ruby": "こんなに散[ち]らかった部屋[へや]じゃ、鍵[かぎ]なんか見[み]つかりゃしない。",
+          "english": "In a room this messy, you'll never find the keys."
+        }
+      ]
+    },
+    {
+      "l2_id": "S003",
+      "canonical_surface": "さ",
+      "reading": "さ",
+      "class_name": "主張-軽い-サ",
+      "connection": "a plain-form sentence; a noun or な-adjective directly, without だ (平気さ)",
+      "difficulty": "A2",
+      "register": "colloquial",
+      "sense_rank": 1,
+      "glosses": [
+        "you know",
+        "…, that's all"
+      ],
+      "usage_note": "Ends a sentence with a light, offhand assertion, presenting the point as obvious or not worth worrying over (次は勝てるさ). A noun or な-adjective takes it directly, without だ (平気さ). It sounds casual and, for many speakers, a little masculine or old-fashioned. Mid-sentence the same particle is a filler (それでさ).",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "さ",
+          "reading": "さ",
+          "left_connection": "s490",
+          "register": "colloquial"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "一回[いっかい]負[ま]けたぐらい、気[き]にしなくていい。次[つぎ]は勝[か]てるさ。",
+          "english": "One loss is nothing to worry about. You'll win next time."
+        },
+        {
+          "ruby": "道[みち]に迷[まよ]っても、地図[ちず]アプリがあるから平気[へいき]さ。",
+          "english": "Even if I get lost, I've got a map app, so I'll be fine."
+        },
+        {
+          "ruby": "父[ちち]の手料理[てりょうり]?見[み]た目[め]はともかく、味[あじ]は悪[わる]くないさ。",
+          "english": "Dad's cooking? Never mind how it looks, it tastes all right."
+        }
+      ]
+    },
+    {
+      "l2_id": "S004",
+      "canonical_surface": "たびに",
+      "reading": "たびに",
+      "class_name": "反復-タビニ",
+      "connection": "a dictionary-form verb (聞くたびに) or a noun plus の (出張のたびに)",
+      "difficulty": "A2",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "every time …",
+        "whenever …"
+      ],
+      "usage_note": "Ties a recurring trigger to what reliably follows it: each time the first thing happens, so does the second (この曲を聞くたびに). It follows a dictionary-form verb or a noun plus の (出張のたびに), and the main clause reports what happens every time, not a single event. It is also written 度に.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "たびに",
+          "reading": "たびに",
+          "left_connection": "d590",
+          "register": "normal"
+        },
+        {
+          "surface": "度に",
+          "reading": "たびに",
+          "left_connection": "d590",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "この曲[きょく]を聞[き]くたびに、高校[こうこう]の文化祭[ぶんかさい]を思[おも]い出[だ]す。",
+          "english": "Every time I hear this song, I think back to our high school festival."
+        },
+        {
+          "ruby": "妹[いもうと]は鏡[かがみ]を見[み]るたびに、前髪[まえがみ]を直[なお]している。",
+          "english": "My little sister fixes her bangs every time she looks in a mirror."
+        },
+        {
+          "ruby": "父[ちち]は出張[しゅっちょう]のたびに、変[へん]なお土産[みやげ]を買[か]ってくる。",
+          "english": "Dad brings home some odd souvenir from every business trip."
+        }
+      ]
+    },
+    {
+      "l2_id": "S005",
+      "canonical_surface": "ことがある",
+      "reading": "ことがある",
+      "class_name": "頻度-コトガアル",
+      "connection": "a dictionary-form verb or a ない form (寝坊することがある, 来ないことがある)",
+      "difficulty": "A2",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "sometimes …",
+        "there are times when …"
+      ],
+      "usage_note": "Says an action or state happens now and then: a dictionary-form or ない-form verb plus ことがある (来ないことがある). After a past form the same words mean 'have done before', which is the separate たことがある entry. こともある adds 'also': it can happen too.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "ことがある",
+          "reading": "ことがある",
+          "left_connection": "s090",
+          "register": "normal"
+        },
+        {
+          "surface": "こともある",
+          "reading": "こともある",
+          "left_connection": "s090",
+          "register": "normal"
+        },
+        {
+          "surface": "ことがあります",
+          "reading": "ことがあります",
+          "left_connection": "s090",
+          "register": "polite"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "弟[おとうと]は、日曜日[にちようび]の朝[あさ]に昼[ひる]まで寝[ね]ていることがある。",
+          "english": "On Sunday mornings my little brother sometimes sleeps until noon."
+        },
+        {
+          "ruby": "このバスは、雪[ゆき]の日[ひ]には来[こ]ないことがある。",
+          "english": "On snowy days this bus sometimes doesn't come."
+        },
+        {
+          "ruby": "忙[いそが]しい時[とき]は、昼[ひる]ご飯[はん]を食[た]べ忘[わす]れることもある。",
+          "english": "When I'm busy, I sometimes even forget to eat lunch."
+        }
+      ]
+    },
+    {
+      "l2_id": "S006",
+      "canonical_surface": "ように",
+      "reading": "ように",
+      "class_name": "目的-ヨウニ",
+      "connection": "a dictionary-form verb or a ない form, usually of a verb that is not under the subject's control (聞こえるように, 忘れないように)",
+      "difficulty": "A1",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "so that …",
+        "in order that …"
+      ],
+      "usage_note": "States the outcome an action aims at: a dictionary-form or ない-form verb plus ように (忘れないように, 後ろまで聞こえるように). The goal is typically a state or ability rather than a deliberate act, where ために is used instead. The same form after a noun plus の means 'like' (鳥のように), which is the entry for よう.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "ように",
+          "reading": "ように",
+          "left_connection": "s090",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "忘[わす]れないように、スマホにメモしておこう。",
+          "english": "I'll jot it down on my phone so I don't forget."
+        },
+        {
+          "ruby": "後[うし]ろの席[せき]まで聞[き]こえるように、先生[せんせい]はマイクを使[つか]った。",
+          "english": "The teacher used a microphone so the back rows could hear."
+        },
+        {
+          "ruby": "毎朝[まいあさ]走[はし]れるように、夜[よる]は早[はや]めに寝[ね]ている。",
+          "english": "I go to bed early so I can run every morning."
+        }
+      ]
+    },
+    {
+      "l2_id": "S007",
+      "canonical_surface": "そうだ",
+      "reading": "そうだ",
+      "class_name": "様態-ソウダ",
+      "connection": "a verb stem or an adjective stem (降りそうだ, おいしそうだ, 心配そうだ)",
+      "difficulty": "A1",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "looks …",
+        "looks like it's about to …"
+      ],
+      "usage_note": "Reports how something looks from the outside: a verb stem or an adjective stem plus そうだ (降りそうだ 'looks like rain', おいしそうだ 'looks tasty'). The hearsay そうだ, which reports what one has heard, takes a full plain form instead (降るそうだ), so the attachment alone tells the two apart. いい and ない become よさそう and なさそう.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "そう",
+          "reading": "そう",
+          "left_connection": "s390",
+          "register": "normal"
+        },
+        {
+          "surface": "そうだ",
+          "reading": "そうだ",
+          "left_connection": "s390",
+          "register": "normal"
+        },
+        {
+          "surface": "そうです",
+          "reading": "そうです",
+          "left_connection": "s390",
+          "register": "polite"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "空[そら]が暗[くら]くなってきた。今[いま]にも雨[あめ]が降[ふ]りそうだ。",
+          "english": "The sky is getting dark. It looks like it could rain any minute."
+        },
+        {
+          "ruby": "このケーキ、すごくおいしそうだね。",
+          "english": "This cake looks really delicious, doesn't it?"
+        },
+        {
+          "ruby": "弟[おとうと]は試験[しけん]の結果[けっか]が心配[しんぱい]そうです。",
+          "english": "My little brother looks worried about his exam results."
+        }
+      ]
+    }
+  ],
+  "realizations": [
+    {
+      "l2_id": "0481",
+      "surface": "ところだ",
+      "reading": "ところだ",
+      "left_connection": "d190",
+      "register": "normal"
+    },
+    {
+      "l2_id": "0481",
+      "surface": "ところです",
+      "reading": "ところです",
+      "left_connection": "d190",
+      "register": "polite"
+    },
+    {
+      "l2_id": "0482",
+      "surface": "ところだ",
+      "reading": "ところだ",
+      "left_connection": "d090",
+      "register": "normal"
+    },
+    {
+      "l2_id": "0482",
+      "surface": "ところです",
+      "reading": "ところです",
+      "left_connection": "d090",
+      "register": "polite"
+    },
+    {
+      "l2_id": "1361",
+      "surface": "ているところだ",
+      "reading": "ているところだ",
+      "left_connection": "d890",
+      "register": "normal"
+    },
+    {
+      "l2_id": "1361",
+      "surface": "ているところです",
+      "reading": "ているところです",
+      "left_connection": "d890",
+      "register": "polite"
+    },
+    {
+      "l2_id": "1361",
+      "surface": "でいるところだ",
+      "reading": "でいるところだ",
+      "left_connection": "d990",
+      "register": "normal"
+    },
+    {
+      "l2_id": "1361",
+      "surface": "でいるところです",
+      "reading": "でいるところです",
+      "left_connection": "d990",
+      "register": "polite"
+    },
+    {
+      "l2_id": "1412",
+      "surface": "たところだ",
+      "reading": "たところだ",
+      "left_connection": "d890",
+      "register": "normal"
+    },
+    {
+      "l2_id": "1412",
+      "surface": "たところです",
+      "reading": "たところです",
+      "left_connection": "d890",
+      "register": "polite"
+    },
+    {
+      "l2_id": "1412",
+      "surface": "だところだ",
+      "reading": "だところだ",
+      "left_connection": "d990",
+      "register": "normal"
+    },
+    {
+      "l2_id": "1412",
+      "surface": "だところです",
+      "reading": "だところです",
+      "left_connection": "d990",
+      "register": "polite"
+    },
+    {
+      "l2_id": "1581",
+      "surface": "べきだ",
+      "reading": "べきだ",
+      "left_connection": "d190",
+      "register": "normal"
+    },
+    {
+      "l2_id": "1581",
+      "surface": "べきです",
+      "reading": "べきです",
+      "left_connection": "d190",
+      "register": "polite"
+    },
+    {
+      "l2_id": "1621",
+      "surface": "わけだ",
+      "reading": "わけだ",
+      "left_connection": "s190",
+      "register": "normal"
+    },
+    {
+      "l2_id": "1621",
+      "surface": "わけです",
+      "reading": "わけです",
+      "left_connection": "s190",
+      "register": "polite"
+    },
+    {
+      "l2_id": "1631",
+      "surface": "はずだ",
+      "reading": "はずだ",
+      "left_connection": "s190",
+      "register": "normal"
+    },
+    {
+      "l2_id": "1631",
+      "surface": "はずです",
+      "reading": "はずです",
+      "left_connection": "s190",
+      "register": "polite"
+    },
+    {
+      "l2_id": "1851",
+      "surface": "つもりだ",
+      "reading": "つもりだ",
+      "left_connection": "s090",
+      "register": "normal"
+    },
+    {
+      "l2_id": "1851",
+      "surface": "つもりです",
+      "reading": "つもりです",
+      "left_connection": "s090",
+      "register": "polite"
+    },
+    {
+      "l2_id": "2221",
+      "surface": "をください",
+      "reading": "をください",
+      "left_connection": "1090",
+      "register": "polite"
+    },
+    {
+      "l2_id": "3242",
+      "surface": "ように",
+      "reading": "ように",
+      "left_connection": "d490",
+      "register": "normal"
+    },
+    {
+      "l2_id": "3361",
+      "surface": "そうだ",
+      "reading": "そうだ",
+      "left_connection": "s290",
+      "register": "normal"
+    },
+    {
+      "l2_id": "3361",
+      "surface": "そうです",
+      "reading": "そうです",
+      "left_connection": "s290",
+      "register": "polite"
+    }
+  ]
+}

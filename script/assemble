@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """Assemble the single-file release export: dist/satsuki-<version>.json.
 
-Bundles every data/ class file under one self-describing header and adds a
-derived `text` field per example (the ruby-stripped sentence) so consumers
-don't need a ruby parser. Usage: script/assemble <version>
+Bundles every data/ class file under one self-describing header, with the
+hand-authored supplement (supplement/patterns.json) beside them under
+`supplement`, and adds a derived `text` field per example (the ruby-stripped
+sentence) so consumers don't need a ruby parser.
+Usage: script/assemble <version>
 """
 import glob
 import json
@@ -49,6 +51,10 @@ def main():
             for example in pattern["examples"]:
                 example["text"] = strip_ruby(example["ruby"])
         classes.append(cls)
+    supplement = json.load(open(f"{REPO}/supplement/patterns.json"))
+    for pattern in supplement["patterns"]:
+        for example in pattern["examples"]:
+            example["text"] = strip_ruby(example["ruby"])
     export = {
         "name": "satsuki",
         "version": version,
@@ -68,6 +74,9 @@ def main():
         },
         "generated": date.today().isoformat(),
         "classes": classes,
+        # Additive to schema 2: patterns and realizations Tsutsuji lacks,
+        # authored for satsuki rather than taken from Tsutsuji.
+        "supplement": supplement,
     }
     os.makedirs(f"{REPO}/dist", exist_ok=True)
     out_path = f"{REPO}/dist/satsuki-{version}.json"
@@ -77,7 +86,9 @@ def main():
     patterns = sum(len(c["patterns"]) for c in classes)
     examples = sum(len(p["examples"]) for c in classes for p in c["patterns"])
     print(f"{out_path}: {len(classes)} classes, {patterns} patterns,"
-          f" {examples} examples, {os.path.getsize(out_path) / 1e6:.1f} MB")
+          f" {examples} examples, {len(supplement['patterns'])} supplement"
+          f" patterns, {len(supplement['realizations'])} supplement"
+          f" realizations, {os.path.getsize(out_path) / 1e6:.1f} MB")
 
 
 if __name__ == "__main__":
