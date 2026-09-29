@@ -5,8 +5,24 @@
     "source": "original supplement for satsuki; Tsutsuji identifiers and connection vocabulary reused where stated",
     "authored_by": "claude-opus-5.5 (preserved draft attribution)",
     "revised_by": "gpt-6-astra (Codex)",
-    "review_status": "pending independent review",
-    "date": "2026-09-28"
+    "review_status": "independent model review complete; not human verified",
+    "date": "2026-09-28",
+    "reviewed_by": [
+      {
+        "model": "gpt-6-astra",
+        "client": "Codex",
+        "reasoning_effort": "low",
+        "role": "Japanese semantics and examples",
+        "session": "01a0eb1e-dd17-75f3-a4f7-e9674fca1ecc"
+      },
+      {
+        "model": "gpt-6-astra",
+        "client": "Codex",
+        "reasoning_effort": "low",
+        "role": "architecture and export compatibility",
+        "session": "01a0eb1e-dd17-7f53-8cb4-31a0b4bfec6a"
+      }
+    ]
   },
   "connections": {
     "s9": "助動詞,*,*,*,*,*,ない",
