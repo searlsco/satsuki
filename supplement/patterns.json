@@ -1,10 +1,11 @@
 {
   "satsuki_supplement_schema": 1,
-  "description": "Hand-authored patterns and realizations that the Tsutsuji dictionary lacks. Nothing here comes from Tsutsuji: the patterns, surfaces, readings, attachment rules, difficulty, register, glosses, notes, and examples are original to satsuki. Attachment rules reuse Tsutsuji's connection-ID vocabulary, plus the few IDs defined under `connections`.",
+  "description": "Original supplemental senses and additional surface realizations, kept separate from the unchanged Tsutsuji inventory. New senses use S-prefixed IDs. Realizations reuse existing Tsutsuji sense IDs; attachment rules reuse its connection-ID vocabulary and the additional IDs defined under connections.",
   "provenance": {
-    "source": "hand-authored for satsuki; not derived from Tsutsuji",
-    "authored_by": "claude-opus-5.5",
-    "reviewed_by": "claude-sonnet (independent review agents)",
+    "source": "original supplement for satsuki; Tsutsuji identifiers and connection vocabulary reused where stated",
+    "authored_by": "claude-opus-5.5 (preserved draft attribution)",
+    "revised_by": "gpt-6-astra (Codex)",
+    "review_status": "pending independent review",
     "date": "2026-09-28"
   },
   "connections": {

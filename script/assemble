@@ -46,12 +46,14 @@ def main():
     version = sys.argv[1]
     classes = []
     for path in sorted(glob.glob(f"{REPO}/data/*.json")):
-        cls = json.load(open(path))
+        with open(path, encoding="utf-8") as source:
+            cls = json.load(source)
         for pattern in cls["patterns"]:
             for example in pattern["examples"]:
                 example["text"] = strip_ruby(example["ruby"])
         classes.append(cls)
-    supplement = json.load(open(f"{REPO}/supplement/patterns.json"))
+    with open(f"{REPO}/supplement/patterns.json", encoding="utf-8") as source:
+        supplement = json.load(source)
     for pattern in supplement["patterns"]:
         for example in pattern["examples"]:
             example["text"] = strip_ruby(example["ruby"])

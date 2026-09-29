@@ -60,6 +60,30 @@ order, each with its own `human_verified` flag:
 
 ## How this corpus is made
 
+### Curated supplement
+
+`supplement/patterns.json` adds common expressions absent from Tsutsuji.
+It ships as the additive `supplement` member of the schema-2 export, with
+its own `satsuki_supplement_schema: 1`. Existing `classes` are unchanged.
+Consumers may ignore the supplement until they support it.
+
+The seven new senses have stable `S001` through `S007` IDs, a canonical
+surface, reading, attachment description, difficulty, register, glosses,
+usage note, ranked sense, and three original examples. Each `surfaces`
+entry carries the realized form and a Tsutsuji-style left connection pair.
+`connections` defines extra two-character IDs beginning with `s`; these
+reuse Tsutsuji's feature vocabulary. Supplement difficulty is an editorial
+estimate on Tsutsuji's scale, not an official JLPT classification.
+
+The 24 `realizations` add missing full forms to existing Tsutsuji senses,
+such as はずだ beside はず. They reuse the original sense's meaning and
+examples without replacing its rows. てください already exists in
+Tsutsuji, so it is not duplicated. Ingesters must assign S-prefixed row IDs
+to these realizations too, while retaining their existing `l2_id` link.
+See [supplement/README.md](supplement/README.md) for scope and verification
+sources. The supplement has separate provenance and remains subject to
+the same review and mechanical example gates as the original corpus.
+
 Content is authored and reviewed by frontier language models in a pipeline
 designed for scrutiny rather than trust; see
 [docs/METHODOLOGY.md](docs/METHODOLOGY.md). The prompts are versioned in

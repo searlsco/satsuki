@@ -91,7 +91,8 @@ def normalize_surface(surface):
 def load(paths):
     patterns = []
     for path in paths:
-        data = json.load(open(path, encoding="utf-8"))
+        with open(path, encoding="utf-8") as source:
+            data = json.load(source)
         for pattern in data["patterns"]:
             pattern["_file"] = os.path.relpath(path, REPO)
             pattern["_class"] = data["class_code"]
@@ -100,15 +101,17 @@ def load(paths):
     return patterns
 
 
-def load_supplement(errors):
+def load_supplement(errors, class_patterns):
     """The supplement's own patterns, shaped like class-file patterns, after
     checking what only the supplement carries: its ID prefix, Tsutsuji's
     difficulty and register domains, connection IDs, and surfaces."""
-    if not os.path.exists(SUPPLEMENT):
-        return []
-    data = json.load(open(SUPPLEMENT, encoding="utf-8"))
+    with open(SUPPLEMENT, encoding="utf-8") as source:
+        data = json.load(source)
     where = os.path.relpath(SUPPLEMENT, REPO)
     defined = set(data["connections"])
+    known_l2s = {pattern["l2_id"] for pattern in class_patterns}
+    if data.get("satsuki_supplement_schema") != 1:
+        errors.append(f"{where}: unsupported supplement schema")
 
     def check_connection(label, pair):
         if not CONNECTION.match(pair):
@@ -154,10 +157,15 @@ def load_supplement(errors):
         pattern["_class_name"] = pattern["class_name"]
         patterns.append(pattern)
 
+    realizations = set()
     for row in data["realizations"]:
         label = f"realization {row['l2_id']} {row['surface']}"
-        if not re.match(r"^\d{4}$", row["l2_id"]):
-            errors.append(f"{where} {label}: realizations extend Tsutsuji l2 IDs")
+        if row["l2_id"] not in known_l2s:
+            errors.append(f"{where} {label}: unknown Tsutsuji l2 ID")
+        key = (row["l2_id"], row["surface"])
+        if key in realizations:
+            errors.append(f"{where} {label}: repeated realization")
+        realizations.add(key)
         check_connection(label, row["left_connection"])
         if row["register"] not in REGISTERS:
             errors.append(f"{where} {label}: register {row['register']!r}")
@@ -244,7 +252,7 @@ def main():
     errors, warnings = [], []
     patterns = load(paths)
     if not explicit:
-        patterns += load_supplement(errors)
+        patterns += load_supplement(errors, patterns)
     for pattern in patterns:
         check_pattern(pattern, errors, warnings)
     check_families(patterns, errors, warnings)

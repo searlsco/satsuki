@@ -20,3 +20,11 @@ from the Tsutsuji Japanese functional expression dictionary:
 The glosses, usage notes, and example sentences in `data/` are original to
 this corpus; Tsutsuji itself deliberately contains no meanings, English, or
 examples.
+
+## Curated supplement
+
+The new senses, added surface realizations, glosses, notes, and examples in
+`supplement/` are original to satsuki and carry the same CC BY-SA 4.0
+license. They are not Tsutsuji-authored entries. Their links to existing
+senses and their attachment vocabulary reuse Tsutsuji identifiers and
+feature definitions; the upstream attribution above still applies.
