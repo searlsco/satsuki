@@ -89,7 +89,8 @@ class SupplementTests(unittest.TestCase):
                     self.assertEqual(example.pop("text"), assemble.strip_ruby(example["ruby"]))
         originals = [json.loads(path.read_text()) for path in sorted((ROOT / "data").glob("*.json"))]
         self.assertEqual(export["classes"], originals)
-        self.assertEqual(len(export["supplement"]["patterns"]), 7)
+        self.assertEqual(len(export["supplement"]["patterns"]),
+                         len(self.supplement["patterns"]))
         self.assertEqual(export["supplement"]["patterns"][0]["examples"][1]["text"],
                          "明日の試合、絶対に遅刻すんなよ。")
 

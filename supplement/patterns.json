@@ -4,9 +4,9 @@
   "provenance": {
     "source": "original supplement for satsuki; Tsutsuji identifiers and connection vocabulary reused where stated",
     "authored_by": "claude-opus-5.5 (preserved draft attribution)",
-    "revised_by": "gpt-6-astra (Codex)",
-    "review_status": "independent model review complete; not human verified",
-    "date": "2026-09-28",
+    "revised_by": "gpt-6 (Codex)",
+    "review_status": "Learner inventory expanded with original model-authored drafts; additions are not human verified or runtime-gated.",
+    "date": "2026-10-14",
     "reviewed_by": [
       {
         "model": "gpt-6-astra",
@@ -22,6 +22,20 @@
         "role": "architecture and export compatibility",
         "session": "01a0eb1e-dd17-7f53-8cb4-31a0b4bfec6a"
       }
+    ],
+    "revisions": [
+      {
+        "authored_by": "gpt-6 (Codex)",
+        "date": "2026-10-14",
+        "scope": "Appended S008-S097 for core conjugation, particles, and contemporary learner constructions; preserved existing IDs and both export schemas.",
+        "review_status": "Independent editorial review of initial draft additions found and corrected causative attachment rules, polite register, and optional copula attachment. Mechanical lint and export tests do not constitute runtime or human verification.",
+        "sources_surveyed": [
+          "https://bunpro.jp/grammar_points",
+          "https://nihongokyoshi-net.com/jlpt-grammars/",
+          "https://bookclub2.japantimes.co.jp/download/files/genki3/genki-3rd_syllabus_E.pdf",
+          "https://tobiraweb.9640.jp/wp-content/uploads/TOBIRA1-Intermediate_Grammar-index-JE.pdf"
+        ]
+      }
     ]
   },
   "connections": {
@@ -30,7 +44,19 @@
     "s1": "2A;2B;3A;69;7D;88;89;s9",
     "s2": "2A;2B;3A;7A;88;89;s9",
     "s3": "2G;3L;10",
-    "s4": "10;2A;2B;3A;69;88;89;s9"
+    "s4": "10;2A;2B;3A;69;88;89;s9",
+    "s6": "動詞,*,*,*,一段,未然形,*;動詞,*,*,*,一段・クレル,未然形,*;動詞,*,*,*,カ変・クル,未然形,*;動詞,*,*,*,カ変・来ル,未然形,*",
+    "s7": "動詞,*,*,*,五段・ワ行促音便,未然形,*;動詞,*,*,*,五段・カ行イ音便,未然形,*;動詞,*,*,*,五段・ガ行,未然形,*;動詞,*,*,*,五段・サ行,未然形,*;動詞,*,*,*,五段・タ行,未然形,*;動詞,*,*,*,五段・ナ行,未然形,*;動詞,*,*,*,五段・バ行,未然形,*;動詞,*,*,*,五段・マ行,未然形,*;動詞,*,*,*,五段・ラ行,未然形,*;動詞,*,*,*,サ変・スル,未然レル接続,*",
+    "s8": "動詞,*,*,*,五段・ワ行促音便,未然形,*;動詞,*,*,*,五段・カ行イ音便,未然形,*;動詞,*,*,*,五段・ガ行,未然形,*;動詞,*,*,*,五段・タ行,未然形,*;動詞,*,*,*,五段・ナ行,未然形,*;動詞,*,*,*,五段・バ行,未然形,*;動詞,*,*,*,五段・マ行,未然形,*;動詞,*,*,*,五段・ラ行,未然形,*",
+    "sT": "3L;名詞,形容動詞語幹,*,*,*,*,*",
+    "sA": "10;2A;2B;3A;7A;88;89;s9",
+    "sB": "2A;2B;3A;7D",
+    "sH": "10;2A;2B;s9",
+    "sI": "2A;2B;69;s9",
+    "sN": "2A;2B;69;s9",
+    "sU": "10;2A;2B;3A;s9",
+    "sC": "10;2G;2g;3L",
+    "sJ": "10;2G;3L"
   },
   "patterns": [
     {
@@ -338,6 +364,4251 @@
         {
           "ruby": "弟[おとうと]は試験[しけん]の結果[けっか]が心配[しんぱい]そうです。",
           "english": "My little brother looks worried about his exam results."
+        }
+      ]
+    },
+    {
+      "l2_id": "S008",
+      "canonical_surface": "られる",
+      "reading": "られる",
+      "class_name": "受身-ラレル",
+      "connection": "an ichidan or 来る irrealis base + られる; a godan irrealis base + れる; する becomes される",
+      "difficulty": "A1",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "be …ed",
+        "have … done to one"
+      ],
+      "usage_note": "Presents an event from the perspective of whoever receives or is affected by it. The agent normally takes に, with によって common in factual descriptions of works and discoveries. Indirect passives can express inconvenience. This is distinct from the ability and respectful uses of られる, which have the same ending.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "られる",
+          "reading": "られる",
+          "left_connection": "s690",
+          "register": "normal"
+        },
+        {
+          "surface": "れる",
+          "reading": "れる",
+          "left_connection": "s790",
+          "register": "normal"
+        },
+        {
+          "surface": "られた",
+          "reading": "られた",
+          "left_connection": "s690",
+          "register": "normal"
+        },
+        {
+          "surface": "られました",
+          "reading": "られました",
+          "left_connection": "s690",
+          "register": "normal"
+        },
+        {
+          "surface": "れた",
+          "reading": "れた",
+          "left_connection": "s790",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "弟[おとうと]に最後[さいご]のプリンを食[た]べられた。",
+          "english": "My little brother ate the last pudding, to my annoyance."
+        },
+        {
+          "ruby": "この橋[はし]は百年前[ひゃくねんまえ]に建[た]てられました。",
+          "english": "This bridge was built a hundred years ago."
+        },
+        {
+          "ruby": "駅[えき]で知[し]らない人[ひと]に名前[なまえ]を聞[き]かれた。",
+          "english": "A stranger asked my name at the station."
+        }
+      ]
+    },
+    {
+      "l2_id": "S009",
+      "canonical_surface": "させる",
+      "reading": "させる",
+      "class_name": "使役-サセル",
+      "connection": "an ichidan or 来る irrealis base + させる; a godan irrealis base + せる; する becomes させる",
+      "difficulty": "A1",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "make someone …",
+        "let someone …"
+      ],
+      "usage_note": "Makes or lets someone perform an action. Permission and compulsion share the form; context decides which is intended. With an intransitive verb the performer can take を or に, whereas a transitive verb generally uses に when its direct object already takes を. The causative verb itself conjugates as an ichidan verb.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "させる",
+          "reading": "させる",
+          "left_connection": "s690",
+          "register": "normal"
+        },
+        {
+          "surface": "せる",
+          "reading": "せる",
+          "left_connection": "s790",
+          "register": "normal"
+        },
+        {
+          "surface": "せた",
+          "reading": "せた",
+          "left_connection": "s790",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "先生[せんせい]は学生[がくせい]に短[みじか]い作文[さくぶん]を書[か]かせた。",
+          "english": "The teacher had the students write a short composition."
+        },
+        {
+          "ruby": "母[はは]は子[こ]どもを庭[にわ]で遊[あそ]ばせた。",
+          "english": "The mother let the children play in the garden."
+        },
+        {
+          "ruby": "担当者[たんとうしゃ]は客[きゃく]を十分[じゅっぷん]も待[ま]たせた。",
+          "english": "The staff member kept the customer waiting for ten minutes."
+        }
+      ]
+    },
+    {
+      "l2_id": "S010",
+      "canonical_surface": "させられる",
+      "reading": "させられる",
+      "class_name": "使役受身-サセラレル",
+      "connection": "an ichidan or 来る irrealis base + させられる; godan irrealis + せられる or contracted される; する becomes させられる",
+      "difficulty": "A1",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "be made to …",
+        "be forced to …"
+      ],
+      "usage_note": "Describes being made to do something by another person, often against one's preference. The person imposing the action takes に. Many godan verbs shorten せられる to される (待たされる), but verbs ending in す retain the longer form (話させられる). The uncontracted form works across the verb classes.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "させられる",
+          "reading": "させられる",
+          "left_connection": "s690",
+          "register": "normal"
+        },
+        {
+          "surface": "せられる",
+          "reading": "せられる",
+          "left_connection": "s790",
+          "register": "normal"
+        },
+        {
+          "surface": "される",
+          "reading": "される",
+          "left_connection": "s890",
+          "register": "normal"
+        },
+        {
+          "surface": "されました",
+          "reading": "されました",
+          "left_connection": "s890",
+          "register": "normal"
+        },
+        {
+          "surface": "されて",
+          "reading": "されて",
+          "left_connection": "s890",
+          "register": "normal"
+        },
+        {
+          "surface": "せられた",
+          "reading": "せられた",
+          "left_connection": "s790",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "子[こ]どものころ、毎朝[まいあさ]牛乳[ぎゅうにゅう]を飲[の]まされました。",
+          "english": "As a child, I was made to drink milk every morning."
+        },
+        {
+          "ruby": "会議[かいぎ]で急[きゅう]に意見[いけん]を言[い]わされて困[こま]った。",
+          "english": "I was put on the spot when I was made to give my opinion at the meeting."
+        },
+        {
+          "ruby": "新人[しんじん]は同[おな]じ作業[さぎょう]を何度[なんど]も繰[く]り返[かえ]させられた。",
+          "english": "The new employee was made to repeat the same task over and over."
+        }
+      ]
+    },
+    {
+      "l2_id": "S011",
+      "canonical_surface": "ます",
+      "reading": "ます",
+      "class_name": "丁寧-マス",
+      "connection": "a verb continuative stem",
+      "difficulty": "A1",
+      "register": "polite",
+      "sense_rank": 1,
+      "glosses": [
+        "do … (politely)"
+      ],
+      "usage_note": "Makes a verb polite toward the listener without making the subject honorific. The present ending is ます, the negative ません, the past ました, and the negative past ませんでした. This politeness can accompany other grammar such as a passive or a potential.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "ます",
+          "reading": "ます",
+          "left_connection": "dG90",
+          "register": "polite"
+        },
+        {
+          "surface": "ません",
+          "reading": "ません",
+          "left_connection": "dG90",
+          "register": "polite"
+        },
+        {
+          "surface": "ました",
+          "reading": "ました",
+          "left_connection": "dG90",
+          "register": "polite"
+        },
+        {
+          "surface": "ませんでした",
+          "reading": "ませんでした",
+          "left_connection": "dG90",
+          "register": "polite"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "毎朝[まいあさ]六時[ろくじ]に起[お]きます。",
+          "english": "I get up at six every morning."
+        },
+        {
+          "ruby": "今日[きょう]は肉[にく]を食[た]べません。",
+          "english": "I am not eating meat today."
+        },
+        {
+          "ruby": "昨日[きのう]は図書館[としょかん]で勉強[べんきょう]しました。",
+          "english": "I studied at the library yesterday."
+        }
+      ]
+    },
+    {
+      "l2_id": "S012",
+      "canonical_surface": "がある",
+      "reading": "がある",
+      "class_name": "存在-無生物-ガアル",
+      "connection": "a noun naming a thing, event, or abstract resource",
+      "difficulty": "A1",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "there is …",
+        "have …"
+      ],
+      "usage_note": "States that a thing, event, or resource exists or is available. The thing typically takes が and its location に; a known topic can instead take は. Animate beings normally use いる. ある also describes possessing a resource, such as time or money, rather than a separate transfer of ownership.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "がある",
+          "reading": "がある",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "があります",
+          "reading": "があります",
+          "left_connection": "1090",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "駅前[えきまえ]に小[ちい]さな本屋[ほんや]がある。",
+          "english": "There is a small bookshop in front of the station."
+        },
+        {
+          "ruby": "明日[あした]の午後[ごご]、会議[かいぎ]があります。",
+          "english": "There is a meeting tomorrow afternoon."
+        },
+        {
+          "ruby": "まだ時間[じかん]があるから、少[すこ]し休[やす]もう。",
+          "english": "We still have time, so let us rest a little."
+        }
+      ]
+    },
+    {
+      "l2_id": "S013",
+      "canonical_surface": "がいる",
+      "reading": "がいる",
+      "class_name": "存在-生物-ガイル",
+      "connection": "a noun naming a person or animal",
+      "difficulty": "A1",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "someone is there",
+        "there is a living being"
+      ],
+      "usage_note": "States the presence of a person or animal. The being takes が and the location に; は can mark a known topic. It also introduces family members or pets one has. This standalone いる is distinct from the auxiliary いる after a verb's て-form.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "がいる",
+          "reading": "がいる",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "がいます",
+          "reading": "がいます",
+          "left_connection": "1090",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "庭[にわ]に白[しろ]い猫[ねこ]がいる。",
+          "english": "There is a white cat in the garden."
+        },
+        {
+          "ruby": "受付[うけつけ]に係[かかり]の人[ひと]がいます。",
+          "english": "There is a staff member at reception."
+        },
+        {
+          "ruby": "私[わたし]には姉[あね]が二人[ふたり]いる。",
+          "english": "I have two older sisters."
+        }
+      ]
+    },
+    {
+      "l2_id": "S014",
+      "canonical_surface": "の",
+      "reading": "の",
+      "class_name": "連体-所属-ノ",
+      "connection": "a noun modifying a following noun, including when that second noun is recoverable and omitted",
+      "difficulty": "A1",
+      "register": "normal",
+      "sense_rank": 4,
+      "glosses": [
+        "belonging to …",
+        "…'s"
+      ],
+      "usage_note": "Links nouns: the first specifies the owner, affiliation, material, kind, or other relation of the second. The relation depends on the nouns (友達の鞄, 木の机). The second noun can be omitted when understood (これは私の). Subject-marking の inside a relative clause and clause-nominalizing の are separate senses.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "の",
+          "reading": "の",
+          "left_connection": "1090",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "これは姉[あね]の自転車[じてんしゃ]です。",
+          "english": "This is my older sister's bicycle."
+        },
+        {
+          "ruby": "木[き]の机[つくえ]を窓[まど]のそばに置[お]いた。",
+          "english": "I put a wooden desk by the window."
+        },
+        {
+          "ruby": "青[あお]い傘[かさ]は私[わたし]のです。",
+          "english": "The blue umbrella is mine."
+        }
+      ]
+    },
+    {
+      "l2_id": "S015",
+      "canonical_surface": "と",
+      "reading": "と",
+      "class_name": "引用-ト",
+      "connection": "a quoted clause, normally ending in a plain predicate, or quoted words",
+      "difficulty": "A1",
+      "register": "normal",
+      "sense_rank": 6,
+      "glosses": [
+        "that … (quoted content)"
+      ],
+      "usage_note": "Marks the content of speech, thought, or a judgment before verbs such as 言う and 思う. A quoted noun or な-adjective predicate retains だ (静かだと思う). Direct quotations may keep their original style. The companion and listing particles と and the conditional と are separate uses.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "と",
+          "reading": "と",
+          "left_connection": "b090",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "明日[あした]は晴[は]れると思[おも]います。",
+          "english": "I think it will be sunny tomorrow."
+        },
+        {
+          "ruby": "弟[おとうと]は疲[つか]れたと言[い]っていた。",
+          "english": "My little brother said he was tired."
+        },
+        {
+          "ruby": "この辺[へん]は静[しず]かだと聞[き]きました。",
+          "english": "I heard this area was quiet."
+        }
+      ]
+    },
+    {
+      "l2_id": "S016",
+      "canonical_surface": "よ",
+      "reading": "よ",
+      "class_name": "終助詞-通知-ヨ",
+      "connection": "a sentence, including a polite predicate",
+      "difficulty": "A1",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "I am telling you",
+        "here is something to know"
+      ],
+      "usage_note": "Presents information, reassurance, a reminder, or advice to the listener with some insistence. It often marks something the speaker thinks the listener needs to know. Intonation and context can make it friendly or forceful. Unlike ね, it does not primarily ask for shared agreement.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "よ",
+          "reading": "よ",
+          "left_connection": "9090",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "この店[みせ]のパンはおいしいですよ。",
+          "english": "The bread at this shop is good, you know."
+        },
+        {
+          "ruby": "心配[しんぱい]しなくていいよ。",
+          "english": "You do not need to worry."
+        },
+        {
+          "ruby": "電車[でんしゃ]がもう来[く]るよ。",
+          "english": "The train is coming now!"
+        }
+      ]
+    },
+    {
+      "l2_id": "S017",
+      "canonical_surface": "より",
+      "reading": "より",
+      "class_name": "比較-ヨリ",
+      "connection": "the noun or plain clause used as the comparison baseline",
+      "difficulty": "A1",
+      "register": "normal",
+      "sense_rank": 2,
+      "glosses": [
+        "than …"
+      ],
+      "usage_note": "Marks the baseline in a comparison: AはBより高い says A is taller or more expensive than B. The compared item may take のほうが for clarity. A predicate can also be compared (歩くより). This is distinct from the formal source or starting-point particle より.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "より",
+          "reading": "より",
+          "left_connection": "g090",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "今日[きょう]は昨日[きのう]より寒[さむ]い。",
+          "english": "Today is colder than yesterday."
+        },
+        {
+          "ruby": "電車[でんしゃ]のほうがバスより速[はや]いです。",
+          "english": "The train is faster than the bus."
+        },
+        {
+          "ruby": "急[いそ]ぐなら、歩[ある]くより走[はし]ったほうがいい。",
+          "english": "If you are in a hurry, running is better than walking."
+        }
+      ]
+    },
+    {
+      "l2_id": "S018",
+      "canonical_surface": "やすい",
+      "reading": "やすい",
+      "class_name": "難易-容易-ヤスイ",
+      "connection": "a verb continuative stem",
+      "difficulty": "A1",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "easy to …",
+        "prone to …"
+      ],
+      "usage_note": "Makes an い-adjective meaning that an action is easy to perform or likely to happen. Ease depends on the situation and the person doing the action. With event verbs it often describes a tendency, as in 壊れやすい. It contrasts with にくい, which marks difficulty or low likelihood.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "やすい",
+          "reading": "やすい",
+          "left_connection": "dG90",
+          "register": "normal"
+        },
+        {
+          "surface": "やすく",
+          "reading": "やすく",
+          "left_connection": "dG90",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "この辞書[じしょ]は使[つか]いやすいです。",
+          "english": "This dictionary is easy to use."
+        },
+        {
+          "ruby": "雨[あめ]の日[ひ]はこの道[みち]で滑[すべ]りやすい。",
+          "english": "It is easy to slip on this road on rainy days."
+        },
+        {
+          "ruby": "大[おお]きな字[じ]で読[よ]みやすく書[か]いてください。",
+          "english": "Please write in large letters so it is easy to read."
+        }
+      ]
+    },
+    {
+      "l2_id": "S019",
+      "canonical_surface": "にくい",
+      "reading": "にくい",
+      "class_name": "難易-困難-ニクイ",
+      "connection": "a verb continuative stem",
+      "difficulty": "A1",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "hard to …",
+        "unlikely to …"
+      ],
+      "usage_note": "Makes an い-adjective describing difficulty in doing an action or a low tendency for an event to occur. The difficulty may lie in the object or circumstances, rather than a lack of ability. づらい often emphasizes the person's physical or emotional burden instead.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "にくい",
+          "reading": "にくい",
+          "left_connection": "dG90",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "この靴[くつ]は少[すこ]し歩[ある]きにくい。",
+          "english": "These shoes are a little hard to walk in."
+        },
+        {
+          "ruby": "声[こえ]が小[ちい]さくて聞[き]きにくいです。",
+          "english": "Your voice is quiet and hard to hear."
+        },
+        {
+          "ruby": "この皿[さら]は割[わ]れにくいので、子[こ]どもにも安心[あんしん]です。",
+          "english": "This plate does not break easily, so it is safe for children too."
+        }
+      ]
+    },
+    {
+      "l2_id": "S020",
+      "canonical_surface": "方",
+      "reading": "かた",
+      "class_name": "方法-カタ",
+      "connection": "a verb continuative stem; する compounds generally use noun + の + 仕方",
+      "difficulty": "A1",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "how to …",
+        "way of …ing"
+      ],
+      "usage_note": "Names the way to perform an action or how it is performed. The verb stem plus 方 becomes a noun (読み方). Objects often take の in the resulting noun phrase (漢字の読み方). する compounds normally use 仕方, as in 勉強の仕方, rather than simply attaching 方 to し.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "方",
+          "reading": "かた",
+          "left_connection": "dG90",
+          "register": "normal"
+        },
+        {
+          "surface": "かた",
+          "reading": "かた",
+          "left_connection": "dG90",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "この漢字[かんじ]の読[よ]み方[かた]を教[おし]えてください。",
+          "english": "Please tell me how to read this kanji."
+        },
+        {
+          "ruby": "切符[きっぷ]の買[か]い方[かた]が分[わ]からない。",
+          "english": "I do not know how to buy a ticket."
+        },
+        {
+          "ruby": "箸[はし]の持[も]ち方[かた]を練習[れんしゅう]した。",
+          "english": "I practiced how to hold chopsticks."
+        }
+      ]
+    },
+    {
+      "l2_id": "S021",
+      "canonical_surface": "前に",
+      "reading": "まえに",
+      "class_name": "時間-先行-マエニ",
+      "connection": "a dictionary-form verb or a noun followed by の",
+      "difficulty": "A1",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "before …"
+      ],
+      "usage_note": "Places an action before another event. Verbs take their dictionary form even when the main clause describes the past (寝る前に読んだ). Nouns take の. Spatial 前に also exists, but this entry concerns the time relation.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "前に",
+          "reading": "まえに",
+          "left_connection": "d590",
+          "register": "normal"
+        },
+        {
+          "surface": "まえに",
+          "reading": "まえに",
+          "left_connection": "d590",
+          "register": "normal"
+        },
+        {
+          "surface": "前",
+          "reading": "まえ",
+          "left_connection": "d590",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "寝[ね]る前[まえ]に歯[は]を磨[みが]きます。",
+          "english": "I brush my teeth before going to bed."
+        },
+        {
+          "ruby": "出発[しゅっぱつ]の前[まえ]に地図[ちず]を確認[かくにん]した。",
+          "english": "I checked the map before departure."
+        },
+        {
+          "ruby": "食[た]べる前[まえ]に手[て]を洗[あら]ってください。",
+          "english": "Please wash your hands before eating."
+        }
+      ]
+    },
+    {
+      "l2_id": "S022",
+      "canonical_surface": "時",
+      "reading": "とき",
+      "class_name": "時間-トキ",
+      "connection": "a plain verb or い-adjective clause; a な-adjective + な; a noun + の",
+      "difficulty": "A1",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "when …",
+        "at the time …"
+      ],
+      "usage_note": "Identifies the time or situation in which the main event happens. A dictionary or past form before 時 can place that event before or after the preceding action's completion. Nouns take の and な-adjectives take な. 時に can emphasize an occurrence within that situation.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "時",
+          "reading": "とき",
+          "left_connection": "b690",
+          "register": "normal"
+        },
+        {
+          "surface": "とき",
+          "reading": "とき",
+          "left_connection": "b690",
+          "register": "normal"
+        },
+        {
+          "surface": "時に",
+          "reading": "ときに",
+          "left_connection": "b690",
+          "register": "normal"
+        },
+        {
+          "surface": "ときに",
+          "reading": "ときに",
+          "left_connection": "b690",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "困[こま]った時[とき]は、先生[せんせい]に相談[そうだん]してください。",
+          "english": "When you are in trouble, please talk to your teacher."
+        },
+        {
+          "ruby": "暇[ひま]な時[とき]に写真[しゃしん]を整理[せいり]します。",
+          "english": "I organize my photos when I have spare time."
+        },
+        {
+          "ruby": "子[こ]どもの時[とき]、この町[まち]に住[す]んでいました。",
+          "english": "I lived in this town as a child."
+        }
+      ]
+    },
+    {
+      "l2_id": "S023",
+      "canonical_surface": "たり",
+      "reading": "たり",
+      "class_name": "並立-例示-タリ",
+      "connection": "a verb or adjective past stem; voiced past だ becomes だり; normally followed eventually by する",
+      "difficulty": "A1",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "do things such as …"
+      ],
+      "usage_note": "Lists representative actions or states without claiming a complete list or a fixed sequence. Verbs and adjectives use their past form plus り; the list normally ends with する or its conjugation. A single たり can also give one illustrative activity.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "たり",
+          "reading": "たり",
+          "left_connection": "bH90",
+          "register": "normal"
+        },
+        {
+          "surface": "だり",
+          "reading": "だり",
+          "left_connection": "d990",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "休[やす]みの日[ひ]は本[ほん]を読[よ]んだり、散歩[さんぽ]したりします。",
+          "english": "On days off I do things like reading and taking walks."
+        },
+        {
+          "ruby": "週末[しゅうまつ]は映画[えいが]を見[み]たりします。",
+          "english": "On weekends I sometimes do things like watching films."
+        },
+        {
+          "ruby": "この部屋[へや]は暑[あつ]かったり寒[さむ]かったりする。",
+          "english": "This room alternates between being hot and cold."
+        }
+      ]
+    },
+    {
+      "l2_id": "S024",
+      "canonical_surface": "すぎる",
+      "reading": "すぎる",
+      "class_name": "程度-過剰-スギル",
+      "connection": "a verb continuative stem or an adjective stem",
+      "difficulty": "A1",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "do too much",
+        "be excessively …"
+      ],
+      "usage_note": "Says an action or quality exceeds an appropriate amount. It makes an ichidan verb: 食べすぎた, 高すぎる. Adjective ない normally uses なさすぎる, while いい uses よすぎる. The excess may be unwelcome or, in casual praise, impressively large.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "すぎる",
+          "reading": "すぎる",
+          "left_connection": "s390",
+          "register": "normal"
+        },
+        {
+          "surface": "すぎた",
+          "reading": "すぎた",
+          "left_connection": "s390",
+          "register": "normal"
+        },
+        {
+          "surface": "すぎ",
+          "reading": "すぎ",
+          "left_connection": "s390",
+          "register": "normal"
+        },
+        {
+          "surface": "すぎて",
+          "reading": "すぎて",
+          "left_connection": "s390",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "昨日[きのう]は食[た]べすぎた。",
+          "english": "I ate too much yesterday."
+        },
+        {
+          "ruby": "この鞄[かばん]は私[わたし]には高[たか]すぎる。",
+          "english": "This bag is too expensive for me."
+        },
+        {
+          "ruby": "会場[かいじょう]が静[しず]かすぎて緊張[きんちょう]した。",
+          "english": "The venue was so quiet that I felt nervous."
+        }
+      ]
+    },
+    {
+      "l2_id": "S025",
+      "canonical_surface": "になる",
+      "reading": "になる",
+      "class_name": "変化-ナル",
+      "connection": "a noun or な-adjective stem + に; an い-adjective changes its final い to く",
+      "difficulty": "A1",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "become …"
+      ],
+      "usage_note": "Describes a change into a state or role, without by itself saying someone deliberately causes it. Nouns and な-adjectives use になる; い-adjectives use くなる. Contrast にする and くする for deliberately bringing about a change. The く may be fused into the preceding adjective token, so its surface filter is intentionally open.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "になる",
+          "reading": "になる",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "になった",
+          "reading": "になった",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "くなる",
+          "reading": "くなる",
+          "left_connection": "9090",
+          "register": "normal"
+        },
+        {
+          "surface": "くなった",
+          "reading": "くなった",
+          "left_connection": "9090",
+          "register": "normal"
+        },
+        {
+          "surface": "になりました",
+          "reading": "になりました",
+          "left_connection": "1090",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "春[はる]になりました。",
+          "english": "Spring has arrived."
+        },
+        {
+          "ruby": "雨[あめ]が止[や]んで、空[そら]が明[あか]るくなった。",
+          "english": "The rain stopped and the sky grew brighter."
+        },
+        {
+          "ruby": "新[あたら]しい道[みち]ができて、町[まち]が便利[べんり]になった。",
+          "english": "The new road made the town more convenient."
+        }
+      ]
+    },
+    {
+      "l2_id": "S026",
+      "canonical_surface": "にする",
+      "reading": "にする",
+      "class_name": "変化-選択-スル",
+      "connection": "a noun or な-adjective stem + に; an い-adjective changes its final い to く",
+      "difficulty": "A1",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "make something …",
+        "choose …"
+      ],
+      "usage_note": "Describes choosing something or deliberately changing a thing into a state. Nouns and な-adjectives take にする; い-adjectives take くする. Contrast なる, which simply reports a change. Context distinguishes selecting お茶にする from transforming 部屋を静かにする; both assign the chosen result. The fused adjective く uses an open boundary filter.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "にする",
+          "reading": "にする",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "にした",
+          "reading": "にした",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "くする",
+          "reading": "くする",
+          "left_connection": "9090",
+          "register": "normal"
+        },
+        {
+          "surface": "くした",
+          "reading": "くした",
+          "left_connection": "9090",
+          "register": "normal"
+        },
+        {
+          "surface": "にします",
+          "reading": "にします",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "くしてください",
+          "reading": "くしてください",
+          "left_connection": "9090",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "飲[の]み物[もの]はお茶[ちゃ]にします。",
+          "english": "I will have tea to drink."
+        },
+        {
+          "ruby": "音[おと]を小[ちい]さくしてください。",
+          "english": "Please turn the volume down."
+        },
+        {
+          "ruby": "窓[まど]を閉[し]めて、部屋[へや]を静[しず]かにした。",
+          "english": "I closed the window to make the room quiet."
+        }
+      ]
+    },
+    {
+      "l2_id": "S027",
+      "canonical_surface": "ろ",
+      "reading": "ろ",
+      "class_name": "命令-命令形",
+      "connection": "an ichidan irrealis base + ろ or よ; irregular しろ and こい; godan imperative endings are fused into the verb",
+      "difficulty": "A1",
+      "register": "colloquial",
+      "sense_rank": 1,
+      "glosses": [
+        "do …!"
+      ],
+      "usage_note": "The plain imperative gives a forceful instruction, including in warnings, commands, and quoted speech. Ichidan verbs take ろ or よ, while godan verbs shift their final kana to the e-row; する becomes しろ and 来る becomes こい. The listed suffixes cover separable forms only. Fused godan imperatives require conjugation-aware handling, not an unrestricted e-row suffix match.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "ろ",
+          "reading": "ろ",
+          "left_connection": "2m90",
+          "register": "colloquial"
+        },
+        {
+          "surface": "よ",
+          "reading": "よ",
+          "left_connection": "2m90",
+          "register": "colloquial"
+        },
+        {
+          "surface": "しろ",
+          "reading": "しろ",
+          "left_connection": "9090",
+          "register": "colloquial"
+        },
+        {
+          "surface": "こい",
+          "reading": "こい",
+          "left_connection": "9090",
+          "register": "colloquial"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "危[あぶ]ない、そこから離[はな]れろ！",
+          "english": "It is dangerous; get away from there!"
+        },
+        {
+          "ruby": "監督[かんとく]は選手[せんしゅ]に「もっと練習[れんしゅう]しろ」と言[い]った。",
+          "english": "The coach told the players to practice more."
+        },
+        {
+          "ruby": "父[ちち]は電話[でんわ]で「すぐこい」と言[い]った。",
+          "english": "My father said on the phone to come immediately."
+        }
+      ]
+    },
+    {
+      "l2_id": "S028",
+      "canonical_surface": "られる",
+      "reading": "られる",
+      "class_name": "尊敬-ラレル",
+      "connection": "an ichidan or 来る irrealis base + られる; godan irrealis + れる; する becomes される",
+      "difficulty": "A1",
+      "register": "normal",
+      "sense_rank": 2,
+      "glosses": [
+        "do … (respectfully)"
+      ],
+      "usage_note": "Raises the subject respectfully: 先生が帰られた describes the teacher's action with respect. The ending is shared with the passive and potential, so the subject and context determine the reading. This form does not itself make the sentence polite toward the listener; ます can do that separately.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "られる",
+          "reading": "られる",
+          "left_connection": "s690",
+          "register": "normal"
+        },
+        {
+          "surface": "れる",
+          "reading": "れる",
+          "left_connection": "s790",
+          "register": "normal"
+        },
+        {
+          "surface": "られました",
+          "reading": "られました",
+          "left_connection": "s690",
+          "register": "normal"
+        },
+        {
+          "surface": "れました",
+          "reading": "れました",
+          "left_connection": "s790",
+          "register": "normal"
+        },
+        {
+          "surface": "れます",
+          "reading": "れます",
+          "left_connection": "s790",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "先生[せんせい]はもう帰[かえ]られました。",
+          "english": "The teacher has already gone home."
+        },
+        {
+          "ruby": "社長[しゃちょう]はこの本[ほん]を読[よ]まれましたか。",
+          "english": "Has the company president read this book?"
+        },
+        {
+          "ruby": "部長[ぶちょう]は明日[あした]の会議[かいぎ]に出席[しゅっせき]されます。",
+          "english": "The department head will attend tomorrow's meeting."
+        }
+      ]
+    },
+    {
+      "l2_id": "S029",
+      "canonical_surface": "になる",
+      "reading": "になる",
+      "class_name": "尊敬-オニナル",
+      "connection": "an お-prefixed verb continuative stem; certain Sino-Japanese nouns use ご instead",
+      "difficulty": "A1",
+      "register": "polite",
+      "sense_rank": 2,
+      "glosses": [
+        "perform an action respectfully"
+      ],
+      "usage_note": "The frame お + verb stem + になる respectfully describes the subject's action (お読みになる). Some Sino-Japanese action nouns use ご, as in ご利用になる. It is not the plain change-of-state になる. The suffix filter verifies the adjacent stem but cannot prove the earlier お or ご; that prefix and a respectful context are part of this sense.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "になる",
+          "reading": "になる",
+          "left_connection": "dG90",
+          "register": "polite"
+        },
+        {
+          "surface": "になりました",
+          "reading": "になりました",
+          "left_connection": "dG90",
+          "register": "polite"
+        },
+        {
+          "surface": "になります",
+          "reading": "になります",
+          "left_connection": "dG90",
+          "register": "polite"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "先生[せんせい]は新聞[しんぶん]をお読[よ]みになりました。",
+          "english": "The teacher read the newspaper."
+        },
+        {
+          "ruby": "こちらでお待[ま]ちになりますか。",
+          "english": "Will you wait here?"
+        },
+        {
+          "ruby": "お客様[きゃくさま]はもうお帰[かえ]りになりました。",
+          "english": "The customer has already left."
+        }
+      ]
+    },
+    {
+      "l2_id": "S030",
+      "canonical_surface": "する",
+      "reading": "する",
+      "class_name": "謙譲-オスル",
+      "connection": "an お-prefixed verb continuative stem; certain Sino-Japanese nouns use ご instead",
+      "difficulty": "A1",
+      "register": "polite",
+      "sense_rank": 1,
+      "glosses": [
+        "perform an action humbly"
+      ],
+      "usage_note": "The frame お + verb stem + する presents the speaker's action humbly in relation to its recipient (お持ちします). Some Sino-Japanese action nouns take ご, as in ご説明します. It is used when an action concerns someone to whom respect is due. The suffix filter does not independently verify the earlier prefix or the social relation.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "する",
+          "reading": "する",
+          "left_connection": "dG90",
+          "register": "polite"
+        },
+        {
+          "surface": "します",
+          "reading": "します",
+          "left_connection": "dG90",
+          "register": "polite"
+        },
+        {
+          "surface": "しました",
+          "reading": "しました",
+          "left_connection": "dG90",
+          "register": "polite"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "私[わたし]がお荷物[にもつ]をお持[も]ちします。",
+          "english": "I will carry your luggage."
+        },
+        {
+          "ruby": "入口[いりぐち]でお待[ま]ちします。",
+          "english": "I will wait for you at the entrance."
+        },
+        {
+          "ruby": "後[あと]で資料[しりょう]をお送[おく]りします。",
+          "english": "I will send you the documents later."
+        }
+      ]
+    },
+    {
+      "l2_id": "S031",
+      "canonical_surface": "てみる",
+      "reading": "てみる",
+      "class_name": "試行-テミル",
+      "connection": "the pre-て stem of a verb; voiced て becomes で",
+      "difficulty": "A1",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "try doing …"
+      ],
+      "usage_note": "Tries an action to find out what it is like or what happens. It takes the て-form, and みる conjugates as an auxiliary verb. This deliberate trial differs from てみると, which introduces the discovery that followed the trial. The auxiliary is normally written in kana.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "てみる",
+          "reading": "てみる",
+          "left_connection": "d890",
+          "register": "normal"
+        },
+        {
+          "surface": "でみる",
+          "reading": "でみる",
+          "left_connection": "d990",
+          "register": "normal"
+        },
+        {
+          "surface": "てみた",
+          "reading": "てみた",
+          "left_connection": "d890",
+          "register": "normal"
+        },
+        {
+          "surface": "でみた",
+          "reading": "でみた",
+          "left_connection": "d990",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "新[あたら]しい靴[くつ]を履[は]いてみる。",
+          "english": "I will try on the new shoes."
+        },
+        {
+          "ruby": "この本[ほん]を読[よ]んでみた。",
+          "english": "I tried reading this book."
+        },
+        {
+          "ruby": "明日[あした]は別[べつ]の道[みち]を歩[ある]いてみる。",
+          "english": "Tomorrow I will try walking a different route."
+        }
+      ]
+    },
+    {
+      "l2_id": "S032",
+      "canonical_surface": "ないでください",
+      "reading": "ないでください",
+      "class_name": "依頼-否定-ナイデクダサイ",
+      "connection": "a verb irrealis base before ない",
+      "difficulty": "A1",
+      "register": "polite",
+      "sense_rank": 1,
+      "glosses": [
+        "please do not …"
+      ],
+      "usage_note": "Politely asks the listener not to perform an action. It uses ないで plus ください rather than the affirmative て-form. This is a negative request directed at the listener, distinct from stating a rule with てはいけない and from describing an action omitted with ないで.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "ないでください",
+          "reading": "ないでください",
+          "left_connection": "dM90",
+          "register": "polite"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "ここで写真[しゃしん]を撮[と]らないでください。",
+          "english": "Please do not take photographs here."
+        },
+        {
+          "ruby": "この箱[はこ]は開[あ]けないでください。",
+          "english": "Please do not open this box."
+        },
+        {
+          "ruby": "約束[やくそく]を忘[わす]れないでください。",
+          "english": "Please do not forget our arrangement."
+        }
+      ]
+    },
+    {
+      "l2_id": "S033",
+      "canonical_surface": "がる",
+      "reading": "がる",
+      "class_name": "感情-外的様子-ガル",
+      "connection": "an emotion adjective stem; たい + がる belongs to the separate たがる sense",
+      "difficulty": "A1",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "show signs of feeling …"
+      ],
+      "usage_note": "Describes outward signs of someone's feeling or desire, such as 怖がる or 欲しがる. It is often used for another person whose inner feelings the speaker cannot directly assert. Ongoing behavior commonly takes がっている. The related たがる attaches to a verb's たい form and has its own sense.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "がる",
+          "reading": "がる",
+          "left_connection": "sT90",
+          "register": "normal"
+        },
+        {
+          "surface": "がっている",
+          "reading": "がっている",
+          "left_connection": "sT90",
+          "register": "normal"
+        },
+        {
+          "surface": "がった",
+          "reading": "がった",
+          "left_connection": "sT90",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "弟[おとうと]は暗[くら]い部屋[へや]を怖[こわ]がる。",
+          "english": "My little brother is afraid of dark rooms."
+        },
+        {
+          "ruby": "子[こ]どもが新[あたら]しい玩具[おもちゃ]を欲[ほ]しがっている。",
+          "english": "The child is showing that they want a new toy."
+        },
+        {
+          "ruby": "友達[ともだち]は別[わか]れを寂[さび]しがった。",
+          "english": "My friend showed sadness at our parting."
+        }
+      ]
+    },
+    {
+      "l2_id": "S034",
+      "canonical_surface": "うちに",
+      "reading": "うちに",
+      "class_name": "期間-機会-ウチニ",
+      "connection": "a plain non-past verb or adjective, a na-adjective plus な, or a noun plus の; negatives take ないうちに",
+      "difficulty": "A2",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "before the chance passes",
+        "while …; before one notices"
+      ],
+      "usage_note": "Locates an action within a state that may soon change: 明るいうちに帰る means getting home before daylight goes. A continuing action can also be the background for an unplanned change (話しているうちに落ち着いた). With a negative verb, it means before that event occurs (忘れないうちに). A noun takes の and a na-adjective takes な. Unlike うちは, which states what holds throughout a period, うちに locates an event or change inside it.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "うちに",
+          "reading": "うちに",
+          "left_connection": "s190",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "温[あたた]かいうちに、スープを飲[の]んでください。",
+          "english": "Please drink the soup while it is warm."
+        },
+        {
+          "ruby": "忘[わす]れないうちに、住所[じゅうしょ]をメモした。",
+          "english": "I wrote down the address before I could forget it."
+        },
+        {
+          "ruby": "友達[ともだち]と話[はな]しているうちに、緊張[きんちょう]がほぐれた。",
+          "english": "As I talked with my friend, my nerves gradually eased."
+        }
+      ]
+    },
+    {
+      "l2_id": "S035",
+      "canonical_surface": "ほど",
+      "reading": "ほど",
+      "class_name": "相関-比例-バホド",
+      "connection": "the dictionary form of a verb or i-adjective, with its corresponding ば conditional earlier in the clause; na-adjectives use なら or であれば",
+      "difficulty": "A2",
+      "register": "normal",
+      "sense_rank": 2,
+      "glosses": [
+        "the more …, the more …"
+      ],
+      "usage_note": "Pairs a conditional with a repeated predicate to show two degrees changing together: 読めば読むほど means that the more one reads, the more the result follows. The surface ほど alone has other uses; this sense requires the matching earlier conditional, not merely a quantity or a comparison. I-adjectives repeat in the same way (安ければ安いほど); na-adjectives commonly use なら or であれば before the repetition.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "ほど",
+          "reading": "ほど",
+          "left_connection": "sB90",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "練習[れんしゅう]すればするほど、動[うご]きが自然[しぜん]になる。",
+          "english": "The more I practice, the more natural my movements become."
+        },
+        {
+          "ruby": "この小説[しょうせつ]は読[よ]めば読[よ]むほど、面白[おもしろ]くなる。",
+          "english": "This novel gets more interesting each time I read it."
+        },
+        {
+          "ruby": "駅[えき]に近[ちか]ければ近[ちか]いほど、家賃[やちん]が高[たか]い。",
+          "english": "The closer a place is to the station, the higher its rent."
+        }
+      ]
+    },
+    {
+      "l2_id": "S036",
+      "canonical_surface": "こそ",
+      "reading": "こそ",
+      "class_name": "焦点-強調-コソ",
+      "connection": "a noun or an existing case particle; often replaces は or が",
+      "difficulty": "A2",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "this very …",
+        "precisely …"
+      ],
+      "usage_note": "Puts strong focus on the preceding element as the one that matters: 今度こそ promises that this attempt will be different, and こちらこそ returns thanks or an apology. It normally takes a noun or a noun phrase, sometimes after a case particle (あなたにこそ). It is not an ordinary subject marker. Clausal からこそ and てこそ have their own causal or conditional constraints and are outside this basic focus sense.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "こそ",
+          "reading": "こそ",
+          "left_connection": "c690",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "今度[こんど]こそ、試験[しけん]に合格[ごうかく]したい。",
+          "english": "This time I really want to pass the exam."
+        },
+        {
+          "ruby": "こちらこそ、お世話[せわ]になりました。",
+          "english": "I am the one who should thank you for your help."
+        },
+        {
+          "ruby": "忙[いそが]しい時[とき]こそ、休憩[きゅうけい]が必要[ひつよう]だ。",
+          "english": "It is precisely when we are busy that we need a break."
+        }
+      ]
+    },
+    {
+      "l2_id": "S037",
+      "canonical_surface": "最中に",
+      "reading": "さいちゅうに",
+      "class_name": "期間-進行-サイチュウニ",
+      "connection": "a verb in ている form, or a noun denoting an activity plus の",
+      "difficulty": "A2",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "right in the middle of …"
+      ],
+      "usage_note": "Places another event squarely within an activity in progress, often an interruption (会議の最中に). A verb normally takes ている before 最中に; an activity noun takes の. It foregrounds the busy middle of the activity, whereas 間に simply identifies an interval. 最中だ can instead state that the activity is currently under way.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "最中に",
+          "reading": "さいちゅうに",
+          "left_connection": "d590",
+          "register": "normal"
+        },
+        {
+          "surface": "さいちゅうに",
+          "reading": "さいちゅうに",
+          "left_connection": "d590",
+          "register": "normal"
+        },
+        {
+          "surface": "最中だ",
+          "reading": "さいちゅうだ",
+          "left_connection": "d590",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "会議[かいぎ]の最中[さいちゅう]に、携帯[けいたい]が鳴[な]った。",
+          "english": "My phone rang right in the middle of the meeting."
+        },
+        {
+          "ruby": "料理[りょうり]をしている最中[さいちゅう]に、停電[ていでん]した。",
+          "english": "The power went out while I was in the middle of cooking."
+        },
+        {
+          "ruby": "今[いま]は荷物[にもつ]をまとめている最中[さいちゅう]だ。",
+          "english": "I am right in the middle of packing my things."
+        }
+      ]
+    },
+    {
+      "l2_id": "S038",
+      "canonical_surface": "に比べて",
+      "reading": "にくらべて",
+      "class_name": "比較-ニクラベテ",
+      "connection": "a noun naming the comparison standard",
+      "difficulty": "A2",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "compared with …"
+      ],
+      "usage_note": "Introduces the standard against which another thing is judged: 去年に比べて states how this year differs from last year. The following predicate supplies the difference; the expression alone does not say which side is better. に比べると emphasizes the resulting comparison, and に比べれば presents it conditionally. It is distinct from 比べて as an instruction to compare two things.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "に比べて",
+          "reading": "にくらべて",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "にくらべて",
+          "reading": "にくらべて",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "に比べると",
+          "reading": "にくらべると",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "に比べれば",
+          "reading": "にくらべれば",
+          "left_connection": "1090",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "去年[きょねん]に比[くら]べて、今年[ことし]は雨[あめ]が少[すく]ない。",
+          "english": "There has been less rain this year than last year."
+        },
+        {
+          "ruby": "電車[でんしゃ]に比[くら]べると、バスは安[やす]い。",
+          "english": "Compared with the train, the bus is inexpensive."
+        },
+        {
+          "ruby": "姉[あね]に比[くら]べて、私[わたし]は朝[あさ]が苦手[にがて]だ。",
+          "english": "Compared with my older sister, I struggle with mornings."
+        }
+      ]
+    },
+    {
+      "l2_id": "S039",
+      "canonical_surface": "というより",
+      "reading": "というより",
+      "class_name": "修正-トイウヨリ",
+      "connection": "a noun or plain-form clause; a na-adjective may appear without だ",
+      "difficulty": "A2",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "rather … than …",
+        "a better description is …"
+      ],
+      "usage_note": "Replaces an initial description with a more fitting one (静かというより寂しい). The first phrase is not necessarily false; the speaker judges the second wording more accurate. Nouns and na-adjectives commonly appear without だ, while verb and i-adjective clauses use plain forms. This is a correction of how to characterize something, rather than a direct comparison of two quantities.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "というより",
+          "reading": "というより",
+          "left_connection": "sA90",
+          "register": "normal"
+        },
+        {
+          "surface": "と言うより",
+          "reading": "というより",
+          "left_connection": "sA90",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "この部屋[へや]は静[しず]かというより、寂[さび]しい。",
+          "english": "This room feels lonely more than peaceful."
+        },
+        {
+          "ruby": "怒[おこ]っているというより、困[こま]っているのだと思[おも]う。",
+          "english": "I think he is more troubled than angry."
+        },
+        {
+          "ruby": "あの人[ひと]は友達[ともだち]というより、先生[せんせい]のような存在[そんざい]だ。",
+          "english": "That person is more like a teacher to me than a friend."
+        }
+      ]
+    },
+    {
+      "l2_id": "S040",
+      "canonical_surface": "て初めて",
+      "reading": "てはじめて",
+      "class_name": "成立-テハジメテ",
+      "connection": "a verb te-form; で follows the voiced te-form",
+      "difficulty": "A2",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "only after …",
+        "not until …"
+      ],
+      "usage_note": "Says that an experience or action is the necessary threshold for what follows: 話して初めて分かった means that understanding came only after the conversation. It often introduces a new realization or something that became possible. 初めて on its own can simply mean for the first time; the preceding te-form gives this construction its prerequisite relation.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "て初めて",
+          "reading": "てはじめて",
+          "left_connection": "d890",
+          "register": "normal"
+        },
+        {
+          "surface": "で初めて",
+          "reading": "ではじめて",
+          "left_connection": "d990",
+          "register": "normal"
+        },
+        {
+          "surface": "てはじめて",
+          "reading": "てはじめて",
+          "left_connection": "d890",
+          "register": "normal"
+        },
+        {
+          "surface": "ではじめて",
+          "reading": "ではじめて",
+          "left_connection": "d990",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "自分[じぶん]で作[つく]って初[はじ]めて、この料理[りょうり]の難[むずか]しさが分[わ]かった。",
+          "english": "Only when I made it myself did I understand how difficult this dish is."
+        },
+        {
+          "ruby": "両親[りょうしん]と離[はな]れて初[はじ]めて、家族[かぞく]の大切[たいせつ]さに気[き]づいた。",
+          "english": "I realized how much my family mattered only after living apart from my parents."
+        },
+        {
+          "ruby": "説明書[せつめいしょ]を読[よ]んで初[はじ]めて、使[つか]い方[かた]が分[わ]かった。",
+          "english": "I understood how to use it only after reading the instructions."
+        }
+      ]
+    },
+    {
+      "l2_id": "S041",
+      "canonical_surface": "ついでに",
+      "reading": "ついでに",
+      "class_name": "付随-ツイデニ",
+      "connection": "a dictionary or past-form verb, or an activity noun plus の",
+      "difficulty": "A2",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "while already doing …",
+        "take the chance to also …"
+      ],
+      "usage_note": "Adds a smaller task to an activity that was going to happen anyway (買い物のついでに). Dictionary form looks ahead to the main activity; past form treats it as already done or reached. The added action need not happen at exactly the same moment. Unlike ながら, it describes making use of an occasion, not necessarily simultaneous activity.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "ついでに",
+          "reading": "ついでに",
+          "left_connection": "d490",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "買[か]い物[もの]のついでに、手紙[てがみ]を出[だ]した。",
+          "english": "While I was out shopping, I also mailed the letter."
+        },
+        {
+          "ruby": "駅[えき]まで行[い]くついでに、パンを買[か]ってきてくれる？",
+          "english": "Could you pick up some bread on your way to the station?"
+        },
+        {
+          "ruby": "棚[たな]を動[うご]かしたついでに、後[うし]ろの壁[かべ]も掃除[そうじ]した。",
+          "english": "Since I had moved the shelf, I cleaned the wall behind it too."
+        }
+      ]
+    },
+    {
+      "l2_id": "S042",
+      "canonical_surface": "おきに",
+      "reading": "おきに",
+      "class_name": "反復-間隔-オキニ",
+      "connection": "a quantity describing time or spacing",
+      "difficulty": "A2",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "at intervals of …"
+      ],
+      "usage_note": "Marks repeated occurrences separated by a specified interval (三時間おきに). With hours or minutes, the number usually names the time from one occurrence to the next. With discrete units such as days or seats, it can count the units left between occurrences, so 一日おき commonly means every other day. State an explicit schedule when that distinction matters; 毎日 and 二日に一度 avoid the ambiguity.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "おきに",
+          "reading": "おきに",
+          "left_connection": "1090",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "この薬[くすり]は六時間[ろくじかん]おきに飲[の]んでください。",
+          "english": "Take this medicine at six-hour intervals."
+        },
+        {
+          "ruby": "道[みち]には五十[ごじゅう]メートルおきに街灯[がいとう]がある。",
+          "english": "There are streetlights along the road at fifty-meter intervals."
+        },
+        {
+          "ruby": "一日[いちにち]おきに花[はな]に水[みず]をやっている。",
+          "english": "I water the flowers every other day."
+        }
+      ]
+    },
+    {
+      "l2_id": "S043",
+      "canonical_surface": "だらけ",
+      "reading": "だらけ",
+      "class_name": "充満-好ましくない-ダラケ",
+      "connection": "a noun naming unwanted material, marks, or faults",
+      "difficulty": "A2",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "covered in …",
+        "full of unwanted …"
+      ],
+      "usage_note": "Describes something as covered with or full of an unwelcome substance or feature (泥だらけ, 間違いだらけ). It takes a noun directly and can modify another noun with の. It is not a neutral replacement for いっぱい: the dirt, errors, or problems are judged undesirable. Objects such as books or people need an appropriate context and are not automatically natural just because there are many.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "だらけ",
+          "reading": "だらけ",
+          "left_connection": "1090",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "子供[こども]の靴[くつ]は泥[どろ]だらけだった。",
+          "english": "The child's shoes were covered in mud."
+        },
+        {
+          "ruby": "急[いそ]いで書[か]いたので、作文[さくぶん]は間違[まちが]いだらけだ。",
+          "english": "My composition is full of mistakes because I wrote it in a hurry."
+        },
+        {
+          "ruby": "ほこりだらけの箱[はこ]を、外[そと]に運[はこ]んだ。",
+          "english": "I carried the dust-covered box outside."
+        }
+      ]
+    },
+    {
+      "l2_id": "S044",
+      "canonical_surface": "向き",
+      "reading": "むき",
+      "class_name": "適性-ムキ",
+      "connection": "a noun identifying a group, purpose, or context",
+      "difficulty": "A2",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "suited to …"
+      ],
+      "usage_note": "Judges a thing suitable for a person or purpose (初心者向きの本). 向きだ predicates that suitability; 向きの modifies a noun. It does not necessarily imply that anyone deliberately designed the thing for that audience, which is the emphasis of 向け. Literal physical direction in 南向き is a separate lexical use.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "向き",
+          "reading": "むき",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "むき",
+          "reading": "むき",
+          "left_connection": "1090",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "この本[ほん]は初心者[しょしんしゃ]向[む]きだ。",
+          "english": "This book suits beginners."
+        },
+        {
+          "ruby": "一人暮[ひとりぐ]らし向[む]きの小[ちい]さな炊飯器[すいはんき]を選[えら]んだ。",
+          "english": "I chose a small rice cooker suitable for living alone."
+        },
+        {
+          "ruby": "この靴[くつ]は長[なが]い散歩[さんぽ]向[む]きではない。",
+          "english": "These shoes are not well suited to long walks."
+        }
+      ]
+    },
+    {
+      "l2_id": "S045",
+      "canonical_surface": "向け",
+      "reading": "むけ",
+      "class_name": "対象-設計-ムケ",
+      "connection": "a noun identifying the intended audience or destination",
+      "difficulty": "A2",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "intended for …"
+      ],
+      "usage_note": "Identifies the audience or destination a thing is deliberately aimed at (子供向けの番組). 向けの modifies a noun and 向けに describes an action directed at that audience. Unlike 向き, which judges suitability, 向け indicates intended use; a product can be 子供向け without being suitable for every child. The independent verb 向ける meaning to turn or point is outside this sense.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "向け",
+          "reading": "むけ",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "むけ",
+          "reading": "むけ",
+          "left_connection": "1090",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "この番組[ばんぐみ]は子供[こども]向[む]けに作[つく]られている。",
+          "english": "This program is made for children."
+        },
+        {
+          "ruby": "海外[かいがい]向[む]けの案内[あんない]を英語[えいご]で書[か]いた。",
+          "english": "I wrote an English guide intended for an overseas audience."
+        },
+        {
+          "ruby": "留学生[りゅうがくせい]向[む]けの説明会[せつめいかい]が来週[らいしゅう]ある。",
+          "english": "There is an information session for international students next week."
+        }
+      ]
+    },
+    {
+      "l2_id": "S046",
+      "canonical_surface": "切る",
+      "reading": "きる",
+      "class_name": "完遂-キル",
+      "connection": "a verb stem, forming a compound verb that conjugates as 切る",
+      "difficulty": "A2",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "do all the way to the end",
+        "do completely"
+      ],
+      "usage_note": "Adds complete performance to an action, often despite effort or a limit (走り切る, 使い切る). It joins the verb stem and the resulting compound conjugates as the godan verb 切る. The learner sense is completion, not the literal act of cutting. Some combinations are established compounds, so it is not a freely interchangeable substitute for 終わる after every verb.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "切る",
+          "reading": "きる",
+          "left_connection": "dG90",
+          "register": "normal"
+        },
+        {
+          "surface": "きる",
+          "reading": "きる",
+          "left_connection": "dG90",
+          "register": "normal"
+        },
+        {
+          "surface": "切った",
+          "reading": "きった",
+          "left_connection": "dG90",
+          "register": "normal"
+        },
+        {
+          "surface": "きった",
+          "reading": "きった",
+          "left_connection": "dG90",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "最後[さいご]まで走[はし]り切[き]った。",
+          "english": "I managed to run all the way to the end."
+        },
+        {
+          "ruby": "一日[いちにち]で小説[しょうせつ]を読[よ]み切[き]った。",
+          "english": "I finished the whole novel in one day."
+        },
+        {
+          "ruby": "旅行[りょこう]で貯金[ちょきん]を使[つか]い切[き]ってしまった。",
+          "english": "I used up all my savings on the trip."
+        }
+      ]
+    },
+    {
+      "l2_id": "S047",
+      "canonical_surface": "切れない",
+      "reading": "きれない",
+      "class_name": "未完遂-キレナイ",
+      "connection": "a verb stem, followed by the negative potential of completion 切る",
+      "difficulty": "A2",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "cannot finish all of …"
+      ],
+      "usage_note": "Says the entire action or quantity exceeds what can be completed (食べ切れない). It is the negative potential of completion 切る, not merely a decision to stop; the amount, time, or capacity is insufficient. It attaches to the verb stem. Plain 切らない negates doing something completely, while 切れない specifically says completion is not possible.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "切れない",
+          "reading": "きれない",
+          "left_connection": "dG90",
+          "register": "normal"
+        },
+        {
+          "surface": "きれない",
+          "reading": "きれない",
+          "left_connection": "dG90",
+          "register": "normal"
+        },
+        {
+          "surface": "切れなかった",
+          "reading": "きれなかった",
+          "left_connection": "dG90",
+          "register": "normal"
+        },
+        {
+          "surface": "きれなかった",
+          "reading": "きれなかった",
+          "left_connection": "dG90",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "料理[りょうり]が多[おお]すぎて、食[た]べ切[き]れない。",
+          "english": "There is too much food for me to finish it all."
+        },
+        {
+          "ruby": "一晩[ひとばん]では、この本[ほん]を読[よ]み切[き]れなかった。",
+          "english": "I could not get through the whole book in one night."
+        },
+        {
+          "ruby": "質問[しつもん]が多[おお]くて、全部[ぜんぶ]には答[こた]え切[き]れない。",
+          "english": "There are too many questions for me to answer them all."
+        }
+      ]
+    },
+    {
+      "l2_id": "S048",
+      "canonical_surface": "かける",
+      "reading": "かける",
+      "class_name": "未完了-カケル",
+      "connection": "a verb stem; かけの before a noun or かけだ as a predicate",
+      "difficulty": "A2",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "begin but not finish …",
+        "be partway through …"
+      ],
+      "usage_note": "Presents an action as started but not completed (読みかけの本), or at the brink of occurring (転びかける). It attaches to the verb stem and inflects as かける; かけの modifies a noun. The unfinished reading does not apply mechanically to every verb: some compounds such as 話しかける are lexical and mean addressing someone, not half finishing a conversation.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "かける",
+          "reading": "かける",
+          "left_connection": "dG90",
+          "register": "normal"
+        },
+        {
+          "surface": "かけた",
+          "reading": "かけた",
+          "left_connection": "dG90",
+          "register": "normal"
+        },
+        {
+          "surface": "かけの",
+          "reading": "かけの",
+          "left_connection": "dG90",
+          "register": "normal"
+        },
+        {
+          "surface": "かけだ",
+          "reading": "かけだ",
+          "left_connection": "dG90",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "読[よ]みかけの本[ほん]を机[つくえ]に置[お]いた。",
+          "english": "I put the book I was partway through on the desk."
+        },
+        {
+          "ruby": "坂道[さかみち]で転[ころ]びかけたが、手[て]すりにつかまった。",
+          "english": "I nearly fell on the slope, but grabbed the railing."
+        },
+        {
+          "ruby": "このスープはまだ飲[の]みかけだから、片付[かたづ]けないで。",
+          "english": "I have not finished this soup yet, so please do not clear it away."
+        }
+      ]
+    },
+    {
+      "l2_id": "S049",
+      "canonical_surface": "ふりをする",
+      "reading": "ふりをする",
+      "class_name": "擬態-フリヲスル",
+      "connection": "a plain-form verb or adjective, a na-adjective plus な, or a noun plus の",
+      "difficulty": "A2",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "pretend to …"
+      ],
+      "usage_note": "Acts outwardly as though a state or action were real while it is not (知らないふりをする). Verbs and i-adjectives use plain forms, na-adjectives use な, and nouns use の. The contrast with reality is part of this construction; it differs from seeming a certain way unintentionally. The spelling 振りをする is also used, and ふりだけ can emphasize that the display is only for show.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "ふりをする",
+          "reading": "ふりをする",
+          "left_connection": "s190",
+          "register": "normal"
+        },
+        {
+          "surface": "振りをする",
+          "reading": "ふりをする",
+          "left_connection": "s190",
+          "register": "normal"
+        },
+        {
+          "surface": "ふりをした",
+          "reading": "ふりをした",
+          "left_connection": "s190",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "弟[おとうと]は寝[ね]ているふりをしていた。",
+          "english": "My younger brother was pretending to be asleep."
+        },
+        {
+          "ruby": "知[し]らないふりをせずに、正直[しょうじき]に答[こた]えてください。",
+          "english": "Please answer honestly rather than pretend you do not know."
+        },
+        {
+          "ruby": "元気[げんき]なふりをするのは、もう疲[つか]れた。",
+          "english": "I am tired of pretending to be fine."
+        }
+      ]
+    },
+    {
+      "l2_id": "S050",
+      "canonical_surface": "かねる",
+      "reading": "かねる",
+      "class_name": "不可能-ためらい-カネル",
+      "connection": "a verb's ます-stem (答えかねる; する becomes しかねる)",
+      "difficulty": "B",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "cannot bring oneself to …",
+        "cannot readily …"
+      ],
+      "usage_note": "The speaker cannot readily undertake an action because of a constraint, hesitation, or difficulty, rather than lack of skill. A verb's ます-stem takes かねる; polite かねます commonly declines a request. It can also describe being unable to bear a sight or situation (見かねる). The negative かねない instead warns that something unwelcome could happen.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "かねる",
+          "reading": "かねる",
+          "left_connection": "dG90",
+          "register": "normal"
+        },
+        {
+          "surface": "かねます",
+          "reading": "かねます",
+          "left_connection": "dG90",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "詳[くわ]しい事情[じじょう]が分[わ]からないので、お答[こた]えしかねます。",
+          "english": "I cannot give an answer because I do not know the details."
+        },
+        {
+          "ruby": "一人[ひとり]では決[き]めかねるので、明日[あした]もう一度[いちど]相談[そうだん]します。",
+          "english": "I cannot decide on my own, so I will discuss it again tomorrow."
+        },
+        {
+          "ruby": "窓口[まどぐち]では、その申請[しんせい]は受[う]け付[つ]けかねると言[い]われた。",
+          "english": "At the counter, I was told they could not accept that application."
+        }
+      ]
+    },
+    {
+      "l2_id": "S051",
+      "canonical_surface": "かねない",
+      "reading": "かねない",
+      "class_name": "可能性-懸念-カネナイ",
+      "connection": "a verb's ます-stem (起こりかねない; する becomes しかねない)",
+      "difficulty": "B",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "could end up …",
+        "might unfortunately …"
+      ],
+      "usage_note": "Warns that a situation could plausibly lead to an unwelcome result. A verb's ます-stem takes かねない (忘れかねない, 事故を起こしかねない). It presents a risk, not the ability to perform an action, and does not normally describe a welcome possibility. Despite its negative ending it means the event may occur; affirmative かねる says an action is difficult to undertake.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "かねない",
+          "reading": "かねない",
+          "left_connection": "dG90",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "このまま放[ほう]っておくと、大[おお]きな事故[じこ]につながりかねない。",
+          "english": "If we leave it like this, it could lead to a serious accident."
+        },
+        {
+          "ruby": "説明[せつめい]が短[みじか]すぎると、誤解[ごかい]を招[まね]きかねない。",
+          "english": "An explanation that is too short could invite misunderstanding."
+        },
+        {
+          "ruby": "そんな無理[むり]を続[つづ]けたら、体[からだ]を壊[こわ]しかねないよ。",
+          "english": "If you keep pushing yourself like that, you could damage your health."
+        }
+      ]
+    },
+    {
+      "l2_id": "S052",
+      "canonical_surface": "次第",
+      "reading": "しだい",
+      "class_name": "継起-即時-シダイ",
+      "connection": "a verb's ます-stem or an event noun (届き次第; 到着次第)",
+      "difficulty": "A2",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "as soon as … is complete",
+        "immediately after …"
+      ],
+      "usage_note": "Schedules the second action for immediately after the first event is completed. A verb's ます-stem or an event noun takes 次第 (届き次第, 到着次第). The following clause usually gives a plan, promise, or instruction, rather than recounting two past events. It is common in notices and work correspondence. Noun + 次第で instead says an outcome depends on that noun.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "次第",
+          "reading": "しだい",
+          "left_connection": "eG90",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "資料[しりょう]が届[とど]き次第[しだい]、皆[みな]さんに配[くば]ります。",
+          "english": "I will distribute the materials to everyone as soon as they arrive."
+        },
+        {
+          "ruby": "詳[くわ]しい日程[にってい]が決[き]まり次第[しだい]、連絡[れんらく]してください。",
+          "english": "Please contact me as soon as the detailed schedule is settled."
+        },
+        {
+          "ruby": "会場[かいじょう]に到着[とうちゃく]次第[しだい]、受付[うけつけ]へお越[こ]しください。",
+          "english": "Please come to reception as soon as you arrive at the venue."
+        }
+      ]
+    },
+    {
+      "l2_id": "S053",
+      "canonical_surface": "次第で",
+      "reading": "しだいで",
+      "class_name": "条件-依存-シダイデ",
+      "connection": "a noun naming the deciding factor (天気次第で); 次第だ ends a predicate",
+      "difficulty": "B",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "depending entirely on …",
+        "… decides the outcome"
+      ],
+      "usage_note": "Makes a noun the factor that determines what happens (天気次第で予定を変える). 次第で links to the outcome, while 次第だ ends the sentence (結果は練習次第だ). It can name an external condition or the effort of the person addressed. Verb-stem + 次第 expresses immediate succession instead, and という次第だ explains how a situation came about.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "次第で",
+          "reading": "しだいで",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "次第だ",
+          "reading": "しだいだ",
+          "left_connection": "1090",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "天気[てんき]次第[しだい]で、試合[しあい]の開始[かいし]時刻[じこく]を変[か]えます。",
+          "english": "We will change the starting time of the match depending on the weather."
+        },
+        {
+          "ruby": "準備[じゅんび]次第[しだい]で、当日[とうじつ]の負担[ふたん]は大[おお]きく変[か]わる。",
+          "english": "The amount of work on the day varies greatly depending on preparation."
+        },
+        {
+          "ruby": "同[おな]じ材料[ざいりょう]でも、工夫[くふう]次第[しだい]で違[ちが]う味[あじ]になります。",
+          "english": "Even with the same ingredients, a little ingenuity can produce a different flavor."
+        }
+      ]
+    },
+    {
+      "l2_id": "S054",
+      "canonical_surface": "に限る",
+      "reading": "にかぎる",
+      "class_name": "評価-最適-ニカギル",
+      "connection": "a noun or dictionary-form verb (休むに限る; 温泉に限る)",
+      "difficulty": "A2",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "nothing beats …",
+        "… is the best choice"
+      ],
+      "usage_note": "Recommends something as the best choice for the circumstances, often as the speaker's personal conviction (疲れたら休むに限る). It takes a noun or dictionary-form verb; a negative verb can recommend avoiding an action. This evaluative に限る is separate from に限って 'only in that case' and に限らず 'not confined to that case'.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "に限る",
+          "reading": "にかぎる",
+          "left_connection": "sH90",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "疲[つか]れた日[ひ]は、早[はや]く寝[ね]るに限[かぎ]る。",
+          "english": "On a tiring day, going to bed early is the best thing."
+        },
+        {
+          "ruby": "寒[さむ]い夜[よる]は、温[あたた]かい鍋[なべ]に限[かぎ]るね。",
+          "english": "Nothing beats a warm hot pot on a cold evening."
+        },
+        {
+          "ruby": "道[みち]が分[わ]からないときは、地元[じもと]の人[ひと]に聞[き]くに限[かぎ]る。",
+          "english": "When you do not know the way, asking a local is the best choice."
+        }
+      ]
+    },
+    {
+      "l2_id": "S055",
+      "canonical_surface": "に越したことはない",
+      "reading": "にこしたことはない",
+      "class_name": "評価-望ましさ-ニコシタコトハナイ",
+      "connection": "a plain verb or い-adjective, including a negative verb; nouns and な-adjectives may optionally take である",
+      "difficulty": "B",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "… is preferable if possible",
+        "the more …, the better"
+      ],
+      "usage_note": "Says a state or action is preferable, even if it is not essential: the better option cannot hurt (早く着くに越したことはない). Dictionary-form verbs and i-adjectives attach directly; nouns and na-adjectives may insert である. It often offers cautious, practical advice. に限る gives a firmer personal endorsement, whereas this pattern leaves less ideal alternatives open.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "に越したことはない",
+          "reading": "にこしたことはない",
+          "left_connection": "sU90",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "時間[じかん]には余裕[よゆう]を持[も]つに越[こ]したことはない。",
+          "english": "It is best to leave yourself some extra time."
+        },
+        {
+          "ruby": "同[おな]じ品質[ひんしつ]なら、値段[ねだん]は安[やす]いに越[こ]したことはない。",
+          "english": "For the same quality, a lower price is preferable."
+        },
+        {
+          "ruby": "知[し]らない山道[やまみち]では、慎重[しんちょう]であるに越[こ]したことはない。",
+          "english": "On an unfamiliar mountain path, it is best to be cautious."
+        }
+      ]
+    },
+    {
+      "l2_id": "S056",
+      "canonical_surface": "恐れがある",
+      "reading": "おそれがある",
+      "class_name": "可能性-危険-オソレガアル",
+      "connection": "a dictionary-form verb, a negative verb, or a noun plus の (倒れる恐れがある; 遅延の恐れがある)",
+      "difficulty": "B",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "there is a risk of …",
+        "… may happen adversely"
+      ],
+      "usage_note": "Identifies an unwelcome event as a possible risk. A verb in its dictionary or negative form, or a noun plus の, precedes 恐れがある (壊れる恐れがある, 不足の恐れがある). It is common in warnings, reports, and official advice, where かもしれない is more conversational. It does not mean someone feels afraid, and normally does not describe a welcome possibility.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "恐れがある",
+          "reading": "おそれがある",
+          "left_connection": "sI90",
+          "register": "normal"
+        },
+        {
+          "surface": "おそれがある",
+          "reading": "おそれがある",
+          "left_connection": "sI90",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "強風[きょうふう]で、看板[かんばん]が倒[たお]れる恐[おそ]れがある。",
+          "english": "There is a risk that the sign will fall over in the strong wind."
+        },
+        {
+          "ruby": "このままでは、必要[ひつよう]な薬[くすり]が足[た]りなくなる恐[おそ]れがある。",
+          "english": "If this continues, there is a risk of running short of the necessary medicine."
+        },
+        {
+          "ruby": "大雪[おおゆき]のため、電車[でんしゃ]の遅延[ちえん]の恐[おそ]れがある。",
+          "english": "Because of the heavy snow, train delays are possible."
+        }
+      ]
+    },
+    {
+      "l2_id": "S057",
+      "canonical_surface": "ものがある",
+      "reading": "ものがある",
+      "class_name": "評価-感慨-モノガアル",
+      "connection": "a plain verb or i-adjective, or a na-adjective plus な (考えさせられるものがある; 特別なものがある)",
+      "difficulty": "B",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "has a distinctly … quality",
+        "one cannot help finding it …"
+      ],
+      "usage_note": "Presents a quality as something distinctly felt in an experience (胸に迫るものがある, 寂しいものがある). It often follows an emotive description or a verb such as 考えさせられる, and sounds reflective rather than like an objective measurement. Plain verbs and i-adjectives attach directly, na-adjectives through な. The literal claim that an object exists is separate.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "ものがある",
+          "reading": "ものがある",
+          "left_connection": "b790",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "久[ひさ]しぶりに母校[ぼこう]を訪[たず]ねると、感慨[かんがい]深[ぶか]いものがある。",
+          "english": "Visiting my old school after so long brings a deep sense of reflection."
+        },
+        {
+          "ruby": "彼女[かのじょ]の話[はなし]には、考[かんが]えさせられるものがある。",
+          "english": "There is something thought-provoking about her account."
+        },
+        {
+          "ruby": "誰[だれ]もいない教室[きょうしつ]は、やはり寂[さび]しいものがある。",
+          "english": "An empty classroom does have a certain loneliness about it."
+        }
+      ]
+    },
+    {
+      "l2_id": "S058",
+      "canonical_surface": "ことなく",
+      "reading": "ことなく",
+      "class_name": "付帯-不実行-コトナク",
+      "connection": "a dictionary-form verb (休むことなく)",
+      "difficulty": "B",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "without once …ing",
+        "without doing …"
+      ],
+      "usage_note": "Describes an action that does not take place while another does, using a dictionary-form verb plus ことなく (振り返ることなく進む). It is a written, formal alternative to ないで or ずに. With duration or repetition it can emphasize the uninterrupted absence of the first action, but it does not itself mean the subject was unable or unwilling to do it.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "ことなく",
+          "reading": "ことなく",
+          "left_connection": "d190",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "選手[せんしゅ]は最後[さいご]まで諦[あきら]めることなく走[はし]った。",
+          "english": "The athlete ran to the end without giving up."
+        },
+        {
+          "ruby": "機械[きかい]は一晩[ひとばん]中[じゅう]止[と]まることなく動[うご]いていた。",
+          "english": "The machine kept running all night without stopping."
+        },
+        {
+          "ruby": "彼[かれ]は誰[だれ]にも相談[そうだん]することなく、計画[けいかく]を変[か]えた。",
+          "english": "He changed the plan without consulting anyone."
+        }
+      ]
+    },
+    {
+      "l2_id": "S059",
+      "canonical_surface": "に基づいて",
+      "reading": "にもとづいて",
+      "class_name": "根拠-基盤-ニモトヅイテ",
+      "connection": "a noun naming the basis (調査に基づいて); に基づく modifies a noun",
+      "difficulty": "B",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "grounded in …",
+        "on the foundation of …"
+      ],
+      "usage_note": "Names the evidence, rule, or principle that provides the basis for an action or judgment (調査に基づいて決める). It follows a noun and is common in reports and explanations. に基づく and に基づいた modify a following noun. Unlike をもとに, which may name raw material adapted freely, に基づいて emphasizes an authoritative or reasoned foundation.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "に基づいて",
+          "reading": "にもとづいて",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "に基づく",
+          "reading": "にもとづく",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "に基づいた",
+          "reading": "にもとづいた",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "にもとづいて",
+          "reading": "にもとづいて",
+          "left_connection": "1090",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "調査[ちょうさ]の結果[けっか]に基[もと]づいて、新[あたら]しい方針[ほうしん]を決[き]めた。",
+          "english": "We decided on a new policy based on the survey results."
+        },
+        {
+          "ruby": "契約[けいやく]に基[もと]づいて、毎月[まいつき]料金[りょうきん]を支払[しはら]います。",
+          "english": "We pay the monthly charge according to the contract."
+        },
+        {
+          "ruby": "観察[かんさつ]に基[もと]づいて、動物[どうぶつ]の行動[こうどう]を説明[せつめい]した。",
+          "english": "She explained the animals’ behavior on the basis of observation."
+        }
+      ]
+    },
+    {
+      "l2_id": "S060",
+      "canonical_surface": "に沿って",
+      "reading": "にそって",
+      "class_name": "準拠-方針-ニソッテ",
+      "connection": "a noun naming a plan, policy, or intention (方針に沿って); に沿う modifies a noun",
+      "difficulty": "B",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "following the course of …",
+        "in keeping with …"
+      ],
+      "usage_note": "Keeps an action in line with a plan, policy, intention, or requirement (方針に沿って進める). It follows a noun; に沿う or に沿った modifies another noun. This figurative sense describes adherence, while 川に沿って歩く is the literal spatial use of 沿う. に基づいて names an underlying foundation, whereas に沿って stresses following the course already set.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "に沿って",
+          "reading": "にそって",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "に沿う",
+          "reading": "にそう",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "に沿った",
+          "reading": "にそった",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "にそって",
+          "reading": "にそって",
+          "left_connection": "1090",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "計画[けいかく]に沿[そ]って、少[すこ]しずつ作業[さぎょう]を進[すす]めます。",
+          "english": "We will proceed with the work a little at a time, following the plan."
+        },
+        {
+          "ruby": "参加者[さんかしゃ]の希望[きぼう]に沿[そ]って、会場[かいじょう]を選[えら]んだ。",
+          "english": "We chose the venue in keeping with the participants’ wishes."
+        },
+        {
+          "ruby": "学校[がっこう]の方針[ほうしん]に沿[そ]って、授業[じゅぎょう]の内容[ないよう]を見直[みなお]した。",
+          "english": "We revised the lesson content in line with the school’s policy."
+        }
+      ]
+    },
+    {
+      "l2_id": "S061",
+      "canonical_surface": "に伴って",
+      "reading": "にともなって",
+      "class_name": "相関-随伴-ニトモナッテ",
+      "connection": "a noun or dictionary-form verb (人口の増加に伴って; 変化するに伴って)",
+      "difficulty": "B",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "along with the change in …",
+        "as an accompanying result of …"
+      ],
+      "usage_note": "Links a development to another change that accompanies it (人口の増加に伴って店が増える). It takes a noun or dictionary-form verb and is common in reports describing social, economic, or physical change. に伴う and に伴った modify nouns. It can express a consequence as well as parallel change; unlike につれて, a gradual increase or decrease is not required.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "に伴って",
+          "reading": "にともなって",
+          "left_connection": "e190",
+          "register": "normal"
+        },
+        {
+          "surface": "に伴う",
+          "reading": "にともなう",
+          "left_connection": "e190",
+          "register": "normal"
+        },
+        {
+          "surface": "に伴った",
+          "reading": "にともなった",
+          "left_connection": "e190",
+          "register": "normal"
+        },
+        {
+          "surface": "にともなって",
+          "reading": "にともなって",
+          "left_connection": "e190",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "人口[じんこう]の増加[ぞうか]に伴[ともな]って、新[あたら]しい学校[がっこう]が建[た]てられた。",
+          "english": "As the population grew, a new school was built."
+        },
+        {
+          "ruby": "制度[せいど]の変更[へんこう]に伴[ともな]って、申請[しんせい]方法[ほうほう]も変[か]わります。",
+          "english": "The application procedure will also change along with the new system."
+        },
+        {
+          "ruby": "気温[きおん]が上昇[じょうしょう]するに伴[ともな]って、雪[ゆき]が溶[と]け始[はじ]めた。",
+          "english": "As the temperature rose, the snow began to melt."
+        }
+      ]
+    },
+    {
+      "l2_id": "S062",
+      "canonical_surface": "きらいがある",
+      "reading": "きらいがある",
+      "class_name": "傾向-好ましくない-キライガアル",
+      "connection": "a dictionary-form or negative verb, or a noun plus の",
+      "difficulty": "C",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "has an unfortunate tendency to …",
+        "is prone to …"
+      ],
+      "usage_note": "Judges a recurring habit or tendency negatively (結論を急ぐきらいがある). It takes a dictionary-form or negative verb, or N+の. The criticism is measured and formal rather than an angry accusation. This きらい is not the adjective 嫌い, and a neutral natural tendency is better expressed with 傾向がある.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "きらいがある",
+          "reading": "きらいがある",
+          "left_connection": "sN90",
+          "register": "normal"
+        },
+        {
+          "surface": "きらいがあります",
+          "reading": "きらいがあります",
+          "left_connection": "sN90",
+          "register": "polite"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "彼[かれ]は説明[せつめい]を最後[さいご]まで聞[き]かずに結論[けつろん]を急[いそ]ぐきらいがある。",
+          "english": "He tends to rush to a conclusion without hearing the full explanation."
+        },
+        {
+          "ruby": "この委員会[いいんかい]には、現場[げんば]の声[こえ]を重視[じゅうし]しないきらいがある。",
+          "english": "This committee has a tendency to neglect views from the workplace."
+        },
+        {
+          "ruby": "最近[さいきん]の評価[ひょうか]は数字[すうじ]だけに頼[たよ]りすぎるきらいがあります。",
+          "english": "Recent evaluations tend to rely too heavily on numbers alone."
+        }
+      ]
+    },
+    {
+      "l2_id": "S063",
+      "canonical_surface": "を余儀なくされる",
+      "reading": "をよぎなくされる",
+      "class_name": "強制-事情-ヲヨギナクサレル",
+      "connection": "a noun naming an action, change, or unwanted state",
+      "difficulty": "C",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "is compelled to …",
+        "has an unwanted course forced on them"
+      ],
+      "usage_note": "An outside circumstance leaves the subject unable to choose a different course. An action or state noun takes を余儀なくされる (計画の変更を余儀なくされる). This is formal report language. The active を余儀なくさせる instead makes the circumstance the cause; the passive here describes the person or organization affected.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "を余儀なくされる",
+          "reading": "をよぎなくされる",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "を余儀なくされた",
+          "reading": "をよぎなくされた",
+          "left_connection": "1090",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "部品[ぶひん]が届[とど]かず、工場[こうじょう]は操業[そうぎょう]の停止[ていし]を余儀[よぎ]なくされた。",
+          "english": "With the parts still undelivered, the factory was forced to halt operations."
+        },
+        {
+          "ruby": "橋[はし]の修理[しゅうり]で、住民[じゅうみん]は遠回[とおまわ]りを余儀[よぎ]なくされた。",
+          "english": "Bridge repairs forced residents to take a detour."
+        },
+        {
+          "ruby": "資金[しきん]が足[た]りなければ、私[わたし]たちは計画[けいかく]の縮小[しゅくしょう]を余儀[よぎ]なくされる。",
+          "english": "If funding falls short, we will be forced to scale down the plan."
+        }
+      ]
+    },
+    {
+      "l2_id": "S064",
+      "canonical_surface": "てからというもの",
+      "reading": "てからというもの",
+      "class_name": "継続-転機-テカラトイウモノ",
+      "connection": "a verb in the て-form",
+      "difficulty": "C",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "ever since that turning point …",
+        "from then on …"
+      ],
+      "usage_note": "Highlights a turning point after which a changed state or habit continues (引っ越してからというもの). Unlike plain てから, it does not merely order two actions: the main clause describes the lasting aftermath. The voiced counterpart is でからというもの. It commonly appears in reflective narration.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "てからというもの",
+          "reading": "てからというもの",
+          "left_connection": "d890",
+          "register": "normal"
+        },
+        {
+          "surface": "でからというもの",
+          "reading": "でからというもの",
+          "left_connection": "d990",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "犬[いぬ]を飼[か]い始[はじ]めてからというもの、朝[あさ]の散歩[さんぽ]が欠[か]かせなくなった。",
+          "english": "Ever since I got a dog, a morning walk has become essential."
+        },
+        {
+          "ruby": "祖母[そぼ]と暮[く]らしてからというもの、季節[きせつ]の行事[ぎょうじ]を大切[たいせつ]にしている。",
+          "english": "Ever since I began living with my grandmother, seasonal traditions have mattered to me."
+        },
+        {
+          "ruby": "この店[みせ]のパンを食[た]べてからというもの、他[ほか]の店[みせ]では買[か]わなくなった。",
+          "english": "Ever since trying this bakery’s bread, I have stopped buying it elsewhere."
+        }
+      ]
+    },
+    {
+      "l2_id": "S065",
+      "canonical_surface": "を皮切りに",
+      "reading": "をかわきりに",
+      "class_name": "起点-連続-ヲカワキリニ",
+      "connection": "a noun naming the first event in a sequence",
+      "difficulty": "C",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "starting the series with …",
+        "with … as the first of many"
+      ],
+      "usage_note": "Treats one event as the opening of a series that then spreads or follows in succession (公演を皮切りに). It is more than a date marking a start: further events are expected. Nouns attach directly; a completed clause can be nominalized with の or こと. The longer を皮切りにして and を皮切りとして have the same role.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "を皮切りに",
+          "reading": "をかわきりに",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "を皮切りにして",
+          "reading": "をかわきりにして",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "を皮切りとして",
+          "reading": "をかわきりとして",
+          "left_connection": "1090",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "京都[きょうと]での公演[こうえん]を皮切[かわき]りに、楽団[がくだん]は十[じゅう]の都市[とし]を巡[めぐ]る。",
+          "english": "Starting with a performance in Kyoto, the orchestra will tour ten cities."
+        },
+        {
+          "ruby": "第一号[だいいちごう]の発行[はっこう]を皮切[かわき]りに、毎月[まいつき]新[あたら]しい冊子[さっし]を出[だ]す予定[よてい]だ。",
+          "english": "The first issue will launch a series of new monthly booklets."
+        },
+        {
+          "ruby": "姉[あね]の質問[しつもん]を皮切[かわき]りに、家族[かぞく]から次々[つぎつぎ]に質問[しつもん]が出[で]た。",
+          "english": "My sister’s question opened a stream of questions from the family."
+        }
+      ]
+    },
+    {
+      "l2_id": "S066",
+      "canonical_surface": "かたわら",
+      "reading": "かたわら",
+      "class_name": "並行-長期活動-カタワラ",
+      "connection": "a dictionary-form verb or a noun plus の",
+      "difficulty": "C",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "alongside one’s main activity …",
+        "while also pursuing …"
+      ],
+      "usage_note": "Presents a second sustained activity alongside a main occupation or responsibility (店を営むかたわら). The activities can happen at different times; unlike ながら, the point is their coexistence over a period. It takes a dictionary-form verb or N+の. The physical noun meaning the side of a place or person is separate.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "かたわら",
+          "reading": "かたわら",
+          "left_connection": "d590",
+          "register": "normal"
+        },
+        {
+          "surface": "傍ら",
+          "reading": "かたわら",
+          "left_connection": "d590",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "叔父[おじ]は店[みせ]を営[いとな]むかたわら、地域[ちいき]の歴史[れきし]を調[しら]べている。",
+          "english": "Alongside running his shop, my uncle researches local history."
+        },
+        {
+          "ruby": "大学院[だいがくいん]で学[まな]ぶかたわら、週末[しゅうまつ]は翻訳[ほんやく]の仕事[しごと]をしている。",
+          "english": "While studying in graduate school, I also work as a translator on weekends."
+        },
+        {
+          "ruby": "子育[こそだ]てのかたわら、彼女[かのじょ]は陶芸[とうげい]の作品[さくひん]を作[つく]り続[つづ]けた。",
+          "english": "Alongside raising her children, she continued creating pottery."
+        }
+      ]
+    },
+    {
+      "l2_id": "S067",
+      "canonical_surface": "を踏まえて",
+      "reading": "をふまえて",
+      "class_name": "根拠-考慮-ヲフマエテ",
+      "connection": "a noun naming evidence, experience, or circumstances",
+      "difficulty": "C",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "taking those facts into account …",
+        "building on …"
+      ],
+      "usage_note": "Takes prior facts, experience, or discussion into account before deciding or acting (議論を踏まえて). The following action builds on that basis rather than simply occurring after it. It is common in formal decisions and reports. を踏まえた modifies a noun; literal stepping or standing on something is a different use of 踏まえる.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "を踏まえて",
+          "reading": "をふまえて",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "を踏まえた",
+          "reading": "をふまえた",
+          "left_connection": "1090",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "住民[じゅうみん]の意見[いけん]を踏[ふ]まえて、公園[こうえん]の配置[はいち]を変[か]えた。",
+          "english": "We changed the park’s layout after taking residents’ views into account."
+        },
+        {
+          "ruby": "去年[きょねん]の失敗[しっぱい]を踏[ふ]まえて、今年[ことし]は予備[よび]の機材[きざい]を用意[ようい]する。",
+          "english": "Learning from last year’s failure, we will prepare spare equipment this year."
+        },
+        {
+          "ruby": "会議[かいぎ]の議論[ぎろん]を踏[ふ]まえた案[あん]を、明日[あした]提出[ていしゅつ]します。",
+          "english": "Tomorrow I will submit a proposal that builds on the meeting’s discussion."
+        }
+      ]
+    },
+    {
+      "l2_id": "S068",
+      "canonical_surface": "に即して",
+      "reading": "にそくして",
+      "class_name": "適合-実情-ニソクシテ",
+      "connection": "a noun naming actual conditions, facts, or a guiding standard",
+      "difficulty": "C",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "in keeping with actual conditions …",
+        "aligned with …"
+      ],
+      "usage_note": "Keeps a response aligned with actual conditions or a stated basis (実情に即して). に即した modifies a noun. In this spelling the focus is often facts or present reality; に則して more explicitly follows a rule or principle. It is formal language and does not mean the literal act of moving immediately.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "に即して",
+          "reading": "にそくして",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "に即した",
+          "reading": "にそくした",
+          "left_connection": "1090",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "地域[ちいき]の実情[じつじょう]に即[そく]して、避難[ひなん]の手順[てじゅん]を決[き]めよう。",
+          "english": "Let us decide evacuation procedures that fit local conditions."
+        },
+        {
+          "ruby": "記者[きしゃ]は確認[かくにん]された事実[じじつ]に即[そく]して記事[きじ]を書[か]いた。",
+          "english": "The reporter wrote the article in line with the verified facts."
+        },
+        {
+          "ruby": "授業[じゅぎょう]では、生活[せいかつ]に即[そく]した例[れい]を使[つか]っています。",
+          "english": "In class we use examples that reflect everyday life."
+        }
+      ]
+    },
+    {
+      "l2_id": "S069",
+      "canonical_surface": "に照らして",
+      "reading": "にてらして",
+      "class_name": "基準-比較-ニテラシテ",
+      "connection": "a noun naming a standard, precedent, or experience",
+      "difficulty": "C",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "assessed against …",
+        "in light of that standard …"
+      ],
+      "usage_note": "Judges something by comparing it with a standard, precedent, or experience (規則に照らして). に照らすと introduces the result of that comparison; に照らした modifies a noun. Unlike simply mentioning a basis, this frame makes comparison or assessment salient. Literal illumination by a light source is a separate use of 照らす.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "に照らして",
+          "reading": "にてらして",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "に照らすと",
+          "reading": "にてらすと",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "に照らした",
+          "reading": "にてらした",
+          "left_connection": "1090",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "現在[げんざい]の規則[きそく]に照[て]らして、この申請[しんせい]は認[みと]められない。",
+          "english": "Under the current rules, this application cannot be approved."
+        },
+        {
+          "ruby": "過去[かこ]の経験[けいけん]に照[て]らすと、その日程[にってい]では無理[むり]がある。",
+          "english": "Judging by past experience, that schedule is unrealistic."
+        },
+        {
+          "ruby": "公表[こうひょう]された基準[きじゅん]に照[て]らした評価[ひょうか]を求[もと]めます。",
+          "english": "We ask for an evaluation against the published criteria."
+        }
+      ]
+    },
+    {
+      "l2_id": "S070",
+      "canonical_surface": "とあって",
+      "reading": "とあって",
+      "class_name": "理由-特別事情-トアッテ",
+      "connection": "a plain-form clause or a noun; a noun or な-adjective may include だ",
+      "difficulty": "C",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "given that special circumstance …",
+        "with that being the case …"
+      ],
+      "usage_note": "Gives a noteworthy established circumstance as the reason for a predictable reaction (初公開とあって). The main clause reports what naturally results, not the speaker’s request or intention. It takes plain clauses and nouns, with だ possible after nouns or な-adjectives. Unlike とあれば, it presents the circumstance as real rather than hypothetical.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "とあって",
+          "reading": "とあって",
+          "left_connection": "sA90",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "入場[にゅうじょう]無料[むりょう]とあって、会場[かいじょう]には大勢[おおぜい]の人[ひと]が集[あつ]まった。",
+          "english": "With admission free, a large crowd gathered at the venue."
+        },
+        {
+          "ruby": "十年[じゅうねん]ぶりに帰[かえ]ってくるとあって、家族[かぞく]は朝[あさ]から落[お]ち着[つ]かない。",
+          "english": "With a family member returning after ten years, everyone has been restless since morning."
+        },
+        {
+          "ruby": "初[はじ]めて雪[ゆき]が降[ふ]ったとあって、子供[こども]たちは窓[まど]に駆[か]け寄[よ]った。",
+          "english": "Because it was the first snowfall, the children rushed to the window."
+        }
+      ]
+    },
+    {
+      "l2_id": "S071",
+      "canonical_surface": "てやまない",
+      "reading": "てやまない",
+      "class_name": "感情-持続-テヤマナイ",
+      "connection": "a て-form verb of wishing, affection, belief, or admiration",
+      "difficulty": "C",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "never stops sincerely …",
+        "feels … with lasting devotion"
+      ],
+      "usage_note": "Affirms a deep feeling that continues without fading (成功を願ってやまない). It is especially natural with 願う, 祈る, 愛する, and 信じる, rather than arbitrary ongoing actions. てやみません is the polite form often used in greetings or speeches. This is sustained sincerity, not the involuntary discomfort expressed by てたまらない.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "てやまない",
+          "reading": "てやまない",
+          "left_connection": "d890",
+          "register": "normal"
+        },
+        {
+          "surface": "でやまない",
+          "reading": "でやまない",
+          "left_connection": "d990",
+          "register": "normal"
+        },
+        {
+          "surface": "てやみません",
+          "reading": "てやみません",
+          "left_connection": "d890",
+          "register": "polite"
+        },
+        {
+          "surface": "でやみません",
+          "reading": "でやみません",
+          "left_connection": "d990",
+          "register": "polite"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "私[わたし]は、離[はな]れて暮[く]らす家族[かぞく]の無事[ぶじ]を祈[いの]ってやまない。",
+          "english": "I never stop praying for the safety of my family living far away."
+        },
+        {
+          "ruby": "祖父[そふ]が愛[あい]してやまない庭[にわ]を、今年[ことし]は私[わたし]が手入[てい]れしている。",
+          "english": "This year I am tending the garden my grandfather loves so deeply."
+        },
+        {
+          "ruby": "卒業生[そつぎょうせい]の皆[みな]さんの未来[みらい]が明[あか]るいことを願[ねが]ってやみません。",
+          "english": "I sincerely hope the future is bright for all of you graduating today."
+        }
+      ]
+    },
+    {
+      "l2_id": "S072",
+      "canonical_surface": "ないで",
+      "reading": "ないで",
+      "class_name": "付帯-不実行-ナイデ",
+      "connection": "a verb irrealis base before ない",
+      "difficulty": "A1",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "without doing …",
+        "instead of doing …"
+      ],
+      "usage_note": "Connects an action left undone to what someone does instead or proceeds to do. It does not by itself describe continuing to avoid the action; that is ないでいる. The connective なくて often gives a reason, whereas ないで typically describes the omitted accompanying action. ずに is a more formal counterpart.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "ないで",
+          "reading": "ないで",
+          "left_connection": "dM90",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "朝[あさ]ご飯[はん]を食[た]べないで学校[がっこう]へ行[い]った。",
+          "english": "I went to school without eating breakfast."
+        },
+        {
+          "ruby": "辞書[じしょ]を使[つか]わないで、この文[ぶん]を読[よ]んでみよう。",
+          "english": "Let us try reading this sentence without using a dictionary."
+        },
+        {
+          "ruby": "弟[おとうと]は勉強[べんきょう]しないでゲームをしていた。",
+          "english": "My little brother was playing games instead of studying."
+        }
+      ]
+    },
+    {
+      "l2_id": "S073",
+      "canonical_surface": "こと",
+      "reading": "こと",
+      "class_name": "名詞化-事柄-コト",
+      "connection": "a plain clause; noun predicates normally use である before こと; な-adjectives use な",
+      "difficulty": "A1",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "the act of …",
+        "the fact that …"
+      ],
+      "usage_note": "Turns an action, state, or fact into a noun phrase so it can take particles, as in 読むことが好きだ. It often presents the content as an abstract matter. の also nominalizes clauses, with differences depending on the following predicate. Topical ことは used to concede an assertion belongs to a different sense; this entry concerns simple nominalization.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "こと",
+          "reading": "こと",
+          "left_connection": "s190",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "毎日[まいにち]少[すこ]しずつ練習[れんしゅう]することが大切[たいせつ]だ。",
+          "english": "Practicing a little every day is important."
+        },
+        {
+          "ruby": "私[わたし]は知[し]らない町[まち]を歩[ある]くことが好[す]きだ。",
+          "english": "I like walking through unfamiliar towns."
+        },
+        {
+          "ruby": "約束[やくそく]を守[まも]ることを忘[わす]れないでください。",
+          "english": "Please remember to keep your promises."
+        }
+      ]
+    },
+    {
+      "l2_id": "S074",
+      "canonical_surface": "ようとする",
+      "reading": "ようとする",
+      "class_name": "試行-ヨウトスル",
+      "connection": "a volitional verb base: godan 未然ウ接続 + うとする; ichidan/する/来る irrealis + ようとする",
+      "difficulty": "A2",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "try to …",
+        "be about to …"
+      ],
+      "usage_note": "Describes an attempt or the moment someone sets out to do an action. With an event outside anyone's control it can describe being on the verge of happening (日が沈もうとしている). ようとしない specifically says someone makes no attempt, a separate existing sense. The volitional onset may be fused into the preceding verb token; its boundary needs contextual handling.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "ようとする",
+          "reading": "ようとする",
+          "left_connection": "dM90",
+          "register": "normal"
+        },
+        {
+          "surface": "うとする",
+          "reading": "うとする",
+          "left_connection": "2N90",
+          "register": "normal"
+        },
+        {
+          "surface": "ようとした",
+          "reading": "ようとした",
+          "left_connection": "dM90",
+          "register": "normal"
+        },
+        {
+          "surface": "うとした",
+          "reading": "うとした",
+          "left_connection": "2N90",
+          "register": "normal"
+        },
+        {
+          "surface": "ようとしている",
+          "reading": "ようとしている",
+          "left_connection": "dM90",
+          "register": "normal"
+        },
+        {
+          "surface": "うとしている",
+          "reading": "うとしている",
+          "left_connection": "2N90",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "窓[まど]を開[あ]けようとしたが、動[うご]かなかった。",
+          "english": "I tried to open the window, but it would not move."
+        },
+        {
+          "ruby": "子[こ]どもは一人[ひとり]で靴[くつ]を履[は]こうとしている。",
+          "english": "The child is trying to put on their shoes alone."
+        },
+        {
+          "ruby": "家[いえ]を出[で]ようとすると、電話[でんわ]が鳴[な]った。",
+          "english": "The phone rang just as I was about to leave home."
+        }
+      ]
+    },
+    {
+      "l2_id": "S075",
+      "canonical_surface": "たて",
+      "reading": "たて",
+      "class_name": "直後-新鮮-タテ",
+      "connection": "a verb stem, especially of an action with a fresh result",
+      "difficulty": "A2",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "freshly …ed",
+        "newly …ed"
+      ],
+      "usage_note": "Emphasizes that an action has just produced its result and that the result still feels fresh (焼きたてのパン). It follows a verb stem, taking の before a noun or だ as a predicate. It commonly describes food or someone newly entering a state, such as 入りたて. Unlike たばかり, it is not available after every action; the result must be something naturally described as new or fresh.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "たて",
+          "reading": "たて",
+          "left_connection": "dG90",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "焼[や]きたてのパンを買[か]った。",
+          "english": "I bought some freshly baked bread."
+        },
+        {
+          "ruby": "炊[た]きたてのご飯[はん]は、そのままでもおいしい。",
+          "english": "Freshly cooked rice tastes good even on its own."
+        },
+        {
+          "ruby": "この会社[かいしゃ]に入[はい]りたての頃[ころ]は、毎日[まいにち]緊張[きんちょう]していた。",
+          "english": "When I had just joined this company, I was nervous every day."
+        }
+      ]
+    },
+    {
+      "l2_id": "S076",
+      "canonical_surface": "とおり",
+      "reading": "とおり",
+      "class_name": "一致-手本-トオリ",
+      "connection": "a dictionary or past-form verb, or a noun plus の; a noun directly takes どおり",
+      "difficulty": "A2",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "just as …",
+        "in accordance with …"
+      ],
+      "usage_note": "Makes an action or result match a model, instruction, or expectation (説明したとおりに). Verbs take dictionary or past form; a noun takes のとおり, or directly どおり (予定どおり). に commonly marks the manner and の modifies a noun. This sense concerns matching what was specified; it is separate from a literal street and from counting alternatives with 一通り or 二通り.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "とおり",
+          "reading": "とおり",
+          "left_connection": "d490",
+          "register": "normal"
+        },
+        {
+          "surface": "通り",
+          "reading": "とおり",
+          "left_connection": "d490",
+          "register": "normal"
+        },
+        {
+          "surface": "どおり",
+          "reading": "どおり",
+          "left_connection": "1090",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "説明書[せつめいしょ]のとおりに、部品[ぶひん]を並[なら]べてください。",
+          "english": "Please arrange the parts as shown in the instructions."
+        },
+        {
+          "ruby": "思[おも]ったとおり、店[みせ]はもう閉[し]まっていた。",
+          "english": "Just as I expected, the shop was already closed."
+        },
+        {
+          "ruby": "電車[でんしゃ]は予定[よてい]どおりに到着[とうちゃく]した。",
+          "english": "The train arrived according to schedule."
+        }
+      ]
+    },
+    {
+      "l2_id": "S077",
+      "canonical_surface": "がたい",
+      "reading": "がたい",
+      "class_name": "困難-心理-ガタイ",
+      "connection": "a verb stem; forms an i-adjective",
+      "difficulty": "A2",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "hard to …",
+        "difficult to bring oneself to …"
+      ],
+      "usage_note": "Describes something difficult because it strains belief, acceptance, memory, or the speaker's feelings (信じがたい, 忘れがたい). It follows a verb stem and conjugates as an i-adjective. It is more formal and less widely combinable than にくい: ordinary physical difficulty, such as a hard-to-use tool, usually takes にくい. Common pairings express judgment or emotional resistance rather than lack of skill.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "がたい",
+          "reading": "がたい",
+          "left_connection": "dG90",
+          "register": "normal"
+        },
+        {
+          "surface": "難い",
+          "reading": "がたい",
+          "left_connection": "dG90",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "彼[かれ]がそんなことを言[い]ったとは、信[しん]じがたい。",
+          "english": "It is hard to believe that he said such a thing."
+        },
+        {
+          "ruby": "学生[がくせい]時代[じだい]の旅[たび]は、今[いま]も忘[わす]れがたい。",
+          "english": "I still find the journey I took as a student unforgettable."
+        },
+        {
+          "ruby": "その説明[せつめい]だけでは、結果[けっか]を受[う]け入[い]れがたい。",
+          "english": "That explanation alone makes the outcome hard to accept."
+        }
+      ]
+    },
+    {
+      "l2_id": "S078",
+      "canonical_surface": "がち",
+      "reading": "がち",
+      "class_name": "傾向-頻発-ガチ",
+      "connection": "a verb stem or a noun naming a recurring state",
+      "difficulty": "A2",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "tend to …",
+        "often be …"
+      ],
+      "usage_note": "Describes a recurring tendency, usually one the speaker finds undesirable (遅れがち, 留守がち). It follows a verb stem or a suitable state noun and behaves like a na-adjective, with がちな or がちの before a noun. It concerns what happens frequently, not just a slight current condition, which is 気味. It does not freely attach to every noun merely to mean that there is a lot of it.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "がち",
+          "reading": "がち",
+          "left_connection": "eG90",
+          "register": "normal"
+        },
+        {
+          "surface": "勝ち",
+          "reading": "がち",
+          "left_connection": "eG90",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "忙[いそが]しいと、食事[しょくじ]が不規則[ふきそく]になりがちだ。",
+          "english": "When I am busy, my meals tend to become irregular."
+        },
+        {
+          "ruby": "最近[さいきん]、兄[あに]は仕事[しごと]で留守[るす]がちだ。",
+          "english": "My older brother has often been away for work lately."
+        },
+        {
+          "ruby": "雨[あめ]の日[ひ]は、バスが遅[おく]れがちだ。",
+          "english": "On rainy days, the bus is prone to running late."
+        }
+      ]
+    },
+    {
+      "l2_id": "S079",
+      "canonical_surface": "気味",
+      "reading": "ぎみ",
+      "class_name": "傾向-軽度-ギミ",
+      "connection": "a verb stem or a noun naming a condition",
+      "difficulty": "A2",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "a little …",
+        "showing signs of …"
+      ],
+      "usage_note": "Reports a slight degree of a condition or a tendency already showing (疲れ気味, 風邪気味). It follows a verb stem or a suitable condition noun, takes だ as a predicate, and modifies a noun with の. It often concerns an unwelcome present state, unlike がち, which emphasizes repeated occurrences. It is not a general replacement for 少し before arbitrary adjectives.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "気味",
+          "reading": "ぎみ",
+          "left_connection": "eG90",
+          "register": "normal"
+        },
+        {
+          "surface": "ぎみ",
+          "reading": "ぎみ",
+          "left_connection": "eG90",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "今週[こんしゅう]は少[すこ]し疲[つか]れ気味[ぎみ]だ。",
+          "english": "I have been feeling a little tired this week."
+        },
+        {
+          "ruby": "風邪[かぜ]気味[ぎみ]なので、今日[きょう]は早[はや]く帰[かえ]る。",
+          "english": "I seem to be coming down with a cold, so I will go home early today."
+        },
+        {
+          "ruby": "運動[うんどう]不足[ぶそく]で、最近[さいきん]は太[ふと]り気味[ぎみ]だ。",
+          "english": "I have been putting on a little weight lately because I have not been exercising enough."
+        }
+      ]
+    },
+    {
+      "l2_id": "S080",
+      "canonical_surface": "っぽい",
+      "reading": "っぽい",
+      "class_name": "性質-傾向-ッポイ",
+      "connection": "a noun, a suitable verb stem, or an i-adjective stem",
+      "difficulty": "A2",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "-ish; having a … quality",
+        "prone to …"
+      ],
+      "usage_note": "Forms an i-adjective saying that something has a noticeable quality or tendency (子供っぽい, 忘れっぽい, 白っぽい). It follows nouns and selected verb or adjective stems, but natural combinations are partly lexical, not unlimited. With people it often voices mild criticism; with colors or textures it can be neutral. It describes a characteristic rather than the frequency of a particular event.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "っぽい",
+          "reading": "っぽい",
+          "left_connection": "sC90",
+          "register": "normal"
+        },
+        {
+          "surface": "っぽく",
+          "reading": "っぽく",
+          "left_connection": "sC90",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "その帽子[ぼうし]は少[すこ]し子供[こども]っぽいね。",
+          "english": "That hat looks a little childish."
+        },
+        {
+          "ruby": "最近[さいきん]、忘[わす]れっぽくなった気[き]がする。",
+          "english": "I feel as though I have become more forgetful lately."
+        },
+        {
+          "ruby": "白[しろ]っぽい布[ぬの]を窓[まど]に掛[か]けた。",
+          "english": "I hung some whitish fabric over the window."
+        }
+      ]
+    },
+    {
+      "l2_id": "S081",
+      "canonical_surface": "っぱなし",
+      "reading": "っぱなし",
+      "class_name": "継続-放置-ッパナシ",
+      "connection": "a verb stem; っぱなしだ as a predicate, っぱなしの before a noun",
+      "difficulty": "A2",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "leave … as it is",
+        "keep …ing without a break"
+      ],
+      "usage_note": "Says an action or its result continues without being stopped or put right (つけっぱなし, 立ちっぱなし). It follows a verb stem, takes だ as a predicate, and の before a noun. Leaving a result usually suggests neglect, while an ongoing action can simply emphasize its long duration. Unlike まま, it directly builds on an action and commonly implies that a change or break was expected.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "っぱなし",
+          "reading": "っぱなし",
+          "left_connection": "dG90",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "電気[でんき]をつけっぱなしで出[で]かけてしまった。",
+          "english": "I went out and accidentally left the lights on."
+        },
+        {
+          "ruby": "朝[あさ]から立[た]ちっぱなしで、足[あし]が痛[いた]い。",
+          "english": "My feet hurt because I have been standing without a break since morning."
+        },
+        {
+          "ruby": "出[だ]しっぱなしの道具[どうぐ]を片付[かたづ]けた。",
+          "english": "I put away the tools that had been left out."
+        }
+      ]
+    },
+    {
+      "l2_id": "S082",
+      "canonical_surface": "合う",
+      "reading": "あう",
+      "class_name": "相互-アウ",
+      "connection": "a verb stem; forms a godan compound verb ending in 合う",
+      "difficulty": "A2",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "do … with each other",
+        "do … for one another"
+      ],
+      "usage_note": "Adds a reciprocal or shared relation to an action (助け合う, 話し合う). It follows a verb stem and the compound conjugates as the godan verb 合う. The people participate in or direct the action toward one another; it does not merely mean that several people happen to do it separately. Some combinations have settled meanings, so check the whole compound rather than attaching it to every verb.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "合う",
+          "reading": "あう",
+          "left_connection": "dG90",
+          "register": "normal"
+        },
+        {
+          "surface": "あう",
+          "reading": "あう",
+          "left_connection": "dG90",
+          "register": "normal"
+        },
+        {
+          "surface": "合った",
+          "reading": "あった",
+          "left_connection": "dG90",
+          "register": "normal"
+        },
+        {
+          "surface": "合って",
+          "reading": "あって",
+          "left_connection": "dG90",
+          "register": "normal"
+        },
+        {
+          "surface": "合おう",
+          "reading": "あおう",
+          "left_connection": "dG90",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "困[こま]った時[とき]は、お互[たが]いに助[たす]け合[あ]おう。",
+          "english": "Let us help one another when we are in trouble."
+        },
+        {
+          "ruby": "計画[けいかく]について、家族[かぞく]で話[はな]し合[あ]った。",
+          "english": "We discussed the plan together as a family."
+        },
+        {
+          "ruby": "試合[しあい]の後[あと]、選手[せんしゅ]たちは喜[よろこ]び合[あ]った。",
+          "english": "After the match, the players shared their joy with one another."
+        }
+      ]
+    },
+    {
+      "l2_id": "S083",
+      "canonical_surface": "ことから",
+      "reading": "ことから",
+      "class_name": "理由-根拠-コトカラ",
+      "connection": "a plain attributive clause; na-adjectives take な or である and nouns commonly take である",
+      "difficulty": "A2",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "from the fact that …",
+        "because …"
+      ],
+      "usage_note": "Uses a fact as grounds for an inference, decision, or explanation (形が星に似ていることから). It commonly explains a name or why a conclusion is justified. Plain clauses precede こと; na-adjectives take な or である and nouns commonly use である. Unlike a personal excuse with から, it treats the reason as evidence to inspect and is common in explanatory writing.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "ことから",
+          "reading": "ことから",
+          "left_connection": "s190",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "形[かたち]が星[ほし]に似[に]ていることから、星[ほし]パンと名付[なづ]けられた。",
+          "english": "It was named Star Bread because its shape resembles a star."
+        },
+        {
+          "ruby": "窓[まど]が開[あ]いていたことから、誰[だれ]かが入[はい]ったと考[かんが]えられる。",
+          "english": "The open window suggests that someone entered."
+        },
+        {
+          "ruby": "駅[えき]に近[ちか]いことから、この場所[ばしょ]が会場[かいじょう]に選[えら]ばれた。",
+          "english": "This location was chosen as the venue because it is close to the station."
+        }
+      ]
+    },
+    {
+      "l2_id": "S084",
+      "canonical_surface": "はもちろん",
+      "reading": "はもちろん",
+      "class_name": "添加-当然-ハモチロン",
+      "connection": "a noun or nominalized clause; the additional item commonly takes も",
+      "difficulty": "A2",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "not only … but also …",
+        "… goes without saying"
+      ],
+      "usage_note": "Takes the first item as obvious and adds a further one (平日はもちろん、日曜日も). The first element is a noun or nominalized clause and は marks it as the accepted starting point; も commonly marks the added item. Unlike だけでなく, it presents the first fact as something already expected. もちろん on its own is the ordinary adverb meaning of course.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "はもちろん",
+          "reading": "はもちろん",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "は勿論",
+          "reading": "はもちろん",
+          "left_connection": "1090",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "この店[みせ]は平日[へいじつ]はもちろん、日曜日[にちようび]も営業[えいぎょう]している。",
+          "english": "This shop opens on Sundays as well as weekdays."
+        },
+        {
+          "ruby": "彼女[かのじょ]は英語[えいご]はもちろん、フランス語[ご]も話[はな]せる。",
+          "english": "She can speak French in addition to English, which goes without saying."
+        },
+        {
+          "ruby": "味[あじ]はもちろん、料理[りょうり]の見[み]た目[め]も大切[たいせつ]だ。",
+          "english": "How a dish looks matters as well as its taste."
+        }
+      ]
+    },
+    {
+      "l2_id": "S085",
+      "canonical_surface": "に代わって",
+      "reading": "にかわって",
+      "class_name": "交替-代理-ニカワッテ",
+      "connection": "a noun naming the person or thing being replaced or represented",
+      "difficulty": "A2",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "in place of …",
+        "on behalf of …"
+      ],
+      "usage_note": "Names whose role another person or thing takes over (社長に代わって). It can mean acting as a representative or replacing an earlier method or object. It follows a noun directly; に代わる modifies a noun. Unlike 代わりに, which can substitute one action for another, this construction identifies the participant or means whose place is being taken.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "に代わって",
+          "reading": "にかわって",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "にかわって",
+          "reading": "にかわって",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "に代わる",
+          "reading": "にかわる",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "にかわる",
+          "reading": "にかわる",
+          "left_connection": "1090",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "社長[しゃちょう]に代[か]わって、私[わたし]が挨拶[あいさつ]します。",
+          "english": "I will give the greeting on behalf of the company president."
+        },
+        {
+          "ruby": "今日[きょう]は母[はは]に代[か]わって、兄[あに]が夕食[ゆうしょく]を作[つく]った。",
+          "english": "My older brother made dinner today in my mother's place."
+        },
+        {
+          "ruby": "紙[かみ]の切符[きっぷ]に代[か]わって、カードが使[つか]われるようになった。",
+          "english": "Cards came to be used instead of paper tickets."
+        }
+      ]
+    },
+    {
+      "l2_id": "S086",
+      "canonical_surface": "げ",
+      "reading": "げ",
+      "class_name": "様態-印象-ゲ",
+      "connection": "an i-adjective's stem without い, a na-adjective's stem, or an established verb-stem compound (悲しげ; 不安げ; 意味ありげ)",
+      "difficulty": "B",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "with an air of …",
+        "seemingly feeling …"
+      ],
+      "usage_note": "Turns a stem into a な-adjective describing an outward impression, often an emotion (悲しげな声, 不安げに見る). Remove an i-adjective's い; a na-adjective's stem attaches directly. Verb stems appear in established combinations such as 意味ありげ, not freely with every action. げな modifies a noun and げに modifies an action. It does not predict an imminent event as そうだ can.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "げ",
+          "reading": "げ",
+          "left_connection": "sJ90",
+          "register": "normal"
+        },
+        {
+          "surface": "げな",
+          "reading": "げな",
+          "left_connection": "sJ90",
+          "register": "normal"
+        },
+        {
+          "surface": "げに",
+          "reading": "げに",
+          "left_connection": "sJ90",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "彼女[かのじょ]は寂[さび]しげに、空[から]になった席[せき]を見[み]つめていた。",
+          "english": "She gazed at the empty seat with a lonely air."
+        },
+        {
+          "ruby": "子供[こども]は不安[ふあん]げな声[こえ]で、母親[ははおや]を呼[よ]んだ。",
+          "english": "The child called for his mother in an anxious-sounding voice."
+        },
+        {
+          "ruby": "兄[あに]は得意[とくい]げに、初[はじ]めて焼[や]いたパンを見[み]せてくれた。",
+          "english": "My brother proudly showed me the first bread he had baked."
+        }
+      ]
+    },
+    {
+      "l2_id": "S087",
+      "canonical_surface": "抜く",
+      "reading": "ぬく",
+      "class_name": "完遂-努力-ヌク",
+      "connection": "a verb's ます-stem (やり抜く; 考え抜く)",
+      "difficulty": "B",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "see … through despite difficulty",
+        "do … thoroughly"
+      ],
+      "usage_note": "A verb's ます-stem plus 抜く marks determined completion despite difficulty, or a human action carried out thoroughly (やり抜く, 考え抜く). The compound conjugates as a godan verb. Unlike てしまう, it foregrounds persistence or thoroughness rather than accidental completion. Literal extraction or passage, as in 引き抜く or 通り抜ける, is separate from this productive use.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "抜く",
+          "reading": "ぬく",
+          "left_connection": "dG90",
+          "register": "normal"
+        },
+        {
+          "surface": "ぬく",
+          "reading": "ぬく",
+          "left_connection": "dG90",
+          "register": "normal"
+        },
+        {
+          "surface": "抜いた",
+          "reading": "ぬいた",
+          "left_connection": "dG90",
+          "register": "normal"
+        },
+        {
+          "surface": "ぬいた",
+          "reading": "ぬいた",
+          "left_connection": "dG90",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "難[むずか]しい課題[かだい]だったが、仲間[なかま]と最後[さいご]までやり抜[ぬ]いた。",
+          "english": "The task was difficult, but I saw it through to the end with my teammates."
+        },
+        {
+          "ruby": "何度[なんど]も話[はな]し合[あ]い、全員[ぜんいん]が納得[なっとく]する方法[ほうほう]を考[かんが]え抜[ぬ]いた。",
+          "english": "We discussed it repeatedly and thought through a way everyone could accept."
+        },
+        {
+          "ruby": "暑[あつ]さで苦[くる]しかったが、彼[かれ]は長[なが]い距離[きょり]を走[はし]り抜[ぬ]いた。",
+          "english": "Despite suffering in the heat, he ran the entire long distance."
+        }
+      ]
+    },
+    {
+      "l2_id": "S088",
+      "canonical_surface": "を契機に",
+      "reading": "をけいきに",
+      "class_name": "起点-契機-ヲケイキニ",
+      "connection": "a noun naming a triggering event; a clause can be nominalized with の or こと (卒業を契機に; 会ったことをきっかけに)",
+      "difficulty": "B",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "taking … as a turning point",
+        "with … as the trigger"
+      ],
+      "usage_note": "Names an event that starts a new development (卒業を契機に). A noun attaches directly; a clause is first nominalized. を契機に is formal and often frames a significant change deliberately pursued. をきっかけに is less formal and can describe an incidental start; がきっかけで presents the event as the trigger rather than something deliberately used. All mark the start of a subsequent development.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "を契機に",
+          "reading": "をけいきに",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "をきっかけに",
+          "reading": "をきっかけに",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "がきっかけで",
+          "reading": "がきっかけで",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "を契機として",
+          "reading": "をけいきとして",
+          "left_connection": "1090",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "転職[てんしょく]を契機[けいき]に、生活[せいかつ]の習慣[しゅうかん]を見直[みなお]した。",
+          "english": "Changing jobs prompted me to rethink my daily habits."
+        },
+        {
+          "ruby": "新[あたら]しい駅[えき]の開業[かいぎょう]を契機[けいき]に、町[まち]の商店[しょうてん]が増[ふ]えた。",
+          "english": "The opening of the new station triggered growth in the town’s shops."
+        },
+        {
+          "ruby": "友人[ゆうじん]の誘[さそ]いをきっかけに、週末[しゅうまつ]は山[やま]を歩[ある]くようになった。",
+          "english": "A friend’s invitation got me started hiking on weekends."
+        }
+      ]
+    },
+    {
+      "l2_id": "S089",
+      "canonical_surface": "なくて済む",
+      "reading": "なくてすむ",
+      "class_name": "回避-不要-ナクテスム",
+      "connection": "a verb's negative stem plus なくて済む or ないで済む; ずに済む uses the ず stem, with する becoming せずに済む",
+      "difficulty": "B",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "get by without doing …",
+        "avoid having to …"
+      ],
+      "usage_note": "Says circumstances work out without an action that might otherwise be necessary or an outcome that might otherwise occur. It often conveys relief (買い直さなくて済んだ). なくて済む, ないで済む, and ずに済む are alternatives; する becomes しなくて済む or せずに済む. Unlike なくてもいい, it reports how things work out, rather than simply granting permission not to act.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "なくて済む",
+          "reading": "なくてすむ",
+          "left_connection": "dM90",
+          "register": "normal"
+        },
+        {
+          "surface": "なくて済んだ",
+          "reading": "なくてすんだ",
+          "left_connection": "dM90",
+          "register": "normal"
+        },
+        {
+          "surface": "なくてすむ",
+          "reading": "なくてすむ",
+          "left_connection": "dM90",
+          "register": "normal"
+        },
+        {
+          "surface": "ないで済む",
+          "reading": "ないですむ",
+          "left_connection": "dM90",
+          "register": "normal"
+        },
+        {
+          "surface": "ずに済む",
+          "reading": "ずにすむ",
+          "left_connection": "bP90",
+          "register": "normal"
+        },
+        {
+          "surface": "ずに済んだ",
+          "reading": "ずにすんだ",
+          "left_connection": "bP90",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "修理[しゅうり]できたので、新[あたら]しい自転車[じてんしゃ]を買[か]わなくて済[す]んだ。",
+          "english": "It could be repaired, so I did not have to buy a new bicycle."
+        },
+        {
+          "ruby": "資料[しりょう]を先[さき]に送[おく]っておけば、会場[かいじょう]で長[なが]く説明[せつめい]しなくて済[す]む。",
+          "english": "Sending the materials in advance saves us from having to explain at length at the venue."
+        },
+        {
+          "ruby": "近所[きんじょ]の店[みせ]で見[み]つかったので、遠[とお]くまで探[さが]しに行[い]かずに済[す]んだ。",
+          "english": "I found it at a nearby shop, so I avoided going a long way to look for it."
+        }
+      ]
+    },
+    {
+      "l2_id": "S090",
+      "canonical_surface": "っこない",
+      "reading": "っこない",
+      "class_name": "否定-強調-ッコナイ",
+      "connection": "a verb's ます-stem, frequently the stem of a potential verb (分かりっこない; 勝てっこない)",
+      "difficulty": "B",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "has absolutely no chance of …",
+        "cannot possibly …"
+      ],
+      "usage_note": "Flatly dismisses an action or outcome as impossible: a verb's ます-stem takes っこない (分かりっこない, 勝てっこない). Potential verb stems are common when ability is at issue. It is emphatic and conversational, often used to reject another person's optimistic claim. Unlike an ordinary potential negative, it expresses the speaker's strong conviction that there is no chance.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "っこない",
+          "reading": "っこない",
+          "left_connection": "dG90",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "初[はじ]めて会[あ]った人[ひと]の名前[なまえ]を、全部[ぜんぶ]覚[おぼ]えっこない。",
+          "english": "There is no way I can remember the names of everyone I just met."
+        },
+        {
+          "ruby": "今[いま]から準備[じゅんび]を始[はじ]めても、出発[しゅっぱつ]には間[ま]に合[あ]いっこないよ。",
+          "english": "Even if we start preparing now, there is no chance of being ready by departure."
+        },
+        {
+          "ruby": "鍵[かぎ]を持[も]っていないんだから、この扉[とびら]は開[あ]けられっこない。",
+          "english": "I do not have the key, so there is no way I can open this door."
+        }
+      ]
+    },
+    {
+      "l2_id": "S091",
+      "canonical_surface": "抜きで",
+      "reading": "ぬきで",
+      "class_name": "除外-省略-ヌキデ",
+      "connection": "a noun naming what is omitted (冗談抜きで); を抜きにして follows a noun",
+      "difficulty": "B",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "leaving … out",
+        "without the usual …"
+      ],
+      "usage_note": "Says something normally included is deliberately omitted or set aside (説明抜きで始める). It follows a noun. 抜きで links to an action, 抜きの modifies a noun, and を抜きにして is another adverbial form. With a negative conclusion it may say an outcome is impossible without that element (協力抜きではできない). Unlike なし, it often evokes an expected element being removed.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "抜きで",
+          "reading": "ぬきで",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "抜きの",
+          "reading": "ぬきの",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "を抜きにして",
+          "reading": "をぬきにして",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "ぬきで",
+          "reading": "ぬきで",
+          "left_connection": "1090",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "今日[きょう]は長[なが]い挨拶[あいさつ]抜[ぬ]きで、本題[ほんだい]に入[はい]りましょう。",
+          "english": "Let us skip the long greeting today and get to the main topic."
+        },
+        {
+          "ruby": "今回[こんかい]の料理[りょうり]は、卵[たまご]抜[ぬ]きで作[つく]ってください。",
+          "english": "Please make this dish without eggs this time."
+        },
+        {
+          "ruby": "リハーサル抜[ぬ]きで舞台[ぶたい]に立[た]つのは不安[ふあん]だ。",
+          "english": "I am uneasy about going on stage without a practice run."
+        }
+      ]
+    },
+    {
+      "l2_id": "S092",
+      "canonical_surface": "をもとに",
+      "reading": "をもとに",
+      "class_name": "基盤-素材-ヲモトニ",
+      "connection": "a noun naming source material, experience, or information (記録をもとに); をもとにした modifies a noun",
+      "difficulty": "B",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "using … as source material",
+        "drawing on … to create"
+      ],
+      "usage_note": "Names the information, experience, or material used to produce something new (記録をもとに物語を書く). It follows a noun; をもとにした modifies another noun. The source can be adapted rather than followed exactly. に基づいて emphasizes a reasoned or authoritative foundation, while をもとに commonly presents material as the starting point of a creation, reconstruction, or plan.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "をもとに",
+          "reading": "をもとに",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "をもとにした",
+          "reading": "をもとにした",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "を基に",
+          "reading": "をもとに",
+          "left_connection": "1090",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "祖父[そふ]の日記[にっき]をもとに、家族[かぞく]の歴史[れきし]をまとめた。",
+          "english": "I compiled our family history using my grandfather’s diary."
+        },
+        {
+          "ruby": "参加者[さんかしゃ]の意見[いけん]をもとに、次[つぎ]の講座[こうざ]を計画[けいかく]した。",
+          "english": "We planned the next course using the participants’ opinions as our starting point."
+        },
+        {
+          "ruby": "昔[むかし]の写真[しゃしん]をもとに、失[うしな]われた建物[たてもの]の模型[もけい]を作[つく]った。",
+          "english": "We made a model of the lost building from old photographs."
+        }
+      ]
+    },
+    {
+      "l2_id": "S093",
+      "canonical_surface": "をおいて",
+      "reading": "をおいて",
+      "class_name": "限定-唯一の候補-ヲオイテ",
+      "connection": "a noun or nominalized phrase",
+      "difficulty": "C",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "no suitable alternative to …",
+        "none other than …"
+      ],
+      "usage_note": "Names the one candidate or occasion that has no viable alternative (今をおいてほかにない). The following predicate denies the existence or suitability of any other option, often with ほかに or ほかには. The bare string をおいて can also be literal 置いて, so this sense requires that exclusion in the surrounding clause. It commonly praises the unique suitability of a person or moment.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "をおいて",
+          "reading": "をおいて",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "を措いて",
+          "reading": "をおいて",
+          "left_connection": "1090",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "この修理[しゅうり]を任[まか]せられるのは、父[ちち]をおいてほかにいない。",
+          "english": "My father is the only person we can trust with this repair."
+        },
+        {
+          "ruby": "話[はな]し合[あ]うなら、全員[ぜんいん]が集[あつ]まった今[いま]をおいてほかに機会[きかい]はない。",
+          "english": "Now that everyone is here, there is no other chance to discuss it."
+        },
+        {
+          "ruby": "この土地[とち]の歴史[れきし]を語[かた]る人[ひと]は、あの先生[せんせい]をおいてほかにはいない。",
+          "english": "There is no one besides that teacher to tell the history of this place."
+        }
+      ]
+    },
+    {
+      "l2_id": "S094",
+      "canonical_surface": "の極み",
+      "reading": "のきわみ",
+      "class_name": "強調-最高度-ノキワミ",
+      "connection": "a noun or nominalized phrase",
+      "difficulty": "C",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "the utmost degree of …",
+        "the height of …"
+      ],
+      "usage_note": "Places a quality or feeling at its highest conceivable degree (光栄の極み). It follows a noun and often appears with だ, です, or に達する. This is emphatic formal language, including acknowledgments and evaluations, rather than ordinary degree marking. Common combinations include 光栄, 感激, 贅沢, and 疲労; literal geographical extremes are a separate lexical use of 極み.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "の極み",
+          "reading": "のきわみ",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "のきわみ",
+          "reading": "のきわみ",
+          "left_connection": "1090",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "尊敬[そんけい]する先生[せんせい]に作品[さくひん]を褒[ほ]めていただき、光栄[こうえい]の極[きわ]みです。",
+          "english": "Having a teacher I respect praise my work is the highest honor."
+        },
+        {
+          "ruby": "誰[だれ]もいない温泉[おんせん]を独[ひと]り占[じ]めできるとは、贅沢[ぜいたく]の極[きわ]みだ。",
+          "english": "Having the hot spring entirely to myself is the height of luxury."
+        },
+        {
+          "ruby": "荷物[にもつ]を運[はこ]び続[つづ]けた夕方[ゆうがた]には、疲労[ひろう]の極[きわ]みに達[たっ]していた。",
+          "english": "By evening, after carrying luggage all day, I had reached the limit of exhaustion."
+        }
+      ]
+    },
+    {
+      "l2_id": "S095",
+      "canonical_surface": "を顧みず",
+      "reading": "をかえりみず",
+      "class_name": "無視-危険や責任-ヲカエリミズ",
+      "connection": "a noun or nominalized phrase",
+      "difficulty": "C",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "without regard for …",
+        "heedless of the consequences of …"
+      ],
+      "usage_note": "Proceeds without giving weight to a danger, consequence, responsibility, or warning (危険を顧みず). Depending on the noun, it can praise selflessness or criticize neglect; it does not itself guarantee courage. も顧みず emphasizes that even the named consideration was disregarded. The noun names what deserves attention, not merely a neutral circumstance that happens to coexist.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "を顧みず",
+          "reading": "をかえりみず",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "も顧みず",
+          "reading": "もかえりみず",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "をかえりみず",
+          "reading": "をかえりみず",
+          "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "もかえりみず",
+          "reading": "もかえりみず",
+          "left_connection": "1090",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "彼[かれ]は自分[じぶん]の安全[あんぜん]を顧[かえり]みず、倒[たお]れた子供[こども]を助[たす]けに走[はし]った。",
+          "english": "He ran to help the fallen child without regard for his own safety."
+        },
+        {
+          "ruby": "医師[いし]の忠告[ちゅうこく]も顧[かえり]みず、祖父[そふ]は畑[はたけ]で働[はたら]き続[つづ]けた。",
+          "english": "Disregarding even the doctor’s advice, my grandfather continued working in the field."
+        },
+        {
+          "ruby": "家族[かぞく]を顧[かえり]みず仕事[しごと]ばかりしていたことを、今[いま]は後悔[こうかい]している。",
+          "english": "I now regret neglecting my family and doing nothing but work."
+        }
+      ]
+    },
+    {
+      "l2_id": "S096",
+      "canonical_surface": "をものともせず",
+      "reading": "をものともせず",
+      "class_name": "克服-障害-ヲモノトモセズ",
+      "connection": "a noun or nominalized phrase",
+      "difficulty": "C",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "undeterred by the obstacle of …",
+        "treating … as no obstacle"
+      ],
+      "usage_note": "Describes pressing ahead as though a difficulty were no obstacle at all (悪天候をものともせず). The noun names resistance, danger, or another barrier. It commonly evaluates someone else’s resolve or achievement with admiration, rather than simply saying that two facts coexist. Unlike を顧みず, the emphasis is on not being defeated or deterred by the difficulty.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "をものともせず",
+          "reading": "をものともせず",
+          "left_connection": "1090",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "強[つよ]い向[む]かい風[かぜ]をものともせず、選手[せんしゅ]は最後[さいご]まで走[はし]り抜[ぬ]いた。",
+          "english": "Undeterred by the strong headwind, the athlete ran all the way to the finish."
+        },
+        {
+          "ruby": "彼女[かのじょ]は周囲[しゅうい]の反対[はんたい]をものともせず、研究[けんきゅう]を続[つづ]けた。",
+          "english": "She continued her research despite the opposition around her."
+        },
+        {
+          "ruby": "その船[ふね]は荒波[あらなみ]をものともせず、港[みなと]へ進[すす]んでいった。",
+          "english": "The ship pressed on toward the harbor, undeterred by the rough waves."
+        }
+      ]
+    },
+    {
+      "l2_id": "S097",
+      "canonical_surface": "もさることながら",
+      "reading": "もさることながら",
+      "class_name": "添加-後項の強調-モサルコトナガラ",
+      "connection": "a noun or nominalized phrase",
+      "difficulty": "C",
+      "register": "normal",
+      "sense_rank": 1,
+      "glosses": [
+        "besides the acknowledged point of …",
+        "… matters, but so does …"
+      ],
+      "usage_note": "Acknowledges that the first quality or consideration is substantial, then draws stronger attention to another (値段もさることながら、品質も重要だ). It follows a noun or a nominalized clause. The second point receives the emphasis, though both can be favorable or unfavorable. This is formal comparison and evaluation; it neither denies the first point nor means simultaneous activity.",
+      "human_verified": false,
+      "surfaces": [
+        {
+          "surface": "もさることながら",
+          "reading": "もさることながら",
+          "left_connection": "1090",
+          "register": "normal"
+        }
+      ],
+      "examples": [
+        {
+          "ruby": "この宿[やど]は景色[けしき]もさることながら、主人[しゅじん]の心配[こころくば]りが忘[わす]れられない。",
+          "english": "The inn’s scenery is memorable, but above all I remember the owner’s care."
+        },
+        {
+          "ruby": "新[あたら]しい自転車[じてんしゃ]は速[はや]さもさることながら、軽[かる]さが大[おお]きな魅力[みりょく]だ。",
+          "english": "Besides its speed, the new bicycle’s light weight is a major attraction."
+        },
+        {
+          "ruby": "引[ひ]っ越[こ]しは費用[ひよう]もさることながら、荷物[にもつ]の整理[せいり]に時間[じかん]がかかる。",
+          "english": "Moving is costly, but sorting the belongings also takes a great deal of time."
         }
       ]
     }
