@@ -47,7 +47,6 @@
     "s4": "10;2A;2B;3A;69;88;89;s9",
     "s6": "動詞,*,*,*,一段,未然形,*;動詞,*,*,*,一段・クレル,未然形,*;動詞,*,*,*,カ変・クル,未然形,*;動詞,*,*,*,カ変・来ル,未然形,*",
     "s7": "動詞,*,*,*,五段・ワ行促音便,未然形,*;動詞,*,*,*,五段・カ行イ音便,未然形,*;動詞,*,*,*,五段・ガ行,未然形,*;動詞,*,*,*,五段・サ行,未然形,*;動詞,*,*,*,五段・タ行,未然形,*;動詞,*,*,*,五段・ナ行,未然形,*;動詞,*,*,*,五段・バ行,未然形,*;動詞,*,*,*,五段・マ行,未然形,*;動詞,*,*,*,五段・ラ行,未然形,*;動詞,*,*,*,サ変・スル,未然レル接続,*",
-    "s8": "動詞,*,*,*,五段・ワ行促音便,未然形,*;動詞,*,*,*,五段・カ行イ音便,未然形,*;動詞,*,*,*,五段・ガ行,未然形,*;動詞,*,*,*,五段・タ行,未然形,*;動詞,*,*,*,五段・ナ行,未然形,*;動詞,*,*,*,五段・バ行,未然形,*;動詞,*,*,*,五段・マ行,未然形,*;動詞,*,*,*,五段・ラ行,未然形,*",
     "sT": "3L;名詞,形容動詞語幹,*,*,*,*,*",
     "sA": "10;2A;2B;3A;7A;88;89;s9",
     "sB": "2A;2B;3A;7D",
@@ -56,7 +55,15 @@
     "sN": "2A;2B;69;s9",
     "sU": "10;2A;2B;3A;s9",
     "sC": "10;2G;2g;3L",
-    "sJ": "10;2G;3L"
+    "sJ": "10;2G;3L",
+    "sD": "助動詞,*,*,*,特殊・ダ,体言接続,な",
+    "sK": "b6;sD",
+    "sL": "s1;sD",
+    "sF": "b7;sD;助動詞,*,*,*,*,基本形,られる;助動詞,*,*,*,*,基本形,れる",
+    "sM": "dG;助動詞,*,*,*,*,連用形,られ",
+    "sO": "*,*,*,*,*,*,お;*,*,*,*,*,*,ご",
+    "sR": "dG;10",
+    "sV": "形容詞,*,*,*,*,連用形,*"
   },
   "patterns": [
     {
@@ -508,37 +515,25 @@
           "register": "normal"
         },
         {
-          "surface": "される",
-          "reading": "される",
-          "left_connection": "s890",
+          "surface": "させられ",
+          "reading": "させられ",
+          "left_connection": "s690",
           "register": "normal"
         },
         {
-          "surface": "されました",
-          "reading": "されました",
-          "left_connection": "s890",
-          "register": "normal"
-        },
-        {
-          "surface": "されて",
-          "reading": "されて",
-          "left_connection": "s890",
-          "register": "normal"
-        },
-        {
-          "surface": "せられた",
-          "reading": "せられた",
+          "surface": "せられ",
+          "reading": "せられ",
           "left_connection": "s790",
           "register": "normal"
         }
       ],
       "examples": [
         {
-          "ruby": "子[こ]どものころ、毎朝[まいあさ]牛乳[ぎゅうにゅう]を飲[の]まされました。",
+          "ruby": "子[こ]どものころ、毎朝[まいあさ]牛乳[ぎゅうにゅう]を飲[の]ませられました。",
           "english": "As a child, I was made to drink milk every morning."
         },
         {
-          "ruby": "会議[かいぎ]で急[きゅう]に意見[いけん]を言[い]わされて困[こま]った。",
+          "ruby": "会議[かいぎ]で急[きゅう]に意見[いけん]を言[い]わせられて困[こま]った。",
           "english": "I was put on the spot when I was made to give my opinion at the meeting."
         },
         {
@@ -685,8 +680,8 @@
           "english": "There is a staff member at reception."
         },
         {
-          "ruby": "私[わたし]には姉[あね]が二人[ふたり]いる。",
-          "english": "I have two older sisters."
+          "ruby": "私[わたし]には優[やさ]しい姉[あね]がいる。",
+          "english": "I have a kind older sister."
         }
       ]
     },
@@ -756,8 +751,8 @@
           "english": "I think it will be sunny tomorrow."
         },
         {
-          "ruby": "弟[おとうと]は疲[つか]れたと言[い]っていた。",
-          "english": "My little brother said he was tired."
+          "ruby": "弟[おとうと]は、もう疲[つか]れたと思[おも]っていた。",
+          "english": "My little brother thought he was already tired."
         },
         {
           "ruby": "この辺[へん]は静[しず]かだと聞[き]きました。",
@@ -957,8 +952,8 @@
           "english": "Please tell me how to read this kanji."
         },
         {
-          "ruby": "切符[きっぷ]の買[か]い方[かた]が分[わ]からない。",
-          "english": "I do not know how to buy a ticket."
+          "ruby": "この機械[きかい]の動[うご]かし方[かた]が分[わ]からない。",
+          "english": "I do not know how to operate this machine."
         },
         {
           "ruby": "箸[はし]の持[も]ち方[かた]を練習[れんしゅう]した。",
@@ -1034,25 +1029,25 @@
         {
           "surface": "時",
           "reading": "とき",
-          "left_connection": "b690",
+          "left_connection": "sK90",
           "register": "normal"
         },
         {
           "surface": "とき",
           "reading": "とき",
-          "left_connection": "b690",
+          "left_connection": "sK90",
           "register": "normal"
         },
         {
           "surface": "時に",
           "reading": "ときに",
-          "left_connection": "b690",
+          "left_connection": "sK90",
           "register": "normal"
         },
         {
           "surface": "ときに",
           "reading": "ときに",
-          "left_connection": "b690",
+          "left_connection": "sK90",
           "register": "normal"
         }
       ],
@@ -1182,7 +1177,7 @@
       "glosses": [
         "become …"
       ],
-      "usage_note": "Describes a change into a state or role, without by itself saying someone deliberately causes it. Nouns and な-adjectives use になる; い-adjectives use くなる. Contrast にする and くする for deliberately bringing about a change. The く may be fused into the preceding adjective token, so its surface filter is intentionally open.",
+      "usage_note": "Describes a change into a state or role, without by itself saying someone deliberately causes it. Nouns and な-adjectives use になる; い-adjectives use くなる. Contrast にする and くする for deliberately bringing about a change. Since く fuses into the adjective token, the なる and なっ surfaces require a continuative adjective immediately before them.",
       "human_verified": false,
       "surfaces": [
         {
@@ -1198,21 +1193,21 @@
           "register": "normal"
         },
         {
-          "surface": "くなる",
-          "reading": "くなる",
-          "left_connection": "9090",
-          "register": "normal"
-        },
-        {
-          "surface": "くなった",
-          "reading": "くなった",
-          "left_connection": "9090",
-          "register": "normal"
-        },
-        {
           "surface": "になりました",
           "reading": "になりました",
           "left_connection": "1090",
+          "register": "normal"
+        },
+        {
+          "surface": "なる",
+          "reading": "なる",
+          "left_connection": "sV90",
+          "register": "normal"
+        },
+        {
+          "surface": "なっ",
+          "reading": "なっ",
+          "left_connection": "sV90",
           "register": "normal"
         }
       ],
@@ -1244,7 +1239,7 @@
         "make something …",
         "choose …"
       ],
-      "usage_note": "Describes choosing something or deliberately changing a thing into a state. Nouns and な-adjectives take にする; い-adjectives take くする. Contrast なる, which simply reports a change. Context distinguishes selecting お茶にする from transforming 部屋を静かにする; both assign the chosen result. The fused adjective く uses an open boundary filter.",
+      "usage_note": "Describes choosing something or deliberately changing a thing into a state. Nouns and な-adjectives take にする; い-adjectives take くする. Contrast なる, which simply reports a change. Context distinguishes selecting お茶にする from transforming 部屋を静かにする; both assign the chosen result. Since く fuses into the adjective token, the する and し surfaces require a continuative adjective.",
       "human_verified": false,
       "surfaces": [
         {
@@ -1260,27 +1255,21 @@
           "register": "normal"
         },
         {
-          "surface": "くする",
-          "reading": "くする",
-          "left_connection": "9090",
-          "register": "normal"
-        },
-        {
-          "surface": "くした",
-          "reading": "くした",
-          "left_connection": "9090",
-          "register": "normal"
-        },
-        {
           "surface": "にします",
           "reading": "にします",
           "left_connection": "1090",
           "register": "normal"
         },
         {
-          "surface": "くしてください",
-          "reading": "くしてください",
-          "left_connection": "9090",
+          "surface": "する",
+          "reading": "する",
+          "left_connection": "sV90",
+          "register": "normal"
+        },
+        {
+          "surface": "し",
+          "reading": "し",
+          "left_connection": "sV90",
           "register": "normal"
         }
       ],
@@ -1301,31 +1290,19 @@
     },
     {
       "l2_id": "S027",
-      "canonical_surface": "ろ",
-      "reading": "ろ",
+      "canonical_surface": "しろ",
+      "reading": "しろ",
       "class_name": "命令-命令形",
-      "connection": "an ichidan irrealis base + ろ or よ; irregular しろ and こい; godan imperative endings are fused into the verb",
+      "connection": "imperative verb forms; しろ and こい are whole-token realizations, while regular endings fuse into the verb",
       "difficulty": "A1",
       "register": "colloquial",
       "sense_rank": 1,
       "glosses": [
         "do …!"
       ],
-      "usage_note": "The plain imperative gives a forceful instruction, including in warnings, commands, and quoted speech. Ichidan verbs take ろ or よ, while godan verbs shift their final kana to the e-row; する becomes しろ and 来る becomes こい. The listed suffixes cover separable forms only. Fused godan imperatives require conjugation-aware handling, not an unrestricted e-row suffix match.",
+      "usage_note": "The plain imperative gives a forceful instruction, including in warnings, commands, and quoted speech. Ichidan verbs take ろ or よ, while godan verbs shift their final kana to the e-row; する becomes しろ and 来る becomes こい. Regular imperatives fuse into a single verb token, so the listed surfaces cover the whole irregular forms; recognizing other verbs requires conjugation-aware handling.",
       "human_verified": false,
       "surfaces": [
-        {
-          "surface": "ろ",
-          "reading": "ろ",
-          "left_connection": "2m90",
-          "register": "colloquial"
-        },
-        {
-          "surface": "よ",
-          "reading": "よ",
-          "left_connection": "2m90",
-          "register": "colloquial"
-        },
         {
           "surface": "しろ",
           "reading": "しろ",
@@ -1341,8 +1318,8 @@
       ],
       "examples": [
         {
-          "ruby": "危[あぶ]ない、そこから離[はな]れろ！",
-          "english": "It is dangerous; get away from there!"
+          "ruby": "父[ちち]は「早[はや]く準備[じゅんび]しろ」と言[い]った。",
+          "english": "My father told me to get ready quickly."
         },
         {
           "ruby": "監督[かんとく]は選手[せんしゅ]に「もっと練習[れんしゅう]しろ」と言[い]った。",
@@ -1427,25 +1404,25 @@
       "glosses": [
         "perform an action respectfully"
       ],
-      "usage_note": "The frame お + verb stem + になる respectfully describes the subject's action (お読みになる). Some Sino-Japanese action nouns use ご, as in ご利用になる. It is not the plain change-of-state になる. The suffix filter verifies the adjacent stem but cannot prove the earlier お or ご; that prefix and a respectful context are part of this sense.",
+      "usage_note": "The frame お + verb stem + になる respectfully describes the subject's action (お読みになる). Some Sino-Japanese action nouns use ご, as in ご利用になる. It is not the plain change-of-state になる. The suffix filter accepts a verb stem or its nominalized form and requires お or ご immediately before it; the subject and social context still determine whether the respectful use fits.",
       "human_verified": false,
       "surfaces": [
         {
           "surface": "になる",
           "reading": "になる",
-          "left_connection": "dG90",
+          "left_connection": "sRsO",
           "register": "polite"
         },
         {
           "surface": "になりました",
           "reading": "になりました",
-          "left_connection": "dG90",
+          "left_connection": "sRsO",
           "register": "polite"
         },
         {
           "surface": "になります",
           "reading": "になります",
-          "left_connection": "dG90",
+          "left_connection": "sRsO",
           "register": "polite"
         }
       ],
@@ -1541,14 +1518,14 @@
           "register": "normal"
         },
         {
-          "surface": "てみた",
-          "reading": "てみた",
+          "surface": "てみ",
+          "reading": "てみ",
           "left_connection": "d890",
           "register": "normal"
         },
         {
-          "surface": "でみた",
-          "reading": "でみた",
+          "surface": "でみ",
+          "reading": "でみ",
           "left_connection": "d990",
           "register": "normal"
         }
@@ -2079,7 +2056,7 @@
           "english": "My composition is full of mistakes because I wrote it in a hurry."
         },
         {
-          "ruby": "ほこりだらけの箱[はこ]を、外[そと]に運[はこ]んだ。",
+          "ruby": "埃[ほこり]だらけの箱[はこ]を、外[そと]に運[はこ]んだ。",
           "english": "I carried the dust-covered box outside."
         }
       ]
@@ -2114,12 +2091,12 @@
       ],
       "examples": [
         {
-          "ruby": "この本[ほん]は初心者[しょしんしゃ]向[む]きだ。",
-          "english": "This book suits beginners."
+          "ruby": "この本[ほん]は子供[こども]向[む]きだ。",
+          "english": "This book suits children."
         },
         {
-          "ruby": "一人暮[ひとりぐ]らし向[む]きの小[ちい]さな炊飯器[すいはんき]を選[えら]んだ。",
-          "english": "I chose a small rice cooker suitable for living alone."
+          "ruby": "少人数[しょうにんずう]向[む]きの小[ちい]さな炊飯器[すいはんき]を選[えら]んだ。",
+          "english": "I chose a small rice cooker suitable for a small household."
         },
         {
           "ruby": "この靴[くつ]は長[なが]い散歩[さんぽ]向[む]きではない。",
@@ -2165,8 +2142,8 @@
           "english": "I wrote an English guide intended for an overseas audience."
         },
         {
-          "ruby": "留学生[りゅうがくせい]向[む]けの説明会[せつめいかい]が来週[らいしゅう]ある。",
-          "english": "There is an information session for international students next week."
+          "ruby": "留学[りゅうがく]を考[かんが]えている人[ひと]向[む]けの説明会[せつめいかい]が来週[らいしゅう]ある。",
+          "english": "There is an information session next week for people considering studying abroad."
         }
       ]
     },
@@ -2207,6 +2184,18 @@
         {
           "surface": "きった",
           "reading": "きった",
+          "left_connection": "dG90",
+          "register": "normal"
+        },
+        {
+          "surface": "切っ",
+          "reading": "きっ",
+          "left_connection": "dG90",
+          "register": "normal"
+        },
+        {
+          "surface": "きっ",
+          "reading": "きっ",
           "left_connection": "dG90",
           "register": "normal"
         }
@@ -2304,8 +2293,8 @@
           "register": "normal"
         },
         {
-          "surface": "かけた",
-          "reading": "かけた",
+          "surface": "かけ",
+          "reading": "かけ",
           "left_connection": "dG90",
           "register": "normal"
         },
@@ -2324,8 +2313,8 @@
       ],
       "examples": [
         {
-          "ruby": "読[よ]みかけの本[ほん]を机[つくえ]に置[お]いた。",
-          "english": "I put the book I was partway through on the desk."
+          "ruby": "読[よ]みかけた本[ほん]を机[つくえ]に置[お]いた。",
+          "english": "I put the book I had started reading on the desk."
         },
         {
           "ruby": "坂道[さかみち]で転[ころ]びかけたが、手[て]すりにつかまった。",
@@ -2355,19 +2344,43 @@
         {
           "surface": "ふりをする",
           "reading": "ふりをする",
-          "left_connection": "s190",
+          "left_connection": "sL90",
           "register": "normal"
         },
         {
           "surface": "振りをする",
           "reading": "ふりをする",
-          "left_connection": "s190",
+          "left_connection": "sL90",
           "register": "normal"
         },
         {
           "surface": "ふりをした",
           "reading": "ふりをした",
-          "left_connection": "s190",
+          "left_connection": "sL90",
+          "register": "normal"
+        },
+        {
+          "surface": "ふりをし",
+          "reading": "ふりをし",
+          "left_connection": "sL90",
+          "register": "normal"
+        },
+        {
+          "surface": "ふりをせ",
+          "reading": "ふりをせ",
+          "left_connection": "sL90",
+          "register": "normal"
+        },
+        {
+          "surface": "振りをし",
+          "reading": "ふりをし",
+          "left_connection": "sL90",
+          "register": "normal"
+        },
+        {
+          "surface": "振りをせ",
+          "reading": "ふりをせ",
+          "left_connection": "sL90",
           "register": "normal"
         }
       ],
@@ -2689,7 +2702,7 @@
         {
           "surface": "ものがある",
           "reading": "ものがある",
-          "left_connection": "b790",
+          "left_connection": "sF90",
           "register": "normal"
         }
       ],
@@ -3541,12 +3554,12 @@
       ],
       "examples": [
         {
-          "ruby": "焼[や]きたてのパンを買[か]った。",
-          "english": "I bought some freshly baked bread."
+          "ruby": "淹[い]れたてのコーヒーを客[きゃく]に出[だ]した。",
+          "english": "I served the guest freshly brewed coffee."
         },
         {
-          "ruby": "炊[た]きたてのご飯[はん]は、そのままでもおいしい。",
-          "english": "Freshly cooked rice tastes good even on its own."
+          "ruby": "大学[だいがく]を卒業[そつぎょう]したてのころは、仕事[しごと]の探[さが]し方[かた]も分[わ]からなかった。",
+          "english": "When I had just graduated from university, I did not even know how to look for a job."
         },
         {
           "ruby": "この会社[かいしゃ]に入[はい]りたての頃[ころ]は、毎日[まいにち]緊張[きんちょう]していた。",
@@ -3847,8 +3860,8 @@
           "register": "normal"
         },
         {
-          "surface": "合った",
-          "reading": "あった",
+          "surface": "合っ",
+          "reading": "あっ",
           "left_connection": "dG90",
           "register": "normal"
         },
@@ -4267,7 +4280,7 @@
         {
           "surface": "っこない",
           "reading": "っこない",
-          "left_connection": "dG90",
+          "left_connection": "sM90",
           "register": "normal"
         }
       ],
@@ -4603,8 +4616,8 @@
           "english": "The inn’s scenery is memorable, but above all I remember the owner’s care."
         },
         {
-          "ruby": "新[あたら]しい自転車[じてんしゃ]は速[はや]さもさることながら、軽[かる]さが大[おお]きな魅力[みりょく]だ。",
-          "english": "Besides its speed, the new bicycle’s light weight is a major attraction."
+          "ruby": "新[あたら]しい自転車[じてんしゃ]は性能[せいのう]もさることながら、軽[かる]さが大[おお]きな魅力[みりょく]だ。",
+          "english": "Besides its performance, the new bicycle’s light weight is a major attraction."
         },
         {
           "ruby": "引[ひ]っ越[こ]しは費用[ひよう]もさることながら、荷物[にもつ]の整理[せいり]に時間[じかん]がかかる。",

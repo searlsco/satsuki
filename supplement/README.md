@@ -65,12 +65,14 @@ learner usage, keeping passive, causative, causative-passive, honorific,
 aspect, and evidential senses distinct. Difficulty is an editorial estimate;
 textbook and test-preparation indexes disagree on several level boundaries.
 
-Existing schemas, Tsutsuji class files, S001–S007, and the 24 prior
-realizations are preserved. Each new entry has three original ruby examples
-and remains `human_verified: false`. Independent editorial review corrected
-attachment and sense boundaries, including the distinct する bases before
-causative endings. Runtime recognition is still unverified for the new
-examples; lint and assembly are separate checks.
+Existing schemas, S001–S007, and the 24 prior realizations are preserved.
+The gate correction changes one original-class negative example because
+the valid supplement connective ないで necessarily shadows its standalone
+ない. Each new entry has three original ruby examples and remains
+`human_verified: false`. Independent editorial review corrected attachment
+and sense boundaries, including the distinct する bases before causative
+endings. The mechanical gate now validates all 1,596 examples against a
+database built from this export; lint and assembly remain separate checks.
 
 | ID | Citation | Band | Meaning |
 | --- | --- | --- | --- |
@@ -93,7 +95,7 @@ examples; lint and assembly are separate checks.
 | S024 | すぎる | A1 | do too much |
 | S025 | になる | A1 | become … |
 | S026 | にする | A1 | make something … |
-| S027 | ろ | A1 | do …! |
+| S027 | しろ | A1 | do …! |
 | S028 | られる | A1 | do … (respectfully) |
 | S029 | になる | A1 | perform an action respectfully |
 | S030 | する | A1 | perform an action humbly |
@@ -165,10 +167,15 @@ examples; lint and assembly are separate checks.
 | S096 | をものともせず | C | undeterred by the obstacle of … |
 | S097 | もさることながら | C | besides the acknowledged point of … |
 
-Connection rules are candidate filters. Some endings fuse into a verb or
-adjective token. Imperative suffixes describe separable forms, with godan
-imperatives supplied by conjugation rather than an unrestricted suffix
-match. The respectful お…になる and humble お…する frames require the
-prefix and social context beyond their suffix filters. をおいて requires a
-following denial of alternatives. These limitations must be checked when
-a consumer integrates the inventory and runs the release gate.
+Connection rules are candidate filters. Some endings fuse into a verb,
+adjective, or compound noun token, so examples use forms whose boundaries
+the tokenizer exposes. S027 retains the imperative sense under the
+whole-token citation しろ; regular imperatives require conjugation-aware
+recognition. Contracted causative-passives likewise fuse into the verb,
+so S010 examples use uncontracted forms. Inflection stems such as かけ,
+合っ, and てみ leave following た-led patterns available to the chunker.
+The S029 filter checks the preceding お or ご and accepts nominalized
+verb stems; social context still determines the respectful reading. The
+humble お…する frame still needs prefix and context review, and をおいて
+requires a following denial of alternatives. Lexical compounds can share
+grammatical suffixes, so passing attachment does not establish a sense.

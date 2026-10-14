@@ -87,9 +87,10 @@ the same review and mechanical example gates as the original corpus.
 The learner inventory revision adds `S008` through `S097`: core verb
 derivations, basic particles and constructions, and common intermediate
 and advanced expressions. Its original examples remain model-authored
-drafts with `human_verified: false`. Lint, unit tests, and assembly validate
-the export; they do not establish runtime recognition. The complete
-inventory and revision scope are in [supplement/README.md](supplement/README.md).
+drafts with `human_verified: false`. The mechanical gate also checks all
+examples against a database built from the assembled export; lint and
+assembly alone do not establish recognition. The complete inventory and
+revision scope are in [supplement/README.md](supplement/README.md).
 
 Content is authored and reviewed by frontier language models in a pipeline
 designed for scrutiny rather than trust; see
